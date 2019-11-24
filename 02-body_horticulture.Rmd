@@ -1,0 +1,383 @@
+
+# Horticulture
+
+## Growth stages of cabbage (9 distinguishible)
+
+1. Cotyledons: No true leaves present
+2. Seedling: Upto 5 true leaves
+3. 6-8 true leaf
+4. 9-12 true leaf: Base of stem still visible from above
+5. Precupping: Approximately 13-19 leaves. By the end of this stage, the base of stem and the bases of all leaves are concealed when plant is viewed from above. The innermost heart leaves are growing in an upright fashion and are visible without moving any of the surrounding leaves.
+6. Cupping: Approximately 20-26 leaves. The innermost heart leaves, which are still growing in an upright fashion, are concealed by the larger, older leaves surrounding them. All visible leaves will later become the frame leaves (leaves not touching the mature head) of the mature plant.
+7. Early head formation: Approximately 2.5-4 inch diameter head. The inner heart leaves, now quickly developing as a ball-like structure of overlapping leaves, are concealed by the surrounding larger leaves. These leaves do not press tightly against the developing head and will later unfold to become frame leaves.
+8. Head fill: Approximately 3-8 inch diameter head. A firm round head is visible within the wrapper leaves (the 4 outer loose leaves that touch the mature head). The head has not yet fully developed and thus, is not of harvestable size.
+9. Mature: Approximately 6-12 inch diameter head. No new visible leaf production will occur after the head has attained maximum hardness and size. The head is ready for harvest and may split if not harvested in time.
+
+## Citrus cultivation
+
+### Principal rootstocks
+
+Today, five types of rootstock predominate in relatively not cool climates where cold or freezing weather is not probable, especially Florida and southern Europe.
+
+Sour orange rootstock: it is the only rootstock that truly is an orange (the Citrus ? aurantium or bitter orange). It is vigorous and highly drought-resistant.
+
+Poncirus trifoliata: it is a close relative of the Citrus genus, sometimes classified as Citrus trifoliata. It is especially resistant to cold, the tristeza virus, and the fungus Phytophthora parasitica (root rot) and grows well in loam soil. Among its disadvantages are its slow growth-it is the slowest growing rootstock-and its poor resistance to heat and drought. It is primarily used in China, Japan, and areas of California with heavy soils.
+
+Swingle citrumelo: it is tolerant of tristeza virus and Phytophthora parasitica and moderately resistant to salt and freezing. This rootstock selection was hybridized from the Duncan grapefruit (Citrus paradisi Macfadyen) and the Poncirus trifoliata (L.) Raf. by Walter Tennyson Swingle in Eustis, Florida, in 1907. It was released by the US Department of Agriculture to nurserymen in 1974.
+
+Troyer citrange and Carrizo citrange: these reasonably vigorous rootstocks are resistant to Phytophthora parasitica, nematodes, and tristeza virus and show good cold tolerance. They also are highly polyembryonic, so growers can obtain multiple plants from a single seed. Citrange, however, does not do well in clay, calcareous or high-pH soils, and is sensitive to salinity. It is not feasible as rootstock for mandarin scions, as it overgrows them by producing branches of its own in competition with the grafted budwood.[3] Citranges are hybrids of the Washington navel orange and the Poncirus trifoliata. The original crosses, made in the early 1900s by the U.S. Department of Agriculture with the intention of producing cold tolerant scion varieties, were later identified as suitable for use as rootstocks. The commercial use of these rootstocks began in Australia in the 1960s. The Troyer variety generally is found in California, while the Carrizo variety is used in Florida.
+
+Cleopatra mandarin: it is tolerant of salinity and soil alkalinity and also suitable for shallow soils. It is used primarily in Spain, Australia, and Florida. Dade County, for example, has 85% calcareous soil, a typical trait of land that has been under water.[4] The Cleopatra mandarin, originated in India and introduced into Florida from Jamaica in the mid-nineteenth century, has been distributed and tested as a rootstock throughout the world. Nowadays, however, it is considered an inferior rootstock because it is sensitive to many diseases, grows slowly, and is difficult to propagate.
+
+## Guava cultivation
+
+- _Psidium guajava_ (Myrtaceae)
+- Origin: Tropical america; originated in the warm, lowland tropics
+- Contains low energy, low fat and high amounts of vitamin C.
+- Commercial trade is smaller in volume compared to other fruits.
+
+### Morphology and Botany
+
+- Photoperiod insensitive
+- Can be forced to flower by pruning
+- Woody is hardy; resistant to strong winds.
+- The rhythmic flushing of vegetative growth and flowering influences when and how pruning is
+carried out.
+- Guavas are forced to produce year round, and normally the actively growing shoots are tipped once they become too large. This tipping forces regrowth and new flowers to be induced, to keep production high and constant.
+- As soon as the harvest is finished, a peripheral pruning of the canopy is performed, in order to force new shoots that will bear flowers.
+
+### Climate and soil
+
+- Temperature lower than $8\ ^\circ C$ is inappropriate for commercial cultivation.
+- Moderately tolerant to saline conditions.
+
+### Varieties
+
+- Lucknow-49, Allahabad safeda, Seedless
+
+### Propagation 
+- Stem and root cuttings, Air layering and Budding
+- Guava trees propagated by grafting have tap roots that provide substantial anchorage. 
+- Trees propagated by cuttings have weaker root
+systems.
+
+### Planting and orchard establishment
+
+- Spacing with fillers: 3.1 x 7.6 (424 trees/ha)
+- Permanent spacing: 6.2 x 7.6 (212 trees/ha), or 4.6 x 7.6 (286 trees/ha)
+
+```{r climac-vs-nonclim}
+cl_ncl <- data.frame(climacteric = c("Avocado", "Banana", "Guava", "Mango", "Papaya", "Sapota"), 
+                     non_climacteric = c("Litchi", "Mangosteen", "Pineapple", "Mountain apple (Bayer)", NA, NA))
+knitr::kable(cl_ncl, booktabs = TRUE, caption = "Climacteric and non climacteric fruits commonly cultivated in Nepal") %>% 
+  kableExtra::kable_styling(latex_options = "striped", position = "center")
+```
+
+### Post-harvest
+
+- High moisture loss occurs
+- No dramatic change in taste during storage at higher temperatures (10-15 $\ ^o C$)
+
+Horticulture development and plans and policies
+
+Q. Government plans and policies have given priority on horticulture. However, the potentiality of fruit sector (an important component of horticulture) has not been exploited properly. In this context, discuss the current problems relating to fruit crop development in Nepal.
+
+A. $\longrightarrow$ Although the long term Agriculture Perspective Plan fared well with the set target in horticulture sector (along with roads and community forest) during the implementation period of 1995-2015, overall history of horticulture sector is less than satisfying in Nepal.
+
+The total area, productive area, production and productivity of fruits in the Fiscal Year (FY) 2014/15 are 150387 ha, 110802 ha, 992703 mt and 8.96 mt/ha respectively (Table \ref{tab:horticulture-fruits-veg}). Recent data shows that contribution of horticulture sector amounts to 15% of the Agriculture GDP. Fruit sub-sector contributes 5.24 ??(when) percent in Agricultural GDP. Besides government engaging in active production of fruit seedlings and provisioning gardening tools, many private firms are working on production of quality planting materials. 
+
+Out of total area occupied by fruits 57% are tropical, 26% are citrus and only 17% are temperate fruit species. Similarly, total area covered by fruits is 4.79% of total cultivated area. It was found that the productivity trend is increasing from 2005/06 (9.47mt/ha) to 2011/12 AD (10.17 mt/ha) and decreasing in 2012/13 (9.25 mt/ha) and in 2013/14 (8.77mt/ha). There is huge gap between exported (24812.17 mt) and imported (2,27,00,266 mt) scenario of different fruits which indicates the immense scope of fruit development in Nepal. Out of 470 fruit nurseries 272 were registered and 198 were non registered.
+
+Currently, more than 90% of the citrus seedlings are annually distributed by private fruit nurseries. Technical support services to the fruit growers are also being provided by government farms in their command areas and to the pocket areas of the targeted districts through the extension service.
+
+```{r horticulture-fruits-veg}
+readr::read_csv("./data/vegetable_fruits_production_area_nepal.csv", skip = 1) %>% 
+  select(`Description`, `Component`, `2013-14`, `2014-15`, `2015-16`) %>% 
+  filter(Description %in% c("Fruit", "Vegetable")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Status of fruits and vegetable production and area during recent 3 years.")
+```
+
+About 3-4 percent of cultivated land is under fruit acreage. This could be observed from the table below showing the annual cultivation trend since 2005-06 AD. There is an increasing trend in area coverage and fruit production but the yield per hectare is low in comparison with other fruit producing countries. The fruit production needs to be increased to meet the increasing demand for domestic consumption and for exports as well. There are some important issues like infrastructure, physical and environmental, agronomic and technical support post harvest losses, problem oriented research and transfer of technology, which need to be addressed to promote fruit development in the country.
+
+There are 45 species belonging to 37 genera of wild edible fruits. Even seasonal fruits harvested from forests can be seen in several local markets. Despite of increasing area and production and huge potential of fruit cultivation in the country, the quantity and value of foreign import of fruits is increasing in recent years due to higher rate of the increasing internal demand in comparison to rate of increasing domestic production and supply. The per capita availability of fruit in the fiscal year 2014/15 was 34 kg/year.
+
+Major problems relating to development of fruit crops in particular, and horticulture sector in general, are as follows:
+
+1. Despite immense potential of hoticultural crops, upto 80% of the cultivated land in Nepal is used to grow cereal crops. Out of remaining 20% cultivated land, most of which are located in more northern latitudes, suitability of fruit farming in those lands is fringe. Most are rocky terrains with steep slopes and young soil. In addition, hilly regions of Nepal suffer a major setback on soil moisture management, which is critical for a fruit orchard. Without a proper buffer against hailstorm and snowfall, substantial amounts of fruit drops and wastage have been noted.
+
+2. Since a long time past, unavailability of inputs like inorganic fertilizers, progagation materials have hindered progressive farming. Rural farmers are forced to opt for low input management which only give marginal yields and limits the productivity improvement. Furthermore, as fruit crops are given an inferior status relative to cereals, farmhold themselves are negligent about timely provisioning of agricultural inputs for fruit orchard.
+
+3. Irrigation management
+
+4. Postharvest handling
+
+5. Marketing and transport
+
+6. APP was based on a narrow viewpoint of technology -- excessively focused on green revolution perspective that is not appropriate for large parts of Nepalese agroecology. Horticulture sector in particular is largely hurt by this conservative view point of technology adoption. This sector has poorly prospered in terms of access to infrastructure and is one of the least industrially benefitting ones. As hills and rural parts of country are infact the major hubs of vegetable and fruit production, policy emphasis on adoption of more capital intensive technology i.e., that which characterizes green revolution, is just a dream chase afterall. On the other hand, Nepal has areas where specialized farming systems, such as organic citrus and apple production system, could flourish. These regions would have sought mostly technical support for quality assurance, policy support for certification, and basic resource support. All of this were lacking in places such as Mustang, Dolpa and Jumla, where organic apple production could have comparative advantage.
+
+7. With the diverse agroecology, we have southern terai regions suited for cultivation of tropical fruits while mid-hills and high-hills towards north being suitable for sub-tropical to warm and cold temperate fruit and nut species. Research and development programs are not found to have exerted impact on all agroecologies, mostly that of Far Western Development Region of Nepal.
+
+8. There still are several fruit and nut crops that have a greater local demand but are not being integrated into mainstream research and crop development process. Fruit nuts such as chestnut ( _Castanea_ spp.), Sapota, Rubus berry are underutilized while some are at best only identified. Thus, in meeting increasing need of human nutrition and feeding urban population, these minor fruits could play an important role.
+
+Policy level and action oriented strategies that have been or could potentially be taken by Government to uplift horticulture sector include improvement in mainly following aspects:
+
+1. The Decentralization strategy of ADS foresees a decentralized structure of Nepalese Agricultural Research, with establishment of new national research institutes (eg, a National Horticultural Research Institute, National Animal Health Research Institute, and National Aquaculture and Fisheries Research Institute), establishment of a National Agricultural Research Fund (NARF) under NARC, and the establishment of research stations in all regions, including the far western region.
+
+2. Nutritional aspect of food security has a prominent role of hoticultural crops. Because fruits and vegetables supply the bulk of fiber, minerals and vitamins, meeting nutritional need of growing urban cummunity is possible only through empowering of horticulture sector.
+
+3. ADS highlights following key strategies in improvement of fruit sub-sector of horticulture:
+  - Formulation and implementation of appropriate land use policy which will significantly help area expansion of horticulture and plantation crops.
+  - Rejuvenation of old, unproductive, senile plantations through substitution of old varieties with improved high yielding varieties.
+  - Development of demand-driven technology on improved varieties, cultural operations, pest management, harvesting, post-harvest handling, marketing and processing; promotion of value chain approach in extension and development.
+  - Public private partnership in developing irrigation schemes including the micro-irrigation, collection centers, wholesale markets, cold storage, processing industries, and encouragement and promotion of packaging and grading centers
+  - Planning and prioritization of HHVCs' development in the form of projects on the basis of domestic and external demands, economic viability, comparative advantage, employment and income generation, environmental sustainability and use of local resources.
+  - Enforcement of laws and regulations to ensure adherence to safety, hygiene and other standards as per SPS through relevant public institutions and local authorities.
+  - Strengthening of present organizations responsible for horticultural and HVC development in the country to be made more accountable to carry out the work responsibilities with new vision, or preferably a separate competent horticulture authority established to coordinate inter and intra ministerial, institutional and departmental agencies and programs.
+  - Deployment of technically skilled and capable manpower in adequate numbers on the basis of research, extension and training in relation to area of operation and volume of production; and
+  - Formulation of long-term commodities development plans with program wise investment plans and encouraging significant participation and investment of private sectors in promotion, processing and marketing of HHVCs.
+  - Increased productivity of fruit proposed for ADS implementation period is from 10 to 15 Mt/ha
+
+## National fruit development directorate (Institutional development of fruits)
+
+The agro-ecological conditions of Nepal are very much suitable for the successful cultivation of large number of fruit species. Growing of fruits in homestead gardens is a traditional practice in Nepal since time immemorial. The systematic fruit development program in Nepal was initiated in a planned manner since 1960.
+
+Agriculture Perspective Plan (APP) stressed development activities for commercial production of two major high value fruit crops such as Apple in high hills & Citrus (especially Mandarin) in mid-hills. The emphasis was given on pocket-package development strategy, which must be carried out as a campaign on a participatory basis from the grass-root level to higher ups. The other fruits of the commercial importance such as Mango, Litchi and Banana etc. are also addressed near/along the highway corridors of Terai and inner Terai belts so as to meet the fruit requirements in the country. However, horticulture sector has not gained the level of expected industrialization/commercialization due to various constrains.
+
+Fruit Development Directorate (FDD) was first established as Horticulture Section in 1955, which evolved as Fruit Development Section in 1966, Fruit Development Division in 1990 and the directorate in 2000. FDD is the central body responsible for the development of fruits, coffee, tea and ornamental crops in the country. National Centre for Fruit Development was established in 2018 after restructure under federal system for Fruit Development Directoriate, National Citrus Development Programme and Coffee and Tea Development Section.
+
+## Environmental stress factors in horticulture
+
+Q. What are the important climatic factors that are considered as extreme environmental stress? Suggest their possible control measures.
+
+A. $\longrightarrow$ Climate is a combination of aboveground environmental factors -- temperature, moisture, sunlight and air -- and is characteristic of a region. It determines what crops can be cultivated in a given area. However, alike climate belowground environmental factors -- soil temperature, soil moisture, soil physical characteristics, soil chemical properties, organic matter, etc., also play a role in determining success of a crop in a given agricultural region.
+
+Environmental stresses play crucial role in the productivity, survival and reproductive biology of fruit plants as well as crops. Biotic and abiotic stresses, including drought, extreme temperature, scarcity of water, reducing quality of irrigation water and salinity in soil and water are problems which are becoming really acute. Due to their rapid and unpredictable effects, it is becoming very difficult for horticultural scientists and farmers to respond to challenges posed by biotic and biotic stresses.
+
+Some of the climatic parameters and the stress associated with them, influencing crop development and yield are:
+
+- Water and moisture stress: Required in several stages of crop's life cycle -- germination. Much of the water requirement is met from the precipitation (including the rain and the snow) and evaporation. Lack of moisture in the aboveground environment makes the air less humid, thereby increasing its drying power. The rates of plant processes such as transpiration, diffusion, and evaporation are affected directly by the vapor pressure of the air (the part of the total air pressure attributable to the water molecules present in the air). As previously indicated, if air temperature is increased but the amount of water vapor in the air stays the same, the relative humidity of the air decreases. Excessive moisture in the microclimate of plants predisposes them to disease.
+
+- Temperature and temperature stress: Temperature is the intensity of heat energy and very vital in regulating the plant's biological, chemical and physiological processes, mostly by regulating rate of chemical reactions. Several crops show temperature dependent growth periodicity, i.e. some crops tend to flower in higher temperature of summer season while fruits like apple and ornamental bulbs such as daffodil ( _Narcissus_) and hyacinth ( _Hyacinthus_)require a period of chiling temperature to break the dormancy and initiate flowering. Similarly hardiness of a crop is defined for various temperature scales within a range of $0-50 ^\circ C$. Extremely high temperature kills plants ouright or reduces production severely, when such prevalence coinicides with flowering and fruiting periods. actively growing, succulent tissue in plant parts such as flower buds are more susceptible than dormant tissue to cold damage. Frost damage is critical when flower buds start to open. Warm-season crops are more prone to frost damage.
+
+- Light and light associated stress: The role of light in the growth and development of horticultural plants depends on its quality, quantity, and daily duration. olar radiation is electromagnetic in nature. Radiant energy is described by its wavelength and frequency. The shorter the wavelength and higher the frequency, the higher the energy transmitted. Sunrise and sunset patterns differ from one season to another. Incident light angles are wider in summer than in winter and hence the light intensity is higher in summer months. Even the daily light-dark duration varies over an annual cycle. In winter months dark hours are longer and light hours are shorter, and vice versa for summer months. This gives rise to a physiological behavior in some plants called photoperiodism, which is characterized by the flowering time variation of crop plants based on the light-dark period. One one extreme end, plants exposed continually to very low light intesities exibhit tall statures, yellowing of leaves and lean stem, a condition called etiolation. Likewise light quality affects color development and tillering and branching behavior in grass crops.
+
+Four photoperiodic responses in plants are a basis for classifying horticultural plants:
+
+  - Short-day plants (or long-night plants). Short-day plants will not flower under continuous light. They require a photoperiod of less than a certain critical value within a 24-hour daily cycle. For example, strawberry (Fragaria x ananasia) requires 10 hours of light or less and violet (Viola papilionacea) requires 11 hours. Poinsettia (Euphorbia pulcherrima) requires 12.5 hours of daylight and cocklebur (Xanthium strumarium) requires about 16 hours or less of light. When planted in the field, short-day plants flower in early spring or fall.
+  
+  - Long-day plants (or short-night plants). Long-day plants are plants that flower only when light periods are longer than a certain critical length. These plants flower mainly in summer and include annuals such as henbane (Hyoscyamus niger), which requires more than 10 hours of light, and spinach (Spinacia oleracea), which requires 13 hours of light. Baby’s breath (Gypsophila paniculata) requires 16 hours or more of daylight in order to flower.
+  
+  - Day-neutral plants. Day-neutral plants are not responsive to photoperiod and flower according to the developmental stage. Plants in this category include tomato, corn, and cucumber.
+  
+  - Intermediate-day plants. Certain grasses such as Indian grass do not flower if the days are too short or too long. These plants are said to have two critical photoperiods and are categorized as intermediate-day plants.
+
+Some strategies can be duely adopted to minimize the effects of climate associated stress. There are many approaches like:
+
+- Growers should make use of weather forecast,
+- Stubble/plastic mulching to check competative weed growth and conserve moisture.
+- Drip and sprinkler irrigation to continually maintain required moisture
+- Mist irrigation to maintain appropriate level of atmospheric humidity
+- Physiological drought resistance of plants through the use of growth retardants, and anti-transpirants
+- Construction of specialized structure such as hot beds, hot caps, polyethylene tunnels, shelterbelts, wind machines, etc. based on necessity.
+- Proper orchard geometry and nutrient management, and
+- Use of rootstocks tolerant to physiological stresses.
+
+Beside climatic factors themselves, geographical processes such as relief, orientation and exposure of the fruit orchard, presence or absence of water bodies and vegetation in the vicinity, etc. vastly influence growth of fruit crops. As an example, Colder and heavier air occurring at higher altitudes moves down and pushes the warmer and lighter air upward. This air convection leaves the higher band of land warmer. This thermal belt is warm and permits the culture of frost-sensitive crops on certain parts of slopes in areas that are normally too cold for growing crops.
+
+## Tissue culture and significance in Nepal
+
+Q. What do you understand by tissue culture? Describe it's role in fulfiling the need of seed requirement to Nepalese farmers.
+
+A. $\longrightarrow$ The branch of biology in which tissues or cells of higher animals and plants are grown artificially in a controlled environment.
+
+As a method of propagation of horticultural crops, from amongst a range of options available to propagate a plant, tissue culture is one of the major biotechnology activity of public as well as private sectors. Protocols have been developed for in vitro propagation of different species (both animals and plants) elsewhere in the world to be used readily or with some modifications.
+
+The first extracted tissue (also called _explant_) changes into a mass of undifferentiated cells called callus, from which differentiation into shoot and root or embryos may later occur. This method of propagation is commercially adopted in herbaceous (e.g., strawberry, banana, gladiolus, tobacco, carnation, and gloxinia) and woody plants (e.g., apple, rose, and rhododendron).
+
+In several asexually reproducing crops, maintenance of their quality and adequate quanity over period has been a challenge. This amounts to a large number of seed material (propagule) import from neighboring countries for instant use of Nepalese farmers. However, this situation of excessive reliance on import of basic input can be remedied if tissue culture of relevant crops were practiced in Nepal itself.
+
+- Mainly focusing on propagule generation of high value and bulky propagule seems to be a profitable venture as fruit and flower crops like those mentioned above can be successfully regenerated in a simply established tissue culture laboratory. 
+- A tissue culture laboratory can host seedling at a very small storage space
+- Large number of planting materials can be obtained by establishing cultures and subcultures of different varities/cultivars of crops at the same time, on demand. Typically within a couple of weeks thousands of usable seedlings can be recovered from a single explant.
+- Tissue culture laboratory can be operated at a relatively cheap cost if basic infrastructure like culture medium, sterilants, working and housing facility could be assured.
+- Tissue culture technology using meristem culture can be used to raise virus and pathogen free seedlings, which is not guarenteed by conventional plant part based propagation.
+- Development of hybrid cultivars i.e., that of _Brassica napus_ and _B calabrese_, exploits an use case of tissue culture called embryo rescue to obtain viable hybrids.
+
+## River basin/bed farming and guidelines
+
+Q. If a farmer from a river basin area (600 m) comes to you and request for summer season cucumber cultivation technology what would be your advice to him ?
+
+A. $\longrightarrow$ Riverbed farming can be used to increase household income and to improve the food security of landless and land-poor households in the Terai area of Nepal. It is estimated that about 8,000 hectares of riverbed land would be suitable for agricultural cultivation in the Kailali and Kanchanpur Districts in the Western Terai areas of Nepal. After the river water recedes in the post-monsoon season, vegetables are planted in ditches dug into the seasonal sand banks; the crops are harvested before the onset of the next monsoon. 
+
+General guidelines for performing riverbed farming:
+
+- On average, the water table should not be lower than 1 m; when the water table is lower than this, too much labor is required.
+- Ditches are up to 1 m deep and 1 m wide. The length depends on how much land is available.
+- A row-to-row spacing of 2-3 m (between the ditches) and plant-to-plant spacing of 0.5-1 m is required depending on the crop.
+- The ditches are dug in an east-west orientation to maximize the amount of sunshine they receive and to minimize the collection of sand carried by the prevailing winds.
+- Farmers may build shelter close to their plots so that they can be close at hand to fend off thieves and wild animals.
+- Apply fertilizer: farmyard manure/compost about 12 tonnes; urea about 100 kg; di-ammonium phosphate (DAP) about 120 kg; and potash about 30 kg per ha.
+- Plant seeds/seedlings using the appropriate row-to-row (RXR) and plant-to-plant (PXP) distance for at least one crop. Following planting distances are applicable for the crops mentioned herein:
+
+  - 3 m x 1 : Bottle gourd, pumpkin, and water melon and 
+  - 2 m x 0.5: Bitter gourd and cucumber
+- Following establishment and maintenance inputs are required (per hectare):
+
+  - Labor to prepare plots, irrigation, and to collect mulching materials (165 person days)
+  - Equipment: Sprayers, watering can, spades
+  - Materials: Polythene bags, sheets, mulching materials
+  - Agricultural seeds, chemical fertilizer, farmyard manure, compost, bio-pesticides, micronutrients.
+
+## Potato tuber storage systems
+
+Q. Describe various types of storage systems used in Nepal to store potato tubers.
+
+A. $\longrightarrow$ By Samita!
+
+## True potato seed, scope and technology adoption improvement
+
+Q. Define True Potato Seed (TPS). Do you see its scope in supplementing the requirement of potato seeds in Nepal ? Is so, how can it be improved ?
+
+A. $\longrightarrow$ Potatoes are most often propagated from vegetative tissues, either whole tubers or cut pieces of tubers. Tubers used for propagation are typically called seed tubers, seed potatoes, or seed pieces. Potato plant can be produced from botanical or sexual seeds, but these "true" potato seeds (TPS) are seldom used, because they are genotypically variable and give rise to plants with traits thay may be completely different from those of the parent plants.
+
+A single plant may produce 50-100 berries and single berry contains about 150-200 seeds. TPS is mainly used to develop new potato cultivars and now gaining popularity to raise the commercial crops. About 100-150 g of seed is required to raise the crop in 1 hectare of land. 
+
+_Scope_: 
+  - Non-availability of good quality seed tuber, 
+  - High seed cost, 
+  - Virus infilteration in seed tubers causing degeneration of seed stocks 
+  - Problem of long distance transport of tuber seeds from seed producing areas 
+  
+All these constraints have led to the development of TPS technology of crop production. Further benefits TPS technology are:
+
+- Unlike seed tuber, stocking density of TPS seed much more, hence from the same parcel of land, more of TPS can be recovered than seed tuber.
+- An additional benefit with the use of TPS is process to obtaining application ready seed is substantially shortened as several post-harvest processess such as curing and tuber treatment can be avoided.
+
+```{r}
+readr::read_csv("./data/potato_seed_crop_production_specification.csv", skip = 1) %>% 
+  pivot_longer(cols = starts_with(c("Recommended")), 
+               names_to = "Region", 
+               values_to = "Time of year") %>% 
+  mutate(`Region` = str_replace_all(`Region`, "Recommended time_", "")) %>%
+  dplyr::select(-1) %>%
+  dplyr::select(`Crop`:`Production tons per ropani`, `Region`, `Time of year`, `Remarks`) %>%
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>%
+  knitr::kable(caption = "Potato production technology for various purposes", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(1:13, width = c(rep("4.8em", 10), "5.5em", "5.5em","11em")) %>% 
+  kableExtra::landscape(margin = "1.2cm")
+```
+
+
+## What is PBS ? Differentiate PBS and TPS. How is PBS is produced in Potato ?
+
+$\longrightarrow$ Pre-basic seed (PBS) potatoes are disease free potato minitubers produced by transplanting pathogen free in vitro potato plantlets under protected condition in aphid-proof glasshouse and/or screen house.
+
+Potato crop variety is very susceptible to degeneration as it is vegetatively propagated, and tends to accumulate virus load over generation of cropping. Therefore, routine maintenace of seed should be carried out to ensure variety stands to the promised useful features. Following set of steps are usually carried out for production of PBS:
+
+- Virus elimination
+  - Tubers are allowed to sprout for 2-3 weeks under thermal treatment at  $37^\circ$
+  - Shoot tips excised from the sprouts and washed in detergent water
+  - Under laminar airflow chamber, shoot surface are sterilized (treated with 70% Ethanol for 30 seconds, washed with sterile distilled water and then sterilized with 2% sodium hypochlorite solution for five minutes and again washed at least three times with sterile distilled water). 
+  - The apical meristem (with one or two leaf premordia, about 0.2-0.3 mm in diameter) are excised from the shoot tip by viewing under a stereoscopic microscope, and placed on top of a filter paper bridge on a liquid MS medium (Murashige and Skoog 1962) supplemented with $0.5 mg l^{-1}$ IAA, $0.4 mg l^{-1}$ Kinetin and $0.1 mg l^{-1}$ $GA 3$ (Mellor and Stace-Smith 1977). 
+  - The meristem are then cultured in an incubation room under $20\pm 2^\circ C$ with proper illumination (2000 lux) and 16 h photoperiod. 
+  - After few weeks of culturing, when green pigmentation and stem and leaf tissues are observable, it is transferred to a solid MS medium for proper rooting and shooting. 
+  - These plantlets can be multiplied into several clones by nodal cuttings.
+- Virus testing: ELISA or related techniques to screen for virus free clones. Assayed clones are further validated for them being virus free with field tests of standing crops in greenhouse.
+- Germplasm maintenance: Virus free clones could be maintained with subsequent subcultures after testing in germplasm laboratory.
+- Rapid propagation: Maintained mother plantlets can be propagated by single nodal cutting on modified MS solid media with supplement. To enhance differentiation and production of apical part including leaves, culture should be incubated in growth chamber with culture conditions of 16 h photoperiod, 2000 lux light intensity and $20 \pm 2^\circ C$ temperature.
+- PBS production under controlled conditions: Four to six weeks old in-vitro plantlets are transplanted into sterile mixture of 2:1 sand and soil substrate under aphid-proof glasshouse. Special cultivation techniques assure the quality of propagules. They include:
+  - 20 x 10 cm spacing
+  - UV sterilized water irrigation and proper irrigation schedule
+  - Precise dose fertilizer application
+  - Earthing up
+  - Plant protection
+
+Since the technique used in producing PBS focuses on maintenance of asceptic environment and provides minimum nutrients for early stage plant development, the tuber produce are expected to be low. First generation culture will generally produce small sized tubers. However, a large number of seedlings could be recovered from a tissue cultured plantlets.
+
+Since 1990, National Potato Research Program has been producing about 200,000 pre-basic seeds annually. So far, PBS of 19 different recommended and released potato cultivars has been produced. There cultivars have been tested for major potato viruses like PLRV, PVS, PVX, PVY, PVA and PVM.
+
+## Montly crop calendar
+
+- Baisakh
+
+  - Intercropping of spring season rice, irrigate it and fertilizer application
+  - In order to improve soil fertility status of rice field where previously wheat was grown, raise green manuring crop Dhaincha 50 kg per hectare.
+  - For establishment of evergreen fruit and flower orchard, perform layout, pit preparation, fertilizer and soil mixing.
+  - Okhle-1 and Kavre kodo-1 nursery bed establishment in upper hills.
+  - Interculture, earthing up fertilization and irrigation of maize in hills.
+  - Application of botanical pesticides (Neem, Timur, Bojho, Artemisia, Thyme, Mustard oil) for control of storage pests.
+  - Planting of rainy season maize in terai and inner terai.
+  - Planting of forage grass like Teosinte, sorghum, sudan grass, bajra and dinanath grass.
+  - Since this time of the year is conducive to spead of Brucellosis and _Bhyakute rog_, case should be taken to prevent the infection from occuring in cattle shed.
+
+- Jestha
+
+  - Nursery bed raising of rice
+  - Transplanting fingermillet as mixed crop in standing maize field in mid hills
+  - Desuckering of fruit orchard
+  - Spraying of fungicides in evergreen flowers and fruits
+  - Broadcast seed of perinnial grassess in terai and mid hills
+  - Control of gundhi bug in spring season rice
+  - Planting of Hill, Seti, Ransom and Lumle-1 variety of soybean in hils.
+  - Citrus orchard sanitation by application of bordeaux paste in Mandarin and Sweet orange.
+  
+## Offseason onion production
+
+Owing to the lack of Cold storage facilities and due to reigning high temperature during the months of Ashoj and Kartik, the onion harvested during months of Bhadra and Ashoj months is unlikely to meet demands for later Mangsir and later months. This shortcoming can conveniently be avoided if offseason cultivation of Onion could be done. When onion is grown for fresh leaves and bulbs during the Kartik and Mangsir, such seasonal demand meeting produce is often called offseason. Adding to the availability feature, when sold around these months, produce fetches premium price in the market.
+
+Off season onion farming could be done in regions ranging from terai to mid-hills (upto elevation of 1600 masl), however profitable production is being done on lower hills (at 500-1600 masl). Offseason onion farming could basically be done in following ways:
+
+  1. Seed to set and set to bulb
+  2. Seed to bulb
+
+Vegetative onion can be obtained directly from seedling cultivation, which is generally established in bulk in nursery bed and disseminated among growers. For simplicity, here is discussed the method of fresh leaf onion and bulb onion production:
+
+  1. Selection of land: Onions will grow satisfactorily on soils with a pH of 6.0-6.8. The ratio of N:P:K applied during seedbed preparation is 1:2:2, although some bulb producers increase the nitrogen ratio according to the soil status. Work by Ahmed (1982) showed that N, P and K applications equivalent to 150 kg/ha produced the largest bulbs and highest total bulb yield at the end of the first year, and that supplementary nitrogen application not exceeding 100 kg/ha in the second year applied during anthesis enhanced seed quality. The higher potassium levels during bulb production were carried over to the second year and also enhanced seed quality.
+  Additionally, the land should not permit water stagnation and should drain as early as possible to avoid fungal diseases.
+  2. Selection of off season cultivar: The best cultivar for raising crop directly from seed is the Agrifound Dark Red. But Nasik-53 is favored when sets are to be raised to obtain bulbs.
+  3. Seedling raising: Seedling is ready for transplanting within 30-40 day of sowing.
+  
+```{r offseason-onion-seed-bed}
+tribble(~"Region", ~"Seedling raising time", ~"Transplanting time", 
+        "Lower hills", "Early Ashar", "Early Shrawan", 
+        "Mid hills", "Jestha", "Ashar") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Timing of seed seed preparation and seedling transplanting for offseason onion production.") %>% 
+  kableExtra::kable_styling(font_size = 10)
+```
+  
+  4. Seed requirement: 500 g per ropani
+  5. Raising of seedling bed:
+    - 10 msq of seed bed is enough to raise seedlings for 1 ropani of land. Each meter square of bed optimally receives 50 g.
+    - For healthy seedling raising, bed should be 1 m wide and be raised 30 cm above the ground.
+    - Application of 5 kg: 10 g: 10 g: 10 g FYM:Urea:DAP:MoP per 1 msq seed bed.
+    - If the seed bed is moisture deficit, irrigate it 2-3 days prior to seed placement.
+    - Seed placement in rows of 8-10 cm apart in the bed.
+    - Seed should be thoroughly covered with FYM or fine soil after sowing. Bed should be mulched and be moistened to avoid dessication of seeds underneath.
+    - Healthy seedlings can be obtained if they are primed in sugar+jathropa solution (5:5 g in 20 ml water) and dried.
+    - To prevent seed borned diseases, like seedling rot, spray solution of 2.5 g Dithane-M45, 1 g Bavistin and 1 g Nuvan in 1 ltr water after 1-2 days in seed bed.
+    - Seed bed should always be kept moist.
+    - Apply Micronutrients for healthy and vigorous seedlings.
+    - Seed bed shoudld have provision of drainage to let excess of water.
+    - If early bed is to be constructed in rainy season, bed should be protected from spattering rain by sheltering with polythene.
+  6. Seedling transplanting
+    - Seedlings become ready for transplantation 30-40 DAS. Only healthy seedlings should be selected for planting. This is fulfiled by roguing out unhealthy ones.
+    - Prior to seedling uprooting, bed should be softened with water.
+    - Based on moisture reign of the land where seedling will be futher grown, provision of irrigation or drainage should be made. Land should be parcelized (into beds) in order to ease operation.
+    - R-R: 20 cm x P-P: 10-15 cm
+
+## Offseason tomato production
+
+## Offseason cucumber production
+
+## Offseason production of other vegetable crops
+
+## What do you understand by tissue culture. Describe its principles and techniques suitable to horticultural crops.
+
+## Breeder seed production of Onion
+
+## Describe the process of seed formation with illustration.
+
+## What is fruit? Discuss various causes of poor fruit setting in Mango and suggest suitable measures for overcoming them.
+
+## Discuss in brief post-harvest deterioration of fruits and vegetables and suggest measures to minimize postharvest losses.

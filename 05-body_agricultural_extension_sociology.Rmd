@@ -1,0 +1,59 @@
+
+# Extension and sociology
+
+- Department of Agriculture is headed by the Director General (DG). There are 3 deputy DGs (DDGs).
+  - DDG, Planning and Human Resource
+  - DDG, Monitoring, Evaluation and Management
+  - DDG, Technology Transfer and Coordination
+- Under DoA there are:
+  - Program directorates: 12
+  - National programs: 5
+  - Regional directorates of Agriculture: 5
+  - Regional agriculture training center: 5
+  - Regional seed laboratory: 5
+  - Regional soil testing laboratory: 5
+  - Soil testing laboratory: 1
+  - Regional crop protection laboratory: 5
+  - Horticulture center: 12
+  - Vegetable development farm/center: 9
+  - Fishery development and training center: 11
+  - Central fisher laboratory: 1
+  - Regional plant quarentine office: 5
+  - District agriculture development office: 75
+  - Agriculture service center: 378
+
+## Multidimensional poverty index (MPI)
+
+MPI is a composite index of three dimensions of poverty -- health, education each with two indicators (nutrition, child mortality, for health, and years of schooling and school attendance, for education) and living standard with six indicators (cooking fuel, improved sanitaiton,improved drinking water, electricity, flooring and roofing and asset ownership). The percentage of people under deprivation is the outcome of equal weight of all dimensions and their respective indicators. The MPI is used to identify a person as multi-dimensionally poor is he or she is deprived in at least one third of the dimensions.
+
+- MPI of nepal:
+  - 2011 $\longrightarrow$ 0.217
+  - 2014 $\longrightarrow$ 0.127 (NPC, 2019). This means that multidimensionally poor people in Nepal experience 12.7% of the total deprivations that would be experienced if all people were deprived in all indicators.
+  
+- $MPI = H \times A$
+  - H: The incidence of poverty (or poverty rate; The proportion of people identified as multidimensionally poor).
+  - A: The intensity of poverty (of the average proportion of weighted indicators in which the poor are deprived)
+  - Values of H and A are, respectively, 28.6% and 44.2% (as of 2014 survey).
+- Provincewise MPI values:
+  - Province 1: 0.085
+  - Province 2: 0.217
+  - Province 3: 0.051
+  - Province 4: 0.061
+  - Province 5: 0.133
+  - Province 6: 0.230
+  - Province 7: 0.146
+
+## Human Development Index
+
+The HDI is a simple, approximate statistic devised to introduce non-income factors and rival traditional economic indicators within a framework of international development. Formula produces composite statistic of life expectancy, education and income indices, which are used to rank countries into four tiers of human development, well-being concept based on capability approach. It is annually published by the UNDP since 1990. The index has been developed as a broad proxy intending to stimulate political changes and according to UNDP shall not be considered the only measure of a country's level of development in general nor the ultimate measure within the concept of human development. Despite shortcommings, HDI is reported to greatly influence policy-makers all around the world, thus contributing to reduction of global poverty.
+
+- HDI of Nepal was 0.463 (157th position globally), while it was 0.955 (1st position globally) for Norway.
+- HDI of Nepal was 0.54 (145th position globally)
+
+## Gender Development Index (GDI) and Gender Empowerment Index (GEI)
+
+The GDI and GEI were introduced in 1995 in the Human Development Report written by the UNDP. The aim of these measurements was to add a gender-sensitive dimension to the Human Development Index (HDI). The GDI is defined as a distribution-sensitive measure that accounts for the human development impact on existing gender gaps in the three components of the HDI (Klasen, 1995). The GDI takes into account not only the average or general level of well-being and wealth within a country, but focuses also on how this wealth and well-being is distributed between different groups within society. The HDI and the GDI were created to rival the more traditional general income-based measures of development such as GDP and GNP. GDI, on the other hand, addresses gender-gaps in life expectancy, education, and incomes. It uses an "inequality aversion" penalty, which creates a development score penalty for gender gaps in any of the categories of the HDI which include life expectancy, adulty literacy, school enrollment, and logarithmic transformations of per-capita income.
+
+Only the gap between the HDI and GDI can be accurately considered; the GDI on its own is not an independent measure of gender-gaps.
+
+- The GDI and HDI (women) of Nepal are, respectively, 0.925 and 0.552 as of 2017. This ranks Nepal in 115th position globally.

@@ -1,0 +1,5 @@
+#,,,,,,,,,,,,,,
+SN,Crop,Variety,Recommended time_High hills,Recommended time_Mid hills,"Recommended time_Terai, innerterai and lowlying basins",Fertilizer_Compost,Fertilizer_DAP_kg,Fertilizer_Urea_kg,Fertilizer_MoP_kg,Seed rate kg per ropani,Planting distance_cm,Maturity duration,Production tons per ropani,Remarks
+1,Potato,"TPS-1, TPS-2",Falgun-Chaitra,Poush-Magh,Ashoj-Mangsir,15,11,7,5,25-30,70x25,100-110,1.25-1.5,Crop potato production from seedling tuber obtained from TPS
+2,Potato,"TPS-1, TPS-2",Falgun-Chaitra,Poush-Magh,Ashoj-Mangsir,5,17,12,17,5 g for 25 msq,25x4,100-110,4-5 per msq,Seedling tuber production from TPS seed
+3,Potato,"TPS-1, TPS-2",Falgun-Chaitra,Poush-Magh,Ashoj-Mangsir,1500,11,7,5,5 g,60x20,100-110,1-1.5,Crop potato production from TPS seed

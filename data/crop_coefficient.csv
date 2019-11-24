@@ -1,0 +1,22 @@
+# Crop coefficient (k_c) for Major crops,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Crop,Jan_first half,Jan_second half,Feb_first half,Feb_second half,March_first half,March_second half,April_first half,April_second half,May_first half,May_second half,June_first half,June_second half,July_first half,July_second half,August_first half,August_second half,September_first half,September_second half,October_first half,October_second half,November_first half,November_second half,December_first half,December_second half,Approximate duration (days)
+Rice (Monsoon),,,,,,,,,,,,,1.1,1.1,1.19,1.1,0.95,0.95,,,,,,,90
+Rice (Early),,,,,,,1.1,1.1,1.1,1.1,1,1,,,,,,,,,,,,,90
+Rice (Late),,,,,,,,,,,,,,,1.1,1.1,1.1,1.1,0.95,0.95,,,,,90
+Rice (Monsoon),,,,,,,,,,,,,,1.1,1.1,1.1,1.1,1.05,0.95,0.95,,,,,105
+Rice (Early),,,,,,1.1,1.1,1.1,1.1,1.25,1,1,,,,,,,,,,,,,105
+Rice (Late),,,,,,,,,,,,,,,1.1,1.1,1.1,1.1,1.05,0.95,0.95,,,,105
+Rice (Monsoon),,,,,,,,,,,,,,1.1,1.1,1.1,1.1,1.1,1.05,0.95,0.95,,,,120
+Rice (Monsoon),,,,,,,,,,,,,,1.1,1.1,1.1,1.1,1.05,1.05,1.05,0.95,0.95,,,135
+Rice (Monsoon),,,,,,,,,,,,,,1.1,1.1,1.1,1.1,1.05,1.05,1.05,1.05,0.95,0.95,,150
+Maize 1,,,,,0.45,0.6,0.8,1.05,1.05,0.8,,,,,,,,,,,,,,,105
+Maize 2,,,,,,,0.45,0.6,0.8,1.05,1.05,1.05,0.8,,,,,,,,,,,,105
+Pulses,0.5,0.75,0.95,1.05,1.05,0.96,,,,,,,,,,,,,,,,,,0.4,105
+Oilseeds,0.46,0.82,1,1,0.72,,,,,,,,,,,,,,,,,,,0.4,90
+Wheat 1,1.15,1.15,1.15,0.9,0.4,,,,,,,,,,,,,,,,,0.43,0.65,1.05,120
+Wheat 2,1.05,1.15,1.15,1.15,0.9,0.4,,,,,,,,,,,,,,,,,0.43,0.65,120
+Vegetable (Summer),,,,,,,,,,,,,0.34,0.54,0.93,1.05,1.05,1.04,0.91,,,,,,
+Vegetable (Winter),0.86,0.95,0.95,0.89,,,,,,,,,,,,,,,,,,0.28,0.34,0.54,
+Potato 1,1.01,1.13,1.13,1.08,0.94,0.7,,,,,,,,,,,,,,,,0.42,0.55,0.79,130
+Potato 2,0.79,1.01,1.13,1.13,1.08,0.94,0.77,,,,,,,,,,,,,,,,0.42,0.55,130

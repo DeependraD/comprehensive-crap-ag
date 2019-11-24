@@ -1,0 +1,22 @@
+# Crop water requirements of major cultivated crops in Nepal,,,,
+,,,,
+Crop type,Crop,Average water requirement_cm,Average crop duration_days,Critical stages
+Cereal,Wheat,45-65,110-130,"CRI, tillering, jointing, dough stage"
+Cereal,Rice,90-150,100-120,"Elongation stage, jointing, flowering, dough stage"
+Cereal,Barley,30,110-130,Jointing and grain formation stage
+Cereal,Maize,50-80,90-120,"Knee high stage, mid-way through tasseling, grain formation, grain maturity"
+Oilseed,Rapeseed,35-45,90-125,"Crop growth stage, before flowering, pod formation stage. Possibly in stage when 4-6 leaves have emerged, when it is flowering and during grain filling stage."
+Oilseed,Groundnut,55-60,140-160,"Crop growth stage, during flowering, jointing stage, nut formation stage."
+Oilseed,Sunflower,90-130,60-100,"During vegetative growth, flowering stage. Crop requires much water when grown as summer season crop than as rainy season crop."
+Vegetable,Tomato,90-140,40-60,"Plant elongation, flowering stage"
+Vegetable,Potato,50-70,100-150,"Vegetative growth, tuber shoot formation, tuberization. The crop is intolerant of drought."
+Vegetable,"Radish, Turnip",30-40,40-60,"Vegetative growth, root development, tap root development"
+Pulse,Green gram (Moong),40,90-100,"Germination, flowering, pod formation stage"
+Pulse,Chickpea,,140-155,"Flowering stage, branching, pod formation stage"
+Pulse,Pea,35-50,65-100,"Vegetative growth stage, flowering"
+Pulse,Soybean,45-70,100-120,"Vegetative growth stage, pod formation stage"
+Vegetable,Cabbage,30,70-90,"Vegetative growth stage, cupping stage, head fill stage"
+Vegetable,Cauliflower,,55-120,Depending on soil moisture regime
+Industrial,Pea (Indeterminate),270-365,150-250,"Vegetative growth stage, flowering, 2-3 times during pod setting. Crop is intolerant to water logging."
+Industrial,Jute,,,"Vegetative growth stage, stem growth, flowering."
+Industrial,Cotton,70-130,150-180,"Vegetative growth stage, flowering stage. Crop is intolerant of water logging."

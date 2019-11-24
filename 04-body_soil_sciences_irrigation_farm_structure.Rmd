@@ -1,0 +1,91 @@
+
+# Soil and irrigation
+
+## Crop water requirement
+
+```{r crop-water-requirement}
+read_csv("./data/crop_water_requirements.csv", skip = 2) %>% 
+  dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crop water requirement and growth duration of major crops of Nepal", longtable = TRUE) %>% 
+  kableExtra::kable_styling() %>% 
+  kableExtra::column_spec(column = 1:5, width = c("6em", "6em", "8em", "8em", "20em")) %>% 
+  kableExtra::landscape()
+```
+
+
+## Crop coefficients
+
+These are the properties of plants used in predicting evapotranspiration (ET). The most basic crop coefficient, $k_c$, is simply the ratio of ET observed for the crop studied over that observed for the well calibrated reference crop under the same conditions.
+
+$$
+\mathrm{PET} = K_c \times \mathrm{RET}
+$$
+
+Potential evapotranspiration (PET) is the evaporation and transpiration that potentially could occur in a field of the crop had an ideal unlimited water supply. RET is the reference ET often denoted as $ET_0$.
+
+Even in agricultural corps, where ideal conditions are approximated as much as is practical, plants are not always growing (and therefore transpiring) at their theoretical potential. Plants have growth stages and stages of health induced by a variety of environmental conditions.
+
+RET usually represents the PET of the reference crop's most active growth. $K_c$ then becomes a function or series of values specific to the crop of interest through its growing season. These can be quite elaborate in the case of certain maize varieties, but tend to use a trapezoidal leaf area index (LAI) curve for common crop or vegetation canopies.
+
+Stress coefficients, $K_s$, account for diminished ET due to specific stress factors. These are often assumed to combine by multiplication.
+
+$$
+\mathrm{ET_{estimate}} = K_w \times K_{s_1} \times K_{s_2} \times K_c \times ET_0
+$$
+
+Water stress is the most ubiquitous stress factor, often denoted as $K_w$. Stress coefficients tend to be functions ranging between 0 and 1. The simplest are linear, but thresholds are appropriate for some toxicity responses. Crop coefficients can exceed 1 when the crop evapotranspiration exceeds that of RET. 
+
+Below are given estimates of the crop coefficient for multiple crops commonly cultivated in Nepal
+
+```{r krop-coefficient}
+read_csv("./data/crop_coefficient.csv", skip = 2) %>%
+  tidyr::pivot_longer(cols = `Jan_first half`:`December_second half`, 
+                      names_to = c("Month", "Month half"), 
+                      names_pattern = "(.*)_(.*)", 
+                      values_to = "Crop coefficient") %>%
+  dplyr::mutate(`Month half` = str_to_sentence(`Month half`)) %>% 
+  tidyr::pivot_wider(names_from = Month, values_from = `Crop coefficient`) %>% 
+  knitr::kable(caption = "Crop coefficients", escape = FALSE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>%
+  kableExtra::column_spec(column = 1:15, width = c("10em", "5em", "5em", rep("2em", times = 7), rep("3em", 5))) %>% 
+  kableExtra::landscape(margin = "1.25cm")
+```
+
+
+## Estimates of potential evaporation
+
+**Thornthwaite equation (1948)**
+
+$$
+PET = 16 \left(\frac{L}{12}\right) \left(\frac{N}{30}\right) \left(\frac{10 T_d}{I}\right)^\alpha
+$$
+
+Where,
+
+  - PET is the estimated potential evapotranspiration (mm/month)
+  - $T_d$ is the average daily temperature (degree C; if this is negative, use 0) of the month being calculated
+  - N is the number of days in the month being calculated
+  - L is the average day length (hours) of the month being calculated
+  - $\alpha = (6.75 \times 10^{-7})I^3 - (7.71 \times 10^{-5})I^2 + (1.792 \times 10^{-2})I + 0.49239$
+  - $I = \sum^{12}_{i = 1} {\left(\frac{T_{m_i}}{5}\right)}^{1.514}$ is the heat index which depends on the 12 monthly mean temperatures $T_{m_i}$.
+  
+Somewhat modified forms of this equation appear in later publications (1955 and 1957) by Thornthwaite and Mather.
+
+**Penman equation (1948)**
+
+The penman equation describes evaporation (E) from an open water surface, and was developed by Howard Penman in 1948. Penman's equation requires daily mean temperature, wind speed, air pressure, and solar radiation to predict E. Simpler hyrdometeorological equations continue to be used where obtaining such data is impractical, to give comparable results within specific contexts, e.g. humid vs arid climates.
+
+**Penman-Monteith equation (1965)**
+
+## Irrigation development in Nepal
+
+```{r irrigation-development-nepal}
+read_csv("./data/irrigation_development.csv", skip = 2) %>% 
+  dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
+  dplyr::mutate(`Plan period` = str_replace_all(`Plan period`, "_", " ")) %>% 
+  knitr::kable(caption = "Irrigation development in Nepal during different period plans", 
+               booktabs = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:9, width = c("18em", rep("7em", 4), "5em", "5em", "5em", "5em")) %>% 
+  kableExtra::landscape(margin = "1.5cm")
+```
