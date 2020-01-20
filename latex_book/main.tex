@@ -1,0 +1,76 @@
+\documentclass[a4paper,12pt]{exam}
+
+%tlmgr install mathpazo
+%tlmgr install setspace
+%tlmgr install collection-fontsrecommended
+\usepackage{mathpazo}
+
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage[ddmmyyyy]{datetime}
+
+% % uncomment this to format exactly as question paper of exams
+% \title{\vspace{-1.5cm}
+%   {\huge \textbf{General Knowledge: QnA and Subjective}}\\[3mm]
+%   {\LARGE Practice}\\[3mm]
+%   {\LARGE All topics}\\[1mm]
+%   \normalsize
+%   \begin{tabular}{lll}
+%       Name: ~\rule{3cm}{1pt} & Roll no.:~\rule{2cm}{1pt} & Date:~\rule{2cm}{1pt} \\[2mm]
+%       Full Marks: yy & & Time: x hours \\
+%   \end{tabular}
+%   \hrule
+% }
+
+\title{\vspace{-1.5cm}{\huge \textbf{General Knowledge: A Comprehensive Guide}}\\[2mm]
+\hrule
+}
+
+\date{}
+
+% print correct answers and fillins
+
+\printanswers
+\CorrectChoiceEmphasis{\bfseries\boldmath}
+
+% print marks weight in the right
+\pointsinrightmargin
+\bracketedpoints
+
+% adding gradetable
+\addpoints
+
+% the \llap command to correct alignment in a question with parts.
+\renewcommand{\questionlabel}{\llap{Q}\,\thequestion.}
+\unframedsolutions % put solution inside a box
+
+\begin{document}
+
+\maketitle 
+
+% \vspace{-3cm}
+
+% % uncomment this to set instructions for answering the questions
+% \section*{Instructions}
+% 
+% \begin{enumerate}
+%   \item All questions are compulsory
+%   \item Calculator is not allowed
+%   \item All questions carry equal marks.
+% 
+% \end{enumerate}
+% \hrule \vspace{5mm}
+
+% \gradetable
+
+\include{general-knowledge-objectives}
+\include{general-knowledge-facts}
+\include{general-knowledge-elaborate_facts}
+
+\include{constitution-of-nepal-factsheet}
+\include{agriculture-knowledge-objectives}
+
+\end{document}
