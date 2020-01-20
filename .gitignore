@@ -94,3 +94,9 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/r,linux,windows,bookdown
+
+# latex_books/ directory; because it is being tracked in latexonly branch
+/latex_book/
+
+# references/ directory; because it contains hosts tons of non-source materials
+/references/
