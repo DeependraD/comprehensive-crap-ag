@@ -2,8 +2,6 @@
 
 - The master is function build system based on [bookdown-demo](https://github.com/rstudio/bookdown-demo) theme and uses bookdown package for compilation.
 
-## In master
-
 Currently following contents are available:
 
 - [1] (General information on Agriculture)["./body_general_agriculture.Rmd"]
@@ -18,7 +16,7 @@ Currently following contents are available:
 - [10] (General information on Plans, Policies and Strategies)["./body_plans_policies_strategies.Rmd"]
 
 
-## In latexonly
+## latex_book
 
 Tex files for objective and subjective of both general knowledge and agriculture are included.
 
