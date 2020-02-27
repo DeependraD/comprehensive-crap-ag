@@ -1,0 +1,53 @@
+---
+title: "List of Madan Puraskar awardees"
+author: "Deependra Dhakal"
+date: "1/28/2020"
+output: 
+  bookdown::pdf_document2:
+    keep_tex: true
+    toc: false
+---
+
+```{r setup, include=FALSE}
+require(knitr)
+knitr::opts_chunk$set(tidy = TRUE, cache = FALSE, 
+                      echo = FALSE, 
+                      tidy.opts = list(width.cutoff=50), 
+                      eval = TRUE, warning = FALSE, message = FALSE,
+                      # fig.show = "hold", 
+                      fig.align = "center", fig.width = 6,
+                      fig.asp = 0.9, out.width = "0.85\\linewidth")
+options(knitr.kable.NA = "", digits = 3, knitr.table.format = "latex")
+options(kableExtra.latex.load_packages = TRUE)
+require(rvest)
+require(kableExtra)
+require(tidyverse)
+theme_set(theme_bw())
+```
+
+# Background
+
+Madan puraskar is a literary honor in Nepal which Madan Puraskar Guthi confers annually for an outstanding book in Nepali language published within the calendar year. It is considered the most prestigious literature award in Nepal.
+
+It was established by daughter in law of Prime Minister Chandra Shumsher JBR Queen Jagadamba Kumari Devi, in memory of her husband late General Madan Shumsher JBR, on September 26, 1955. Since then it has been presented every year, except in 1974 and 1977. At the time of its establishment, the award prize was NRS 4000. Since the Golden Jubilee year 2005 the award prize has been increased to NRs. 400,000.
+
+# List of winners
+
+```{r winners-list}
+# madan_puraskar <- read_html("https://en.wikipedia.org/wiki/Madan_Puraskar") %>% 
+#   html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[2]')
+# 
+# madan_puraskar %>% 
+#   .[[1]] %>%
+#   html_table() %>% 
+#   as_tibble() %>% 
+#   write_csv("./madan_puraskar_awardees.csv", na = "")
+
+madan_puraskar <- read_csv("./madan_puraskar_awardees.csv")
+
+madan_puraskar %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of Madan Puraskar winners till 2075", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("14em", "24em"))
+```
+
