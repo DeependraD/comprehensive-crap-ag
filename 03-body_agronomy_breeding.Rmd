@@ -169,3 +169,72 @@ Following activities are carried out in various stages of a crop are crucial for
 - Energy expended per gram of seed (i.e. gram photosynthate):
   - 0.74-0.96 in cereals
   - 2.03-2.09 in pulses/oilseeds
+
+# Breeding
+
+## Why and how can a plant breeder increase genetic variability in crop plants ? Explain.
+
+Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
+
+As genetic variation is heritable and results in permanent change in phenotype (trait) of organism, it is the variability of interest of breeder, since breeder can predictably control it through selection. Moreover, genetic variation is detectable at molecular as well as gross morphological level but the variation due to environment cannot be. It is also possible for the source of variation to be channeled through carefully designed mating system.
+
+Primarily there are 3 types of sources of genetic variability:
+  1. Gene recombination
+  2. Modification of chromosome number
+  3. Mutation
+  
+Plant breeder can increase genetic variability by use of following tools:
+
+1. Hybridization: Crossing un-identical plants to transfer genes or achieve recombination (creating non-parental type through physical exchange of chromosomal segments). In hybridization, effects of segregation and indepenent assortment in crosses between individual heterozygous for given number of gene pairs is evident. If we take 2 alleles for any 'n' of genes, following indicators of variation can be deduced:
+
+  - Different number of gametes produced by $F_1$ heterozygotes: $2^n$
+  - Number of combinations of $F_1 \times F_1$ gametes (perfect population size): $4^n$
+  - Different kinds of genotypes in $F_2$ = $3^n$
+  - Different kinds of $F_2$ genetypes that are homozygous: $2^n$
+  - Different kinds of $F_2$ genotypes that are heterozyous: $3^n-2^n$
+  - Different types of phenotypes in $F_2$ (complete dominance): $2^n$
+  
+
+2. Wide crossing: Crossing of distantly related individuals for desirable gene introgression. Generally wild relatives of native agricultural crops contain such genes for biotic and abiotic stress tolerance. For example in tomato breeding, program resistance to Oidium neolycopersici (powdery mildew of tomato) monogenic resistance was found in _S peruvianum_ accession, _S habrochaites_ accession and polygenic resistance in _S neorikii_ accessions.
+
+Both of these breeding methods depend upon the number of allele variants per loci. In a gene system involving two alleles, 3 genetic variants (genotypes) are possible, while for a triallelic system 6 individuals may arise from hybridization.
+
+3. Polyploidization: It is accomplished through chromosome doubling, which can occur naturally (through modification of chromosome number as a result of hybridization or abnormalities in nuclear division process) or can be induced using spindle disrupter Colchicine. 
+
+4. Mutagenesis: Also known as ultimate source of biological variation, mutation may arise spontaneously in nature of as a result of errors in cellular process such as DNA replication (or duplication) and by chromosomal abberations (deletion, duplication, inversion and translocation). Mutations may too be induced artificially by using mutagenic agents: irradiation and chemicals. Commonly occuring mutations are those for dwarfing and nutritional quality. However, most mutations being deleterious in nature are selected against. Although, recessive mutations may remain hidden until much later, when they are expressed in homozygous combination.
+
+## What are the different factors that affect the amount of natural crossing or selfing ? Explain about the mechanisms that enforce self and cross pollination in field crops.
+
+Species differ in the degrees to which they self pollinate or cross pollinate. Mechanisms promoting self pollination or autogamy are:
+
+1. Cliestomgamy (flowers fail to open), or flowers open only after pollination (chasmogamy)
+2. Close proximity of anthers to stigma
+
+Mechanisms that prevent autogamy:
+
+1. Self-incompatibility: In spite of viable and normal pollen and ovule development pollen from a flower is non receptive on the stigma of the same flower, hence incapable of setting seed. This mechanism of reproduction control is conditioned by a single locus "S" with multiple alleles. There are two main type of self incompatibility systems:
+
+  - Heteromorphic: Differences in lengths of stamen and style (heterostyly).
+  - Homomorphic:
+    1. Gametophytic incompatibility: Ability of the pollen to function is determined by its own genotype and not the plant that produces it.
+    2. Sporophytic incompatibility: Incompatibility character of pollen are determined by plant (sporophyte) that produces it.
+    
+    The self incompatibility mechanism promotes heterozygosity.
+    
+2. Male sterility: Anther or pollen are non-functional.
+  1. Genetic (nuclear/genic): Barley, cotton, soybean, tomato, potato, etc. The system is under control of "ms" gene.
+  2. Cytoplasmic male sterility: Controlled by mitochondrial gene. Transmitted only through maternal line.
+  3. Cytoplasmic genetic male sterility: Presence of "Rf" gene (nuclear) that overcomes cytoplasmic MS.
+
+3. Dichogamy: Maturing of pistils and stamens of a flower at differnt times. Reduces intensity of self pollination and fertilization. It includes protandry and protogyny.
+
+Factors that affect cross and self pollination are:
+
+1. Environment: 
+  - Pollinators: Wind, water, insect, animals (Anemophily, hydrophily, entomophily, zoophily)
+  - Temperature: High temperature or low temperature may temporarily overcome SI
+  - Light: It induces pollen inviable.
+2. Flower appearance: Shape of petal, color radiance, size of flower, olfactory cues, chemical signaling, etc.
+
+
+
