@@ -1,6 +1,115 @@
 
 # Crop protection
 
+## Background
+
+In global production, 40% loss is attributed to insect; disease results in 13% loss of yield overall.
+
+## Plant pathology: historical events
+
+**Irish famine**
+
+In about 1800, the potato, which was introduced in Europe from south and central america around 1570 AD was a well established crop in Ireland. After strong objections against adopting it because (1) it was new and not mentioned in the Bible, (2) it was produced in the ground and, therefore, was unclean, and (3) because parts of it were poisonous, the potato was nevertheless adopted and its cultivation spread rapidly. Adoption of potato cultivation came as a result of it producing much more edible food per unit of land than grain crops, mostly wheat and rye, grown until then.
+
+Irish farmers grew potato well for many years, free of any serious problems. In the early 1840s, potato crops began to fail to variying extents in several areas of Europe and Ireland. Most of the growing season of 1845 in Ireland was quite favorable for the growth of potato plants and for the formation of tubers.
+ 
+Around 8 million people suffer from famine due to late blight of Potato by _Phytophthora infestans_. About 1.5 million people died of hunger and many emigrate to other countries, mostly North America.
+
+**Ceylon srilanks**
+
+Rust was first reported in the major coffee growing regions of Sri Lanka (then called Ceylon) in 1867. The causal fungus was first fully described by the English mycologist Michael Joseph Berkeley and his collaborator Christopher Edmund Broome after an analysis of specimens of a “coffee leaf disease” collected by George H.K. Thwaites in Ceylon. Berkeley and Broome named the _Hemileia vastatrix_ (Pucciniales, Basidiomycota), "Hemileia" referring to the half smooth characteristic of the spores and "vastatrix" for the devastating nature of the disease. Farmers completely burned down the orchard and restarted the cultivation.
+
+```{r coffee-rust-symptom, fig.width=6, out.width="80%"}
+knitr::include_graphics("./images/hemileia_vastatrix_coffee_leaf_rust.jpg")
+```
+
+**Downy mildew of grapes**
+
+Class: Oomycota
+Order: Peronosporales
+
+_Plasmopara viticola_, also known as grape downy mildew, is considered to be the most devastating disease of grapevines in climates with relatively warm and humid summers. It was first observed in 1834 by Schweinitz on Vitis aestivalis in the southeastern United States. France was among the first of the European countries to gain experience in dealing with the pathogen. Within just a few years of the pathogen's introduction the French attempted to graft American root stock to their own vines in order to produce a more resistant strain of grape. Depending on the year, production of grapes in France has been estimated to have been reduced by as much as 50%.
+
+```{r grape-downy-mildew, fig.width=6, out.width="80%"}
+knitr::include_graphics("./images/Plasmopara_vitticola.jpg")
+```
+
+**Bengal famine of 1943**
+
+The Bengal famine stroke Bengal province of British India during World war II. An estimated 2.1-3 million, out of a population of 60.3 million, died of starvation, malaria, or other diseases aggravated by malnutrition, population displacement and other causes. Affecting of winter rice with a severe outbreak of fungal brown spot disease ( _Helminthosporium oryzae_) is considered to have a major role in the exacerbation of famine besides, political and other causes, cyclone particularly.
+
+## Rust
+
+### Management
+
+Macrocyclic disease: _Puccinia graminis_ is a macrocyclic heteroecious fungus that causes wheat stem rust disease. The repeating stage in this fungus occurs on wheat and not the alternate host, barberry. The repeating stage allows the disease to persist in wheat even though the alternate host may be removed. Planting resistant crops is the ideal form of disease prevention, however, mutations can give rise to new strains of fungi that can overcome plant resistance. Although the disease cannot be stopped by removal of the alternate host, the life cycle is disrupted and the rate of mutation is decreased because of reduced genetic recombination. This allows resistance bred crops to remain effective for a longer period of time.
+
+Demicyclic Disease: Because there is no repeating stage in the life cycle of demicyclic fungi, removal of the primary or the alternate host will disrupt the disease cycle. This method, however, is not highly effective in managing all demicyclic diseases. Cedar-apple rust disease, for example, can persist despite removal of one of the hosts since spores can be disseminated from long distances. The severity of Cedar-apple rust disease can be managed by removal of basidiospore producing galls from junipers or the application of protective fungicides to junipers.
+
+Sulphur powder is known to stop spore germination. Fungicides such as Mancozeb and Triforine may help but may never eradicate the disease.
+
+### Common rust fungi in agriculture
+
+- _Hemileia vastatrix_ (Coffee rust); Primary host is coffee plant; unknown alternate host. Heteroecious
+- _Phakopsora meibomiae_ and _P. pachyrhizi_ (Soybean rust); Primary host is soybean and various legumes. Unknown alternate host. Heteroecious
+- _Puccinia coronata_ (Crown Rust of Oats and Ryegrass); Oats are the primary host; Rhamnus spp. (Buckthorn) is alternate host. Heteroecious and macrocyclic
+- _Puccinia graminis_ (Stem rust of wheat and Kentucky bluegrass, or black rust of cereals); Primary hosts include: Kentucky bluegrass, barley, and wheat; Common barberry is the alternate host. Heteroecious and macrocyclic
+- _Puccinia hemerocallidis_ (Daylily rust); Daylily is primary host; Patrina sp is alternate host. Heteroecious and macrocyclic
+- _Puccinia triticina_ (Brown Wheat Rust) in grains
+- _Puccinia sorghi_ (Common Rust of Corn)
+- _Puccinia striiformis_ (Yellow Rust) of cereals
+- _Uromyces appendiculatus_ (Bean Rust) in common bean (Phaseolus vulgaris)[16]
+- _Puccinia melanocephala_ (Brown Rust of Sugarcane)
+- _Puccinia kuehnii_ (Orange rust of Sugarcane)
+
+**UG99**
+
+It is a lineage of wheat stem rust ( _Puccinia graminis f. sp. tritici_), which is present in wheat fields in several countries in Africa and Middle east and is predicted to spread rapidly through these regions and possibly further afield, potentially causing a wheat production disaster that would affect food security worldwide. It can cause up to 100% crop losses and is virulent against many resistance genes which have previously protected against stem rust.
+
+## Citrus decline in Nepal
+
+Citrus greening disease or HLB was first reported from China in 1919 by Reinking while evaluating diseases of economic plants in southern China and used English term “yellow shoot” of citrus in the report. At that time it was believed that the HLB was caused by abiotic factors like Zn deficiency/toxicity and poor drainage system. By 1967, it became established that greening was graft and insect transmissible with conclusion caused by virus (Bove 2006). In 1967, mycoplasm like organisms (MLOs) were believed to be associated with plant diseases mostly with "yellow" symptoms resembling with greening symptoms. On close examination, these organisms were seen to have bacterial cell wall in addition to cytoplasmic membrane, suggesting that they were gram negative true bacteria (Garnier and Bove 1977). Thus, it was concluded that the HLB agent was gram negative bacterium -- _Liberobacter asiaticus_.
+
+Citrus decline was reported for the first time in Pokhara valley by Thrower (1968) in Nepal. Based on visual observation, Knorr et al (1970) suspected that the decline was caused by greening disease entered with the planting materials introduced to Horticulture Research Station, Pokhara from Saharanpur, India. About 55% of citrus trees in Pokhara valley and 100% in Horticulture Research Station were symptomatic to HLB in 1980s (Regmi 1982).
+
+More recent PCR test showed that HLB is widespread in many citrus pockets of Kaski, Syanja, Tanahu, Lamjung and Dhading districts (Bove 2006 Regmi and Yadav 2007 Regmi et al 2010).
+
+**Diagnosis of Citrus decline**
+
+Visual symptoms are apparent on leaves and fruits. A tree infected with HLB in the field usually develops one or more yellow shoots with other parts of the tree healthy or symptomless. The affected leaves develop a pattern of yellow and green areas lacking clear limits between the colors, giving a "blotchy mottle" appearance. This is the most characteristic foliar symptom and the patterns are asymmetrical on the two halves of the leaf (Bove 2006). Leaves can also become thicker, with veins enlarged and corky in appearance. In later stages, Zn deficiency-like symptoms can be seen followed by leaf drop and twig dieback.
+
+Currently, other methods besides visual diagnosis of Huanglongbang are molecular marker based test (quantative PCR), biological indexing, iodine test and spectroscopy. Based on severity of HLB symptoms and the ability to continue growth of the plants inoculation with _Ca._ L. _asiaticus_ Folimonova et al (2009) grouped citrus genotypes into four categories as 
+i. sensitive: C. halimii, Nules clementine mandarin, Minneola tangelo, sweet oranges and grapefruit
+ii. moderately tolerant: Sun Chu Sha mandarin, sour orange, volkamer lemon, C. macrophylla, wingle citrumelo, citron, Palestine sweet lime, acid lime, calamondin, and C. micrantha
+iii. tolerant: Eureka lemon, Persian lime, Carrizo citrange, and Severinia buxifolia 
+iv. variable (some branch sensitive and some branch tolerant): pummelos, C. amblycarpa, cleopatra mandarin, C. indica, and meiwa kumquat.
+
+**Citrus greening control**
+
+- Inoculum reduction and vector control: Planting of certified clean planting materials, effective control of its vector psyllid populations and removal of infected trees that serve as an inoculums source for psyllid acquisition are the methods of choice. Biological control of the psyllid vector is only possible in locations that do not favour build-up of psyllid populations and is often compromised when hyper-parasites are present.
+
+- Chemical control: Combination of penicillin and streptomycin (PS) was effective in eliminating or supressing the bacterium.
+
+- Nutrition: Preliminary results of the research showed that HLB-infected trees are consistently deficient in Ca, Mg, Mn, Zn and B, and in an orchard. The main cause of visible HLB symptoms, yield reduction, and tree decline appears to be disruption of phloem tissue, which blocks the flow of photosynthate and nutrients from source to sink tissue. Hence plant growth enhancers, mainly that of root system should, to some extent, alleviate the symptoms of HLB.
+
+- Use of tolerant rootstocks: The citrus rootstock US-897 ( _Citrus reticulata_ Blanco x _Poncirus trifoliata_ L. Raf.) was observed to be tolerant to HLB in field plantings.
+
+- Guava intercropping: An observation in Vietnam in 2000, noted that the normal life of sole citrus plantings in Mekon region was 2 to 4 years, but those interplanted with white guava were surviving for up to 15 years (Gottwald et al 2010). Raising guava as an intercrop reduced psyllid population in citrus orchards.
+
+### Guava wilt
+
+### Chirke and furket of Cardamom
+
+### Downy mildew of cucumber
+
+### Stemphyllium blight of lentil
+
+### Root knot nematode of Tomato, Brinjal and Lady's finger
+
+
+
+##
+
 - A popular fungicide, generally used for seed treatment, called Carbendazim is available in commercial formualtion as KI-BESTIN (Carbendazim 50% WP).
   - The commercial seed treatment fungicide is composed of:
     - 51% Carbendazim 98% (at minimum) a.i.

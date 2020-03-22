@@ -1,6 +1,23 @@
 
 # Horticulture
 
+## Plant growth hormones
+
+### Abscissic acid
+
+Physiological effects of ABA
+
+1. Induction of dormancy of plant organs
+2. Water balance of plants
+
+- Additionally, ABA plays roles as antagonist of other phytohormones.
+- Stratification causes reduction in ABA content and so promotes germination (eg. walnut)
+- Inhibition of seed germination by ABA may be reversed by GA application.
+- ABA induces formation of storage proteins in seed.
+- Bud dormancy is frequently correlated with increase in ABA concentration.
+- During vernalization, however, ABA content falls.
+- ABA regulates water balance (causes stomatal closure and increase in root growth and hydraulic conductivity rise in water deficit).
+
 ## Growth stages of cabbage (9 distinguishible)
 
 1. Cotyledons: No true leaves present

@@ -1,56 +1,60 @@
 
 # Agronomy
 
-## Denotified varieties
+## Released, registered and denotified varieties overview
+
+## Recent addition to notified varieties
+
+## Recently denotified varieties
 
 - For a more complete listing, refer to publicdata repository for the [list of denotified varieties](https://raw.githubusercontent.com/DeependraD/publicdata/master/crop_varieties/denotified_varieties.csv).
 
-- Paddy:
-  - IR-8
-  - IR-20
-  - IR-22
-  - IR-24
-  - Jaya
-  - Khajura-2
-  - Barkhe-2
-  - Mallika
-  - Candina
-  - Laxmi
-  - Durga
-  - Parwanipur-1
+<!-- - Paddy: -->
+<!--   - IR-8 -->
+<!--   - IR-20 -->
+<!--   - IR-22 -->
+<!--   - IR-24 -->
+<!--   - Jaya -->
+<!--   - Khajura-2 -->
+<!--   - Barkhe-2 -->
+<!--   - Mallika -->
+<!--   - Candina -->
+<!--   - Laxmi -->
+<!--   - Durga -->
+<!--   - Parwanipur-1 -->
 
-- Wheat:
-  - NL-30
-  - Nepal 251
-  - Lerma Roho 64
-  - Lumbini
-  - S 331
-  - Siddartha
-  - Pitik 62
-  - Vaskar
-  - Binayak
-  - HD-1982
-  - Annapurna 2
-  - Kalyan Sona
-  - Triveni
+<!-- - Wheat: -->
+<!--   - NL-30 -->
+<!--   - Nepal 251 -->
+<!--   - Lerma Roho 64 -->
+<!--   - Lumbini -->
+<!--   - S 331 -->
+<!--   - Siddartha -->
+<!--   - Pitik 62 -->
+<!--   - Vaskar -->
+<!--   - Binayak -->
+<!--   - HD-1982 -->
+<!--   - Annapurna 2 -->
+<!--   - Kalyan Sona -->
+<!--   - Triveni -->
 
-- Maize:
-  - Janaki Seto
-  - Kakani Yellow
-  - Rampur Yellow
-  - Makalu 2
-  - Sarlahi Seto
-  - Hetauda Composite
-  - Rampur 1
+<!-- - Maize: -->
+<!--   - Janaki Seto -->
+<!--   - Kakani Yellow -->
+<!--   - Rampur Yellow -->
+<!--   - Makalu 2 -->
+<!--   - Sarlahi Seto -->
+<!--   - Hetauda Composite -->
+<!--   - Rampur 1 -->
 
-- Chickpea:
-  - Trishul
-  
-- Soybean:
-  - Hill
+<!-- - Chickpea: -->
+<!--   - Trishul -->
 
-- Mustard:
-  - Type-9
+<!-- - Soybean: -->
+<!--   - Hill -->
+
+<!-- - Mustard: -->
+<!--   - Type-9 -->
 
 ## Varietal description of some common rice varieties
 
@@ -237,4 +241,8 @@ Factors that affect cross and self pollination are:
 2. Flower appearance: Shape of petal, color radiance, size of flower, olfactory cues, chemical signaling, etc.
 
 
+# Gene action and methods of breeding
 
+- Self pollinated species: When additive gene action predominates in a self-pollinated species, breeders should consider using selection methods such as pure line selection, mass selection, progeny selection and hybridization. However, when non-additive gene action predominates, effective methods of breeding are the exploitation of heterosis in breeding hybrid cultivars.
+
+- Cross pollinated species: When additive gene action predominates in a cross-pollinated species, recurrent selection may be used to achieve general combining ability (GCA). Specific breeding products to pursue include synthetic varieties and composites. In the case of non-additive gene action, heterosis breeding just like in self pollinated species is recommended for breeding hybrid cultivars. Alternatively, breeders may consider recurrent selection for specific combining ability (SCA) for poulation improvement. Where both additive and non-additive gene action occur together, reciprocal recurrent selection may be used for population improvement.
