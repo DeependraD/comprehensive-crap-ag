@@ -15,7 +15,7 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{multirow}
-\usepackage[table]{xcolor}
+% \usepackage[table]{xcolor}
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{colortbl}
@@ -27,6 +27,17 @@
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
 \usepackage[format=hang,labelfont=bf,margin=0.5cm,justification=centering]{caption}
+% \usepackage{exam} % this and exam.sty cause error
+\usepackage{pdfpages}
 
 % \usepackage{subcaption} % doesn't work with tinytex in windows
 % \newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
+
+% simple fix for exam class features of questions and solution
+\usepackage{enumitem}
+
+\newlist{questions}{enumerate}{3}
+\setlist[questions]{label=\arabic*.}
+\newcommand{\question}{\item}
+
+\newenvironment{solution}{ {\bfseries Solution}:}{}

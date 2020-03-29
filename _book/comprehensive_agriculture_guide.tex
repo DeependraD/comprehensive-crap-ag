@@ -1,43 +1,56 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[]{book}
+\documentclass[
+]{book}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Comprehensive agriculture guide},
-            pdfauthor={Deependra Dhakal, Samita Paudel},
-            pdfborder={0 0 0},
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  pdftitle={Comprehensive agriculture guide},
+  pdfauthor={Deependra Dhakal, Samita Paudel},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
-\usepackage{graphicx,grffile}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -46,25 +59,14 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
-
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
-
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
 \usepackage{booktabs}
 
 \usepackage{geometry} % for custom layout of book and landscape geometry support
@@ -82,7 +84,7 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{multirow}
-\usepackage[table]{xcolor}
+% \usepackage[table]{xcolor}
 \usepackage{wrapfig}
 \usepackage{float}
 \usepackage{colortbl}
@@ -94,9 +96,20 @@
 \newcommand{\blandscape}{\begin{landscape}}
 \newcommand{\elandscape}{\end{landscape}}
 \usepackage[format=hang,labelfont=bf,margin=0.5cm,justification=centering]{caption}
+% \usepackage{exam} % this and exam.sty cause error
+\usepackage{pdfpages}
 
 % \usepackage{subcaption} % doesn't work with tinytex in windows
 % \newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
+
+% simple fix for exam class features of questions and solution
+\usepackage{enumitem}
+
+\newlist{questions}{enumerate}{3}
+\setlist[questions]{label=\arabic*.}
+\newcommand{\question}{\item}
+
+\newenvironment{solution}{ {\bfseries Solution}:}{}
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
@@ -118,6 +131,78 @@ This is a reference manual for self purpose only.
 
 \hypertarget{general-agriculture}{%
 \chapter{General agriculture}\label{general-agriculture}}
+
+\hypertarget{nepal-agriculture-and-geography}{%
+\section{Nepal agriculture and geography}\label{nepal-agriculture-and-geography}}
+
+\textbf{Ecological regions}
+- Himalayan region: 35\%
+- Hilly region: 41.67\%
+- Terai region: 23.11\%
+
+\textbf{Agricultural land}
+
+\begin{itemize}
+\tightlist
+\item
+  Cultivated land: 3091000 ha (21\%)
+\item
+  Cultivated land uncultivated: 1030 (6.99\%)
+\item
+  Jungle and shrubs: 5828 (39.597\%); Shrub alone: 1560
+\item
+  Pasture land: 1766000 (11.99\%)
+\item
+  Total Jungle = Shrub + Pasture
+\end{itemize}
+
+\textbf{GDP of Agriculture and releated sector/subsectors}
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-2}Percentage contribution of different sector and subsectors to total national GDP}
+\centering
+\begin{tabular}[t]{lrrr}
+\toprule
+sector & fy\_2074-75 & fy\_2073-74 & fy\_2072-73\\
+\midrule
+Agriculture and forestry & 27.10 & 28.25 & 31.08\\
+Fishery & 0.49 & 0.51 & 0.53\\
+Non-agriculture & 72.41 & 71.24 & 68.39\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Agricultural growth rates}
+
+\begin{verbatim}
+## # A tibble: 3 x 2
+##    Year `Growth rate (%)`
+##   <dbl>             <dbl>
+## 1  28.4              0.01
+## 2  28.0              5.14
+## 3  27.7              2.72
+\end{verbatim}
+
+\hypertarget{population-census-2068}{%
+\section{Population census, 2068}\label{population-census-2068}}
+
+\begin{verbatim}
+## # A tibble: 38 x 1
+##    Indicator
+##    <list>   
+##  1 <chr [1]>
+##  2 <formula>
+##  3 <chr [1]>
+##  4 <chr [1]>
+##  5 <dbl [1]>
+##  6 <chr [1]>
+##  7 <chr [1]>
+##  8 <dbl [1]>
+##  9 <chr [1]>
+## 10 <chr [1]>
+## # ... with 28 more rows
+\end{verbatim}
 
 \hypertarget{kishan-call-center}{%
 \section{Kishan call center}\label{kishan-call-center}}
@@ -572,8 +657,238 @@ Regional agriculture research centres and programs
   Tarahara \(\rightarrow\) Aquaculture
 \end{itemize}
 
+\hypertarget{ads}{%
+\section{ADS}\label{ads}}
+
+\begin{itemize}
+\tightlist
+\item
+  MoAD, ADB, Rastriya Kishan Sanjal etc. including 12 development cooperatives (technical team) were involved in preparation of the strategy.
+\item
+  Vision (7 sub heads):
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Self reliance
+  \item
+    Sustainablity
+  \item
+    Competition
+  \item
+    Inclusive
+  \item
+    Growth
+  \item
+    Livelihood
+  \item
+    Food and nutrition security
+  \end{itemize}
+\item
+  There are 16 indicators ??
+\end{itemize}
+
+\hypertarget{national-farmers-commission}{%
+\section{National Farmers Commission}\label{national-farmers-commission}}
+
+\begin{itemize}
+\tightlist
+\item
+  Chariman: Chitra Bahadur Shrestha
+\item
+  Members: 7 total
+\item
+  2073/10/06: National Farmers' Commission organization directives
+\item
+  Has central office in Hariharbhawan, Lalitpur
+\end{itemize}
+
+\hypertarget{prime-minister-agriculture-modernization-project}{%
+\section{Prime minister agriculture modernization project}\label{prime-minister-agriculture-modernization-project}}
+
+Initiation, project details \ldots{}
+
+\hypertarget{zones-and-superzones}{%
+\subsection{Zones and superzones}\label{zones-and-superzones}}
+
+\hypertarget{crop-and-livestock-insurance}{%
+\section{Crop and livestock insurance}\label{crop-and-livestock-insurance}}
+
+\hypertarget{one-village-one-commodity-odop}{%
+\section{One village one commodity (ODOP)}\label{one-village-one-commodity-odop}}
+
+\hypertarget{one-district-one-commodity}{%
+\section{One district one commodity}\label{one-district-one-commodity}}
+
+\hypertarget{impacts-of-climate-change}{%
+\section{Impacts of climate change}\label{impacts-of-climate-change}}
+
+What are the impacts of climate change ? Discuss on detail about the initiative taken by Nepal Government in tackling the impacts of climate change.
+
+Climate change is now affecting every country in every continent. It is disrupting national economies and affecting lives, of individuals, communities and countries today and is likely to do so in the ensuing future. Weather pattern are changing, snowline are melting due to global warming and sea level are rising.
+
+\textbf{Negative impacts}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Numerous mountains are seeing accelerated the melting of snow due to global warming.
+\item
+  Changes in monsoon patterns, such as erratic rainfall with alternate drought periods are the serious impacts of climate change in Nepal which hampers the agricultural production. The changes in monsoon pattern in Nepal greatly exacerbate the situation of poverty and food insecurity in the country.
+\item
+  Flood, landslides, forest fires, snow melt are the disasters that occur as a result of climate change without any prewarning and causes heavy loss.
+\item
+  High hills and mountains are more vulnerable to climate change compared to terai, thus climate change make large scale economic and ecolgical disruption in upper latitudes.
+\item
+  Loss of plant and animal biodiversity.
+\item
+  Increase in number of insects, pest and diseases and sporadic outbreaks becoming much frequent.
+\end{enumerate}
+
+The positive impact of global warming, a characteristic feature of climate change, is that the crops that could in the past be only growth in certain low altitudes, requiring prolonged exposure to heat can now be growth in higher regions such as Manang and Mustang districts of Nepal. The is evidently due to increase average temperature of the region, thus allowing the crop to perform well. However, as noted earlier, there are more prominent negative impacts than the benifits we can derive from the climate change.
+
+Nepal became signatory of UN Framework Convention on Climate Change (UNFCC) in 1994. Ever since then the issue of climate change has been routinely incorporated into policy and strategic frameworks by Government of Nepal. Following policies and strategies are currently in place to help mitigate the impacts of climate change in Nepal:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Constitutional approach
+\end{enumerate}
+
+Article 30(1) of the constitution of Nepal guarantees a ``clean environment'' as fundamental right and elaborates that ``every citizen shall have the right to live in a clean and healthy environment.'' Article 30(2) of the constitution also encourages the state to formulate necessary legal framework to balance environment and development.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Approaches in periodic plans
+\item
+  Climate change policy, 2067 (2011)
+\item
+  National climate change policy, 2076 (2019)
+\item
+  National adaptation plan of action (NAPA, 2010)
+\item
+  Framework for local adaptation plan for action (LAPA, 2011)
+\end{enumerate}
+
+\hypertarget{highlights-of-nccp-2076}{%
+\subsection{Highlights of NCCP, 2076}\label{highlights-of-nccp-2076}}
+
+Reasons for Nepal's vulnerability to climate change are Topographical fragility, fragile geological structure, sensitive ecosystems and diversity of climate and micro-climate zones prevalence in Nepal. Additionally, poverty, illiteracy, social disparity and high dependence of communities on natural resources for livelihood.
+
+\begin{itemize}
+\tightlist
+\item
+  Nepal National Red Strategy implemented to check greenhouse gases emmission from deforestation and forest destruction.
+\item
+  Provision of climate change coordination committee in Chairmanship of Prime minister.
+\item
+  Establishment of Climate change management section under Ministry of Forest and Environment as focal point for implementation of international treaty.
+\item
+  Provision of Climate budget code by National planning commission.
+\item
+  Alternative energy promotion center has established climate and carbon unit for executing Clean Development Mechanism (CDM) related activities.
+\end{itemize}
+
+\textbf{Goal}
+
+To contribute to socio-economic prosperity of the nation by building a climate resilient society.
+
+\textbf{Objectives}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  To enhance climate change adaptation capacity of persons, families, groups and communities vulnerable to, and at risk of, climate change;
+\item
+  To build resilience of ecosystems that are at risk of adverse impacts of climate change;
+\item
+  To promote green economy by adopting the concept of low carbon emmission development;
+\item
+  To mobilize national and international financial resources for climate change mitigation and adaptation in just manner;
+\item
+  To conduct research, make effective technology development and information service delivery related to climate change;
+\item
+  To mainstream or integrate climate change issues into policies, strategies, plans and programs at all levels of State and sectoral areas;
+\item
+  To mainstream gender equality and social inclusion (GESI) into climate change mitigation and adaptation programs.
+\end{enumerate}
+
+\textbf{Policies} (Sectoral policy, strategies and working policies)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Agriculture and food security
+\item
+  Forest, biodiversity and watershed conservation
+\item
+  Water resources and energy
+\item
+  Rural and urban habitats
+\item
+  Industry, transport and physical infrastructure
+\item
+  Tourism and natural and cultural heritage
+\item
+  Health and drinking water and sanitation
+\item
+  Disaster risk reduction and management
+\item
+  Gender equality and social inclusion, livelihoods and good governance
+\item
+  Awareness raising and capacity development
+\item
+  Research, technology development and expansion
+\item
+  Climate finance management
+\end{enumerate}
+
+Policy number 9-12 are inter-thematic areas.
+
 \hypertarget{horticulture}{%
 \chapter{Horticulture}\label{horticulture}}
+
+\hypertarget{plant-growth-hormones}{%
+\section{Plant growth hormones}\label{plant-growth-hormones}}
+
+\hypertarget{abscissic-acid}{%
+\subsection{Abscissic acid}\label{abscissic-acid}}
+
+Physiological effects of ABA
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Induction of dormancy of plant organs
+\item
+  Water balance of plants
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Additionally, ABA plays roles as antagonist of other phytohormones.
+\item
+  Stratification causes reduction in ABA content and so promotes germination (eg. walnut)
+\item
+  Inhibition of seed germination by ABA may be reversed by GA application.
+\item
+  ABA induces formation of storage proteins in seed.
+\item
+  Bud dormancy is frequently correlated with increase in ABA concentration.
+\item
+  During vernalization, however, ABA content falls.
+\item
+  ABA regulates water balance (causes stomatal closure and increase in root growth and hydraulic conductivity rise in water deficit).
+\end{itemize}
 
 \hypertarget{growth-stages-of-cabbage-9-distinguishible}{%
 \section{Growth stages of cabbage (9 distinguishible)}\label{growth-stages-of-cabbage-9-distinguishible}}
@@ -819,6 +1134,37 @@ Policy level and action oriented strategies that have been or could potentially 
   Increased productivity of fruit proposed for ADS implementation period is from 10 to 15 Mt/ha
 \end{itemize}
 
+\hypertarget{litchi}{%
+\section{Litchi}\label{litchi}}
+
+\textbf{Taxonomy}
+
+Family: Nepheleae. Family contains about 150 genera and 2000 species. Related species of the family are Rambuton ( \emph{Nephelium lappaceum}) and pulsan ( \emph{N mutabile}). The genus Litchi has 3 species:
+
+\begin{itemize}
+\tightlist
+\item
+  Sub species chinensis -- Commercial litchi.
+\item
+  Sub species philippinensis -- Developed in Philippines. It has long, oval shaped fruit with inedible flesh and long thorn like protuberances which can be used as root stock.
+\item
+  Sub species Javenensis bears fruit similar to Chinensis but the aril is thinner.
+\end{itemize}
+
+\textbf{Varieties}
+
+Mazzafarpur (Bears profusely, fruits are deep orange to pink, pulp is sweet, tough, moderately juicy, good flavored and pulp:seed ratio is high), Deshi (Bearing is moderate and regular, fruit is oval, oblong or oblong conical in shape), Rose scented (Fruits are delicious rosy flavor in the aril. Trees are vigorous. Fruits are mostly oblong or oblong conical in shape, deep rose pink in color, pulp grayish white, and soft and very sweet), Shahi, Dehradun, Culcuttia, Seedless late, Saharanpur, etc.
+
+Origin: Originated from northern China, Northern Vietnam and Malaysia
+
+Uses: Fruit makes excellent canning. The preservation of fruit can be done in honey.
+
+Botany: Long lived, medium to large, brached, round topped, evergreen tree reaching upto 10 m or more height with short stocky trunk. Leaves are compound, alternate, consists of 4-7 oblong leaflets, glossy dark green. Bark is grayish brown and rough. Vegetative growth is rhythmic and occurs in 3-4 recurrent flushes alternating with period of rest. The inflorescence is compound raceme developing both from terminal and axillary buds. Flowers are small, male, pseudo hermaphrodite (functional male) and hermaphrodite. The edible portion is aril. The seed is dark brown in color.
+
+Climate: The litchi is adapted to the warm sub-tropic, cool, dry, frost free winter, and long, hot summer with high rainfall and high humidity. The litchi usually likes low elevation but can be grown upto 800 masl. The optimum temperature requirement for flowering is 16-20 degree C. High temperatures, more than 30 degree C and low relative humidity (less than 60\%) during fruit development stage cause the fruit cracking in litchi. The hot winds in summer cause fruit cracking and subsequently damage the pulp (aril). Sometimes it limits the expansion of litchi cultivation. Wet spring, dry summer and light winter are desirable conditions for fruiting in litchi.
+
+The litchi can grow under wide variety of soild including alluvial soil, loams, and heavy clays with rich source of organic matter. Litchi can withstand water for a considerable period, provided the water does not stagnate, but will die after prolonged immersion. It is suggested that new plant should be grown in soil taken from the vicinity of old trees to introduce the mycorrhiza. The optimum pH range is 5.5-6.5
+
 \hypertarget{national-fruit-development-directorate-institutional-development-of-fruits}{%
 \section{National fruit development directorate (Institutional development of fruits)}\label{national-fruit-development-directorate-institutional-development-of-fruits}}
 
@@ -997,7 +1343,7 @@ All these constraints have led to the development of TPS technology of crop prod
 \newgeometry{margin=1.2cm}
 \begin{landscape}\begin{table}
 
-\caption{\label{tab:unnamed-chunk-2}Potato production technology for various purposes}
+\caption{\label{tab:unnamed-chunk-5}Potato production technology for various purposes}
 \centering
 \fontsize{8}{10}\selectfont
 \begin{tabular}[t]{>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{4.8em}>{\raggedright\arraybackslash}p{5.5em}>{\raggedright\arraybackslash}p{5.5em}>{\raggedright\arraybackslash}p{11em}}
@@ -1229,118 +1575,19 @@ Mid hills & Jestha & Ashar\\
 \hypertarget{agronomy}{%
 \chapter{Agronomy}\label{agronomy}}
 
-\hypertarget{denotified-varieties}{%
-\section{Denotified varieties}\label{denotified-varieties}}
+\hypertarget{released-registered-and-denotified-varieties-overview}{%
+\section{Released, registered and denotified varieties overview}\label{released-registered-and-denotified-varieties-overview}}
+
+\hypertarget{recent-addition-to-notified-varieties}{%
+\section{Recent addition to notified varieties}\label{recent-addition-to-notified-varieties}}
+
+\hypertarget{recently-denotified-varieties}{%
+\section{Recently denotified varieties}\label{recently-denotified-varieties}}
 
 \begin{itemize}
+\tightlist
 \item
   For a more complete listing, refer to publicdata repository for the \href{https://raw.githubusercontent.com/DeependraD/publicdata/master/crop_varieties/denotified_varieties.csv}{list of denotified varieties}.
-\item
-  Paddy:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    IR-8
-  \item
-    IR-20
-  \item
-    IR-22
-  \item
-    IR-24
-  \item
-    Jaya
-  \item
-    Khajura-2
-  \item
-    Barkhe-2
-  \item
-    Mallika
-  \item
-    Candina
-  \item
-    Laxmi
-  \item
-    Durga
-  \item
-    Parwanipur-1
-  \end{itemize}
-\item
-  Wheat:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    NL-30
-  \item
-    Nepal 251
-  \item
-    Lerma Roho 64
-  \item
-    Lumbini
-  \item
-    S 331
-  \item
-    Siddartha
-  \item
-    Pitik 62
-  \item
-    Vaskar
-  \item
-    Binayak
-  \item
-    HD-1982
-  \item
-    Annapurna 2
-  \item
-    Kalyan Sona
-  \item
-    Triveni
-  \end{itemize}
-\item
-  Maize:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Janaki Seto
-  \item
-    Kakani Yellow
-  \item
-    Rampur Yellow
-  \item
-    Makalu 2
-  \item
-    Sarlahi Seto
-  \item
-    Hetauda Composite
-  \item
-    Rampur 1
-  \end{itemize}
-\item
-  Chickpea:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Trishul
-  \end{itemize}
-\item
-  Soybean:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Hill
-  \end{itemize}
-\item
-  Mustard:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Type-9
-  \end{itemize}
 \end{itemize}
 
 \hypertarget{varietal-description-of-some-common-rice-varieties}{%
@@ -1649,6 +1896,159 @@ Following activities are carried out in various stages of a crop are crucial for
   \item
     2.03-2.09 in pulses/oilseeds
   \end{itemize}
+\end{itemize}
+
+\hypertarget{breeding}{%
+\chapter{Breeding}\label{breeding}}
+
+\hypertarget{why-and-how-can-a-plant-breeder-increase-genetic-variability-in-crop-plants-explain.}{%
+\section{Why and how can a plant breeder increase genetic variability in crop plants ? Explain.}\label{why-and-how-can-a-plant-breeder-increase-genetic-variability-in-crop-plants-explain.}}
+
+Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
+
+As genetic variation is heritable and results in permanent change in phenotype (trait) of organism, it is the variability of interest of breeder, since breeder can predictably control it through selection. Moreover, genetic variation is detectable at molecular as well as gross morphological level but the variation due to environment cannot be. It is also possible for the source of variation to be channeled through carefully designed mating system.
+
+Primarily there are 3 types of sources of genetic variability:
+1. Gene recombination
+2. Modification of chromosome number
+3. Mutation
+
+Plant breeder can increase genetic variability by use of following tools:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Hybridization: Crossing un-identical plants to transfer genes or achieve recombination (creating non-parental type through physical exchange of chromosomal segments). In hybridization, effects of segregation and indepenent assortment in crosses between individual heterozygous for given number of gene pairs is evident. If we take 2 alleles for any `n' of genes, following indicators of variation can be deduced:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Different number of gametes produced by \(F_1\) heterozygotes: \(2^n\)
+\item
+  Number of combinations of \(F_1 \times F_1\) gametes (perfect population size): \(4^n\)
+\item
+  Different kinds of genotypes in \(F_2\) = \(3^n\)
+\item
+  Different kinds of \(F_2\) genetypes that are homozygous: \(2^n\)
+\item
+  Different kinds of \(F_2\) genotypes that are heterozyous: \(3^n-2^n\)
+\item
+  Different types of phenotypes in \(F_2\) (complete dominance): \(2^n\)
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Wide crossing: Crossing of distantly related individuals for desirable gene introgression. Generally wild relatives of native agricultural crops contain such genes for biotic and abiotic stress tolerance. For example in tomato breeding, program resistance to Oidium neolycopersici (powdery mildew of tomato) monogenic resistance was found in \emph{S peruvianum} accession, \emph{S habrochaites} accession and polygenic resistance in \emph{S neorikii} accessions.
+\end{enumerate}
+
+Both of these breeding methods depend upon the number of allele variants per loci. In a gene system involving two alleles, 3 genetic variants (genotypes) are possible, while for a triallelic system 6 individuals may arise from hybridization.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Polyploidization: It is accomplished through chromosome doubling, which can occur naturally (through modification of chromosome number as a result of hybridization or abnormalities in nuclear division process) or can be induced using spindle disrupter Colchicine.
+\item
+  Mutagenesis: Also known as ultimate source of biological variation, mutation may arise spontaneously in nature of as a result of errors in cellular process such as DNA replication (or duplication) and by chromosomal abberations (deletion, duplication, inversion and translocation). Mutations may too be induced artificially by using mutagenic agents: irradiation and chemicals. Commonly occuring mutations are those for dwarfing and nutritional quality. However, most mutations being deleterious in nature are selected against. Although, recessive mutations may remain hidden until much later, when they are expressed in homozygous combination.
+\end{enumerate}
+
+\hypertarget{what-are-the-different-factors-that-affect-the-amount-of-natural-crossing-or-selfing-explain-about-the-mechanisms-that-enforce-self-and-cross-pollination-in-field-crops.}{%
+\section{What are the different factors that affect the amount of natural crossing or selfing ? Explain about the mechanisms that enforce self and cross pollination in field crops.}\label{what-are-the-different-factors-that-affect-the-amount-of-natural-crossing-or-selfing-explain-about-the-mechanisms-that-enforce-self-and-cross-pollination-in-field-crops.}}
+
+Species differ in the degrees to which they self pollinate or cross pollinate. Mechanisms promoting self pollination or autogamy are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Cliestomgamy (flowers fail to open), or flowers open only after pollination (chasmogamy)
+\item
+  Close proximity of anthers to stigma
+\end{enumerate}
+
+Mechanisms that prevent autogamy:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Self-incompatibility: In spite of viable and normal pollen and ovule development pollen from a flower is non receptive on the stigma of the same flower, hence incapable of setting seed. This mechanism of reproduction control is conditioned by a single locus ``S'' with multiple alleles. There are two main type of self incompatibility systems:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Heteromorphic: Differences in lengths of stamen and style (heterostyly).
+\item
+  Homomorphic:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Gametophytic incompatibility: Ability of the pollen to function is determined by its own genotype and not the plant that produces it.
+  \item
+    Sporophytic incompatibility: Incompatibility character of pollen are determined by plant (sporophyte) that produces it.
+  \end{enumerate}
+
+  The self incompatibility mechanism promotes heterozygosity.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Male sterility: Anther or pollen are non-functional.
+\item
+  Genetic (nuclear/genic): Barley, cotton, soybean, tomato, potato, etc. The system is under control of ``ms'' gene.
+\item
+  Cytoplasmic male sterility: Controlled by mitochondrial gene. Transmitted only through maternal line.
+\item
+  Cytoplasmic genetic male sterility: Presence of ``Rf'' gene (nuclear) that overcomes cytoplasmic MS.
+\item
+  Dichogamy: Maturing of pistils and stamens of a flower at differnt times. Reduces intensity of self pollination and fertilization. It includes protandry and protogyny.
+\end{enumerate}
+
+Factors that affect cross and self pollination are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Environment:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Pollinators: Wind, water, insect, animals (Anemophily, hydrophily, entomophily, zoophily)
+\item
+  Temperature: High temperature or low temperature may temporarily overcome SI
+\item
+  Light: It induces pollen inviable.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Flower appearance: Shape of petal, color radiance, size of flower, olfactory cues, chemical signaling, etc.
+\end{enumerate}
+
+\hypertarget{gene-action-and-methods-of-breeding}{%
+\chapter{Gene action and methods of breeding}\label{gene-action-and-methods-of-breeding}}
+
+\begin{itemize}
+\item
+  Self pollinated species: When additive gene action predominates in a self-pollinated species, breeders should consider using selection methods such as pure line selection, mass selection, progeny selection and hybridization. However, when non-additive gene action predominates, effective methods of breeding are the exploitation of heterosis in breeding hybrid cultivars.
+\item
+  Cross pollinated species: When additive gene action predominates in a cross-pollinated species, recurrent selection may be used to achieve general combining ability (GCA). Specific breeding products to pursue include synthetic varieties and composites. In the case of non-additive gene action, heterosis breeding just like in self pollinated species is recommended for breeding hybrid cultivars. Alternatively, breeders may consider recurrent selection for specific combining ability (SCA) for poulation improvement. Where both additive and non-additive gene action occur together, reciprocal recurrent selection may be used for population improvement.
 \end{itemize}
 
 \hypertarget{soil-and-irrigation}{%
@@ -1977,8 +2377,176 @@ Only the gap between the HDI and GDI can be accurately considered; the GDI on it
   The GDI and HDI (women) of Nepal are, respectively, 0.925 and 0.552 as of 2017. This ranks Nepal in 115th position globally.
 \end{itemize}
 
-\hypertarget{crop-protection}{%
-\chapter{Crop protection}\label{crop-protection}}
+\hypertarget{plant-pathology}{%
+\chapter{Plant pathology}\label{plant-pathology}}
+
+\hypertarget{background}{%
+\section{Background}\label{background}}
+
+In global production, 40\% loss is attributed to insect; disease results in 13\% loss of yield overall.
+
+\hypertarget{plant-pathology-historical-events}{%
+\section{Plant pathology: historical events}\label{plant-pathology-historical-events}}
+
+\textbf{Irish famine}
+
+In about 1800, the potato, which was introduced in Europe from south and central america around 1570 AD was a well established crop in Ireland. After strong objections against adopting it because (1) it was new and not mentioned in the Bible, (2) it was produced in the ground and, therefore, was unclean, and (3) because parts of it were poisonous, the potato was nevertheless adopted and its cultivation spread rapidly. Adoption of potato cultivation came as a result of it producing much more edible food per unit of land than grain crops, mostly wheat and rye, grown until then.
+
+Irish farmers grew potato well for many years, free of any serious problems. In the early 1840s, potato crops began to fail to variying extents in several areas of Europe and Ireland. Most of the growing season of 1845 in Ireland was quite favorable for the growth of potato plants and for the formation of tubers.
+
+Around 8 million people suffer from famine due to late blight of Potato by \emph{Phytophthora infestans}. About 1.5 million people died of hunger and many emigrate to other countries, mostly North America.
+
+\textbf{Ceylon srilanks}
+
+Rust was first reported in the major coffee growing regions of Sri Lanka (then called Ceylon) in 1867. The causal fungus was first fully described by the English mycologist Michael Joseph Berkeley and his collaborator Christopher Edmund Broome after an analysis of specimens of a ``coffee leaf disease'' collected by George H.K. Thwaites in Ceylon. Berkeley and Broome named the \emph{Hemileia vastatrix} (Pucciniales, Basidiomycota), ``Hemileia'' referring to the half smooth characteristic of the spores and ``vastatrix'' for the devastating nature of the disease. Farmers completely burned down the orchard and restarted the cultivation.
+
+\begin{center}\includegraphics[width=0.8\linewidth]{./images/hemileia_vastatrix_coffee_leaf_rust} \end{center}
+
+\textbf{Downy mildew of grapes}
+
+Class: Oomycota
+Order: Peronosporales
+
+\emph{Plasmopara viticola}, also known as grape downy mildew, is considered to be the most devastating disease of grapevines in climates with relatively warm and humid summers. It was first observed in 1834 by Schweinitz on Vitis aestivalis in the southeastern United States. France was among the first of the European countries to gain experience in dealing with the pathogen. Within just a few years of the pathogen's introduction the French attempted to graft American root stock to their own vines in order to produce a more resistant strain of grape. Depending on the year, production of grapes in France has been estimated to have been reduced by as much as 50\%.
+
+\begin{center}\includegraphics[width=0.8\linewidth]{./images/Plasmopara_vitticola} \end{center}
+
+\textbf{Bengal famine of 1943}
+
+The Bengal famine stroke Bengal province of British India during World war II. An estimated 2.1-3 million, out of a population of 60.3 million, died of starvation, malaria, or other diseases aggravated by malnutrition, population displacement and other causes. Affecting of winter rice with a severe outbreak of fungal brown spot disease ( \emph{Helminthosporium oryzae}) is considered to have a major role in the exacerbation of famine besides, political and other causes, cyclone particularly.
+
+\hypertarget{rust}{%
+\section{Rust}\label{rust}}
+
+\hypertarget{management}{%
+\subsection{Management}\label{management}}
+
+Macrocyclic disease: \emph{Puccinia graminis} is a macrocyclic heteroecious fungus that causes wheat stem rust disease. The repeating stage in this fungus occurs on wheat and not the alternate host, barberry. The repeating stage allows the disease to persist in wheat even though the alternate host may be removed. Planting resistant crops is the ideal form of disease prevention, however, mutations can give rise to new strains of fungi that can overcome plant resistance. Although the disease cannot be stopped by removal of the alternate host, the life cycle is disrupted and the rate of mutation is decreased because of reduced genetic recombination. This allows resistance bred crops to remain effective for a longer period of time.
+
+Demicyclic Disease: Because there is no repeating stage in the life cycle of demicyclic fungi, removal of the primary or the alternate host will disrupt the disease cycle. This method, however, is not highly effective in managing all demicyclic diseases. Cedar-apple rust disease, for example, can persist despite removal of one of the hosts since spores can be disseminated from long distances. The severity of Cedar-apple rust disease can be managed by removal of basidiospore producing galls from junipers or the application of protective fungicides to junipers.
+
+Sulphur powder is known to stop spore germination. Fungicides such as Mancozeb and Triforine may help but may never eradicate the disease.
+
+\hypertarget{common-rust-fungi-in-agriculture}{%
+\subsection{Common rust fungi in agriculture}\label{common-rust-fungi-in-agriculture}}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Hemileia vastatrix} (Coffee rust); Primary host is coffee plant; unknown alternate host. Heteroecious
+\item
+  \emph{Phakopsora meibomiae} and \emph{P. pachyrhizi} (Soybean rust); Primary host is soybean and various legumes. Unknown alternate host. Heteroecious
+\item
+  \emph{Puccinia coronata} (Crown Rust of Oats and Ryegrass); Oats are the primary host; Rhamnus spp. (Buckthorn) is alternate host. Heteroecious and macrocyclic
+\item
+  \emph{Puccinia graminis} (Stem rust of wheat and Kentucky bluegrass, or black rust of cereals); Primary hosts include: Kentucky bluegrass, barley, and wheat; Common barberry is the alternate host. Heteroecious and macrocyclic
+\item
+  \emph{Puccinia hemerocallidis} (Daylily rust); Daylily is primary host; Patrina sp is alternate host. Heteroecious and macrocyclic
+\item
+  \emph{Puccinia triticina} (Brown Wheat Rust) in grains
+\item
+  \emph{Puccinia sorghi} (Common Rust of Corn)
+\item
+  \emph{Puccinia striiformis} (Yellow Rust) of cereals
+\item
+  \emph{Uromyces appendiculatus} (Bean Rust) in common bean (Phaseolus vulgaris){[}16{]}
+\item
+  \emph{Puccinia melanocephala} (Brown Rust of Sugarcane)
+\item
+  \emph{Puccinia kuehnii} (Orange rust of Sugarcane)
+\end{itemize}
+
+\textbf{UG99}
+
+It is a lineage of wheat stem rust ( \emph{Puccinia graminis f.~sp. tritici}), which is present in wheat fields in several countries in Africa and Middle east and is predicted to spread rapidly through these regions and possibly further afield, potentially causing a wheat production disaster that would affect food security worldwide. It can cause up to 100\% crop losses and is virulent against many resistance genes which have previously protected against stem rust.
+
+\hypertarget{citrus-decline-in-nepal}{%
+\subsection{Citrus decline in Nepal}\label{citrus-decline-in-nepal}}
+
+Citrus greening disease or HLB was first reported from China in 1919 by Reinking while evaluating diseases of economic plants in southern China and used English term ``yellow shoot'' of citrus in the report. At that time it was believed that the HLB was caused by abiotic factors like Zn deficiency/toxicity and poor drainage system. By 1967, it became established that greening was graft and insect transmissible with conclusion caused by virus (Bove 2006). In 1967, mycoplasm like organisms (MLOs) were believed to be associated with plant diseases mostly with ``yellow'' symptoms resembling with greening symptoms. On close examination, these organisms were seen to have bacterial cell wall in addition to cytoplasmic membrane, suggesting that they were gram negative true bacteria (Garnier and Bove 1977). Thus, it was concluded that the HLB agent was gram negative bacterium -- \emph{Liberobacter asiaticus}.
+
+Citrus decline was reported for the first time in Pokhara valley by Thrower (1968) in Nepal. Based on visual observation, Knorr et al (1970) suspected that the decline was caused by greening disease entered with the planting materials introduced to Horticulture Research Station, Pokhara from Saharanpur, India. About 55\% of citrus trees in Pokhara valley and 100\% in Horticulture Research Station were symptomatic to HLB in 1980s (Regmi 1982).
+
+More recent PCR test showed that HLB is widespread in many citrus pockets of Kaski, Syanja, Tanahu, Lamjung and Dhading districts (Bove 2006 Regmi and Yadav 2007 Regmi et al 2010).
+
+\textbf{Diagnosis of Citrus decline}
+
+Visual symptoms are apparent on leaves and fruits. A tree infected with HLB in the field usually develops one or more yellow shoots with other parts of the tree healthy or symptomless. The affected leaves develop a pattern of yellow and green areas lacking clear limits between the colors, giving a ``blotchy mottle'' appearance. This is the most characteristic foliar symptom and the patterns are asymmetrical on the two halves of the leaf (Bove 2006). Leaves can also become thicker, with veins enlarged and corky in appearance. In later stages, Zn deficiency-like symptoms can be seen followed by leaf drop and twig dieback.
+
+Currently, other methods besides visual diagnosis of Huanglongbang are molecular marker based test (quantative PCR), biological indexing, iodine test and spectroscopy. Based on severity of HLB symptoms and the ability to continue growth of the plants inoculation with \emph{Ca.} L. \emph{asiaticus} Folimonova et al (2009) grouped citrus genotypes into four categories as
+i. sensitive: C. halimii, Nules clementine mandarin, Minneola tangelo, sweet oranges and grapefruit
+ii. moderately tolerant: Sun Chu Sha mandarin, sour orange, volkamer lemon, C. macrophylla, wingle citrumelo, citron, Palestine sweet lime, acid lime, calamondin, and C. micrantha
+iii. tolerant: Eureka lemon, Persian lime, Carrizo citrange, and Severinia buxifolia
+iv. variable (some branch sensitive and some branch tolerant): pummelos, C. amblycarpa, cleopatra mandarin, C. indica, and meiwa kumquat.
+
+\textbf{Citrus greening control}
+
+\begin{itemize}
+\item
+  Inoculum reduction and vector control: Planting of certified clean planting materials, effective control of its vector psyllid populations and removal of infected trees that serve as an inoculums source for psyllid acquisition are the methods of choice. Biological control of the psyllid vector is only possible in locations that do not favour build-up of psyllid populations and is often compromised when hyper-parasites are present.
+\item
+  Chemical control: Combination of penicillin and streptomycin (PS) was effective in eliminating or supressing the bacterium.
+\item
+  Nutrition: Preliminary results of the research showed that HLB-infected trees are consistently deficient in Ca, Mg, Mn, Zn and B, and in an orchard. The main cause of visible HLB symptoms, yield reduction, and tree decline appears to be disruption of phloem tissue, which blocks the flow of photosynthate and nutrients from source to sink tissue. Hence plant growth enhancers, mainly that of root system should, to some extent, alleviate the symptoms of HLB.
+\item
+  Use of tolerant rootstocks: The citrus rootstock US-897 ( \emph{Citrus reticulata} Blanco x \emph{Poncirus trifoliata} L. Raf.) was observed to be tolerant to HLB in field plantings.
+\item
+  Guava intercropping: An observation in Vietnam in 2000, noted that the normal life of sole citrus plantings in Mekon region was 2 to 4 years, but those interplanted with white guava were surviving for up to 15 years (Gottwald et al 2010). Raising guava as an intercrop reduced psyllid population in citrus orchards.
+\end{itemize}
+
+\hypertarget{guava-wilt}{%
+\subsection{Guava wilt}\label{guava-wilt}}
+
+Causative agent: \emph{Fusarium oxysporium f.~psidi}, \emph{Rhizoctonia spp.}
+
+Guava plants are attacked by wilt causing pathogen, which alone causes heavy losses in Nepalese guava trees. Yellowing and browning of leaves from the twigs tip. Leaves die off causing cracking in the twigs and trunk leading to the complete wilting and decline of entire tree. The incidence is more severe in alkaline soil and during winter season.
+
+\textbf{Control measures}
+
+\begin{itemize}
+\tightlist
+\item
+  It is better to remove such trees as soon as the symptoms are identified to prevent the spread of disease.
+\item
+  Apply 15 gm of bavistin at the basin of each plant after pruning in March, June and September.
+\item
+  Liming of the pits.
+\item
+  Use of resistant root stock such as chinese guava and wilt resistant variety like Allahabad safeda, Banarasi, Nasik etc.
+\end{itemize}
+
+\hypertarget{fruit-rot-of-guava}{%
+\subsection{Fruit rot of guava}\label{fruit-rot-of-guava}}
+
+Causative agent: \emph{Phomopsis psidi}
+
+This is a serious disease especially during rainy seasons. The symptoms are manifested as development of dark brown circular spots at the blossom end of the immature green fruits.
+
+Control measures: Application of Zineb (0.2\%) or aureofungin (10 ppm) as monthly sprays during June to October can control the disease. Apply Kavach/Rovral (2g/ltr) and Carbendazim (1 g/ltr) during rainy season.
+
+\hypertarget{fruit-canker}{%
+\subsection{Fruit canker}\label{fruit-canker}}
+
+Causative agent: \emph{Pestalotiopsis psidi}
+
+Cankerous growth on fruit leading to cracking of fruits.
+
+Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) during rainy season.
+
+\hypertarget{chirke-and-furket-of-cardamom}{%
+\subsection{Chirke and furket of Cardamom}\label{chirke-and-furket-of-cardamom}}
+
+\hypertarget{downy-mildew-of-cucumber}{%
+\subsection{Downy mildew of cucumber}\label{downy-mildew-of-cucumber}}
+
+\hypertarget{stemphyllium-blight-of-lentil}{%
+\subsection{Stemphyllium blight of lentil}\label{stemphyllium-blight-of-lentil}}
+
+\hypertarget{root-knot-nematode-of-tomato-brinjal-and-ladys-finger}{%
+\subsection{Root knot nematode of Tomato, Brinjal and Lady's finger}\label{root-knot-nematode-of-tomato-brinjal-and-ladys-finger}}
+
+\hypertarget{section}{%
+\section{}\label{section}}
 
 \begin{itemize}
 \tightlist
@@ -2400,82 +2968,18 @@ Importance:
   Crop rotaion for 2-3 years, Vitavex-200 2 g per kg seed treatment.
 \end{itemize}
 
-\hypertarget{crop-insects}{%
-\section{Crop insects}\label{crop-insects}}
-
-\hypertarget{major-insects-of-rice}{%
-\subsection{Major insects of rice}\label{major-insects-of-rice}}
+\hypertarget{major-diseases-of-jackfruit}{%
+\section{Major diseases of jackfruit}\label{major-diseases-of-jackfruit}}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Seed bed bettle, mole cricket, field cricket
-\item
-  Borer
-\item
-  Rice hispa
-\item
-  Hoppers
-\item
-  Rice bug
-\item
-  Leaf roller
-\item
-  Mealy bug
+  Pink disease ( \emph{Botryobasidium salmonicolor})
 \end{enumerate}
 
-\hypertarget{major-insects-of-wheat}{%
-\subsection{Major insects of wheat}\label{major-insects-of-wheat}}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Larvae of wireworm
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  Similar to cutworm in Maize (damages the crop at night)
-\item
-  Use Bt for control
-\item
-  Malathion 5\% DP 2 g per kg with wheat bran 1/2 kg per ropani, during evening
-\item
-  Chlorpyrifos 10\% Granule or Malathion 5\% DP 1 kg per ropani for soil treatment
-\end{itemize}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  Aphid
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  Lady bird beetle is its natural enemy
-\item
-  Dimethoate 30\% EC 1 ml per liter water
-\end{itemize}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{2}
-\tightlist
-\item
-  Pink stem borer
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  Same as that for control of Maize stem borer
-\end{itemize}
+\hypertarget{entomology}{%
+\chapter{Entomology}\label{entomology}}
 
 \hypertarget{pesticide-toxicity}{%
 \section{Pesticide toxicity}\label{pesticide-toxicity}}
@@ -2649,6 +3153,167 @@ Status of pesticide use in Nepal
     These pesticides require special treatment facility for disposal.
   \end{itemize}
 \end{itemize}
+
+\hypertarget{major-insects-of-rice}{%
+\section{Major insects of rice}\label{major-insects-of-rice}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Seed bed bettle, mole cricket, field cricket
+\item
+  Borer
+\item
+  Rice hispa
+\item
+  Hoppers
+\item
+  Rice bug
+\item
+  Leaf roller
+\item
+  Mealy bug
+\end{enumerate}
+
+\hypertarget{major-insects-of-wheat}{%
+\section{Major insects of wheat}\label{major-insects-of-wheat}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Larvae of wireworm
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Similar to cutworm in Maize (damages the crop at night)
+\item
+  Use Bt for control
+\item
+  Malathion 5\% DP 2 g per kg with wheat bran 1/2 kg per ropani, during evening
+\item
+  Chlorpyrifos 10\% Granule or Malathion 5\% DP 1 kg per ropani for soil treatment
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Aphid
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Lady bird beetle is its natural enemy
+\item
+  Dimethoate 30\% EC 1 ml per liter water
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Pink stem borer
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  Same as that for control of Maize stem borer
+\end{itemize}
+
+\hypertarget{major-insects-of-tomato}{%
+\section{Major insects of tomato}\label{major-insects-of-tomato}}
+
+\hypertarget{leaf-miner-of-tomato-tuta-absoluta}{%
+\subsection{\texorpdfstring{Leaf miner of tomato ( \emph{Tuta absoluta})}{Leaf miner of tomato ( Tuta absoluta)}}\label{leaf-miner-of-tomato-tuta-absoluta}}
+
+The tomato leafminer (aka. Tomato pinworm and South American tomato moth) is a species of moth in family Gelechiidae. \emph{T. absoluta} was originally described in 1917 by Meyrick as \emph{Phthorimaea absoluta}. The pest was finally described under the genus Tuta as \emph{T. absoluta} by Povolny in 1994. In India, Maharashtra state tomato cultivation were affected in Nov 2016.
+
+Its life-cycle comprises four development stages: egg, larva, pupa and adult. Adults usually lay eggs on the underside of leaves or stems, and to a lesser extent on fruits. Adult female live 10-15 days and male live 6-7 days.
+
+After hatching, young larvae penetrate leaves, aerial fruits (like tomato) or stems, on which they feed and develop. Larvae drop to the ground in a silken thread and pupate in soil. Pupae (length: 5--6 mm) are cylindrical in shape and greenish when just formed becoming darker in colour as they are near adult emergence. Adults are 6--7 mm in length and present filiform antennae and silver to grey scales. Black spots are present on anterior wings, and the females are wider and more voluminous than the males. The adult moth has a wingspan around 1 cm. In favorable weather conditions eight to ten generations can occur in a single year.
+
+\begin{center}\includegraphics[width=0.8\linewidth]{./images/tuta_absoluta} \end{center}
+
+The pest mainly presents nocturnal habits, and adults usually remain hidden during the day, showing greater morning-crepuscular activity with adults dispersing among crops by flying. Among a range of species within the Solanaceae, tomatoes ( \emph{Lycopersicon esculentum} Miller) appear to be the primary host of \emph{T. absoluta}.
+
+\textbf{Management}
+
+\begin{itemize}
+\tightlist
+\item
+  Removing and destruction of infested plant parts. Tomato is the main host of the plant, but \emph{T. absoluta} also attacks other plants of the nightshade family -- Potato, eggplant, pepino, pepper and tobaccoo, including solanaceous weeds like \emph{Datura stramonium} and \emph{S. nigrum}.
+\item
+  Deep ploughing in spring season followed by solarization of field.
+\item
+  Continuous irrigation and inundating of field can help prevent pupation.
+\item
+  Crop rotation
+\item
+  Use of exclusion net (especially in nursery condition); Mesh size of less than 1.6 mm is recommended.
+\item
+  Use of sticky trap and light traps and yellow delta trap are useful in monitoring of \emph{T. absoluta} populations.
+\item
+  Para-pheromone TLM lure in Wota-T traps. The para-pheromone traps are used to monitor the adult moths. 5 Wota-T traps/ropani or 1 light trap/ropani.
+\item
+  Quarantine measures
+\item
+  Neem based pesticides (Neem raj), Jholmol botanicals
+\item
+  Imidacloprid, Emamectin benzoate (KINGSTAR, EMAR), Chlorantaniliprole (ALLCORA and CORAGEN) 18.5\% EC 1 ml per 3 ltr of water sprayed every 10-15 days, Spinosad (TRACER) 45\% SC 1 ml per 3 ltr water sprayed every 10-15 days, Chlorpyriphos and Cypermethrin.
+\item
+  Chlorantaniliprole, Spinosad and Flubendiamide (ryanoid class) all have waiting period of 7 days, while Emamectin benzoate, ranked as Moderately hazardous has waiting period of 10 days.
+\item
+  \emph{Bacillus thuringiensis kurstaki} (1\% WP 2 g per 1 ltr water sprayed every 7 days) have shown some efficiacy in controlling outbreaks of this moth. Similarly, \emph{Metarrhizium anisopliae} (\(1 \times 10^8\) CFU per gram ) 200-250 gm per ropani can be used for soil treatment.
+\end{itemize}
+
+\textbf{Monitoring of pest}
+
+Crop damage should be monitored every two weeks. If noted abnormal minining in the leaf, with signs of mesophyll tissues being eaten and transparent veins exposed, suspect for presence of larvae of the pest. Tips of plant should show black massess, an indication of insect excreta. Fruits may show irregular strips of white coloration initially. In severe infestation, whole plant may appear as wilted. The larvae of Tuta will not enter diapause unless food is scarce. It is identifiable with characteristic pink colored body of 0.9 cm having half crescent rings like appearance in head.
+
+\hypertarget{major-insects-of-guava}{%
+\section{Major insects of guava}\label{major-insects-of-guava}}
+
+\begin{itemize}
+\tightlist
+\item
+  Fruit fly ( \emph{Dacus dorsalis})
+\item
+  Green shield scale ( \emph{Chloropulvinaria psidii})
+\item
+  Mealy bugs ( \emph{Ferrisia virgata}, \emph{Plannococcus citri})
+\end{itemize}
+
+\hypertarget{major-insects-of-jackfruit}{%
+\section{Major insects of jackfruit}\label{major-insects-of-jackfruit}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Shoot and fruit borer ( \emph{Diaphania caesalis})
+\item
+  Giant mealy bug ( \emph{Drosicha mangiferae})
+\end{enumerate}
+
+\hypertarget{major-insects-of-litchi}{%
+\section{Major insects of litchi}\label{major-insects-of-litchi}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Fruit borer ( \emph{Cryptophlebia illepida}, \emph{Rapala varuna}, \emph{Deudorix epijarbas}, \emph{Deudorix isocrates})
+\item
+  Fruit fly ( \emph{Bactrocera dorsalis})
+\end{enumerate}
 
 \hypertarget{biochemistry-and-biotechnology}{%
 \chapter{Biochemistry and biotechnology}\label{biochemistry-and-biotechnology}}
@@ -4567,6 +5232,631 @@ Objective 5
   \end{itemize}
 \end{itemize}
 
-\bibliography{bibliography/vegetable.bib,bibliography/bib.bib}
+\hypertarget{constitution}{%
+\chapter{Constitution}\label{constitution}}
+
+\begin{questions}
+\question What are the major contents of Constitution of Nepal, 2072
+  \begin{solution}
+  \begin{itemize}
+  \item Preamble
+  \item Part-1 Preliminary
+  \item Part-2 Citizenship
+  \item Part-3 Fundamental Rights and Duties
+  \item Part-4 Directive Principles, Policies and Obligations of the State
+  \item Part-5 Structure of State and Distribution of State Power
+  \item Part-6 President and Vice-President
+  \item Part-7 Federal Executive
+  \item Part-8 Federal Legislature
+  \item Part-9 Federal Legislative Procedures
+  \item Part-10 Federal Financial Procedures
+  \item Part-11 Judiciary
+  \item Part- 12 Attorney General
+  \item Part -13 State Executive
+  \item Part-14 State Legislature
+  \item Part-15 State Legislative Procedures
+  \item Part -16 State Financial Procedures
+  \item Part-17 Local Executive
+  \item Part-18 Local Legislature
+  \item Part-19 Local Financial Procedures
+  \item Part-20 Interrelations between Federation, State and Local Level
+  \item Part-21 Commission for the Investigation of Abuse of Authority
+  \item Part-22 Auditor General
+  \item Part -23 Public Service Commission
+  \item Part-24 Election Commission
+  \item Part-25 National Human Rights Commission
+  \item Part-26 National Natural Resources and Fiscal Commission
+  \item Part- 27 Other Commissions
+  \item Part-28 Provisions Relating to National Security
+  \item Part-29 Provisions Relating to Political Parties
+  \item Part-30 Emergency Power
+  \item Part-31 Amendment to the Constitution
+  \item Part-32 Miscellaneous
+  \item Part-33 Transitional Provisions
+  \item Part-34 Definitions and Interpretations
+  \item Part-35 Short Title, Commencement and Repeal
+  \item Schedule-1 National Flag of Nepal
+  \item Schedule-2 National Anthem of Nepal
+  \item Schedule-3 Coat of Arms of Nepal
+  \item Schedule-4 States, and Districts to be included in the concerned States.
+  \item Schedule-5 List of Federal Power
+  \item Schedule-6 List of State Power
+  \item Schedule-7 List of Concurrent Powers of Federation and State
+  \item Schedule-8 List of Local Level Power
+  \item Schedule-9 List of Concurrent Power of Federation, State and Local level
+  \end{itemize}
+  \end{solution}
+
+\question What does Part-3 of Consitution of Nepal, 2072 -- Fundamental rights and duties, include ?
+\begin{solution}
+
+Fundamental rights and duties start at article 16.
+
+\begin{enumerate}
+\addtocounter{enumiii}{16} % for nested enumerations use enumii, enumiii and enumiv
+\item Right to live with dignity:
+\begin{enumerate}
+\item Every person shall have the right to live with dignity.
+\item No law shall be made providing for the death penalty to any one.
+\end{enumerate}
+\item Right to freedom:
+\begin{enumerate}
+\item No person shall be deprived of his or her personal liberty except in accordance with law.
+\item Every citizen shall have the following freedoms:
+\begin{enumerate}
+\item freedom of opinion and expression,
+\item freedom to assemble peaceably and without arms,
+\item freedom to form political parties,
+\item freedom to form unions and associations,
+\item freedom to move and reside in any part of Nepal,
+\item freedom to practice any profession, carry on any occupation, and establish and operate any industry, trade and business in any part of Nepal.
+\end{enumerate}
+\end{enumerate}
+\item[] Provided that:
+\begin{enumerate}
+\item Nothing in sub-clause (a) shall be deemed to prevent the making of an Act to impose reasonable restrictions on any act which may undermine the sovereignty, territorial integrity, nationality and independence of Nepal or the harmonious relations between the Federal Units or the people of various castes, tribes, religions or communities or incite castebased discrimination or untouchability or on any act of disrespect of labour, defamation, contempt of court, incitement to an offence or on any act which may be contrary to public decency or morality.
+\item Nothing in sub-clause (b) shall be deemed to prevent the making of an Act to impose reasonable restrictions on any act which may undermine the sovereignty, territorial integrity, nationality and independence of Nepal or the harmonious relations between the Federal Units or public peace and order.
+\item Nothing in sub-clause (c) shall be deemed to prevent the making of an Act to impose reasonable restrictions on any act which may undermine the sovereignty, territorial integrity, nationality and independence of Nepal, constitute an espionage against the nation or divulge national secrecy or on any act of rendering assistance to any foreign state, organization or representative in a manner to undermine the security of Nepal or on an act of sedition or on any act which may undermine the harmonious relations between the Federal Units or on any act of incitement to caste-based or communal hatred or on any act which may undermine the harmonious relations between various castes, tribes, religions and communities, or on any act of acquisition of, or restriction on, membership of any political party on the basis solely of tribe, language, religion, community or sex or on any act of formation of a political party with discrimination between citizens or on incitement to violent acts or on any act which may be contrary to public morality. (4) Nothing in sub-clause (d) shall be deemed to prevent the making of an Act to impose reasonable restrictions on any act which may undermine the sovereignty, territorial integrity, nationality and independence of Nepal, or on any act which may constitute espionage against the nation or on any act of divulgence of national secrecy or on any act assisting any foreign state, organization or representative in a manner to undermine the security of Nepal or on an act of sedition or on any act which may undermine the harmonious relations between the Federal Units or on any act of incitement to caste-based or communal hatred or on any act which may undermine the harmonious relations between various castes, tribes, religions and communities or on incitement to violent acts or on any act which may be contrary to public morality.
+\item Nothing in sub-clause (e) shall be deemed to prevent the making of an Act to impose reasonable restrictions on any act which may undermine the interest of the general public or which may undermine the harmonious relations between the Federal Units or the harmonious relations between the peoples of various castes, tribes, religions or communities or which may constitute or incite violent acts.
+\item Nothing in sub-clause (f) shall be deemed to prevent the making of an Act to prevent any act which may undermine the harmonious relations between the Federal Units or any act which may be contrary to public health, decency or morality of the general public or to confer on the State the exclusive right to undertake any specific industry, trade or service, or to prescribe any condition or qualification for carrying on any industry, trade, occupation, employment or business.
+\end{enumerate}
+
+\item Right to equality:
+\begin{enumerate}
+\item All citizens shall be equal before law. No person shall be denied the equal protection of law.
+\item No discrimination shall be made in the application of general laws on grounds of origin, religion, race, caste, tribe, sex, physical condition, condition of health, marital status, pregnancy, economic condition, language or region, ideology or on similar other grounds.
+\item The State shall not discriminate citizens on grounds of origin, religion, race, caste, tribe, sex, economic condition, language, region, ideology or on similar other grounds. Provided that nothing shall be deemed to prevent the making of special provisions by law for the protection, empowerment or development of the citizens including the socially or culturally backward women, Dalit, indigenous people, indigenous nationalities, Madhesi, Tharu, Muslim, oppressed class, Pichhadaclass, minorities, the marginalized, farmers, labours, youths, children, senior citizens, gender and sexual minorities, persons with disabilities, persons in pregnancy, incapacitated or helpless, backward region and indigent Khas Arya.
+Explanation: For the purposes of this Part and Part 4, "indigent" means a person who earns income less than that specified by the Federal law.
+\item No discrimination shall be made on the ground of gender with regard to remuneration and social security for the same work.
+\item All offspring shall have the equal right to the ancestral property without discrimination on the ground of gender.
+\end{enumerate}
+
+\item Right to communication:
+\begin{enumerate}
+\item No publication and broadcasting or dissemination or printing of any news item, editorial, feature article or other reading, audio and audio-visual material through any means whatsoever including electronic publication, broadcasting and printing shall be censored. Provided that nothing shall be deemed to prevent the making of Acts to impose reasonable restrictions on any act which may undermine the sovereignty, territorial integrity, nationality of Nepal or the harmonious relations between the Federal Units or the harmonious relations between various castes, tribes, religions or communities, or on any act of sedition, defamation or contempt of court or incitement to an offence, or on any act which may be contrary to public decency or morality, on any act of hatred to labour and on any act of incitement to caste-based untouchability as well as gender discrimination.
+\item No radio, television, on-line or other form of digital or electronic equipment, press or other means of communication publishing, broadcasting or printing any news item, feature, editorial, article, information or other material shall be closed or seized nor shall registration thereof be cancelled nor shall such material be seized by the reason of publication, broadcasting or printing of such material through any audio, audio-visual or electronic equipment. Provided that nothing contained in this clause shall be deemed to prevent the making of an Act to regulate radio, television, online or any other form of digital or electronic equipment, press or other means of communication.
+\item No means of communication including the press, electronic broadcasting and telephone shall be interrupted except in accordance with law.
+\end{enumerate}
+
+\item Rights relating to justice:
+\begin{enumerate}
+\item No person shall be detained in custody without informing him or her of the ground for his or her arrest.
+\item Any person who is arrested shall have the right to consult a legal practitioner of his or her choice from the time of such arrest and to be defended by such legal practitioner. Any consultation made by such person with, and advice given by, his or her legal practitioner shall be confidential. Provided this clause shall not apply to a citizen of an enemy state. Explanation: For the purpose of this clause, "legal practitioner" means any person who is authorized by law to represent any person in any court.
+\item Any person who is arrested shall be produced before the adjudicating authority within a period of twenty-four hours of such arrest, excluding the time necessary for the journey from the place of arrest to such authority; and any such person shall not be detained in custody except on the order of such authority. Provided that this clause shall not apply to a person held in preventive detention and to a citizen of an enemy state.
+\item No person shall be liable for punishment for an act which was not punishable by the law in force when the act was committed nor shall any person be subjected to a punishment greater than that prescribed by the law in force at the time of the commission of the offence.
+\item Every person charged with an offence shall be presumed innocent until proved guilty of the offence.
+\item No person shall be tried and punished for the same offence in a court more than once.
+\item No person charged with an offence shall be compelled to testify against himself or herself.
+\item Every person shall have the right to be informed of any proceedings taken against him or her.
+\item Every person shall have the right to a fair trial by an independent, impartial and competent court or judicial body.
+\item Any indigent party shall have the right to free legal aid in accordance with law.
+\end{enumerate}
+
+\item Right of victim of crime:
+\begin{enumerate}
+\item A victim of crime shall have the right to get information about the investigation and proceedings of a case in which he or she is the victim.
+\item A victim of crime shall have the right to justice including social rehabilitation and compensation in accordance with law.
+\end{enumerate}
+
+\item Right against torture:
+\begin{enumerate}
+\item No person who is arrested or detained shall be subjected to physical or mental torture or to cruel, inhuman or degrading treatment.
+\item Any act mentioned in clause (1) shall be punishable by law, and any person who is the victim of such treatment shall have the right to obtain compensation in accordance with law.
+\end{enumerate}
+
+\item Right against preventive detention:
+\begin{enumerate}
+\item No person shall be held under preventive detention unless there is a sufficient ground of the existence of an immediate threat to the sovereignty, territorial integrity or public peace and order of Nepal.
+\item Information about the situation of a person who is held under preventive detention pursuant to clause (1) must be given immediately to his or her family members or relatives. Provided that this clause shall not apply to a citizen of an enemy state.
+\item If the authority making preventive detention holds any person under preventive detention contrary to law or in bad faith, the person held under preventive detention shall have the right to obtain compensation in accordance with law.
+\end{enumerate}
+
+\item Right against untouchability and discrimination:
+\begin{enumerate}
+\item No person shall be subjected to any form of untouchability or discrimination in any private and public places on grounds of his or her origin, caste, tribe, community, profession, occupation or physical condition.
+\item In producing or distributing any goods, services or facilities, no person belonging to any particular caste or tribe shall be prevented from purchasing or acquiring such goods, services or facilities nor shall such goods, services or facilities be sold, distributed or provided only to the persons belonging to any particular caste or tribe.
+\item No act purporting to demonstrate any person or community as superior or inferior on grounds of origin, caste, tribe or physical condition or justifying social discrimination on grounds of caste, tribe or untouchability or propagating ideology based on untouchability and caste based superiority or hatred or encouraging caste-based discrimination in any manner whatsoever shall be allowed.
+\item No discrimination in any form shall be allowed at a workplace with or without making untouchability on the ground of caste.
+\item Any act of untouchability and discrimination in any for committed in contravention of this Article shall be punishable by law as a severe social offence, and the victim of such act shall have the right to obtain compensation in accordance with law.
+\end{enumerate}
+
+\item Right relating to property:
+\begin{enumerate}
+\item Every citizen shall, subject to law, have the right to acquire, own, sell, dispose, acquire business profits from, and otherwise deal with, property. Provided that the State may levy tax on property of a person, and tax on income of a person in accordance with the concept of progressive taxation. Explanation: For the purposes of this Article, "property" means any form of property including movable and immovable property, and includes an intellectual property right.
+\item The State shall not, except for public interest, requisition, acquire, or otherwise create any encumbrance on, property of a person. Provided that this clause shall not apply to any property acquired by any person illicitly.
+\item The basis of compensation to be provided and procedures to be followed in the requisition by the State of property of any person for public interest in accordance with clause (2) shall be as provided for in the Act.
+\item The provisions of clauses (2) and (3) shall not prevent the State from making land reforms, management and regulation in accordance with lawfor the purposes of enhancement of product and productivity of lands, modernization and commercialization of agriculture, environment protection and planned housing and urban development.
+\item Nothing shall prevent the State from using the property of any person, which it has requisitioned for public interest in accordance with clause (3), for any other public interest instead of such public interest.
+\end{enumerate}
+
+\item Right to freedom of religion:
+\begin{enumerate}
+\item Every person who has faith in religion shall have the freedom to profess, practice and protect his or her religion according to his or her conviction.
+\item Every religious denomination shall have the right to operate and protect its religious sites and religious Guthi (trusts).
+\item[] Provided that nothing shall be deemed to prevent the regulation, by making law, of the operation and protection of religious sites and religious trusts and management of trust properties and lands.
+\item No person shall, in the exercise of the right conferred by this Article, do, or cause to be done, any act which may be contrary to public health, decency and morality or breach public peace, or convert another person from one religion to another or any act or conduct that may jeopardize other's religion and such act shall be punishable by law.
+\end{enumerate}
+
+\item Right to information: Every citizen shall have the right to demand and receive information on any matter of his or her interest or of public interest. Provided that no one shall be compelled to provide information on any matter of which confidentiality must be maintained in accordance with law.
+\item Right to privacy: The privacy of any person, his or her residence, property, document, data, correspondence and matters relating to his or her character shall, except in accordance with law, be inviolable.
+\item Right against exploitation:
+\begin{enumerate}
+\item Every person shall have the right against exploitation.
+\item No person shall be exploited in any manner on the grounds of religion, custom, tradition, usage, practice or on any other grounds.
+\item No one shall be subjected to trafficking nor shall one be held in slavery or servitude.
+\item No one shall be forced to work against his or her will. Provided that nothing shall be deemed to prevent the making of law empowering the State to require citizens to perform compulsory service for public purposes.
+\item Act contrary to clauses (3) and (4) shall be punishable by law and the victim shall have the right to obtain compensation from the perpetrator in accordance with law.
+\end{enumerate}
+
+\item Right to clean environment:
+\begin{enumerate}
+\item Every citizen shall have the right to live in a clean and healthy environment.
+\item The victim shall have the right to obtain compensation, in accordance with law, for any injury caused from environmental pollution or degradation.
+\item This Article shall not be deemed to prevent the making of necessary legal provisions for a proper balance between the environment and development, in development works of the nation.
+\end{enumerate}
+
+\item Right relating to education:
+\begin{enumerate}
+\item Every citizen shall have the right of access to basic education.
+\item Every citizen shall have the right to get compulsory and free education up to the basic level and free education up to the secondary level from the State.
+\item The citizens with disabilities and the economically indigent citizens shall have the right to get free higher education in accordance with law.
+\item The visually impaired citizens shall have the right to get free education through brail script and the citizens with hearing or speaking impairment, to get free education through sign language, in accordance with law.
+\item Every Nepalese community residing in Nepal shall have the right to get education in its mother tongue and, for that purpose, to open and operate schools and educational institutes, in accordance with law.
+\end{enumerate}
+
+\item Right to language and culture:
+\begin{enumerate}
+\item Every person and community shall have the right to use their languages.
+\item Every person and community shall have the right to participate in the cultural life of their communities.
+\item Every Nepalese community residing in Nepal shall have the right to preserve and promote its language, script, culture, cultural civilization and heritage.
+\end{enumerate}
+
+\item Right to employment:
+\begin{enumerate}
+\item Every citizen shall have the right to employment. The terms and conditions of employment, and unemployment benefit shall be as provided for in the Federal law.
+\item Every citizen shall have the right to choose employment.
+\end{enumerate}
+
+\item Right to labour:
+\begin{enumerate}
+\item Every labourer shall have the right to practice appropriate labour. Explanation: For the purposes of this Article, "labourer" means a labourer or worker who does physical or mental work for an employer in consideration for remuneration.
+\item Every labourer shall have the right to appropriate remuneration, facilities and contributory social security.
+\item Every labourer shall have the right to form and join trade unions and to engage in collective bargaining, in accordance with law.
+\end{enumerate}
+
+\item Right relating to health:
+\begin{enumerate}
+\item Every citizen shall have the right to free basic health services from the State, and no one shall be deprived of emergency health services.
+\item Every person shall have the right to get information about his or her medical treatment.
+\item Every citizen shall have equal access to health services.
+\item Every citizen shall have the right of access to clean drinking water and sanitation.
+\end{enumerate}
+
+\item Right relating to food:
+\begin{enumerate}
+\item Every citizen shall have the right relating to food.
+\item Every citizen shall have the right to be safe from the state of being in danger of life from the scarcity of food.
+\item Every citizen shall have the right to food sovereignty in accordance with law.
+\end{enumerate}
+
+\item Right to housing:
+\begin{enumerate}
+\item Every citizen shall have the right to an appropriate housing.
+\item No citizen shall be evicted from the residence owned by him or her nor shall his or her residence be infringed except in accordance with law.
+\end{enumerate}
+
+\item Rights of women:
+\begin{enumerate}
+\item Every woman shall have equal lineage right without gender based discrimination.
+\item Every woman shall have the right to safe motherhood and reproductive health.
+\item No woman shall be subjected to physical, mental, sexual, psychological or other form of violence or exploitation on grounds of religion, social, cultural tradition, practice or on any other grounds. Such act shall be punishable by law, and the victim shall have the right to obtain compensation in accordance with law.
+\item Women shall have the right to participate in all bodies of the State on the basis of the principle of proportional inclusion.
+\item Women shall have the right to obtain special opportunity in education, health, employment and social security, on the basis of positive discrimination.
+\item The spouse shall have the equal right to property and family affairs.
+\end{enumerate}
+
+\item Rights of the child:
+\begin{enumerate}
+\item Every child shall have the right to name and birth registration along with his or her identity.
+\item Every child shall have the right to education, health, maintenance, proper care, sports, entertainment and overall personality development from the families and the State.
+\item Every child shall have the right to elementary child development and child participation.
+\item No child shall be employed to work in any factory, mine or engaged in similar other hazardous work.
+\item No child shall be subjected to child marriage, transported illegally, abducted/kidnapped or taken in hostage.
+\item No child shall be recruited or used in army, police or any armed group, or be subjected, in the name of cultural or religious traditions, to abuse, exclusion or physical, mental, sexual or other form of exploitation or improper use by any means or in any manner.
+\item No child shall be subjected to physical, mental or any other form of torture in home, school or other place and situation whatsoever.
+\item Every child shall have the right to juvenile friendly justice.
+\item The child who is helpless, orphan, with disabilities, conflict victim, displaced or vulnerable shall have the right to special protection and facilities from the State.
+\item Any act contrary to in clauses (4), (5), (6) and (7) shall be punishable by law, and a child who is the victim of such act shall have the right to obtain compensation from the perpetrator, in accordance with law.
+\end{enumerate}
+
+\item Rights of Dalit:
+\begin{enumerate}
+\item The Dalit shall have the right to participate in all bodies of the State on the basis of the principle of proportional inclusion. Special provision shall be made by law for the empowerment, representation and participation of the Dalit community in public services as well as other sectors of employment.
+\item Provision of free education with scholarship, from primary to higher education, shall be made by law for the Dalit students. Special provision shall be made by law for the Dalit in technical and vocational education.
+\item Special provision shall be made by law in order to provide health and social security to the Dalit community.
+\item The Dalit community shall have the right to use, protect and develop their traditional occupation, knowledge, skill and technology. The State shall accord priority to the Dalit community in modern business related with their traditional occupation and provide skills and resources required therefore.
+\item The State shall once provide land to the landless Dalit in accordance with law.
+\item The State shall, in accordance with law, arrange settlement for the Dalit who do not have housing.
+\item The facilities conferred by this Article to the Dalit community must be distributed in a just manner so that the Dalit women, men and Dalit in all communities can obtain such facilities proportionately.
+\end{enumerate}
+
+\item Rights of senior citizens: The senior citizens shall have the right to special protection and social security from the State.
+
+\item Right to social justice:
+\begin{enumerate}
+\item The socially backward women, Dalit, indigenous people, indigenous nationalities, Madhesi, Tharu, minorities, persons with disabilities, marginalized communities, Muslims, backward classes, gender and sexual minorities, youths, farmers, labourers, oppressed or citizens of backward regions and indigent Khas Aryashall have the right to participate in the State bodies on the basis of inclusive principle.
+\item The indigent citizens and citizens of the communities on the verge of extinction shall have the right to get special opportunities and benefits in education, health, housing, employment, food and social security for their protection, upliftment, empowerment and development.
+\item The citizens with disabilities shall have the right to live with dignity and honour, with the identity of their diversity, and have equal access to public services and facilities.
+\item Every farmer shall have the right to have access to lands for agro activities, select and protect local seeds and agro species which have been used and pursued traditionally, in accordance with law.
+\item The families of the martyrs who have sacrificed their life, persons who were forced to disappear, and those who became disabled and injured in all people's movements, armed conflicts and revolutions that have been carried out for progressive democratic changes in Nepal, democracy fighters, conflict victims and displaced ones, persons with disabilities, the injured and victims shall have the right to get a prioritized opportunity, with justice and due respect, in education, health, employment, housing and social security, in accordance with law.
+\end{enumerate}
+
+\item Right to social security: The indigent citizens, incapacitated and helpless citizens, helpless single women, citizens with disabilities, children, citizens who cannot take care themselves and citizens belonging to the tribes on the verge of extinction shall have the right to social security, in accordance with law.
+
+\item Rights of the consumer:
+\begin{enumerate}
+\item Every consumer shall have the right to obtain quality goods and services.
+\item A person who has suffered injury from any substandard goods or services shall have the right to obtain compensation in accordance with law.
+\end{enumerate}
+
+\item Right against exile: No citizen shall be exiled.
+\item Right to constitutional remedies: There shall be a right to obtain constitutional remedies in the manner set forth in Article 133 or 144 for the enforcement of the rights conferred by this Part.
+\item Implementation of fundamental rights: The State shall, as required, make legal provisions for the implementation of the rights conferred by this Part, within three years of the commencement of this Constitution.
+\item Duties of citizens:
+\begin{enumerate}
+\item[] Every citizen shall have the following duties:
+\item to safeguard the nationality, sovereignty and integrity of Nepal, while being loyal to the nation,
+\item to abide by the Constitution and law,
+\item to render compulsory service as and when the State so requires,
+\item to protect and preserve public property.
+\end{enumerate}
+\end{enumerate}
+\end{solution}
+
+
+\end{questions}
+
+\hypertarget{general-knowledge-elaborate}{%
+\chapter{General knowledge elaborate}\label{general-knowledge-elaborate}}
+
+\hypertarget{national-affairs}{%
+\section{National affairs}\label{national-affairs}}
+
+\begin{questions}
+
+\question Describe the 15th plan approach paper:
+% \makeemptybox{1.5in} % use this to provide a box in question
+\begin{solution}
+The 15th plan approach paper is a piece of shit.
+\end{solution}
+
+\question Describe about the provisions of civil rights in the consitiution of Nepal.
+
+\question Write about BIMSTEC.
+
+\end{questions}
+
+\hypertarget{international-affairs}{%
+\section{International affairs}\label{international-affairs}}
+
+\begin{questions}
+
+\question Discuss about the major impacts on people's lifestyle due to the geographic conditions of Nepal.
+% \makeemptybox{1.5in} % use this to provide a box in question
+\begin{solution}
+Physical geography is the study of natural features and phenomena on the planet's surface and our interactions with them. These features include vegetation, climate, the local water cycle, and land formations. Geography doesn't just determine whether humans can live in a certain area or not, it also determines people's lifestyles, as they adapt to the available food and climate patterns. As humans have migrated across the planet, they have had to adapt to all the changing conditions they were exposed to. At first, particular cultures develop because of the physical landscape. Over time, those cultures exert their own influence on the landscape around them.
+
+Life cannot be the same in arctic regions as in the tropics; nor upon deserts of drifting sand as upon the grassy steppes which afford the natural home for wandering shepherds and their herds; nor upon the seacoast with its fisheries and commerce as among the mountains with their forests and mines. But it is not alone the extreme and unusual manifestations of nature which affect the life of man. So relatively inconspicuous a fact as the presence of a creature adapted to become a beast of burden might enable one people to grow into a triumphant race, contributors to a dominant civilization, and the absence of such a creature might condemn another race to backwardness and final extinction.
+
+Geography, in overall, affects socio-economic lifestyle of people in following ways:
+- Geographic conditions determine the size of populations.
+- The economic occupations of a people are determined by their geographic environment.
+- Stagnation or progression are conditioned largely by geographic surroundings.
+- Lawlessness is the natural consequence of geographic inaccessibility
+- The form of government is affected by geographic conditions
+- Tastes and social and domestic customs are influenced by geographic conditions: Football is out of place in the tropics, and ice-skating is impossible. Athletic sports are indigenous to cool climates, and are the objects of amazement to inhabitants of torrid regions. The long evenings of the northern winter call into being suitable pastimes.
+- Ethical differences are largely influenced by geographic environment
+- Mythologies and religions are influenced by geographic environment: What the nature-myths of a people shall be depends in part upon what aspects of nature in their neighborhood are most impressive, whether they live by the sea, upon the banks of a great river, among the mountains, in the depths of the forest, or on a plain where the overarching sky with sun and stars chiefly command the gaze. The existing form of earthly power and authority tends to shape man's notion of divine rule.
+- Geographic conditions affect the moods and psychic tendencies of a people:  General vital processes, upon which the action of the brain and nervous system depends, affected by conditions of heat, light, and moisture, but the nerves themselves are directly stimulated or depressed. To this cause has been ascribed the fact that the cradles of civilization have been found in dry regions like the Egyptian oasis in the desert, and the plains of Iran and of Central America. Not only does climate affect the permanent tendencies of races, but passing changes of the seasons affect the moods of men. Alternations of the seasons give variety to life and stimulation to the imagination.
+- Routes followed by migration, war and commerce have been marked out by geographic highways, and these have been the great distributers of human populations, customs, and commodities.
+
+\textbf{Land Formation}
+Land formation is the physical shape of an area and the several processes that help form that shape. One process that makes a big impact is plate tectonics: the movements of crustal plates on the Earth's surface. These plates are constantly sliding past and colliding into one another. Plate movements can affect the availability of water by disrupting rivers and they disturb land formations that humans have settled on, like an earthquake ravaging a major city. Animals hunted by humans for food can be displaced as well, forcing people to move to another area to survive. Thronging cities are found at points of geographical advantage.
+
+\textbf{Soil}
+Soil carries out several functions that profoundly impact human activity. Soil recycles nutrients, regulates water quality, sustains life, and provides structural support for buildings. Without healthy soil, a previously fertile area turns into a desert, making it difficult to sustain vegetation and prevent massive loss of life. Soil doesn't just provide for agriculture, it also helps modern life because it contains minerals. These minerals include ore, which contains metals used for electronics and peat used for heating. People may move temporarily to more fertile areas to provide for their families, especially if they live in poorer countries like Kenya.
+
+\textbf{Water Access}
+Water is purified by evaporation into the atmosphere, from where it falls back to land and the oceans through rainfall. All humans need water to survive, and depend on regular rainfall and other sources of clean water for drinking and agriculture. Water is found above, on, and under the ground. People tend to settle near bodies of water such as oceans, rivers, and lakes for easy access to large amounts of water. For example, nearly the entire population of Egypt is concentrated around the delta of the Nile River because the rest of the country is an arid desert.
+
+\textbf{Climate}
+Climate is the pattern of variation in temperature, humidity, and pressure over an area for long periods of time. There are several types of climates: tropical with high rainfall and temperatures over 18 degrees Celsius, dry, subtropical with mild winters, continental with cold winters, and polar. People have not only adjusted their clothing and housing based on temperature, but their bodies have also adapted. The Masai people have longer limbs that help them lose body heat in the warm climate of East Africa. Arctic-dwelling Inuit adapted by storing more body fat and increasing metabolic rates.
+\end{solution}
+
+\question What is the current status of languages used in Nepal according to Language Commission ?
+\begin{solution}
+
+Six new languages have been added to the list of 123 languages spoken in Nepal. These newly discovered one include:
+
+Kanchanpur: Rana Tharu,
+Manang: Nar Phu,
+Gorkha: Chum (Syaar) and Nubri (Larke),
+Dolpa: Poike, and
+Mustang: Serake (Seke)
+
+Current Chairman of the Language Commission Dr. Lava Dev Awasthi submitted the annual report to President in her Office at SheetalNiwas. Prior to it, the national census 2068 had enlisted 123 languages as the languages spoken in Nepal. The list then had grouped 68 languages of the Sino-Tibetian family, 48 languages of Indo-European family and one each of Dravidian family (Uraon-Kudukh) and Austroasiatic family (Santhali) and a language with anonymous identity (Kusunda) as in different language families.
+
+There are 19 languages with more than 100,000 speakers. This consists of 95.91\% of the total population. Among other languages spoken by the rest of the population 24 languages like Dura, Kusunda, Tilunga have a small number of speakers which has ultimately led them on the verge of extinction.
+
+Among others at stake are: Pali, Sankskrit and Bhot.
+
+The report blames excessive craze for English, colonial mindset and the illusions generated by the global market substituting the local one for endangering glorious linguistic diversity and multicultural lifestyle of Nepal.
+
+To facilitate its activities the commission has prepared the list of experts of 101 languages.
+
+The Commission has suggested to form a High-Level Linguistic Policy Determination Committee and assign it the task of coordinating and facilitating various activities related to the constitutional and other legal provisions related to language.
+
+\end{solution}
+
+\question What is budget? Describe the weakness of Nepal's budgetary system.
+\begin{solution}
+
+National (Government) budget is a document prepared by the government or other political entity presenting its anticipated revenues and proposed spending for coming fincancial year. Nepal's budgeting system is a combination of top-down and bottom-up approach, which brings about a synergy between the national level plans and local level needs; and ensures that the budget fulfills the demands of both the state and the locals.
+
+Normally, the process of budget formulation in Nepal would begin in January and end in July, when the fiscal year starts. However, with the provision of the Constitution of Nepal, 2015, the budget cycle has been moved forward to be presented on the date of 15th Jestha (May 28).
+
+The budget formulation steps can be generalized into four phases:
+\begin{enumerate}
+\item Preparation
+\item Enactment/legislation
+\item Execution
+\item Auditing
+\end{enumerate}
+
+The first step in formulating a budget is forecasting, wherein the sources of revenues and tentative areas of expenditures are identified. The process of forecasting is led by a Resource Committee (RC), which is chaired by the Vice Chairperson of National Planning Commission (NPC), and includes other members from NPC, members from Ministry of Finance (MoF), Central Bank of Nepal and the Financial Comptroller General Office (FCGO). The RC determines the size of budget by analyzing overall economic situation of the country with the help of macro-economic indicators. Once the forecast has been prepared, it is presented to the budget committee comprising of the members of the NPC and the MoF. The committee, after thourough discussion sets the budget ceiling, which limits the budget expenditure based on sectors and availability of resources. The committee also prepares the working guidelines for budget formulation. Thereafter, each of the line ministries is asked to submit their programs and budget estimates (both capital and recurrent) in accordance to the guidelines and sectoral budget ceilings. The line ministries then forward the guideline along with the budget ceiling and priorities to respective departments and agencies functioning under it, either at the district level or at the central level. Based on the guidelines, these agencies prepare the forthcoming year's programs and budget and send it back to the concerned departments. The departments compile the programs and budget of all agencies under them and submit it to the respective line ministries. Some negotiations can take place between Ministries and the departments before it is vetted and consolidated by the Ministers and forwarded to the MoF and NPC for finalization.
+
+Planning -- Devolved programs are financed by the center but fall under the administrative purview of the District Development Committees (DDC), hence the process of budget formulation is different from top-down budgeting. The NPC sends guidelines to DDCs for district level plans and programs. The guideline is passed down to the VDCs and Municipalities, who hold village/town council meetings to discuss and prepare sector-wise development programs and projects. Interest groups such as the consumer committees, NGOs, political leaders, and citizens are included in these discussions. Their plans are then forwarded to the VDC/municipality where it gets accumulated. Once the VDC scrutinizes and gives a green signal to the plan, it moves up to the District Council which re-examines the budget and forwards it to the DDC. The DDC then hold meetings with district offices and finalizes district budget and priorities, which is then sent to the NPC and the Ministries. While this is the process that should be theoretically followed, it is not necessarily fully operated because of absence of popularly elected offcials. As departments are not given a sectoral budget ceiling, they generally do not take expenditure limitations into account; insted they look at project-specific targets as a guide for the budget.
+
+Enactment -- Once the MoF receives the budget from all line ministries, inter-ministerial meetings are held to vet and finalize the national budget. Similarly, the NPC discusses all the programs submitted by the Ministries, and finalized those programs in consideration of the relevancy, budget allocation, and budget handling capacity of the Ministry. Before the budget is presented in the parliament, the parliamentarians are presented with a draft budget document for them to discuss the sector-wise specifics. The comments and queries that arise during the ministry-specific discussions are discussed in detail until the relevant ministry and parliamentarians are satisfied with the clarifications provided to their queries. The budget is presented by the government only after the ministry level budget discussion ends. If the majority agrees with the budget then it is approved and is presented to the national Parliament in the form of a Budget Speech by the Minister of Finance.
+
+Execution -- It is also called the procedure of releasing budget. The process of fund release starts with the approval of the budget by the parliament. Two further steps are required after the parliamentary approval of the budget:
+
+\begin{itemize}
+\item Finalization of work programs consistent with the ratified budget for each spending unit by the respective line Ministries and their approval by NPC
+\item The formal delgation (through official notification) of authority to spend by the Secretary of Finance to sectoral Ministries and then to project managers.
+\end{itemize}
+
+Immediately after completion of the discussion  on  the  underlying principles  and  policies,  the  Finance  Ministries  puts before the parliament the Vote on Account Bills, which authorizes the government to spend a specified amount in advance. The process of releasing budget is as follows:
+
+\begin{enumerate}
+\item Whereas up to one-third of the previous year's expenditure was often released under the advance bill past fiscal years, the government can now advance up to one-third of the budget for core projects, two-third or one-sixth for remote projects and one-sixth for regular and other programs. Subsequent release can follow after the Appropriation bill gets of the Head of the State assent. Budget release will be made on monthly basis. In the past, trimester budget release was in practice. However, the Financial Comptroller General Office (FCGO) has maintained the trimester and lump sum system for subsidies (DDC, VDC, Education, health, Public corporation, Companies), controlled budget (Medical care, gratuities and others).
+\item For donor-funded projects, budget will be released on a pre-funding (donors have to put deposit to GoN, treasury in advance) and reimbursement basis (applied for loan-financed projects and to some extent for bilateral donor-financed projects depending upon the agreement.)
+\item The system of imprest account established under ADB and WB-financed projects have also been maintained under which the project authority can withdraw directly from the said account.
+\end{enumerate}
+
+After the approval of the Appropriation bill, MoF will inform the entire sector ministries on the project details of the approved budget, and send the sources book on foreign aided projects and letter of authority for all expenditures to all ministries, FCGO and Auditor General's Offices (AGO). Line ministries also forward such budget details and authority latter for expenditure through their concerned Department/Project Coordinator Offices (PCO) to the district line agencies with copies to the FCGO and each District Treasury Offices (DTO).
+
+\begin{itemize}
+\item The Department/PCO prepares the unit/wise program supported by budgetary details both source-wise and items-wise and forward it to the NPC and line agencies. In that process, the central level projects will be approved by the NPC and the district level projects by the ministries concerned.
+\item After the approval of the program as maintained in (a) the Department/PCO make available to each unit under it the program and budgetary detail. Then each project unit and PCO submit the monthly release reports along with copies of the approved program and authority letters giving budgetary details to the nearest DTO.
+\end{itemize}
+
+The FCGO and DTO play important role in the budget release process. The DTOs process all request and will release the funds requested to respective agency's bank account. DTO releases the fund upon the receipt of the following documents:
+
+\begin{enumerate}
+\item Authority letter from the concerned ministry,
+\item Release order to DTO by FCGO,
+\item Project/program duly approved by NPC and document in the budget,
+\item The FCGO release funds on a monthly basis, provided the above mentioned conditions are fulfilled and the budget requests tally with the sources book,
+\item DTO release the fund only after receiving the statement of expenditure of the previous month from the requesting agency,
+\item DTO is also empowered to release the donor portion budget on a reimbursement basis, if so provisioned in the sources book,
+\item In the case of pre-funding arrangement in the sources book, budget is released to the extent of donor contribution available.
+\end{enumerate}
+
+Auditing -- The final phase of budget cycle is auditing. This is the overall responsibility of the Auditor General (AG) to prepare the annual report after accomplishing auditing of all government transaction. The AG presents its annual report to GoN, which is later forwarded to parliament for discussion and implementation.
+
+\end{solution}
+
+\question What are different types of budget? What are the needs and importances of government budget ?
+\begin{solution}
+
+A budget can be of three types
+\begin{itemize}
+\item Balanced budget: when government receipts are equal to the government expenditure.
+\item Deficit budget: when government expenditure exceeds government receipts. A deficit can be of 3 types: revenue, fiscal and primary deficit. A budget deficit occurs when an individual, business or government budgets more spending than there is revenue available to pay for the spending, over a specific period of time.
+\item Surplus: when government receipts exceed expenditure.
+\end{itemize}
+
+Need and importance of a government budget
+\begin{enumerate}
+\item Planned approach to government's activities
+\item Integrated approach to fiscal operations
+\item Affecting economic activities
+\item Instrument of economics policy
+\item Index of government's functioning
+\item Public accountability
+\item Allocation of resources
+\item GDP growth
+\item Elimination of poverty
+\item Reduce inequality in distribution of income
+\item Tax and non-tax receipt
+\end{enumerate}
+
+\end{solution}
+
+\question What is good governance ?
+\begin{solution}
+There are various definitions of the term \textit{good governance}. These definitions are based on normative assumptions about how decisions should be made within organizations and the functioning of formal and informal structures for implementing such decisions. The UN Commission on Human Rights identifies transparency, responsibility, accountability, participation, and responsiveness as key attributes of good governance. By linking good governance specifically to human rights and sustainable development, the UN explicitly recognizes that governance issues are global in nature and consequently require more nuanced and integrated approach. The Canadian International Development Agency defines good governance as the exercise of ower by an organization (or government) in an effective, equitable, honest, transparent, and accountable way. This definition is consonant with a shift among member countriess of the Organization for Economic Cooperation and Development (OECD) to respond to increasing pressure ushered in by final crises, a globally coordinated economy, and dissatisfied citizens. Some of the trends that flw from this changing governance context include downsizing public service, undertaking regulatory reforms, measuring performance, benchmarking progress, and linking more explicitly actions and outcomes. This approach to governance focuses on how organizations are directed, controlled and shown to be acting responsibly.
+
+Good governance is increasingly seen as essential for ensuring national prosperity by increasing acccountability, reliability, and predictability of decision making in governments, corportations, and non-governmental organization. Furthermore, this concept is being used in the development and management literature because bad governance is often identified as a root cause of social inequality, development failures, and corporate scandals.
+
+The UNDP (1997) articulates eight principles of good governance. These principles are:
+
+\begin{enumerate}
+\item \textbf{Equality of participation in decision making.} All people, irrespect ve of sex, class, or race should be heard and allowed to participate in deliberations that affect them directly or indirectly. In democratic societies, citizens can participate in various ways, ranging from voting to involvement in acts of civil disobedience. In many instances, participation must be informed and organized through civil society actors who can often leverage resources more successfully. Good governance implies that organizations encourage participation from those who may both benefit or be harmed by any decisions taken. Participation also means that individuals have the rights of freedom of association and expression, and to participate in organized civil society without fear of retribution or the stigma of being labeled unfairly as a "special interest" group.
+\item \textbf{Organizations must be responsive to the needs of all stakeholders in a reasonable timeframe.} On one level, this means that organizations must hire, train, and retain employees to achieve optimal response time and high quality outcomes. On a more general level, organizations must ensure that they have the capacity, and in some cases the autonomy, to implement changes to structure and management systems to maximize efficiency.
+\item \textbf{Organizations must mediate differences between stakeholders to reach a broad consensus.} Good governance requires that organizations involved in divisive issues like abortion, stem-cell research, human cloning, euthanasisa, etc. enter such debates in the spirit of cooperation and mediation. To achieve this goal, organizations must treat all stakeholders consistently and fairly.
+\item \textbf{Organizations must be accountable to the stakeholders they serve.} Good governance requires a broad definition of who such stakeholders may be. Many organizations limit intentionally the list of those they define as valid stakeholders to narrow the scope of decision-making authority, the range of topics addressed, and the nature of the decisions that are made. In general, organizations should be accountable to those affected by the entire range of decisions or actions made and implemented by an organization.
+\item \textbf{Organizations must strive for transparency in their decision-making processes so that interested parties can understand the bases of decisions and monitor progress.} Good governance requires that organizations justify decisions made by demonstrating how such decisions respect the precedent from previous decisions.
+\item \textbf{Organizations must work within legal frameworks that are crafted in fair ways, enforced impartially, and attuned to human rights issues.} Good governance means that a country’s legal environment should be conducive to development. Investors must feel comfortable that due process will be followed in all countries of interest, and that a wide range of issues including protection of intellectual property, fair application of trade subsidies and sanctions, and a regulated financial marketplace exist. Organizations must also follow the laws of the land and ensure that all decisions made are consistent with such laws.
+\item \textbf{Decisionmakers should have a broad and long-term vision on how to better the processes of governance to ensure continued economic and social development.}
+\item \textbf{Good governance involves guaranteeing the rights of all individuals to maintain and improve their well-being in an equitable and inclusive manner.} This principle conveys the message that good governance is about stewardship and care and that it involves the highest ethical positioning possible.
+\end{enumerate}
+
+Clearly, good governance is more political than technical in nature and emphisizes the primacy of equality and the value of vision, strategic thinking, and planning. Good governance is a tool for making organizations work more effectively in a world where trust is declining in government, industry, science, and other institutions. Good governance is based on democratic values that stimulate administrative reforms that affect a range of organizations.
+
+The World Bank has compiled a list of six dimensions of public-sector governance that are used in an aggregate fashion to measure the quality of governance: voice and accountability, political stability and absence of violence, government effectiveness, regulatory quality, rule of law, and control of corruption. As new global standards of governance emerge, indicators like these can be used to diagnose failures and to suggest solutions to a range of performance and process issues.
+
+Good governance is an ideal that is difficult to achieve. Although good governance requires a systematic approach to ensure that organizations are transparent, honest, and oriented toward equity issues, its practice is uneven across organizations and sectors. To ensure that good governance prevails, elected representatives, corporative executives and boards of directors, professional bodies, and civil society groups need to become more active in learning about the perils associated with "bad" governance and push for stronger laws and policies that protect the public interest.
+
+\end{solution}
+
+\question What is drug abuse ? What are the effects and consequences of drug abuse ?
+
+\begin{solution}
+The substance that affects our mind and organs and damages our body if used in uncontrolled amount is drug. The habit of taking drug regularly is drug abuse or drug addition. Drug abuse and addiction have negative consequences on individuals and society as well. In reality, drug addiction is a complex disease, and quitting it takes more than good intentions or a strong will. Drug abuse is a serious public health problem that affects almost every community and family in some way. Each year drug abuse causes millions of serious illnesses or injuries. Drug abuse also plays a role in many social problems, such as drugged driving, violence, stress, and child abuse. It can lead to homelessness, crime, loss of employment, failure in school, domestic violence, etc.
+
+Generally, drugs are illegal. Some of the drugs used and supplied by the drug users and drug traffickers are herion, smack, cocaine, cannabis, etc. Selling of such substance is illegal subject to criminal offense. Although strict laws are in place for punishing those who are involved in drug trafficking business, several people are involved in it. Below are some of the reasons that make it very difficult to stop drug trafficking:
+
+\begin{enumerate}
+\item The traffickers run this business in an organized way.
+\item The traffickers use their private means of transportation for supply.
+\item They have good link in customs, airport, etc.
+\item There is good deal of money in this business.
+\item The traffickers have link and wide network with high ranking officials and politicians.
+\end{enumerate}
+
+\textbf{Causes of taking drug}
+
+The use and trend of using drugs is increasing rapidly in the world. About 4\% of the world's population use drug of some form. Many adolescents, teenagers and youth easily fall to drug abuse than elders because they are easily motivated by traffickers. The causes of drug taking are:
+\begin{enumerate}
+\item Due to influence of bad company, they trust their peer groups and under peer pressure, youths start using drugs.
+\item Drug traders abuse them for their criminal purpose.
+\item Attraction to advertisement and promotional activities that youths are inclined to imitate.
+\item Due to lack of peace in family environment.
+\item Lack of love and care from family members or related peers (girl/boy friends)
+\item Teenagers have high expectations and when they are not fulfilled they feel frustrated and take drugs as resort.
+\end{enumerate}
+
+\textbf{Effects of drugs to and individual}
+\begin{enumerate}
+\item Cannot continue education
+\item Failure and setbacks in exams and cannot develop career
+\item Loose jobs due to decreased attention to work
+\item Possibility of contracting diseases like AIDS, Cancer, etc
+\item Suffers from financial crisis
+\item Increase in criminal attitude
+\end{enumerate}
+
+\textbf{Effects of drugs in a family and society}
+\begin{enumerate}
+\item Emotional stress in the family
+\item Family loses peace and prestige
+\item Financial crisis in the family
+\item Kids are victimized
+\item Squabble and conflict with neighbors
+\item Accident, robbery, murder, kidnapping and criminal activities increase in the society
+\item Society struggles with economic and infrastructure development
+\item Society loses active and creative manpower
+\end{enumerate}
+
+\textbf{Solution to the problem of drug abuse}
+\begin{enumerate}
+\item Strict laws should be made and implemented against drug traffickers.
+\item Mass awareness programmes should be conducted to aware general public about the consequences of drug abuse
+\item Various social organizations should play an active role in raising awareness against the drug abuse
+\item Children and youths should receive proper counselling
+\item Children should be raised in a good environment with proper love and care from parents
+\item Rehabilitation centres should be provisioned for those seeking institutional support
+\item Family and society should develop positive attitude towards those individuals committed to refrain drug use.
+\end{enumerate}
+\end{solution}
+
+\question What is social conflict? Discuss about the causes and consequences of social conflict in Nepal.
+\begin{solution}
+A society composed of diverse of individuals and groups. Each individual or group within a society have their unique ethnicity, language, culture and religion and socio-economic background. Similarly, it is hard to find individuals with common pursuit of interests, hobbies, habits and perspective. Therefore, in a ways, diversity itself gives way to conflict. Individuals differing for various interpersonal attributes and socio-cultural background can have a sense of amusement, non-acceptance, dispute/debate and disagreement in simple to moderate manifestation. In extremes of those, feelings of envy and grudge as well as tendency to exploit physical means of harm arises. All these happenings are characteristic of social conflict.
+
+Following factors give rise to social conflict in Nepal
+
+\begin{enumerate}
+\item An individual loses trut in other and fails to respect his rights and authorities
+\item Unemployment
+\item Increase in poverty
+\item Economic inequality
+\item Indifference to social customs and values
+\item Drug abuse and intoxication
+\item Lack of social justice
+\item Lack of education and awareness
+\end{enumerate}
+
+Although there are some \underline{positive} consequences of social conflict, including progression of socio-economic transformation, increase in awareness, improvement of social justice system and occassional enrichment of solidarity, several \underline{negative} consequences of it exit. Some of which are:
+\begin{enumerate}
+\item Disruption of social peace and order
+\item Increase in criminal activities of robbery, murder, kidnapping
+\item Encroachment of personal rights and feedom of individuals
+\item Social tradition will be replaced by wrong social customs and values
+\item Socio-economic development and physical development will be stalled.
+\end{enumerate}
+
+Acknowledging that social conflict has a wide reach within multiple socio-economic, religious and political sphere of a community and a nation as a whole, the situation should be resolved creatively rather than forcibly. A peaceful debate and a harmonious mindset with the feeling of tolerance are the pre-requisite for social order setting.
+\end{solution}
+
+\question What are the problems in implementing public policy in Nepal ?
+
+\end{questions}
+
+\hypertarget{united-nations-and-international-organizations}{%
+\subsection{United Nations and International Organizations}\label{united-nations-and-international-organizations}}
+
+\begin{questions}
+
+\question World conference on Women, 1975
+
+\begin{solution}
+
+The conference was held between 19 June and 2 July 1975 in Mexico City, Mexico. It was the first international conference held by the United Nations to focus solely on women's issues and marked a turning point in policy directives. After this meeting, women were viewed as part of the process to develop and implement policy, rather than recipients of assistance. The conference was one of the events established for International Women's Year and led to the creation of both the United Nations Decade for Women and follow-up conferences to evaluate the progress that had been made in eliminating discrimination against women and their equality. Two documents were adopted from the conference proceedings, the World Plan of Action which had specific targets for nations to implement for women's improvement and the Declaration of Mexico on the Equality of Women and Their Contribution to Development and Peace, which discussed how nations foreign policy actions impacted women. It also led to the establishment of the International Research and Training Institute for the Advancement of Women to track improvements and continuing issues and the United Nations Development Fund for Women to provide funding for developmental programs. The conference marked the first time that the parallel Tribune meeting was successful in submitting input to the official meeting and became a catalyst for women's groups to form throughout the world.
+
+\end{solution}
+
+\question United Nations Commission on Status of Women
+
+\begin{solution}
+
+The Commission on the Status of Women (CSW or UNCSW) is a functional commission of the United Nations Economic and Social Council (ECOSOC), one of the main UN organs within the United Nations. CSW has been described as the UN organ promoting gender equality and the empowerment of women. Every year, representatives of Member States gather at United Nations Headquarters in New York to evaluate progress on gender equality, identify challenges, set global standards and formulate concrete policies to promote gender equality and advancement of women worldwide. In April 2017, ECOSOC elected 13 new members to CSW for a four-year term 2018–2022. One of the new members is Saudi Arabia, which has been criticised for its treatment of women.
+
+The commission was formed on 21 June 1946 and is headquartered in NY, USA.
+
+\end{solution}
+
+\end{questions}
+
+\hypertarget{general-knowledge}{%
+\chapter{General knowledge}\label{general-knowledge}}
+
+\includepdf[pages=2-,pagecommand={},width=1.2\textwidth]{./latex_book/main.pdf}
+
+\includepdf[pages=-,pagecommand={},width=1.2\textwidth]{./latex_book/madan_puraskar_awardees.pdf}
+
+  \bibliography{bibliography/vegetable.bib,bibliography/bib.bib}
 
 \end{document}

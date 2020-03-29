@@ -1,0 +1,5 @@
+# General knowledge
+
+\includepdf[pages=2-,pagecommand={},width=1.2\textwidth]{./latex_book/main.pdf}
+
+\includepdf[pages=-,pagecommand={},width=1.2\textwidth]{./latex_book/madan_puraskar_awardees.pdf}

@@ -1,0 +1,309 @@
+# General knowledge elaborate
+
+## National affairs
+
+\begin{questions}
+
+\question Describe the 15th plan approach paper:
+% \makeemptybox{1.5in} % use this to provide a box in question
+\begin{solution}
+The 15th plan approach paper is a piece of shit.
+\end{solution}
+
+\question Describe about the provisions of civil rights in the consitiution of Nepal.
+
+\question Write about BIMSTEC.
+
+\end{questions}
+
+## International affairs
+
+\begin{questions}
+
+\question Discuss about the major impacts on people's lifestyle due to the geographic conditions of Nepal.
+% \makeemptybox{1.5in} % use this to provide a box in question
+\begin{solution}
+Physical geography is the study of natural features and phenomena on the planet's surface and our interactions with them. These features include vegetation, climate, the local water cycle, and land formations. Geography doesn't just determine whether humans can live in a certain area or not, it also determines people's lifestyles, as they adapt to the available food and climate patterns. As humans have migrated across the planet, they have had to adapt to all the changing conditions they were exposed to. At first, particular cultures develop because of the physical landscape. Over time, those cultures exert their own influence on the landscape around them.
+
+Life cannot be the same in arctic regions as in the tropics; nor upon deserts of drifting sand as upon the grassy steppes which afford the natural home for wandering shepherds and their herds; nor upon the seacoast with its fisheries and commerce as among the mountains with their forests and mines. But it is not alone the extreme and unusual manifestations of nature which affect the life of man. So relatively inconspicuous a fact as the presence of a creature adapted to become a beast of burden might enable one people to grow into a triumphant race, contributors to a dominant civilization, and the absence of such a creature might condemn another race to backwardness and final extinction.
+
+Geography, in overall, affects socio-economic lifestyle of people in following ways:
+- Geographic conditions determine the size of populations.
+- The economic occupations of a people are determined by their geographic environment.
+- Stagnation or progression are conditioned largely by geographic surroundings.
+- Lawlessness is the natural consequence of geographic inaccessibility
+- The form of government is affected by geographic conditions
+- Tastes and social and domestic customs are influenced by geographic conditions: Football is out of place in the tropics, and ice-skating is impossible. Athletic sports are indigenous to cool climates, and are the objects of amazement to inhabitants of torrid regions. The long evenings of the northern winter call into being suitable pastimes.
+- Ethical differences are largely influenced by geographic environment
+- Mythologies and religions are influenced by geographic environment: What the nature-myths of a people shall be depends in part upon what aspects of nature in their neighborhood are most impressive, whether they live by the sea, upon the banks of a great river, among the mountains, in the depths of the forest, or on a plain where the overarching sky with sun and stars chiefly command the gaze. The existing form of earthly power and authority tends to shape man's notion of divine rule.
+- Geographic conditions affect the moods and psychic tendencies of a people:  General vital processes, upon which the action of the brain and nervous system depends, affected by conditions of heat, light, and moisture, but the nerves themselves are directly stimulated or depressed. To this cause has been ascribed the fact that the cradles of civilization have been found in dry regions like the Egyptian oasis in the desert, and the plains of Iran and of Central America. Not only does climate affect the permanent tendencies of races, but passing changes of the seasons affect the moods of men. Alternations of the seasons give variety to life and stimulation to the imagination.
+- Routes followed by migration, war and commerce have been marked out by geographic highways, and these have been the great distributers of human populations, customs, and commodities.
+
+\textbf{Land Formation}
+Land formation is the physical shape of an area and the several processes that help form that shape. One process that makes a big impact is plate tectonics: the movements of crustal plates on the Earth's surface. These plates are constantly sliding past and colliding into one another. Plate movements can affect the availability of water by disrupting rivers and they disturb land formations that humans have settled on, like an earthquake ravaging a major city. Animals hunted by humans for food can be displaced as well, forcing people to move to another area to survive. Thronging cities are found at points of geographical advantage.
+
+\textbf{Soil}
+Soil carries out several functions that profoundly impact human activity. Soil recycles nutrients, regulates water quality, sustains life, and provides structural support for buildings. Without healthy soil, a previously fertile area turns into a desert, making it difficult to sustain vegetation and prevent massive loss of life. Soil doesn't just provide for agriculture, it also helps modern life because it contains minerals. These minerals include ore, which contains metals used for electronics and peat used for heating. People may move temporarily to more fertile areas to provide for their families, especially if they live in poorer countries like Kenya.
+
+\textbf{Water Access}
+Water is purified by evaporation into the atmosphere, from where it falls back to land and the oceans through rainfall. All humans need water to survive, and depend on regular rainfall and other sources of clean water for drinking and agriculture. Water is found above, on, and under the ground. People tend to settle near bodies of water such as oceans, rivers, and lakes for easy access to large amounts of water. For example, nearly the entire population of Egypt is concentrated around the delta of the Nile River because the rest of the country is an arid desert.
+
+\textbf{Climate}
+Climate is the pattern of variation in temperature, humidity, and pressure over an area for long periods of time. There are several types of climates: tropical with high rainfall and temperatures over 18 degrees Celsius, dry, subtropical with mild winters, continental with cold winters, and polar. People have not only adjusted their clothing and housing based on temperature, but their bodies have also adapted. The Masai people have longer limbs that help them lose body heat in the warm climate of East Africa. Arctic-dwelling Inuit adapted by storing more body fat and increasing metabolic rates.
+\end{solution}
+
+\question What is the current status of languages used in Nepal according to Language Commission ?
+\begin{solution}
+
+Six new languages have been added to the list of 123 languages spoken in Nepal. These newly discovered one include:
+
+Kanchanpur: Rana Tharu,
+Manang: Nar Phu,
+Gorkha: Chum (Syaar) and Nubri (Larke),
+Dolpa: Poike, and
+Mustang: Serake (Seke)
+
+Current Chairman of the Language Commission Dr. Lava Dev Awasthi submitted the annual report to President in her Office at SheetalNiwas. Prior to it, the national census 2068 had enlisted 123 languages as the languages spoken in Nepal. The list then had grouped 68 languages of the Sino-Tibetian family, 48 languages of Indo-European family and one each of Dravidian family (Uraon-Kudukh) and Austroasiatic family (Santhali) and a language with anonymous identity (Kusunda) as in different language families.
+
+There are 19 languages with more than 100,000 speakers. This consists of 95.91\% of the total population. Among other languages spoken by the rest of the population 24 languages like Dura, Kusunda, Tilunga have a small number of speakers which has ultimately led them on the verge of extinction.
+
+Among others at stake are: Pali, Sankskrit and Bhot.
+
+The report blames excessive craze for English, colonial mindset and the illusions generated by the global market substituting the local one for endangering glorious linguistic diversity and multicultural lifestyle of Nepal.
+
+To facilitate its activities the commission has prepared the list of experts of 101 languages.
+
+The Commission has suggested to form a High-Level Linguistic Policy Determination Committee and assign it the task of coordinating and facilitating various activities related to the constitutional and other legal provisions related to language.
+
+\end{solution}
+
+\question What is budget? Describe the weakness of Nepal's budgetary system.
+\begin{solution}
+
+National (Government) budget is a document prepared by the government or other political entity presenting its anticipated revenues and proposed spending for coming fincancial year. Nepal's budgeting system is a combination of top-down and bottom-up approach, which brings about a synergy between the national level plans and local level needs; and ensures that the budget fulfills the demands of both the state and the locals.
+
+Normally, the process of budget formulation in Nepal would begin in January and end in July, when the fiscal year starts. However, with the provision of the Constitution of Nepal, 2015, the budget cycle has been moved forward to be presented on the date of 15th Jestha (May 28).
+
+The budget formulation steps can be generalized into four phases:
+\begin{enumerate}
+\item Preparation
+\item Enactment/legislation
+\item Execution
+\item Auditing
+\end{enumerate}
+
+The first step in formulating a budget is forecasting, wherein the sources of revenues and tentative areas of expenditures are identified. The process of forecasting is led by a Resource Committee (RC), which is chaired by the Vice Chairperson of National Planning Commission (NPC), and includes other members from NPC, members from Ministry of Finance (MoF), Central Bank of Nepal and the Financial Comptroller General Office (FCGO). The RC determines the size of budget by analyzing overall economic situation of the country with the help of macro-economic indicators. Once the forecast has been prepared, it is presented to the budget committee comprising of the members of the NPC and the MoF. The committee, after thourough discussion sets the budget ceiling, which limits the budget expenditure based on sectors and availability of resources. The committee also prepares the working guidelines for budget formulation. Thereafter, each of the line ministries is asked to submit their programs and budget estimates (both capital and recurrent) in accordance to the guidelines and sectoral budget ceilings. The line ministries then forward the guideline along with the budget ceiling and priorities to respective departments and agencies functioning under it, either at the district level or at the central level. Based on the guidelines, these agencies prepare the forthcoming year's programs and budget and send it back to the concerned departments. The departments compile the programs and budget of all agencies under them and submit it to the respective line ministries. Some negotiations can take place between Ministries and the departments before it is vetted and consolidated by the Ministers and forwarded to the MoF and NPC for finalization.
+
+Planning -- Devolved programs are financed by the center but fall under the administrative purview of the District Development Committees (DDC), hence the process of budget formulation is different from top-down budgeting. The NPC sends guidelines to DDCs for district level plans and programs. The guideline is passed down to the VDCs and Municipalities, who hold village/town council meetings to discuss and prepare sector-wise development programs and projects. Interest groups such as the consumer committees, NGOs, political leaders, and citizens are included in these discussions. Their plans are then forwarded to the VDC/municipality where it gets accumulated. Once the VDC scrutinizes and gives a green signal to the plan, it moves up to the District Council which re-examines the budget and forwards it to the DDC. The DDC then hold meetings with district offices and finalizes district budget and priorities, which is then sent to the NPC and the Ministries. While this is the process that should be theoretically followed, it is not necessarily fully operated because of absence of popularly elected offcials. As departments are not given a sectoral budget ceiling, they generally do not take expenditure limitations into account; insted they look at project-specific targets as a guide for the budget.
+
+Enactment -- Once the MoF receives the budget from all line ministries, inter-ministerial meetings are held to vet and finalize the national budget. Similarly, the NPC discusses all the programs submitted by the Ministries, and finalized those programs in consideration of the relevancy, budget allocation, and budget handling capacity of the Ministry. Before the budget is presented in the parliament, the parliamentarians are presented with a draft budget document for them to discuss the sector-wise specifics. The comments and queries that arise during the ministry-specific discussions are discussed in detail until the relevant ministry and parliamentarians are satisfied with the clarifications provided to their queries. The budget is presented by the government only after the ministry level budget discussion ends. If the majority agrees with the budget then it is approved and is presented to the national Parliament in the form of a Budget Speech by the Minister of Finance.
+
+Execution -- It is also called the procedure of releasing budget. The process of fund release starts with the approval of the budget by the parliament. Two further steps are required after the parliamentary approval of the budget:
+
+\begin{itemize}
+\item Finalization of work programs consistent with the ratified budget for each spending unit by the respective line Ministries and their approval by NPC
+\item The formal delgation (through official notification) of authority to spend by the Secretary of Finance to sectoral Ministries and then to project managers.
+\end{itemize}
+
+Immediately after completion of the discussion  on  the  underlying principles  and  policies,  the  Finance  Ministries  puts before the parliament the Vote on Account Bills, which authorizes the government to spend a specified amount in advance. The process of releasing budget is as follows:
+
+\begin{enumerate}
+\item Whereas up to one-third of the previous year's expenditure was often released under the advance bill past fiscal years, the government can now advance up to one-third of the budget for core projects, two-third or one-sixth for remote projects and one-sixth for regular and other programs. Subsequent release can follow after the Appropriation bill gets of the Head of the State assent. Budget release will be made on monthly basis. In the past, trimester budget release was in practice. However, the Financial Comptroller General Office (FCGO) has maintained the trimester and lump sum system for subsidies (DDC, VDC, Education, health, Public corporation, Companies), controlled budget (Medical care, gratuities and others).
+\item For donor-funded projects, budget will be released on a pre-funding (donors have to put deposit to GoN, treasury in advance) and reimbursement basis (applied for loan-financed projects and to some extent for bilateral donor-financed projects depending upon the agreement.)
+\item The system of imprest account established under ADB and WB-financed projects have also been maintained under which the project authority can withdraw directly from the said account.
+\end{enumerate}
+
+After the approval of the Appropriation bill, MoF will inform the entire sector ministries on the project details of the approved budget, and send the sources book on foreign aided projects and letter of authority for all expenditures to all ministries, FCGO and Auditor General's Offices (AGO). Line ministries also forward such budget details and authority latter for expenditure through their concerned Department/Project Coordinator Offices (PCO) to the district line agencies with copies to the FCGO and each District Treasury Offices (DTO).
+
+\begin{itemize}
+\item The Department/PCO prepares the unit/wise program supported by budgetary details both source-wise and items-wise and forward it to the NPC and line agencies. In that process, the central level projects will be approved by the NPC and the district level projects by the ministries concerned.
+\item After the approval of the program as maintained in (a) the Department/PCO make available to each unit under it the program and budgetary detail. Then each project unit and PCO submit the monthly release reports along with copies of the approved program and authority letters giving budgetary details to the nearest DTO.
+\end{itemize}
+
+The FCGO and DTO play important role in the budget release process. The DTOs process all request and will release the funds requested to respective agency's bank account. DTO releases the fund upon the receipt of the following documents:
+
+\begin{enumerate}
+\item Authority letter from the concerned ministry,
+\item Release order to DTO by FCGO,
+\item Project/program duly approved by NPC and document in the budget,
+\item The FCGO release funds on a monthly basis, provided the above mentioned conditions are fulfilled and the budget requests tally with the sources book,
+\item DTO release the fund only after receiving the statement of expenditure of the previous month from the requesting agency,
+\item DTO is also empowered to release the donor portion budget on a reimbursement basis, if so provisioned in the sources book,
+\item In the case of pre-funding arrangement in the sources book, budget is released to the extent of donor contribution available.
+\end{enumerate}
+
+Auditing -- The final phase of budget cycle is auditing. This is the overall responsibility of the Auditor General (AG) to prepare the annual report after accomplishing auditing of all government transaction. The AG presents its annual report to GoN, which is later forwarded to parliament for discussion and implementation.
+
+\end{solution}
+
+\question What are different types of budget? What are the needs and importances of government budget ?
+\begin{solution}
+
+A budget can be of three types
+\begin{itemize}
+\item Balanced budget: when government receipts are equal to the government expenditure.
+\item Deficit budget: when government expenditure exceeds government receipts. A deficit can be of 3 types: revenue, fiscal and primary deficit. A budget deficit occurs when an individual, business or government budgets more spending than there is revenue available to pay for the spending, over a specific period of time.
+\item Surplus: when government receipts exceed expenditure.
+\end{itemize}
+
+Need and importance of a government budget
+\begin{enumerate}
+\item Planned approach to government's activities
+\item Integrated approach to fiscal operations
+\item Affecting economic activities
+\item Instrument of economics policy
+\item Index of government's functioning
+\item Public accountability
+\item Allocation of resources
+\item GDP growth
+\item Elimination of poverty
+\item Reduce inequality in distribution of income
+\item Tax and non-tax receipt
+\end{enumerate}
+
+\end{solution}
+
+\question What is good governance ?
+\begin{solution}
+There are various definitions of the term \textit{good governance}. These definitions are based on normative assumptions about how decisions should be made within organizations and the functioning of formal and informal structures for implementing such decisions. The UN Commission on Human Rights identifies transparency, responsibility, accountability, participation, and responsiveness as key attributes of good governance. By linking good governance specifically to human rights and sustainable development, the UN explicitly recognizes that governance issues are global in nature and consequently require more nuanced and integrated approach. The Canadian International Development Agency defines good governance as the exercise of ower by an organization (or government) in an effective, equitable, honest, transparent, and accountable way. This definition is consonant with a shift among member countriess of the Organization for Economic Cooperation and Development (OECD) to respond to increasing pressure ushered in by final crises, a globally coordinated economy, and dissatisfied citizens. Some of the trends that flw from this changing governance context include downsizing public service, undertaking regulatory reforms, measuring performance, benchmarking progress, and linking more explicitly actions and outcomes. This approach to governance focuses on how organizations are directed, controlled and shown to be acting responsibly.
+
+Good governance is increasingly seen as essential for ensuring national prosperity by increasing acccountability, reliability, and predictability of decision making in governments, corportations, and non-governmental organization. Furthermore, this concept is being used in the development and management literature because bad governance is often identified as a root cause of social inequality, development failures, and corporate scandals.
+
+The UNDP (1997) articulates eight principles of good governance. These principles are:
+
+\begin{enumerate}
+\item \textbf{Equality of participation in decision making.} All people, irrespect ve of sex, class, or race should be heard and allowed to participate in deliberations that affect them directly or indirectly. In democratic societies, citizens can participate in various ways, ranging from voting to involvement in acts of civil disobedience. In many instances, participation must be informed and organized through civil society actors who can often leverage resources more successfully. Good governance implies that organizations encourage participation from those who may both benefit or be harmed by any decisions taken. Participation also means that individuals have the rights of freedom of association and expression, and to participate in organized civil society without fear of retribution or the stigma of being labeled unfairly as a "special interest" group.
+\item \textbf{Organizations must be responsive to the needs of all stakeholders in a reasonable timeframe.} On one level, this means that organizations must hire, train, and retain employees to achieve optimal response time and high quality outcomes. On a more general level, organizations must ensure that they have the capacity, and in some cases the autonomy, to implement changes to structure and management systems to maximize efficiency.
+\item \textbf{Organizations must mediate differences between stakeholders to reach a broad consensus.} Good governance requires that organizations involved in divisive issues like abortion, stem-cell research, human cloning, euthanasisa, etc. enter such debates in the spirit of cooperation and mediation. To achieve this goal, organizations must treat all stakeholders consistently and fairly.
+\item \textbf{Organizations must be accountable to the stakeholders they serve.} Good governance requires a broad definition of who such stakeholders may be. Many organizations limit intentionally the list of those they define as valid stakeholders to narrow the scope of decision-making authority, the range of topics addressed, and the nature of the decisions that are made. In general, organizations should be accountable to those affected by the entire range of decisions or actions made and implemented by an organization.
+\item \textbf{Organizations must strive for transparency in their decision-making processes so that interested parties can understand the bases of decisions and monitor progress.} Good governance requires that organizations justify decisions made by demonstrating how such decisions respect the precedent from previous decisions.
+\item \textbf{Organizations must work within legal frameworks that are crafted in fair ways, enforced impartially, and attuned to human rights issues.} Good governance means that a country’s legal environment should be conducive to development. Investors must feel comfortable that due process will be followed in all countries of interest, and that a wide range of issues including protection of intellectual property, fair application of trade subsidies and sanctions, and a regulated financial marketplace exist. Organizations must also follow the laws of the land and ensure that all decisions made are consistent with such laws.
+\item \textbf{Decisionmakers should have a broad and long-term vision on how to better the processes of governance to ensure continued economic and social development.}
+\item \textbf{Good governance involves guaranteeing the rights of all individuals to maintain and improve their well-being in an equitable and inclusive manner.} This principle conveys the message that good governance is about stewardship and care and that it involves the highest ethical positioning possible.
+\end{enumerate}
+
+Clearly, good governance is more political than technical in nature and emphisizes the primacy of equality and the value of vision, strategic thinking, and planning. Good governance is a tool for making organizations work more effectively in a world where trust is declining in government, industry, science, and other institutions. Good governance is based on democratic values that stimulate administrative reforms that affect a range of organizations.
+
+The World Bank has compiled a list of six dimensions of public-sector governance that are used in an aggregate fashion to measure the quality of governance: voice and accountability, political stability and absence of violence, government effectiveness, regulatory quality, rule of law, and control of corruption. As new global standards of governance emerge, indicators like these can be used to diagnose failures and to suggest solutions to a range of performance and process issues.
+
+Good governance is an ideal that is difficult to achieve. Although good governance requires a systematic approach to ensure that organizations are transparent, honest, and oriented toward equity issues, its practice is uneven across organizations and sectors. To ensure that good governance prevails, elected representatives, corporative executives and boards of directors, professional bodies, and civil society groups need to become more active in learning about the perils associated with "bad" governance and push for stronger laws and policies that protect the public interest.
+
+\end{solution}
+
+\question What is drug abuse ? What are the effects and consequences of drug abuse ?
+
+\begin{solution}
+The substance that affects our mind and organs and damages our body if used in uncontrolled amount is drug. The habit of taking drug regularly is drug abuse or drug addition. Drug abuse and addiction have negative consequences on individuals and society as well. In reality, drug addiction is a complex disease, and quitting it takes more than good intentions or a strong will. Drug abuse is a serious public health problem that affects almost every community and family in some way. Each year drug abuse causes millions of serious illnesses or injuries. Drug abuse also plays a role in many social problems, such as drugged driving, violence, stress, and child abuse. It can lead to homelessness, crime, loss of employment, failure in school, domestic violence, etc.
+
+Generally, drugs are illegal. Some of the drugs used and supplied by the drug users and drug traffickers are herion, smack, cocaine, cannabis, etc. Selling of such substance is illegal subject to criminal offense. Although strict laws are in place for punishing those who are involved in drug trafficking business, several people are involved in it. Below are some of the reasons that make it very difficult to stop drug trafficking:
+
+\begin{enumerate}
+\item The traffickers run this business in an organized way.
+\item The traffickers use their private means of transportation for supply.
+\item They have good link in customs, airport, etc.
+\item There is good deal of money in this business.
+\item The traffickers have link and wide network with high ranking officials and politicians.
+\end{enumerate}
+
+\textbf{Causes of taking drug}
+
+The use and trend of using drugs is increasing rapidly in the world. About 4\% of the world's population use drug of some form. Many adolescents, teenagers and youth easily fall to drug abuse than elders because they are easily motivated by traffickers. The causes of drug taking are:
+\begin{enumerate}
+\item Due to influence of bad company, they trust their peer groups and under peer pressure, youths start using drugs.
+\item Drug traders abuse them for their criminal purpose.
+\item Attraction to advertisement and promotional activities that youths are inclined to imitate.
+\item Due to lack of peace in family environment.
+\item Lack of love and care from family members or related peers (girl/boy friends)
+\item Teenagers have high expectations and when they are not fulfilled they feel frustrated and take drugs as resort.
+\end{enumerate}
+
+\textbf{Effects of drugs to and individual}
+\begin{enumerate}
+\item Cannot continue education
+\item Failure and setbacks in exams and cannot develop career
+\item Loose jobs due to decreased attention to work
+\item Possibility of contracting diseases like AIDS, Cancer, etc
+\item Suffers from financial crisis
+\item Increase in criminal attitude
+\end{enumerate}
+
+\textbf{Effects of drugs in a family and society}
+\begin{enumerate}
+\item Emotional stress in the family
+\item Family loses peace and prestige
+\item Financial crisis in the family
+\item Kids are victimized
+\item Squabble and conflict with neighbors
+\item Accident, robbery, murder, kidnapping and criminal activities increase in the society
+\item Society struggles with economic and infrastructure development
+\item Society loses active and creative manpower
+\end{enumerate}
+
+\textbf{Solution to the problem of drug abuse}
+\begin{enumerate}
+\item Strict laws should be made and implemented against drug traffickers.
+\item Mass awareness programmes should be conducted to aware general public about the consequences of drug abuse
+\item Various social organizations should play an active role in raising awareness against the drug abuse
+\item Children and youths should receive proper counselling
+\item Children should be raised in a good environment with proper love and care from parents
+\item Rehabilitation centres should be provisioned for those seeking institutional support
+\item Family and society should develop positive attitude towards those individuals committed to refrain drug use.
+\end{enumerate}
+\end{solution}
+
+\question What is social conflict? Discuss about the causes and consequences of social conflict in Nepal.
+\begin{solution}
+A society composed of diverse of individuals and groups. Each individual or group within a society have their unique ethnicity, language, culture and religion and socio-economic background. Similarly, it is hard to find individuals with common pursuit of interests, hobbies, habits and perspective. Therefore, in a ways, diversity itself gives way to conflict. Individuals differing for various interpersonal attributes and socio-cultural background can have a sense of amusement, non-acceptance, dispute/debate and disagreement in simple to moderate manifestation. In extremes of those, feelings of envy and grudge as well as tendency to exploit physical means of harm arises. All these happenings are characteristic of social conflict.
+
+Following factors give rise to social conflict in Nepal
+
+\begin{enumerate}
+\item An individual loses trut in other and fails to respect his rights and authorities
+\item Unemployment
+\item Increase in poverty
+\item Economic inequality
+\item Indifference to social customs and values
+\item Drug abuse and intoxication
+\item Lack of social justice
+\item Lack of education and awareness
+\end{enumerate}
+
+Although there are some \underline{positive} consequences of social conflict, including progression of socio-economic transformation, increase in awareness, improvement of social justice system and occassional enrichment of solidarity, several \underline{negative} consequences of it exit. Some of which are:
+\begin{enumerate}
+\item Disruption of social peace and order
+\item Increase in criminal activities of robbery, murder, kidnapping
+\item Encroachment of personal rights and feedom of individuals
+\item Social tradition will be replaced by wrong social customs and values
+\item Socio-economic development and physical development will be stalled.
+\end{enumerate}
+
+Acknowledging that social conflict has a wide reach within multiple socio-economic, religious and political sphere of a community and a nation as a whole, the situation should be resolved creatively rather than forcibly. A peaceful debate and a harmonious mindset with the feeling of tolerance are the pre-requisite for social order setting.
+\end{solution}
+
+\question What are the problems in implementing public policy in Nepal ?
+
+\end{questions}
+
+### United Nations and International Organizations
+
+\begin{questions}
+
+\question World conference on Women, 1975
+
+\begin{solution}
+
+The conference was held between 19 June and 2 July 1975 in Mexico City, Mexico. It was the first international conference held by the United Nations to focus solely on women's issues and marked a turning point in policy directives. After this meeting, women were viewed as part of the process to develop and implement policy, rather than recipients of assistance. The conference was one of the events established for International Women's Year and led to the creation of both the United Nations Decade for Women and follow-up conferences to evaluate the progress that had been made in eliminating discrimination against women and their equality. Two documents were adopted from the conference proceedings, the World Plan of Action which had specific targets for nations to implement for women's improvement and the Declaration of Mexico on the Equality of Women and Their Contribution to Development and Peace, which discussed how nations foreign policy actions impacted women. It also led to the establishment of the International Research and Training Institute for the Advancement of Women to track improvements and continuing issues and the United Nations Development Fund for Women to provide funding for developmental programs. The conference marked the first time that the parallel Tribune meeting was successful in submitting input to the official meeting and became a catalyst for women's groups to form throughout the world.
+
+\end{solution}
+
+\question United Nations Commission on Status of Women
+
+\begin{solution}
+
+The Commission on the Status of Women (CSW or UNCSW) is a functional commission of the United Nations Economic and Social Council (ECOSOC), one of the main UN organs within the United Nations. CSW has been described as the UN organ promoting gender equality and the empowerment of women. Every year, representatives of Member States gather at United Nations Headquarters in New York to evaluate progress on gender equality, identify challenges, set global standards and formulate concrete policies to promote gender equality and advancement of women worldwide. In April 2017, ECOSOC elected 13 new members to CSW for a four-year term 2018–2022. One of the new members is Saudi Arabia, which has been criticised for its treatment of women.
+
+The commission was formed on 21 June 1946 and is headquartered in NY, USA.
+
+\end{solution}
+
+\end{questions}

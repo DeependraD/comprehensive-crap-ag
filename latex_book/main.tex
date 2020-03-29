@@ -24,10 +24,10 @@
 %   \hrule
 % }
 
+% comment 'title' when combining with main book as a part or avoid including first page
 \title{\vspace{-1.5cm}{\huge \textbf{General Knowledge: A Comprehensive Guide}}\\[2mm]
 \hrule
 }
-
 \date{}
 
 % print correct answers and fillins
@@ -45,6 +45,8 @@
 % the \llap command to correct alignment in a question with parts.
 \renewcommand{\questionlabel}{\llap{Q}\,\thequestion.}
 \unframedsolutions % put solution inside a box
+
+\pagestyle{empty} % turn off page number, this is useful when binding the pdf to knitted document
 
 \begin{document}
 
@@ -67,9 +69,6 @@
 
 \include{general-knowledge-objectives}
 \include{general-knowledge-quick-facts}
-\include{general-knowledge-elaborate-facts}
-
-\include{constitution-of-nepal-factsheet}
 \include{agriculture-knowledge-objectives}
 
 \end{document}
