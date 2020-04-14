@@ -218,5 +218,13 @@ read_csv("./data/minor_secular_observances_international_decades.csv") %>%
 - New Year's Eve -- December 31
 - Purnima Sukla Paksha -- full moon day -- December
 
+**National games of some countries**
+
+```{r national-games}
+read_csv("./data/national_games_countries.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "National games of some of countries")
+```
+
+
 \includepdf[pages=2-,pagecommand={},width=1.2\textwidth]{./latex_book/main.pdf}
 
