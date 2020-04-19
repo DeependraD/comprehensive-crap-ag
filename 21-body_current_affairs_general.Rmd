@@ -309,14 +309,6 @@
   - Olangchungola: Taplejung
   - Rasuwagadhi: Rasuwa
 
-### Climate change and energy use
-
-Arguments:
-  - Energy use has close ties with climate change. India and china are among the greatest emitters of greenhouse gases and consumers of fossil fuel, and it is predicted that their consumption of coal as major source of energy will continue to rise for at least a decade (IEA, 2019).
-  - Into 2016 and we still have 80% of our total energy requirement met from fossil fuels (mostly, oil, coal and natural gases). International energy agency's report says that 30% of all energy-related carbon dioxide emission is related to coal as fuel, making it the biggest single contributor (2019).
-  - An individual effort to parsimoniously treat energy resources available to us determines individual footprint. We could choose to reuse a battery/cell, with minor power drops, in alternative electronic items compatible with it or just treat at a refuse at our home. The latter activity with unforeseen consequences might lead to the battery being disposed improperly and polluting an ecosystem due the leakage of its electrolyte chemicals.
-  - While electricity is lighting up most houses, its generation has been a markedly different process worldwide. The process basically depends with the resource endowment of a nation in their approach to choosing ways to explore it. Coal, for example, is used largely in China and the US despite its much tauted big contribution in greenhouse emission.
-
 ## UN related
 
 - UN was established in October 24, 1945.

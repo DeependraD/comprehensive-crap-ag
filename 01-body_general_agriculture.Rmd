@@ -32,7 +32,8 @@ dplyr::tribble(~"sector", ~"fy_2074-75", ~"fy_2073-74", ~"fy_2072-73",
 dplyr::tribble(~"Year", ~"Growth rate (%)", 
                2072/73, 0.01, 
                2073/74, 5.14,
-               2074/75, 2.72)
+               2074/75, 2.72) %>% 
+  knitr::kable(caption = "Agriculture growth rates of recent years in Nepal.", booktabs = TRUE)
 ```
 
 ## Population census, 2068
@@ -50,7 +51,8 @@ dplyr::tribble(~"Indicator", "Unit", ~"Value",
                "Crude death rate", "per thousand", 7.3,
                "Child death rate", "per thousand", 40.5,
                "Net fertility rate", "percentage", 2.5, 
-               "Average life expectancy", "years", 66.6)
+               "Average life expectancy", "years", 66.6) %>% 
+  knitr::kable(caption = "Population census, 2068 summary", booktabs = TRUE, longtable = T)
 
 ```
 

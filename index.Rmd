@@ -1,5 +1,5 @@
 --- 
-title: "Comprehensive agriculture guide"
+title: "Comprehensive Crap Guide"
 author: "Deependra Dhakal, Samita Paudel"
 date: "November, 2019"
 site: bookdown::bookdown_site

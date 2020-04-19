@@ -222,7 +222,8 @@ read_csv("./data/minor_secular_observances_international_decades.csv") %>%
 
 ```{r national-games}
 read_csv("./data/national_games_countries.csv") %>% 
-  knitr::kable(booktabs = TRUE, caption = "National games of some of countries")
+  knitr::kable(booktabs = TRUE, caption = "National games of some of countries", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "HOLD_position")
 ```
 
 
