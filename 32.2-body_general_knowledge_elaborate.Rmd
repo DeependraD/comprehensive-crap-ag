@@ -101,7 +101,7 @@ Embassy of Nepal in London involves in various consular service ranging from pas
 
 Foreign investment commitment from UK stands at 1663 million rupees till 2013/14. The major investment is in the areas of banking, tourism, education, technology. An agreement for the promotion and protection of investment between Nepal and UK was signed on March 2, 1993.
 
-There are some British joint ventures in the areas of hotel, travel & trekking, tea production, education, garment, bio-technology and consultancy. These are significant figures, but do not reflect the true potential. There are many British and Non Resident Nepalese (NRN) entrepreneurs who are still making trade and investment successes in Nepal. Standard Chartered Bank and Unilever are two major British companies who have made a huge return from their investment in Nepal in the last 20 years.
+There are some British joint ventures in the areas of hotel, travel and trekking, tea production, education, garment, bio-technology and consultancy. These are significant figures, but do not reflect the true potential. There are many British and Non Resident Nepalese (NRN) entrepreneurs who are still making trade and investment successes in Nepal. Standard Chartered Bank and Unilever are two major British companies who have made a huge return from their investment in Nepal in the last 20 years.
 
 An agreement on promotion and protection of investment between Nepal and UK signed on 02 March 1993 provides a framework to further expand cooperation in this field. In this context, the proposal for signing another agreement on avoidance of double taxation will further help boost the flow of FDI between the two countries.
 
@@ -155,3 +155,135 @@ U.S. assistance has been critical to helping Nepal rebuild after the devastating
 The United States has also committed security assistance to Nepal, working with the Nepali Army to strengthen their peacekeeping and disaster response capabilities.
 
 The United States and Nepal have signed a trade and investment framework agreement, providing a forum for bilateral talks to enhance trade and investment, discuss specific trade issues, and promote more comprehensive trade agreements between the two countries. In 2016, Nepal became one of few countries in the world with a single-country trade preference program with the United States. Principal U.S. exports to Nepal include agricultural products, aircraft parts, optic and medical instruments and machinery. U.S. imports from Nepal include carpets, apparel and jewelry.
+
+### Impacts of climate change
+
+What are the impacts of climate change ? Discuss on detail about the initiative taken by Nepal Government in tackling the impacts of climate change.
+
+Climate change is now affecting every country in every continent. It is disrupting national economies and affecting lives, of individuals, communities and countries today and is likely to do so in the ensuing future. Weather pattern are changing, snowline are melting due to global warming and sea level are rising. 
+
+**Negative impacts**
+
+1. Numerous mountains are seeing accelerated the melting of snow due to global warming.
+2. Changes in monsoon patterns, such as erratic rainfall with alternate drought periods are the serious impacts of climate change in Nepal which hampers the agricultural production. The changes in monsoon pattern in Nepal greatly exacerbate the situation of poverty and food insecurity in the country.
+3. Flood, landslides, forest fires, snow melt are the disasters that occur as a result of climate change without any prewarning and causes heavy loss.
+4. High hills and mountains are more vulnerable to climate change compared to terai, thus climate change make large scale economic and ecolgical disruption in upper latitudes.
+5. Loss of plant and animal biodiversity.
+6. Increase in number of insects, pest and diseases and sporadic outbreaks becoming much frequent.
+
+The positive impact of global warming, a characteristic feature of climate change, is that the crops that could in the past be only growth in certain low altitudes, requiring prolonged exposure to heat can now be growth in higher regions such as Manang and Mustang districts of Nepal. The is evidently due to increase average temperature of the region, thus allowing the crop to perform well. However, as noted earlier, there are more prominent negative impacts than the benifits we can derive from the climate change.
+
+Nepal became signatory of UN Framework Convention on Climate Change (UNFCC) in 1994. Ever since then the issue of climate change has been routinely incorporated into policy and strategic frameworks by Government of Nepal. Following policies and strategies are currently in place to help mitigate the impacts of climate change in Nepal:
+
+1. Constitutional approach
+
+Article 30(1) of the constitution of Nepal guarantees a "clean environment" as fundamental right and elaborates that "every citizen shall have the right to live in a clean and healthy environment." Article 30(2) of the constitution also encourages the state to formulate necessary legal framework to balance environment and development.
+
+2. Approaches in periodic plans
+3. Climate change policy, 2067 (2011)
+4. National climate change policy, 2076 (2019)
+6. National adaptation plan of action (NAPA, 2010)
+7. Framework for local adaptation plan for action (LAPA, 2011)
+
+### Highlights of NCCP, 2076
+
+Reasons for Nepal's vulnerability to climate change are Topographical fragility, fragile geological structure, sensitive ecosystems and diversity of climate and micro-climate zones prevalence in Nepal. Additionally, poverty, illiteracy, social disparity and high dependence of communities on natural resources for livelihood.
+
+- Nepal National Red Strategy implemented to check greenhouse gases emmission from deforestation and forest destruction.
+- Provision of climate change coordination committee in Chairmanship of Prime minister.
+- Establishment of Climate change management section under Ministry of Forest and Environment as focal point for implementation of international treaty.
+- Provision of Climate budget code by National planning commission.
+- Alternative energy promotion center has established climate and carbon unit for executing Clean Development Mechanism (CDM) related activities.
+
+**Goal**
+
+To contribute to socio-economic prosperity of the nation by building a climate resilient society.
+
+**Objectives**
+
+a. To enhance climate change adaptation capacity of persons, families, groups and communities vulnerable to, and at risk of, climate change;
+b. To build resilience of ecosystems that are at risk of adverse impacts of climate change;
+c. To promote green economy by adopting the concept of low carbon emmission development;
+d. To mobilize national and international financial resources for climate change mitigation and adaptation in just manner;
+e. To conduct research, make effective technology development and information service delivery related to climate change;
+f. To mainstream or integrate climate change issues into policies, strategies, plans and programs at all levels of State and sectoral areas;
+g. To mainstream gender equality and social inclusion (GESI) into climate change mitigation and adaptation programs.
+
+**Policies** (Sectoral policy, strategies and working policies)
+
+1. Agriculture and food security
+2. Forest, biodiversity and watershed conservation
+3. Water resources and energy
+4. Rural and urban habitats
+5. Industry, transport and physical infrastructure
+6. Tourism and natural and cultural heritage
+7. Health and drinking water and sanitation
+8. Disaster risk reduction and management
+9. Gender equality and social inclusion, livelihoods and good governance
+10. Awareness raising and capacity development
+11. Research, technology development and expansion
+12. Climate finance management
+
+Policy number 9-12 are inter-thematic areas.
+
+### Population census, 2068
+
+```{r}
+dplyr::tribble(~"Indicator", "Unit", ~"Value", 
+               "Male", "count", 12849041,
+               "Female", "count", 13645463,
+               "Annual population growth rate", "percentage", 1.35,
+               "Population density", "individuals per msq", 180,
+               "Total engagement in agriculture", "percentage", 65.6,
+               "Male engagement in agriculture", "percentage", 60.2,
+               "Female engagement in agriculture", "percentage", 72.8, 
+               "Crude birth rate", "per thousand", 21.8,
+               "Crude death rate", "per thousand", 7.3,
+               "Child death rate", "per thousand", 40.5,
+               "Net fertility rate", "percentage", 2.5, 
+               "Average life expectancy", "years", 66.6) %>% 
+  knitr::kable(caption = "Population census, 2068 summary", booktabs = TRUE, longtable = T)
+
+```
+
+### Hulaki rajmarga (Hulaki highway)
+
+http://www.karma99.com/
+http://www.karma99.com/2015/09/hulaki-rajmarga.html
+
+### Demographics of Nepal
+
+- Refer to wikipedia link \url{https://en.wikipedia.org/wiki/Demographics_of_Nepal}, for demographic statistics of Nepal. This includes
+  - Population growth
+  - Vital statistics: Live births per year, Deaths per year, Natural change per year, CBR, CDR, NC, TFR, IMR
+  - Population structure: Based on age group
+  - Ethnicity statisics
+  - Languages
+  - CIA factbook summary
+  - Religion, etc.
+
+### Madan puraskar
+
+Madan puraskar is a literary honor in Nepal which Madan Puraskar Guthi confers annually for an outstanding book in Nepali language published within the calendar year. It is considered the most prestigious literature award in Nepal.
+
+It was established by daughter in law of Prime Minister Chandra Shumsher JBR Queen Jagadamba Kumari Devi, in memory of her husband late General Madan Shumsher JBR, on September 26, 1955. Since then it has been presented every year, except in 1974 and 1977. At the time of its establishment, the award prize was NRS 4000. Since the Golden Jubilee year 2005 the award prize has been increased to NRs. 400,000.
+
+### List of winners
+
+```{r winners-list}
+# madan_puraskar <- read_html("https://en.wikipedia.org/wiki/Madan_Puraskar") %>% 
+#   html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[2]')
+# 
+# madan_puraskar %>% 
+#   .[[1]] %>%
+#   html_table() %>% 
+#   as_tibble() %>% 
+#   write_csv("./madan_puraskar_awardees.csv", na = "")
+
+madan_puraskar <- read_csv("./data/madan_puraskar_awardees.csv")
+
+madan_puraskar %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of Madan Puraskar winners till 2075", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("14em", "24em"))
+```

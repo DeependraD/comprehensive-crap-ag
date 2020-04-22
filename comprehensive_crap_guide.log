@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.27)  19 APR 2020 17:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.27)  21 APR 2020 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1477,141 +1477,144 @@ injurious-both-personal-
 [187] [188] [189] [190] [191] [192]
 Underfull \vbox (badness 4072) has occurred while \output is active []
 
-[193] [194] [195] [196
+[193] [194]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[195] [196] [197] [198] [199] [200] [201] [202
 
 ]
 Chapter 17.
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7507--7534
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7658--7685
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7534--7558
- [] [] [] 
- []
-
-[197]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7558--7582
- [] [] [] 
- []
-
-[198]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7582--7606
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7606--7630
- [] [] [] 
- []
-
-[199]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7630--7654
- [] [] [] 
- []
-
-[200]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7654--7678
- [] [] [] 
- []
-
-[201]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7678--7702
- [] [] [] 
- []
-
-[202]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7702--7726
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7726--7750
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7685--7709
  [] [] [] 
  []
 
 [203]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7750--7774
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7774--7798
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7709--7733
  [] [] [] 
  []
 
 [204]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7798--7822
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7733--7757
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7757--7781
  [] [] [] 
  []
 
 [205]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7822--7846
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7846--7870
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7781--7805
  [] [] [] 
  []
 
 [206]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7870--7894
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7894--7918
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7805--7829
  [] [] [] 
  []
 
 [207]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7918--7942
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7829--7853
  [] [] [] 
  []
 
 [208]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7942--7966
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7853--7877
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7966--7990
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7877--7901
  [] [] [] 
  []
 
 [209]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7990--8014
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7901--7925
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7925--7949
  [] [] [] 
  []
 
 [210]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8014--8038
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8038--8062
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7949--7973
  [] [] [] 
  []
 
 [211]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8062--8080
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7973--7997
  [] [] [] 
  []
 
-[212] [213] [214]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8175--8201
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7997--8021
+ [] [] [] 
+ []
+
+[212]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8021--8045
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8045--8069
+ [] [] [] 
+ []
+
+[213]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8069--8093
+ [] [] [] 
+ []
+
+[214]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8093--8117
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8117--8141
  [] [] [] 
  []
 
 [215]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8201--8204
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8141--8165
  [] [] [] 
  []
 
-[216] [217] [218] [219] [220] [221]
+[216]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8165--8189
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8189--8213
+ [] [] [] 
+ []
+
+[217]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8213--8231
+ [] [] [] 
+ []
+
+[218] [219] [220]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8326--8352
+ [] [] [] 
+ []
+
+[221]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 8352--8355
+ [] [] [] 
+ []
+
+[222] [223] [224] [225] [226] [227]
 File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf>
 File: ./latex_book/main.pdf Graphic file (type pdf)
@@ -1620,329 +1623,329 @@ File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf, page 2>
 File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf, page 2>
-[222]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
-[223]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
-[224]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
-[225]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
-[226]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
-[227]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
 [228]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 2>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 2>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 2>
 [229]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 3>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 3>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 3>
 [230]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 4>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 4>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 4>
 [231]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 5>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 5>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 5>
 [232]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 6>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 6>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 6>
 [233]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 7>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 7>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 7>
 [234]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 8>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 8>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 8>
 [235]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 9>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 9>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 9>
 [236]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 10>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 10>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 10>
 [237]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 11>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 11>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 11>
 [238]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 12>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 12>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 12>
 [239]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 13>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 13>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 13>
 [240]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 14>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 14>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 14>
 [241]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 15>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 15>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 15>
 [242]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 16>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 16>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 16>
 [243]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 17>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 17>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 17>
 [244]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 18>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 18>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 18>
 [245]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 19>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 19>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 19>
 [246]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 20>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 20>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 20>
 [247]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 21>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 21>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 21>
 [248]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 22>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 22>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 22>
 [249]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 23>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 23>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 23>
 [250]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 24>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 24>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 24>
 [251]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 25>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 25>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 25>
 [252]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 26>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 26>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 26>
 [253]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 27>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 27>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 27>
 [254]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 28>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 28>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 28>
 [255]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 29>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 29>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 29>
 [256]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 30>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 30>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 30>
 [257]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 31>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 31>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 31>
 [258]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 32>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 32>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 32>
 [259]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
+<use ./latex_book/main.pdf, page 33>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
+<use ./latex_book/main.pdf, page 33>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
+<use ./latex_book/main.pdf, page 33>
 [260]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
+<use ./latex_book/main.pdf, page 34>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
+<use ./latex_book/main.pdf, page 34>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
+<use ./latex_book/main.pdf, page 34>
 [261]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
+<use ./latex_book/main.pdf, page 35>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
+<use ./latex_book/main.pdf, page 35>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
+<use ./latex_book/main.pdf, page 35>
 [262]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
+<use ./latex_book/main.pdf, page 36>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
+<use ./latex_book/main.pdf, page 36>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
+<use ./latex_book/main.pdf, page 36>
 [263]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
+<use ./latex_book/main.pdf, page 37>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
+<use ./latex_book/main.pdf, page 37>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
+<use ./latex_book/main.pdf, page 37>
 [264]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
+<use ./latex_book/main.pdf, page 38>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
+<use ./latex_book/main.pdf, page 38>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
+<use ./latex_book/main.pdf, page 38>
 [265]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
+<use ./latex_book/main.pdf, page 39>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
+<use ./latex_book/main.pdf, page 39>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
+<use ./latex_book/main.pdf, page 39>
 [266]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 40>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 40>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 40>
+[267]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 41>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 41>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 41>
+[268]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 42>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 42>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 42>
+[269]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 43>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 43>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 43>
+[270]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 44>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 44>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 44>
+[271]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 45>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 45>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 45>
+[272]
 No file comprehensive_crap_guide.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8554.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 8554.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8705.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 8705.
 (./comprehensive_crap_guide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 8554.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 8554.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 8705.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 8705.
  ) 
 Here is how much of TeX's memory you used:
- 22836 strings out of 479805
- 401946 string characters out of 5892744
- 907804 words of memory out of 5000000
- 39590 multiletter control sequences out of 15000+600000
+ 22838 strings out of 479805
+ 401978 string characters out of 5892744
+ 907858 words of memory out of 5000000
+ 39592 multiletter control sequences out of 15000+600000
  538935 words of font info for 83 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,18n,115p,1931b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on comprehensive_crap_guide.pdf (266 pages).
+Output written on comprehensive_crap_guide.pdf (272 pages).

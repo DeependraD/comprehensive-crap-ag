@@ -300,3 +300,35 @@ Explanation: For the purposes of this Part and Part 4, "indigent" means a person
 
 
 \end{questions}
+
+## Division of power among federation, state and local government (Schedule 5, 6, 7, 8, 9)
+
+```{r power-division-federation}
+
+read_csv("./data/constitution_power_federation.csv", skip = 2) %>% 
+  separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>%
+  mutate(SN = as.numeric(SN)) %>% 
+  knitr::kable(caption = "List of power of federation of Nepal. (Schedule 5)", booktabs = TRUE, longtable = T, format = "latex") %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "20em")
+```
+
+```{r power-division-province}
+
+read_csv("./data/constitution_power_province.csv", skip = 2) %>% 
+  separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>% 
+  mutate(SN = as.numeric(SN)) %>% 
+  knitr::kable(caption = "List of power of provinces of Nepal. (Schedule 6)", booktabs = TRUE, longtable = T, format = "latex") %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "20em")
+```
+
+```{r power-division-fed-prov}
+
+read_csv("./data/constitution_power_province.csv", skip = 2) %>% 
+  separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>% 
+  mutate(SN = as.numeric(SN)) %>% 
+  knitr::kable(caption = "List of common power of federation and provinces of Nepal. (Schedule 7)", booktabs = TRUE, longtable = T, format = "latex") %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "20em")
+```
