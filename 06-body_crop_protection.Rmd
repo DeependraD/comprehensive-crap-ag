@@ -232,16 +232,19 @@ Hosts:
 All grasses, particularly, blackgrass ( _Alopecurus myosuroides_)
 
 Symptoms:
+
 - Causal fungus only attacks ears of flowering, replacing the grain in a few spikelets by a hard, purple black sclerotium, known as ergot.
 - Such ergots can be very large, upto 2 cm in length, and very obvious in the standing crop in contaminated grain samples.
 
 Life cycle:
+
 - Ergot is not truely a seed borne disease, however it can be spread by ergots in contaminated seeds.
 - At or near harvest, ergots fall to the ground where they remain untill the following summer, when they germinate to produce club-shaped spore bearing structure (stroma). These ascospores are spread by the wind to nearly open flowers of grasses/cereals. The spores germinate in flower, infecting the ovaries. This infection leads to the production of secondary spores (condia) encased in sticky secretion commonly referred to as honeydew. This attracts insects which carry the spores to other flowers, where further infection can occur.
 - Wheat and other cereals are less severely affected than rye although, occassionally more open-flowerd wheat variety can be badly affected.
 - Disease is favored by cool, wet conditions during flowering which facilitate spore production and prolong the flowering period, making infection more likely.
 
 Importance:
+
 - Very little direct effect on yield.
 - Affects stocks which when fed to flour made with cereals with large amount of toxic alkaloid containing ergot, possess health risks.
 
@@ -252,6 +255,7 @@ Pathogen: _Fusarium spp._ and _Microdochium nivale_
 Hosts: Wheat, barley, oats, rye triticale and grasses.
 
 Symptoms:
+
 - Form a complex of diseases on seeds, seedlings and adult plants.
 - _Microdochium nivale_ (formerly known as _Fusarium nivale_) is seed-borne pathogen and causes seedling blight resulting in seedling death and thinning of plant stand.
 - _M. spp_ (other than _M. nivale_) cause a range of symptoms including brown lesions on stem bases, often restricted to outer leaf sheath.
@@ -265,11 +269,13 @@ Symptoms:
 - Important due to its mycotoxin that gets accumulated in grains.
 
 Life cycle:
+
 - Most important source is seed but fungus survives on debris in soil also.
 - Spores are splashed in canopy causing ear blights and seed borne infection, in wet seasons, especially during flowering and grain formation.
 - Most fusarium species have competative saprophytic abilities which allow them to colonize debris and stubble in soil.
 
 Importance:
+
 - When wet season coincides with flowering high levels of ear blight can occur.
 - Due to seed borne nature of pathogen, seed treatment plays role in preventing seedling loss in wheat.
 

@@ -5,12 +5,14 @@ date: "November, 2019"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
+classoption: openany # this will force for 2 side layout of book to open chapter at any side
 bibliography: [bibliography/vegetable.bib, bibliography/bib.bib]
 biblio-style: apalike
 link-citations: yes
 # github-repo: deependrad/comprehensive_agriculture_guide
 description: "This is a guide book for agriculture and general knowledge."
-
+header-includes: 
+  - \usepackage{fancyhdr}
 ---
 
 ```{r setup, include=FALSE, message=FALSE}

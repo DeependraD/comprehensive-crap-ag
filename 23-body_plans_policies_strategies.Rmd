@@ -44,7 +44,8 @@
 ```{r forteenth-periodic-plan}
 read_csv("./data/periodic_plans.csv", skip = 1) %>% 
   knitr::kable(booktabs = TRUE, caption = "Goals and achievements of 13th periodic plan (2073/74-75/76) for selected indicators") %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = "18em")
 ```
 
 - Gross national income in 13th periodic plan was expected to rise by 6.0 percentage, however by 2070/71 it was 5.72%, in 2071.72 2.32% and in 2072/73 it remained 0.77%. Hence resulting in average economic growth of 2.92%.
@@ -52,8 +53,6 @@ read_csv("./data/periodic_plans.csv", skip = 1) %>%
   - Food grain production was projected to reach 1,08,81,000 mt annually. However at the second year of the plan only 92,66,000 mt were realized.
   - There was an estimation of 12,60,000 mt production of fruits. But only 11,86,000 mt were produced.
   - There was an estimation of 36,00,000 mt production of vegetables. However, 36,23,000 mt were produced of it, surpassing the set target.
-
-
 
 
 ## National agricultural policy, 2004

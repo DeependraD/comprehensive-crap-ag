@@ -4,6 +4,7 @@
 ## Nepal agriculture and geography
 
 **Ecological regions**
+
 - Himalayan region: 35%
 - Hilly region: 41.67%
 - Terai region: 23.11%
@@ -23,7 +24,7 @@ dplyr::tribble(~"sector", ~"fy_2074-75", ~"fy_2073-74", ~"fy_2072-73",
                "Agriculture and forestry", 27.10, 28.25, 31.08,
                "Fishery", 0.49, 0.51, 0.53,
                "Non-agriculture", 72.41, 71.24, 68.39) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Percentage contribution of different sector and subsectors to total national GDP")
+  knitr::kable(booktabs = TRUE, caption = "Percentage contribution of different sector and subsectors to total national GDP", col.names = c("Sector", "FY 2074/75", "FY 2073/74", "FY 2072/73"))
 ```
 
 **Agricultural growth rates**

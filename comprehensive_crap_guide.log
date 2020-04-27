@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.27)  21 APR 2020 09:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.27)  27 APR 2020 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,49 +605,61 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@questionsii=\count322
 \c@questionsiii=\count323
 \enitdp@questions=\count324
-(/home/deependra/.TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+(/home/deependra/.TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip73
+\f@nch@O@elh=\skip74
+\f@nch@O@erh=\skip75
+\f@nch@O@olh=\skip76
+\f@nch@O@orh=\skip77
+\f@nch@O@elf=\skip78
+\f@nch@O@erf=\skip79
+\f@nch@O@olf=\skip80
+\f@nch@O@orf=\skip81
+) (/home/deependra/.TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip73
-\bibsep=\skip74
+\bibhang=\skip82
+\bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count325
 ) (./comprehensive_crap_guide.aux)
 \openout1 = `comprehensive_crap_guide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 120.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 120.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 120.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 120.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 120.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 120.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 121.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 120.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 121.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -676,7 +688,7 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 120.
+(Font)              scaled to size 10.0pt on input line 121.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -715,18 +727,18 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 120.
+(Font)              scaled to size 10.0pt on input line 121.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 120.
+(Font)              `operators' in the math version `normal' on input line 121.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 120.
+ line 121.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 120.
+(Font)              `operators' in the math version `bold' on input line 121.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 120.
+t line 121.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -813,15 +825,15 @@ t=math;language=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 120.
+(Font)              `symbols' in the math version `normal' on input line 121.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 120.
+t line 121.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 120.
+(Font)              `symbols' in the math version `bold' on input line 121.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 120.
+t line 121.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -891,17 +903,17 @@ pt=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-20.
+21.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 120.
+t line 121.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 120
+(Font)              `largesymbols' in the math version `bold' on input line 121
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 120.
-LaTeX Info: Redefining \microtypecontext on input line 120.
+t line 121.
+LaTeX Info: Redefining \microtypecontext on input line 121.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -914,7 +926,7 @@ File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 120.
+Package hyperref Info: Link coloring OFF on input line 121.
 (/home/deependra/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/home/deependra/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -926,9 +938,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count326
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -966,36 +978,36 @@ LaTeX Info: Redefining \nameref on input line 120.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 122.
+(Font)              scaled to size 12.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 122.
+(Font)              scaled to size 8.0pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 122.
+(Font)              scaled to size 6.0pt on input line 123.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-22.
+23.
 (/home/deependra/.TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.0011pt on input line 122.
+(Font)              scaled to size 12.0011pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 122.
+(Font)              scaled to size 8.00073pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 122.
+(Font)              scaled to size 6.00055pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 122.
+(Font)              scaled to size 11.99872pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 122.
+(Font)              scaled to size 7.99915pt on input line 123.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 122.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+(Font)              scaled to size 5.99936pt on input line 123.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 (/home/deependra/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/home/deependra/.TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 (/home/deependra/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1003,8 +1015,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-
-] [2
 
 ] (./comprehensive_crap_guide.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -1023,26 +1033,28 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 3.
-[3] [4] [5])
+[2
+
+] [3])
 \tf@toc=\write3
 \openout3 = `comprehensive_crap_guide.toc'.
 
-[6]
+[4]
 Chapter 1.
-[7
-
-] [8
+[5
 
 ]
 Chapter 2.
-[9] [10] [11] [12] [13]
-Underfull \vbox (badness 3780) has occurred while \output is active []
 
-[14] [15] [16] [17] [18] [19] [20]
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+[6
+
+] [7] [8] [9] [10] [11] [12] [13] [14]
 Chapter 3.
-[21
+[15
 
-] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: <default>
@@ -1076,24 +1088,24 @@ Chapter 3.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (3.03198pt too wide) in paragraph at lines 1393--1393
+Overfull \hbox (3.03198pt too wide) in paragraph at lines 1213--1213
 []|\TU/lmr/m/n/8 Production 
  []
 
-[34]
+[28]
 Overfull \hbox (33.95111pt too wide) has occurred while \output is active
 \TU/lmr/m/sl/10 3.12.  WHAT IS PBS ? DIFFERENTIATE PBS AND TPS. HOW IS PBS IS P
-RODUCED IN POTATO ? \TU/lmr/m/n/10 35
+RODUCED IN POTATO ? \TU/lmr/m/n/10 29
  []
 
-[35
+[29
 
 
 
 
-] [36] [37] [38]
+] [30] [31] [32]
 Chapter 4.
-[39
+[33
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1129,21 +1141,21 @@ Chapter 4.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (6.552pt too wide) in paragraph at lines 1646--1646
+Overfull \hbox (6.552pt too wide) in paragraph at lines 1466--1466
 []|\TU/lmr/m/n/8 Productivity 
  []
 
 
-Overfull \hbox (7.02402pt too wide) in paragraph at lines 1655--1655
+Overfull \hbox (7.02402pt too wide) in paragraph at lines 1475--1475
 []|$[][][][][][][][][][][]$|  
  []
 
 
-Overfull \hbox (7.02402pt too wide) in paragraph at lines 1658--1658
+Overfull \hbox (7.02402pt too wide) in paragraph at lines 1478--1478
 []|$[][][][][][][][][][][]$|  
  []
 
-[40]
+[34]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: <default>
@@ -1177,11 +1189,11 @@ Overfull \hbox (7.02402pt too wide) in paragraph at lines 1658--1658
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (6.552pt too wide) in paragraph at lines 1684--1684
+Overfull \hbox (6.552pt too wide) in paragraph at lines 1504--1504
  []|\TU/lmr/m/n/8 Productivity
  []
 
-[41] [42
+[35] [36
 
 
 
@@ -1190,28 +1202,17 @@ Overfull \hbox (6.552pt too wide) in paragraph at lines 1684--1684
 
 
 
-] [43] [44]
+] [37] [38]
 Chapter 5.
-[45
+[39
 
-] [46]
-Overfull \hbox (646.87683pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 5.2.  WHAT ARE THE DIFFERENT FACTORS THAT AFFECT THE AMOUNT OF 
-NATURAL CROSSING OR SELFING ? EXPLAIN ABOUT THE MECHANISMS THAT ENFORCE SELF AN
-D CROSS POLLINATION IN FIELD CROPS. \TU/lmr/m/n/10 47
- []
-
-[47] [48
-
-]
+] [40] [41]
 Chapter 6.
-[49] [50
+[42
 
-]
-Chapter 7.
-[51] [52
+] [43
 
-] [53] [54
+] [44] [45
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1247,54 +1248,54 @@ Chapter 7.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (6.98pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (6.98pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 Approximate 
  []
 
 
-Overfull \hbox (7.81pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (7.81pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 March|  
  []
 
 
-Overfull \hbox (2.54001pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (2.54001pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 April|  
  []
 
 
-Overfull \hbox (0.7pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (0.7pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 June|  
  []
 
 
-Overfull \hbox (1.17pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (1.17pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 August|  
  []
 
 
-Overfull \hbox (16.14pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (16.14pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 September|  
  []
 
 
-Overfull \hbox (5.31pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (5.31pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 October|  
  []
 
 
-Overfull \hbox (13.91pt too wide) in paragraph at lines 2166--2166
+Overfull \hbox (13.91pt too wide) in paragraph at lines 1986--1986
 []|\TU/lmr/m/n/10 November|  
  []
 
 
-Overfull \hbox (13.21pt too wide) in paragraph at lines 2166--2167
+Overfull \hbox (13.21pt too wide) in paragraph at lines 1986--1987
 []|\TU/lmr/m/n/10 December|  
  []
 
 
-LaTeX Warning: Float too large for page by 16.98781pt on input line 2215.
+LaTeX Warning: Float too large for page by 16.98781pt on input line 2035.
 
-[55] [56
+[46] [47
 
 
 
@@ -1332,25 +1333,25 @@ LaTeX Warning: Float too large for page by 16.98781pt on input line 2215.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[57] [58
+[48]
+Chapter 7.
+[49
 
 
 
 
 
-]
-Chapter 8.
-[59] [60]
+] [50]
 Overfull \hbox (14.96661pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 8.3.  GENDER DEVELOPMENT INDEX (GDI) AND GENDER EMPOWERMENT IND
-EX (GEI) \TU/lmr/m/n/10 61
+\TU/lmr/m/sl/10 7.3.  GENDER DEVELOPMENT INDEX (GDI) AND GENDER EMPOWERMENT IND
+EX (GEI) \TU/lmr/m/n/10 51
  []
 
-[61] [62
+[51]
+Chapter 8.
+[52
 
 ]
-Chapter 9.
-[63]
 File: ./images/hemileia_vastatrix_coffee_leaf_rust.jpg Graphic file (type bmp)
 <./images/hemileia_vastatrix_coffee_leaf_rust.jpg>
 File: ./images/Plasmopara_vitticola.jpg Graphic file (type bmp)
@@ -1358,263 +1359,284 @@ File: ./images/Plasmopara_vitticola.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74
+[53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+Chapter 9.
+[64
 
 ]
-Chapter 10.
-[75]
-Overfull \hbox (69.78539pt too wide) in paragraph at lines 3124--3134
+Overfull \hbox (69.78539pt too wide) in paragraph at lines 2992--3002
  [][] 
+ []
+
+[65] [66]
+File: ./images/tuta_absoluta.jpeg Graphic file (type bmp)
+<./images/tuta_absoluta.jpeg>
+[67] [68] [69]
+Chapter 10.
+[70
+
+]
+Chapter 11.
+[71
+
+]
+Underfull \vbox (badness 4569) has occurred while \output is active []
+
+
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 72 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
+
+[72]
+Overfull \hbox (493.99538pt too wide) in paragraph at lines 3313--3313
+[]\TU/lmtt/m/n/10 - systematic scrutiny of patterns of production -- particular
+ly the production of toxic components, such as lead in gasoline, or poisonous w
+aste including radioactive chemicals[] 
+ []
+
+
+Overfull \hbox (168.49538pt too wide) in paragraph at lines 3313--3313
+[]\TU/lmtt/m/n/10 - alternative sources of energy to replace the use of fossil 
+fuels which delegates linked to global climate change[] 
+ []
+
+
+Overfull \hbox (425.74538pt too wide) in paragraph at lines 3313--3313
+[]\TU/lmtt/m/n/10 - new reliance on public transportation systems in order to r
+educe vehicle emissions, congestion in cities and the health problems caused by
+ polluted air and smoke[] 
+ []
+
+[73]
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 74 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
+
+[74] [75]
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 76 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
  []
 
 [76] [77]
-File: ./images/tuta_absoluta.jpeg Graphic file (type bmp)
-<./images/tuta_absoluta.jpeg>
-[78] [79] [80]
-Chapter 11.
-[81
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 78 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
 
-] [82
+[78] [79]
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 80 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
 
-]
+[80] [81]
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 82 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
+
+[82] [83]
+Overfull \hbox (62.85211pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 84 \TU/lmr/m/sl/10 CHAPTER 11.  INTERNATIONAL ORGANIZATIONS, TRE
+ATIES, CONVENTIONS AND AGREEMENTS
+ []
+
+[84]
 Chapter 12.
-[83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
-Chapter 13.
-[99
+[85
 
 ]
-Underfull \vbox (badness 8000) has occurred while \output is active []
-
-
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 100 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[100] [101]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 102 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[102] [103]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 104 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[104] [105]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 106 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[106] [107]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 108 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[108] [109]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 110 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[110] [111]
-Overfull \hbox (67.85211pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 112 \TU/lmr/m/sl/10 CHAPTER 13.  INTERNATIONAL ORGANIZATIONS, TR
-EATIES, CONVENTIONS AND AGREEMENTS
- []
-
-[112
-
-]
-Chapter 14.
-[113]
-Overfull \hbox (160.6954pt too wide) in paragraph at lines 4735--4763
+Overfull \hbox (19.35536pt too wide) in paragraph at lines 3791--3819
  [][] 
  []
 
-[114] [115] [116] [117]
+[86] [87] [88] [89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[118] [119] [120
+[90] [91]
+Chapter 13.
+[92
 
-]
-Chapter 15.
-[121] [122] [123] [124] [125] [126] [127] [128] [129]
-Underfull \hbox (badness 3364) in paragraph at lines 5420--5421
+] [93] [94] [95] [96] [97] [98] [99] [100]
+Underfull \hbox (badness 3364) in paragraph at lines 4485--4486
 []\TU/lmr/m/n/10 No child shall be subjected to child marriage, transported ill
 egally, ab-
  []
 
-[130] [131] [132]
-Chapter 16.
-[133
+[101] [102] [103] [104] [105] [106]
+Chapter 14.
+[107
 
-] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146]
-[147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [
-160] [161] [162] [163]
+] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120]
+[121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [
+134] [135] [136] [137] [138] [139] [140] [141] [142]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[164]
+[143]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[165] [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [
-178] [179] [180] [181] [182] [183]
-Overfull \hbox (44.9104pt too wide) in paragraph at lines 7045--7047
-[]\TU/lmr/m/n/10 source: https://mofa.gov.np/foreign-policy/; https://kathmandu
-post.com/opinion/2019/03/26/foreign-
+[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [
+157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [1
+70] [171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [18
+3] [184] [185] [186]
+Chapter 15.
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7280--7307
+ [] [] [] 
  []
 
-[184] [185] [186]
-Underfull \hbox (badness 4429) in paragraph at lines 7179--7181
-[]\TU/lmr/m/n/10 source: https://www.upsciq.com/anger-harmful-negative-emotion-
-injurious-both-personal-
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7307--7331
+ [] [] [] 
  []
 
-[187] [188] [189] [190] [191] [192]
-Underfull \vbox (badness 4072) has occurred while \output is active []
-
-[193] [194]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[195] [196] [197] [198] [199] [200] [201] [202
+[187
 
 ]
-Chapter 17.
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7331--7355
+ [] [] [] 
+ []
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7658--7685
+[188]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7355--7379
+ [] [] [] 
+ []
+
+[189]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7379--7403
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7685--7709
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7403--7427
  [] [] [] 
  []
 
-[203]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7709--7733
+[190]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7427--7451
  [] [] [] 
  []
 
-[204]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7733--7757
+[191]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7451--7475
  [] [] [] 
  []
 
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7757--7781
+[192]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7475--7499
  [] [] [] 
  []
 
-[205]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7781--7805
- [] [] [] 
- []
-
-[206]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7805--7829
- [] [] [] 
- []
-
-[207]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7829--7853
- [] [] [] 
- []
-
-[208]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7853--7877
+[193]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7499--7523
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7877--7901
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7523--7547
  [] [] [] 
  []
 
-[209]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7901--7925
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7925--7949
- [] [] [] 
- []
-
-[210]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7949--7973
- [] [] [] 
- []
-
-[211]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7973--7997
+[194]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7547--7571
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 7997--8021
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7571--7595
  [] [] [] 
  []
 
-[212]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8021--8045
+[195]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7595--7619
  [] [] [] 
  []
 
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8045--8069
- [] [] [] 
- []
-
-[213]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8069--8093
- [] [] [] 
- []
-
-[214]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8093--8117
+[196]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7619--7643
  [] [] [] 
  []
 
 
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8117--8141
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7643--7667
  [] [] [] 
  []
 
-[215]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8141--8165
+[197]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7667--7691
  [] [] [] 
  []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7691--7715
+ [] [] [] 
+ []
+
+[198]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7715--7739
+ [] [] [] 
+ []
+
+[199]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7739--7763
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7763--7787
+ [] [] [] 
+ []
+
+[200]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7787--7811
+ [] [] [] 
+ []
+
+[201]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7811--7835
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7835--7853
+ [] [] [] 
+ []
+
+[202] [203] [204] [205]
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7948--7974
+ [] [] [] 
+ []
+
+
+Overfull \hbox (5.99538pt too wide) in alignment at lines 7974--7977
+ [] [] [] 
+ []
+
+[206] [207] [208] [209] [210] [211] [212] [213]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[214] [215]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [216]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8165--8189
- [] [] [] 
- []
-
-
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8189--8213
- [] [] [] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [217]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8213--8231
- [] [] [] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[218] [219] [220]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8326--8352
- [] [] [] 
- []
+[218]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[219]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[220]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [221]
-Overfull \hbox (5.99538pt too wide) in alignment at lines 8352--8355
- [] [] [] 
- []
-
-[222] [223] [224] [225] [226] [227]
 File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf>
 File: ./latex_book/main.pdf Graphic file (type pdf)
@@ -1623,329 +1645,322 @@ File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf, page 2>
 File: ./latex_book/main.pdf Graphic file (type pdf)
 <use ./latex_book/main.pdf, page 2>
+[222]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 2>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 2>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 2>
+[223]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 3>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 3>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 3>
+[224]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 4>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 4>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 4>
+[225]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 5>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 5>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 5>
+[226]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 6>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 6>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 6>
+[227]
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 7>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 7>
+File: ./latex_book/main.pdf Graphic file (type pdf)
+<use ./latex_book/main.pdf, page 7>
 [228]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
+<use ./latex_book/main.pdf, page 8>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
+<use ./latex_book/main.pdf, page 8>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 2>
+<use ./latex_book/main.pdf, page 8>
 [229]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
+<use ./latex_book/main.pdf, page 9>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
+<use ./latex_book/main.pdf, page 9>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 3>
+<use ./latex_book/main.pdf, page 9>
 [230]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
+<use ./latex_book/main.pdf, page 10>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
+<use ./latex_book/main.pdf, page 10>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 4>
+<use ./latex_book/main.pdf, page 10>
 [231]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
+<use ./latex_book/main.pdf, page 11>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
+<use ./latex_book/main.pdf, page 11>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 5>
+<use ./latex_book/main.pdf, page 11>
 [232]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
+<use ./latex_book/main.pdf, page 12>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
+<use ./latex_book/main.pdf, page 12>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 6>
+<use ./latex_book/main.pdf, page 12>
 [233]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
+<use ./latex_book/main.pdf, page 13>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
+<use ./latex_book/main.pdf, page 13>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 7>
+<use ./latex_book/main.pdf, page 13>
 [234]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 14>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 14>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 8>
+<use ./latex_book/main.pdf, page 14>
 [235]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 15>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 15>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 9>
+<use ./latex_book/main.pdf, page 15>
 [236]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 16>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 16>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 10>
+<use ./latex_book/main.pdf, page 16>
 [237]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 17>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 17>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 11>
+<use ./latex_book/main.pdf, page 17>
 [238]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 18>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 18>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 12>
+<use ./latex_book/main.pdf, page 18>
 [239]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 19>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 19>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 13>
+<use ./latex_book/main.pdf, page 19>
 [240]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 20>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 20>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 14>
+<use ./latex_book/main.pdf, page 20>
 [241]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 21>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 21>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 15>
+<use ./latex_book/main.pdf, page 21>
 [242]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 22>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 22>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 16>
+<use ./latex_book/main.pdf, page 22>
 [243]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 23>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 23>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 17>
+<use ./latex_book/main.pdf, page 23>
 [244]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 24>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 24>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 18>
+<use ./latex_book/main.pdf, page 24>
 [245]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 25>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 25>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 19>
+<use ./latex_book/main.pdf, page 25>
 [246]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 26>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 26>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 20>
+<use ./latex_book/main.pdf, page 26>
 [247]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 27>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 27>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 21>
+<use ./latex_book/main.pdf, page 27>
 [248]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 28>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 28>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 22>
+<use ./latex_book/main.pdf, page 28>
 [249]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 29>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 29>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 23>
+<use ./latex_book/main.pdf, page 29>
 [250]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 30>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 30>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 24>
+<use ./latex_book/main.pdf, page 30>
 [251]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 31>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 31>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 25>
+<use ./latex_book/main.pdf, page 31>
 [252]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 32>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 32>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 26>
+<use ./latex_book/main.pdf, page 32>
 [253]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 33>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 33>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 27>
+<use ./latex_book/main.pdf, page 33>
 [254]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 34>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 34>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 28>
+<use ./latex_book/main.pdf, page 34>
 [255]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 35>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 35>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 29>
+<use ./latex_book/main.pdf, page 35>
 [256]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 36>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 36>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 30>
+<use ./latex_book/main.pdf, page 36>
 [257]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 37>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 37>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 31>
+<use ./latex_book/main.pdf, page 37>
 [258]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 38>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 38>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 32>
+<use ./latex_book/main.pdf, page 38>
 [259]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 39>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 39>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 33>
+<use ./latex_book/main.pdf, page 39>
 [260]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 40>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 40>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 34>
+<use ./latex_book/main.pdf, page 40>
 [261]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 41>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 41>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 35>
+<use ./latex_book/main.pdf, page 41>
 [262]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 42>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 42>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 36>
+<use ./latex_book/main.pdf, page 42>
 [263]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 43>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 43>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 37>
+<use ./latex_book/main.pdf, page 43>
 [264]
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 44>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 44>
 File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 38>
+<use ./latex_book/main.pdf, page 44>
 [265]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 39>
-[266]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 40>
-[267]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 41>
-[268]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 42>
-[269]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 43>
-[270]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 44>
-[271]
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
-File: ./latex_book/main.pdf Graphic file (type pdf)
-<use ./latex_book/main.pdf, page 45>
-[272]
 No file comprehensive_crap_guide.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8705.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 8705.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 9095.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 9095.
 (./comprehensive_crap_guide.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 8705.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 8705.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 9095.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 9095.
  ) 
 Here is how much of TeX's memory you used:
- 22838 strings out of 479805
- 401978 string characters out of 5892744
- 907858 words of memory out of 5000000
- 39592 multiletter control sequences out of 15000+600000
- 538935 words of font info for 83 fonts, out of 8000000 for 9000
+ 22979 strings out of 479805
+ 403767 string characters out of 5892744
+ 911835 words of memory out of 5000000
+ 39726 multiletter control sequences out of 15000+600000
+ 538943 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,18n,115p,1931b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,18n,115p,1931b,661s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on comprehensive_crap_guide.pdf (272 pages).
+Output written on comprehensive_crap_guide.pdf (265 pages).

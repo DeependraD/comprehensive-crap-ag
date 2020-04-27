@@ -229,7 +229,7 @@ Policy number 9-12 are inter-thematic areas.
 ### Population census, 2068
 
 ```{r}
-dplyr::tribble(~"Indicator", "Unit", ~"Value", 
+dplyr::tribble(~"Indicator", ~"Unit", ~"Value", 
                "Male", "count", 12849041,
                "Female", "count", 13645463,
                "Annual population growth rate", "percentage", 1.35,

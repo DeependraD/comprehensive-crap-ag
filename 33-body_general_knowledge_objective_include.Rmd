@@ -596,7 +596,7 @@ read_csv("./data/national_games_countries.csv") %>%
   https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/ldc_list.pdf
 
 
-## Multiple Choice
+<!-- ## Multiple Choice -->
 
 \includepdf[pages=2-,pagecommand={},width=1.2\textwidth]{./latex_book/main.pdf}
 

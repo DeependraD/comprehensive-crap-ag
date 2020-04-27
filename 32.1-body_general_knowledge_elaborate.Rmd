@@ -32,8 +32,11 @@ The commission was formed on 21 June 1946 and is headquartered in NY, USA.
 
 \question Describe the 15th plan approach paper:
 % \makeemptybox{1.5in} % use this to provide a box in question
+
 \begin{solution}
+
 The 15th plan approach paper is a piece of shit.
+
 \end{solution}
 
 \question Write about BIMSTEC.
@@ -647,6 +650,32 @@ A state of poverty reflects weak privilage for a nation and its citizens. It als
 
 \question What is the meaning of reservation ? Why is it necessary in government services ? Mention.
 
+Recent census of 2011 has categorized 125 caste as well as ethnic communities in Nepal out of 26.5 million population. Over 92 spoken languages and more than 10 religions are identified in the country, although Nepali language and hindu religion characterize the largest fraction of the population. Social exclusion is known to be one of the main setbacks for inclusive democracy to prosper.
+
+Women cut across all categories irrespective of caste, ethnicity, individuals with disabilities, or children. Six categories, based on sex, caste, ethnicity, religion, religious and physical condition, have been listed as excluded groups.
+
+Excluded groups confront different sets of developmental challenges that more or less relate to securing basic rights to living a quality life. Marginalization from mainstream development, discrimination, under-representation in politics and beureaucracy and lack of competent power are some of the major problems.
+
+Measures are being institutionalized to secure for these groups the active participation in social, economic and political development with Nepal's endorsement of international human development agendas. One of those indlude the ratification of treaty on Ellimination of all Forms of Discrimination Against Women which came into effect on Sept 1981. Over the years pacts like the Indian Poona Pact, have created an obligation on the government to protect minority rights. Recent policy reforms target promotion of equality, participatory development, social security, positive discrimination, reservation on beureaucracy, gender budgeting and targeted program.
+
+Constitution of Nepal, 2072 defines Nepal as a multi ethnic, multi linguistic and multi religious country, and home to people of diverse races, religions, castes, socio economic conditions and languages. It has done fair justice to those holding small numbers in terms of population by ensuring their representation in all institutions of the country. It is said that a country’s diversity should be reflected in every sector, only then can its diversity or heterogeneity be preserved. Minority rights serve as a basis for their representation in diverse sectors of the society. 
+
+- As per Article 42 of the constitution, socially backward women, Dalit, indigenous people, indigenous nationalities, Madhesi, Tharu, minorities, persons with disabilities, marginalised communities, Muslims, backward classes, gender and sexual minorities, youths, farmers, labourers, the oppressed and citizens of backward regions and indigent Khas Arya qualify for reservation in government jobs.
+
+- The second amendment of Civil Service Act, 1993 in order to increase participation in civil service through introduced reservation system, has allocated (pursuant to Chapter 3, Subsection 7, Clause 1 and 2)) 45% of the total posts to fulfilled by open competition to be set aside by having separate competition between the following candidates only (by considering the percentage into cent percent):
+
+  - Women: 33%
+  - Adiwasi/Janjati: 27%
+  - Dalit: 9%
+  - Disabled: 5%
+  - Backward area: 4% (Comprising Accham, Kalikot, Jajarkot, Jumla, Dolpa, Bajhang, Bajura, Mugu and Humla districts only)
+  
+The act also has made an arrangement for reviewing the impact of the above provision in a period of ten years. Moreover, the act has fixed 40 years as the age bar for women candidates to enter in the civil service, whereas the same is set to 35 years for men. Besides that individuals recruited through the reservation may be eligible for promotion only one year after working on a post.
+
+- Government initiated a project named Governance reform program 2001-2005. One of the responsibilities of this program was to explore the level of marginalization and to suggest corrective measures for the government. The project report, for the first time in Nepal, proposed quota reservation for marginalized people in Nepal.
+
+Through inclusivity and affirmative action, representation of the most deprived community is ensured. However, there have been criticisms that mishandling of privilage may tarnish merit based system in civil service. Again, it can be misused by those in charge of power in the deprived community itself. Here however is an opportunity for us to set an worldly example if the reforms are to avail themselves in a decade or so, but undoubtedly till then implementation of this democratic constitution remains the key challenge.
+
 \question (Long answer type) What type of relationship have been envisioned between federal, state and local levels in the constitution of Nepal ? Explain.
 
 \question How does the management information system help in decision making process ?
@@ -661,11 +690,112 @@ A state of poverty reflects weak privilage for a nation and its citizens. It als
 
 \question What are the geographical features of Nepal ? Mention in brief.
 
-\question Although, Nepal is an agricultural country, what are the reasons for decreasing productivity of arable land in recent years.
+\question Although Nepal is an agricultural country, what are the reasons for decreasing productivity of arable land in recent years.
 
-\question What are the negative impacts or such impacts possible due climate change in Nepal ? Mention.
+\begin{solution}
+
+Some of the reasons for decreasing productivity of arable land in recent years in Nepal are:
+
+\begin{itemize}
+\item Recent years have seen depletion of soil fertility. Besides leach and runoff of major nutrients, intensification of mono-cropping, mainly that of cereals, has accelerated exhaustion of these essential supplies. Likewise, farmers have not been, since early farming days, supplementing the land with micronutrient fertilizers. It should be noted that micronutrient deficiencies can have serious limitting effects in yield.
+\item Haphazard use of chemical fertilizers have resulted in acidity and salinity build-up in soil. The crops exhibit symptoms of toxicity when growth therein. Trace to almost null measures of soil amendment adds to this problematic scenario.
+\item Excessive reliance on seasonal rain has turned to become counterproductive. Monsoon streams and water bodies have not been able to fend for agricultural water needs. In some instances they have even dried down in recent years, mainly due to changing seasonal patterns and climate extremes.
+\item In recent years, size of land holding have decreased. This means that in average a farmer own less area of land than what he used to crop previously, currently 0.5 ha per household. This is in comparison to more advanced nations, less by ten to hundreds of order magnitude. This has a rippling effect. Today farmers are practicing farming only as a side gig as well as being less willing to invest in technology introduction. This translates into lesser input consumption and ultimately to lower yield. At the same time transition from traditional practices of diverse cropping to mono-cropping leads to a greater loss in diversity and deprivation from essential ecosystem services of natural environment. For example, natural enemies of insects are indiscriminately being eradicated while trying to turn the wheels against insect-pests. 
+\item While most development plans give high priority to agriculture - which contributes 30 percent to GDP - government investment in the Ministry of Agricultural Development (MOAD) - has declined from 3.7 percent of all government spending 10 years ago to around 3.0 during recent years. Meanwhile, overall government spending has doubled since 2006.
+
+\end{itemize}
+\end{solution}
+
+\question What is climate change ? What are the negative impacts or such impacts possible due climate change in Nepal ? Mention.
+
+\begin{solution}
+
+Climate is usually defined as the "average weather" in a place. It includes patterns of temperature, precipitation (rainfall or snow), humidity, wind and seasons. Climate patterns play fundamental role in shaping natural ecosystems, and the human economies and culture that depend on them.
+
+The planet's climate has been constantly changing over geological time. The global temperature today is about 15 $^\circ C$, though geological evidence suggests it has been much higher and lower in the past. However, in light of the global temperature records, scientists today are concerned that the natural fluctuation, or variability, is being overtaken by a rapid human-induced warming that has serious implications for the stability of the planet's climate. For example, notable events including drought and heat waves in Russia in 2010, drought in China in 2012, and droughts in the US in 2011 and 2012, have all had a major impact on agricultural production in these areas.
+
+Climate change is a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean or the variability of climate properties and that persists for an extended period, typically decades or longer. Climate change may be due to natural internal processes or external forces or due to persistent anthropogenic changes in the composition of the atmosphere or in land use by factors such as biotic processes, variations in solar radiation received by Earth, plate tectonics, and volcanic eruptions. Certain human activities have been identified as primary causes of ongoing climate changes, often referred to as global warming.
+
+Observations of temperature have shown that 10 of the warmest 11 years have occurred since 2001. Coupled with these changes is the decrease in the number of frost days by 10\% in the eastern half of the US and an increase in the length of the growing season by over 10 days.
+
+Trends in precipitation are more difficult to assess; however, overall precipitation amounts and heavy precipitation events have increased in most regions of the world; while occurances of drought has been increasing, particularly since 1970 (IPCC, 2007). 
+
+\textbf{Impacts of climate change for human society}
+
+\begin{itemize}
+\item Melting glaciers, early snowmelt, and severe droughts will cause dramatic water shortages and increase the risk of wildfires in the American West.
+\item Rising seas levels will lead to coastal flooding on the Eastern Seaboard, especially in Florida, and in other areas such as the Gulf of Mexico. 
+\item Forests, farms and cities will face troublesome new pests, heat waves, heavy downpours, and increased flooding. All those factors will damage or destroy ecosystems which human excessively rely on -- Agriculture and fisheries.
+\item Disruption of habitats such as coral reefs and alpine meadows could drive many plant and animal species to extinction.
+\item Allergies, asthma, and infectious disease outbreaks will become more common due to increased growth of pollen-producing ragweed, higher levels of air pollution, and the spread of conditions favorable to pathogens and mosquitoes.
+\end{itemize}
+
+Examples of observed climatic changes
+
+\begin{itemize}
+\item During the past 50 years there has been an increase in $CO_2$ concentration from 325 to 390 ppm with a projection of further increases to nearly 500 ppm by the middle of the twenty-first century (IPCC, 2007).
+\item During the twentieth century, global average air temperatures increased by approximately 0.74 $^\circ C$ (0.56–0.92 $^\circ C$) (IPCC, 2007a) with projections of further increases in surface air temperatures of between 1.1 and 2.9 $^\circ C$ by 2100 under emission scenarios, which have adopted aggressive methods to reduce $CO_2$ emissions, and by up to 2.0–5.4 $^\circ C$ under scenarios with higher emission rates. 
+\item Winter temperatures have increased more rapidly than summer temperatures, and night time minimum temperatures have warmed more than daytime maximums. Across the US (and elsewhere), record high temperatures are three times higher than the number of record cold events.
+\item Decrease in snow cover and sea ice extent and the retreat of mountain glaciers in the latter half of the 20th century.
+\item Rise in global average sea level and the increase in ocean water temperatures. Between 1900 and 2016, the sea level rose by 16–21 cm (6.3–8.3 in). The accelerated decrease in coastal areas is attributed mostly to human induced global warming.
+\item Likely increase in average precipitation over the middle and high latitues of the northern hemisphere, and over tropical land areas.
+\item Increase in frequency and intensity of extreme precipitation events in some regions of the world.
+\end{itemize}
+
+Examples of observed physical and ecological changes
+
+\begin{itemize}
+\item Thawing permafrost
+\item Lengthening of the growing season in middle and high latitudes
+\item Pole-ward and upward shift of plant and animal ranges
+\item Decline of some plant and animal species
+\item Earlier flowering of trees
+\item Earlier and frequent emergence of insects-pests
+\item Disruption of seasonal pattern of migratory birds and egg laying animals.
+\end{itemize}
+
+Source: Encyclopedia of Agriculture and Food Systems
+
+\end{solution}
+
+\question What is green house effect ? Mention its implications of green house gases in global warming.
+
+\begin{solution}
+
+The earth's climate is warming as a consequence of the accumulation of greenhouse gases in the atmosphere. Warming of the atmosphere is actually happerning because the atmosphere is continuing to trap the heat that radiates from the earth and traps it between the earth and space.
+
+The most important greenhouse gases contributing to this warming are carbon Water vapor, dioxide ($CO_2$), methane ($CH_4$), and nitrous oxide ($N2O$). Although these gases are present in the atmosphere naturally, human activity has been responsible for a rapid increase in their concentration over the past century. Greenhouse gases are released by a variety of processes, the most important of which is fossil fuel consumption, which currently adds more than 9 billion tons of $CO_2-C$ to the atmosphere each year.
+
+Chlorofluorocarbons (CFCs), which are basically synthetic compounds that are created in the industrial setting, also play a part in green house conditioning. They are usually what plays a part in depletion of the ozone layer. The more the ozone layer is depleted, the hotter our earth will get.
+
+Globally, IPCC (2007d) estimates that 69\% of the GHGs originate from energy consumption, whereas 14\% arise from food production and 17\% from deforestation. Meanwhile, energy use, food use, and land use change, and thus emissions generally expand with incomes and population. In fact, historical emission data show that global GHG emissions and concentrations have been increasing at an increasing rate.
+
+Agriculture too is a major source of the greenhouse emissions. Practices such as deforestation, cattle feedlots, and fertilizer used currently account for approximately 25\% of greenhouse gas emissions. When broken down in total, this amounts to 14\% of carbon dioxide emissions, 48\% of methane, and 52\% of nitrous oxide emissions.
+
+\end{solution}
 
 \question Write about the "Chepang" ethnic group.
+
+\begin{solution}
+
+Chepangs are an indigenous Tibeto-Burman group of people from the south-central region of Nepal. Over the past two or three generations, the Chepang have begun to slowly shift from a semi-nomadic (slash-and-burn) lifestyle to a more settled way of life, relying increasingly upon the production of permanent fields of maize, millet and bananas. The severe topography, however, has made permanent farming difficult (and usually insufficient), and the forest has remained an important (although decreasingly so) source of food for the Chepang. Historically, the collection of wild yams and tubers, fish caught from nearby rivers, bats and wild birds, and periodically wild deer hunted from nearby forests, have supplemented their need for carbohydrates and protein. With increasing populations, lack of arable land and few irrigation options, malnutrition has been a historic problem for the Chepang despite forest supplements. 
+
+The Chepang have often been characterized as the poorest of Nepal's poor.
+According to the recent Nepal Living Standard Survey, almost 90 percent of Chepangs live below the poverty line, earning around 6,000 Nepali rupees per capita annually. Forced teenage pregnancies are common among this community members. Chepang men and women are basically egalitarian and no social ranking exists as it does in caste Nepalese society. Many Chepang cannot read and write due to a lack of education beyond elementary school, and this illiteracy stands in contrast to the great gains Nepal has been making in reducing illiteracy. According to the 2001 Nepal Census, there are 52,237 Chepang in the country, of which 67.63\% were Hindu, 23.38\% were Buddhists, 7.74\% were Christians, and 1.25\% others. They are mostly located in Dhading District, Chitwan District, Gorkha District, Makwanpur District, and Tanahu District.
+
+The Chepangs themselves follow Animism, although they are strongly influenced by both Hinduism and Buddhism, which came from the Tamangs just north of them. They observe all the Hindu festivals of Dashain, Tihar and Sakrantis besides their own tribal festival Nwagi or Chhonam, which is performed on a Tuesday during third week of Bhadra (some day in August and September). Chhonam is the auspicious day for eating a new crop. Before the celebration of this festival, eating certain agricultural products is prohibited.
+
+In the 5th National Gathering of Chepang, 2004, it was stated they practiced Prakriti (Nature), with ancestor worship as most important. They worship many deities including Bhumi, Aita Bare, Gaidu, Namrung etc. (earth deity) etc. They also observe other different festivals like, Maghe Sakranti, Saune Sakranti, Dashain, Tihar.
+
+The language is also known as Chepang but is called Chyo-bang by the people themselves. These people are also called "Praja" meaning "political subjects". The people speak 3 different dialects of this Tibeto-Burman language that is closely related to Raute and Raji, two undocumented languages spoken in western Nepal.
+
+Chepang language is one of the few languages which uses a duodecimal (base 12) counting system rather than the decimal (base 10). 
+
+Over the last decade, there has been increasing awareness among Nepalis regarding the plight of the Chepang people. Simultaneously, there has also been an rise in the number of NGOs working to support and uplift the livelihoods of Chepang communities.
+
+
+source: \url{https://kathmandupost.com/miscellaneous/2016/01/02/the-chepang-people-of-chitwan-and-their-conversion-to-christianity}; \url{https://en.wikipedia.org/wiki/Chepang_people}
+\end{solution}
 
 \question What provisions and guidelines have Forest act, 2049 set for utilization and management of forest in Nepal? Mention.
 
@@ -886,257 +1016,259 @@ The press council act, 2048 provisions under section 6 the following constitutio
 \question What are the current acts and laws in Nepal ?
 
 \begin{solution}
-1. Nepali Language Publication Corporation Act, 2021 (1964)
-2. Nepal Ship (Registration and Logbook) Act, 2027 (1971)
-3. Nepal Special Service Act, 2042 (1985)
-4. Non-resident Nepali Act, 2064
-5. Passports Act, 2024 (1967)
-6. The Consumer Protection Act, 2075 (2018)
-7. Work Operation Fund Act, 2043 (1986)
-8. Water Tax Act, 2023 (1966)
-9. Nepal Treaty Act, 2047 (1990)
-10. Supreme Court Act, 2048 (1991)
-11. Regional Development Plans (Implementation) Act,2013 (1956)
-12. Rajya Rajauta (Petty States and Rulers) Act, 2017 (1961)
-13. Periodic Tax Recovery Act, 2012 (1955)
-15. The University Grants Commission Act, 2050 (1993 A.D.)
-16. The Stamp Duty Act, 2019 (1963)
-17. The Pesticides Act, 2048 (1991)
-18. Radio Act, 2014 (1957)
-20. Act Restricting Investment Abroad, 2021(1964)
-21. Act to Provide for Enhancement of the Circulation of Nepalese Currency, 2014(1957)
-22. The Administrative Procedures (Regulation) Act, 2013 (1956)
-23. Animal Health and Livestock Services Act, 2055 (1999)
-24. Animal Slaughterhouse and Meat Inspection Act, 2055(1999)
-25. Anti Defection Act, 2054 (1997)
-26. Contingency Fund Act, 2016 (1959)
-27. Drugs Act, 2035, (1978)
-28. Nepal Tourism Board Act, 2053
-30. Public Security Act, 2046 (1989)
-31. Associations Registration Act, 2034 (1977)
-32. AUDIT ACT, 2048 (1991)
-33. banking-offence-and-punishment-act-2064-2008
-35. Child Labor (Prohibition and Regulation) Act, 2056 (2000)
-36. Commissions of Inquiry Act, 2026 (1969)
-37. Infectious Disease Act, 2020(1964)
-38. Immovable Property Requisition Act, 2013 (1956)
-39. Human Trafficking and Transportation (Control) Act, 2064
-41. The Copyright Act, 2059 (2002)
-42. Development Board Act, 2013 (1956)
-43. Domestic Postal Goods (Insurance) Act, 2019 (1962)
-45. Foreign Investment Tax Act, 2019 (1963)
-46. Judicial Fund Act, 2043 (1986)
-47. Nepal Citizenship Act, 2063 (2006)
-48. Essential Services Operation Act, 2014 (1957)
-49. Export and Import (Control) Act, 2013 (1957)
-50. Essential Goods Protection Act, 2012 (1955)
-51. Extradition Act, 2045 (1988)
-52. Legal Aid Act, 2054 (1997)
-55. Nepal Agency Act 2014
-57. International Financial Transactions Act, 2054 (1998)
-58. National Judicial Academy Act, 2063 (2006)
-59. Mother's Milk Substitutes (Control of Sale and Distribution) Act, 2049 (1992)
-60. Compensation Relating to Torture Act, 2053 (1996)
-61. Multimodal Transportation of Goods Act, 2063(2006).
-62. National Trust for Nature Conservation Act, 2039 (1982)
-63. Electricity Act, 2049 (1992)
-64. Interpretation of Laws Act, 2010(1954)
-65. Lottery Act, 2025 (1968)
-66. Nepal Electricity Authority Act, 2041 (1984)
-67. Constitutional Council (Functions, Duties, Powers and Procedures) Act, 2066 (2010)
-70. Feed Act, 2033 (1976)
-71. Jhora Area Land Act, 2028 (1971)
-72. National Parks and Wildlife Conservation Act, 2029 (1973)
-73. National Guidance Act, 2018 (1961)
-74. Loan and Guarantee Act, 2025(1968)
-75. Narcotic Drugs (Control) Act, 2033 (1976)
-76. Motor Vehicle Tax Act, 2031 (1974)
-78. Nepal Health Research Council Act, 2047 (1991)
-79. Competition Promotion and Market Protection Act, 2063 (2007)
-80. Evidence Act, 2031
-81. Money Laundering Prevention Act, 2063 (2008)
-83. Motion Picture (Production, Exhibition and Distribution) Act, 2026 (1969)
-84. Arbitration Act, 2055 (1999)
-85. Domestic Violence (Offence and Punishment) Act, 2066 (2009)
-86. Donations Act, 2030 (1973)
-87. National Cooperatives Development Board Act, 2049 (1992)
-88. Insurance Act, 2049 (1992)
-90. Aquatic Animal Protection Act, 2017(1960)
-91. National Dairy Development Board Act, 2048(1992)
-92. Explosives Act, 2018 (1961)
-93. Essential Commodities Control (Authorization) Act, 2017 (1961)
-94. Impeachment (Regulation of Procedure) Act, 2059 (2002)
-95. Birth, Death and Other Personal Events (Registration) Act, 2033 (1976)
-96. The Foreign Investment and Technology Transfer Act, 2019 (2075)
-97. House and Land Tax Act, 2019 (1962)
-98. The Industrial Enterprises Act, 2049 (1992)
-99. Nepal Standards (Certification Mark) Act, 2037 (1980)
-100. National Tea and Coffee Development Board Act, 2049 (1993)
-101. Bonded Labour ( Prohibition )Act, 2058 (2002)
-102. Diplomatic Privilege and Immunities of the Foreign States and Representatives Act, 2027 (1970)
-103. The National Broadcasting Act, 1993
-104. Industrial Enterprises Development Institute Act, 2053 (1996)
-105. Lumbini Development Trust Act, 2042 (1985)
-106. Act Prohibiting the Charging and Taking of Amount (Bhatti Charsa etc.) by Birta-holder on Birta, 2015 (1958)
-107. Act Relating to Institutions Acting as Financial Intermediary, 2055 (1999)
-108. Act Relating to Land of Jhora Area, 2028 (1971)
-109. Nepal Agricultural Research Council Act, 2048(1992)
-110. Agriculture and Forestry University Act, 2067 (2010)
-111. Nepal Water Supply Corporation Act, 2046 (1989)
-112. Nepal Trust Act, 2064 (2008)
-113. Nepal Pharmacy Council Act, 2057 (2000)
-114. Nepal Nursing Council Act, 2052 (1996)
-115. Nepal Rastra Bank Act, 2058 (2002)
-116. Nepal Medical Council Act, 2020 (1964)
-117. Nepal Health Professional Council Act, 2053
-118. Nepal Bar Council Act, 2050 (1993)
-119. Nepal Law Commission Act, 2063 (2007 )
-120. Nepal Airlines Corporation Act, 2019 (1963)
-121. National Human Rights Commission Act, 2068 (2012)
-122. National Insurance Corporation Act, 2025 (1968)
-123. Nepal Administrative Staff College Act, 2020 (1982)
-124. National News Agency Act, 2019 (1962)
-125. National Foundation for Upliftment of Aadibasi/Janjati Act, 2058 (2002)
-126. Nepal Music and Dance Academy Act, 2064 (2007)
-127. Mines and Minerals Act, 2042 (1985)
-128. Mediation Act, 2068 (2011)
-129. Archives Preservation Act, 2046 (1989)
-130. International Finance Corporations Membership Acquisition Act, 2022 (1965)
-131. Corporations Act, 2021 (1964)
-132. Black Marketing and Some Other Social Offenses and Punishment Act, 2032 (1975)
-133. Caste Based Discrimination and Untouchability Offence and Punishment Act, 2068 (2011)
-134. Forest Act, 2049 (1993)
-135. Construction Business Act, 2055 (1999)
-136. Bretton Woods Agreement Act, 2018 (1961)
-137. Far-western University Act, 2067 (2010)
-138. Negotiable Instruments Act, 2034 (1977)
-139. Mid-western University Act, 2067 (2010)
-140. Gorkhapatra Corporation Act, 2019 (1963)
-141. Hotel Management and Sale and Distribution of Liquors (Control) Act, 2023 (1966)
-142. The B. P. Koirala Institute of Health Sciences Act, 2049 (1993)
-143. The Greater Janakpur Area Development Council Act, 2055 (1998)
-144. Iodized Salt (Production, Sale and Distribution) Act, 2055(1998)
-145. Amount and Governmental Contract Arrangement Act, 2020(1963)
-146. Insolvency Act, 2063 (2006)
-147. Land Acquisition Act, 2034 (1977)
-148. Kathmandu University Act, 2048 (1991)
-149. International Development Association’s Membership Acquisition Act, 2019 (1962)
-150. Land Revenue Act, 2034 (1978)
-151. Martyr Gangalal National Heart Disease Centre Act, 2057 (2000)
-152. Lumbini Bouddha University Act, 2067 (2006)
-153. Land (Survey and Measurement) Act, 2019 (1963)
-154. Local Administration Act, 2028 (1971)
-155. Local Development Training Academy Act, 2049 (1993)
-156. International Centre for Integrated Mountain Development Act, 2040 (1983)
-157. The Human Body Organ Transplantation (Regulation and Prohibition) Act, 2055 (1998)
-158. The Guthi Corporation Act, 2033 (1976)
-159. Ancient Monument Preservation Act, 2013 (1956)
-160. The Electronic Transactions Act, 2063 (2008)
-161. Armed Police Force Act, 2058 (2001)
-162. Arms and Ammunition Act, 2019 (1962)
-163. Ayurveda Medical Council Act, 2045 (1988)
-164. The B.P. Koirala Memorial Cancer Hospital Act, 2053(1997)
-165. Birta Abolition Act, 2016 (1959)
-166. The Building Act, 2055
-167. Nepal Chartered Accountants Act, 2053 (1997)
-168. Citizen Investment Trust Act, 2047 (1991)
-169. Commission for the Investigation of Abuse of Authority Act, 2048 (1991)
-170. Communication Corporation Act, 2028 (1972)
-171. Compensation Act, 2019 (1963)
-172. The Lands Act, 2021(1964)
-173. Construction Business Act, 2055 (1999)
-174. Corporations Act, 2021 (1964)
-175. Customs Act, 2064 (2007)
-176. Decorations Act, 2064 (2007)
-177. Education Act, 2028 (1971)
-178. Electricity Theft Control Act, 2058 (2002)
-179. Excise Duty Act, 2058 (2002)
-180. Nepal Fine Arts Academy Act, 2064 (2007)
-181. Privatization Act, 2050 (1994)
-182. Water Resources Act, 2049 (1992)
-183. Private Forests Nationalization Act, 2013 (1957)
-184. The Social Welfare Act, 2049 (1992)
-185. Notary Public Act, 2063
-186. Right to Information Act, 2064 (2007 )
-187. Trade Union Act, 2049 (1992)
-188. Tax Settlement Commission Act, 2033 (1976)
-189. Telecommunications Act, 2053 (1997)
-190. Statistics Act, 2015 (1958)
-191. Working Journalists Act, 2051(1993)
-192. Wealth Tax Act, 2047 (1990)
-193. Water Tariff Fixation Commission Act, 2063 (2006)
-194. Water Supply Management Board Act, 2063 (2006)
-195. Nepal Veterinary Council Act, 2055 (1999)
-196. Ukhada Act, 2021 (1964)
-197. Tribhuvan University Act, 2049(1992)
-198. Town Development Fund Act, 2053 (1997)
-199. Town Development Act, 2045 (1998)
-200. Road Board Act, 2058 (2002)
-201. Postal Act, 2019 (1963)
-202. Partnership Act, 2020 (1964
-203. Police Act, 2012 (1955)
-204. The Patent, Design and Trade Mark Act, 2022 (1965)
-227. Special Court Act, 2059 (2002)
-228. [The] Kathmandu Valley Development Authority Act, 2045 B.S. (1988)
-229. Technical Education and Vocational Training Council Act, 2045 (1988)
-230. Summary Procedures Act, 2028 (1972)
-231. Standard Measurement and Weight Act, 2025 (1968)
-232. Sports Development Act, 2048 (1992)
-233. Some Public Documents Authentication (Procedures) Act, 2063 (2006)
-234. Solid Waste Management Act, 2068 (2011)
-235. Soil and Watershed Conservation Act, 2039(1982)
-236. Social Practices (Reform) Act, 2033 (1976)
-237. Ship Registration Act, 2027 (1971)
-238. Senior Citizens Act, 2063 (2006)
-239. Seeds Act, 2045 (1988)
-240. Tourism Act, 2035 (1978)
-241. Tobacco Products (Control and Regulatory) Act, 2068 (2011)
-242. [The] Ownership of Joint Housing Act, 2054 B.S. (1997)
-243. Security of the Health Workers and Health Organizations Act, 2066 (2010)
-244. Secured Transaction Act, 2063 (2006)
-245. Scholarships Act, 2021 (1964)
-246. Revenue Tribunal Act, 2031 (1974)
-248. Securities Act, 2063 (2007)
-249. Press Council Act 2048 (1992) 
-250. Patan Academy of Health Sciences Act, 2064 (2008)
-251. The Prevention of Corruption Act, 2059 (2002 A.D)
-252. Purwanchal University Act, 2050 (1994)
-253. Public Service Commission Act, 2066 (2010)
-254. Public Roads Act, 2031 (1974)
-255. The Public Procurement Act, 2063 (2007)
-256. Public Debt Act, 2059 (2002)
-258. Prisons Act, 2019 (1963)
-261. Remuneration, Conditions of Service and Facilities of the Authorities of the Constitutional Bodies Act, 2053 (1997)
-265. Press and Publication Act, 2048 (1991)
-266. Poverty Alleviation Fund Act, 2063 (2006)
-267. Pokhara University Act, 2053 (1996)
-268. Plant Protection Act, 2064 (2007)
-269. Nepal Petroleum Act, 2040 (1983)
-270. Pasture Land Nationalization Act, 2031 (1974)
-271. Mutual Legal Assistance Act, 2070 (2014)
-272. Judicial Council Act, 2073 (2016)
-273. Employee Provident Fund Act, 2019 (1962)
-274. An Act to Regulate and Control International Trade in Endangered Wild Fauna and Flora
-275. Administration of Justice Act, 2073 (2016)
-276. Pashupati Area Development Trust Act, 2044 (1987)
-277. Karnali Academy of Health Sciences Act, 2068 (2011)
-278. Nepal Health Service Act, 2053 (1997)
-279. Army Act, 2063 (2006 )
-280. Civil Service Act, 2049 (1993)
-281. Motor Vehicles and Transport Management Act, 2049 (1993)
-282. Passports Act, 2024 (1967)
-283. The Crime Victim Protection Act, 2075 (2018)
-284. The Privacy Act, 2075 (2018)
-285. The Public Health Service Act, 2075 (2018)
-286. The Right to Employment Act, 2075 (2018)
-287. The Act Relating to Rights of Persons with Disabilities, 2074 (2017)
-288. The Right to Food and Food Sovereignty Act, 2075 (2018)
-289. The Right to Housing Act, 2075 (2018)
-290. The Right to Safe Motherhood and Reproductive Health Act, 2075 (2018)
-291. The Social Security Act, 2075 (2018)
-292. The Act Relating to Children, 2075 (2018)
-293. The Act Relating to Compulsory and Free Education, 2075 (2018)
-294. Bank and Financial Institution Act, 2073 (2017)
+\begin{enumerate}
+\item Nepali Language Publication Corporation Act, 2021 (1964)
+\item Nepal Ship (Registration and Logbook) Act, 2027 (1971)
+\item Nepal Special Service Act, 2042 (1985)
+\item Non-resident Nepali Act, 2064
+\item Passports Act, 2024 (1967)
+\item The Consumer Protection Act, 2075 (2018)
+\item Work Operation Fund Act, 2043 (1986)
+\item Water Tax Act, 2023 (1966)
+\item Nepal Treaty Act, 2047 (1990)
+\item Supreme Court Act, 2048 (1991)
+\item Regional Development Plans (Implementation) Act,2013 (1956)
+\item Rajya Rajauta (Petty States and Rulers) Act, 2017 (1961)
+\item Periodic Tax Recovery Act, 2012 (1955)
+\item The University Grants Commission Act, 2050 (1993 A.D.)
+\item The Stamp Duty Act, 2019 (1963)
+\item The Pesticides Act, 2048 (1991)
+\item Radio Act, 2014 (1957)
+\item Act Restricting Investment Abroad, 2021(1964)
+\item Act to Provide for Enhancement of the Circulation of Nepalese Currency, 2014(1957)
+\item The Administrative Procedures (Regulation) Act, 2013 (1956)
+\item Animal Health and Livestock Services Act, 2055 (1999)
+\item Animal Slaughterhouse and Meat Inspection Act, 2055(1999)
+\item Anti Defection Act, 2054 (1997)
+\item Contingency Fund Act, 2016 (1959)
+\item Drugs Act, 2035, (1978)
+\item Nepal Tourism Board Act, 2053
+\item Public Security Act, 2046 (1989)
+\item Associations Registration Act, 2034 (1977)
+\item AUDIT ACT, 2048 (1991)
+\item banking-offence-and-punishment-act-2064-2008
+\item Child Labor (Prohibition and Regulation) Act, 2056 (2000)
+\item Commissions of Inquiry Act, 2026 (1969)
+\item Infectious Disease Act, 2020(1964)
+\item Immovable Property Requisition Act, 2013 (1956)
+\item Human Trafficking and Transportation (Control) Act, 2064
+\item The Copyright Act, 2059 (2002)
+\item Development Board Act, 2013 (1956)
+\item Domestic Postal Goods (Insurance) Act, 2019 (1962)
+\item Foreign Investment Tax Act, 2019 (1963)
+\item Judicial Fund Act, 2043 (1986)
+\item Nepal Citizenship Act, 2063 (2006)
+\item Essential Services Operation Act, 2014 (1957)
+\item Export and Import (Control) Act, 2013 (1957)
+\item Essential Goods Protection Act, 2012 (1955)
+\item Extradition Act, 2045 (1988)
+\item Legal Aid Act, 2054 (1997)
+\item Nepal Agency Act 2014
+\item International Financial Transactions Act, 2054 (1998)
+\item National Judicial Academy Act, 2063 (2006)
+\item Mother's Milk Substitutes (Control of Sale and Distribution) Act, 2049 (1992)
+\item Compensation Relating to Torture Act, 2053 (1996)
+\item Multimodal Transportation of Goods Act, 2063(2006).
+\item National Trust for Nature Conservation Act, 2039 (1982)
+\item Electricity Act, 2049 (1992)
+\item Interpretation of Laws Act, 2010(1954)
+\item Lottery Act, 2025 (1968)
+\item Nepal Electricity Authority Act, 2041 (1984)
+\item Constitutional Council (Functions, Duties, Powers and Procedures) Act, 2066 (2010)
+\item Feed Act, 2033 (1976)
+\item Jhora Area Land Act, 2028 (1971)
+\item National Parks and Wildlife Conservation Act, 2029 (1973)
+\item National Guidance Act, 2018 (1961)
+\item Loan and Guarantee Act, 2025(1968)
+\item Narcotic Drugs (Control) Act, 2033 (1976)
+\item Motor Vehicle Tax Act, 2031 (1974)
+\item Nepal Health Research Council Act, 2047 (1991)
+\item Competition Promotion and Market Protection Act, 2063 (2007)
+\item Evidence Act, 2031
+\item Money Laundering Prevention Act, 2063 (2008)
+\item Motion Picture (Production, Exhibition and Distribution) Act, 2026 (1969)
+\item Arbitration Act, 2055 (1999)
+\item Domestic Violence (Offence and Punishment) Act, 2066 (2009)
+\item Donations Act, 2030 (1973)
+\item National Cooperatives Development Board Act, 2049 (1992)
+\item Insurance Act, 2049 (1992)
+\item Aquatic Animal Protection Act, 2017(1960)
+\item National Dairy Development Board Act, 2048(1992)
+\item Explosives Act, 2018 (1961)
+\item Essential Commodities Control (Authorization) Act, 2017 (1961)
+\item Impeachment (Regulation of Procedure) Act, 2059 (2002)
+\item Birth, Death and Other Personal Events (Registration) Act, 2033 (1976)
+\item The Foreign Investment and Technology Transfer Act, 2019 (2075)
+\item House and Land Tax Act, 2019 (1962)
+\item The Industrial Enterprises Act, 2049 (1992)
+\item Nepal Standards (Certification Mark) Act, 2037 (1980)
+\item National Tea and Coffee Development Board Act, 2049 (1993)
+\item Bonded Labour ( Prohibition )Act, 2058 (2002)
+\item Diplomatic Privilege and Immunities of the Foreign States and Representatives Act, 2027 (1970)
+\item The National Broadcasting Act, 1993
+\item Industrial Enterprises Development Institute Act, 2053 (1996)
+\item Lumbini Development Trust Act, 2042 (1985)
+\item Act Prohibiting the Charging and Taking of Amount (Bhatti Charsa etc.) by Birta-holder on Birta, 2015 (1958)
+\item Act Relating to Institutions Acting as Financial Intermediary, 2055 (1999)
+\item Act Relating to Land of Jhora Area, 2028 (1971)
+\item Nepal Agricultural Research Council Act, 2048(1992)
+\item Agriculture and Forestry University Act, 2067 (2010)
+\item Nepal Water Supply Corporation Act, 2046 (1989)
+\item Nepal Trust Act, 2064 (2008)
+\item Nepal Pharmacy Council Act, 2057 (2000)
+\item Nepal Nursing Council Act, 2052 (1996)
+\item Nepal Rastra Bank Act, 2058 (2002)
+\item Nepal Medical Council Act, 2020 (1964)
+\item Nepal Health Professional Council Act, 2053
+\item Nepal Bar Council Act, 2050 (1993)
+\item Nepal Law Commission Act, 2063 (2007 )
+\item Nepal Airlines Corporation Act, 2019 (1963)
+\item National Human Rights Commission Act, 2068 (2012)
+\item National Insurance Corporation Act, 2025 (1968)
+\item Nepal Administrative Staff College Act, 2020 (1982)
+\item National News Agency Act, 2019 (1962)
+\item National Foundation for Upliftment of Aadibasi/Janjati Act, 2058 (2002)
+\item Nepal Music and Dance Academy Act, 2064 (2007)
+\item Mines and Minerals Act, 2042 (1985)
+\item Mediation Act, 2068 (2011)
+\item Archives Preservation Act, 2046 (1989)
+\item International Finance Corporations Membership Acquisition Act, 2022 (1965)
+\item Corporations Act, 2021 (1964)
+\item Black Marketing and Some Other Social Offenses and Punishment Act, 2032 (1975)
+\item Caste Based Discrimination and Untouchability Offence and Punishment Act, 2068 (2011)
+\item Forest Act, 2049 (1993)
+\item Construction Business Act, 2055 (1999)
+\item Bretton Woods Agreement Act, 2018 (1961)
+\item Far-western University Act, 2067 (2010)
+\item Negotiable Instruments Act, 2034 (1977)
+\item Mid-western University Act, 2067 (2010)
+\item Gorkhapatra Corporation Act, 2019 (1963)
+\item Hotel Management and Sale and Distribution of Liquors (Control) Act, 2023 (1966)
+\item The B. P. Koirala Institute of Health Sciences Act, 2049 (1993)
+\item The Greater Janakpur Area Development Council Act, 2055 (1998)
+\item Iodized Salt (Production, Sale and Distribution) Act, 2055(1998)
+\item Amount and Governmental Contract Arrangement Act, 2020(1963)
+\item Insolvency Act, 2063 (2006)
+\item Land Acquisition Act, 2034 (1977)
+\item Kathmandu University Act, 2048 (1991)
+\item International Development Association’s Membership Acquisition Act, 2019 (1962)
+\item Land Revenue Act, 2034 (1978)
+\item Martyr Gangalal National Heart Disease Centre Act, 2057 (2000)
+\item Lumbini Bouddha University Act, 2067 (2006)
+\item Land (Survey and Measurement) Act, 2019 (1963)
+\item Local Administration Act, 2028 (1971)
+\item Local Development Training Academy Act, 2049 (1993)
+\item International Centre for Integrated Mountain Development Act, 2040 (1983)
+\item The Human Body Organ Transplantation (Regulation and Prohibition) Act, 2055 (1998)
+\item The Guthi Corporation Act, 2033 (1976)
+\item Ancient Monument Preservation Act, 2013 (1956)
+\item The Electronic Transactions Act, 2063 (2008)
+\item Armed Police Force Act, 2058 (2001)
+\item Arms and Ammunition Act, 2019 (1962)
+\item Ayurveda Medical Council Act, 2045 (1988)
+\item The B.P. Koirala Memorial Cancer Hospital Act, 2053(1997)
+\item Birta Abolition Act, 2016 (1959)
+\item The Building Act, 2055
+\item Nepal Chartered Accountants Act, 2053 (1997)
+\item Citizen Investment Trust Act, 2047 (1991)
+\item Commission for the Investigation of Abuse of Authority Act, 2048 (1991)
+\item Communication Corporation Act, 2028 (1972)
+\item Compensation Act, 2019 (1963)
+\item The Lands Act, 2021(1964)
+\item Construction Business Act, 2055 (1999)
+\item Corporations Act, 2021 (1964)
+\item Customs Act, 2064 (2007)
+\item Decorations Act, 2064 (2007)
+\item Education Act, 2028 (1971)
+\item Electricity Theft Control Act, 2058 (2002)
+\item Excise Duty Act, 2058 (2002)
+\item Nepal Fine Arts Academy Act, 2064 (2007)
+\item Privatization Act, 2050 (1994)
+\item Water Resources Act, 2049 (1992)
+\item Private Forests Nationalization Act, 2013 (1957)
+\item The Social Welfare Act, 2049 (1992)
+\item Notary Public Act, 2063
+\item Right to Information Act, 2064 (2007 )
+\item Trade Union Act, 2049 (1992)
+\item Tax Settlement Commission Act, 2033 (1976)
+\item Telecommunications Act, 2053 (1997)
+\item Statistics Act, 2015 (1958)
+\item Working Journalists Act, 2051(1993)
+\item Wealth Tax Act, 2047 (1990)
+\item Water Tariff Fixation Commission Act, 2063 (2006)
+\item Water Supply Management Board Act, 2063 (2006)
+\item Nepal Veterinary Council Act, 2055 (1999)
+\item Ukhada Act, 2021 (1964)
+\item Tribhuvan University Act, 2049(1992)
+\item Town Development Fund Act, 2053 (1997)
+\item Town Development Act, 2045 (1998)
+\item Road Board Act, 2058 (2002)
+\item Postal Act, 2019 (1963)
+\item Partnership Act, 2020 (1964
+\item Police Act, 2012 (1955)
+\item The Patent, Design and Trade Mark Act, 2022 (1965)
+\item Special Court Act, 2059 (2002)
+\item [The] Kathmandu Valley Development Authority Act, 2045 B.S. (1988)
+\item Technical Education and Vocational Training Council Act, 2045 (1988)
+\item Summary Procedures Act, 2028 (1972)
+\item Standard Measurement and Weight Act, 2025 (1968)
+\item Sports Development Act, 2048 (1992)
+\item Some Public Documents Authentication (Procedures) Act, 2063 (2006)
+\item Solid Waste Management Act, 2068 (2011)
+\item Soil and Watershed Conservation Act, 2039(1982)
+\item Social Practices (Reform) Act, 2033 (1976)
+\item Ship Registration Act, 2027 (1971)
+\item Senior Citizens Act, 2063 (2006)
+\item Seeds Act, 2045 (1988)
+\item Tourism Act, 2035 (1978)
+\item Tobacco Products (Control and Regulatory) Act, 2068 (2011)
+\item [The] Ownership of Joint Housing Act, 2054 B.S. (1997)
+\item Security of the Health Workers and Health Organizations Act, 2066 (2010)
+\item Secured Transaction Act, 2063 (2006)
+\item Scholarships Act, 2021 (1964)
+\item Revenue Tribunal Act, 2031 (1974)
+\item Securities Act, 2063 (2007)
+\item Press Council Act 2048 (1992) 
+\item Patan Academy of Health Sciences Act, 2064 (2008)
+\item The Prevention of Corruption Act, 2059 (2002 A.D)
+\item Purwanchal University Act, 2050 (1994)
+\item Public Service Commission Act, 2066 (2010)
+\item Public Roads Act, 2031 (1974)
+\item The Public Procurement Act, 2063 (2007)
+\item Public Debt Act, 2059 (2002)
+\item Prisons Act, 2019 (1963)
+\item Remuneration, Conditions of Service and Facilities of the Authorities of the Constitutional Bodies Act, 2053 (1997)
+\item Press and Publication Act, 2048 (1991)
+\item Poverty Alleviation Fund Act, 2063 (2006)
+\item Pokhara University Act, 2053 (1996)
+\item Plant Protection Act, 2064 (2007)
+\item Nepal Petroleum Act, 2040 (1983)
+\item Pasture Land Nationalization Act, 2031 (1974)
+\item Mutual Legal Assistance Act, 2070 (2014)
+\item Judicial Council Act, 2073 (2016)
+\item Employee Provident Fund Act, 2019 (1962)
+\item An Act to Regulate and Control International Trade in Endangered Wild Fauna and Flora
+\item Administration of Justice Act, 2073 (2016)
+\item Pashupati Area Development Trust Act, 2044 (1987)
+\item Karnali Academy of Health Sciences Act, 2068 (2011)
+\item Nepal Health Service Act, 2053 (1997)
+\item Army Act, 2063 (2006 )
+\item Civil Service Act, 2049 (1993)
+\item Motor Vehicles and Transport Management Act, 2049 (1993)
+\item Passports Act, 2024 (1967)
+\item The Crime Victim Protection Act, 2075 (2018)
+\item The Privacy Act, 2075 (2018)
+\item The Public Health Service Act, 2075 (2018)
+\item The Right to Employment Act, 2075 (2018)
+\item The Act Relating to Rights of Persons with Disabilities, 2074 (2017)
+\item The Right to Food and Food Sovereignty Act, 2075 (2018)
+\item The Right to Housing Act, 2075 (2018)
+\item The Right to Safe Motherhood and Reproductive Health Act, 2075 (2018)
+\item The Social Security Act, 2075 (2018)
+\item The Act Relating to Children, 2075 (2018)
+\item The Act Relating to Compulsory and Free Education, 2075 (2018)
+\item Bank and Financial Institution Act, 2073 (2017)
+\end{enumerate}
 \end{solution}
 
 \question Discuss about the importance of environment on human health.
@@ -1281,7 +1413,7 @@ In case decision rendered by the Chief of Public body is not satisfactory, one c
 
 Centre for Law and Democracy, Canada has published a comparative study report on existing RTI laws of 111 countries in the world, in which Nepal has been ranked 27th in the world with the score of 104 out of 150. The worldwide experience shows that RTI supports good governance and helps to reduce corruption. The National Information Commission had completed its first RTI Audit in 2016 through ex-secretaries of the government. The second RTI Audit was completed in 2017 through senior journalists.
 
-After analysing all aspects, it was found that 11 ministries (35%) were found working as per law. Similarly, 20 ministries (65%) were partially satisfactory. The commission has made 10 suggestions, including adding "imparting information" in Article 27 of the constitution, taking out of the word "secret" from the employees' oath, amongst other, to the government on the basis of the results of this RTI audit.
+After analysing all aspects, it was found that 11 ministries (35\%) were found working as per law. Similarly, 20 ministries (65\%) were partially satisfactory. The commission has made 10 suggestions, including adding "imparting information" in Article 27 of the constitution, taking out of the word "secret" from the employees' oath, amongst other, to the government on the basis of the results of this RTI audit.
 
 \end{solution}
 
@@ -1398,7 +1530,7 @@ Rock Climbing
 
 For all those cliffhangers out there, Kathmandu offers a roster of stone walls that make for an experience of a lifetime. Now of late, Rock climbing has become a popular sport in Kathmandu, which offers some really terrific places for rock climbing. Nagarjun, Balaju, Shivapuri and Budhanilkantha are some of the places where you can try this sport.
 
-source: https://mofa.gov.np/about-nepal/tourism-in-nepal/
+source: \url{https://mofa.gov.np/about-nepal/tourism-in-nepal/}
 \end{solution}
 
 \question What are the prospects of Foreign Investment in Nepal ?
@@ -1452,7 +1584,7 @@ With the view to attracting foreign as well as domestic Investment to boost the 
 
 These are a number of investment ideas that can generate significant returns over the years. There will be even more opportunities in Nepal as the middle class population grow in Nepal. Rate of returns on investment in Nepal is high.
 
-source: https://mofa.gov.np/about-nepal/investment-in-nepal/
+source: \url{https://mofa.gov.np/about-nepal/investment-in-nepal/}
 \end{solution}
 
 \question Write in brief about culture and society of Nepal.
@@ -1491,7 +1623,7 @@ Architecture and archeology
 
 Nepal Sumpada Sangha (Nepal Heritage Society) has compiled an inventory of 1,262 significant architectural and archeological sites in Nepal outside Kathmandu Valley.
 
-source: https://mofa.gov.np/about-nepal/culture-society/
+source: \url{https://mofa.gov.np/about-nepal/culture-society/}
 
 \end{solution}
 
@@ -1518,7 +1650,7 @@ Devastating earthquake of 7.8 magnitude hit Nepal in April 2015 followed by seve
 
 After weeks of zeroing in on most contentious issues, political parties sorted them out paving the way to finalize the constitution. The new constitution of Nepal was promulgated through an overwhelming majority of the votes of CA members on September 20, 2015. With this historic achievement, the decades-long dream of Nepali people to have a constitution made through an elected representative body has now been realized. As per the provisions of the new constitution, elections of the new President, Prime Ministers and some other State positions have been successfully held.
 
-source: https://mofa.gov.np/about-nepal/history-of-nepal/
+source: \url{https://mofa.gov.np/about-nepal/history-of-nepal/}
 \end{solution}
 
 \question What is foreign policy ? Write about foreign policy of Nepal.
@@ -1564,7 +1696,7 @@ Put simply, foreign policy is an activity whereby state actors act, react and in
 
 Another important consideration is that political regimes may change at regular intervals, but a country’s independence, sovereignty and territorial integrity cannot be compromised at any cost. Nepal needs to maintain a judicious balance in its foreign policy posture vis-à-vis the neighbours and donor countries who practically wield a vital key to Nepal’s economic reconstruction and infrastructural development.
 
-source: https://mofa.gov.np/foreign-policy/; https://kathmandupost.com/opinion/2019/03/26/foreign-policy-dilemma
+source: \url{https://mofa.gov.np/foreign-policy/}; \url{https://kathmandupost.com/opinion/2019/03/26/foreign-policy-dilemma}
 \end{solution}
 
 \question Terrorism is emerging as a competitive industry over the last few decades.”  Analyse the above statement.
@@ -1592,7 +1724,7 @@ Earlier only a small number of resources were allocated for fighting terror grou
 
 Thus, terrorism has indeed turned into a business venture with the illegitimate finances and power, that threaten to create problems for governments. Security forces have stepped up their presence in order to destroy their operation and maintain control.
 
-source: https://www.upsciq.com/terrorism-emerging-competitive-industry/
+source: \url{https://www.upsciq.com/terrorism-emerging-competitive-industry/}
 \end{solution}
 
 \question Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. Discuss how they achieve this objective. Giving examples, show how the two differ in their approaches.
@@ -1633,7 +1765,7 @@ Ex: When a particular crime occurs, ethics tries to understand the underlying ci
 
 Thus, laws and ethics may have different reasons for its existence but the underlying idea of both is to maintain socially conductive practices.
 
-source: https://www.upsciq.com/law-and-ethics-considered-two-tools-controlling-human/
+source: \url{https://www.upsciq.com/law-and-ethics-considered-two-tools-controlling-human/}
 \end{solution}
 
 \question What is water-use efficiency? Describe the role of micro-irrigation in increasing the water-use efficiency.
@@ -1661,7 +1793,7 @@ It is necessary to device methods to make water use efficiency high and address 
 
 Thus, micro-irrigation is a very important idea when it comes to sustainable use of water resources. The initial investment once recovered will make agriculture a profitable venture.
 
-source:https://www.upsciq.com/what-is-water-use-efficiency/
+source: \url{https://www.upsciq.com/what-is-water-use-efficiency/}
 \end{solution}
 
 \question Anger is a harmful negative emotion. It is injurious to both personal life and work life. Discuss how it leads to negative emotions and undesirable behaviours. How can it be managed and controlled?
@@ -1698,7 +1830,7 @@ Anger in a certain amount is beneficial as it keeps the spirits of an individual
 
 Thus, anger management is an important component in the life of an individual. It not only keeps negative emotions from emerging, it also ensures that energy of an individual is used productively and  not spent on emotional angry outbursts.
 
-source: https://www.upsciq.com/anger-harmful-negative-emotion-injurious-both-personal-life/
+source: \url{https://www.upsciq.com/anger-harmful-negative-emotion-injurious-both-personal-life/}
 \end{solution}
 
 \question The global lockdown imposed due to COVID-19 pandemic has turned out to be beneficial for environment on short term. Validate.
@@ -1734,7 +1866,7 @@ This restriction has to be converted into a habit for people to follow in future
 
 So, the global lockdown has helped the environment to recover upto certain extent. What needs to be seen is the impact that return of normality is expected to bring.
 
-source: https://www.upsciq.com/the-global-lockdown-imposed/
+source: \url{https://www.upsciq.com/the-global-lockdown-imposed/}
 \end{solution}
 
 \question What is the better form of government -- Parliamentary, Presidential and Semi-presidential ?

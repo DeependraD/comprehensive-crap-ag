@@ -241,7 +241,7 @@ Factors that affect cross and self pollination are:
 2. Flower appearance: Shape of petal, color radiance, size of flower, olfactory cues, chemical signaling, etc.
 
 
-# Gene action and methods of breeding
+## Gene action and methods of breeding
 
 - Self pollinated species: When additive gene action predominates in a self-pollinated species, breeders should consider using selection methods such as pure line selection, mass selection, progeny selection and hybridization. However, when non-additive gene action predominates, effective methods of breeding are the exploitation of heterosis in breeding hybrid cultivars.
 
