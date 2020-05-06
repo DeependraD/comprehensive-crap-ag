@@ -340,3 +340,11 @@ read_csv("./data/constitution_power_province.csv", skip = 2) %>%
   kableExtra::kable_styling(font_size = 10) %>% 
   kableExtra::column_spec(column = 2, width = "35em")
 ```
+
+\begin{questions}
+
+\question What are the development related policies mentioned in constitution of Nepal ?
+
+\question (Long answer type) What type of relationship have been envisioned between federal, state and local levels in the constitution of Nepal ? Explain.
+
+\end{questions}

@@ -642,8 +642,6 @@ A state of poverty reflects weak privilage for a nation and its citizens. It als
 
 \end{solution}
 
-\question What are the development related policies mentioned in constitution of Nepal ?
-
 \question Mention the problems for achieving good governance in Nepal.
 
 \question What do you mean by rule of law ? Explain.
@@ -675,20 +673,6 @@ The act also has made an arrangement for reviewing the impact of the above provi
 - Government initiated a project named Governance reform program 2001-2005. One of the responsibilities of this program was to explore the level of marginalization and to suggest corrective measures for the government. The project report, for the first time in Nepal, proposed quota reservation for marginalized people in Nepal.
 
 Through inclusivity and affirmative action, representation of the most deprived community is ensured. However, there have been criticisms that mishandling of privilage may tarnish merit based system in civil service. Again, it can be misused by those in charge of power in the deprived community itself. Here however is an opportunity for us to set an worldly example if the reforms are to avail themselves in a decade or so, but undoubtedly till then implementation of this democratic constitution remains the key challenge.
-
-\question (Long answer type) What type of relationship have been envisioned between federal, state and local levels in the constitution of Nepal ? Explain.
-
-\question How does the management information system help in decision making process ?
-
-\question What do you mean by inventory management ("Jinsi byabasthapan") ? Highlight about its importance in Nepalese public administration.
-
-\question Write short notes on:
-\begin{enumerate}[label*=\alph*., leftmargin=1cm]
-\item Tax reduction at source
-\item Civil service 
-\end{enumerate}
-
-\question What are the geographical features of Nepal ? Mention in brief.
 
 \question Although Nepal is an agricultural country, what are the reasons for decreasing productivity of arable land in recent years.
 
@@ -807,16 +791,6 @@ Similarly, separate regulations for national parks such as the Royal Chitwan Nat
 
 \end{solution}
 
-\question (Long answer type) What is energy crisis ? What are the measures that can be taken to solve the crisis ? What are the different sectors affected by energy crisis ?
-
-\question Explain briefly on the prospect of hydroelectricity development in Nepal.
-
-\question What is human development index (HDI) ? Explain in brief.
-
-\question Discuss in brief the role of private sector in economic development of Nepal. 
-
-\question What is poverty ? What is the difference between absolute and relative poverty ?
-
 \question Write short notes on:
 
 \begin{enumerate}[label=(\roman*)]
@@ -824,25 +798,9 @@ Similarly, separate regulations for national parks such as the Royal Chitwan Nat
 \item Biodiversity
 \end{enumerate}
 
-\question What is the status of environmental pollution in Nepal ? Discuss about the efforts made by Government of Nepal in reducing effects of environmental pollution and preparing for climate change ?
-
-\question What is meant by standard time ? Mention how is standard time of Nepal determined ?
-
 \question What are the measures that should be taken to conserve forest resources in Nepal ?
 
 \question Write in brief about the Lhosar festival celebrated in Nepal.
-
-\question Justify: Unplanned urbanization negatively impacts development of nation.
-
-\question How are indigeneous and local ethnic groups prioritized in Nepal ? Mention what strategies are taken by government to that end.
-
-\question (Long answer type) "Foreign employment significantly contibutes to customs earning of Nepal". Briefly elaborate the statement.
-
-\question What are the different types of climates occuring in Nepal based on the geographical features ?
-
-\question Write in brief about the importance of water resources of Nepal.
-
-\question What are the major causes of deforestation in Nepal. Discuss.
 
 \question According to Army Act, 2063 what are the punishment provisioned through Court Marshall ?
 
@@ -1451,6 +1409,53 @@ Parochial interests
 
 However, in Nepal, the real danger lies in the fact that the political parties have promoted primordial identities so intensely that the ethnic groups have started to keep focus on their narrower and parochial interests. This will hurt the process of democracy building and state reorganisation in line with the provisions of the Constitution of Nepal.
 
+\question What is civil society ? What are the role of civil society in democratic practices ?
+
+\begin{solution}
+
+Civil society can be understood as the "third sector" of society, distinct from government and business, and including the family and the private sphere. By other authors, civil society is used in the sense of 
+
+\begin{enumerate}
+\item the aggregate of non-governmental organizations and institutions that manifest interests and will of citizens or 
+\item individuals and organizations in a society which are independent of the government.
+\end{enumerate}
+
+Sometimes the term civil society is used in the more general sense of "the elements such as freedom of speech, an independent judiciary, etc, that make up a democratic society" (Collins English Dictionary). Especially in the discussions among thinkers of Eastern and Central Europe, civil society is seen also as a normative concept of civic values.
+
+The literature on relations between civil society and democratic political society have their roots in classical liberal writings of G.W.F. Hegel from whom they were adapted by Alexis de Tocqueville, Karl Marx, and Ferdinand Tönnies. They were developed in significant ways by 20th century researchers Gabriel Almond and Sidney Verba, who identified the role of political culture in a democratic order as vital.
+
+They argued that the political element of political organizations facilitates better awareness and a more informed citizenry, who make better voting choices, participate in politics, and hold government more accountable as a result. The statutes of these political organizations have been considered micro-constitutions because they accustom participants to the formalities of democratic decision making.
+
+More recently, Robert D. Putnam, an American political scientist, has argued that even non-political organizations in civil society are vital for democracy. This is because they build social capital, trust and shared values, which are transferred into the political sphere and help to hold society together, facilitating an understanding of the interconnectedness of society and interests within it.
+
+Others, however, have questioned the link between civil society and robust democracy. Some have noted that the civil society actors have now obtained a remarkable amount of political power without anyone directly electing or appointing them. It has been argued that civil society aided the Nazi Party in coming to power in 1930s Germany. It has also been argued that civil society is biased towards the global north. Partha Chatterjee has argued that, in most of the world, "civil society is demographically limited." Finally, other scholars have argued that, since the concept of civil society is closely related to democracy and representation, it should in turn be linked with ideas of nationality and nationalism. Latest analyses suggest that civil society is a neoliberal ideology legitimizing antidemocratic attacks of economic elites on institutions of the welfare state through the development of the third sector as its substitute.
+
+Civil society include among others, following institutions:
+
+\begin{enumerate}
+\item Academia
+\item Activist groups
+\item Charities
+\item Clubs (Sports, social, etc.)
+\item Community foundations
+\item Community organizations
+\item Consumer organizations
+\item Cooperatives
+\item Foundations
+\item Non-governmental organizations
+\item Non-profit organizations
+\item Private voluntary organizations
+\item Professional associations
+\item Religious organizations
+\item Social enterprises
+\item Social movement organizations
+\item Support groups
+\item Trade unions
+\item Volunatary associations
+\end{enumerate}
+
+\end{solution}
+
 \question Describe tourism and its prospects in context of Nepal.
 
 \begin{solution}
@@ -1982,41 +1987,3 @@ The Summit provided a platform for exchange of relevant experience in selected t
 - An individual effort to parsimoniously treat energy resources available to us determines individual footprint. We could choose to reuse a battery/cell, with minor power drops, in alternative electronic items compatible with it or just treat at a refuse at our home. The latter activity with unforeseen consequences might lead to the battery being disposed improperly and polluting an ecosystem due the leakage of its electrolyte chemicals.
 - While electricity is lighting up most houses, its generation has been a markedly different process worldwide. The process basically depends with the resource endowment of a nation in their approach to choosing ways to explore it. Coal, for example, is used largely in China and the US despite its much tauted big contribution in greenhouse emission.
 
-### What is civil society ? What are the role of civil society in democratic practices ?
-
-Civil society can be understood as the "third sector" of society, distinct from government and business, and including the family and the private sphere. By other authors, civil society is used in the sense of 
-
- 1) the aggregate of non-governmental organizations and institutions that manifest interests and will of citizens or 
- 2) individuals and organizations in a society which are independent of the government.
-
-Sometimes the term civil society is used in the more general sense of "the elements such as freedom of speech, an independent judiciary, etc, that make up a democratic society" (Collins English Dictionary). Especially in the discussions among thinkers of Eastern and Central Europe, civil society is seen also as a normative concept of civic values.
-
-The literature on relations between civil society and democratic political society have their roots in classical liberal writings of G.W.F. Hegel from whom they were adapted by Alexis de Tocqueville, Karl Marx, and Ferdinand Tönnies. They were developed in significant ways by 20th century researchers Gabriel Almond and Sidney Verba, who identified the role of political culture in a democratic order as vital.
-
-They argued that the political element of political organizations facilitates better awareness and a more informed citizenry, who make better voting choices, participate in politics, and hold government more accountable as a result. The statutes of these political organizations have been considered micro-constitutions because they accustom participants to the formalities of democratic decision making.
-
-More recently, Robert D. Putnam, an American political scientist, has argued that even non-political organizations in civil society are vital for democracy. This is because they build social capital, trust and shared values, which are transferred into the political sphere and help to hold society together, facilitating an understanding of the interconnectedness of society and interests within it.
-
-Others, however, have questioned the link between civil society and robust democracy. Some have noted that the civil society actors have now obtained a remarkable amount of political power without anyone directly electing or appointing them. It has been argued that civil society aided the Nazi Party in coming to power in 1930s Germany. It has also been argued that civil society is biased towards the global north. Partha Chatterjee has argued that, in most of the world, "civil society is demographically limited." Finally, other scholars have argued that, since the concept of civil society is closely related to democracy and representation, it should in turn be linked with ideas of nationality and nationalism. Latest analyses suggest that civil society is a neoliberal ideology legitimizing antidemocratic attacks of economic elites on institutions of the welfare state through the development of the third sector as its substitute.
-
-Civil society include among others, following institutions:
-
-1. Academia
-2. Activist groups
-3. Charities
-4. Clubs (Sports, social, etc.)
-5. Community foundations
-6. Community organizations
-7. Consumer organizations
-8. Cooperatives
-9. Foundations
-10. Non-governmental organizations
-11. Non-profit organizations
-12. Private voluntary organizations
-13. Professional associations
-14. Religious organizations
-15. Social enterprises
-16. Social movement organizations
-17. Support groups
-18. Trade unions
-19. Volunatary associations
