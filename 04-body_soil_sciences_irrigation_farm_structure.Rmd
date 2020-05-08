@@ -18,7 +18,7 @@
 read_csv("./data/crop_water_requirements.csv", skip = 2) %>% 
   dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Crop water requirement and growth duration of major crops of Nepal", longtable = TRUE) %>% 
-  kableExtra::kable_styling() %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:5, width = c("6em", "6em", "8em", "8em", "20em")) %>% 
   kableExtra::landscape()
 ```
@@ -96,7 +96,7 @@ read_csv("./data/irrigation_development.csv", skip = 2) %>%
   dplyr::mutate(`Plan period` = str_replace_all(`Plan period`, "_", " ")) %>% 
   knitr::kable(caption = "Irrigation development in Nepal during different period plans", 
                booktabs = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:9, width = c("18em", rep("7em", 4), "5em", "5em", "5em", "5em")) %>% 
   kableExtra::landscape(margin = "1.5cm")
 ```

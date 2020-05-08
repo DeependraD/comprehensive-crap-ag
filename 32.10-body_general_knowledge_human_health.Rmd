@@ -21,12 +21,14 @@ Diseases can also be classified in other ways, such as communicable versus non-c
 readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "bacteria-virus", skip = 1) %>% 
   knitr::kable(caption = "Bacterial and viral diseases of humans", booktabs = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::collapse_rows(columns = 1)
+  kableExtra::collapse_rows(columns = 1) %>% 
+  kableExtra::column_spec(column = 1:6, width = c("5em", "6em", "6em", "8em", "8em", "6em"))
 
 readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "fungi-nematode") %>% 
   knitr::kable(caption = "Fungal and nematode diseases of humans", booktabs = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::collapse_rows(columns = 1)
+  kableExtra::collapse_rows(columns = 1) %>% 
+  kableExtra::column_spec(column = 1:6, width = c("5em", "6em", "6em", "8em", "8em", "6em"))
 ```
 
 
@@ -129,6 +131,8 @@ Vitamin E deficiency is rare, occurring as a consequence of abnormalities in die
 
 Vitamin K deficiency as a consequence of low dietary intake is rare. A deficient state can be a result of fat malabsorption diseases. Signs and symptoms can include sensitivity to bruising, bleeding gums, nosebleeds, and heavy menstrual bleeding in women. Newborn infants are a special case. Plasma vitamin K is low at birth, even if the mother is supplemented during pregnancy, because the vitamin is not transported across the placenta. Vitamin K deficiency bleeding (VKDB) due to physiologically low vitamin K plasma concentrations is a serious risk for premature and term newborn and young infants. Untreated, consequences can cause brain damage or death. The prevalence of VKDB is reported at 0.25 to 1.7%, with higher risk in Asian populations. The recommended prevention treatment is an intramuscular injection of 1 mg of vitamin K at birth (called the Vitamin K shot.) There are protocols for oral administration, but intramuscular injection is preferred.
 
+\begin{questions}
+
 \question What are the causes of malnutrition ?
 
 \begin{solution}
@@ -197,3 +201,5 @@ In spite of some progresses made since the Basel Convention on the Trans Boundar
 The unsafe disposal of hazardous domestic medical and manufacturing waste pose severe health risks to people in the region. Governments in the region should pay serious attention to ecological health.
 
 \end{solution}
+
+\end{questions}

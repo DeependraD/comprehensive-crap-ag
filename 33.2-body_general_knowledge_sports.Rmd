@@ -190,7 +190,7 @@ Popular sporting events and trophies.
 
 ```{r sporting-trophies}
 read_csv("./data/sporting_events_trophies.csv") %>% 
-  knitr::kable(caption = "Popular sporting events and trophies", booktabs = TRUE) %>% 
+  knitr::kable(caption = "Popular sporting events and trophies", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped")
 ```
 

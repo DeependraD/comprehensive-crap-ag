@@ -43,8 +43,9 @@ dplyr::tribble(~"Year", ~"Growth rate (%)",
 
 ```{r agriculture-chronology}
 readxl::read_xlsx("./data/agriculture_development_chronology.xlsx", skip = 1) %>% 
+  select(-1) %>% 
   knitr::kable(caption = "Chronology of Agriculture development in Nepal", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"))
 ```
 
 

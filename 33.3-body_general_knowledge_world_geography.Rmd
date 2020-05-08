@@ -68,7 +68,9 @@ Interesting facts about straits of the world
 
 ```{r world-straits}
 read_csv("./data/straits_world.csv") %>% 
-  knitr::kable(caption = "Major straits of the world.", longtable = TRUE, booktabs = TRUE)
+  knitr::kable(caption = "Major straits of the world.", longtable = TRUE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(1:4, width = c("6em", "8em", "8em", "5em"))
   
 ```
 

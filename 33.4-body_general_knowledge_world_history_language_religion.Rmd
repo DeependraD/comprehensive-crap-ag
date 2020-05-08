@@ -260,7 +260,7 @@ This was the largest lighthouse of the ancient world, built on the island of Pha
 read_csv('./data/world_warI_1914-22_timeline.csv') %>% 
   mutate(Events = str_remove_all(Events, pattern = "\\[\\d*\\]")) %>%
   knitr::kable(caption = "A timeline of major events of the World War I", longtable = TRUE, booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "hold_position") %>% 
+  kableExtra::kable_styling(latex_options = c("hold_position", "striped")) %>% 
   kableExtra::column_spec(column = 3, width = "22em")
 
 ```
@@ -340,8 +340,9 @@ Source: Michael Shally-Jensen, PhD (Editor's introduction, The Cold War)
 ```{r world-language}
 
 read_csv('./data/world_top_20_spoken_languages.csv') %>% 
-  mutate(Events = str_remove_all(Events, pattern = "\\[\\d*\\]")) %>%
-  knitr::kable(caption = "A list of top 20 spoken languages worldwide", longtable = TRUE, booktabs = TRUE)
+  mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
+  knitr::kable(caption = "A list of top 20 spoken languages worldwide", longtable = TRUE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 ```
 
 Source: Ethnologue (2019, 22nd edition)
@@ -383,7 +384,9 @@ Highest military decoration and honor awarded to Canadian Forces or allies for m
 read_csv("./data/highest_military_decorations_countrywise.csv") %>% 
   mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
   knitr::kable(caption = "Highest military decorations of different countries and their brief history", 
-               longtable = TRUE, booktabs = TRUE)
+               longtable = TRUE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("4em", "6em", "5em", "5em", "6em"))
 ```
 
 

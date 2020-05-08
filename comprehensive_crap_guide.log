@@ -1,9 +1,16 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.8)  8 MAY 2020 15:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**comprehensive_crap_guide.tex
+(./comprehensive_crap_guide.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06> (c:/Users/DELL/AppData/Roaming/TinyTeX/texmf-
+dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(c:/Users/DELL/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 
-! fmtutil [ERROR]: -user mode but path setup is -sys type, bailing out.
-! ...ers\DELL\AppData\Roaming\TinyTeX\bin\win32\runscript.tlu:915: command failed with exit code 1:
-! perl.exe c:\Users\DELL\AppData\Roaming\TinyTeX\texmf-dist\scripts\texlive\fmtutil.pl  --user --byfmt xelatex
-! Running the command C:\Users\DELL\AppData\Roaming\TinyTeX\bin\win32\fmtutil-user.exe
-
-! kpathsea: Running mktexfmt xelatex.fmt
-
-! The command name is C:\Users\DELL\AppData\Roaming\TinyTeX\bin\win32\mktexfmt
+! Fontconfig error: Cannot load default config file
+! C:/Users/DELL/AppData/Roaming/TinyTeX/texmf-var/fonts/cache does not exist.
+! Kpathsea is not working.

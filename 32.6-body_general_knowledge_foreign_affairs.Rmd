@@ -1,3 +1,5 @@
+\begin{questions}
+
 \question What are the prospects of Foreign Investment in Nepal ?
 
 \begin{solution}
@@ -237,6 +239,8 @@ High level visit from Nepal Army and British Army are regularly taking place in 
 \textbf{Nepalese students in UK}
 
 \end{solution}
+
+\end{questions}
 
 2. Discuss about the bilateral US relations with Nepal
 

@@ -672,7 +672,7 @@ IRD is centrally located in Kathmandu. There are 59 field offices throughout Nep
 4. Registration, Revenue Collection
 5. Tax audit
 6. Tax Enforcement and investigation
-7. Review & Appeal
+7. Review and Appeal
 8. Tax Refund
 9. Advance Ruling
 10. Tax Treaty and International Taxation

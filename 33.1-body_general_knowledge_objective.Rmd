@@ -64,6 +64,8 @@ read_csv("./data/minor_secular_observances_international_decades.csv") %>%
 
 ```
 
+**Other observances**
+
 - Greenery Day -- May 4
 - Remembrance of the Dead -- May 4
 - World Wide Day of Genital Autonomy -- May 7
@@ -481,28 +483,28 @@ read_csv("./data/minor_secular_observances_international_decades.csv") %>%
 
 ## Abbreviations and acronyms
 
-CDMA- Code Division Multiple Access
-CIMMYT- International Wheat and Maize Improvement Centre, Mexico
-IRRI- International Rice Research Institute, Los Bonus, Philippines (in some literature Manila)
-CIAT- International Center for Tropical Agriculture, Columbia
-CIP- International Potato Centre, Lima, Peru
-ILCA- International Livestock Centre of Africa, Ethiopia
-AVRDC- Asian Vegetable Research and Development Centre, Taiwan
-IUCN- International Union for Conservation of Nature and Natural resources
-ADB- Asian Development Bank
-DOTS- Directly Observed Treatment Shot Course
-FIFA- Federation of International Football Association
-ISBN- International Standard Book Number
-TOEFL- Test of English as a Foreign Language
-SIM- Subscriber Identification Module
-IPM- Integrated Pest Management
-INM- Integrated Nutrient Management
-ICIMOD- International Center for Integrated Mountain Development, Ktm, Nepal
-ICARDA- International Centre for Agriculture Research in Dry Area, Lebanon
-ICRISAT- International Crop Research Institute for Semi and Arid Tropics, Hyderabad, India
-IITA- International Institute of Tropical Agriculture, Nigeria
-SAARC- South Asian Association for Regional Co-operation
-SRI- System of Rice Intensification
+- CDMA- Code Division Multiple Access
+- CIMMYT- International Wheat and Maize Improvement Centre, Mexico
+- IRRI- International Rice Research Institute, Los Bonus, Philippines (in some literature Manila)
+- CIAT- International Center for Tropical Agriculture, Columbia
+- CIP- International Potato Centre, Lima, Peru
+- ILCA- International Livestock Centre of Africa, Ethiopia
+- AVRDC- Asian Vegetable Research and Development Centre, Taiwan
+- IUCN- International Union for Conservation of Nature and Natural resources
+- ADB- Asian Development Bank
+- DOTS- Directly Observed Treatment Shot Course
+- FIFA- Federation of International Football Association
+- ISBN- International Standard Book Number
+- TOEFL- Test of English as a Foreign Language
+- SIM- Subscriber Identification Module
+- IPM- Integrated Pest Management
+- INM- Integrated Nutrient Management
+- ICIMOD- International Center for Integrated Mountain Development, Ktm, Nepal
+- ICARDA- International Centre for Agriculture Research in Dry Area, Lebanon
+- ICRISAT- International Crop Research Institute for Semi and Arid Tropics, Hyderabad, India
+- IITA- International Institute of Tropical Agriculture, Nigeria
+- SAARC- South Asian Association for Regional Co-operation
+- SRI- System of Rice Intensification
 
 ## Famous books and authors
 
