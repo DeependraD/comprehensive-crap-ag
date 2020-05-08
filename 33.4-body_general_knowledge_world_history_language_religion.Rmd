@@ -1,14 +1,13 @@
 ## Ancient world
 
-Down to 500 AD (Bronze age civilizations)
+### Bronze age civilizations
 
 ```{r bronze-age}
 readxl::read_xlsx("./data/bronze_age_civilization.xlsx", skip = 1) %>% 
   knitr::kable(caption = "A summary of eras representing Bronze age civilization", booktabs = TRUE)
 ```
 
-
-Mesopotamian civilization: The oldest civilization of the world mesopotamia means 'land between the rivers'. Mesopotamia is the land between the Tigris and Euphrates rivers. Mesopotamia comprises four regions: Sumer (Southernmost region), Babylonia and Akkad (Middle region) and Assyria (Northernmost region).
+**Mesopotamian civilization**: The oldest civilization of the world mesopotamia means 'land between the rivers'. Mesopotamia is the land between the Tigris and Euphrates rivers. Mesopotamia comprises four regions: Sumer (Southernmost region), Babylonia and Akkad (Middle region) and Assyria (Northernmost region).
 
 Hammurabi (C. 2100 BC), the greatest Babylonian ruler, united the whole of what is now called Iraq into a single Kingdom. Hammurabi gave his people a code of laws. His code covered every aspect of life. His code was based on the law of "eye for eye" and "tooth for tooth", i.e., the law of "tit for tat".
 
@@ -26,7 +25,7 @@ In geometry, the Mesopotamians had discovered what was later called the Pythagor
 
 In astronomy, the Mesopotamians made astonishing progress. They could calculate the length of the day and the night. They divided the whole day into 24 hours. They divided the sky into 12 parts, each assigned a name. This has come down to us as the 12 signs of zodiac or rashis. Another remarkable achievement of the Mesopotamians was the invention of a lunar calender, based on the moon.
 
-Egyptian civilization
+**Egyptian civilization**
 
 - Egypt is called the "Gift of the Nile"
 - Historians divide the history of Egypt into three periods: the Old kingdom, the Middle Kingdom and the New Kingdom.
@@ -41,7 +40,7 @@ Egyptian civilization
 - The Egyptians developed a decimal system of numeration.
 - The crowining achievement of the Egyptians was the solar calender.
 
-Harappan civilization (Indus valley civilization)
+**Harappan civilization (Indus valley civilization)**
 
 The Indus Valley Civilisation (IVC) was a Bronze Age civilisation in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE, and in its mature form from 2600 BCE to 1900 BCE. Together with ancient Egypt and Mesopotamia, it was one of three early civilisations of the Near East and South Asia, and of the three, the most widespread, its sites spanning an area stretching from northeast Afghanistan, through much of Pakistan, and into western and northwestern India. It flourished in the basins of the Indus River, which flows through the length of Pakistan, and along a system of perennial, mostly monsoon-fed, rivers that once coursed in the vicinity of the seasonal Ghaggar-Hakra river in northwest India and eastern Pakistan.
 
@@ -49,8 +48,7 @@ The civilisation's cities were noted for their urban planning, baked brick house
 
 The Indus civilisation is also known as the Harappan Civilisation, after its type site, Harappa, the first of its sites to be excavated early in the 20th century in what was then the Punjab province of British India and now is Pakistan.
 
-
-Chinese civilization
+**Chinese civilization**
 
 - The earliest Chinese civilization is the Shang civilization.
 - The shan dynasty was overthrown by the Chou dynasty.
@@ -70,7 +68,7 @@ Chinese civilization
 - The water clock, abacus, umbrella were invented by Chinese.
 - In the 2nd century AD, Chinese invented a seismograph.
 
-Iranian civilization
+**Iranian civilization**
 
 - In the middle of the 6th century BC, a powerful empire -- Achaaemenid empire arose in Iran (Persia). The founder of this empire was Cyrus with his capital at Pasargadae.
 - He was succeeded by Darius I (522 BC - 486 BC). The empire reached its greatest extent under him and covered entire Iran, Mesopotamia, Syria, Egypt, Asia minor and north-western India. He build a new capital at Persepolis.
@@ -82,14 +80,13 @@ Iranian civilization
 - The main religion of the ancient Iranians was Zoroastrianism. This religion was founded by Zoraster (628-551 BC) as the Greeks called him in 7th century BC. The teachings of Zarathustra said that the world consists of two forces -- good and evil. The god, Ahura Mazda represents the forces of good and Ahirman, the forces of evil. The sun and the fire came to be worshipped as visible symbols of Ahura Mazda, who represents light. Both Judaism and Christianity indebted to Zoroastrianism.
 - During the Achaemenid empire the official language was Aramaic. The Sassanids revived old persian and made it the official language of their empire. Buth then a new script called Pahlavi had also developed. The best known ancient literature of Iran is the Zend Avesta, which contains the work of Zarathustra.
 
-Greek civilization
+**Greek civilization**
 
-Ancient Greece was a civilization belonging to a period of Greek history from the Greek Dark Ages of the 12th-9th centuries BC to the end of antiquity (c. AD 600). Immediately following this period was the beginning of the Early Middle Ages and the Byzantine era. Roughly three centuries after the Late Bronze Age collapse of Mycenaean Greece, Greek urban poleis began to form in the 8th century BC, ushering in the Archaic period and colonization of the Mediterranean Basin. This was followed by the period of Classical Greece, an era that began with the Greco-Persian Wars, lasting from the 5th to 4th centuries BC. Due to the conquests by Alexander the Great of Macedon, Hellenistic civilization flourished from Central Asia to the western end of the Mediterranean Sea. The Hellenistic period came to an end with the conquests and annexations of the eastern Mediterranean world by the Roman Republic, which established the Roman province of Macedonia in Roman Greece, and later the province of Achaea during the Roman Empire.
-
-Classical Greek culture, especially philosophy, had a powerful influence on ancient Rome, which carried a version of it to many parts of the Mediterranean Basin and Europe. For this reason, Classical Greece is generally considered to be the seminal culture which provided the foundation of modern Western culture and is considered the cradle of Western civilization.
-
-Classical Greek culture gave great importance to knowledge. Science and religion were not separate and getting closer to the truth meant getting closer to the gods. In this context, they understood the importance of mathematics as an instrument for obtaining more reliable ("divine") knowledge. Greek culture, in a few centuries and with a limited population, managed to explore and make progress in many fields of science, mathematics, philosophy and knowledge in general.
-
+- Ancient Greece was a civilization belonging to a period of Greek history from the Greek Dark Ages of the 12th-9th centuries BC to the end of antiquity (c. AD 600). 
+- Immediately following this period was the beginning of the Early Middle Ages and the Byzantine era. 
+- Due to the conquests by Alexander the Great of Macedon, Hellenistic civilization flourished from Central Asia to the western end of the Mediterranean Sea. The Hellenistic period came to an end with the conquests and annexations of the eastern Mediterranean world by the Roman Republic, which established the Roman province of Macedonia in Roman Greece, and later the province of Achaea during the Roman Empire.
+- Classical Greek culture gave great importance to knowledge. Science and religion were not separate and getting closer to the truth meant getting closer to the gods.
+- In this context, they understood the importance of mathematics as an instrument for obtaining more reliable ("divine") knowledge.
 - The early greeks (or Hellens), like the Aryans in India, lived in tribes, each composed of a number of families under a leader. A group of tribes had a king.
 - The main occupation were agriculture and herding.
 - The early Greeks had many gods whom they imagined to be like human beings, though more powerful and immortal. Zeus was the god of the sky and hence caused thunder. Poseidon, god of sea, raised stroms that sank ships.
@@ -107,6 +104,7 @@ Classical Greek culture gave great importance to knowledge. Science and religion
 - In the 2nd century BC, the Roman empire started expanding eastward. As a result of Roman attacks, almost the entire territory of the Greeks and their empire became a part of the Roman empire.
 
 Contributions of Greek Civilization
+
 - The glory of Greece that the world has never forgotten was largely the glory of Athens at the time of Pericles.
 - The Olympic games were first held in 776 BC by the Greeks in honour of God Zeus at Mount Olympus (Olympia) in Greece, hence the name, and they continued till 394 AD. From 394 AD these games started degenerating and by 580 they altogether vanished. They were banned by the Roman Emperor Theodosius as Pagan manifestations.
 - It was the French Baron, Pierre de Coubertin, who (nearly over 1500 yeas after the lsat ancient Olympics) revived these games in 1894 and the modern series of the Olympic games started in 1896 at Athens and since then they are being held every fourth year.
@@ -119,7 +117,7 @@ Contributions of Greek Civilization
 - The most important astronomers were: Aristarchus, Ptolemy, Hipparchus, Eratosthenes, etc. Ptolemy's belief that the earth was the centre of the universe was accepted as truth untill the 16th century. Eratosthenes prepared a fairly accurate map of the globe and was the first to suggest that one could reach India from Europe by sailing west.
 - The temple of Athena, the Parthenon, is the best example of Greek architecture. Myron and Phidias are two best-known sculptors of ancient Greece. It was Phidias whom Pericles appointed to supervise the construction of the Acropolis in Athens.
 
-Roman civilization
+**Roman civilization**
 
 - The centre of the Roman civilization was Italy, the peninsula that projects into the mediterranean sea in the west of Greece. The river Tiber on which the city of Rome is located runs through the central part of the peninsula.
 - The city of Rome was founded about 1000 BC by Romulus, in the district of Latium. The language of the ancient Romans, Latin, gets its name from Latium.
@@ -147,14 +145,13 @@ Contributions of Roman Civilization
 - Fights between gladiators or between a gladiator and a wild animal, was a popular Roman amusement. Special arenas or amphitheatres were built for these contests. The ruins of the Colosseum, one of the greatest of arenas, can be seen in Rome.
 
 
-Medieval world (500 AD - 1500 AD)
+### Medieval world (500 AD - 1500 AD)
 
 Medieval Europe
 
 - The Eastern Roman empire or Byzantine empire was a vast empire and its capital Constantinople was the largest city of the time.
 - The Byzantines built beautiful churches. The most famous of these is the church of St. Sophia in Constantinople. The church was built during the reign of Byzantine emperor Justinian in the 6th century AD.
 - The Ottoman Turks conquered the Byzantine territories in 1453.
-
 
 Feudalism
 
@@ -178,14 +175,14 @@ Crusades (1095 AD -- 1291 AD)
 - The capture of Jerusalem by Saladin in 1187 led the inconclusive IIIrd crusade (1189 - 92), led by Philip II Augustus of France, Frederich I Barbarossa of Germany, and Richard I (the "Lion Heart") of England.
 - The IVth Crusade (1202 - 91) was diverted from its original objective, Egypt and sacked Constantinople (1204). This Crusade failed to recover lost ground and Acre, the last foothold of West is Palestine, was lost in 1291.
 
-Arab civilization
+**Arab civilization**
 
 - In the 7th century, a new religion, Islam, arose in Arabia, which led to the establishment of a big empire.
 - Muhammad, the Prophet of Islam, was born in Mecca in 571 AD.
 - When he was 40, he had 'visions of truth' and became a prophet.
 - Muhammad's vision completely convinced him that Allah was the only god.
 - He forbade the worship of idols and made many enemies. Ultimately, he had to leave Mecca and take refuge in Medina. This event took place in 622 AD and is known as the year of Hijira, or migration, and from it Muslims date their era (Hijira Samvat).
-- The QUran, the holy book of Islam, is divided into a number of suras, or chapters, and contains the teachings of Muhammad. Besides the Quran, the life of a muslim is guided by the Sunna, the practices of Muhammad, and the Hadees, the sayin of the Muhammad.
+- The Quran, the holy book of Islam, is divided into a number of suras, or chapters, and contains the teachings of Muhammad. Besides the Quran, the life of a muslim is guided by the Sunna, the practices of Muhammad, and the Hadees, the sayin of the Muhammad.
 - Muhammad was not only a religious leader but also a political leader.
 - After his death (632 AD), his successor, were known as Caliphs, or Khalifas who held both religious and political authority.
 - Nearly all Arabia had accepted the new religion and become a unified state before the detah of Prophet Muhammad in 632 AD.
@@ -267,7 +264,7 @@ read_csv('./data/world_warI_1914-22_timeline.csv') %>%
 
 ## World war II
 
-Causes
+Causes of second world war:
 
 - Expansionism
 - Militarism
@@ -342,7 +339,8 @@ Source: Michael Shally-Jensen, PhD (Editor's introduction, The Cold War)
 read_csv('./data/world_top_20_spoken_languages.csv') %>% 
   mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
   knitr::kable(caption = "A list of top 20 spoken languages worldwide", longtable = TRUE, booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("4em", "6em", "5em", "8em", "12em"))
 ```
 
 Source: Ethnologue (2019, 22nd edition)

@@ -37,9 +37,10 @@ tribble(~"year", ~"event", ~"hero",
 
 # todo: remove square bracket citations
 read_csv("./data/minor_secular_observances_international_days.csv") %>% 
+  mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
   knitr::kable(booktabs = TRUE, caption = "List of minor secular observances (Days)", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:3, width = c("8em", "20em", "12em"))
+  kableExtra::kable_styling(latex_options = "striped") %>%
+  kableExtra::column_spec(column = 1:3, width = c("8em", "18em", "10em"))
 ```
 
 **International year observances**
@@ -47,6 +48,7 @@ read_csv("./data/minor_secular_observances_international_days.csv") %>%
 ```{r international-years}
 # retrieved: April 6, 2020
 read_csv("./data/minor_secular_observances_international_year.csv") %>% 
+  mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
   knitr::kable(booktabs = TRUE, caption = "List of minor secular observances (Years)", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:2, width = c("8em", "22em"))
@@ -58,9 +60,10 @@ read_csv("./data/minor_secular_observances_international_year.csv") %>%
 ```{r international-decades}
 # retrieved: April 6, 2020
 read_csv("./data/minor_secular_observances_international_decades.csv") %>% 
+  mutate_all(list(~str_remove_all(., pattern = "\\[\\d*\\]"))) %>%
   knitr::kable(booktabs = TRUE, caption = "List of minor secular observances (Decades)", longtable = TRUE) %>%
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:3, width = c("8em", "20em", "12em"))
+  kableExtra::column_spec(column = 1:3, width = c("8em", "20em", "10em"))
 
 ```
 

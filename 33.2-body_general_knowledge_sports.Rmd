@@ -66,7 +66,7 @@ Facts
 ```{r sport-num-players}
 read_csv("./data/sports_number_of_players.csv") %>% 
   knitr::kable(caption = "Number of players in different sports.", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "striped"))
 ```
 
 **Sporting terminologies**
@@ -74,7 +74,8 @@ read_csv("./data/sports_number_of_players.csv") %>%
 ```{r sporting-terminologies}
 read_csv("./data/sporting_terms.csv") %>% 
   knitr::kable(caption = "A glossary of sporting terms used worldwide.", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("18em", "8em"))
 ```
 
 
@@ -83,7 +84,7 @@ read_csv("./data/sporting_terms.csv") %>%
 ```{r national-games}
 read_csv("./data/sports_national_games_countries.csv") %>% 
   knitr::kable(booktabs = TRUE, caption = "National games of some of countries", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("HOLD_position", "striped"))
+  kableExtra::kable_styling(latex_options = c("HOLD_position")) # does not work with "striped"
 ```
 
 ### World Cup
