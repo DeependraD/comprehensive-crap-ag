@@ -26,139 +26,756 @@ With all the merits it has brought to individual and societal lives, modern comm
 
 3. Diplomacy has been defined as "the management of relations between independent states by the process of negotiation". Write an essay citing some major events of modern international diplomacy that have resolved conflict through the process of negotiation and have shaped the world in which we live.
 
-## International relations
+## Miscellaneous
 
-1. Nepal and United Kingdom have celebrated 200 years of their relationship. How do you view this relationship and what recommendations, if you have, you wish to offer to take the subsisting relationship to the next level ?
+\begin{questions}
+
+\question Discuss in brief the political history of Nepal.
+
+\begin{solution}
+Records mention the Gopalas and Mahishapalas believed to have been the earliest rulers with their capital at Matatirtha, the south-west corner of the Kathmandu Valley. From the 7th or 8th Century B.C. the Kirantis are said to have ruled the valley. Their famous King Yalumber is even mentioned in the epic, ‘Mahabharat’. Around 300 A.D. the Lichhavis arrived from northern India and overthrew the Kirantis. One of the legacies of the Lichhavis is the Changu Narayan Temple near Bhaktapur, a UNESCO World Heritage Site (Culture), which dates back to the 5th Century. In the early 7th Century, Amshuvarma, the first Thakuri king took over the throne from his father-in-law who was a Lichhavi. He married off his daughter Bhrikuti to the famous Tibetan King Tsong Tsen Gampo thus establishing good relations with Tibet. The Lichhavis brought art and architecture to the valley but the golden age of creativity arrived in 1200 A.D with the Mallas.
+
+During their 550 year rule, the Mallas built numerous temples and splendid palaces with picturesque squares. It was also during their rule that society and the cities became well organized; religious festivals were introduced and literature, music and art were encouraged. After the death of Yaksha Malla, the valley was divided into three kingdoms: Kathmandu (Kantipur), Bhaktapur (Bhadgaon) and Patan (Lalitpur). Around this time, the Nepal as we know it today was divided into about 46 independent principalities. One among these was the kingdom of Gorkha with a Shah ruler. Much of Kathmandu Valley’s history around this time was recorded by Capuchin friars who lived in the valley on their way in and out of Tibet.
+
+An ambitious Gorkha King named Prithvi Narayan Shah embarked on a conquering mission that led to the defeat of all the kingdoms in the valley (including Kirtipur which was an independent state) by 1769. Instead of annexing the newly acquired states to his kingdom of Gorkha, Prithvi Narayan decided to move his capital to Kathmandu establishing the Shah dynasty which ruled unified Nepal from 1769 to 2008.
+
+The history of the Gorkha state goes back to 1559 when Dravya Shah established a kingdom in an area chiefly inhabited by Magars. During the 17th and early 18thcenturies, Gorkha continued a slow expansion, conquering various states while forging alliances with others. Prithvi Narayan dedicated himself at an early age to the conquest of the Kathmandu Valley. Recognizing the threat of the British Raj in India, he dismissed European missionaries from the country and for more than a century, Nepal remained in isolation.
+
+During the mid-19th Century Jung Bahadur Rana became Nepal’s first prime minister to wield absolute power relegating the Shah king to mere figureheads. He started a hereditary reign of the Rana Prime Ministers that lasted for 104 years. The Ranas were overthrown in a democracy movement of the early 1950s with support from the-then monarch of Nepal, King Tribhuvan. Soon after the overthrow of the Ranas, King Tribhuvan was reinstated as the Head of the State. In early 1959, Tribhuvan’s son King Mahendra issued a new constitution, and the first democratic elections for a national assembly were held. The Nepali Congress Party was victorious and their leader, Bishweshwar Prasad Koirala formed a government and served as prime minister. But by 1960, King Mahendra had changed his mind and dissolved Parliament, dismissing the first democratic government.
+
+After many years of struggle when the political parties were banned, they finally mustered enough courage to start a People’s Movement in 1990. Paving way for democracy, the then-King Birendra accepted constitutional reforms and established a multiparty parliament with King as the Head of State and an executive Prime Minister. In May 1991, Nepal held its first parliamentary elections. In February 1996, the Maoist parties declared People’s War against monarchy and the elected government.
+
+Then on 1st June 2001, a horrific tragedy wiped out the entire royal family including King Birendra and Queen Aishwarya with many of their closest relatives. With only King Birendra’s brother, Gyanendra and his family surviving, he was crowned the king. King Gyanendra abided by the elected government for some time and then dismissed the elected Parliament to wield absolute power. In April 2006, another People’s Movement was launched jointly by the democratic parties focusing most energy in Kathmandu which led to a 19-day curfew. Eventually, King Gyanendra relinquished his power and reinstated the Parliament. On November 21, 2006, Prime Minister Girija Prasad Koirala and Maoist chairman Prachanda signed the Comprehensive Peace Agreement (CPA) 2006, committing to democracy and peace for the progress of the country and people. A Constituent Assembly election was held on April 10, 2008. On May 28, 2008, the newly elected Constituent Assembly declared Nepal a Federal Democratic Republic, abolishing the 240 year-old monarchy. Nepal today has a President as Head of State and a Prime Minister heading the Government.
+
+The Constituent Assembly made significant progress to accomplish the mandate of writing a new democratic constitution of Nepal during its first 4 years term. The country also had an extensive democratic exercise in that direction including collection of public inputs on the contents of the new constitution and intense deliberations in the Assembly. However, due to political disagreements on some of the contentious issues like federal provinces and form of government, the first CA could not accomplish the historic task and there was natural termination of its mandate in 2012. The election of CA II was held in November 2013 and in its first meeting, leaders of political parties set the timeline of 1 year to complete the task of writing the new constitution.
+
+Devastating earthquake of 7.8 magnitude hit Nepal in April 2015 followed by several powerful aftershocks causing loss of life, infrastructure and property in an unimaginable scale. Most mid hill districts of Nepal including Kathmandu valley saw massive devastation. This terrible experience created a sense of urgency among political parties to expedite the constitution writing so that a political process would come to a meaningful conclusion and country can divert all its focus on post disaster reconstruction.
+
+After weeks of zeroing in on most contentious issues, political parties sorted them out paving the way to finalize the constitution. The new constitution of Nepal was promulgated through an overwhelming majority of the votes of CA members on September 20, 2015. With this historic achievement, the decades-long dream of Nepali people to have a constitution made through an elected representative body has now been realized. As per the provisions of the new constitution, elections of the new President, Prime Ministers and some other State positions have been successfully held.
+
+source: \url{https://mofa.gov.np/about-nepal/history-of-nepal/}
+\end{solution}
+
+\question Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. Discuss how they achieve this objective. Giving examples, show how the two differ in their approaches.
 
 \begin{solution}
 
-Nepal established diplomatic relations with the United Kingdom in 1816. Treaty of Friendship between Great Britain and Nepal was signed in 1923 which further formalized relations between the two countries. Ever since the establishment of their diplomatic relations, friendship, mutual understanding, cordiality, cooperation and respect for each other's national interests and aspirations have characterized relationship between the two countries. The UK is also the first country in the world with which Nepal had established diplomatic relations and also the first to have established its Embassy in Kathmandu, the capital of Nepal. This is the country where Nepal had established its first diplomatic mission (Legation) back in 1934. It was elevated to the Ambassador level in 1947 AD.
+Law are the system of rules which a particular country or community recognizes as regulating the actions of its members and which it may enforce by the imposition of penalties.
+Ethics seeks to resolve questions of human morality by defining concepts such as good and evil, right and wrong, virtue and vice, justice and crime.
 
-The UK remained one of the top development partners of Nepal with the annual British aid on an increasing trend. Tourism, trade, education, and British Gurkha connection remained the key dimensions of the bilateral relations.
+How law and ethics help in conductive social existence
 
-Since then, relations between the two countries have continued to grow, with a new Treay of Perpetual Peace and Friendship signed in 1950 which expanded areas of cooperation and an exchange of State Visits. Amicable relations continue today; Nepal continues to be the source of recruitment of Gurkha soldiers into the British army -- a tradition dating back to the nineteeth century but still an essential part of Britain's modern army -- and the UK remains one of the most significant providers of development assistance to Nepal.
+By moulding human character
 
-As one of Great Britain's allies during the two world wars, Nepalese soldiers in hundreds of thousands fought and sacrificed their lives in many battlefields of the world, thus leaving a heritage of deep and sincere friendship in the history of two countries. The Gurkha soldiers are the most visible bridge between Nepal and the United Kingdom. It is to state that the Gurkha's service in the British army started on April 24, 1815, which is continuing till the date spanning over more than two hundred years. The solid foundation of the relation is built on the history of service, sacrifice and bravery of these Gurkha soldiers.
+Ethics tries to mould human character into morally sound individual so that he/she follows set of rules that uphold good values. These values see to it that the individual does not indulge in unethical and non acceptable activities.
 
-Nepal and United Kingdom are celebrating the bicentenary of bilateral relations between two countries. To mark the 200th year of the beginning of official contacts between the two countries in 1816, a number of programs and events from both sides have been organized in 2016-2017. There have been intermittent to and fro high level visits between Nepal and United Kindom since as early as 1960.
+Fear of punishment
 
-\textbf{Treaties/Memorandum of Understandings/Agreements between the UK and Nepal}
+Laws are designed on the principles of generating fear in an individual for violating certain regulations imposed by the state. These regulations have to be followed in all conditions so that society is free from chaos. The laws have the ability to create virtual boundaries for human behaviour.
 
-Bilateral consultation mechanism
+Clarity of thought process
 
-With a view to enhancing the friendly cooperation and further promoting the bilateral relations Nepal and the United Kingdom have signed a MoU on 7th January, 2014. On behalf of Nepal and UK, Foreign secretary Mr. Arjun Bahadur Thapa and UK's Permanent Under Secretary Sir Simon Frazer signed the MoU for establishing the Consultation Mechanism at the Foreign and Commonwealth Office, London respectively. As per the MoU, both the parties will hold consultations at jointly decided intervals alternately in the capital of either country at an appropriate level as may be decided upon and hold discussion on all aspects of bilateral relations as well as on international or regional issues of mutual interest.
+The ultimate idea of law and ethics is to create a clarity in thought process of individuals so that they can understand what is good and bad. This will enable them to take the right decision, which will be beneficial for civilised society.
 
-Finalized Agreements/MoU
+How ethics and law differ from each other
 
-- TIFA Agreement signed in 2011.
-- An agreement on promotion and protection of investment between Nepal and UK signed on March 2, 1993
-- Development Partnership Agreement between Nepal and UK, signed on December 2013. It supersedes the Technical cooperation agreement desiring to strengthen the traditional cooperation and cordial relation between Nepal and the UK signed on 31 May 1994.
-- Trade Agreement signed in 1965.
+Explicit and implicit nature
 
-Agreements/MoU in Progress
+Laws are basically codified by either the state or relevant authorities and explicitly defined, making its interpretation and understanding easier. Ethics do not have a fixed version and is basically case to case basis when it comes to interpretation. Ethical in one case may not be ethical in another.
 
-- Bilateral Agreement on Avoidance of Double Taxation
+Ex: Murder is a crime that is explicitly given in law and does not vary on case to case basis.
+    Lying is unethical in some cases whereas it is acceptable in some cases.
+    
+General vs Specific
 
-\textbf{Economic and Technical Cooperation (Development Cooperation)}
+Ethics is based on general idea of good and bad, correct and wrong and is thusvague when it comes to exact relevance. Law is usually specific for a specific case and applies for that case only.
 
-The UK aid to Nepal in various fields of activities started in 1961. The United Kingdom has been offering fellowships to the Government of Nepal since 1950s. British volunteers are engaged in Nepal since 1964. These programmes have contributed to Nepal's need for specialised and trained manpower and also have developed important links between the people of the two countries. In order to better understand and address the issues of poverty in Nepal, in April 1999 Department for International Development (DFID) established an in-country office staffed by a multi-disciplinary team of both UK nationals and staff appointed in country. DFID presence in Nepal has greatly assisted in working with Government of Nepal in the development of understanding and establishment of networks that will promote opportunities for change.
+Ex: When a particular crime occurs, ethics tries to understand the underlying circumstances to say whether it is ethical or unethical. In law there is no focus on circumstances but instead only sees whether the act was crime under the law.
 
-Recently Development Partnership Arrangement to provide a transparent and mutual accountability framework between Nepal and the United Kingdom on development assistance was signed on December 2013. The assistance of British Government generally comes through the Umbrella Agreement. The first such agreement of Pound Sterling 12 million was signed on 23 September 1979 for the implementation of various projects. The UK Government’s Department for International Development (DFID) prepared an Operational Plan for Nepal during 2011-2016. This plan commits up to Pound Sterling 413 million of UK official development assistance during the period 2011-2016. All bilateral aid with Nepal is on a grant basis.
+Thus, laws and ethics may have different reasons for its existence but the underlying idea of both is to maintain socially conductive practices.
 
-As per Development Cooperation Report 2014-2015 by Ministry of Finance, UK remained the top ODA provider (based on disbursement) with a total assistance of US dollars 168.07 million in the Fiscal Year 2014/2015.
+source: \url{https://www.upsciq.com/law-and-ethics-considered-two-tools-controlling-human/}
+\end{solution}
 
-DFID Technical Support has been instrumental in promoting foreign direct investment especially in large hydropower project through Investment Board Nepal for the last few years. This very programme has provisioned of supporting IBN to promote private investment in the country. Likewise there are provisions of continuing support to the second and third phases of Financial Sector Reform Programme of the Government initiated few years back. The program will last for six years from 2015 to 2020.
+\question What is water-use efficiency? Describe the role of micro-irrigation in increasing the water-use efficiency.
 
-The DFID Nepal's operational Plan is divided into four main areas: governance and security, inclusive wealth creation, human development (basic services including education and health), and climate change/disaster management. The UK has assisted Nepal in the areas of livelihoods, e.g. agriculture, forestry, transport and communications, local development; basic services, e.g. education, health, water supply and sanitation; good governance, human rights and peace building efforts.
+\begin{solution}
 
-\textbf{Earthquake, 2015}
+Water use efficiency is the ratio of water used for plant metabolism to the water lost by plant through transpiration. It can be understood as a measure to reduce water wastage from plants by providing only the necessary amount.
 
-Nepal received generous support and assistance from the Government of the United Kingdom in the aftermath of the earthquake of 25 April 2015. It responded to the Nepal earthquakes immediately with the deployment of Eight Disaster Response Specialists under Rapid Response Facility and with the release of GBP 5 million. The United Kingdom Government pledged USD 110 million for the reconstruction and rebuilding of Nepal. 
+Role of micro-irrigation in increasing water-use efficiency
 
-\textbf{Trade}
+Reduces excess water accumulation
+    
+In conventional irrigation system water is used in bulk without proper understanding of the requirement of the crop. This will result in accumulation of water without proper utilisation leading to wastage. In micro-irrigation, the water needed for the plant to grow is given in right amount so as to reduce wastage.
 
-Nepal and UK signed trade agreement in 1965. Despite our extensive engagements and linkages, both at the level of government and, people in the backdrop of our long-standing friendly and cooperative relations, trade and investment relations between the two countries have largely remained way below its actual potential.
+Recycling of expelled water
 
-With high imbalance and elements of unpredictability, this is, of course, a typical feature of a trade relation between a developed and least developed country. Nepal faced a trade deficit of 142,182,856 Rupees in the first eight month of 2016. The total export to UK stands at 1,256,018,669 Rupees while the total import stands at 1,398,201,525. It is for this reason that Nepal places high importance to directing foreign development cooperation in areas which help enhancing our productive capacity. Aid for trade is, therefore, another preferred area for us in our development cooperation. 
+In micro-irrigation system such as greenhouse farming, the plant canopy is covered in plastic to prevent transpiration water from escaping. The water is then diverting back to the plant. This will ensure that water wastage from plant will be lower in comparison to the input.
 
-The major items of import from UK are: Motor car, vehicle, parts of aeroplane and helicopter, Whiskies, Malt not roasted, Sweets biscuits, Chocolate in blocks, slab or bar etc. Major Nepalese exports to UK are Pashmina shawls, goatskin, leather goods, Nepalese paper and paper products, woollen carpets, handicrafts, ready-made garments, silverware and jewellery. Likewise, major imports from UK are copper scrap, hard drinks, cosmetics, medicine and medical equipment, textiles, copper wire rod, machinery and parts, aircraft and spare parts, scientific research equipment, office equipment and stationery.
+Reduces run-off
 
-Exchange of visits by trade delegations from Nepal and Britain has added a new dimension to the commercial relations between Nepal and Britain. Nepal-Britain Chamber of Commerce and Industry is active in promoting trade and investment between Nepal and UK.
+Water irrigation in conventional methods like canals and tube well will result in water runoff from the fields without getting utilised. This will contribute towards wastage especially in areas where there is shortage of water. In micro-irrigation techniques, water will be targeted at the root of the crops so that wastage is as low as possible.
 
-\textbf{Tourism}
+Way forward
+It is necessary to device methods to make water use efficiency high and address shortage of water across the globe.
 
-A sizeable number of British tourists come to Nepal every year for trekking and mountaineering and other leisurely activities. Given our historical linkages and increasing people-to-people contacts, the prospects for increasing the tourist arrival from UK in Nepal are quite promising.
+Thus, micro-irrigation is a very important idea when it comes to sustainable use of water resources. The initial investment once recovered will make agriculture a profitable venture.
 
-UK's support and cooperation in line with our broader policy priorities will be much appreciated, especially in construction and upgradation of tourism infrastructure with focus on tourist safety. DIFID’s recent involvement and interest in tourist security, trekkers tracking, and maintenance of damaged trekking trails, including the Great Himalayan Trail, is most welcome.
+source: \url{https://www.upsciq.com/what-is-water-use-efficiency/}
+\end{solution}
 
-Embassy of Nepal in London is planning to organize the many tourism promotional programme to increase the number of tourists from UK.
+\question Anger is a harmful negative emotion. It is injurious to both personal life and work life. Discuss how it leads to negative emotions and undesirable behaviours. How can it be managed and controlled?
 
-\textbf{Consular activities}
+\begin{solution}
+Anger can be termed as a extreme behaviour, an intense emotional state involving a strong uncomfortable and hostile response to a perceived provocation, hurt or threat. This is considered a negative emotion because it has potential to hurt someone or cause any physical or mental damage to ourselves or others.
 
-Embassy of Nepal in London involves in various consular service ranging from passports, visas, Travel Document, NRN Card, Verification, Attestation and Power of Attorney. During Fiscal Year 2075/76, Embassy of Nepal in London generated GBP 542048.72 (NRS 7,73,71,510.41) revenue.
+How anger leads to negative emotions and undesirable behaviours
 
-\textbf{Investment}
+By blocking our emotional intelligence
 
-Foreign investment commitment from UK stands at 1663 million rupees till 2013/14. The major investment is in the areas of banking, tourism, education, technology. An agreement for the promotion and protection of investment between Nepal and UK was signed on March 2, 1993.
+Anger has the power of blocking the right thinking process that usually allows us to make right judgement. This state will influence us to make certain decision that would not have taken place if we would have calmly handled the situation. This will result in actions that are both undesirable and unworthy.
 
-There are some British joint ventures in the areas of hotel, travel and trekking, tea production, education, garment, bio-technology and consultancy. These are significant figures, but do not reflect the true potential. There are many British and Non Resident Nepalese (NRN) entrepreneurs who are still making trade and investment successes in Nepal. Standard Chartered Bank and Unilever are two major British companies who have made a huge return from their investment in Nepal in the last 20 years.
+Ex: Slapping a friend in public for a small action that was accidental or unintentional.
+    Creating sense of disappointment
 
-An agreement on promotion and protection of investment between Nepal and UK signed on 02 March 1993 provides a framework to further expand cooperation in this field. In this context, the proposal for signing another agreement on avoidance of double taxation will further help boost the flow of FDI between the two countries.
+Negative emotions are developed in an individual if a sense of disappointment prevails due to anger. This disappointment will create a strong sense of negative emotions such as disgust and hate, which will force us to display undesirable behaviour.
 
-\textbf{Foreign employment and British Gurkha}
+Ex: when you find out that your colleague is indulging in unethical action, you sense a feeling of anger. This anger will make you develop negative emotions like hate and disgust towards the colleague without hearing the other side of the argument.
 
-Thousands of Nepalese are working at service sectors like hospitals, university, hotels and restaurants in UK. About 200 Nepalese are recruited as Maritime Security Guards in UK. About 150,000 Nepalese are living in UK. Many Nepalese belong to Ex-Gurkha Servicemen and their families.
+How to control and manage anger
 
-British Gurkhas is a fully integrated part of the British Armed Forces. It constitutes an important element in Nepal-Britain relations.  Over 160,000 Gurkhas were enlisted in the Gurkha Brigade and other units of the Indian Army during the First and Second World Wars. In recognition of their distinguished service, the British Gorkhas servicemen from Nepal have won 13 Victoria Crosses (VC), the highest British gallantry honour.
+Mind calming techniques
 
-\textbf{Cultural Cooperation}
+The best method to control anger is using techniques to introduce calmness in thinking process. This can be achieved by practicing yoga, meditation and other forms of natural healing. This will provide that required moment of calmness that prevents our anger to overshoot, which otherwise leads to negative emotions and unruly behaviour.
 
-British Council in Nepal is working to extend cultural relations between UK and Nepal. Similarly, Nepalese diaspora and Gurkha soldiers are visible bond who have interlinked the Nepalese culture and traditions in UK.
+Physical activities
 
-\textbf{Education cooperation}
+Physical activities such as exercise, jogging etc will help in reducing the frustration that builds up and is responsible for anger. By getting rid of underlying and hidden feeling, we can atleast prevent ourselves from overreacting to a situation through unruly behaviour.
 
-UK is supporting US dollars 260,012 for the education of marginalised girl in Kailali district of Nepal. DFID was the core education funding agency in Nepal, supporting the foundations of education values. Active as a School Sector Reform Plan (SSRP) pooling Development Partner. With Education for All overall goals, the SSRP objectives were to 
+Way forward
+
+Anger in a certain amount is beneficial as it keeps the spirits of an individual high. But exceeding the limit will usually create chances of negative emotions.
+
+Thus, anger management is an important component in the life of an individual. It not only keeps negative emotions from emerging, it also ensures that energy of an individual is used productively and  not spent on emotional angry outbursts.
+
+source: \url{https://www.upsciq.com/anger-harmful-negative-emotion-injurious-both-personal-life/}
+\end{solution}
+
+\question The global lockdown imposed due to COVID-19 pandemic has turned out to be beneficial for environment on short term. Validate.
+
+\begin{solution}
+The major countries of the world, including India have self imposed a lockdown to tackle spread of COVID-19 pandemic. This has impacted economy of the world in an adverse manner causing slowdown. But the silver lining in the situation is improvement in environmental conditions that we have observed.
+
+Environmental benefits due to global lockdown
+
+Reduction in air pollution levels
+
+The major environmental concern in this century is climate change, that has been caused due to air pollution across major human settlements. Due to the lockdown the pollutant level in air such as CO2, NO3, SO4, ozone, PM 10, PM 2.5 have seen a drastic drop. This has made the air cleaner for breathing and reducing health concerns.
+
+Reduction in water pollution levels
+
+Water pollution in developing countries is mainly due to factories dumping their waste in water bodies. The lockdown has forced the factories to shutdown and cut production. This has reduced or completely cut off waste discharge from factories.
+
+Reduction in solid municipal waste
+
+With low outdoor activities and travel, the household waste produced in cities have seen reduction. The reduced level makes it easier to dispose off the waste more effectively. Dumping grounds have a chance to recover if this trend continues.
+
+Increase in biodiversity
+
+Withdrawal of humans from outdoors have opened the spaces for biodiversity to recover their lost territories. Sea mammals like dolphins have returned back to the shores due to lack of disruption from humans in their territories.
+
+Reduction in sound and light pollution
+
+Cities have turned silent due to stoppage of vehicular movement and industrial activities. This has made the environment suitable for calmness. Excessive usage of light has been reduced too due to the same reasons.
+
+Way forward
+
+This restriction has to be converted into a habit for people to follow in future so that environmental pollution is kept in check.
+
+So, the global lockdown has helped the environment to recover upto certain extent. What needs to be seen is the impact that return of normality is expected to bring.
+
+source: \url{https://www.upsciq.com/the-global-lockdown-imposed/}
+\end{solution}
+
+\question What is the better form of government -- Parliamentary, Presidential and Semi-presidential ?
+
+\begin{solution}
+
+Parliamentary systems, such as of Nepal, United Kingdom and India, combines the lawmaking and executive functions, which allows the national legislature to select and remove the head of government and cabinet.
+
+Presidential systems, such as of Mexico and Nigeria, feature a cabinet that is mostly responsible to the elected executive, with a legislature that can only remove cabinet members through impeachment. An example of a presidential system would be a country in which the president holds the roles of head of the state and head of government, selects the executive cabinet, and is elected in a direct, popular election while members of the lower and upper houses are elected by voters in the respective districts and regions. These systems have separate fixed-term, popular elections for the national legislature, and a top executive leader serving as both head of state and head of government.
+
+Semi-presidential systems, such as Russia, feature separate popular elections for the president and for the national legislature, allowing the president to nominate a prime minister (who must be approved by the legislature); members of the cabinet are held accountable by both the president and legislature.
+
+Although parliamentary systems have fewer institutional obstacles to enact policy than presidential systems (presidential systems have divided branch powers), parliamentary systems have their own checks on the executive branch. Parliaments may censure cabinet ministers, refuse to pass executive proposed legislation, question the executive and cabinet ministers, and impose time deadlines on calling new elections.
+
+Presidential and semi-presidential systems have divided powers among governmental branches which allows the legislature to more commonly change or reject executive policy proposals. For instance, Nigeria's senate rejected the president's proposed budget in 2016 that relied too heavily on borrowing from foreign sources.
+
+source: \#APCompGov2020
+\end{solution}
+
+\question Discuss about the advantages and disadvantages of Unitary and Federal government systems.
+
+\begin{solution}
+
+Unitary government advantages
+
+Unitary government do have some significant strengths. Most common of those over federal system are:
+
 \begin{enumerate}
-\item ensure access and equity in primary education; 
-\item improve the efficiency and institutional capacity of primary education; and 
-\item enhance the quality and relevance of basic primary education for children and illiterate adults.
+\item National direction is clear; Policies can be made by a single government without the need for negotiation or cooperation with subnational states.
+\item There can be no confusion as to accountability. It is clear to voters which level of government is responsible for a particular problem or function. (Legislators who wish to spend money must raise it; it is not possible for legislators to seek to shift the blame for failure to another level of government.)
+\item Duplication of legislatures, bureaucracies, and programs is avoided with significant savings in direct costs -- and the more subtle but no less real costs of needless duplication.
+\item Issues of fairness in raising and spending money between levels of government (vertical fiscal imbalance) simply do not arise.
 \end{enumerate}
 
-In 2013, DFID committed around GBP 2 million to establish 810 additional girls' toilet and water supplies/WASH facilities across 18 districts selected based on low indicators in hygiene and sanitation with an implementation date which was extended to July 2015.
+Federal government advantages
 
-The British Government has been regularly providing scholarships in different areas for the development of human resource in Nepal since 1950s. Britain is offering Chevening Award to Nepalese from many years. A lot of Nepalese students are pursuing higher level studies in the UK. 
+Unitary government also have major drawbacks, which in turn correspond to the major strengths of federal systems. These include:
 
-\textbf{Security cooperation}
+\begin{enumerate}
+\item A federal system has greater scope of diversity and experimentation in policy.
+\item The need to debate issues rather than enact them instantly may provide a more considered and viable policy outcome. This tendency toward incrementalism is seen as integral to democracy.
+\item A federal system must consider the different ethnic or cultural groupings that may predominate in a particular state and wish to pursue a distinct cultural policy -- such as the French Canadians in Quebec. (As the cases of Quebec and Bosnia show, membership in a federation may still fail to fulfill the nationalist aspirations of many people.)
+\item The danger always exist in a large country that a unitary government may be too remote for appropriate democratic participation by regional centers located away from the capital; a federal system encourages -- indeed demands -- regional participation in governance.
+\item The danger exists in a unitary government that the stronger regions, the larger racial groups, or more powerful interests will provide insufficient allowance for the needs of minorities or weaker groups.
+\end{enumerate}
+\end{solution}
 
-UK has provided support for upgrading of Nepal Army Birendra Peace Operations Training Centre (BPOTC) located at Panchkhal (45 km East of Kathmandu). It has also provided Explosive Ordinance Device (EOD) related Improvised Explosive Device Disposal (IEDD) related Special Training to Nepal Army. UK is continually providing the special training courses to Nepal Army officials.
+\question What are the provisions in Nepal relating on the "Right to Information" ? Discuss in detail.
 
-High level visit from Nepal Army and British Army are regularly taking place in UK and Nepal respectively.
+\begin{solution}
+Government of Nepal enacted the Right to Information Act, 2064 (2007)
 
-\textbf{Nepalese students in UK}
+\textbf{Preamble}
+
+1. To make the functions of the state open and transparent in accordance with the democratic system and to make responsible and accountable to the citizen
+2. To make the access of citizens simple and easy to the information of public importance held in public bodies
+3. To protect sensitive information that could make adverse impact on the interest of the nation and citizen, and for the necessity to have legal provisions to protect the right of the citizen to be well-informed and to bring it into practice.
+
+\textbf{Right to information}
+
+1. Every citizen shall have the right to information subject to RTI act.
+2. Every citizen shall have access to the information held in the public bodies.
+
+\textbf{Provision regarding commission}
+
+1. An independent national information commission will be established for the protection, promotion and practice of right to information.
+2. A Chief Information Commissioner and two other information commissioners will be in the commission.
+3. In order to appoint Chief Information Commissioner and Information Commissioners, there will be a committee comprised as follows:
+  a. The speaker -- Chairman
+  b. Minister of state minister for information and commission -- Member
+  c. President, federation of Nepalese journalists -- Member
+4. The Government of Nepal on the recommendation of the Committee under Sub-Section (3), will appoint a Chief Information Commissioner and Information Commissioners; while appointing in this way, at least one female will have to be included.
+5. The Committee in accordance with Sub-Section (3) will follow inclusive principles as much as possible with recommending for appointment of Chief Information Commissioner and Information Commissioners.
+6. The procedures of recommendation in accordance with Sub-Section (3) will be as determined by the Recommendation Committee itself.
+
+Why RTI
+
+RTI Act 2007 gives you the right to ask for and receive information about any activity from a public body. Public bodies include the following entities:
+
+1. Bodies formed under the constitution
+2. Bodies established by the Act
+3. Bodies constituted by the government of Nepal
+4. Public service provider organizations or foundations established as per the law
+5. Political party and organization registered under prevalent laws
+6. Organized institutions under the full or partial ownership or under control of the GoN, or organized bodies receiving grants from the GoN
+7. Organized institutions formed by the Bodies established by the GoN or any other agencies lawfully formed through an agreement
+8. NGOs/Institutions directly or indirectly funded by the GoN or foreign government or international organizations/institutions
+9. Other bodies or institutions defined as public bodies by the GoN through a notice published in Nepal gazette.
+
+The seeker of information has to submit a written application to the concerned information officer. It is important for the applicant to clearly specify the information sought. Unclear requests make things difficult to provide correct information. Hence, requests for information should be as clear and specific as possible.
+
+No fees will be charged for the first half hour of monitoring in public bodies or getting information from work place, getting records, or undertaking records inspection and observation. After that the charge in Rs 50 per person, per hour. Likewise, there are no fees for inspection in public libraries and public places where information is made available.
+
+Public bodies will nominate a staff as an information officer for the public's ease of access to information. The head of the office should provide information to the PIO to disseminate it in accordance to sub-section (I) of RTI act. An information section will be set up in all public bodies to disseminate information. The PIOs regularly update their information and keeps records regarding their work plans, expenditure, financial transactions, rules, regulations, laws, and directives. The RTI act anticipates that public bodies store (archive) their information going as far back as 20 years from the commencement of the RTI act. Unless there are resonable and sufficient grounds to validate those exceptions, public bodies cannot evade the responsibility to disclose information. Following information, however, shall not be obliged to be made available:
+
+1. Information harmful to soverignty, integrity, national security public security, law and order of the country; and information that can jeopardize international relations;
+
+2. Information that could have direct bearing on research, investigation and prosecution of a criminal case
+
+3. Information harmful to economic, financial, monetary wellbeing or posing threat to someone's intellectual property rights, as also to banking and financial secrecy.
+
+4. Information that could jeopardize the harmonious realations subsisting between various castes and communities.
+
+5. Information posing threat to a person's right to privacy, personal security, health and property.
+
+
+In case decision rendered by the Chief of Public body is not satisfactory, one can file the appeal (within 35 days of decision received) to the commission either by directly approaching the commission office or getting it registered in the concerned office or through the concerned District Administration Office. Alternatively, one can also mail the appeal directly to NIC, via any postal services.
+
+Centre for Law and Democracy, Canada has published a comparative study report on existing RTI laws of 111 countries in the world, in which Nepal has been ranked 27th in the world with the score of 104 out of 150. The worldwide experience shows that RTI supports good governance and helps to reduce corruption. The National Information Commission had completed its first RTI Audit in 2016 through ex-secretaries of the government. The second RTI Audit was completed in 2017 through senior journalists.
+
+After analysing all aspects, it was found that 11 ministries (35\%) were found working as per law. Similarly, 20 ministries (65\%) were partially satisfactory. The commission has made 10 suggestions, including adding "imparting information" in Article 27 of the constitution, taking out of the word "secret" from the employees' oath, amongst other, to the government on the basis of the results of this RTI audit.
 
 \end{solution}
 
-2. Discuss about the bilateral US relations with Nepal
+\question According to Army Act, 2063 what are the punishment provisioned through Court Marshall ?
 
-**Solution:**
+\begin{solution}
+According to the Army Act, 2063 (Chapter-11; Section (dafa) 101), 
 
-The United States recognized the Kingdom of Nepal on April 27, 1947, when Joseph C. Satterthwaite presented a letter from President Harry S. Truman to then king Tribhubana of Nepal. Satterthwaite was on a special diplomatic mission to Nepal as personal representative of the President. The two countries established diplomatic relations in 1948. Bilateral relations are friendly, and U.S. policy objectives toward Nepal center on helping it build a peaceful, prosperous, resilient and democratic society. Primary U.S. objectives in Nepal include supporting a stable, democratic Nepal that respects the rule of law; promoting investor-friendly economic development; and improving disaster risk management systems.
+1. Following penalties may be imposed by court marshall:
 
-The United States enjoys a strong and positive relationship with Nepal. Years of diplomatic, development, and military engagement have advanced U.S. interests in transitioning Nepal into a more peaceful, stable democracy with significant economic potential. Since the end of its 10-year civil war in 2006 and the devastating earthquakes of 2015, Nepal has successfully transitioned into a full-fledged constitutional federal republic grounded in a constitution promulgated in 2015. With the recent formation of a new government, Nepal may now be on the cusp of a period of much-needed political stability.
+\begin{itemize}
+\item Life imprisonment along with confiscation of entire property,
+\item Confiscation of his or her entire share of ancestral property,
+\item Imprisonment of upto Fourteen years,
+\item Removing from service without prejudicing eligibility for any governmental service in the future, or dismissing with ineligibility for any governmental service in the future,
+\item Demotion to a lower rank,
+\item Freezing of promotion for Five years,
+\item Deduction of salary and allowances for Three months in case the offence has been committed in the course of military action,
+\item Freezing of salary and allowances until the recovery of compensation,
+\item Freezing of salary increments for a period not  exceeding Two years,
+\item Warning (Nasihat).
+\end{itemize}
 
-Nepal has sought a bilateral consultation mechanism with the United States and has signed similar agreements with other countries like Australia in summer 2017. Such a forum might include as topics: Millenium Challenge Cooperation (MCC) coordination and implementation; trade (TPS, technical assistance, etc.); security and defense cooperation; and humanitarian assistance and disaster response.
+2. The following penalties shall be imposed for the following offences:
 
-To improve Nepal's economic situation, the MCC signed, in 2017, a \$500 million Compact with Nepal to expand Nepal’s electricity transmission infrastructure and improve its road maintenance regime. The Nepali government has committed another \$130 million for a program total of \$630 million. The Compact will build 300 kilometers (km) of high-voltage electric transmission lines, three substations, perform enhanced road maintenance on 305 km of strategic highways, and provide technical assistance to the national electric utility, the new electricity regulator, and the Department of Roads. The Compact is entered into force after the end of FY 2019.
+\begin{enumerate}
+  \item Life imprisonment along with confiscation of entire property for the commission of offences as referred to in Section 38, 39 or Clause (a) of Sub-section (1) of Section 42.
+  \item A maximum Fourteen years of imprisonment shall be imposed for the commission of the following offences:
+  \begin{enumerate}
+    \item Offences provided in Section 40,
+    \item Offences provided in Section 41 and Clause (a) of Section 45 during a military operations,
+    \item Offences provided in Section 43 or 46 if committed intentionally,
+    \item Offences provided in Clause (a) or (b) of Section 44 committed against a person while discharging his/her duties during a military operation,
+    \item Offences provided in Section 47.
+  \end{enumerate}
+  \item A maximum Ten years of imprisonment shall be imposed for the commission of the following offences:
+  \begin{enumerate}
+    \item Offences provided in Clauses (a) or (b) of Section 44 committed against a person not during the military operation,
+    \item Offences provided in Section 48, 49 or 50, (3) Offences provided in Clause (a) of Section 51 or Clause (a) of Section 52.
+  \end{enumerate}
+  \item The penalty of confiscation of entire property or maximum of Seven years of imprisonment shall be imposed for the commission of offences provided in Clause (b) of Sub-section (1) of Section 42.
+  \item A maximum of Seven years of imprisonment shall be imposed for the commission of the following offences:
+  \begin{enumerate}
+    \item Offences provided in Section 41 committed not during military operation,
+    \item Offences provided in Section 46 that are committed unintentionally,
+    \item Offences provided in Clauses (b), (c), (d), (e), (f) or (g) of Section 52,
+    \item Offences provided in Section 43, 54 or 63.
+  \end{enumerate}
+  \item A maximum of Five years of imprisonment shall be imposed for the commission of the following offences:
+  \begin{enumerate}
+    \item Offences provided in Clause (c) of Section 44, (2) Offences provided in Clause (a) of Section 45 committed not during the period of a military operation,
+    \item Offences provided in Clauses (b) or (c) of Section 51 or Sections 45, 56 or 57.
+  \end{enumerate}
+  \item A maximum Three years of imprisonment shall be imposed for the commission of offences provided in Clauses (c) or (d) of Sub-section (1) of Section 42 or Sections 58, 59 or 60.
+  \item A maximum of Two years of imprisonment shall be imposed for the commission of the following offences:
+  \begin{enumerate}
+    \item Offences provided in Clauses (e), (f), (g) or (h) of Sub-section (1) of Section 42,
+    \item Offences provided in Clause (b) of Section 45,
+    \item Offences provided in Clause (h) of Section 52 committed by personnel below the rank of officer while discharging duties during a military operation,
+    \item Offences provided in Section 43 that are committed unintentionally,
+    \item Offences provided in Section 61.
+  \end{enumerate}
+  \item A maximum of Six months imprisonment shall be imposed if a personnel below the rank of officer commits offences provided in Clause (h) of Section 52 except in the period of military operation or while on duty.
+  \item A person who commits offences provided in Clauses (i) and (j) of Section 52 shall be removed from the service.
+  \item A person who commits offences provided in Clause (k) of Section 62 shall be barred from Two salary increments or promotion for Two years.
+  \item A person who attempts to commit such offences as referred to in Chapter-7 or induces another person to commit such offences shall, unless there is specific provision in this Act, be imposed the following penalties:
+  \begin{enumerate}
+    \item A maximum of Fourteen years of imprisonment for attempting to commit an offence for which a penalty of life imprisonment along with confiscation of entire property may be imposed, and half of the maximum (range) imprisonment for other offences which have been attempted,
+    \item Equal penalty for inducement (incitement) to commit an offence as imposed for committing an offence,
+    \item A maximum of Fourteen years of imprisonment for inducement to commit an offence which has not been committed (completed), and half of the maximum (range) punishment for inducement to commit any other offence which had not actually been committed (completed).
+    \item If a person who committed an offence provided in Clause (b) of Sub-section (1) of Section 42 has absconded and is not found (traced) does not produce him/herself within Thirty Five days, his/her partition share to ancestral property shall be frozen from being transacted. If such person does not appear him/herself or could be found through making a search within Three years, his/her partition share to ancestral property shall be confiscated and auctioned, and the money therefrom shall be deposited to the Government Treasury.
+    \item After confiscation of partition share to ancestral property, if the  offender is found, he/she may be imposed life imprisonment along with confiscation of the entire property.
+    \item A person who is dismissed from service and disqualified for any governmental job in future pursuant to Clause (j) of Sub-section (2), shall not be paid his/her remaining salary or allowances and pension which he/she is entitled and other facilities except the money accumulated in his/her provident fund.
+  \end{enumerate}
+\end{enumerate}
 
-U.S. assistance has been critical to helping Nepal rebuild after the devastating 2015 earthquake and remains committed to building Nepal's resilience in the event of any future disaster. The United States has provided over \$190 million for earthquake relief, recovery, and reconstruction. While these commitments have exceeded our initial pledge of \$130 million made at the International Conference on Nepal's Reconstruction in June 2015, significant recovery needs remain. To date, the United States has built 36 schools and hospitals; has directly helped rebuild over 16,000 homes; trained 260,000 people in safer construction; and developed policies, systems, and controls to ensure that $8.6 billion in reconstruction results in safer structures for all. In addition to rebuilding a safer Nepal, we are working to help Nepal institutionalize all lessons learned from the 2015 earthquake. We are also helping Nepal to implement its new disaster management law and stand up a new National Disaster Management Authority. We are further supporting Nepal as it introduces federalism by working with newly elected local governments to implement their own disaster management plans—thus helping local authorities meet commitments made to their constituencies. These efforts will help Nepal on its journey to self-reliance.
+Besides these there is Battlefield penalty (Section 104) and Departmental action (Section 105) and Collective fine (Section 107).
 
-The United States has also committed security assistance to Nepal, working with the Nepali Army to strengthen their peacekeeping and disaster response capabilities.
+\end{solution}
 
-The United States and Nepal have signed a trade and investment framework agreement, providing a forum for bilateral talks to enhance trade and investment, discuss specific trade issues, and promote more comprehensive trade agreements between the two countries. In 2016, Nepal became one of few countries in the world with a single-country trade preference program with the United States. Principal U.S. exports to Nepal include agricultural products, aircraft parts, optic and medical instruments and machinery. U.S. imports from Nepal include carpets, apparel and jewelry.
+\question What provisions and guidelines have Forest act, 2049 set for utilization and management of forest in Nepal? Mention.
 
-## Miscellaneous
+\begin{solution}
 
-### Impacts of climate change
+The Forest Act, 1992, defines national forest, state-managed forest, protected forest, community forest, leasehold forest, religious forest and private forest as well as ownership of different types of forest, and their management. The Act encourages people to own and to use forest, rather than depend on national or state-owned forest. The Forest Regulation, 1994, fixes users' price rates for timber, fuel-wood, medicinal plants and herbs, flowers and furs, fruits and seeds, bark, logs, and allied forest products. Likewise, charges for animal and cattle grazingare also fixed by the regulation.
+
+Similarly, separate regulations for national parks such as the Royal Chitwan National Park and Royal Bardia National Park make it possible to charge different fees for entrance and recreational activities such as safari, hunting game species and fishing. Another milestone in the forestry sector is the Buffer Zone Management Regulation, 1995, which aims to harmonize relation between national parks and the people around those parks. This regulation also encourages the communities around parks to form users' groups so that they can mange and use the buffer zone resources.
+
+\end{solution}
+
+\question What are the current acts and laws in Nepal ?
+
+\begin{solution}
+\begin{enumerate}
+\item Nepali Language Publication Corporation Act, 2021 (1964)
+\item Nepal Ship (Registration and Logbook) Act, 2027 (1971)
+\item Nepal Special Service Act, 2042 (1985)
+\item Non-resident Nepali Act, 2064
+\item Passports Act, 2024 (1967)
+\item The Consumer Protection Act, 2075 (2018)
+\item Work Operation Fund Act, 2043 (1986)
+\item Water Tax Act, 2023 (1966)
+\item Nepal Treaty Act, 2047 (1990)
+\item Supreme Court Act, 2048 (1991)
+\item Regional Development Plans (Implementation) Act,2013 (1956)
+\item Rajya Rajauta (Petty States and Rulers) Act, 2017 (1961)
+\item Periodic Tax Recovery Act, 2012 (1955)
+\item The University Grants Commission Act, 2050 (1993 A.D.)
+\item The Stamp Duty Act, 2019 (1963)
+\item The Pesticides Act, 2048 (1991)
+\item Radio Act, 2014 (1957)
+\item Act Restricting Investment Abroad, 2021(1964)
+\item Act to Provide for Enhancement of the Circulation of Nepalese Currency, 2014(1957)
+\item The Administrative Procedures (Regulation) Act, 2013 (1956)
+\item Animal Health and Livestock Services Act, 2055 (1999)
+\item Animal Slaughterhouse and Meat Inspection Act, 2055(1999)
+\item Anti Defection Act, 2054 (1997)
+\item Contingency Fund Act, 2016 (1959)
+\item Drugs Act, 2035, (1978)
+\item Nepal Tourism Board Act, 2053
+\item Public Security Act, 2046 (1989)
+\item Associations Registration Act, 2034 (1977)
+\item AUDIT ACT, 2048 (1991)
+\item banking-offence-and-punishment-act-2064-2008
+\item Child Labor (Prohibition and Regulation) Act, 2056 (2000)
+\item Commissions of Inquiry Act, 2026 (1969)
+\item Infectious Disease Act, 2020(1964)
+\item Immovable Property Requisition Act, 2013 (1956)
+\item Human Trafficking and Transportation (Control) Act, 2064
+\item The Copyright Act, 2059 (2002)
+\item Development Board Act, 2013 (1956)
+\item Domestic Postal Goods (Insurance) Act, 2019 (1962)
+\item Foreign Investment Tax Act, 2019 (1963)
+\item Judicial Fund Act, 2043 (1986)
+\item Nepal Citizenship Act, 2063 (2006)
+\item Essential Services Operation Act, 2014 (1957)
+\item Export and Import (Control) Act, 2013 (1957)
+\item Essential Goods Protection Act, 2012 (1955)
+\item Extradition Act, 2045 (1988)
+\item Legal Aid Act, 2054 (1997)
+\item Nepal Agency Act 2014
+\item International Financial Transactions Act, 2054 (1998)
+\item National Judicial Academy Act, 2063 (2006)
+\item Mother's Milk Substitutes (Control of Sale and Distribution) Act, 2049 (1992)
+\item Compensation Relating to Torture Act, 2053 (1996)
+\item Multimodal Transportation of Goods Act, 2063(2006).
+\item National Trust for Nature Conservation Act, 2039 (1982)
+\item Electricity Act, 2049 (1992)
+\item Interpretation of Laws Act, 2010(1954)
+\item Lottery Act, 2025 (1968)
+\item Nepal Electricity Authority Act, 2041 (1984)
+\item Constitutional Council (Functions, Duties, Powers and Procedures) Act, 2066 (2010)
+\item Feed Act, 2033 (1976)
+\item Jhora Area Land Act, 2028 (1971)
+\item National Parks and Wildlife Conservation Act, 2029 (1973)
+\item National Guidance Act, 2018 (1961)
+\item Loan and Guarantee Act, 2025(1968)
+\item Narcotic Drugs (Control) Act, 2033 (1976)
+\item Motor Vehicle Tax Act, 2031 (1974)
+\item Nepal Health Research Council Act, 2047 (1991)
+\item Competition Promotion and Market Protection Act, 2063 (2007)
+\item Evidence Act, 2031
+\item Money Laundering Prevention Act, 2063 (2008)
+\item Motion Picture (Production, Exhibition and Distribution) Act, 2026 (1969)
+\item Arbitration Act, 2055 (1999)
+\item Domestic Violence (Offence and Punishment) Act, 2066 (2009)
+\item Donations Act, 2030 (1973)
+\item National Cooperatives Development Board Act, 2049 (1992)
+\item Insurance Act, 2049 (1992)
+\item Aquatic Animal Protection Act, 2017(1960)
+\item National Dairy Development Board Act, 2048(1992)
+\item Explosives Act, 2018 (1961)
+\item Essential Commodities Control (Authorization) Act, 2017 (1961)
+\item Impeachment (Regulation of Procedure) Act, 2059 (2002)
+\item Birth, Death and Other Personal Events (Registration) Act, 2033 (1976)
+\item The Foreign Investment and Technology Transfer Act, 2019 (2075)
+\item House and Land Tax Act, 2019 (1962)
+\item The Industrial Enterprises Act, 2049 (1992)
+\item Nepal Standards (Certification Mark) Act, 2037 (1980)
+\item National Tea and Coffee Development Board Act, 2049 (1993)
+\item Bonded Labour ( Prohibition )Act, 2058 (2002)
+\item Diplomatic Privilege and Immunities of the Foreign States and Representatives Act, 2027 (1970)
+\item The National Broadcasting Act, 1993
+\item Industrial Enterprises Development Institute Act, 2053 (1996)
+\item Lumbini Development Trust Act, 2042 (1985)
+\item Act Prohibiting the Charging and Taking of Amount (Bhatti Charsa etc.) by Birta-holder on Birta, 2015 (1958)
+\item Act Relating to Institutions Acting as Financial Intermediary, 2055 (1999)
+\item Act Relating to Land of Jhora Area, 2028 (1971)
+\item Nepal Agricultural Research Council Act, 2048(1992)
+\item Agriculture and Forestry University Act, 2067 (2010)
+\item Nepal Water Supply Corporation Act, 2046 (1989)
+\item Nepal Trust Act, 2064 (2008)
+\item Nepal Pharmacy Council Act, 2057 (2000)
+\item Nepal Nursing Council Act, 2052 (1996)
+\item Nepal Rastra Bank Act, 2058 (2002)
+\item Nepal Medical Council Act, 2020 (1964)
+\item Nepal Health Professional Council Act, 2053
+\item Nepal Bar Council Act, 2050 (1993)
+\item Nepal Law Commission Act, 2063 (2007 )
+\item Nepal Airlines Corporation Act, 2019 (1963)
+\item National Human Rights Commission Act, 2068 (2012)
+\item National Insurance Corporation Act, 2025 (1968)
+\item Nepal Administrative Staff College Act, 2020 (1982)
+\item National News Agency Act, 2019 (1962)
+\item National Foundation for Upliftment of Aadibasi/Janjati Act, 2058 (2002)
+\item Nepal Music and Dance Academy Act, 2064 (2007)
+\item Mines and Minerals Act, 2042 (1985)
+\item Mediation Act, 2068 (2011)
+\item Archives Preservation Act, 2046 (1989)
+\item International Finance Corporations Membership Acquisition Act, 2022 (1965)
+\item Corporations Act, 2021 (1964)
+\item Black Marketing and Some Other Social Offenses and Punishment Act, 2032 (1975)
+\item Caste Based Discrimination and Untouchability Offence and Punishment Act, 2068 (2011)
+\item Forest Act, 2049 (1993)
+\item Construction Business Act, 2055 (1999)
+\item Bretton Woods Agreement Act, 2018 (1961)
+\item Far-western University Act, 2067 (2010)
+\item Negotiable Instruments Act, 2034 (1977)
+\item Mid-western University Act, 2067 (2010)
+\item Gorkhapatra Corporation Act, 2019 (1963)
+\item Hotel Management and Sale and Distribution of Liquors (Control) Act, 2023 (1966)
+\item The B. P. Koirala Institute of Health Sciences Act, 2049 (1993)
+\item The Greater Janakpur Area Development Council Act, 2055 (1998)
+\item Iodized Salt (Production, Sale and Distribution) Act, 2055(1998)
+\item Amount and Governmental Contract Arrangement Act, 2020(1963)
+\item Insolvency Act, 2063 (2006)
+\item Land Acquisition Act, 2034 (1977)
+\item Kathmandu University Act, 2048 (1991)
+\item International Development Association’s Membership Acquisition Act, 2019 (1962)
+\item Land Revenue Act, 2034 (1978)
+\item Martyr Gangalal National Heart Disease Centre Act, 2057 (2000)
+\item Lumbini Bouddha University Act, 2067 (2006)
+\item Land (Survey and Measurement) Act, 2019 (1963)
+\item Local Administration Act, 2028 (1971)
+\item Local Development Training Academy Act, 2049 (1993)
+\item International Centre for Integrated Mountain Development Act, 2040 (1983)
+\item The Human Body Organ Transplantation (Regulation and Prohibition) Act, 2055 (1998)
+\item The Guthi Corporation Act, 2033 (1976)
+\item Ancient Monument Preservation Act, 2013 (1956)
+\item The Electronic Transactions Act, 2063 (2008)
+\item Armed Police Force Act, 2058 (2001)
+\item Arms and Ammunition Act, 2019 (1962)
+\item Ayurveda Medical Council Act, 2045 (1988)
+\item The B.P. Koirala Memorial Cancer Hospital Act, 2053(1997)
+\item Birta Abolition Act, 2016 (1959)
+\item The Building Act, 2055
+\item Nepal Chartered Accountants Act, 2053 (1997)
+\item Citizen Investment Trust Act, 2047 (1991)
+\item Commission for the Investigation of Abuse of Authority Act, 2048 (1991)
+\item Communication Corporation Act, 2028 (1972)
+\item Compensation Act, 2019 (1963)
+\item The Lands Act, 2021(1964)
+\item Construction Business Act, 2055 (1999)
+\item Corporations Act, 2021 (1964)
+\item Customs Act, 2064 (2007)
+\item Decorations Act, 2064 (2007)
+\item Education Act, 2028 (1971)
+\item Electricity Theft Control Act, 2058 (2002)
+\item Excise Duty Act, 2058 (2002)
+\item Nepal Fine Arts Academy Act, 2064 (2007)
+\item Privatization Act, 2050 (1994)
+\item Water Resources Act, 2049 (1992)
+\item Private Forests Nationalization Act, 2013 (1957)
+\item The Social Welfare Act, 2049 (1992)
+\item Notary Public Act, 2063
+\item Right to Information Act, 2064 (2007 )
+\item Trade Union Act, 2049 (1992)
+\item Tax Settlement Commission Act, 2033 (1976)
+\item Telecommunications Act, 2053 (1997)
+\item Statistics Act, 2015 (1958)
+\item Working Journalists Act, 2051(1993)
+\item Wealth Tax Act, 2047 (1990)
+\item Water Tariff Fixation Commission Act, 2063 (2006)
+\item Water Supply Management Board Act, 2063 (2006)
+\item Nepal Veterinary Council Act, 2055 (1999)
+\item Ukhada Act, 2021 (1964)
+\item Tribhuvan University Act, 2049(1992)
+\item Town Development Fund Act, 2053 (1997)
+\item Town Development Act, 2045 (1998)
+\item Road Board Act, 2058 (2002)
+\item Postal Act, 2019 (1963)
+\item Partnership Act, 2020 (1964
+\item Police Act, 2012 (1955)
+\item The Patent, Design and Trade Mark Act, 2022 (1965)
+\item Special Court Act, 2059 (2002)
+\item [The] Kathmandu Valley Development Authority Act, 2045 B.S. (1988)
+\item Technical Education and Vocational Training Council Act, 2045 (1988)
+\item Summary Procedures Act, 2028 (1972)
+\item Standard Measurement and Weight Act, 2025 (1968)
+\item Sports Development Act, 2048 (1992)
+\item Some Public Documents Authentication (Procedures) Act, 2063 (2006)
+\item Solid Waste Management Act, 2068 (2011)
+\item Soil and Watershed Conservation Act, 2039(1982)
+\item Social Practices (Reform) Act, 2033 (1976)
+\item Ship Registration Act, 2027 (1971)
+\item Senior Citizens Act, 2063 (2006)
+\item Seeds Act, 2045 (1988)
+\item Tourism Act, 2035 (1978)
+\item Tobacco Products (Control and Regulatory) Act, 2068 (2011)
+\item [The] Ownership of Joint Housing Act, 2054 B.S. (1997)
+\item Security of the Health Workers and Health Organizations Act, 2066 (2010)
+\item Secured Transaction Act, 2063 (2006)
+\item Scholarships Act, 2021 (1964)
+\item Revenue Tribunal Act, 2031 (1974)
+\item Securities Act, 2063 (2007)
+\item Press Council Act 2048 (1992) 
+\item Patan Academy of Health Sciences Act, 2064 (2008)
+\item The Prevention of Corruption Act, 2059 (2002 A.D)
+\item Purwanchal University Act, 2050 (1994)
+\item Public Service Commission Act, 2066 (2010)
+\item Public Roads Act, 2031 (1974)
+\item The Public Procurement Act, 2063 (2007)
+\item Public Debt Act, 2059 (2002)
+\item Prisons Act, 2019 (1963)
+\item Remuneration, Conditions of Service and Facilities of the Authorities of the Constitutional Bodies Act, 2053 (1997)
+\item Press and Publication Act, 2048 (1991)
+\item Poverty Alleviation Fund Act, 2063 (2006)
+\item Pokhara University Act, 2053 (1996)
+\item Plant Protection Act, 2064 (2007)
+\item Nepal Petroleum Act, 2040 (1983)
+\item Pasture Land Nationalization Act, 2031 (1974)
+\item Mutual Legal Assistance Act, 2070 (2014)
+\item Judicial Council Act, 2073 (2016)
+\item Employee Provident Fund Act, 2019 (1962)
+\item An Act to Regulate and Control International Trade in Endangered Wild Fauna and Flora
+\item Administration of Justice Act, 2073 (2016)
+\item Pashupati Area Development Trust Act, 2044 (1987)
+\item Karnali Academy of Health Sciences Act, 2068 (2011)
+\item Nepal Health Service Act, 2053 (1997)
+\item Army Act, 2063 (2006 )
+\item Civil Service Act, 2049 (1993)
+\item Motor Vehicles and Transport Management Act, 2049 (1993)
+\item Passports Act, 2024 (1967)
+\item The Crime Victim Protection Act, 2075 (2018)
+\item The Privacy Act, 2075 (2018)
+\item The Public Health Service Act, 2075 (2018)
+\item The Right to Employment Act, 2075 (2018)
+\item The Act Relating to Rights of Persons with Disabilities, 2074 (2017)
+\item The Right to Food and Food Sovereignty Act, 2075 (2018)
+\item The Right to Housing Act, 2075 (2018)
+\item The Right to Safe Motherhood and Reproductive Health Act, 2075 (2018)
+\item The Social Security Act, 2075 (2018)
+\item The Act Relating to Children, 2075 (2018)
+\item The Act Relating to Compulsory and Free Education, 2075 (2018)
+\item Bank and Financial Institution Act, 2073 (2017)
+\end{enumerate}
+\end{solution}
+
+\question Write about the Inland Revenue Department of Nepal.
+
+\begin{solution}
+
+Background
+
+Organizational Information
+
+The Inland Revenue Department (IRD) is currently responsible for the enforcement of Tax Laws and administration of the following taxes: Income Tax, Value Added Tax, Excise Duty and duties like Entertainment fee (Film Development Fee). Value Added Tax Department was merged with Department of Taxation on April 15, 2001. Later it was renamed as Inland Revenue Department since July 16, 2001.
+ 
+IRD is centrally located in Kathmandu. There are 59 field offices throughout Nepal including 1 Large Taxpayers Office, 1 Medium Level Taxpayer Office,  38 Inland Revenue Offices and 19 Taxpayer Service Offices. IRD carries out the following functions:
+1. Tax Administration
+2. Tax Policy
+3. Tax Payer Services
+4. Registration, Revenue Collection
+5. Tax audit
+6. Tax Enforcement and investigation
+7. Review & Appeal
+8. Tax Refund
+9. Advance Ruling
+10. Tax Treaty and International Taxation
+11. Excises and Liquor Administration
+
+TAXPAYERS RIGHTS AND ASSURANCES
+
+In addition to the specific rights and assurances provided in the concerned Acts, taxpayers in general are assured of the following rights. These assurances will be strictly adhered to. The Taxpayers rights, among others, include:
+
+A. Each taxpayer is treated with due respect and honor.
+
+B. Each taxpayer will get an immediate receipt of return submission whilst a receipt of other correspondences is to be provided in ONE hour.
+
+C. Each taxpayer willing to seek an advance ruling may apply either in the Department or through concerned Inland Revenue Office. There is a legal provision that a decision should be made within 45 days after the request is made.
+
+D. Each taxpayer can represent or make any correspondence through an authorized person including legal assistants and the accounts specialist or auditors just in case if he/she is unable to represent or make any correspondence.
+
+E. Each taxpayer is to get copies of the documents related with him/her or submitted to the IRO or documents or decisions affecting her/him generally within TWENTY FOUR hours of his/her request in the concerned IRO.
+
+F. Each taxpayer is to get refund of his excess input tax (VAT) and other taxes. The exporter will get refund generally within 15 days in IROs and 30 days in IRD upon receiving application for refund along with required documents.
+
+G. Each taxpayer is to get certificate/renewal of Excise/Liquor business generally within TWENTY FOUR hour after the request is made.
+
+H. Each taxpayer is to get sales and purchase books certified by the Tax Officer generally within TWENTY FOUR hours after the request is made.
+
+I. Each taxpayer is to get initials of the Tax Officer on stock transfer or sales to the non-registrants generally within TWENTY FOUR hours after the request is made.
+
+J. Each taxpayer is to get Permanent Accounts Number (PAN) or the Certificate generally within 3 days after the request is made, and
+
+K. Each taxpayer is to get Tax Clearance Certificate generally within TWENTY FOUR hours after the request is made.
+
+\end{solution}
+
+\end{questions}
+
+## Events and programmes
+
+### Nepal Investment Summit
+
+Nepal hosted 3rd edition of Nepal Investment Summit on March 29-30, 2019 in the Kathmandu in an effort to further enhance Nepal's standing as a promising investment destination and to build on the recent encouraing developments. The 2nd summit was held in 2017, while the first one was held in 1992. 
+
+Major Outcomes of Investment Summit, 2019
+
+- Nepal Investment Summit 2019 has reportedly witnessed signing of 15 new deals and MoUs for new projects in Nepal
+- Besides, the country has also received proposals, 17 applications for 10 other projects presented as part of the Summit
+- Transport, hydropower, hospital, airport, convention center and agriculture infrastructure were among areas that received investment proposals
+- India, Vietnam, United States, South Korea, China, Britain were among countries that represented participating investors
+- International Finance Corporation, World Bank Group, Asian Development Bank, Multilateral Investment Guarantee Agency, were among the key multilateral donor agencies entered into separate investment and cooperation deals during the summit
+- One of the world's largest solar development company SkyPower announced a new partnership with Nepal's Chaudhary Group for a 600-MW capacity renewable solar energy projects.
+- PM and Finance Minister Khatiwada held 30 side-line bilateral meetings with investors and delegates as part of the Summit
+- More than 1300 participants and around 735 foreign delegates from more 300 companies attended the Summit
+
+
+The government, in an effort to attract foreign investors, has introduced three vital legislations—Foreign Investment and Technology Transfer Act, Public-Private Partnership and Investment Act, and Special Economic Zone Act (First Amendment).
+
+### Nepal Infrastructure Summit
+
+Nepal Infrastructure Summit (NIS) 2014, organized by CNI in collaboration with Government of Nepal and YCNC, with the theme "Accelerating Investment in Infrastructure" was 1st ever summit organized of its kind in Nepal. The Summit was successful as it was able to deliver high attendance, important and high-rated keynote speech, excellent speakers and panelists who knew their subject, well facilitated dialogue sessions, a great venue for networking and the presence of aspiring young participants.
+
+The Summit provided a platform for exchange of relevant experience in selected topics including:
+
+\begin{enumerate}
+\item Outlook and Opportunities
+\item Sustainable Infrastructure Development for Socio-Economic Growth
+\item Investment Climate in Nepal
+\item Infrastructure Financing Mechanisms
+\item Enabling Policy Initiatives
+\end{enumerate}
+
+Accordingly, CNI has also been focusing on the resilience of the infrastructure of the country as the result of which CNI came out with a policy document of "Construction of Eco-Friendly Linear Infrastructure" with the assistance WWF Nepal. In nutshell, after the NIS 2014, the activities performed were:
+
+- Formation and effective operationalization of Infrastructure Cell in CNI.
+- Follow up workshops/seminars.
+- Workshop on Infrastructure Financing - Opportunities and Challenges.
+- Series of workshop on "Public-Private Partnerships".
+- Workshop on financing of storage-based hydroelectricity projects
+- Lobby on various issues:
+  - Establishment of Infrastructure Development Bank.
+  - Establishment of Project banks/Project Readiness.
+  - Public-Private Partnership (PPP) Centre.
+  - Other legal and institutional issues.
+
+The 2nd Nepal Infrastructure Summit hosted by the Confederation of Nepalese Industries (CNI) facilitated discourse on the theme "Private Sector as indispensable Partner" for infrastructure development. The primary objective of the summit was to attract large scale private investment in areas of Nepal’s core needs and strengths; forge stronger networks and alliances in the region for seamless connectivity; and raise awareness on why investment in infrastructure needs an urgent push in the country.
+
+The summit focused on the strategic vision of the infrastructure, value proposition, competitiveness, policy particularly on land acquisition and environmental clearance; and regulatory enablers and business environment. CNI in collaboration with Idea Studio will collect various infrastructure ideas from different sectors of the communities to come up with a creative and an innovative **infrastructure** (transportation, irrigation, energy, housing, digital, etc) **ideas** to solve the existing epic infrastructure deficit and address to the possible future need for our country’s development.
+
+The Summit provided a platform for exchange of relevant experience in selected topics including:
+
+- Infrastructure: The Big Picture
+- Barriers and Constraints in attracting Private and Public Investment
+- Expediting Public Private Partnership (PPP)
+- Financing Resilient Infrastructure
+- Successful PPP Model: Global and regional Perspective
+
+### Relationship between climate change and energy use
+
+- Energy use has close ties with climate change. India and china are among the greatest emitters of greenhouse gases and consumers of fossil fuel, and it is predicted that their consumption of coal as major source of energy will continue to rise for at least a decade (IEA, 2019).
+- Into 2016 and we still have 80% of our total energy requirement met from fossil fuels (mostly, oil, coal and natural gases). International energy agency's report says that 30% of all energy-related carbon dioxide emission is related to coal as fuel, making it the biggest single contributor (2019).
+- An individual effort to parsimoniously treat energy resources available to us determines individual footprint. We could choose to reuse a battery/cell, with minor power drops, in alternative electronic items compatible with it or just treat at a refuse at our home. The latter activity with unforeseen consequences might lead to the battery being disposed improperly and polluting an ecosystem due the leakage of its electrolyte chemicals.
+- While electricity is lighting up most houses, its generation has been a markedly different process worldwide. The process basically depends with the resource endowment of a nation in their approach to choosing ways to explore it. Coal, for example, is used largely in China and the US despite its much tauted big contribution in greenhouse emission.
+
+
+## Impacts of climate change
 
 What are the impacts of climate change ? Discuss on detail about the initiative taken by Nepal Government in tackling the impacts of climate change.
 
@@ -187,7 +804,7 @@ Article 30(1) of the constitution of Nepal guarantees a "clean environment" as f
 6. National adaptation plan of action (NAPA, 2010)
 7. Framework for local adaptation plan for action (LAPA, 2011)
 
-### Highlights of NCCP, 2076
+## Highlights of NCCP, 2076
 
 Reasons for Nepal's vulnerability to climate change are Topographical fragility, fragile geological structure, sensitive ecosystems and diversity of climate and micro-climate zones prevalence in Nepal. Additionally, poverty, illiteracy, social disparity and high dependence of communities on natural resources for livelihood.
 
@@ -228,7 +845,7 @@ g. To mainstream gender equality and social inclusion (GESI) into climate change
 
 Policy number 9-12 are inter-thematic areas.
 
-### Population census, 2068
+## Population census, 2068
 
 ```{r}
 dplyr::tribble(~"Indicator", ~"Unit", ~"Value", 
@@ -244,16 +861,17 @@ dplyr::tribble(~"Indicator", ~"Unit", ~"Value",
                "Child death rate", "per thousand", 40.5,
                "Net fertility rate", "percentage", 2.5, 
                "Average life expectancy", "years", 66.6) %>% 
-  knitr::kable(caption = "Population census, 2068 summary", booktabs = TRUE, longtable = T)
+  knitr::kable(caption = "Population census, 2068 summary", booktabs = TRUE, longtable = T) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 
 ```
 
-### Hulaki rajmarga (Hulaki highway)
+## Hulaki rajmarga (Hulaki highway)
 
 http://www.karma99.com/
 http://www.karma99.com/2015/09/hulaki-rajmarga.html
 
-### Demographics of Nepal
+## Demographics of Nepal
 
 - Refer to wikipedia link \url{https://en.wikipedia.org/wiki/Demographics_of_Nepal}, for demographic statistics of Nepal. This includes
   - Population growth
@@ -264,7 +882,7 @@ http://www.karma99.com/2015/09/hulaki-rajmarga.html
   - CIA factbook summary
   - Religion, etc.
 
-### Madan puraskar
+## Madan puraskar
 
 Madan puraskar is a literary honor in Nepal which Madan Puraskar Guthi confers annually for an outstanding book in Nepali language published within the calendar year. It is considered the most prestigious literature award in Nepal.
 
@@ -290,107 +908,6 @@ madan_puraskar %>%
   kableExtra::column_spec(column = 2:3, width = c("14em", "24em"))
 ```
 
-
-### Terrorism
-
-Terrorism in its broadest sense, describes the use of intentionally indiscriminate violence as a means to create terror, or fear, to achieve political, religious or ideological aim. It is used in this regard primarily to refer to violence against peacetime targets or in war against non-combatants.
-
-Terrorism has been practiced by political organizations with both rightist and leftist objectives, by nationalistic and religious groups, by revolutionarie, and even by state institutions such as armies, intelligence services, and police.
-
-Terrorism is not legally defined in all jurisdictions; the statutes that do exist, however, generally share some common elements. Terrorism involves the use of threat of violence and seeks to create fear, not just within the direct victims but among a wide audience. The degree to which it relies on fear distinguishes terrorism from both conventional and guerilla warfare. Although conventional militiary foreces invariably engage in psychological warfare against the enemy, their principal means of victory is strength of arms. Similarly, guerrilla forces, which often rely on acts of terror and other forms of propaganda, aim at military victory and occassionally succeed (e.g. the Viet Cong in Vietnam and the Khmer Rouge in Cambodia). Terrorism proper is thus the systematic use of violence to generate fear, and thereby to achieve political goals, when direct military victory is not possible. This has led to some social scientists to refer to guerrilla warfare as the "weapon of the weak" and terrorism as the "weapon of the weakest".
-
-Terrorism has been described variously as both a tactic and strategy; a crime and a holy duty; a justified reaction to oppression and an inexcusable abomination. Obviously, a lot depends on whose point of view is being represented. Terrorism has often been an effective tactic for the weaker side in a conflict. As an asymmetric form of conflict, it confers coercive power with many of the advantages of military force at a fraction of the cost. Due to secretive nature and small size of terrorist organizations, they often offer opponents no clear organization to defend against or to deter.
-
-This is why pre-emption is being considered to be so important. In some cases, terrorism has been a means to carry out a conflict without the adversary realizing the nature of the threat, mistaking terrorism for criminal activity. Because of these characteristics, terrorism has become increasingly common among those pursuing extreme goals throughout the world. But despite its popularity, terrorism can be a nebulous concept.
-
-The US Department of Defense defines terrorism as "the calculated use of unlawful violence or threat of unlawful violence to inculcate fear; intended to coerce or to intimidate governments or societies in pursuit of goals that are generally political, religious, or ideological."
-
-The UN produced the following definition of terrorism in 1992; "An anxiety inspiring method of repeated violent action, employed by semi-clandestine individual, group or state actors, for idiosyncratic, criminal or political reasons, whereby -- in contrast to assassination -- the direct targets of violence are not the main targets."
-
-The strategy of terrorists is to commit acts of violence that draws the attention of the local populace, the government, and the world to their cause. The terrorists plan their attack to obtain the greatest publicity, choosing targets that symbolize what they oppose.
-
-The effectiveness of the terrorist act lies not in the act itself, but in the public's or governments reaction to the act. For example, in 1972 at the Munich Olympics, the Black September organization killed 11 Israelis. The Israelis were the immediate victims but the true target was the estimated 1 billion people watching the televised event. Those billion people watching were to be introduced to fear -- which is terrorism's ultimate goal. The introduction of this fear can be from the threat of physical harm/a grizzly death, financial terrorism from the fear of losing money or negative effects on the economy, cyber terrorism harming the critical technological infrastructures of society and psychological terrorism designed to influence people's behavior.
-
-There are three perspectives of terrorism: the terrorist's, the victim's, and the general public's. The phrase "one man's terrorist is another man's freedom fighter" is a view terrorists themselves would gladly accept. Terrorists do not see themseleves as evil. They believe they are legitimate combatants, fighting for what they believe in, by whatever means possible to attain their goals. A victim of a terrorist act sees the terrorist as a criminal with no regard for human life. The general public's view though can be the most unstable. the terrorists tke great pains to foster a Robin Hood image in hope of swaying the general public's point of view towards their cause. This sympathetic view of terrorism has become an integral part of their psychological warfare and has been countered vigourously by governments, the media and other organizations.
-
-Technolgical advances, such as automatic weapons and compact electrically detonated explosives, gave terrorists a new mobility and lethality, and the growth of air travel provided new methods and opportunities. Terrorism was virtually an official policy in totalitarian states such as those of Nazi Germany under Adolf Hitler and the Soviet Union under Stalin. In these states arrest, imprisonment, tourture, and execution were carried out without legal guidance or restraints to create a climate of fear and to encourage adherece to the national ideology and the declared economic, social, and political goals of the state.
-
-One of the deadliest terrorist strikes to date were the September 11 attacks of 2001, in which suicide terrorists associated with al-Qaeda hijacked four commercial airplanes, crashing two of them into the twin towers of the World Trade Center complex in the New York city and the third into the Pentagon building near Washington D.C.; the fourth plane crashed near Pittsburgh, Pennsylvania. The crashes destroyed much of the World Trade Center complex and a large portion of one side of the Pentagon and killed more than 3000 people.
-
-Terrorism appears to be an enduring feature of political life. Even prior to the September 11 attacks, there was widespread concern that terrorist might escalate their destructive power to vastly greater proportions by using weapons of mass destruction -- including nuclear, biological, or chemical weapons -- as was done by the Japanese doomsday cult AUM Shirnrikyo, which released nerve gas into a Tokyo subway in 1995.
-
-Factors conducive to terrorism
-
-1. Poverty
-2. Globalization
-3. Legitimate grievances and failure of governments.
-4. Humiliation
-5. Lack of democracy, and widespread and systematic violation of human rights
-6. Lopsided foreign policy
-7. Failed state governance and authority
-
-Goals, strategies, adn weapons of terrorism
-
-1. Social and political justice
-2. Self determination
-3. Racial superiority
-4. Foreign policy
-5. Publicty
-6. Demoralized governments
-
-Costs associated with terrorism are so widespread, complex, and intangible that they are virtually impossible to measure. Individuals, families, governments, companies and non-state actors bear the time, money and resource costs of terrorism to varying degrees. Migration, trade, travel and interpersonal relations are affected. It is generally believed that the financial crisis and the global recesssion were caused in by policies adopted by the Bush administration to fight global terrorism, including wars in Afganistan and Iraq.
-
-Kinds of terrorism
-
-Although the types of terrorism tend to overlap, they vary in their implications and affect us in different ways. For example, the indiscriminate nature of global terrorism contrasts sharply with domestic terrorism aimed at specific groups or governments.
-
-1. Domestic terrorism occurs within the borders of a particular country and is associated with extremist groups.
-2. Nationalist terrorism is closely associated with struggles for political autonomy and independence.
-3. Religious terrorism grows out of extreme fundamentalist religous groups that believe that God is on their side and that their violence is divinely justified and inspired.
-4. State terrorism is a cold, calculated, efficient and extremely destructive form of terrorism, partly because of the overwhelming power at the disposal of governments.
-
-Leading terrorist organizations
-
-- ISIS (part of northern Iraq and parts of Western Syria)
-- Al-Qaeda (Afganistan)
-- Taliban
-- Boko Haram (now sworn to ISIS; Nigeria)
-- Lashkar-e-toa (Pakstan)
-- Hezbollah (Lebanon)
-- Al-Shabaab
-- Hamas (Palestine)
-- Naxal/Naxalites (India)
-- Irish Republican Army
-
-No cause justified terrorism. The world must repond and fight vigillantly with this evil that is intent on threatening and destroying our basic feedoms and way of life. The complexity of terrorists requires employing a wide variety of instruments to combat it. It addition to military, traditional law enforcement, intelligent responses, and global cooperation has become obvious to counter terrorist attacks.
-
-The most prevalent response to terrorism is the use of force, both domestically and internationally. Besides, reduction in the production of weapons of mass destruction and control over media and technology can be effective.
-
-We must retaliate forcefully and successfully in order to reassure the world of our confidence as a great power, and our ability to retain that status. Lastly, and practically, we must explore the possibilities of terrorism that exist and attempt to grasp the actual threat that these possibilities realistically pose for us.
-
-### Globalization
-
-Globalisation is the process of interaction and integration among people, companies, and governments worldwide. As a complex and multifaceted phenomenon, globalization is considered by some as a form of capitalist expansion which entails the integration of local and national economies into a global, unregulated market economy. Globalization has grown due to advances in transportation and communication technology. With the increased global interactions comes the growth of international trade, ideas, and culture. Globalization is primarily an economic process of interaction and integration that's associated with social and cultural aspects. However, conflicts and diplomacy are also large parts of the history of globalization, and modern globalization.
-
-Economically, globalization involves goods, services, the economic resources of capital, technology, and data. Also, the expansions of global markets liberalize the economic activities of the exchange of goods and funds. Removal of cross-border trade barriers has made formation of global markets more feasible.[citation needed] The steam locomotive, steamship, jet engine, and container ships are some of the advances in the means of transport while the rise of the telegraph and its modern offspring, the Internet and mobile phones show development in telecommunications infrastructure. All of these improvements have been major factors in globalization and have generated further interdependence of economic and cultural activities around the globe.
-
-Though many scholars place the origins of globalization in modern times, others trace its history long before the European Age of Discovery and voyages to the New World, some even to the third millennium BC. Large-scale globalization began in the 1820s. In the late 19th century and early 20th century, the connectivity of the world's economies and cultures grew very quickly. The term globalization is recent, only establishing its current meaning in the 1970s.
-
-Three major dimensions of globalization can be differentiated. They are:
-
-Economic globalization
-
-It is the increasing economic interdependence of national economies across the world through a rapid increase in cross-border movement of goods, services, technology, and capital. Whereas the globalization of business is centered around the diminution of international trade regulations as well as tariffs, taxes, and other impediments that suppresses global trade, economic globalization is the process of increasing economic integration between countries, leading to the emergence of a global marketplace or a single world market. Depending on the paradigm, economic globalization can be viewed as either a positive or a negative phenomenon. Economic globalization broadly comprises: globalization of production and market but also includes competition, technology, and corporations and industries.
-
-Cultural globalization
-
-Cultural globalization refers to the transmission of ideas, meanings, and values around the world in such a way as to extend and intensify social relations. This process is marked by the common consumption of cultures that have been diffused by the Internet, popular culture media, and international travel. This has added to processes of commodity exchange and colonization which have a longer history of carrying cultural meaning around the globe. The circulation of cultures enables individuals to partake in extended social relations that cross national and regional borders. The creation and expansion of such social relations is not merely observed on a material level. Cultural globalization involves the formation of shared norms and knowledge with which people associate their individual and collective cultural identities. It brings increasing interconnectedness among different populations and cultures. Cross-cultural communication, cultural diffusion and religious thought-schools are the major aspects of cultural globalization. Sports too bear the spirit of globalization; for eg., the FIFA World Cup is the most widely viewed and followed sporting event in the world, exceeding even the Olympic Games; a ninth of the entire population of the planet watched the 2006 FIFA World Cup Final.
-
-Political globalization
-
-Political globalization refers to the growth of the worldwide political system, both in size and complexity. That system includes national governments, their governmental and intergovernmental organizations as well as government-independent elements of global civil society such as international non-governmental organizations and social movement organizations. One of the key aspects of the political globalization is the declining importance of the nation-state and the rise of other actors on the political scene. Adherence to or practice of intergovernmentalism, multi-level governance and multiple citizenship reflect today's globalized politics, although it should also be noted that some countries, like North Korea, have embraced isolationist policies.
-
-Aside from the the above mentioned aspects, globalization touches upon a wide range of issues including population migration, information exchange, environmental protection.
 
 \begin{questions}
 
@@ -474,31 +991,3 @@ source: \url{https://kathmandupost.com/money/2017/06/07/integrated-financial-inf
 \question Justify: Unplanned urbanization negatively impacts development of nation.
 
 \end{questions}
-
-# World history
-
-## French revolution
-
-The social and political upheavals in France, spreading subsequently to most Europe over the generation after 1789, constitute the classic revolution of modern times. 
-
-The trigger for the French revoultion was a financial crisis. The government of King Louis XVI, already burdened by substantial debts incurred to finance midcentury wars, intervened between 1778 and 1783 in the American War of Independence in the hope of destroying the power of Great Britain. Taxing too little and borrowing too much on disadvantageous terms the king found himself by 1786 facing bankrupcy. To avoid it, an ambitious plan of reform was formulated, but when the plan was laid before a handpicked Assembly of Notables in 1787, members claimed, after much detailed criticism, that the only body competent to approve such far-reaching changes was the elected Estates-General, which had not met since 1614. From the dissolution of the Notables (May 1787) until August 1788 the government struggled to avoid convening a body that seemed bound to diminish hitherto absolute royal power. Financial paralysis, however, forced Louis XVI to convoke the Estates for 1789.
-
-The composition being three houses representing the orders of clergy, nobility, and third estate (comprising everyone else in the kingdom), numerically equal in membership but voting by order. Thus the first two "privileged orders" could outvote the third estate, even though it represented the vast majority of the nation. By the time of the elections in spring 1789, in reponse to massive publicity campaign, double representation had been conceded to the third estate, but it remained undecided whether votes would be counted by order, preserving the dominance of the clergy and nobility, or by head, which would give the third estate -- now doubled -- an equal vote. The issue, unresolved until six weeks after the Estates convened, dominated the elections, producing a groundswell of hostility toward the nobility.
-
-Frustrated by noble ineptitude, on June 17 the third estate, reinforced by a few renegade clergy, declared itself the National Assembly, with full soverign powers. Attempts by the king and certain nobles to resist the claims of the third estate, ultimately with the threat of military force, produced rising popular alarm, which culminated on July 14 with a revolt in Paris as a terrified, hungry populace scoured the city for arms. With the help of military mutineers, the people stormed the main state prison, the Bastille. Unsure of his troops' reliability, the king abandoned his resistance to the seizure of soverignty by the French nation's elected representatives.
-
-... continue
-
-source: \url{The Encyclopedia of Political Revolutions}
-
-## American revolution
-
-The American Revolution was a colonial revolt which occurred between 1765 and 1783. The American Patriots in the Thirteen Colonies defeated the British in the American Revolutionary War (1775–1783) with the assistance of France, winning independence from Great Britain and establishing the United States of America.
-
-The American colonials proclaimed "no taxation without representation" starting with the Stamp Act Congress in 1765. They had no representatives in the British Parliament and so rejected Parliament's authority to tax them. Protests steadily escalated to the Boston Massacre in 1770 and the burning of the Gaspee in Rhode Island in 1772, followed by the Boston Tea Party in December 1773. The British responded by closing Boston Harbor and enacting a series of punitive laws which effectively rescinded Massachusetts Bay Colony's rights of self-government. The other colonies rallied behind Massachusetts, and a group of American Patriot leaders set up their own government in late 1774 at the Continental Congress to coordinate their resistance of Britain; other colonists retained their allegiance to the Crown and were known as Loyalists or Tories.
-
-Tensions erupted into battle between Patriot militia and British regulars when King George's forces attempted to destroy American military supplies at Lexington and Concord on April 19, 1775. The conflict quickly escalated into war, during which the Patriots (and later their French allies) fought the British and Loyalists in the Revolutionary War. Each of the thirteen colonies formed a Provincial Congress which assumed power from the former colonial governments, suppressed Loyalism, and recruited a Continental Army led by General George Washington. The Continental Congress declared King George a tyrant who trampled the colonists' rights as Englishmen, and they declared the colonies free and independent states on July 2, 1776. The Patriot leadership professed the political philosophies of liberalism and republicanism to reject monarchy and aristocracy, and they proclaimed that all men are created equal.
-
-The Patriots attempted to invade Canada during the winter of 1775–76 without success, expecting like-minded colonists in British Canada to rally to the cause. The newly created Continental Army forced the British military out of Boston in March 1776, but the British captured New York City and its strategic harbor that summer, which they held for the duration of the war. The Royal Navy blockaded ports and captured other cities for brief periods, but they failed to destroy Washington's forces. The Continental Army captured a British army at the Battle of Saratoga in October 1777, and France then entered the war as an ally of the United States. Britain then refocused its war to make France the main enemy. Britain also attempted to hold the Southern states with the anticipated aid of Loyalists, and the war moved south. Charles Cornwallis captured an army at Charleston, South Carolina in early 1780, but he failed to enlist enough volunteers from Loyalist civilians to take effective control of the territory. Finally, a combined American and French force captured a second British army at Yorktown in the fall of 1781, effectively ending the war. The Treaty of Paris was signed September 3, 1783, formally ending the conflict and confirming the new nation's complete separation from the British Empire. The United States took possession of nearly all the territory east of the Mississippi River and south of the Great Lakes, with the British retaining control of Canada, and Spain taking Florida.
-
-Among the significant results of the Revolution were American independence and friendly economic trade with Britain. The Americans adopted the United States Constitution, establishing a strong national government which included an elected executive, a national judiciary, and an elected bicameral Congress representing states in the Senate and the population in the House of Representatives. Around 60,000 Loyalists migrated to other British territories, particularly to British North America (Canada), but the great majority remained in the United States. 

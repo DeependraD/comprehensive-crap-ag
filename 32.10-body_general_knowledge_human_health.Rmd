@@ -1,0 +1,199 @@
+## Disease
+
+A disease is a particular abnormal condition that negatively affects the structure or function of all or part of an organism, and that is not due to any immediate external injury.
+
+Diseases are often known to be medical conditions that are associated with specific symptoms and signs. A disease may be caused by external factors such as pathogens or by internal dysfunctions. For example, internal dysfunctions of the immune system can produce a variety of different diseases, including various forms of immunodeficiency, hypersensitivity, allergies and autoimmune disorders.
+
+In humans, disease is often used more broadly to refer to any condition that causes pain, dysfunction, distress, social problems, or death to the person afflicted, or similar problems for those in contact with the person.
+
+There are four main types of disease: infectious diseases, deficiency diseases, hereditary diseases (including both genetic diseases and non-genetic hereditary diseases), and physiological diseases. 
+
+Diseases can also be classified in other ways, such as communicable versus non-communicable diseases.
+
+1. Communicable or infectious diseases: These are caused by a variety of pathogenic viruses, bacteria, protozoa, fungi and worms. The pathogens are generally carried with the help of a vector.
+
+2. Non-communicable or non-infectious or degenerative diseases: These occur due to the malfunctioning of some organ or organ system in the body. The type of disease is defined as:
+
+"Chronic condition that do not result from an (acute) infectious process and hence are "not communicable".
+
+
+```{r human-diseases}
+readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "bacteria-virus", skip = 1) %>% 
+  knitr::kable(caption = "Bacterial and viral diseases of humans", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::collapse_rows(columns = 1)
+
+readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "fungi-nematode") %>% 
+  knitr::kable(caption = "Fungal and nematode diseases of humans", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::collapse_rows(columns = 1)
+```
+
+
+**Non communicable diseases**
+
+- Non-communicable diseases (NCDs) include cardiovascular disease, diabetes, cancer, chronic lung diseases, genetic diseases, allery and nutritional deficiencies -- micronutrients, vitamins.
+- People whose health is compromised by NCDs are more vulnerable to the stresses and disruptions of disaster
+- Risk reduction of NCDs requires multisectoral action to promote healthy behaviors. NCDs are managed by a range of health services that address prevention, treatment, rehabilitation and palliative care
+- Health infrastructure with resilience to disasters is necessary to ensure continuity of care for people with NCDs in emergencies. Specific measures may include protection of essential equipment and stockpiling of essential medicines.
+- A significant number of deaths after a disaster are as a result of inadequate health care services to cater for pre-existing conditions and illnessess.
+
+Characteristics of NCDs
+
+- Complex etiology (causes)
+- Multiple risk factors
+- Long latency period
+- Non-contagion origin (non communicable)
+- Prolonged course of illenss
+- Functional impairment of disability
+
+Types of NCDs
+
+- Cardiovascular disease (e.g., Coronary heart disease, stroke)
+- Cancer: 7.6 million people died from cancer in 2008 and the deaths from this disease is estimated to reach 13.1 million by 2030. Breast cancer, prostate cancer and colorectal cancer are successively the most common types of cancer.
+- Chronic respiratory disease
+- Diabetes
+- Chronic neurologic disorders (e.g. Alzheimer's dementias)
+- Arthritis/Musculoskeletal disease
+- Nutritional disorder
+- Unintentional injuries (e.g. from traffic crashes)
+
+Modifiable risk factors of NCDs
+
+- Physical inactivity: Increases risk of type-2 diabetes, certain cancers, heart attacks, stroke, falls and early death.
+- Tobacco use: Tobacco kills upto half of its users; globally 6 million people die each year. Following disease are common among smokers: Cancer, coronary heart disease, disease of lungs, peripheral vascular disease, stroke, fetal complications and stillbirth
+- Alcohol use: 11.5% of all global drinkers are episodic, heavy users. Globally, 2.5 million people die from alcohol consumption per year. Has long term effects of liver diseases, cancers, hypertension, gastrointestinal disorders, neurological issues and psychiatric issues.
+- Unhealthy diets (increased fat and sodium, with low fruit and vegetable intake)
+
+Non-modifiable risk factors
+
+- Age
+- Gender
+- Race
+- Family history
+
+Metabolic risk factors are generally modifiable risk factors refering to biochemical processes involved in the body's normal functioning. They include:
+
+- Raised blood pressure
+
+```{r blood-pressure-measure}
+tribble(~"Measurement", ~"Normal", ~"Pre-hypertensive", ~"Hypertensive", 
+        "Systolic (mgHg)", "<120", "120-139", "140+", 
+        "Diastolic (mmHg)", "<80", "80-90", "90+") %>% 
+  knitr::kable(caption = "Standardized blood pressure measurements", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+
+```
+
+- Raise total cholesterol: Increases the risk of heart disease and stroke. A 10% reduction in serum cholesterol in men aged 40 has been reported to result in a 50% reduction in heart disease within 5 years.
+- Elevated glucose
+- Overweight and obesity: Abnormal or excessive fat accumulation that presents a risk to health. A Body Mass Index (BMI) of 30 or more indicated obesity in $BMI = \frac{Weight in kg}{Heigt in meters^2}$
+
+
+Disease spread through blood transfusion
+
+AIDS (Acquired Immuno Deficiency Syndrome): It destroys immune system of the body & is caused by the Human Immuno deficiency Virus (HIV).There are two types of HIV namely HIV-1 and HIV-2. The most common virus currently associated with AIDS is HIV-1. A virus found in the blood of wild African green monkey called the Simian Immuno deficiency Virus (SIV) is similar to HIV-2. HIV is a retrovirus. It can synthesize DNA from RNA. The major cell infected by HIV is the helper T-Iymphocyte that bears the CD-4 receptor site. HIV progressively destroys T-Iymphocytes. The patient occasionally will suffer from swollen lymph nodes, mild prolonged fever, diarrhoea or other non-specific symptoms.
+
+HIV antibodies can be detected by the ELISA test (Enzyme-Linked Immuno Sorbent Assay). World AIDS Day is celebrated on 1st December.
+
+## Nutritional deficiencies
+
+Different types of vitamins and minerals enable healthy body function, such as cell and tissue repair, production of cells, and healthy brain function. Your body doesn't produce these vitamins and minerals on its own, and while you can get most of these from a supplement, your body reacts better when these vitamins and minerals come from food.
+
+Water-soluble vitamins
+
+Thiamine (Vitamine B1) deficiency is especially common in countries that do not require fortification of wheat and maize flour and rice to replace the naturally occurring thiamine content lost to milling, bleaching and other processing. Severe deficiency causes beriberi, which became prevalent in Asia as more people adopted a diet primarily of white rice. Wernicke encephalopathy and Korsakoff syndrome are forms of beriberi. Alcoholism can also cause vitamin deficiency. Symptoms of deficiency include weight loss, emotional disturbances, impaired sensory perception, weakness and pain in the limbs, and periods of irregular heart beat. Long-term deficiencies can be life-threatening. Deficiency is assessed by red blood cell status and urinary output.
+
+Riboflavin (Vitamine B2) deficiency is especially common in countries that do not require fortification of wheat and maize flour and rice to replace the naturally occurring riboflavin lost during processing. Deficiency causes painful red tongue with sore throat, chapped and cracked lips, and inflammation at the corners of the mouth (angular cheilitis). Eyes can be itchy, watery, bloodshot and sensitive to light. Riboflavin deficiency also causes anemia with red blood cells that are normal in size and hemoglobin content, but reduced in number. This is distinct from anemia caused by deficiency of folic acid or vitamin B12, which cause anemia.
+
+Niacin (Vitamine B3) deficiency causes pellagra, a reversible nutritional wasting disease characterized by four classic symptoms often referred to as the four Ds: diarrhea, dermatitis, dementia, and death. The dermatitis occurs on areas of skin exposed to sunlight, such as backs of hands and neck. Niacin deficiency is a consequence of a diet low in both niacin and the amino acid tryptophan, a precursor for the vitamin. Chronic alcoholism is a contributing risk factor. Low plasma tryptophan is a non-specific indicator, meaning it can have other causes. The signs and symptoms of niacin deficiency start to revert within days of oral supplementation with large amounts of the vitamin.
+Pantothenic acid (Vitamine B5) deficiency is extremely rare. Symptoms include irritability, fatigue, and apathy.
+
+Vitamin B6 deficiency is uncommon, although it may be observed in certain conditions, such as end-stage kidney diseases or malabsorption syndromes, such as celiac disease, Crohn disease or ulcerative colitis. Signs and symptoms include microcytic anemia, electroencephalographic abnormalities, dermatitis, depression and confusion.
+
+Biotin (Vitamin B7) deficiency is rare, although biotin status can be compromised in alcoholics and during pregnancy and breastfeeding. Decreased urinary excretion of biotin and increased urinary excretion of 3-hydroxyisovaleric acid are better indicators of biotin deficiency than concentration in the blood. Deficiency affects hair growth and skin health.
+
+Folate (Vitamin B9) deficiency is common, and associated with numerous health problems, but primarily with neural tube defects (NTDs) in infants when the mother's plasma concentrations were low during the first third of pregnancies. Government-mandated fortification of foods with folic acid has reduced the incidence of NTDs by 25% to 50% in more than 60 countries using such fortification. Deficiency can also result from rare genetic factors, such as mutations in the MTHFR gene that lead to compromised folate metabolism. Cerebral folate deficiency is a rare condition in which concentrations of folate are low in the brain despite being normal in the blood.
+
+Vitamin B12 deficiency can lead to pernicious anemia, megaloblastic anemia, subacute combined degeneration of spinal cord, and methylmalonic acidemia, among other conditions. Supplementation with folate can mask vitamin B12 deficiency.
+
+Vitamin C deficiency is rare. Consequently, no countries fortify foods as a means of preventing this deficiency. The historic importance of vitamin C deficiency relates to occurrence on long sea-going voyages, when the ship food supplies had no good source of the vitamin. Deficiency results in scurvy when plasma concentrations fall below 0.2 mg/dL, whereas the normal plasma concentration range is 0.4 to 1.5 mg/dL. Deficiency leads to weakness, weight loss and general aches and pains. Longer-term depletion affects connective tissues, severe gum disease, and bleeding from the skin.
+
+Fat-soluble vitamins
+
+Vitamin A deficiency can cause nyctalopia (night blindness) and keratomalacia, the latter leading to permanent blindness if not treated. It is the leading cause of preventable childhood blindness, afflicting 250,000 to 500,000 malnourished children in the developing world each year, about half of whom die within a year of becoming blind, as vitamin A deficiency also weakens the immune system. The normal range is 30 to 65 microg/dL, but plasma concentrations within the range are not a good indicator of a pending deficiency because the normal range is sustained until liver storage is depleted. After that happens, plasma retinol concentration falls to lower than 20 microg/dL, signifying a state of vitamin A inadequacy.
+
+Vitamin D deficiency is common. Most foods do not contain vitamin D, indicating that a deficiency will occur unless people get sunlight exposure or eat manufactured foods purposely fortified with vitamin D. It is typically diagnosed by measuring the concentration of the 25-hydroxyvitamin D (25(OH)D) in plasma, which is the most accurate measure of stores of vitamin D in the body. Deficiency is defined as less than 10 ng/mL, and insufficiency in the range of 10-30 ng/mL. Serum 25(OH)D concentrations above 30 ng/mL are "not consistently associated with increased benefit." Serum concentrations above 50 ng/mL may be cause for concern. Vitamin D deficiency is a known cause of rickets, and has been linked to numerous other health problems.
+
+Vitamin E deficiency is rare, occurring as a consequence of abnormalities in dietary fat absorption or metabolism, such as a defect in the alpha-tocopherol transport protein, rather than from a diet low in vitamin E. The US Institute of Medicine defines deficiency as a blood concentration of less than 12 micromol/L. Deficiency causes poor conduction of electrical impulses along nerves due to changes in nerve membrane structure and function.
+
+Vitamin K deficiency as a consequence of low dietary intake is rare. A deficient state can be a result of fat malabsorption diseases. Signs and symptoms can include sensitivity to bruising, bleeding gums, nosebleeds, and heavy menstrual bleeding in women. Newborn infants are a special case. Plasma vitamin K is low at birth, even if the mother is supplemented during pregnancy, because the vitamin is not transported across the placenta. Vitamin K deficiency bleeding (VKDB) due to physiologically low vitamin K plasma concentrations is a serious risk for premature and term newborn and young infants. Untreated, consequences can cause brain damage or death. The prevalence of VKDB is reported at 0.25 to 1.7%, with higher risk in Asian populations. The recommended prevention treatment is an intramuscular injection of 1 mg of vitamin K at birth (called the Vitamin K shot.) There are protocols for oral administration, but intramuscular injection is preferred.
+
+\question What are the causes of malnutrition ?
+
+\begin{solution}
+
+Malnutrition is a condition that results from eating a diet in which one or more nutrients are either not enough or are too much such that the diet causes health problems. Every year 406,000 people die globally due to malnutrition. In economically impoverished country like Nepal, majority cases of health related issues arise due to undernutrition, rather than due to excess of nutrition. Although, it is touted that Nepal is an agricultural country and its plains a storehouse of granary, prevalance of nutritional deficiency (an important factor setting back Nepal's food security achievement) is staggering. Following are the main factors contributing to malnutrition:
+
+\begin{enumerate}
+\item Lack of nutritious diet
+\item General public lack awareness on importance of nutritious diet
+\item Lack of skills and techniques on cooking and food storage with maximum nutrient retention
+\item Inability of properly constituting a diet despite availavility of range of food items
+\item Lack of proper installments for safe storate of food
+\item Due to lack of suitable supply system for remote hilly and mountainous regions, general scarcity of adequate food is observed
+\item Lacking awareness on general importance of food
+\item Campaigns aimed at awaring the public have not been effective.
+\end{enumerate}
+\end{solution}
+
+\question Discuss about the importance of environment on human health.
+
+\begin{solution}
+About one quarter of the diseases worldwide can be accredited to environmental causes, with 40\% of the sufferers being children under five.
+
+Among the ten most significant dangers to the developing countries with high-mortality rate are unsafe water and sanitation and hygiene problems. Just about 80 per cent of each and every type of infectious disease is caused by unclean water. Globally, 1.1 billion people lack access to safe water supply and 2.4 billion to adequate sanitation.
+
+In East Asia and the Pacific, 48 per cent of the population have access to improved hygiene while in South Asia, merely 37 per cent have such access. Inadequate water and insufficient hygiene lead to ill health.
+
+Over 200 million people in nine Asian countries, more often than not living in rural areas, are at risk of arsenicosis, cancer and eventual death from the long-term use of groundwater infected with arsenic.
+
+Arsenic toxicity has a pervasive effect on all systems in the body and long-term consequences on children, slowing their cognitive expansion and cerebral ability. There is no known medical cure for arsenicosis. The only sure way of preventing arsenicosis is to avoid drinking impure water. Furthermore, extreme fluoride in water causes dental and skeletal fluorosis. Lead emissions are also a serious problem in the region.
+
+In the Asian and Pacific area, indoor air contamination poses the uppermost health risk. Contact with smoke from solid fuel like wood, dung, coal and agricultural remains increases the amount of contamination. Indoor air pollution causes an accumulation of pollutants, such as coarse and fine particulate matter, carbon monoxide, oxides of nitrogen, benzene, toluene and formaldehyde, in the bodies of those exposed to indoor air pollution. Epidemiological evidence suggests a link between indoor air toxic waste and respiratory infections, TB, cancers, low birth weight and greater infant and prenatal mortality. 
+
+Nepal's performance seems to be worst when it comes to protecting environment and combating air pollution. Nepal is among the bottom five countries on the Environmental Performance Index 2018, plummeting 27 points from 149 in 2016, according to a biennial report by Yale and Columbia Universities along with the World Economic Forum. Air pollution in Nepal, particularly in the Kathmandu Valley, has emerged as a serious environmental health risk.
+
+Rapid urbanisation, unplanned development activities, smoke from brick kilns, ongoing road widening drive and construction works for the Melamchi Water Supply project and increasing number of vehicles have contributed in making Kathmandu one of the most polluted cities in the world.
+
+Furthermore, the concentration of particulate matter is observed higher during night in winter because of the formation of inversion layer which acts as the blanket to trap pollutants. The Particulate Matter (PM2.5) concentration in Kathmandu is five times more than the National Ambient Air Quality Standard of Nepal set by the government, and way more than the World Health Organisation (WHO) standard.
+
+Most of air pollution-related deaths are from non-communicable diseases and in terms of global disease burden, air pollution is the cause of over one-third deaths from stroke, lung cancer and chronic respiratory diseases, says the WHO. One-quarter of deaths occur due to ischemic heart disease. According to a WHO report, nearly 740 people died from acute lower respiratory infection, 1,770 from chronic obstructive pulmonary disorder, 932 from lung cancer, 3,328 from ischemic heart disease and 3,183 from stroke in Nepal in 2016.
+
+However, the number of vehicles being registered in Kathmandu is rapidly increasing. Weak institutions, corruption and lack of technology are also adding to Kathmandu’s air pollution. One of the key issues is monitoring of air quality by using standard, good quality and practically identical strategies and instruments.
+
+WHO points to a lack of reliable public transport system. Transport system needs to be strengthened and alternative mode of transport such as cycling for short routes must be encouraged by creating safe cycling routes. In Kathmandu, 41 per cent of people travel by foot while 2 percent people use bicycles. So, walking and cycling should be made more convenient.
+
+Apart from its instant toxic and carcinogenic effects, air contamination affect the environment and health in other ways. Some air pollutants descend as acid rain. Acid rain causes ecological degradation which impacts ecosystems, increasing health hazards. 
+
+Ozone depletion, associated with use of ozone-depleting chemicals, is expected to augment UV-B radiation, resulting in the oppression of immune systems and skin cancer. In South East Asia, 70 million people are seasonally affected by air pollution due to forest fire.
+
+A number of pesticides are associated with cancers, miscarriages and inborn malformations. Agrochemical poisoning and agro-machinery accidents cause diseases, injuries and death that are underreported.
+
+Small-scale farmers are especially vulnerable to the exposure to chemical fertilisers and pesticides that are widely used in the region, and to equipment-related hazards aggravated by sustained hard physical labour with old and poorly maintained gear.
+
+A lot of new infectious diseases have emerged because viruses have jumped the species fence from flora and fauna to humans. Undeveloped production systems, in particular intensive animal husbandry in densely populated areas, with livestock in close proximity to humans, are the perfect breeding ground for new diseases.
+
+SARS as well as avian influenza are fresh examples. These diseases affect not only humans, but also flora and fauna and vegetation. They also threaten food safety and livelihood. Thus, these diseases have themselves turned out to be drivers of environmental alteration.
+
+A notorious issue in foodstuff production is the use of genetically modified organisms. There is vigorous global debate on the large-scale use of genetically modified organisms in developed countries when their long-term penalty on human health has not been well-known.
+
+Plastic is extensively used for wrapping food. These substances could be released if ingested. Vast quantities of microscopic plastic fragments are building up in oceans. The accumulation of plastic wreckage in parts of the central Pacific Ocean is six times greater than that of resident plankton, the very foundation of the food chain. There is indication that plastic debris is being ingested by marine organisms and might go into the food chain.
+
+Haphazard waste disposal is a chief health danger. Non-biodegradable plastic waste constitutes a main part of waste. Plastic floats in water; it accumulates and absorbs toxic hydrophobic chemicals from other sources. Artificial waste also clogs sewerage systems, causing severe hygiene problems.
+
+In spite of some progresses made since the Basel Convention on the Trans Boundary Movement of Hazardous Waste came into force, large amounts of hazardous waste, including electronic waste, are still exported to developing countries in the region. Recycling is often absent and the burning of plastic and dumping are common.
+
+The unsafe disposal of hazardous domestic medical and manufacturing waste pose severe health risks to people in the region. Governments in the region should pay serious attention to ecological health.
+
+\end{solution}

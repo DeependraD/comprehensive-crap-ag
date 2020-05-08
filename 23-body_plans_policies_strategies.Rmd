@@ -16,6 +16,43 @@
 - Instead of eleventh plan, interim plan for 3 years was launched from 2007/08-2009/10. The main objective of this plan was to generate an experience of a direct feeling of change in the lives of the general public by supporting in the establishment of peace and reducing the existing unemployment, poverty and inequality. This plan was designed in a critical state of transition where the country was formulating a new constitution to restore peace and reconstruction and reintegration among people suffering from the conflict.
 - The twelve three year plans (2010/11-2012/13) has kept poverty alleviation as its major agenda and inclusive employment generation and equitable economic growth are considered two important pillars for realizing poverty alleviation. The purpose of this plan is to incorporate every community from all around the country to make sure that every underprivilaged and marginalized group is included. This plan has mobilized volunteers through National Development Volunteer Services (NDVS). NDVS has been implemented by district development committees. The purpose of this program is to mobilize volunteers as moderators in disadvantaged communities such as poor, ethnic, Dalit communities so that they will help them as facilitator in education, health, infrastructure, social mobilization and other areas.
 
+## National planning commission
+
+Introduction & History
+
+The National Planning Commission (NPC) is the specialised and apex advisory body of the Government of Nepal for formulating a national vision, development policy, periodic plans and sectoral policies for overall development of the nation.
+ 
+- It is headed by the Right Honorable Prime Minister. The NPC assesses resource needs, identifies sources of funding, and allocates budget for socio-economic development. 
+- It serves as a central agency for monitoring and evaluating development policy, plans and programs. 
+- The NPC also serves as an intellectual hub for the exchange of new development ideas and proposals from scholars, private sector, civil society, and development partners.
+
+Membership
+
+At present, the NPC has 
+	- one full-time Vice-Chairman, 
+	- six members, and 
+	- one Member-Secretary who also heads a fully staffed secretariat.
+
+The Chief-Secretary and the Finance Secretary are ex-officio members of the Commission. The national statistical organization of Nepal, the Central Bureau of Statistics (CBS), functions as a specialized entity of the NPC, headed by a Director-General.
+
+The Commission consists of four functional divisions each headed by a Joint-Secretary: 
+
+i. Economic Management; 
+ii. Infrastructure and Production;
+iii. Research and Evaluation; and 
+iv. Good Governance and Social Development. 
+
+Each division is further divided into Sections headed by an Under-Secretary.
+
+Historical Background
+
+The Planning Commission was first created in Nepal in 1956. It was soon renamed in accordance with the Yojana Mandal Act of 1957. Following the introduction of the partyless Panchayat system in 1961, the National Planning Council was formed under the then King. In 1963, the Council was dissolved and a new planning body, with an identical name, was constituted under the Chairman of the Council of Ministers. All the Ministers became ex-officio members of the Council; and the Ministry of Economic Affairs was renamed the Ministry of Economic Planning.
+
+In 1968, all tasks related to development budget and foreign aid hitherto carried out by the Ministry of Economic Planning were assigned to the Ministry of Finance. The National Planning Council then morphed into the National Planning Commission (NPC) under the Chairmanship of the Rt. Hon'ble Prime Minister. A 1972 study on the functions and responsibilities of the central planning agency resulted in the reconstitution of the NPC.
+
+After the historic restoration of multiparty democracy in 1990, the newly elected government reconstituted the NPC again with the Prime Minister as Chair, a full-time Vice-Chairman, five Members, and a Member-Secretary. The current organization and functions of the NPC draw on the Executive Order issued by the cabinet in 2018.
+
+
 ## National tea policy, 2000
 
 - GoN approved and implemented National Tea Policy, 2000 as per intention of National Tea and Coffee Development Board Act, 1992 for:
@@ -176,4 +213,18 @@ Objective 5
   3. Concerned ministries shall implement this policy on their related sectors
     - NADC to monitor the implementation on national level
     - Strategies, programs and responsible bodies of related matters may be implemented by concerned ministries upon approval.
+
+## 15th plan
     
+\begin{questions}
+
+\question Describe the 15th plan approach paper:
+% \makeemptybox{1.5in} % use this to provide a box in question
+
+\begin{solution}
+
+The 15th plan approach paper is a piece of shit.
+
+\end{solution}
+
+\end{questions}

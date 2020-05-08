@@ -1,6 +1,30 @@
 
 # International organizations, treaties, conventions and agreements
 
+## United Nations and International Organizations
+
+\begin{questions}
+
+\question World conference on Women, 1975
+
+\begin{solution}
+
+The conference was held between 19 June and 2 July 1975 in Mexico City, Mexico. It was the first international conference held by the United Nations to focus solely on women's issues and marked a turning point in policy directives. After this meeting, women were viewed as part of the process to develop and implement policy, rather than recipients of assistance. The conference was one of the events established for International Women's Year and led to the creation of both the United Nations Decade for Women and follow-up conferences to evaluate the progress that had been made in eliminating discrimination against women and their equality. Two documents were adopted from the conference proceedings, the World Plan of Action which had specific targets for nations to implement for women's improvement and the Declaration of Mexico on the Equality of Women and Their Contribution to Development and Peace, which discussed how nations foreign policy actions impacted women. It also led to the establishment of the International Research and Training Institute for the Advancement of Women to track improvements and continuing issues and the United Nations Development Fund for Women to provide funding for developmental programs. The conference marked the first time that the parallel Tribune meeting was successful in submitting input to the official meeting and became a catalyst for women's groups to form throughout the world.
+
+\end{solution}
+
+\question United Nations Commission on Status of Women
+
+\begin{solution}
+
+The Commission on the Status of Women (CSW or UNCSW) is a functional commission of the United Nations Economic and Social Council (ECOSOC), one of the main UN organs within the United Nations. CSW has been described as the UN organ promoting gender equality and the empowerment of women. Every year, representatives of Member States gather at United Nations Headquarters in New York to evaluate progress on gender equality, identify challenges, set global standards and formulate concrete policies to promote gender equality and advancement of women worldwide. In April 2017, ECOSOC elected 13 new members to CSW for a four-year term 2018–2022. One of the new members is Saudi Arabia, which has been criticised for its treatment of women.
+
+The commission was formed on 21 June 1946 and is headquartered in NY, USA.
+
+\end{solution}
+
+\end{questions}
+
 ## Rio convention (UN Conference on Environment and Development, UNCED) 
 
 - Relates to three conventions, which are results of the Earth Summit held in Rio de Janeiro in 1992 (June 3rd to 14th).
@@ -321,3 +345,33 @@ Trade experts consider MFN clauses to have the following benefits:
 MFN: A case of India
   
 As per the obligation under the World Trade Organization (WTO), the member countries of WTO shall extend Most Favored Nation (MFN) status to each other automatically, unless otherwise specified in the agreement or schedule notified to the WTO by the member country. Pursuant to this Provision, in case of goods, India has extended MFN status to member countries of WTO. As regards SAARC countries, Bangladesh, Maldives, Nepal, Pakistan and Sri Lanka are members of WTO and except the Islamic Republic of Pakistan, these countries have extended MFN status to India. India has extended MFN status to all these SAARC countries including Pakistan. So far as exception to MFN status, if any, in services is concerned, each member country has indicated the same in the schedule of commitments in services notified to WTO. The mfn status was finally withdrawn for pakistan on 15 February 2019 in response to the Pulwama attack.
+
+## BIMSTEC
+
+## Sustainable development goals: Policy background, challanges and progress in Nepal
+
+Nepal's social and political progress has been highly progressive. Economic growth remained sluggish but picking up now. Nepal's natural vulnerabilities, from earthquakes to climate change, lie unmitigated. Building on the gains so far, the challenge for Nepal is to swiftly complete the unfinished agenda of the Millennium Development Goals (MDGs), and embrace a much more ambitious aspiration of fulfilling the SDGs. Furthermore, Nepal expects to become a vibrant middle income country by 2030. However, the country is resource constrained, and it needs to forge a diverse alliance for SDGs. 
+
+Policy and Institutional Context
+
+The goal of leaving no one behind fits well with the inclusive political order that Nepal has been building. The new Constitution (2015) aspires to create a prosperous, egalitarian and pluralistic society, and serves as the overarching guide to all development policies, plans and programs. The current (14th) periodic plan (2016/17-2018/19), and other sectoral plans, policies and their targets are being aligned with SDGs. specific SDGs codes are assigned for all national programs in the national budget. Three high-level committees have been formed to help implement SDGs. A steering committee is chaired by the Prime Minister; a coordination committee is chaired by the Vice Chairman of the National Planning Commission (NPC) and nine thematic committees are headed by NPC Members. The membership of the coordination and working committees is broadly representative of the public and private sectors, as well as civil society and development partners. 
+
+National Targets and Progress of Selected SDGs
+
+Nepal was probably one of the first countries to produce a SDG baseline study in 2015, before the formal adoption of the SDGs. Nepal has halved extreme poverty (SDG 1) in the past 15 years, and is on track to bring it d0wn to less than 5 percent by 2030. SDG 2 targets include the reduction in the prevalence of undernourishment to 3 percent and prevalence of underweight children under five years of age to 5 percent by 2030. Similarly, SDG 3 targets include reducing the maternal mortality rate to less than 70 per 100,000 live births by 2030. Other targets include the virtual elimination of the prevalence of HIV, TB, Malaria, other tropical diseases, and water borne diseases. In Nepal today, there is gender parity at all levels of education. The targets for SDG 5 includes the elimination of wage discrimination, physical/sexual violence, and all harmful social practices, such as child marriages. Nepal expects women to fill 40 percent of all elected seats in local governments, and at least one-third of the seats in the national parliament. In the civil service, women in public decision-making positions will have increased four-fold of total employees by 2030.
+
+The targets for SDG 9 are to increase road density to 1.5 km per square km and paved road density to 0.25 km per square km, and to connect all districts, municipalities and village councils to the national road network. In industries, the target by 2030 is to increase the share of employment to 25 percent; within the subset of manufacturing, employment is to reach 13 percent. SDG 17, on the means of implementation, expects adherence by all stakeholders, from resource mobilization and capacity development to shared responsibility and accountability. Nepal's progress in revenue mobilization is impressive, but also vulnerable to likely swings in the large volumes of inward remittances which bolster import-based taxation. The aim is to increase the share of revenue from about 22 percent today to 30 percent of Gross Domestic Product (GDP) by 2030. Domestic expenditures financed by revenue is estimated to reach 80 percent. For meeting the private sector investment financing gap, foreign direct investment (inward stock) is expected to increase to 20 percent of GDP in 2030 from less than 3 percent in 2015.
+
+Challenges in SDGs Implementation
+
+SDGs are interlinked, indivisible, and ambitious posing major implementation challenges in a low-income country like Nepal, which has limited resources. As the country embarks on implementing a new federal structure of governance, a prominent challenge will be to quickly mainstream SDGs into the provincial and local level planning and budgeting systems. Weak database and lack of availability of disaggregated data by sex, age, social groups, disability status, geography, income and sub-national level will hinder monitoring of progress. In addition to the realignment of policies, financing challenges will loom large, particularly to trigger and sustain job-creating economic growth, enhance the quality of social service provisioning and to invest adequately to reduce risks from disasters.
+
+Way Forward
+
+Positive lessons learned from the MDGs era will need to be scaled up. For example, in health, education, water and sanitation, the Sectorwide Approach yielded better results because of coordinated resource mobilization. Similarly, the triangular partnership between the government, private sector and development partners proved quite effective in some areas, but will need to be augmented significantly especially to spur reforms that attract substantial private capital and entrepreneurship. Nepal will need to constantly update its targets and indicators contained in sectoral master plans, medium term plans and strategies. Many SDG goals and indicators do not yet have a quantitative baseline. This needs an urgent redress, and the data that do exist need further disaggregation, particularly based on new political jurisdictions. Monitoring SDGs progress within the existing institutional framework of data generation and management needs an overhaul. Above all, SDGs are interconnected and the achievement of one goal has a synergetic effect on others. These integrated challenge needs a matching response in terms of fiscal, managerial and institutional capacities. 
+
+Source:
+
+\url{https://sustainabledevelopment.un.org/content/documents/15896Nepal_Main_Message_HLPF_2017.pdf}
+
+For main document, refer to: \url{https://www.npc.gov.np/images/category/Sustainable_Devlopment_Agenda_Eng.pdf}

@@ -1,6 +1,17 @@
 
 # Soil and irrigation
 
+- Study of soil is known as pedology
+- Water holding capacity is highest in clayey soil but better aeration in sandy soil.
+- Soil = 5% of OM(organic matter) + 25% soil water + 25% soil air + 45% mineral/inorganic matter
+- Study of soil: pedology (soil genesis)/ edaphology (soil in relation to plant production)
+- Clayey soil is the bank of plant nutrient.
+- Naturally formed soil aggregate is ped and artificially formed soil aggregate is clod.
+- Red soil is due to presence of Fe.
+
+**Soil textural classes**
+
+
 ## Crop water requirement
 
 ```{r crop-water-requirement}
@@ -18,7 +29,7 @@ read_csv("./data/crop_water_requirements.csv", skip = 2) %>%
 These are the properties of plants used in predicting evapotranspiration (ET). The most basic crop coefficient, $k_c$, is simply the ratio of ET observed for the crop studied over that observed for the well calibrated reference crop under the same conditions.
 
 $$
-\mathrm{PET} = K_c \times \mathrm{RET}
+\mathrm{PET} = K_c \times \text{RET}
 $$
 
 Potential evapotranspiration (PET) is the evaporation and transpiration that potentially could occur in a field of the crop had an ideal unlimited water supply. RET is the reference ET often denoted as $ET_0$.

@@ -24,7 +24,8 @@ dplyr::tribble(~"sector", ~"fy_2074-75", ~"fy_2073-74", ~"fy_2072-73",
                "Agriculture and forestry", 27.10, 28.25, 31.08,
                "Fishery", 0.49, 0.51, 0.53,
                "Non-agriculture", 72.41, 71.24, 68.39) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Percentage contribution of different sector and subsectors to total national GDP", col.names = c("Sector", "FY 2074/75", "FY 2073/74", "FY 2072/73"))
+  knitr::kable(booktabs = TRUE, caption = "Percentage contribution of different sector and subsectors to total national GDP", col.names = c("Sector", "FY 2074/75", "FY 2073/74", "FY 2072/73")) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 ```
 
 **Agricultural growth rates**
@@ -34,14 +35,18 @@ dplyr::tribble(~"Year", ~"Growth rate (%)",
                2072/73, 0.01, 
                2073/74, 5.14,
                2074/75, 2.72) %>% 
-  knitr::kable(caption = "Agriculture growth rates of recent years in Nepal.", booktabs = TRUE)
+  knitr::kable(caption = "Agriculture growth rates of recent years in Nepal.", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 ```
 
+## Chronology of Agriculture development in Nepal
 
-## Kishan call center
+```{r agriculture-chronology}
+readxl::read_xlsx("./data/agriculture_development_chronology.xlsx", skip = 1) %>% 
+  knitr::kable(caption = "Chronology of Agriculture development in Nepal", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
 
-- Phone number: 1660-5652-999
-- Active hours: 10 AM - 4:30 PM
 
 ## Development of cooperatives in Nepal
 
@@ -295,3 +300,189 @@ Initiation, project details ...
 ## One village one commodity (ODOP)
 
 ## One district one commodity
+
+## History of Agricultural Insitutions in Nepal
+
+Institute of Agriculture and Animal Science (IAAS)
+
+- Began as a school of Agriculture under ministry of Agriculture in 1957 to train JTA's in agriculture.
+- School of agriculture was upgraded to college level in 1968.
+- It was entitled IAAS in 1972 as a constituent institute of Tribhuwan University and located the specific place at Rampur in the same year.
+- The institute has 230 ha of land for its academic and research programs at Rampur.
+- Lamjung Campus located at Sundarbazar, Lamjung was established in 1975 and has about 18 hac of land.
+- Paklihawa Campus at Rupandehi established in 1978 with area of about 22 hac of land.
+- In 1998 the institute started M.Sc.Ag program.
+- In 2001 the semester system of study in bachelor level was introduced.
+- Ph.D degree course started in 2002.
+- IAAS day: 4th of Bhadra
+- Logo of IAAS was designed by Thakur Prasad Mainali
+
+Agriculture and Forestry University (AFU)
+
+- The first agriculture university in Nepal.
+- Established in June 2010 at Rampur Chitwan.
+- University formed merging the then IAAS Rampur and the then IOF Hetauda.
+- Rampur academic complex extends to an areas of 280 hac
+- Hetauda forestry campus has an area of 95 hac.
+- 17th June (3rd Ashad) is celebrated as AFU day.
+- Chancellor: Prime Minister of Nepal.
+- 1st VC of AFU: Prof.Dr Kailash Nath pyakural
+- 1st Registrar: Dr.Surya Kant Ghimire
+- Vice-Chancellor: Ishwori Prasad Dhakal
+- Registrar: Man Raj Kulakshyapati
+
+## National Commodity Research Programs under NARC and their locations
+
+- National Rice Research Program; Hardinath, Dhanusa
+- National Wheat Research Program; Bhairahawa, Rupandehi
+- National Maize Research Program; Rampur, Chitwan
+- National Grain Legume Research Program; Khajura,Banke (recently transferred from Rampur, Chitwan)
+- National Potato Research Program; Khumaltar, Lalitpur
+- National Swine and Avian Research Program; Khumaltar, Lalitpur
+- National Sheep and Goat Research Program; Jumla
+- National Oil Seeds Research Program; Nawalpur, Sarlahi
+- National Sugarcane Research Program; Jitpur, Bara
+- National Citrus Research Program; Paripatle, Dhankuta
+- National Jute Research Program; Itahari, Sunsari
+- National Ginger Research Program; Kapurkot, Salyan
+- Hill Crop Research Program; Kavre, Dolakha
+- National Bovine Research Program; Khumaltar, Lalitpur
+- National Tobacco Research Program; Belachapi, Janakpur
+- Apple Processing Centre; Jumla
+- Cotton Research Centre; Khajura, Banke
+
+## Miscellaneous
+
+- Nepal ranks 18th position among rice cultivating nation in the world.
+- Father of Agronomy in Nepal: Netra Bahadur Basnyat
+- Golden rice is genetically modified rice with yellow colored seeds rich in vitamin A
+- Date palm is the oldest fruit.
+- Rye is known as grain of poverty.
+- Tomato is known as poor man's orange.
+- DDT was the first discovered insecticide by Paul Muller.
+- Maximum amount of sugar in honey is 73%.
+- Mandarin is alled fancy fruits.
+- Cardamom production highest in Nepal in the world.
+- Dance of bee is called waggle dance.
+- Apple production is highest in China.
+- King of cereals is Wheat and Queen of cereals is Maize.
+- Orchidaceae is the largest family among flowering plants.
+- National Agriculture Policy in 2061 BS
+- Gaurab hybrid and Rampur hybrid are the only hybrid varieties in Nepal in maize.
+- Halo kranti started in 2006 BS from Duradanda, Lamung.
+- OVOP (One Village One Product) practice in Nepal base on PPP (Public Private Partnership) approach started from Japan.
+- One Village Two Product practice is prevailing in Bhutan.
+- Year of Family farming: 2014
+- Yellow color of Papaya is due to Cryptoxanthin.
+- Edible part of apple is enlarged thalamus and edible part of cabbage is bud while that of cauliflower is inflorescence.
+- Earthworm is farmer's friend.
+- 39.6% of area of Nepal's land is covered by forest.
+- Japan is Nepal's largest bilateral donor.
+- Lentil is a major pulse crop with efficient export.
+- Crop and livestock insurance started in Nepal in 2069 Magh 1
+- Triticale is artificial cereal crop.
+- China is the world's highest rice producer and Vietnam is the world's highest rice exporter.
+- Azolla is widely used bio - fertilizer in Rice Crop.
+- Amendment of acid soil is done by lime and of alkaline soil is done by CaSO4
+- Tomato is known as poor man's orange.
+- Air layering in litchi is to epicotyl grafting in Mango
+- Anadi, Jumli Marshi, Pokhreli Jetho Budo are indigenous variety of Rice in Nepal.
+- Readily available form of water to plants is capillary water.
+- Limiting amino acid in Cereals are Lysine and threonine whereas limiting amino acid in legumes are methionine and tryptophan.
+- Stubble is the portion of stem that is left on the field during harvest.
+- Leguminous crop is considered as biological plough.
+
+Contributors in Agriculture
+
+- Sociology: Auguste Comte
+- Statistics: R.A. Fisher
+- Economics: Adam Smith
+- Soil Science: V.V. Dokuchaev
+- Tillage: Jethro Tull
+- Green Revolution: Norman E Borlaug
+- Modern Agronomy: Peter De Crescent
+- Organic Farming: Rudolf Steiner
+
+- Dr. Norman E. Borlaug is the pioneer of Green Revolution and was awarded Nobel Peace Prize in 1970.
+- Rice, wheat and maize are cereal crops while buckwheat and amaranthus are pseudocereals.
+- Wheat and maize show hypogeal germination but soyabean and chickpea show epigeal germination.
+
+- Tree of Paradise/wisdom: Banana
+- King of Fruits/ Bathroom Fruit: Mango
+- Bitter taste of Bitter Gourd due to: Cucurbitacin/ Bitter Glucoside
+- Rice is semi - aquatic in nature.
+- Critical stage for irrigation in wheat is CRI
+- Cotton fiber is also known as White Gold.
+- Apple of tropics/Poor man's apple: Guava
+- Poor man's meat: Soyabean
+- Poor man's friend/ King of Vegetable: Potato
+- World's highest cereal production: Wheat
+- Nepal's highest cereal production: Rice
+- Queen of spice crops: Cardamom
+- King of spice: Black pepper
+- Queen of Flower: Gladiolus
+- King of flower: Dahlia
+- Butter fruit: Avocado
+- Queen of Beverage: Tea
+- King of Temperate fruit: Apple
+- Drosophila of crop plants: Maize
+- Vegetable meat: Cowpea
+
+**NPK Content of fertilizer**
+
+- Urea: 46%  Nitrogen
+- DAP(Diammonium Phosphate): 18% N, 46% Phosphorus
+- MoP(Muriate of Potash): 60% potash
+- SSP(Single Superphosphate): 16% P
+- DSP(Double Sugar Phosphate): 32% P
+- TSP(Triple Sugar Phosphate): 48% P
+- ZnSO4: 22-35% Zinc
+
+**Kishan call center**
+
+- Phone number: 1660-5652-999
+- Active hours: 10 AM - 4:30 PM
+
+- Goat is called poor man's cow.
+- Male adult of horse is stallion and female adult of horse is mare.
+- Heifer is young female cattle.
+- Young male poultry is cockrel and young female poultry is pullet.
+- Black gold: Buffalo
+- Yellow gold: colostrums milk
+- King of fodder: Elephant grass/Napier
+- Queen of fodder: Leucerne
+- Freshly drawn milk has the PH value in range of 6.5-6.7
+- Evening milk is higher in fat than morning milk
+- Amount of milk left in udder after normal milking is called residual milk.
+- Water content of milk is 87-88%
+- Gizzard in poultry is used grinding of food whereas proventiculus in poultry is the true stomach.
+- Abomasum is true stomach in ruminants.
+- Omasum is absent in camel and rumen is water storing sac.
+- Sweetness in milk is due to Lactose.
+- Milk holiday is the day when the dairy does not buy milk from the farmers.
+- Milk storage is done at $5^\circ C$.
+- 1 lit of milk can be synthesized by 500 lit. of blood circulation in body.
+- Milk is complete nutrient. It lacks only Fe.
+- Meat of calf is k/a veal.
+- Ear notching is the best identification method in pig.
+- Gall bladder is absent in horse.
+- Elephant has longest gestation period i.e. 18-23 months(624days)
+- Kavrepalanchowk is the highest milk producing district in Nepal.
+- Semen is stored in liquid Nitrogen in $-196^\circ C$; the process of storage is k/a Cryopreservation.
+
+Common animal diseases
+
+- Bacterial diseases: Anthrax, Brucellosis (Bang's disease), Black Quarter(Black leg), Haemorrhagic Septicaemia, Mastitis
+- Fungal diseases: Aspergillosis, Candidiasis, Ringworm
+- Protozoal diseases: Coccidiosis, Babasiosis
+- Viral diseases: Foot and Mouth disease, Swine fever(hog cholera), New castle disease, Marek's
+
+
+Common Poultry Diseases
+
+- New Castle Disease/Ranikhet
+- Mareck's Disease (MD)
+- Gumboro
+- Coccidiosis
+- Chronic Respiratory Disease (CRD)
+- Avian Influenza/Bird Flu- H5N1, H9N2

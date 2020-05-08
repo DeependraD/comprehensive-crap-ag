@@ -317,7 +317,7 @@ read_csv("./data/constitution_power_federation.csv", skip = 2) %>%
   separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>%
   mutate(SN = as.numeric(SN)) %>% 
   knitr::kable(caption = "List of power of federation of Nepal. (Schedule 5)", booktabs = TRUE, longtable = T, format = "latex") %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "35em")
 ```
 
@@ -327,7 +327,7 @@ read_csv("./data/constitution_power_province.csv", skip = 2) %>%
   separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>% 
   mutate(SN = as.numeric(SN)) %>% 
   knitr::kable(caption = "List of power of provinces of Nepal. (Schedule 6)", booktabs = TRUE, longtable = T, format = "latex") %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "35em")
 ```
 
@@ -337,7 +337,7 @@ read_csv("./data/constitution_power_province.csv", skip = 2) %>%
   separate(Topics, into = c("SN", "Topic"), sep = "(?<=[0-9]\\. )") %>% 
   mutate(SN = as.numeric(SN)) %>% 
   knitr::kable(caption = "List of common power of federation and provinces of Nepal. (Schedule 7)", booktabs = TRUE, longtable = T, format = "latex") %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "35em")
 ```
 
