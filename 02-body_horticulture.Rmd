@@ -154,7 +154,7 @@ Policy level and action oriented strategies that have been or could potentially 
   - Formulation of long-term commodities development plans with program wise investment plans and encouraging significant participation and investment of private sectors in promotion, processing and marketing of HHVCs.
   - Increased productivity of fruit proposed for ADS implementation period is from 10 to 15 Mt/ha
 
-## Litchi
+## Litchi cultivation
 
 **Taxonomy** 
 
@@ -270,13 +270,110 @@ General guidelines for performing riverbed farming:
   - Materials: Polythene bags, sheets, mulching materials
   - Agricultural seeds, chemical fertilizer, farmyard manure, compost, bio-pesticides, micronutrients.
 
-## Potato tuber storage systems
+## Potato cultivation 
+
+Potato ranks 5th in terms of area of cultivation (194115 ha) with the average annual production of 2691037 mt. The major potato growing districts are Kavre, Bara, Jhapa, Solukhumbu, Illam, Khotang, Kailali, Bardiya, Bhojpur, Makawanpur, Nuwakot, Rupandehi, etc.; the largest of all is the Kavrepalanchowk. Currently Kavre also hosts the potato superzone.
+
+Potato is advantageous from the health perspective to patients of high blood pressure, anaemia and gastritis as it contains highly digestible starch, protein and fat.
+
+The crop is native to South America. It is propagated by seeds and tubers (stolon). Eyes on potato are buds that develop on stem and leaves. Leaves are compound with opposite leaflets. Stem are green. Roots are shallow and extend only upto 2 feet. Flowers are 1 inch in diameter, corolla white or purple in color. The fruit type is berry but does not commonly develop. Seeds are similar to Mustard but are highly heterozygous.
+
+Varieties
+
+1. Kufri Jyoti: Medium maturing variety (110-120 days in hills and 100-110 days in mid-hills). It is resistant to late blight. Tubers are large, oval with white smooth skin. The crop has dormancy period of 6 weeks and yields on average 20-25 tons/ha.
+2. Kufri Sindhuri: Late maturing variety (110-130 days). Moderately resistant to early blight. Tubers are medium sized and round shape with red smooth skin. The tubers are dormant for about 8 weeks and on average their yield is 25-30 tons/ha.
+3. Dejire: Early variety (70-90 days). The plant is susceptible to blight. Tubers are medium sized, oval with smooth red color skin.
+4. Janak Dev: The cropping period is about 100-120 days with medium maturity duration. It is suited for all area -- Terai, midhills and highhills. The tuber is medium to large sized, red colored. The dormancy holds for 6-8 weeks and tuber yield is attainable upto 23 tons/ha.
+5. Khumal Seto-1: Medium term of maturing (100-120 days). Resistant to viral diseases. Round tubers, small and large size white. 6-8 weeks dormancy. Yield: 25 tons/ha.
+6. Khumal Rato-2: Medium maturing (100-120 days). Medium sized, round shape, smooth skin and light red color tuber. Average yield: 20-25 tons/ha. Resistant to Y-virus.
+7. Kufri Bahar: Medium maturing, large size, round shaped oval, white skin variety. Susceptible to all major diseases.
+
+Indian varieties: Kufri lamlima, Kufri chandramukhi, Local red round, Magnum bonum, up-to-date.
+
+```{r recommended-varieties}
+# potato varieties recommended in nepal "publicdata" repo.
+```
+
+**Climate**
+
+- Cool season, crop is moderately tolerant to frost. Germination occurs at $8^\circ C$ ideally.
+- Day temperature of $30-35^\circ C$ and night temperature of $20-25^\circ C$ is ideal for growth.
+- Tuber formation occurs at $18-20^\circ C$, ideally.
+- If temperature is >29 at night, no tuber formation occurs.
+
+**Soil and fertilizer**
+
+- Well drained sandy loam to clay loam soil rich in OM is optimal.
+- Ideal pH: 5-7
+- Alkaline soil leads to development of Scabies disease
+- 20-30 ton FYM per hectare
+- 220 kg N2, 140 kg P, 140 kg K, 90 kg CaO and 30 kg MgO
+- Potato is heavily fertilized as they have a high nutrient requirement and high gross value per unit area
+- Full dose of P, K and 1/2 N2 is applied during land preparation and remaining 1/2 N2 is applied during earthing up by side line or point dressing.
+
+```{r planting-time}
+dplyr::tribble(~"Planting season", ~"Harvesting month", 
+               "Terai (Sept-Oct)", "Feb", 
+               "Lower hills (Nov)", "March", 
+               "Mid hills (Aug-Nov)", "Nov-Feb", 
+               "High hills (Dec-Feb)", "April-May") %>% 
+  knitr::kable(caption = "Planting time of potato in different agro-ecological regions")
+```
+
+**Selection of seed**
+
+- Vegetatively propagated crop. Pure, healthy and disease free tubers are selected.
+- Seed treatment: Dip tuber in 0.2% solution of Captan or Dithane M-45 for 20-30 minutes to prevent attack of fungal disease.
+- To break dormancy, treat whole seed tubers with ethylene chlorohydrins at 3% for 72 hours. Then cut the tubers and dip in 1% solution of thiourea for one hour. Before planting, tubers are dried in shade.
+- Cutting the seed: Cut the large sized tubers with sterilized knife. During cutting, keep 2-3 healthy eyes on the cut piece. Average weight of cut piece should be 30-40 g. Small seed tubers are prone to decay.
+
+**Method of planting**
+
+1. Flat bed planting
+
+- Use of light sandy soil
+- Tubers are planted in very shallow furrow. This method requres two earthing up
+
+2. Furrow planting
+
+- Tubers are planted in furrows of 5-7 cm deep and adopted in areas having light sandy soil.
+
+3. Planting on ridges
+
+- Ridges of 30 cm height are made at 60 cm spacing and tubers are planted opposite on the ridges.
+
+**Seed rate and spacing**
+
+- Line to line spacing: 60-70 cm
+- Plant to plant distance: 25-30 cm
+- 40 g seed with 4 buds are preferred
+- 2.5 ton seed tubers are required to plant a hectare.
+
+**Irrigation**: Presowing/pre-emergence irrigation and second irrigation after 30 days (Crop water requirement: 300-636 kg).
+
+**Intercultural operation**
+
+- Weed management: At early stage, when plant is small, noe hand weeding and hoeing is helpful to reduce competition with weeds. When the plant is 10-15 cm, small growing weeds are controlled at the time of earthing.
+- Chemically, weeding is done by:
+  - Pendimethalin (0.5 kg/ha) as pre-planting or a pre-emergence spray
+  - Alachlor (1-1.5 kg/ha)
+  - Simazine (0.5 kg/ha) is used
+- Earhing up is done when the plant is 15-20 cm tall.
+
+**Harvesting**
+
+- Dehaulming (before 7-10 days of harvest) helps avoid insect vectors carrying virus.
+- Stop irrigation before 10-15 days of harvest.
+- Yield: 25-35 tons/ha
+
+**Disorder**
+
+- Greening: Sunlight exposure causes production of Solanine. Proper earthing up operation maintains tubers are not exposed to sunlight.
+- Black or hollow heart: When stored at high temperature ($35-40^\circ C$) the inner tissue breaks down and becomes dark grey or black which is due to lack of O2, accumulation of CO2 and high temperature. Control: Close spacing, removal of foliage and avoidance of overfertilization; Proper ventillation in storage and transport; Store tubers in cold storage at $2.2-3.3^\circ C$
 
 Q. Describe various types of storage systems used in Nepal to store potato tubers.
 
 A. $\longrightarrow$ By Samita!
-
-## True potato seed, scope and technology adoption improvement
 
 Q. Define True Potato Seed (TPS). Do you see its scope in supplementing the requirement of potato seeds in Nepal ? Is so, how can it be improved ?
 
@@ -285,10 +382,11 @@ A. $\longrightarrow$ Potatoes are most often propagated from vegetative tissues,
 A single plant may produce 50-100 berries and single berry contains about 150-200 seeds. TPS is mainly used to develop new potato cultivars and now gaining popularity to raise the commercial crops. About 100-150 g of seed is required to raise the crop in 1 hectare of land. 
 
 _Scope_: 
-  - Non-availability of good quality seed tuber, 
-  - High seed cost, 
-  - Virus infilteration in seed tubers causing degeneration of seed stocks 
-  - Problem of long distance transport of tuber seeds from seed producing areas 
+
+- Non-availability of good quality seed tuber, 
+- High seed cost, 
+- Virus infilteration in seed tubers causing degeneration of seed stocks 
+- Problem of long distance transport of tuber seeds from seed producing areas 
   
 All these constraints have led to the development of TPS technology of crop production. Further benefits TPS technology are:
 
@@ -311,7 +409,7 @@ readr::read_csv("./data/potato_seed_crop_production_specification.csv", skip = 1
 ```
 
 
-## What is PBS ? Differentiate PBS and TPS. How is PBS is produced in Potato ?
+Q. What is PBS ? Differentiate PBS and TPS. How is PBS is produced in Potato ?
 
 $\longrightarrow$ Pre-basic seed (PBS) potatoes are disease free potato minitubers produced by transplanting pathogen free in vitro potato plantlets under protected condition in aphid-proof glasshouse and/or screen house.
 
@@ -339,7 +437,37 @@ Since the technique used in producing PBS focuses on maintenance of asceptic env
 
 Since 1990, National Potato Research Program has been producing about 200,000 pre-basic seeds annually. So far, PBS of 19 different recommended and released potato cultivars has been produced. There cultivars have been tested for major potato viruses like PLRV, PVS, PVX, PVY, PVA and PVM.
 
-## Montly crop calendar
+**Raising of crops from transplanted seedlings**
+
+TPS is sown in nursery beds to produce seedlings. The best substrate for nursery beds is a mixture of 1:1 FYM and soil. Soak the seeds in water from 24 hours before sowing. TPS germinates well when night temperature drops to about $20^\circ C$ in the plains and shade is provided over nursery bed areas during day time. In plains the best sowing time is October.
+
+The seedlings raised in nursery can either be transplanted in field to produce aware/seed crop or alternatively allowed to tuberize in the nursery beds to produce small seedlings tubers which can be used for field planting next year. The method of raising the crop using small seedlings tubers produce in nursery bed is successful in all the potato growing regions of the country. Seedlings will be ready for transplanting in field in about 20-25 days of germination.
+
+The seedlings are planted at the distance of: 60 x 20, 60 x 15, 60 x 10 and 60 x 5. It is desirable that larger tubers are planted with sparser spacing.
+
+
+## Tomato production
+
+- Lycopersicon esculentum (2n = 24). It is a warm season crop.
+- Presence of lycopene causes development of red color in tomato. Orange color coloration is caused by Prolycopene.
+- The fruit is also known as poor man's apple.
+- Tomato is native to Tropical America.
+
+**Botany**
+
+- Herbaceous annual; Sexually propagated; Bisexual flower.
+- _L pimpinellifolium_ is wild tomato.
+- Self pollinated, tap rooted with berry fruit type.
+- The crop occurs in determinate and indeterminate variants. Determinate types are dwarf because the plant terminates into a flower bud (self toping/self pruning type). Indeterminate types are tall because the terminal portion of stem is growing and flower is produced at every third internode. Determinate types can be harvested 2-3 times but indeterminate types can be harvested much longer.
+
+**Varieties**
+
+Determinate: These are generally early type in bearing. Roma, NS-2535, NS-815, NS-719, NCL-1 etc.
+Indeterminate: They are mostly late bearing type. These varieties are suitable for home consumption or local market. Srijana, Nabin-2000, Marina, etc.
+
+- Srijana variety was developed from the cross of Female HRD-1 and Male HRD-17. It is recommeded for Midhills and Terai region. The plants are 4.5-5 m tall.
+
+## Monthly crop calendar
 
 - Baisakh
 

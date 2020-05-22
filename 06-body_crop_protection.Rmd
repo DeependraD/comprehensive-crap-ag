@@ -38,9 +38,11 @@ knitr::include_graphics("./images/Plasmopara_vitticola.jpg")
 
 The Bengal famine stroke Bengal province of British India during World war II. An estimated 2.1-3 million, out of a population of 60.3 million, died of starvation, malaria, or other diseases aggravated by malnutrition, population displacement and other causes. Affecting of winter rice with a severe outbreak of fungal brown spot disease ( _Helminthosporium oryzae_) is considered to have a major role in the exacerbation of famine besides, political and other causes, cyclone particularly.
 
-## Rust
+## Disease pests
 
-### Management
+### Rust
+
+**Management**
 
 Macrocyclic disease: _Puccinia graminis_ is a macrocyclic heteroecious fungus that causes wheat stem rust disease. The repeating stage in this fungus occurs on wheat and not the alternate host, barberry. The repeating stage allows the disease to persist in wheat even though the alternate host may be removed. Planting resistant crops is the ideal form of disease prevention, however, mutations can give rise to new strains of fungi that can overcome plant resistance. Although the disease cannot be stopped by removal of the alternate host, the life cycle is disrupted and the rate of mutation is decreased because of reduced genetic recombination. This allows resistance bred crops to remain effective for a longer period of time.
 
@@ -48,7 +50,7 @@ Demicyclic Disease: Because there is no repeating stage in the life cycle of dem
 
 Sulphur powder is known to stop spore germination. Fungicides such as Mancozeb and Triforine may help but may never eradicate the disease.
 
-### Common rust fungi in agriculture
+**Common rust fungi in agriculture**
 
 - _Hemileia vastatrix_ (Coffee rust); Primary host is coffee plant; unknown alternate host. Heteroecious
 - _Phakopsora meibomiae_ and _P. pachyrhizi_ (Soybean rust); Primary host is soybean and various legumes. Unknown alternate host. Heteroecious
@@ -134,8 +136,9 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
 ### Root knot nematode of Tomato, Brinjal and Lady's finger
 
 
+## Pesticides
 
-##
+### Chemical fungicides
 
 - A popular fungicide, generally used for seed treatment, called Carbendazim is available in commercial formualtion as KI-BESTIN (Carbendazim 50% WP).
   - The commercial seed treatment fungicide is composed of:
@@ -149,7 +152,7 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
   - It is manufactured by Kisan Agro Chemicals, Parsa, Birgunj, Nepal.
   - KI-BESTIN is a broad spectrum systemic fungicide useful as both spray and wetted powder form.
 
-## Biopesticides
+### Biopesticides
 
 - _Nisarga_
   - Active ingredient: _Trichoderma viridae_
@@ -178,9 +181,7 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
 - Nuclear polyhedrosis virus (NPV)
 - Granulosis virus (GVs)
 
-## Pathogens
-
-### Nematodes
+## Pathogenic Nematodes
 
 - Nematode is derived from the Greek words, "Nema" = thread/fibre, "toda" = worm.
 - In germany, there is a separate University of Nematology.
@@ -201,7 +202,7 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
   - 11 species of Longidorus transmit 10 NEPO virus
   - 14 species of Trichodorus transmit various strains of TOBRA virus: tobacco rattle and pea early browning
 
-Insect transmitted viruses
+**Insect transmitted viruses**
 
 ```{r insect-transmissed-viruses}
 
@@ -343,7 +344,7 @@ Importance:
 - Smell of fish
 - Crop rotaion for 2-3 years, Vitavex-200 2 g per kg seed treatment.
 
-## Major diseases of jackfruit
+### Major diseases of jackfruit
 
 1. Pink disease ( _Botryobasidium salmonicolor_)
 
@@ -430,7 +431,9 @@ Status of pesticide use in Nepal
     - PoPs: Aldrin, chlordane, DDT, Dialdrin, Eldrin, Heptachlor, Mirex, Toxaphene, HCB, PCB, Dioxyn, Furan, etc.
     - These pesticides require special treatment facility for disposal.
 
-## Major insects of rice
+## Crop insects
+
+### Major insects of rice
 
 1. Seed bed bettle, mole cricket, field cricket
 2. Borer
@@ -440,7 +443,7 @@ Status of pesticide use in Nepal
 6. Leaf roller
 7. Mealy bug
 
-## Major insects of wheat
+### Major insects of wheat
 
 1. Larvae of wireworm
 
@@ -458,9 +461,9 @@ Status of pesticide use in Nepal
 
 - Same as that for control of Maize stem borer
 
-## Major insects of tomato
+### Major insects of tomato
 
-### Leaf miner of tomato ( _Tuta absoluta_)
+#### Leaf miner of tomato ( _Tuta absoluta_)
 
 The tomato leafminer (aka. Tomato pinworm and South American tomato moth) is a species of moth in family Gelechiidae. _T. absoluta_ was originally described in 1917 by Meyrick as _Phthorimaea absoluta_. The pest was finally described under the genus Tuta as _T. absoluta_ by Povolny in 1994. In India, Maharashtra state tomato cultivation were affected in Nov 2016.
 
@@ -494,18 +497,18 @@ The pest mainly presents nocturnal habits, and adults usually remain hidden duri
 
 Crop damage should be monitored every two weeks. If noted abnormal minining in the leaf, with signs of mesophyll tissues being eaten and transparent veins exposed, suspect for presence of larvae of the pest. Tips of plant should show black massess, an indication of insect excreta. Fruits may show irregular strips of white coloration initially. In severe infestation, whole plant may appear as wilted. The larvae of Tuta will not enter diapause unless food is scarce. It is identifiable with characteristic pink colored body of 0.9 cm having half crescent rings like appearance in head.
 
-## Major insects of guava
+### Major insects of guava
 
 - Fruit fly ( _Dacus dorsalis_)
 - Green shield scale ( _Chloropulvinaria psidii_)
 - Mealy bugs ( _Ferrisia virgata_, _Plannococcus citri_)
 
-## Major insects of jackfruit
+### Major insects of jackfruit
 
 1. Shoot and fruit borer ( _Diaphania caesalis_)
 2. Giant mealy bug ( _Drosicha mangiferae_)
 
-## Major insects of litchi
+### Major insects of litchi
 
 1. Fruit borer ( _Cryptophlebia illepida_, _Rapala varuna_, _Deudorix epijarbas_, _Deudorix isocrates_)
 2. Fruit fly ( _Bactrocera dorsalis_)

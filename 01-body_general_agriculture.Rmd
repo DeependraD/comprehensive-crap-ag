@@ -392,6 +392,29 @@ Agriculture and Forestry University (AFU)
 - Limiting amino acid in Cereals are Lysine and threonine whereas limiting amino acid in legumes are methionine and tryptophan.
 - Stubble is the portion of stem that is left on the field during harvest.
 - Leguminous crop is considered as biological plough.
+- First certified organic commodity exported from Nepal: Coffee
+- Genetic dwarfism can be overcome by the use of Gibberelic Acid.
+- Peripneustic type (having spiracles in a row on each side of the body) respiratory system is found in Lepidoptera larvae.
+- Gilson's glands is found in order Trichopter.
+- Growth curve of kiwi is Triple sigmoid type.
+- Which produces cocoon in silkworm ? Pupa
+- Chroma refers to: Relative purity of color
+- Pointed gourd is commonly propagated through stem cutting.
+- Allophane is an amorphous to poorly crystalline hydrous aluminium silicate clay mineraloid. It is common in vocanic soil and typically forms under mildly acidic to neutral pH (5–7). Its structure has been debated, but it is similar to clay minerals and is composed of curved alumina octahedral and silica tetrahedral layers.
+- Horizon of maximum accumulation of Iron (Fe) and Aluminium oxides is B-horizon.
+- Spinach can hybridize with Swiss chard and Garden beet.
+- Soil with highest CEC is Vermiculite.
+- Dioecious species: Spinach, pointed gourd and yam.
+- Mo is available at slightly basic pH.
+- GA is flowering hormone of longday and chilling requiring plants.
+- Swelling of Smectite is more because of Mg binding.
+- Chinese cabbage can hybridize with Turnip and Broad leaf mustard.
+- Paclobutrazole is also known as anti GA hormone.
+- Color of semi-aerated iron containing soil is Yellow.
+- Sodicity is measured by SAR and ESP.
+- Chayote amongst all vegetables has the highest productivity.
+- Salt resistant crops: Sugarbeet, cotton, sweet potato.
+
 
 Contributors in Agriculture
 
@@ -478,7 +501,6 @@ Common animal diseases
 - Protozoal diseases: Coccidiosis, Babasiosis
 - Viral diseases: Foot and Mouth disease, Swine fever(hog cholera), New castle disease, Marek's
 
-
 Common Poultry Diseases
 
 - New Castle Disease/Ranikhet
@@ -487,3 +509,26 @@ Common Poultry Diseases
 - Coccidiosis
 - Chronic Respiratory Disease (CRD)
 - Avian Influenza/Bird Flu- H5N1, H9N2
+
+**Agriculture and child labor**
+
+According to the latest ILO estimates, at least 250 million children of between 5-14 years of age work in developing countries. Almost half of these children work on a full-time basis. The participation rates of children in economic activities in much higher in rural areas than in urban centres. Rural children, in particular girls, tend to start working at an early age. In Latin America and the Carribbean, out of 15 million children involved in the labor market, 56 percent work in agriculture sector from the age of 5 to 7 onwards. In some countries, children account for as much as 30 percent of the agricultural workforce. Most children work seven days a week and are paid less than the prevailing rates in their localities. They work long hours, and a very high proportion of these children are injured at work. Exposure to poor working conditions has serious repercussions on children's growth, development and health. The most common injuries include: cuts and wounds, eye infection, skin problems, fever, and headaches caused by excessive heat or by exposure to pesticides while working in agricultural fields.
+
+**Hazards in agriculture occupation**
+
+Despite the fact that certain developing countries have reached higher levels of economic development, nutrition and health are still the problem areas. This situation provokes a vicious circle of low productivity, low wages, malnutrition, ill-health and low working capacity. The interaction between poor living and working conditions determines a distinctive morbidity-mortality pattern among agricultural workers, which is due to the combination of malnutrition, general and occupational diseases, and complications arising from undiagnosed or untreated diseases. Low working capacity is closely related to workers' malnutrition and poor health. 
+
+Agriculture related hazards mostly include:
+
+1. Machinery such as tractors, trucks and harvestors, and cutting and piercing tools;
+2. Hazardous chemicals: Pesticides, fertilizers, antibiotics and other veterinarian products;
+3. Toxic or allergenic agents: Plants, flowers, dusts, animal waste, gloves, chrome, oils;
+4. Carcinogenic substances or agents: Certain pesticides such as arsenicals and phenoxy-acetic herbicides, UV radiations, parasitic diseases such as bilharziasis and facioliasis;
+5. Transmissible animal diseases: brucellosis, bovine tuberculosis, hydatid disease, tularaemia, rabies;
+6. Other infectious and parasitic diseases: leishmaniasis, bilharziasis, facioliasis, malaria, tetanus, mycosis;
+7. Confined spaces such as silos, pits, cellars and tanks;
+8. Noise and vibration;
+9. Ergonomic hazards: use of inadequate equipment and tools, unnatural body position or prolonged static postures, carrying of heavy loads, repetitive work, excessive long hours;
+10. Extreme temperatures and adverse weather conditions;
+11. Contact with wild and poisonous animals: insect, spider, scorpion, snake and certain wild mammals.
+

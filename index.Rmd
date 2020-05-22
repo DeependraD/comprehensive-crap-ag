@@ -38,9 +38,6 @@ knitr::write_bib(c(
 ), './bibliography/bib.bib')
 ```
 
+<!-- # Introduction -->
 
-# Introduction
-
-This is a reference manual for self purpose only.
-
-
+<!-- This is a reference manual for self purpose only. -->

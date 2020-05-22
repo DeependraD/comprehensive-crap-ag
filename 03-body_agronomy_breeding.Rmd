@@ -3,6 +3,14 @@
 
 ## Released, registered and denotified varieties overview
 
+```{r overview-seeds}
+readxl::read_xlsx("./data/varietal_notification_status.xlsx") %>% 
+  select(SN:Denotified) %>% 
+  knitr::kable(caption = "Overview of released, registered and denotified varieties of crops", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 3:7, width = c("6em", "6em", "10em", "10em", "6em"))
+```
+
 ## Recent addition to notified varieties
 
 ## Recently denotified varieties
@@ -157,6 +165,25 @@ Following activities are carried out in various stages of a crop are crucial for
   3. Source of seed verification
   4. Timing of inspector assignment
 
+### Certification standards
+
+```{r certification-standards-field}
+readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "field_standards") %>% 
+  knitr::kable(caption = "Field standards of standing crop for certification", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("5em", rep("6em", times = 8)))
+```
+
+
+```{r certification-standards-seed}
+readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>% 
+  knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("4em", rep("5em", times = 14))) %>% 
+  kableExtra::landscape()
+```
+
+
 ## Grain legumes
 
 - "Legume" comes from "legere" meaning "to gather".
@@ -176,9 +203,11 @@ Following activities are carried out in various stages of a crop are crucial for
 
 # Breeding
 
-## Why and how can a plant breeder increase genetic variability in crop plants ? Explain.
+## Miscellaneous
 
-Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
+Q. Why and how can a plant breeder increase genetic variability in crop plants ? Explain.
+
+$\longrightarrow$ Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
 
 As genetic variation is heritable and results in permanent change in phenotype (trait) of organism, it is the variability of interest of breeder, since breeder can predictably control it through selection. Moreover, genetic variation is detectable at molecular as well as gross morphological level but the variation due to environment cannot be. It is also possible for the source of variation to be channeled through carefully designed mating system.
 
@@ -207,9 +236,9 @@ Both of these breeding methods depend upon the number of allele variants per loc
 
 4. Mutagenesis: Also known as ultimate source of biological variation, mutation may arise spontaneously in nature of as a result of errors in cellular process such as DNA replication (or duplication) and by chromosomal abberations (deletion, duplication, inversion and translocation). Mutations may too be induced artificially by using mutagenic agents: irradiation and chemicals. Commonly occuring mutations are those for dwarfing and nutritional quality. However, most mutations being deleterious in nature are selected against. Although, recessive mutations may remain hidden until much later, when they are expressed in homozygous combination.
 
-## What are the different factors that affect the amount of natural crossing or selfing ? Explain about the mechanisms that enforce self and cross pollination in field crops.
+Q. What are the different factors that affect the amount of natural crossing or selfing ? Explain about the mechanisms that enforce self and cross pollination in field crops.
 
-Species differ in the degrees to which they self pollinate or cross pollinate. Mechanisms promoting self pollination or autogamy are:
+$\longrightarrow$ Species differ in the degrees to which they self pollinate or cross pollinate. Mechanisms promoting self pollination or autogamy are:
 
 1. Cliestomgamy (flowers fail to open), or flowers open only after pollination (chasmogamy)
 2. Close proximity of anthers to stigma

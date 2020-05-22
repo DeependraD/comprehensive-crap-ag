@@ -1,3 +1,5 @@
+# Public relation and political science
+
 ## Public policy
 
 Public policy is the process by which governments translate their political vision into programmes and actions to deliver outcomes.
@@ -6,9 +8,72 @@ In his book 'Advanced Introduction to Public Policy', B. Guy Peters defines publ
 
 Author B. Dente in his book 'Understanding Policy Decisions' explains public policy as "a set of actions that affect the solution of a policy problem, i.e. a dissatisfaction regarding a certain need, demand or opportunity for public intervention. Its quality is measured by the capacity to create public value."
 
-Public policy focuses on the decisions that create the outputs of a political system, such as transport policies, the management of a public health service, the administration of a system schooling and the organization of a defence force.
+Democracy itself is a public philosophy driven by rule-governed leaders desiring to fulfil public needs and rights. Leaders acting solely for private gain devoid of public concern lose legitimacy. Effective leaders concert actions by crafting policies and mobilising human and material resources to achieve public goals whether it is managing public security, reducing poverty, supplying foods, health, education, drinking water, energy, unsettled accounts, or control epidemics. Public policy focuses on the decisions that create the outputs of a political system, such as transport policies, the management of a public health service, the administration of a system schooling and the organization of a defence force. The public problems that influence public policy making can be of economic, social, or political nature.
 
 Rational choice theory, or now more frequently known as evidence-based policy, argues that focusing on scientific evidence, instead of history and culture, should guide our public policy making.
+
+Public policy making can be characterized as a dynamic, complex, and interactive system through which public problems are identified and resolved by creating new public policy or by reforming existing public policy.
+
+Public policy making is an exhausting and time-consuming 'policy cycle'. The basic stages of policy cycle are as follows;
+
+- a problem is identified, 
+- a policy response is formulated, 
+- the preferred solution is then selected and implemented, and 
+- finally the policy is evaluated. 
+
+However, the evaluation stage takes an in depth look into what can be learnt from the process as a whole, whether the original problem has been solved, and if not, what is recommended as an alternative course of action. Thus, returning policy makers to the very first step; the identification. 
+
+In public policy making, numerous individuals, corporations, non-profit organizations and interest groups compete and collaborate to influence policymakers to act in a particular way. The large set of actors in the public policy process, such as politicians, civil servants, lobbyists, domain experts, and industry or sector representatives, use a variety of tactics and tools to advance their aims.
+
+Public policies come from all governmental entities and at all levels: legislatures, courts, bureaucratic agencies, and executive offices at national, local and state levels. Many actors can be important in the public policy process, but government officials ultimately choose public policy in response to the public issue or problem at hand. In doing so, government officials are expected to meet public sector ethics and take the needs of all project stakeholders into account. It is however worth noting that what public policy is put forward can be influenced by the political stance of the party in power.
+
+Since societies have changed in the past decades, the public policy making system changed too. In the 2010s, public policy making is increasingly goal-oriented, aiming for measurable results and goals, and decision-centric, focusing on decisions that must be taken immediately. Furthermore, mass communications and technological changes such as the widespread availability of the Internet have caused the public policy system to become more complex and interconnected.
+
+**Framework for public policy formulation in Nepal**
+
+- Constitution of Nepal is the major source which provides guidance to define the frame of public policy formualtion in Nepal.
+- The provisions of preamable which are not subject to changes;
+- Provision of constitutional commissions;
+- Theory of separation of power; and
+- Guiding principles of the state have provided the government with a framework for policy formulation.
+
+**Factors influencing public policy formulation in Nepal**
+
+- Policy guidance as visualized and framed in the constitution
+- Political vision reflected in the election manifesto of political parties
+- Philosophical/ideological ground setting the political culture of the political parties
+- Public agencies and bureaucracy
+- Development partners' interests
+- Economic actors: market, private sectors and agencies of globalization
+- Key economic/fiscal (Ministry of Finance) and development planning (National Planning Commission) agencies
+- Pressure groups and minorities' stakeholders
+- Elites and community leaders
+- Voters, the common people
+- Professional institutions
+- Resources
+
+**Gaps in policy making**
+
+A set of inter-related issues that limit the effective policy process in Nepal are:
+
+- Defining policy problem properly is undermined to existing practice of individual decision making.
+- Limited professional capacity, knowledge, skill and integrity in policy making
+- Various pressure groups, I/NGOs and elites dominate over the public interest
+- Policy making based on personal perception and lack of institutional homework and preparation.
+- In many other instances, undue political influences also affect the policy process.
+- Practice of imitating policy substances from the other countries without realizing the different domestic needs and context.
+- Influenced by international agencies which may not reflect the welfare of the country.
+- Substantially influenced by the policy changes in India owing to the deepened political, economic, cultural relationship and open border.
+- Coordination and management of the stakeholders and neutral buereaucracy which are critical for the effective policy process are poor.
+- Inadequate communication of the policy provisions, ineffective monitoring and evaluation mechanisms limit effective policy management practice in Nepal.
+
+The failure of each public policy in Nepal to achieve the goals can be credited to policy makers’ skill on means, not ends, to link technical knowledge to desirable collective action. The uncanny challenges faced by Nepal at multi-level governance follow the same legacy breeding unequal effects on various spaces. Administrative blockage, political factionalism and social movements continue to strain the state’s outreach and exercise authority in society vital to the art of governance. Without a pluralistic policy consensus, improving the lives of Nepalis lingers.
+
+The ability of Nepali state to attain autonomous capacity to formulate public policy rests on social learning aptitude of policy makers and skill in cleaning the imported policies and ideologies so that they fit people’s knowledge, needs and legitimate institutions, such as community, local governance and parliament to musters their ownership and stake. So far Nepali policy makers have diagnosed the nation’s problem of progress by disciplinary angle of single-cause determinant - traditional society, landlocked position, dependency, intellectual marginalisation, centralisation of power, gender inequality, social hegemony, fatalism, population growth, migration of youth, economic liberalisation, aid conditionality, etc. and prescribed corresponding solution. Latest fads of number-crunching growth, structural adjustment and SDGs as shorthand for progress in no way provide guarantee for maximising welfare gains given dismal growth of labour market. Worse still, each policy discipline contests the knowledge of the other rather than engages in mutual learning to situate the policy in the Nepali context and duly reform it through social feedbacks.
+
+Public policy has now moved beyond 'rational choice' to impact assessment at various spheres—ecology, politics, society and security. It has offered judicious roles for Nepali state in infrastructure, public goods, justice and regulatory regime in which it can determine and enforce the rule of law and equip leaders to endorse binding measures of public policy on what works. Since majority of Nepalis stands between the capital and the labour, policy response for progress must capture the middle ground by accepting the power of global market to spur innovation, efficiency, competition, investment and productivity growth in a framework of welfare state.
+
+Obviously, progress can be achieved only if contribution of each actor fists into the polity, makes everyone connected through social inclusion which also minimises the losers. The stability of democratic polity rests on the supply of public goods. Nepal’s commitment to human rights, humanitarian laws and constitution prompt the leaders to formulate and coordinate policies, allow elected bodies to mediate them and balance the public, private and cooperative sectors based on their relative gain. The pursuit of justice of Nepalis spurs an intrinsic right to human dignity. An economy cannot grow without social support and ecological sustainability. Coping with change entails Nepalis lifelong learning of problems and formulation and execution of correct public policy. As their lives have become increasingly complex, only a free discourse of diverse options can help evolve a systemic view on public policy.
 
 \begin{questions}
 
@@ -18,7 +83,11 @@ Rational choice theory, or now more frequently known as evidence-based policy, a
 
 There are various definitions of the term \textit{good governance}. These definitions are based on normative assumptions about how decisions should be made within organizations and the functioning of formal and informal structures for implementing such decisions. The UN Commission on Human Rights identifies transparency, responsibility, accountability, participation, and responsiveness as key attributes of good governance. By linking good governance specifically to human rights and sustainable development, the UN explicitly recognizes that governance issues are global in nature and consequently require more nuanced and integrated approach. 
 
+Good governance is a process of executing a coherent governing plan for the nation based on the interests and priorities of the people. It purports to create a just society based on the principles of inclusiveness, liberty, equality and cooperation. Those in office, especially the elected ones, must represent the concerns, values and needs of the people and empower them through the realization of their basic rights, including the right to development and self-determination, by developing their access to markets, assets, goods and services and institutions. In the post-modern society, citizens' ability to articulate their needs to those in power lies in a transparent communication process. This process needs to provide them proper access to the institutions of governance, the media and expert policy dialogues that affect their lives. This is the way sovereign citizens can make the governing power transparent and accountable. Good governance equally needs self-discipline and integrity of those in power, the corporate sector and civil society.
+
 The Canadian International Development Agency defines good governance as "the exercise of ower by an organization (or government) in an effective, equitable, honest, transparent, and accountable way". This approach to governance focuses on how organizations are directed, controlled and shown to be acting responsibly.
+
+Good governance thrives on a rediscovery of common grounds on which the elite --political leaders, bureaucracy, businesspersons and ordinary citizens-- agree on the core public issues and shape their respective courses of action. In a polyglot population, the architecture of good governance rests on the sound legitimacy of governors which is possible only in a climate where there is broad representation of social interests and where a heritage of pride in social pluralism combines with an honor for culture, family, education and statecraft. A great degree of fairness during election and a broad-based representation of diverse sections of people are required to establish the legitimacy of leaders. It is this legitimacy that provides a kind of public order in the system. Yet, a system can only become stable if the society becomes wealthy enough to overcome the tumult arising out of various political, ideological, social and religious convictions. Modernization also requires a reform in the entrenched work ethics that deprecates manual labor. Such ethics comes from a feudal tenure system that fosters share tenancy and exploits the peasants and workers which prevents the transformation of a largely agrarian society into a modern and prosperous one.
 
 UNDP defined good governance as: Good governance is (the striving for) rule of law, transparency, responsiveness, participation, equity, effectiveness and efficiency, accountability and strategic vision in the exercise of policical, economic and administrative authority.
 
@@ -135,13 +204,90 @@ Finally, It should be acknowledged that public service personnels are the carrie
 
 Devolution is defined as the transfer of power from higher to lower units of any system. In its broad form devolution resembles decentralization, but is often regarded as being more complete and permanent than decentralization. Most frequently, devolution is used with reference to the transfer of responsibilities and authority from central to subnational (or regional to local) levels of government. The World Bank distinguishes between deconcentration, delegation, and devolution as three distinct modes of administrative decentralization of the redistribution of authority, responsibility, and financial resources for providing public services. The three types are differntiated according to the degree of transfer, with decentralization being the weakest form and delegation coming next. 
 
+The need for decentralization is not just an option for countries as a way of good governance. It is increasingly being necessitated by circumstances, both national and international. National pressure for decentralization stems from the openness of the polity that is being increasingly adopted throughout the world. In Nepal, political openness was institutionalized in 1990 by restoring multiparty rule. Real democracy requires the people themselves to be involved in shaping their own lives. And decentralization is the only means of devolving authority from the center to the local units of governance.
+
 Hence, devolution is regarded as the strongest mode of decentralization in the sense that powers are devolved to political entities with a separate corporate status, such as local or regional governments. That is why devolution is also referred to as political decentralization. 
 
 Motivations for devolution in that sense include the perception that devolved governments are best placed to develop and implement policies that exploit endogenous local or regional capabilities and are, hence, an appropriate reaction to increased competition between regions in a globalized economy.
 
 To qualify as a devolved system, the subnational levels of government should be legally established as institutions that exercise power within clearly recognizable geographical boundaries. Other criteria include democratic institutions such as popular elections and the existents of assemblies.
 
-Nepalese context ???
+Another aspect of the national imperative to decentralize for countries like Nepal comes from a combination of the country's geography and the status of its economic development. Since communication between the center and local governments is not as smooth as it is with countries having adequate infrastructure, one needs a measure of local autonomy to run local affairs, if only to avoid delays in decision-making. Similarly, the diversities existing among the people and places are not conducive for central governments to provide directives for everything. Even simple government tasks like running high school graduation examinations will need to keep the local circumstances in mind. It is not always possible for the center to run local operations. Hence, decentralization becomes an imperative.
+
+At a time when national economies are being pushed by global forces towards centralization of a global scale, there is a need for governments throughout the world to decentralize as much powers as they can so that each local unit can decide on how to protect its own resources from unfair exploitation by global developments and instead extract benefit from them. This means that even for the protection of national identity and national interests, central governments throughout the world will be forced to seek the help of local efforts. There is no alternative to decentralization, the only question is how to go about it.
+
+Decentralization goals were set by the National Planning Commission (NPC) since the Third Five-Year Plan (1964-69) to create a financial basis for people's participation. The Seventh plan also laid stress on formulation, implementation, maintenance and mobilization of local resources and talents. The Panchayat system had granted the local bodies taxation rights under Panchayat Development and Land Tax. The basic structure of the political economy-- social mobilization through local units and Back to the Village National Campaign, land reforms, modernization of health, education, agricultural, industrial and service sectors, development of transport and communication and the spatial and sectoral differentiation of the planning tradition, management and coordination system -- created by the Panchayat system laid down the socioeconomic base for development in Nepal.
+
+The Nepal's constitution of 1990 made powerful provisions for decentralization. First of all, it shifted the power from an all-powerful monarch to the citizens in favor of an open and democratic system of governance, multi-party polity, popular sovereignty, constitutional and human rights to the people and constitutional monarch. Two "nesting" rules of the Constitution governed the mandate of decentralization in Nepal. First, the Directive Principles and Policies of the State articulates that "conditions suitable to the enjoyment of the fruits of democracy through wider participation of the people in the governance of the country by way of decentralization, and to promote general welfare by making provisions for the protection and promotion of human rights, by maintaining tranquility and order in society" need to be maintained. Second, Article 46(C) stipulated that fifteen members, three from each of the Development Regions, will be elected to the Upper House of Parliament in accordance with law on the basis of the system of single transferable vote by an electoral college consisting of the Chief and Deputy Chief of the Village Development Committee (VDC) and municipality level local authorities and the chief, deputy chief and the members of the District Development Committee (DDC). These two provisions provided the constitutional legitimacy to local self-governance in Nepal.
+
+Decentralization policies appear more pronounced in the Ninth Five-Year Plan (1997-2002). It aimed to strengthen the local units to take the responsibility of formulating and executing local development plans by themselves. This is supposed to be achieved by institutionalizing local government, increasing people's participation in the mobilization and distribution of local resources, social and economic development of geographically disadvantaged areas, improvement, expansion and development of suitable local technology, entitlement of women, indigenous and backward communities of rural areas, enhancing the participation of local people for sustainable development and establishing technological and human development infrastructure in rural areas.
+
+Local self-governance in Nepal came at a time when the state was squeezing itself through an economic crisis and structural adjustment policies. A devolution of expanded responsibilities at such a time meant that the local units were left without the requisite authority and resources. Even then they were more concerned about autonomy than anything else. Local government federations, that represent the coalition of interests and are united for collective action, have argued for the application of "subsidiarity" in decision-making and favor an autonomous self-governance involving devolution. It seems to reflect that horizontal, locally-controlled organizations are instrumental in stocking interpersonal trust and social capital because of the proximity of people and their familiarity with each other and, consequently, better able to cooperate in development efforts.
+
+To unify all these Acts and to prepare a comprehensive framework for local self-governance, Prime Minister Sher Bahadur Deuba appointed a High Level Decentralization Coordination Committee (HLDCC) under his Chairmanship in late 1995. It identified several weaknesses in past practices, such as undefined scope and jurisdiction of local self-governance, overlapping laws, deficiency in institutional culture, lack of political determination, resource scarcity, absence of a mechanism to enforce civic accountability among the elected bodies and government officials, problems in the sustainability of development projects, dearth of planned development processes, flawed elections and organizational technique, etc. Similar problems were identified in the realms of coordination, monitoring and evaluation of development activities. (HMGN, 1996:29-34). Accordingly, a Bill was prepared by HLDCC to be presented in the Parliament. It was replaced in 1997 by the coalition government of UML, RPP and NSP led by Lokendra Bahadur Chand. This coalition government brought an ordinance to amend some laws relating to local bodies and local elections and initiated changes in the power, composition, representation and organizational set up of the LGIs. All these are included in a separate Local Governance Bill passed by the parliament on September 18, 1998. The promulgation of the Local Self-Governance Act (LSGA, 1999 and Rules 1999) thus provides a detailed framework for decentralization and constitutes a basis of good governance at the grassroots level.
+
+The first priority for the Nepalese government is to create a central level neutral institution of local federations and independent experts to build consensus on major development issues and to avoid policy weakness, policy instability and policy reversals. The second is establishment of effective institutions of political authority at the level of the state, polity and the government before social democratization, market reforms and power devolution can take place. The pulling of the collective strengths of the state, the market and civil society through an effective coordination mechanism is essential to make the power of the center effective and responsive. Constitutionalization of these forces including establishing a system of effective checks and balances and power separation is equally important to foster the democratic attributes of rule of law, transparency, accountability and equity. Only then can governance accomplish the needed virtuous circle (synergy) for development.
+
+\end{solution}
+
+\question Write short notes on:
+
+\begin{enumerate}
+\item Deconcentration
+\item Delegation
+\item Privatization
+\item Denationalization
+\item Deregulation
+\end{enumerate}
+
+\begin{solution}
+
+\textbf{Deconcentration}
+
+"merely involves the shifting of workload from central government ministry headquarters to staff located in offices outside of the national capital." (Rondinelli et al: 1989,76) Decentralization based on de-concentration does not allow the local units ample freedom to take initiatives and decisions without the consent of the central authority. But, it allows the delegation of certain financial and administrative decision-making powers to local authorities and people do not have to go to the capital city for every decision.
+
+\textbf{Delegation}
+
+"refers to a situation in which the central government transfers responsibility for
+decision-making and administration of public functions to local governments or semi-autonomous organizations that are not wholly controlled by the central government but are ultimately accountable to it" (Litvack, et al 1998: 4-6). Delegation of power thus implies granting of some authority and decision-making powers to local authorities. But central government retains the power to reverse the local decisions and can take these powers back. Local authorities are responsible to carry out only assigned functions. They do not have autonomous policy-making capacity. The delegation of power means the delegation of trust.
+
+\textbf{Privatization}
+
+Privatization "is the act of reducing the role of government, or increasing the role of the private sector, in an activity or in the ownership of assets." (Savas:1987, 89). It is widely contended that too much state intervention strangles the productive energies of the private sector. In many de-communized and authoritarian regimes, centralized planning contributed to a swelling bureaucracy and helped in sustaining the political status quo. Critics argue that privatization is intended to separate the economy from social control by granting industrialists and business classes autonomy from the state and society, has fostered different stages of development within the same state and has justified economic growth free from ethics and civic obligations. In nations like the United States, Canada, Brazil and Mexico and the newly industrialized countries of Asia, for example, privatization has produced a rapid decay of the public realm, an indiscriminate depredation of the public good and the maldistribution of market-driven benefits.
+
+\textbf{De-nationalization}
+
+Denationalization is a particular form of privatization that involves "selling to the private sector (or giving away to the public or the workers) government-owned enterprise or government-owned assets used in producing goods or services; by extension, this form of privatization also encompasses "demunicipalization', and other forms of "de-statification". (Savas, 1987: 89). The defenders of the free-market school of thought have a radical imagination. They imagine that self-help organizations, non-government organizations and private sectors will be able to initiate development only through the erosion of the re-distributive capacity of the welfare state. Besides this, they also favor the free play of market forces as a convenient strategy to empower individuals to build their own fate.
+
+Critics argue that the mobility of capital, technology and information across borders has not only challenged the coherence of democratic governance but also pointed to the withering human values and the very social fabric of democratic accountability. The cost of the actual decline in real wages, job layoffs, the widening gulf between the rich and the poor and de-coupling the fate of the workers from corporate profits has been enormous. In other words, structural adjustment of only the poor people is taking place which, by implication, is causing a democratic deficit. The belief in the capability of market-based transactions to solve all problems, including social ones, has fostered the most narrowly profit-oriented definition of rationality.
+
+\textbf{Deregulation}
+
+"franchises eliminating other price control and entry barriers in order to permit the market to respond to peoples' needs"(Savas, 1989: 89). The reason for deregulation is that bureaucratic control over policy breeds bribery, corruption, commission and patronage and impedes economic growth. Deregulation of labor markets and a reform in the tax structure might induce external investments but these investments must be weighed against the unintended effects in social sector activities, especially the ecology, education, health and welfare. Creating a flexible environment in business and excessive extraction of natural resources for export in the process of becoming market-friendly make the majority of the poor even more deprived of a sustainable livelihood. 
+
+Its critics, therefore, argue that without a proper coordination the people of developing countries suffer badly owing to their smaller competitive advantage. They thus remain vulnerable to external market fluctuations. Therefore, cutting of tariffs, privatization, opening the economy to foreign companies and total denationalization of development subvert the various policy-oriented issues including monetary and fiscal policies, expenditure and pricing. Some degree of central control is, therefore, essential to keep various societal elements in balance (such as defense, foreign policy, banking and the social sectors, etc.) and to prevent the possibility of anarchy.
+
+\textbf{Debureaucratization}
+
+The notion of 'downsizing the state,' to create private opportunity and personal responsibility in all the realms of human life provides the rationale for cutting down the size of the bureaucracy. De-bureaucratization also encompasses the reduction of the role of the central government in many areas of the national economy (Dahal, 1996). It should also oppose the power of large corporations, if they have a monopoly. Debureaucratization pushes for deregulating the economy in an effort to promote incentives, competition, efficiency, transparency and accountability. Essentially, a bureaucratic state is identified by its techniques of ruling, regulating and governing the polity, economy and society through the use of a bureaucracy. Since bureaucratic forms of administration have proved unsuccessful in large-scale organizations, owing to their hierarchy, chain of command, status-oriented role, over-regulation, and technocracy-based culture, it impedes the process of economic growth, innovation and development.
+
+In order to push for a Weberian type of 'legal-rational' bureaucracy, efficient enough to innovate, adapt, and orient itself towards a goal, rational choice theories advocate 'de- bureaucratization' of the development and governance processes and rational control of the environment. In developing countries, in general, and Nepal, in particular, political democracy followed a series of economic reforms. The policy imperative of de-bureaucratization to give a sufficient degree of freedom to private entrepreneurs had thus already been realized before the multiparty polity was ushered in. Neoclassical economists view that bureaucracy has its own autonomous interests which may neither coincide with democracy nor development. Liberal and Marxist theorists reveal that bureaucracy represents the essence of a state, and the state, in turn "represents an aggregation of private interests in which public policy is but the outcome of a pluralistic class struggle among interest groups." (Gilpin: 1975,28)
+
+Bureaucracy needs to be reinvented to make it efficient, people-centered and fair. The Weberian type of legal-rational bureaucracy worked well during the agricultural and industrial revolutions when people worked with hands, rather than brains. It provided job security, economic stability, infrastructure development and social justice. But, in the information society of today, competitive market pressures have put the hierarchy-laden bureaucracy under duress rendering it increasingly difficult to function. An information society requires flexible and adaptable institutions that can offer high quality goods and services to the people. "It demands institutions that are responsive to their customers, offering choices of non-standardized services; that lead by persuasion and being inventive rather than commands; that give their employees a sense of meaning and control, even ownership. It demands institutions that empower citizens rather than simply serving them." (Osborne & Gaebler: 1992,15)
+
+\end{solution}
+
+\question What is the relationship between decentralization and good governance ?
+
+\begin{solution}
+
+Good governance and decentralization are inextricably linked in today’s Nepalese context. Rational allocation of decision-making is central not only to the efficient operation of a democratic polity but also to prevent an overburden of the decision-making load on a particular level of governance to its breakpoint and disintegration. Management efficiency cannot be had without a substantial devolution of central power, responsibilities and resources to sub-national units of government. It also enlarges the area for decision-making freeing the grassroots from the straitjacket of central directives. With a major constraint to the realization of the common people's aspirations gone, a wider space for people's representation and participation from below becomes available. Any complex society requires a diverse, heterogeneous and multitudinous decision making structure to carry out its multiple tasks in a coherent, explicit and predictable manner.
+
+Apart from the moral imperative to work for greater democracy, there is also a political directive to decentralize government. The ongoing process of globalization and the expanding participation of people have overwhelmed the power of the central government to decide and act swiftly and efficiently. New conditionalities of foreign aid focus on people's preference and priorities, ownership, equity and participation in policies, institutions and processes in policy making. In other words, the central government is under greater pressure today than in the past to shift some of its powers to local units of self-governance--a governance that can become a workshop for citizen participation, community building, leadership development, social mobilization, conflict resolution and economic, political and social development.
+
+It will prove to be a difficult process given the centralization tendencies not only of national politics and policy but also of international pressures from global centers of finance and multilateral centers of development policy. Apart from that are regional obligations of the state that make the task of decentralization all the more difficult, but even more necessary.
+
+
 
 \end{solution}
 

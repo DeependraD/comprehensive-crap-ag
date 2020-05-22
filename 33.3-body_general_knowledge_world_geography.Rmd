@@ -1,6 +1,18 @@
+# World geography
+
 ## Some countries, currencies and their capitals
 
+## Water bodies
 
+### Rivers
+
+**Biggest**
+
+https://en.wikipedia.org/wiki/List_of_rivers_by_discharge
+
+**Longest**
+
+https://en.wikipedia.org/wiki/List_of_rivers_by_length
 
 ## Strait
 
