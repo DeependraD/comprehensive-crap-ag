@@ -1,0 +1,6 @@
+Package: placeholder
+Type: Book
+Title: Comprehensive Crap Guide
+Version: 0.0.1
+Imports: bookdown
+Remotes: deependrad/comprehensive_crap_guide

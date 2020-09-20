@@ -6,9 +6,9 @@
 ```{r overview-seeds}
 readxl::read_xlsx("./data/varietal_notification_status.xlsx") %>% 
   select(SN:Denotified) %>% 
-  knitr::kable(caption = "Overview of released, registered and denotified varieties of crops", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 3:7, width = c("6em", "6em", "10em", "10em", "6em"))
+  knitr::kable(caption = "Overview of released, registered and denotified varieties of crops", booktabs = TRUE, longtable = TRUE, col.names = c("SN", "Crop", "Released", "Registration", "Total number (as of 2074-12-12)", "Total number (as of 2075-08-24)", "Denotified")) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:7, width = c("6em", "5em", "5em", "8em", "8em", "6em"))
 ```
 
 ## Recent addition to notified varieties
@@ -16,53 +16,7 @@ readxl::read_xlsx("./data/varietal_notification_status.xlsx") %>%
 ## Recently denotified varieties
 
 - For a more complete listing, refer to publicdata repository for the [list of denotified varieties](https://raw.githubusercontent.com/DeependraD/publicdata/master/crop_varieties/denotified_varieties.csv).
-
-<!-- - Paddy: -->
-<!--   - IR-8 -->
-<!--   - IR-20 -->
-<!--   - IR-22 -->
-<!--   - IR-24 -->
-<!--   - Jaya -->
-<!--   - Khajura-2 -->
-<!--   - Barkhe-2 -->
-<!--   - Mallika -->
-<!--   - Candina -->
-<!--   - Laxmi -->
-<!--   - Durga -->
-<!--   - Parwanipur-1 -->
-
-<!-- - Wheat: -->
-<!--   - NL-30 -->
-<!--   - Nepal 251 -->
-<!--   - Lerma Roho 64 -->
-<!--   - Lumbini -->
-<!--   - S 331 -->
-<!--   - Siddartha -->
-<!--   - Pitik 62 -->
-<!--   - Vaskar -->
-<!--   - Binayak -->
-<!--   - HD-1982 -->
-<!--   - Annapurna 2 -->
-<!--   - Kalyan Sona -->
-<!--   - Triveni -->
-
-<!-- - Maize: -->
-<!--   - Janaki Seto -->
-<!--   - Kakani Yellow -->
-<!--   - Rampur Yellow -->
-<!--   - Makalu 2 -->
-<!--   - Sarlahi Seto -->
-<!--   - Hetauda Composite -->
-<!--   - Rampur 1 -->
-
-<!-- - Chickpea: -->
-<!--   - Trishul -->
-
-<!-- - Soybean: -->
-<!--   - Hill -->
-
-<!-- - Mustard: -->
-<!--   - Type-9 -->
+- Also the [Seed Quality Control Centre](http://sqcc.gov.np/en) is the authentic government body that routinely updates by enlisting crop variety database and publishing seed related information.
 
 ## Varietal description of some common rice varieties
 
@@ -107,9 +61,7 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
   - Cauliflower: Black rot, Alternaria leaf spot
 
 ```{r number-of-seed-per-ten-g}
-require(tidyverse)
-
-tribble(~"Crop", ~"Number of seeds", 
+tibble::tribble(~"Crop", ~"Number of seeds", 
         "Carrot", 8280, 
         "Chinese cabbage", 6480,
         "Turnip", 5400, 
@@ -131,9 +83,34 @@ tribble(~"Crop", ~"Number of seeds",
   kableExtra::kable_styling(latex_options = "striped")
 ```
 
-## Seed certification system
+### Seed certification system
 
 - Seed act was first enacted in 2045 BS. Since then it's first amendment came into being in 2064.
+- Organized seed production program intitiated in Nepal in 1973 (Wheat)
+- 90\% of the seeds are supplied through informal sector (SQCC, 2011).
+- Seed replacement rate of cereals: 9.75\% (SQCC, 2011)
+- SRR for vegetable crops was as high as 66% in 2009 (NSV)
+- Establishment of agriculture input corporation: 1974
+- In 1960, High yielding variety of wheat Lerma-52 was released.
+- In 1962, Seed testing laboratory was established under Agronomy Division, Khumaltar.
+- In 1964, Central Seed Lab of Nepal was designated membership with International Seed Testing Association (ISTA).
+- In 1966, Seed testing laboratory moved to Agri-Botany Division.
+- In 1966, Rice variety CH-45 was released.
+- In 1974, AIC established under Corporation Act, 1965.
+- In 1980, Seed production and input storated project (SPISP, USAID) launched
+- In 1982, Seed technology and improvement programme
+- In 1984, Central seed science and technology division established
+- In 1988, Seed act enacted
+- In 1997, National seed policy approved
+- In 1998, Seed production guidelines published
+- In 2001, Seed quality control center established
+- In 2002, National seed company limited established
+- In 2010, Seed science and technology division revived as central disciplinary division of seed in NARC
+- In 2013, Promulgation of seed regulation, 2013
+- In 2004, First hybrid of maize -- Gaurav, was officially released.
+- In 2010, First hybrid of tomato -- Srijana, was registered
+- Upto 2010, 231 hybrids were registered for cultivation in Nepal.
+
 
 Two step certification/authentication system is practiced in Nepal:
 
@@ -171,17 +148,184 @@ Following activities are carried out in various stages of a crop are crucial for
 readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "field_standards") %>% 
   knitr::kable(caption = "Field standards of standing crop for certification", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:9, width = c("5em", rep("6em", times = 8)))
-```
-
-
-```{r certification-standards-seed}
-readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>% 
-  knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:9, width = c("4em", rep("5em", times = 14))) %>% 
+  kableExtra::column_spec(column = 1:9, width = c("8em", rep("6em", times = 8))) %>% 
   kableExtra::landscape()
 ```
+
+\blandscape
+
+```{r certification-standards-seed}
+readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>%
+  select(1:9) %>% 
+  knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("4em", rep("5em", times = 14)))
+
+# kableExtra::landscape(margin = c("1cm", "1cm", "1cm", "1cm"))
+
+readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>% 
+  select(1,10:15) %>% 
+  knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("4em", rep("6em", times = 14)))
+```
+
+\elandscape
+
+### Seed production: Constraints
+
+1. Climatic and edhapic factors:
+- Subtropical type climate range ($26^\circ 22'' - 30^\circ 27''$ N).
+- Mean daily temperature: $27-28^\circ C$ during summer and $17-18^\circ C$ during winter.
+- 750-2250 mm annual rainfall, large interannual variability, frequent drought, unimodal rainfall distribution
+- fragile ecosystem, remoteness, extensive soil mining
+
+2. Weeds
+
+3. Market and trade
+- Indian seed market
+- Price instability
+
+4. Agronomical
+- Seed treatment, seed availability, knowledge of good production package, irrigation facility, fertilizer insufficiency/unavailability, haphazard use of chemical fertilizer.
+
+5. Socio-economic
+- Government policy does not prioritize local production.
+- Devalued currency and price instability
+- Tragedy of free trade policy
+- Infrastructure drudgery
+- Poor technology adoption
+- Low extension workers: farmer ratio
+- Government budget allocation and planning for agriculture showing gaps
+
+6. Pests and diseases
+- Upto 80% loss due downy mildew in Maize.
+
+#### Insects and diseases of major crops
+
+```{r}
+tibble::tribble(
+  ~"Crop", ~"Major insects", ~"Major disease",
+  "Rice", "Rice bug, rice hispa, yellow stem borer, stripped stem borer, rice gall midge, mole cricket, plant hopper", "Bacterial blight (Xanthomonas oryzae), Blast (Pyricularia oryzae), False smut (Ustilaginoides virens), Brown leaf spot (Helminthosporium oryzae)", 
+  "Wheat", "Armyworm, cutworm, shoot fly, stem borer, termites", "Leaf spots (Helminthosporium spp), rust, leaf streak (Xanthomonas spp), loose smut", 
+  "Maize", "Stalk borer, shoot fly, cutworm, jassid, armyworm", "Rust, leaf blight (Helminthosporium maydis), smut (Specealothica reliana)", 
+  "Barley", "Green bug, corn sawfly, fruitfly, wheat bulb fly", "Barley yellow dwarf virus, powdery mildew (Erysiphe graminis sp. hordii), Net blotch (Helminthosporium sativum)"
+) %>% 
+  knitr::kable(caption = "Major disease and insect pests of major cultivated crops in Nepal", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position")) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("12em", "12em"))
+```
+
+7. Other factors
+- Poor education and low literacy rate
+- Customary use of conventional tools; lack of mechanization
+- Improper finance
+- Storage facilities
+
+### Scope of seed production in Nepal
+
+- Climate variability
+- More demand and less supply of seed and seed materials
+- Rapid expansion of road and urban infrastructure
+- Extensive reach of irrigation projects
+- Development of seed enterprises
+- Employment opportunities
+- Seed exporting opportunities
+- Increaseing productivity of cereal and legume crops
+
+## Seed production
+
+- Sampling of the variety to btian nucleus seed
+- Not more than 15 new varieties in one crop at station in one year
+
+- Seeding breeder's stock: 1.2 ha for Wheat, 3 ha for Rice (transplanted)
+- Roughing should be done before flowering.
+- Purity: 99.9% for breeder's seed.
+
+### Seed production of Oilseed crops
+
+
+```{r oilseed-sowing}
+tibble::tribble(
+  ~"Crops", ~"Time of sowing", 
+  "Rapeseed and mustard", "Mid September - Mid October", 
+  "Groundnut", "Mid June - 1st Week of July", 
+  "Sesamum", "First week of June - First week of July", 
+  "Sunflower", "Rainy, 1-15 July; Spring, 1-15 March", 
+  "Niger", "Mid July (June-August)", 
+  "Linseed", "First week of October - Mid November"
+  ) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Time of sowing (season) of various oilseed crops") %>% 
+  kableExtra::kable_styling(position = "center")
+```
+
+```{r oilseed-rate-spacing}
+tibble::tribble(
+  ~"Crop", ~"Seed rate (kg/ha)", ~"Spacing (cm)", 
+  "Rapeseed and mustard", "5-8", "30 x 7.5 - 10", 
+  "Groundnut", "Spreading type: 60-80; Bunchy type: 80-100", "45-60 x 10-15; 30 x 10 - 15", 
+  "Sesamum", "2.5-5.5", "30-45 x 15-22", 
+  "Sunflower", "8-10", "60 x 20", 
+  "Niger", "6-8", "30 x 15", 
+  "Linseed", "30-35", "22-30 x 5-6"
+)
+```
+
+```{r oilseed-fertilization-yield}
+tibble::tribble(
+  ~"Crop", ~"NPK (kg/ha)", ~"Seed yield (qtl/ha)", 
+  "Rapeseed and mustard", "60:40:20", "15-20", 
+  "Groundnut", "20-40:50-60:20-40", "15-20", 
+  "Sesamum", "30:60:30", "2-6", 
+  "Sunflower", "60-80:40-60:20-40", "15", 
+  "Niger", "20:20:10", "3-4", 
+  "Linseed", "50:40:30", "10-19"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Fertilizer recommendation and seed yield of oilseed crops")
+```
+
+### Sugarcane
+
+- Area cultivated: 58,101 ha
+- Production: 2354412 tons
+- Productivity: 40.52 tons/ha
+
+**Isolation**
+
+- 5 m all around from sugarcane field.
+- Time of planting;
+  - Mainly October and Spring planting
+  - Seed crop harvest: 8-10 months in tropics, 10-12 months in sub-tropics
+
+**Field inspection**
+
+- 1st inspection: 2 months of planting
+- 2nd inspection: 2 months before harvest
+
+**Harvest and seed yield**: 40-60 tons/ha
+
+### Cotton
+
+- Area cultivated: 100 ha
+- Production: 59 tons (2008/09)
+- Productivity: 0.59 tons/ha
+- Variety: Tamcot-SP-37 released upto 2010
+
+**Isolation requirements**
+
+- Foundation seed: 50 m
+- Certified seed: 25 m
+- It is commonly self pollinated crop, but natural cross-pollination occurs.
+  - 10-50% in _G. hirsutum_
+  - 1-2% in _G. arborum_
+  - 1-5% in _G. herbaceum_
+  - 5-10% in _G. barbadense_
+  
+- Time of sowing: May-June
+- Seed rate: 15-25 kg/ha (American type), 12-16 kg/ha (Desi type)
+- Fertilizer: 100:50:50 kg NPK kg/ha
+- Inspection: Before anthesis and at full flowering
+- Seed yield: 300-600 kg/ha
 
 
 ## Grain legumes
@@ -202,6 +346,33 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_s
   - 2.03-2.09 in pulses/oilseeds
 
 # Breeding
+
+## Modes of reproduction
+
+### Gametophyte
+
+- Fertilization requires Nicking to occur.
+- Perfect, complete, monoecious/dioecious flower types.
+- Male gametophyte:
+  - Each anther is bilobed (has two pollen sacs)
+  - Pollen sac (microsporangium) is filled with number of large sized cells called sporogenous cells or microsporocytes.
+  - Microsporocytes produce microspore mother cells by mitotic division.
+  - Microspore mother cell or pollen mother cells undergo meiotic division to produce microspores at the end of second division.
+  - Anther contains exine, intine, generative nucleus and vegetative nucleus.
+- Female gametophyte:
+  - Within ovary, starts as small outgrowth (tiny knob) within nucellus.
+  - Nucellus is multilayered main body of ovule which encloses one or two protective layers called integuments, except for a small pore at one end. Integuments are outer and inner, outer layer eventually becomes testa.
+  - Developing ovule attached to placenta by funiculus, scar called hilium forms after detachment.
+  
+**Agents of pollination**
+
+- Wind/anemophily: Maize, oats, coconut palm, cannabis, etc.
+- Water/hydrophily: Hydrilla, zostera marina, etc.
+- Insect/entomophily: Mustard
+- Bird/ornithophily: Red silk cotton, bottle brush, etc.
+- Bat pollination/chiropterophily: Adansonia
+
+**Endosperm development**
 
 ## Miscellaneous
 
