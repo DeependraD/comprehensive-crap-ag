@@ -1,11 +1,29 @@
 language: r
-cache: packages
+r: release
+cache:
+    directories:
+        - $HOME/.local/share/renv
+        - $TRAVIS_BUILD_DIR/renv/library
+    packages: true
 pandoc_version: 2.9.2.1
+
+env:
+  global:
+    - RENV_CONFIG_REPOS_OVERRIDE=https://cloud.r-project.org
+
+repos:
+  CRAN: https://cloud.r-project.org
+  ropensci: http://packages.ropensci.org
 
 addons:
   apt:
     packages:
     - ghostscript
+    - libxml2-dev
+
+install:
+  - Rscript -e "if (!requireNamespace('renv', quietly = TRUE)) install.packages('renv')"
+  - Rscript -e "renv::restore()"
 
 before_script:
   - chmod +x ./_build.sh
@@ -14,3 +32,4 @@ before_script:
 script:
   - ./_build.sh
   - ./_deploy.sh
+  # - Rscript -e '<your-build-action>'

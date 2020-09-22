@@ -28,7 +28,7 @@ options(knitr.kable.NA = "", digits = 3, knitr.table.format = "latex")
 options(kableExtra.latex.load_packages = FALSE)
 require(kableExtra)
 require(tidyverse)
-theme_set(theme_bw())
+ggplot2::theme_set(theme_bw())
 ```
 
 ```{r include=FALSE}
