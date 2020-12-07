@@ -9,6 +9,15 @@
 - Agriculture program broadcast over radio was stopped for a few years and later resumed back in 2023 Mangsir 20.
 - In group approach of extension is used in convincing a farmer to use a technology when s/he has been made aware of it through mass media approach.
 
+## Millennium development goals (MDG)
+
+Millennium Development Goals (MDG) Progress Report (NPC, 2010) stated that the poverty rate has decreased, a reduction in the population suffering chronic food insecurity, and reduced unemployment rates, and there is a positive trend towards gender equality as indicated by a balanced enrollment of girls and boys in primary schools. The Report notes there has been increased allocation of public resources in favor of marginalized groups in remote areas, and greater attention has been given to environmental conservation and adaptation to climate change. The policy environment for achieving most of the MDG targets seems favorable with the Interim Constitution of Nepal 2063 (2007) and its subsequent laws emphasizing inclusive, participatory and decentralized governance.
+
+```{r}
+# readxl::read_xlsx("./data/millineum_development_goals.xlsx") # this needs to be filled
+```
+
+
 ## Periodic planning
 
 - The nineth plan considered poverty reduction and other development goals. The main target of this plan was to reduce the headcount poverty in the headcount poverty index from as high as 42% to 32%, 23%, 15% and 10 by 2002, 2007, 2012 and 2017, respectively. However, it could not be realized as the poverty rate in 2011 was 25%. 
@@ -18,7 +27,7 @@
 
 ## National planning commission
 
-Introduction & History
+Introduction and History
 
 The National Planning Commission (NPC) is the specialised and apex advisory body of the Government of Nepal for formulating a national vision, development policy, periodic plans and sectoral policies for overall development of the nation.
  
@@ -73,25 +82,6 @@ After the historic restoration of multiparty democracy in 1990, the newly electe
   D. Manpower development
   E. Development and promotion of auxillary industries
 
-## 14th plan (FY: 2073/74-2075/76)
-
-- Recently proposed projects: 13
-- 21.6% of the population is below poverty line by the end of 13th plan
-
-```{r forteenth-periodic-plan}
-read_csv("./data/periodic_plans.csv", skip = 1) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Goals and achievements of 13th periodic plan (2073/74-75/76) for selected indicators") %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1, width = "18em")
-```
-
-- Gross national income in 13th periodic plan was expected to rise by 6.0 percentage, however by 2070/71 it was 5.72%, in 2071.72 2.32% and in 2072/73 it remained 0.77%. Hence resulting in average economic growth of 2.92%.
-- There was a projection for an increase in 4.5% in agriculture sector, however, in years 2070/71, 71/72 and 72/73 respectively, 4.55%, 0.81% and 1.33% growth were achived. Hence resulting in average growth of 2.22%
-  - Food grain production was projected to reach 1,08,81,000 mt annually. However at the second year of the plan only 92,66,000 mt were realized.
-  - There was an estimation of 12,60,000 mt production of fruits. But only 11,86,000 mt were produced.
-  - There was an estimation of 36,00,000 mt production of vegetables. However, 36,23,000 mt were produced of it, surpassing the set target.
-
-
 ## National agricultural policy, 2004
 
 Vision
@@ -102,7 +92,7 @@ Objectives
 
 Broad
 
-To ensure food security and poverty alleviaion by achieving a high and sustainable economic growth through commercial and competative farming system:
+- To ensure food security and poverty alleviaion by achieving a high and sustainable economic growth through commercial and competative farming system.
 
 Specific
 
@@ -213,6 +203,74 @@ Objective 5
   3. Concerned ministries shall implement this policy on their related sectors
     - NADC to monitor the implementation on national level
     - Strategies, programs and responsible bodies of related matters may be implemented by concerned ministries upon approval.
+
+## Medium term expenditure framework (MTEF)
+
+Recognizing the fiscal deterioration and the need to revise the Tenth Plan accordingly, the Government initiated the preparation in parallel of a Medium Term Expenditure Framework (MTEF) in late 2001. The key objective of the MTEF was to begin to implement the Tenth Plan from the beginning of the fiscal year 2002/03, without waiting for the formal finalization of the Plan. Accordingly, the key projects/programs and activities that are considered essential for achieving the Tenth Plan's poverty reduction goals and their resource requirements for the next three years were to be identified, and were to be given priority in terms of budget allocations in the 2002/03 budget. Additional considerations guiding the MTEF, in view of the fragility of the fiscal situation, were: (i) How to streamline the budget which was already overextended well beyond resource availability, with over 600 ongoing activities/budget lines ? (ii) How to protect the Tenth Plan's key priorities in the event of further shortfalls in resource availability ? and (iii) How to ensure that the resources allocated and released for priority activities would be effectively utilized? The MTEF was expected to be the principal instrument for operationalizing the Tenth Plan, by prioritizing the proposed Plan activities according to the changing resource situation, and firmly linking the annual budget process and the Plan.
+
+Thus, a three year MTEF was prepared in early 2002 by virtually the same line ministry teams responsible for Tenth Plan preparation, using similar methodology for ranking and prioritizing activities, (but with a sharper focus on implementability, short term financing needs and results). On the basis of the MTEF, (i) the 2002/03 development budget was initially set at a significantly lower level -- Rs. 38 billion, compared to Rs. 50 billion in the 2001/02 budget; and the number of budget lines were reduced from over 600 to 430. (ii) Even more importantly, all activities were classified into three groups according to their priority (P1being the highest priority and P3 being the lowest); and (iii) The principle was established that the priority classification would be strictly followed in releasing funds for development activities. Thus, P1s will receive first priority in budget releases; and P2 and P3 will get funded only if funds are still available after providing for P1s. This has established clear criteria and methodology for adjusting resource allocations on the basis of Tenth Plan's priorities, in line with changes in the resource situation. (iv) Finally, resource allocation was linked to expenditure reporting and performance, in order to ensure satisfactory results. Thus, under the new system that has been evolved, activities which do not provide statements of expenditures (SOEs) for the preceding trimester will not be given additional funds, until they provide the SOE's.
+
+
+## 10th plan (FY: 2059/60-2063/64)
+
+Four pillars of poverty reduction strategy:
+
+1. Broad based economic growth; 
+2. Social sector development including human development;
+3. Targeted programs including social inclusion, in order to bring the poor and marginalized groups into the mainstream of development, together with targeted programs for the ultra poor, vulnerable and deprived groups (who may not adequately benefit from the first two pillars); and 
+4. Good governance.
+
+The plan stresses strategic cross-cutting approaches with regard to: 
+
+(a) redefining the role of the State, and limiting public interventions; 
+(b) enlisting the private sector to play a leading role in employment and income generation and together with NGOs, INGOs and CBOs, in complementing government efforts in service delivery functions in key areas, as well as in implementing key activities; 
+(c) promoting community participation in and management of activities at the local levels; and 
+(d) accelerating the decentralization process, which is also a key element under good governance
+
+Implementation strategy of four-pillars and their implications for sectoral programs and activities are:
+
+1. Macroeconomic framework
+2. Structural reform agenda
+3. Broad based economic growth
+4. Social sector development
+5. Social inclusion and targeted programs
+6. Good governance
+7. Improving financial management and accountability
+8. Decentralization
+
+```{r tenth-periodic-plan}
+read_csv("./data/periodic_plan_10th.csv", skip = 1) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Achievements of 9th and goals for 10th periodic plan under normal and restrained cases.") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(columns = 1, valign = "middle") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("10em", "10em", "8em", "8em", "8em"))
+```
+
+
+**Decentralization as implementation strategy of 10th plan**
+
+Decentralization is an important means of bringing development closer to the rural poor—by involving local communities in developing appropriate programs which are best suited to their needs and in implementing them, ensuring greater accountability for use of public resources, and mainstreaming the poor and deprived groups. The local Self Governance Act (LSGA, 1999) provides a framework for decentralization, which the government has agreed to implement in a phased manner. The Local Bodies Finance Commission (LBFC) has also recently made recommendations for fiscal devolution. A Decentralization Implementation and Monitoring Committee was also set up to oversee effective implementation. But progress so far has been hampered by institutional capacity and fiscal constraints, and more recently by the dissolution of elected local bodies.
+
+The main objectives of the Tenth Plan in this area are to ensure greater participation of people in the governance process to accelerate the development process by implementing fiscal devolution in a phase-wise manner as envisaged in the LSGA; and creating necessary institutional mechanisms including the formation of a Local Service Commission. The main strategies being adopted to achieve these objectives include: the devolution of basic service delivery functions, capacity building of local bodies and decentralization of certain revenue mobilization functions to local bodies.The major activities being undertaken to carry out this strategy include the transfer of the management and operation of DIDO, schools, health posts, postal service, agriculture and small irrigation projects, as well as rural roads, to local bodies. The government will constitute local service cadres and enhance the planning, management and evaluation capacities of the local bodies by providing the necessary training and equipment. Revenue collection and fiscal management of local bodies will be improved and auditing and accounting system refined. As a result of these initiatives, it is expected that over the Plan period, 25,000 primary schools, all sub-health posts and agriculture extension services will be transferred to local bodies. The share of local revenue in the local bodies' budget will rise, transparency and accountability will increase and service delivery to communities at village levels will improve considerably.
+
+## 14th plan (FY: 2073/74-2075/76)
+
+- Recently proposed projects: 13
+- 21.6% of the population is below poverty line by the end of 13th plan
+
+```{r forteenth-periodic-plan}
+read_csv("./data/periodic_plan_13th.csv", skip = 1) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Goals and achievements of 13th periodic plan (2073/74-75/76) for selected indicators") %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = "18em")
+```
+
+- Gross national income in 13th periodic plan was expected to rise by 6.0 percentage, however by 2070/71 it was 5.72%, in 2071.72 2.32% and in 2072/73 it remained 0.77%. Hence resulting in average economic growth of 2.92%.
+- There was a projection for an increase in 4.5% in agriculture sector, however, in years 2070/71, 71/72 and 72/73 respectively, 4.55%, 0.81% and 1.33% growth were achieved. Hence resulting in average growth of 2.22%
+  - Food grain production was projected to reach 1,08,81,000 mt annually. However at the second year of the plan only 92,66,000 mt were realized.
+  - There was an estimation of 12,60,000 mt production of fruits. But only 11,86,000 mt were produced.
+  - There was an estimation of 36,00,000 mt production of vegetables. However, 36,23,000 mt were produced of it, surpassing the set target.
 
 ## 15th plan
     

@@ -36,6 +36,26 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
   kableExtra::landscape(margin = "1.5cm")
 ```
 
+## Crop production technology
+
+```{r crop-cultivation-cereal-commercial-remarks}
+read_csv("./data/crop_production_technology_cereal_commercial.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Cereal and commercial)", 
+               col.names = replace(colnames(.), 2, "")) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:13, width = c("8em", "5em", "8em", rep("6em", 10))) %>% 
+  kableExtra::landscape(margin = "0.75cm")
+```
+
+```{r crop-cultivation-legume-oilseed-remarks}
+read_csv("./data/crop_production_technology_legume_oilseed_other.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Legume and oilseeds)", 
+               col.names = replace(colnames(.), 2, "")) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:15, width = c("8em", "5em", "8em", rep("6em", 12))) %>% 
+  kableExtra::landscape(margin = "0.75cm")
+```
+
 ## Seed technology
 
 1. Breeder seed
@@ -146,8 +166,9 @@ Following activities are carried out in various stages of a crop are crucial for
 
 ```{r certification-standards-field}
 readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "field_standards") %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
   knitr::kable(caption = "Field standards of standing crop for certification", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:9, width = c("8em", rep("6em", times = 8))) %>% 
   kableExtra::landscape()
 ```
@@ -157,6 +178,7 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "field_
 ```{r certification-standards-seed}
 readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>%
   select(1:9) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
   knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:9, width = c("4em", rep("5em", times = 14)))
@@ -165,6 +187,7 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_s
 
 readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>% 
   select(1,10:15) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
   knitr::kable(caption = "Minimum seed standards for certification", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:9, width = c("4em", rep("6em", times = 14)))
@@ -268,7 +291,9 @@ tibble::tribble(
   "Sunflower", "8-10", "60 x 20", 
   "Niger", "6-8", "30 x 15", 
   "Linseed", "30-35", "22-30 x 5-6"
-)
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Seed rate and optimal spacing for cultivation of oilseed crops") %>% 
+  kableExtra::kable_styling(latex_options = "striped", position = "center")
 ```
 
 ```{r oilseed-fertilization-yield}
@@ -346,6 +371,45 @@ tibble::tribble(
   - 2.03-2.09 in pulses/oilseeds
 
 # Breeding
+
+## Center of origin and estimated time of cultivation
+
+```{r}
+tribble(
+  ~"Crop",	~"Length of time domesticated (years)",	~"Possible region of origin",
+  "Maize, Zea mays",	"7000",	"Mexico, Central America",
+  "Rice, Oryza sativa",	"4500",	"Thailand, Southern China",
+  "Wheat, Triticum spp.",	"8500",	"Syria, Jordan, Israel, Iraq",
+  "Barley, Hordeum vulgare",	"9000",	"Syria, Jordan, Israel, Iraq",
+  "Sorghum, Sorghum bicolor",	"8000",	"Equatorial Africa",
+  "Soybean, Glycine max",	"2000",	"North China",
+  "Oil palm, Elaeis guineensis",	"9000", "Central Africa",
+  "Coconut palm, Cocos nucifera",	"100", "Southern Asia",
+  "Rapeseed, Brassica napus",	"500",	"Mediterranean Europe",
+  "Sunflower, Helianthus annus",	"3000",	"Western United States",
+  "Beans, Phaseolus spp",	"7000",	"Centra America, Mexico",
+  "Lentil, Lens culinaris",	"7000",	"Syria, Jordan, Israel, Iraq",
+  "Peas, Pisum sativum",	"9000",	"Syria, Jordan, Israel, Iraq",
+  "Potato, Solanum tuberosum",	"7000",	"Peru",
+  "Cassava, Manihot esculenta",	"5000",	"Brazil, Mexico",
+  "Sweet potato, Ipomoea batatas",	"6000",	"South Central America",
+  "Sugar beet, Beta vulgaris",	"300",	"Mediterranean Europe",
+  "Tomato, Lycopersicum esculentum",	"3000",	"Western South America",
+  "Cabbage, Brassica oleracea",	"3000",	"Mediterranean Europe",
+  "Onion, Allium spp.",	"4500",	"Iran, Afganistan, Pakistan",
+  "Orange, Citrus sinensis",	"9000",	"South-east Asia",
+  "Apple, Malus spp.",	"3000",	"Asia Minor, Central Asia",
+  "Grape, Vitis spp.",	"7000",	"Eastern Asia",
+  "Banana, Musa acuminata, M. balbisiana",	"4500",	"South-east Asia",
+  "Cotton, Gossypium spp.",	"4500",	"Centra America, Brazil",
+  "Coffee, Coffea spp.",	"500",	"West Ethiopia",
+  "Rubber, Hevea brasiliensis",	"200",	"Brazil, Bolivia, Paraguay",
+  "Alfalfa, Medicago sativa",	"4000",	"Iran, Northern Pakistan",
+) %>% 
+  knitr::kable(booktabs = TRUE)
+
+```
+
 
 ## Modes of reproduction
 

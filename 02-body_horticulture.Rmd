@@ -317,7 +317,7 @@ dplyr::tribble(~"Planting season", ~"Harvesting month",
                "Lower hills (Nov)", "March", 
                "Mid hills (Aug-Nov)", "Nov-Feb", 
                "High hills (Dec-Feb)", "April-May") %>% 
-  knitr::kable(caption = "Planting time of potato in different agro-ecological regions")
+  knitr::kable(caption = "Planting time of potato in different agro-ecological regions", booktabs = TRUE)
 ```
 
 **Selection of seed**
@@ -551,3 +551,20 @@ tribble(~"Region", ~"Seedling raising time", ~"Transplanting time",
 ## What is fruit? Discuss various causes of poor fruit setting in Mango and suggest suitable measures for overcoming them.
 
 ## Discuss in brief post-harvest deterioration of fruits and vegetables and suggest measures to minimize postharvest losses.
+
+Every year horticultural crops suffer significant lossess attributed to storage, warehouse, processing unit, transporation and other post-harvest operations mainly due to insect-pest damage or mechanical injury. An estimate of average post harvest lossess in some of the commonly marketed crops (including cereal crops) is provided in Table \ref{tab:post-harvest-loss-table}.
+
+```{r post-harvest-loss-table}
+tribble(
+  ~"Crop", ~"Loss (percentage)",
+  "Commercial vegetable (average)", "25", 
+  "Potato (including seed potato)", "32", 
+  "Cereals", "20 (15-20)", 
+  "Cauliflower and cabbage", "10-15", 
+  "Fruits", "20", 
+  "Ginger", "5-10", 
+  "Tomato", "22"
+  ) %>% 
+  knitr::kable(booktabs = TRUE, format = "latex")
+```
+
