@@ -70,6 +70,7 @@ $RECYCLE.BIN/
 # log files
 comprehensive_agriculture_guide.log
 comprehensive_crap_guide.log
-
 _book/
 _book/*
+comprehensive_crap_guide.tex
+comprehensive_crap_guide.pdf

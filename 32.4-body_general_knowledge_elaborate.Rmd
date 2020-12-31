@@ -4,15 +4,15 @@ Nepal's geography makes the country's climate particularly complex. Because of t
 
 ```{r climate-nepal}
 tribble(~"region", ~"elevation", ~"climatic_zone", ~"average_annual_precipitation", ~"average_annual_temperature", 
-        "High himal", "Above 5000 m", "Tundra and arctic climate", "150-200 mm", "Less than \\SIrange{3}{10}{\\degree\\celsius}", 
-        "High mountains", "\\SIrange{3000}{5000}{\\metre}", "Alpine and subalpine", "\\SIrange{150}{200}{\\mili\\metre}", "Less than \\SIrange{3}{10}{\\degree\\celsius}", 
-        "Middle mountains", "1000-3000 m", "Cool to warm temperate", "275-2300 mm", "\\SIrange{10}{20}{\\degree\\celsius}", 
-        "Siwalik", "\\SIrange{500}{1000}{\\metre}", "Sub-tropical", "\\SIrange{1100}{3000}{\\mili\\meter}", "\\SIrange{20}{25}{\\degree\\celsius}", 
-        "Terai (low-laying plains)", "Below 500 m", "Tropical", "\\SIrange{1100}{3000}{\\mili\\meter}", "\\SIrange{20}{25}{\\degree\\celsius}") %>% 
+        "High himal", "Above 5000 m", "Tundra and arctic climate", "150-200 mm", "Less than \\SIrange{3}{10}{\\celsius}", 
+        "High mountains", "\\SIrange{3000}{5000}{\\metre}", "Alpine and subalpine", "\\SIrange{150}{200}{\\milli\\metre}", "Less than \\SIrange{3}{10}{\\celsius}", 
+        "Middle mountains", "1000-3000 m", "Cool to warm temperate", "275-2300 mm", "\\SIrange{10}{20}{\\celsius}", 
+        "Siwalik", "\\SIrange{500}{1000}{\\metre}", "Sub-tropical", "\\SIrange{1100}{3000}{\\milli\\metre}", "\\SIrange{20}{25}{\\celsius}", 
+        "Terai (low-laying plains)", "Below 500 m", "Tropical", "\\SIrange{1100}{3000}{\\milli\\metre}", "\\SIrange{20}{25}{\\celsius}") %>% 
   rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
   knitr::kable(booktabs = TRUE, escape = FALSE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:5, width = c("8em", "8em", "10em", "12em", "10em"))
+  kableExtra::column_spec(column = 1:5, width = c("7em", "7em", "8em", "10em", "8em"))
 ```
 
 
