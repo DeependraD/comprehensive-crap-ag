@@ -100,7 +100,7 @@ Another important consideration is that political regimes may change at regular 
 source: \url{https://mofa.gov.np/foreign-policy/}; \url{https://kathmandupost.com/opinion/2019/03/26/foreign-policy-dilemma}
 \end{solution}
 
-\question Terrorism is emerging as a competitive industry over the last few decades.”  Analyse the above statement.
+\question "Terrorism is emerging as a competitive industry over the last few decades."  Analyse the above statement.
 
 \begin{solution}
 The turn of the century has provided a new form of industry in form of terrorism. Various violent and religious groups have emerged and declared themselves as extremists. Considering the various perks of being a terrorist group has indeed made themcompetitive.
@@ -153,14 +153,18 @@ With a view to enhancing the friendly cooperation and further promoting the bila
 
 Finalized Agreements/MoU
 
-- TIFA Agreement signed in 2011.
-- An agreement on promotion and protection of investment between Nepal and UK signed on March 2, 1993
-- Development Partnership Agreement between Nepal and UK, signed on December 2013. It supersedes the Technical cooperation agreement desiring to strengthen the traditional cooperation and cordial relation between Nepal and the UK signed on 31 May 1994.
-- Trade Agreement signed in 1965.
+\begin{itemize}
+\item TIFA Agreement signed in 2011.
+\item An agreement on promotion and protection of investment between Nepal and UK signed on March 2, 1993
+\item Development Partnership Agreement between Nepal and UK, signed on December 2013. It supersedes the Technical cooperation agreement desiring to strengthen the traditional cooperation and cordial relation between Nepal and the UK signed on 31 May 1994.
+\item Trade Agreement signed in 1965.
+\end{itemize}
 
 Agreements/MoU in Progress
 
-- Bilateral Agreement on Avoidance of Double Taxation
+\begin{itemize}
+\item Bilateral Agreement on Avoidance of Double Taxation
+\end{itemize}
 
 \textbf{Economic and Technical Cooperation (Development Cooperation)}
 

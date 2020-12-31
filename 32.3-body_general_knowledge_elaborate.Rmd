@@ -1,4 +1,5 @@
-# General knowledge elaborate III
+
+## Media and information communication technology
 
 ### Role of Media
 
@@ -94,30 +95,6 @@ Secondly, the use of ICTs helps facilitate start-ups and other entrepreneurial a
 
 Source: \url{https://risingnepaldaily.com/detour/role-of-icts-in-economic-growth}
 
-### What is federalism ?
-
-Federalism is a political concept in which a group of members are bound together by covenant with a governing representative head. The term federalism is also used to describe a system of the government in which sovereignty is constitutionally divided between a central governing authority and constituent political units. Federalism is the type of politics wherein a group of members create a sovereign constitution with central governing authority and political unit^[http://en.wikipedia.org/ wiki/Indian_Administrative_Service].
-
-### Planned development history in Nepal 
-
-We were awakened when the world has started to move, now the world is running and we are walking. The pace of Nepal race for development lacks significance with reference to (Most Developed Countries (MDC). Still Nepal holds some majestic and unbelievable achievement in emancipation and people oriented development mechanism. Nepal's commitment for people oriented development, response to grass root people and empowerment of marginalized people still holds reliability. It is often said "Underdeveloped nations does not lacks resources but lacks good management." When we simply make SWOT analysis of Nepal's Development four major points for each becomes enough to indicate the reality. 
-
-Strength: Wonderful and well appreciated mechanism of development exists in Nepal. (Perfect Hardware)
-
-Weakness: The mechanism and setup of Development are non functional due to Socio-political insensitiveness and lack of Culture. (Non Functional Software)
-
-Opportunities: Potentially Nepal can achieve a sustainable development very soon and proactively. (People Oriented Development soon)
-
-Threats: A common commitment and functional interest of political and social entity. (Harmonization/Participation).
-
-Nepal development practice has been a victim of pseudo participation. This has misled development and has destructed culture of institutional thinking.
-
-Nepal is a nation of diversities. Vertical and horizontal diversity exist in society. Economical, cultural and social stratification in Nepalese society is both the creator of dynamism and obstacles in Nepal development. Dynamism is exposed in form of community initiatives, religious harmony and others, Obstacles are out laid as conflicts and non conducive environment. Recently the conflicts in the society have come to the surface. Nepalese society is struggling for transformation. The dominating issue is that weather present transition can be managed to direct and achieve desired outputs of Nepalese societies or not. Prevailing scenarios signify a search for direction and identified efforts to nation building. Immersed in long transition from 07BS till these days Nepal Development pace lacks efficiency to lead societies to enriched processing capacity. Centralized state has failed to adjust the demand and supply of the people needs at suburbs. Thus urge for decentralization has soared high. Poverty still exists at 31%. 1 Inflation rate is double digit. 
-
-National economy is founded by remittance hindering local resources utilization. Industrialization and mega developmental project are empty. Peace and security has lost its existence. Mass depression and many health hazards with natural disasters are striking regularly. Increasing loans and operating cost, disturbance of productive sectors and immature political culture are today's reality. Beside Nepal also possess the context same to other that of LDC's. Good Governance and its issues are frequently talked but the indicator remorse. Beside these realities people emancipation and institutionalizations are few achievements.
-
-Basic facilities in spite of low quality are becoming accessible. Development is in operation and people have felt about the change in the scenario.
-
 ## Commonly used terminologies in gender and social development
 
 (This section may be outdated. Excepts draw from Page 9, Overview of gender equality and social inclusion in Nepal, ADB)
@@ -185,4 +162,237 @@ The national policies for agriculture (2004), irrigation (2003), and forestry (2
 
 All ministries and departments have appointed gender focal points to oversee main-streaming of gender into sectoral program design and strategies. This is a substantial effort. However, the gender focal persons are not sufficiently senior in the bureaucratic hierarchy to have much influence, and gender focal points alone are inadequate to advocate for effective gender main-streaming. The agriculture ministry established a separate gender division led by a committed woman, which significantly enhanced awareness and capacity of the staff to address women's problems in agriculture. In irrigation, major bottlenecks include the lack of appropriate institutional structures and mechanisms, and limited understanding and capacity for mainstreaming gender and social inclusion. The forestry sector has been comparatively successful in changing the attitudes of staff and in building their capacity to make effective institutional arrangements for increasing access by excluded communities to forest resources and development opportunities.The Ministry of Agriculture and Cooperatives started integrating women into its training pro-grams early on and has established institutional structures to support gender mainstreaming in its departments, divisions, policies, and programs. It has better women's representation among staff (6%) than the Ministry of Local Development or the Ministry of Women's Affairs, yet its Gender Equity and Environment Division still faces challenges in implementing its responsibilities due to a lack of gender sensitivity, small budgets, and the lack of a gender monitoring mechanism.103The Ministry plans to set up farmers' consultative committees and village agriculture committees to ensure farmers' participation in agriculture-related activities and decision-making processes. Proportionate representation of women, Dalits, Madhesis, and Adivasi Janajatis will be ensured in these committees.
 
-The Federation of Community Forest Users is an example of a federation that has effectively influenced policy and development processes. It has established rules to include women in the decision-making arena and it supports local groups to include women and disadvantaged groups. By law, one-third of the executive- committee members of community forest user groups must be women, but there are no stipula-tions for Dalits and Janajatis. Despite its success in holding the government accountable to its citizens, community forestry is not without its challenges. Elite domination of executive commit-tees marginalizes the poor, Dalits, and Janajatis. The National Federation of Irrigation Water Users Association Nepal is quite similar to the Federation of Community Forest Users in its purpose, but it has not yet been as successful in representing the voices of their women and poor members in the policy and development arenas. There is a great potential for developing organizational coalitions and networking activities in the agriculture sec-tor for advocating the rights of women and small farmers and influencing policy.The policy reform process needs to strengthen government capacity and introduce concrete implementation and accountability mechanisms to reinforce the inclusive policy statements. Though the forestry and agriculture sectors have made efforts to mainstream gender, effective institutional frameworks for gender and social inclusion are of utmost importance. The establishment of gender divisions and gender focal points could contribute to positive outcomes if they have adequate institutional authority and budgets. Improved accountability to gender and inclusion mainstreaming from the various department and division heads is also required. Institutional capacity needs to be strengthened in the irrigation sector, in particular, for inclusive policy design and service delivery.Extension systems need to promote strategies, services, and technologies that address the needs of women, the poor, and the socially excluded. Greater efforts are needed to improve poor people's access to microfinance services and to ensure that socially excluded groups have access to project services and are represented on user and decision-making bodies. For this, promotion of linkages between the finance sector, rural development planning, and other relevant agencies for planning and implementation of specific targeted programs from the national to the local levels will be crucial.
+The Federation of Community Forest Users is an example of a federation that has effectively influenced policy and development processes. It has established rules to include women in the decision-making arena and it supports local groups to include women and disadvantaged groups. By law, one-third of the executive- committee members of community forest user groups must be women, but there are no stipulations for Dalits and Janajatis. Despite its success in holding the government accountable to its citizens, community forestry is not without its challenges. Elite domination of executive commit-tees marginalizes the poor, Dalits, and Janajatis. The National Federation of Irrigation Water Users Association Nepal is quite similar to the Federation of Community Forest Users in its purpose, but it has not yet been as successful in representing the voices of their women and poor members in the policy and development arenas. There is a great potential for developing organizational coalitions and networking activities in the agriculture sec-tor for advocating the rights of women and small farmers and influencing policy.The policy reform process needs to strengthen government capacity and introduce concrete implementation and accountability mechanisms to reinforce the inclusive policy statements. Though the forestry and agriculture sectors have made efforts to mainstream gender, effective institutional frameworks for gender and social inclusion are of utmost importance. The establishment of gender divisions and gender focal points could contribute to positive outcomes if they have adequate institutional authority and budgets. Improved accountability to gender and inclusion mainstreaming from the various department and division heads is also required. Institutional capacity needs to be strengthened in the irrigation sector, in particular, for inclusive policy design and service delivery.Extension systems need to promote strategies, services, and technologies that address the needs of women, the poor, and the socially excluded. Greater efforts are needed to improve poor people's access to microfinance services and to ensure that socially excluded groups have access to project services and are represented on user and decision-making bodies. For this, promotion of linkages between the finance sector, rural development planning, and other relevant agencies for planning and implementation of specific targeted programs from the national to the local levels will be crucial.
+
+## Environment, agriculture and climate
+
+### Relationship between climate change and energy use
+
+- Energy use has close ties with climate change. India and china are among the greatest emitters of greenhouse gases and consumers of fossil fuel, and it is predicted that their consumption of coal as major source of energy will continue to rise for at least a decade (IEA, 2019).
+- Into 2016 and we still have 80% of our total energy requirement met from fossil fuels (mostly, oil, coal and natural gases). International energy agency's report says that 30% of all energy-related carbon dioxide emission is related to coal as fuel, making it the biggest single contributor (2019).
+- An individual effort to parsimoniously treat energy resources available to us determines individual footprint. We could choose to reuse a battery/cell, with minor power drops, in alternative electronic items compatible with it or just treat at a refuse at our home. The latter activity with unforeseen consequences might lead to the battery being disposed improperly and polluting an ecosystem due the leakage of its electrolyte chemicals.
+- While electricity is lighting up most houses, its generation has been a markedly different process worldwide. The process basically depends with the resource endowment of a nation in their approach to choosing ways to explore it. Coal, for example, is used largely in China and the US despite its much tauted big contribution in greenhouse emission.
+
+### Impacts of climate change
+
+What are the impacts of climate change ? Discuss on detail about the initiative taken by Nepal Government in tackling the impacts of climate change.
+
+Climate change is now affecting every country in every continent. It is disrupting national economies and affecting lives, of individuals, communities and countries today and is likely to do so in the ensuing future. Weather pattern are changing, snowline are melting due to global warming and sea level are rising. 
+
+**Negative impacts**
+
+1. Numerous mountains are seeing accelerated the melting of snow due to global warming.
+2. Changes in monsoon patterns, such as erratic rainfall with alternate drought periods are the serious impacts of climate change in Nepal which hampers the agricultural production. The changes in monsoon pattern in Nepal greatly exacerbate the situation of poverty and food insecurity in the country.
+3. Flood, landslides, forest fires, snow melt are the disasters that occur as a result of climate change without any prewarning and causes heavy loss.
+4. High hills and mountains are more vulnerable to climate change compared to terai, thus climate change make large scale economic and ecolgical disruption in upper latitudes.
+5. Loss of plant and animal biodiversity.
+6. Increase in number of insects, pest and diseases and sporadic outbreaks becoming much frequent.
+
+The positive impact of global warming, a characteristic feature of climate change, is that the crops that could in the past be only growth in certain low altitudes, requiring prolonged exposure to heat can now be growth in higher regions such as Manang and Mustang districts of Nepal. The is evidently due to increase average temperature of the region, thus allowing the crop to perform well. However, as noted earlier, there are more prominent negative impacts than the benifits we can derive from the climate change.
+
+Nepal became signatory of UN Framework Convention on Climate Change (UNFCC) in 1994. Ever since then the issue of climate change has been routinely incorporated into policy and strategic frameworks by Government of Nepal. Following policies and strategies are currently in place to help mitigate the impacts of climate change in Nepal:
+
+1. Constitutional approach
+
+Article 30(1) of the constitution of Nepal guarantees a "clean environment" as fundamental right and elaborates that "every citizen shall have the right to live in a clean and healthy environment." Article 30(2) of the constitution also encourages the state to formulate necessary legal framework to balance environment and development.
+
+2. Approaches in periodic plans
+3. Climate change policy, 2067 (2011)
+4. National climate change policy, 2076 (2019)
+6. National adaptation plan of action (NAPA, 2010)
+7. Framework for local adaptation plan for action (LAPA, 2011)
+
+### National Climate Change Policy (NCCP), 2076
+
+Reasons for Nepal's vulnerability to climate change are Topographical fragility, fragile geological structure, sensitive ecosystems and diversity of climate and micro-climate zones prevalence in Nepal. Additionally, poverty, illiteracy, social disparity and high dependence of communities on natural resources for livelihood.
+
+- Nepal National Red Strategy implemented to check greenhouse gases emmission from deforestation and forest destruction.
+- Provision of climate change coordination committee in Chairmanship of Prime minister.
+- Establishment of Climate change management section under Ministry of Forest and Environment as focal point for implementation of international treaty.
+- Provision of Climate budget code by National planning commission.
+- Alternative energy promotion center has established climate and carbon unit for executing Clean Development Mechanism (CDM) related activities.
+
+**Goal**
+
+To contribute to socio-economic prosperity of the nation by building a climate resilient society.
+
+**Objectives**
+
+a. To enhance climate change adaptation capacity of persons, families, groups and communities vulnerable to, and at risk of, climate change;
+b. To build resilience of ecosystems that are at risk of adverse impacts of climate change;
+c. To promote green economy by adopting the concept of low carbon emmission development;
+d. To mobilize national and international financial resources for climate change mitigation and adaptation in just manner;
+e. To conduct research, make effective technology development and information service delivery related to climate change;
+f. To mainstream or integrate climate change issues into policies, strategies, plans and programs at all levels of State and sectoral areas;
+g. To mainstream gender equality and social inclusion (GESI) into climate change mitigation and adaptation programs.
+
+**Policies** (Sectoral policy, strategies and working policies)
+
+1. Agriculture and food security
+2. Forest, biodiversity and watershed conservation
+3. Water resources and energy
+4. Rural and urban habitats
+5. Industry, transport and physical infrastructure
+6. Tourism and natural and cultural heritage
+7. Health and drinking water and sanitation
+8. Disaster risk reduction and management
+9. Gender equality and social inclusion, livelihoods and good governance
+10. Awareness raising and capacity development
+11. Research, technology development and expansion
+12. Climate finance management
+
+Policy number 9-12 are inter-thematic areas.
+
+\begin{questions}
+
+\question Although Nepal is an agricultural country, what are the reasons for decreasing productivity of arable land in recent years.
+
+\begin{solution}
+
+Some of the reasons for decreasing productivity of arable land in recent years in Nepal are:
+
+\begin{itemize}
+\item Recent years have seen depletion of soil fertility. Besides leach and runoff of major nutrients, intensification of mono-cropping, mainly that of cereals, has accelerated exhaustion of these essential supplies. Likewise, farmers have not been, since early farming days, supplementing the land with micronutrient fertilizers. It should be noted that micronutrient deficiencies can have serious limitting effects in yield.
+\item Haphazard use of chemical fertilizers have resulted in acidity and salinity build-up in soil. The crops exhibit symptoms of toxicity when growth therein. Trace to almost null measures of soil amendment adds to this problematic scenario.
+\item Excessive reliance on seasonal rain has turned to become counterproductive. Monsoon streams and water bodies have not been able to fend for agricultural water needs. In some instances they have even dried down in recent years, mainly due to changing seasonal patterns and climate extremes.
+\item In recent years, size of land holding have decreased. This means that in average a farmer own less area of land than what he used to crop previously, currently 0.5 ha per household. This is in comparison to more advanced nations, less by ten to hundreds of order magnitude. This has a rippling effect. Today farmers are practicing farming only as a side gig as well as being less willing to invest in technology introduction. This translates into lesser input consumption and ultimately to lower yield. At the same time transition from traditional practices of diverse cropping to mono-cropping leads to a greater loss in diversity and deprivation from essential ecosystem services of natural environment. For example, natural enemies of insects are indiscriminately being eradicated while trying to turn the wheels against insect-pests. 
+\item While most development plans give high priority to agriculture - which contributes 30 percent to GDP - government investment in the Ministry of Agricultural Development (MOAD) - has declined from 3.7 percent of all government spending 10 years ago to around 3.0 during recent years. Meanwhile, overall government spending has doubled since 2006.
+
+\end{itemize}
+\end{solution}
+
+\question What is climate change ? What are the negative impacts or such impacts possible due climate change in Nepal ? Mention.
+
+\begin{solution}
+
+Climate is usually defined as the "average weather" in a place. It includes patterns of temperature, precipitation (rainfall or snow), humidity, wind and seasons. Climate patterns play fundamental role in shaping natural ecosystems, and the human economies and culture that depend on them.
+
+The planet's climate has been constantly changing over geological time. The global temperature today is about 15 $^\circ C$, though geological evidence suggests it has been much higher and lower in the past. However, in light of the global temperature records, scientists today are concerned that the natural fluctuation, or variability, is being overtaken by a rapid human-induced warming that has serious implications for the stability of the planet's climate. For example, notable events including drought and heat waves in Russia in 2010, drought in China in 2012, and droughts in the US in 2011 and 2012, have all had a major impact on agricultural production in these areas.
+
+Climate change is a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean or the variability of climate properties and that persists for an extended period, typically decades or longer. Climate change may be due to natural internal processes or external forces or due to persistent anthropogenic changes in the composition of the atmosphere or in land use by factors such as biotic processes, variations in solar radiation received by Earth, plate tectonics, and volcanic eruptions. Certain human activities have been identified as primary causes of ongoing climate changes, often referred to as global warming.
+
+Observations of temperature have shown that 10 of the warmest 11 years have occurred since 2001. Coupled with these changes is the decrease in the number of frost days by 10\% in the eastern half of the US and an increase in the length of the growing season by over 10 days.
+
+Trends in precipitation are more difficult to assess; however, overall precipitation amounts and heavy precipitation events have increased in most regions of the world; while occurances of drought has been increasing, particularly since 1970 (IPCC, 2007). 
+
+Recent analysis of trends from 1971 to 2014 by the Department of Hydrology and Meteorology (DHM) shows that the average annual maximum temperature has been increasing by \SI{0.056}{\degree\celsius} per year (DHM, 2017). Another study found that a small, but statistically significant, increase in the frequency of hot nights has been observed. In contrast, the annual frequency of "cold" days and nights has decreased significantly since 1960 (McSweeney, New, & Lizcano, 2012). The mountain regions are warming more than the plains (ICIMOD, 2018). The mean annual temperature is expected to continue to increase in Nepal over the remainder of the century. Recent projections indicate that mean annual temperatures could increase \SIrange{1.3}{1.8}{\degree\celsius} by the 2050s, with the highest increases in the mountain regions. Along with this, increase in warm days and nights is predicted.
+
+\textbf{Impacts of climate change for human society}
+
+\begin{itemize}
+\item Melting glaciers, early snowmelt, and severe droughts will cause dramatic water shortages and increase the risk of wildfires in the American West.
+\item Rising seas levels will lead to coastal flooding on the Eastern Seaboard, especially in Florida, and in other areas such as the Gulf of Mexico. 
+\item Forests, farms and cities will face troublesome new pests, heat waves, heavy downpours, and increased flooding. All those factors will damage or destroy ecosystems which human excessively rely on -- Agriculture and fisheries.
+\item Disruption of habitats such as coral reefs and alpine meadows could drive many plant and animal species to extinction.
+\item Allergies, asthma, and infectious disease outbreaks will become more common due to increased growth of pollen-producing ragweed, higher levels of air pollution, and the spread of conditions favorable to pathogens and mosquitoes.
+\end{itemize}
+
+Examples of observed climatic changes
+
+\begin{itemize}
+\item During the past 50 years there has been an increase in $CO_2$ concentration from 325 to 390 ppm with a projection of further increases to nearly 500 ppm by the middle of the twenty-first century (IPCC, 2007).
+\item During the twentieth century, global average air temperatures increased by approximately 0.74 $^\circ C$ (0.56–0.92 $^\circ C$) (IPCC, 2007a) with projections of further increases in surface air temperatures of between 1.1 and 2.9 $^\circ C$ by 2100 under emission scenarios, which have adopted aggressive methods to reduce $CO_2$ emissions, and by up to 2.0-5.4 $^\circ C$ under scenarios with higher emission rates. 
+\item Winter temperatures have increased more rapidly than summer temperatures, and night time minimum temperatures have warmed more than daytime maximums. Across the US (and elsewhere), record high temperatures are three times higher than the number of record cold events.
+\item Decrease in snow cover and sea ice extent and the retreat of mountain glaciers in the latter half of the 20th century.
+\item Rise in global average sea level and the increase in ocean water temperatures. Between 1900 and 2016, the sea level rose by 16-21 cm (6.3-8.3 in). The accelerated decrease in coastal areas is attributed mostly to human induced global warming.
+\item Likely increase in average precipitation over the middle and high latitues of the northern hemisphere, and over tropical land areas.
+\item Increase in frequency and intensity of extreme precipitation events in some regions of the world.
+\end{itemize}
+
+Examples of observed physical and ecological changes
+
+\begin{itemize}
+\item Thawing permafrost
+\item Lengthening of the growing season in middle and high latitudes
+\item Pole-ward and upward shift of plant and animal ranges
+\item Decline of some plant and animal species
+\item Earlier flowering of trees
+\item Earlier and frequent emergence of insects-pests
+\item Disruption of seasonal pattern of migratory birds and egg laying animals.
+\end{itemize}
+
+Source: Encyclopedia of Agriculture and Food Systems
+
+\end{solution}
+
+\question What is green house effect ? Mention its implications of green house gases in global warming.
+
+\begin{solution}
+
+The earth's climate is warming as a consequence of the accumulation of greenhouse gases in the atmosphere. Warming of the atmosphere is actually happerning because the atmosphere is continuing to trap the heat that radiates from the earth and traps it between the earth and space.
+
+The most important greenhouse gases contributing to this warming are carbon Water vapor, dioxide ($CO_2$), methane ($CH_4$), and nitrous oxide ($N2O$). Although these gases are present in the atmosphere naturally, human activity has been responsible for a rapid increase in their concentration over the past century. Greenhouse gases are released by a variety of processes, the most important of which is fossil fuel consumption, which currently adds more than 9 billion tons of $CO_2-C$ to the atmosphere each year.
+
+Chlorofluorocarbons (CFCs), which are basically synthetic compounds that are created in the industrial setting, also play a part in green house conditioning. They are usually what plays a part in depletion of the ozone layer. The more the ozone layer is depleted, the hotter our earth will get.
+
+Globally, IPCC (2007d) estimates that 69\% of the GHGs originate from energy consumption, whereas 14\% arise from food production and 17\% from deforestation. Meanwhile, energy use, food use, and land use change, and thus emissions generally expand with incomes and population. In fact, historical emission data show that global GHG emissions and concentrations have been increasing at an increasing rate.
+
+Agriculture too is a major source of the greenhouse emissions. Practices such as deforestation, cattle feedlots, and fertilizer used currently account for approximately 25\% of greenhouse gas emissions. When broken down in total, this amounts to 14\% of carbon dioxide emissions, 48\% of methane, and 52\% of nitrous oxide emissions.
+
+\end{solution}
+
+\question What is water-use efficiency? Describe the role of micro-irrigation in increasing the water-use efficiency.
+
+\begin{solution}
+
+Water use efficiency is the ratio of water used for plant metabolism to the water lost by plant through transpiration. It can be understood as a measure to reduce water wastage from plants by providing only the necessary amount.
+
+Role of micro-irrigation in increasing water-use efficiency
+
+Reduces excess water accumulation
+    
+In conventional irrigation system water is used in bulk without proper understanding of the requirement of the crop. This will result in accumulation of water without proper utilisation leading to wastage. In micro-irrigation, the water needed for the plant to grow is given in right amount so as to reduce wastage.
+
+Recycling of expelled water
+
+In micro-irrigation system such as greenhouse farming, the plant canopy is covered in plastic to prevent transpiration water from escaping. The water is then diverting back to the plant. This will ensure that water wastage from plant will be lower in comparison to the input.
+
+Reduces run-off
+
+Water irrigation in conventional methods like canals and tube well will result in water runoff from the fields without getting utilised. This will contribute towards wastage especially in areas where there is shortage of water. In micro-irrigation techniques, water will be targeted at the root of the crops so that wastage is as low as possible.
+
+Way forward
+It is necessary to device methods to make water use efficiency high and address shortage of water across the globe.
+
+Thus, micro-irrigation is a very important idea when it comes to sustainable use of water resources. The initial investment once recovered will make agriculture a profitable venture.
+
+source: \url{https://www.upsciq.com/what-is-water-use-efficiency/}
+\end{solution}
+
+\question The global lockdown imposed due to COVID-19 pandemic has turned out to be beneficial for environment on short term. Validate.
+
+\begin{solution}
+The major countries of the world, including India have self imposed a lockdown to tackle spread of COVID-19 pandemic. This has impacted economy of the world in an adverse manner causing slowdown. But the silver lining in the situation is improvement in environmental conditions that we have observed.
+
+Environmental benefits due to global lockdown
+
+Reduction in air pollution levels
+
+The major environmental concern in this century is climate change, that has been caused due to air pollution across major human settlements. Due to the lockdown the pollutant level in air such as CO2, NO3, SO4, ozone, PM 10, PM 2.5 have seen a drastic drop. This has made the air cleaner for breathing and reducing health concerns.
+
+Reduction in water pollution levels
+
+Water pollution in developing countries is mainly due to factories dumping their waste in water bodies. The lockdown has forced the factories to shutdown and cut production. This has reduced or completely cut off waste discharge from factories.
+
+Reduction in solid municipal waste
+
+With low outdoor activities and travel, the household waste produced in cities have seen reduction. The reduced level makes it easier to dispose off the waste more effectively. Dumping grounds have a chance to recover if this trend continues.
+
+Increase in biodiversity
+
+Withdrawal of humans from outdoors have opened the spaces for biodiversity to recover their lost territories. Sea mammals like dolphins have returned back to the shores due to lack of disruption from humans in their territories.
+
+Reduction in sound and light pollution
+
+Cities have turned silent due to stoppage of vehicular movement and industrial activities. This has made the environment suitable for calmness. Excessive usage of light has been reduced too due to the same reasons.
+
+Way forward
+
+This restriction has to be converted into a habit for people to follow in future so that environmental pollution is kept in check.
+
+So, the global lockdown has helped the environment to recover upto certain extent. What needs to be seen is the impact that return of normality is expected to bring.
+
+source: \url{https://www.upsciq.com/the-global-lockdown-imposed/}
+\end{solution}
+
+\end{questions}

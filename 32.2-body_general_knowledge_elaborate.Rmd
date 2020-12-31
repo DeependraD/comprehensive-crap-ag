@@ -1,6 +1,5 @@
-# General knowledge elaborate II
 
-## Essay writing on issue (800 to 1000 words)
+## Current issues and broad essays
 
 1. We live in a world besieged by media and technology. Every sector of our life is impacted by the presence of modern forms of communication system. Write an essay discusses the influence of modern forms of communications on everyday life.
 
@@ -28,26 +27,113 @@ With all the merits it has brought to individual and societal lives, modern comm
 
 3. Diplomacy has been defined as "the management of relations between independent states by the process of negotiation". Write an essay citing some major events of modern international diplomacy that have resolved conflict through the process of negotiation and have shaped the world in which we live.
 
-## Miscellaneous
+## Governance and politics
+
+### Federalism
+
+Federalism is a political concept in which a group of members are bound together by covenant with a governing representative head. The term federalism is also used to describe a system of the government in which sovereignty is constitutionally divided between a central governing authority and constituent political units. Federalism is the type of politics wherein a group of members create a sovereign constitution with central governing authority and political unit^[http://en.wikipedia.org/ wiki/Indian_Administrative_Service].
+
+### Executive
+
+Executive branch of government includes the President, the Prime Minister, the Council of Ministers or Cabinet, constitutional and statutory bodies, and the bureaucracy, comprising various personnel services, formed to carry out executive functions. Under federal level, the Cabinet is the highest executive body with authority to issue directives to guide, control, and govern. Under Article 43 of the Constitution of Nepal, the responsibility regarding issuing general directives, controlling and regulating the governance of Nepal is bestowed upon the Council of Ministers. The Constitution also requires the Cabinet to perform executive functions in accordance with laws enacted by parliament. The Interim Constitution provides for a political system with an "impartial, efficient and fair" bureaucracy.
+
+Constitution assigns The President the task of appointing the leader of a parliamentary party that commands majority in the House of Representatives as the Prime Minister, while the Council of Ministers shall be constituted under his or her chairpersonship.
+
+The first responsibility of a newly elected PM is to put together a cabinet by appointing ministers, minister of state, and state ministers. The law does not limit the number of ministers and hence there have been cabinets of varying sizes under premiership of different prime ministers.
+
+```{r cabinet-ministers-ministries}
+tribble(
+  ~"SN", ~"Name", ~"Portfolios", ~"Designation",
+  1, 	"Mr. KP Sharma Oli",	"Minister of Defense", "Prime Minister",
+  2,	"Mr. Ishwar Pokharel", "Office of the Prime Minister and Council of Ministers", "Deputy Prime Minister",
+  3,	"Mr. Ram Bahadur Thapa", "Home Affairs", "Minister",
+  4,	"Mr. Top Bahadur Rayamajhi",	"Energy, Water Resource and Irrigation", "Minister",
+  5,	"Mr. Bishnu Prasad Paudel",	"Finance", "Minister",
+  6,	"Mr. Pradeep Kumar Gyawali", "Foreign Affairs", "Minister",
+  7,	"Mr. Hridesh Tripathi",	"Health and Population", "Minister",
+  8,	"Mr. Lekhraj Bhatta",	"Industry, Commerce and Supplies", "Minister",
+  9,	"Mr. Krishna Gopal Shrestha",	"Education, Science and Technology", "Minister",
+  10,	"Mr. Prabhu Shah",	"Urban Development", "Minister",
+  11,	"Mr. Bhanubhakta Dhakal",	"Culture, Tourism and Civil Aviation", "Minister",
+  12,	"Mr. Mani Chandra Thapa",	"Water Supply", "Minister",
+  13,	"Ms. Padma Kumari Aryal",	"Agriculture and Livestock Development", "Minister",
+  14,	"Mr. Basanta Kumar Nembang",	"Physical Infrastructure and Transportation", "Minister",
+  15,	"Mr. Gauri Shankar Chaudhary",	"Labour, Employment and Social Security", "Minister",
+  16,	"Mr. Parbat Gurung",	"Communication and Information Technology", "Minister",
+  17,	"Dr. Shiva Maya Tumbahangphe",	"Land  Management, Cooperatives and Poverty Alleviation", "Minister",
+  18,	"Mr. Lila Nath Shrestha",	"Law, Justice and Parliamentary Affairs", "Minister",
+  19,	"Mr. Ganesh Singh Thagunna",	"Federal Affairs and General Administration.", "Minister",
+  20,	"Mr. Prem Bahadur Ale",	"Forest and Environment", "Minister",
+  21,	"Ms. Juli Kumari Mahato",	"Women, Children and Senior Citizen", "Minister",
+  22,	"Mr. Dawa Lama Tamang",	"Youth and Sports", "Minister",
+  23,	"Mr. Nawaraj Rawat",	"Health and Population", "State Minister",
+  24,	"Mr. Rambir Manandhar",	"Urban Development", "State Minister",
+  25,	"Mr. Bimala B.K",	"Industry, Commerce and Supplies", "State Minister") %>% 
+  knitr::kable(caption = "Cabinet of Ministers of Government of Nepal (extracted on Nov, 2020)", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8)
+```
+
+The government has formulated the Government of Nepal (Allocation of business) Rules 2007 (GNABR, 2007) and the Government of Nepal (Transaction of business) Rules 2007 (GNTBR, 2007). The GNABR allocates cabinet business to different sectors, including law and order, health, education, social welfare, agriculture, physical planning, communication, defense, foreign affairs, etc.
+
+note: Government of Nepal (Transaction of business) rules, 2069 displaces earlier regulation of 2064.
+ - Approved by cabinet: 2069-02-05
+ - 1st amendment: 2069-08-08
+ - 2nd amendment: 2069-11-10
+
+The GNBTR prescribes the working procedures of the cabinet, i.e., power and responsibilities of the Prime Minister, ministers, the cabinet as a whole, and the various agencies such as its sub-committees, the National Planning Commission (NPC) and the ministries. It also lists matters that must be reffered to the cabinet for approval.
+ 
+The GNTBR 2007 identifies three layers of authority - that of the Cabinet, the ministries, and the prime minster - and provides guidelines for the conduct of business. Business under the jurisdiction of the Cabinet includes 43 categories - constitutional actions, policy matters, bills for parliament, delegated legislation, national budget, taxation, emergency announcements, and ordinances. Each ministry is responsible for observing, consulting, and coordinating with other ministries^[https://asiafoundation.org/resources/pdfs/AGuidetoGovernmentinNepal.pdf].
+
+The secretary is a special class officer. Under the minister's direction, the secretary prepares and submits policy proposals for consideration by the Cabinet. The secretary is the administrative head of the ministry, its line agencies and field offices, and also supervises and monitors policy and program implementation. The secretary has both administrative and substantive (policy) responsibilities. The Good Governance (Management and Operation) Act 2007 (GGMOA) specifies administrative responsibilities, which broadly encompass day-to-day duties and functions. The substantive responsibilities include the technical and policy functions of the ministry as assigned by law or delegated by the minister.
+
+### Departments
+
+Departments are the second layer in the government hierarchy and serve as line agencies. Unlike ministries, departments have specialized human resources and technical equipment. They develop detailed plans and programs and implement them (also through field offices) after approval. They assist the ministries in policy matters, bringing in their operational knowledge and implementation experience. Departments are generally headed by a director general - usually a first class officer - whose responsibilities include implementing approved programs and policies, supervising and coordinating field offices, developing technical skills, providing advice to the ministry and ensuring effective service delivery
+
+### Statutory bodies
+
+Statutory bodies are created by statute for specific functions, such as promoting literature, science or the arts, aiding backward communities, managing trusteeships (guthis), or preserving nature or religious shrines. The statute defines their functions, tasks, responsibilities, financial resources, governance structure, personnel management, accountability, and relationship to the government. Examples of these bodies include those created under the Uplift of Indigenous Peoples and Backward Communities Act 2011, Nepal Administrative Staff College Act 1982, Nepal Academy Act 1993, Nepal Academy for Science and Technology Act 1991, and B.P Koirala Memorial Cancer Hospital Act 1996.
+
+Public corporations: Nepal has a number of public corporations, first established in the 1960s to provide essential public goods not available from the private sector. The government turned to public investment because it was unwilling to wait for the private sector to build basic infrastructure and deliver essential goods and services. In 2011, there were 36 public corporations - down from 69 in 1992 - with seven in the industrial sector, six in trading, seven in services, five in social work, three public utilities, and eight providing financial services.28 The number of employees in the 36 public enterprises was projected to reach 36,890 in fiscal year 2010/11.29 These enterprises were set up under various laws, and the staffs serve under varying terms. 
+
+Authorities: Authorities are a variant of the public corporation. They are departmental programs run independently under the management of an executive board. Nepal has authorities like the Nepal Electricity Authority, the Civil Aviation Authority of Nepal, the Nepal Telecommunications Authority and the Kathmandu Valley Development Authority.
+
+Development boards: The Development Board Act 1956 was introduced to create autonomous bodies within government to expedite development projects by relaxing bureaucratic procedures. Development boards have authority to set their own personnel and financial rules and procurement procedures. In 2011, Nepal had 150 development boards on paper, but less than half of them were operational. Similar boards were created by laws such as the Nepal Tourism Board Act 1996, the National Cooperative Development Board Act 1992 and the Roads Board Act 2000, which promote tourism, support cooperatives, and raise funds for road maintenance, respectively. 
+
+### Decision making
+
+Government decision making takes several forms. It includes the tok-adesh (directive for immediate action), tippani (note-taking), committee meetings, and decisions by the Cabinet.
+
+Tok-adesh is typically a written directive that a certain action be taken. Tok-adesh is used when the action to be taken is straightforward and clear, and no reference check (or if similar decisions were made earlier) is necessary. Ministers often resort to tok-adesh for instructing heads of departments to take certain actions, regardless of whether those actions can be executed in the desired manner. At field offices, a tok-adesh or approval from the office head is needed to formally register petitions or applications – the originally intended purpose of the approval, unlike how ministers have tended to use it.
+
+Tippani or "note-taking" is used when a prospective decision needs to be reviewed by several parties at different levels of the organizational hierarchy. A note originates at the lowest level, usually a section officer, detailing the premise for the decision. The note, which includes all relevant references to the matter, is passed up the chain of command for comments. The process usually ends with a decision at the highest level of authority, based on the comments of all participants. Noting that this process can be a long one, the Directives on Simplification of Government Decision 2008 sets limits on the use of tippani for policy issues: it requires that the note should originate just two levels below the final authority. This directive is not strictly followed, however, resulting in delays and other inefficiencies.
+
+Committee meetings are held for consultation, coordination, and for making collective decisions. Committees, either standing or ad hoc, may be within the ministry or involve other ministries, and have authority to make decisions, both formal and informal. In practice, committees are formed whenever issues are complicated or sensitive, or when a single agency is unprepared to bear the brunt of difficult or unpleasant decisions.
+
+Decisions by the Cabinet: Only matters on the Cabinet Business List in the GNBTR can be on its agenda, but a minister can recommend any issue for inclusion. Decisions that are beyond a minister's authority, or those that involve inter-ministerial jurisdiction or collective political responsibility, are referred to the Cabinet, with the opinion of the minister.
+
+The Chief Secretary, also secretary to the Cabinet, examines proposals sent to the Council of Ministers for compliance with the GNTBR. Points of inter-ministerial coordination and conformity with past policies are the main focus of scrutiny. The OPMCM holds meetings and discussions with the sponsoring ministry to ensure compliance and to clarify the issues involved before placing the proposal on the agenda that is circulated among Cabinet members at least 24 hours before the meeting. Cabinet meetings are closed to non-members, and the proceedings are confidential. Ministers are bound by their oath of office not to divulge Cabinet deliberations. The results of Cabinet meetings are supposed to remain unavailable to the public, including the judiciary, for 48 hours after circulation to members, and Cabinet decisions are to be made public only after authentication by the Chief Secretary. It has become normal, however, for the government spokesperson to announce the main decisions immediately after the meetings.The Cabinet may also refer proposals to appropriate subcommittees, which may be asked to make a decision or to make recommendations to the Cabinet. Generally, decisions made at any level may be authenticated by an appropriate officer, from the Chief Secretary down to section officer, as stipulated by Authentication of the Government Order Act 1966. However, the Chief Secretary authenticates all Cabinet decisions when they are first issued.
+
+(for government operational standards, flow of authority, processes, and details on implementation process refer to A guide to government in Nepal: Structures functions and practices^[https://asiafoundation.org/resources/pdfs/AGuidetoGovernmentinNepal.pdf])
 
 \begin{questions}
 
 \question Discuss in brief the political history of Nepal.
 
 \begin{solution}
-Records mention the Gopalas and Mahishapalas believed to have been the earliest rulers with their capital at Matatirtha, the south-west corner of the Kathmandu Valley. From the 7th or 8th Century B.C. the Kirantis are said to have ruled the valley. Their famous King Yalumber is even mentioned in the epic, ‘Mahabharat’. Around 300 A.D. the Lichhavis arrived from northern India and overthrew the Kirantis. One of the legacies of the Lichhavis is the Changu Narayan Temple near Bhaktapur, a UNESCO World Heritage Site (Culture), which dates back to the 5th Century. In the early 7th Century, Amshuvarma, the first Thakuri king took over the throne from his father-in-law who was a Lichhavi. He married off his daughter Bhrikuti to the famous Tibetan King Tsong Tsen Gampo thus establishing good relations with Tibet. The Lichhavis brought art and architecture to the valley but the golden age of creativity arrived in 1200 A.D with the Mallas.
+Records mention the Gopalas and Mahishapalas believed to have been the earliest rulers with their capital at Matatirtha, the south-west corner of the Kathmandu Valley. From the 7th or 8th Century B.C. the Kirantis are said to have ruled the valley. Their famous King Yalumber is even mentioned in the epic, 'Mahabharat'. Around 300 A.D. the Lichhavis arrived from northern India and overthrew the Kirantis. One of the legacies of the Lichhavis is the Changu Narayan Temple near Bhaktapur, a UNESCO World Heritage Site (Culture), which dates back to the 5th Century. In the early 7th Century, Amshuvarma, the first Thakuri king took over the throne from his father-in-law who was a Lichhavi. He married off his daughter Bhrikuti to the famous Tibetan King Tsong Tsen Gampo thus establishing good relations with Tibet. The Lichhavis brought art and architecture to the valley but the golden age of creativity arrived in 1200 A.D with the Mallas.
 
-During their 550 year rule, the Mallas built numerous temples and splendid palaces with picturesque squares. It was also during their rule that society and the cities became well organized; religious festivals were introduced and literature, music and art were encouraged. After the death of Yaksha Malla, the valley was divided into three kingdoms: Kathmandu (Kantipur), Bhaktapur (Bhadgaon) and Patan (Lalitpur). Around this time, the Nepal as we know it today was divided into about 46 independent principalities. One among these was the kingdom of Gorkha with a Shah ruler. Much of Kathmandu Valley’s history around this time was recorded by Capuchin friars who lived in the valley on their way in and out of Tibet.
+During their 550 year rule, the Mallas built numerous temples and splendid palaces with picturesque squares. It was also during their rule that society and the cities became well organized; religious festivals were introduced and literature, music and art were encouraged. After the death of Yaksha Malla, the valley was divided into three kingdoms: Kathmandu (Kantipur), Bhaktapur (Bhadgaon) and Patan (Lalitpur). Around this time, the Nepal as we know it today was divided into about 46 independent principalities. One among these was the kingdom of Gorkha with a Shah ruler. Much of Kathmandu Valley's history around this time was recorded by Capuchin friars who lived in the valley on their way in and out of Tibet.
 
 An ambitious Gorkha King named Prithvi Narayan Shah embarked on a conquering mission that led to the defeat of all the kingdoms in the valley (including Kirtipur which was an independent state) by 1769. Instead of annexing the newly acquired states to his kingdom of Gorkha, Prithvi Narayan decided to move his capital to Kathmandu establishing the Shah dynasty which ruled unified Nepal from 1769 to 2008.
 
 The history of the Gorkha state goes back to 1559 when Dravya Shah established a kingdom in an area chiefly inhabited by Magars. During the 17th and early 18thcenturies, Gorkha continued a slow expansion, conquering various states while forging alliances with others. Prithvi Narayan dedicated himself at an early age to the conquest of the Kathmandu Valley. Recognizing the threat of the British Raj in India, he dismissed European missionaries from the country and for more than a century, Nepal remained in isolation.
 
-During the mid-19th Century Jung Bahadur Rana became Nepal’s first prime minister to wield absolute power relegating the Shah king to mere figureheads. He started a hereditary reign of the Rana Prime Ministers that lasted for 104 years. The Ranas were overthrown in a democracy movement of the early 1950s with support from the-then monarch of Nepal, King Tribhuvan. Soon after the overthrow of the Ranas, King Tribhuvan was reinstated as the Head of the State. In early 1959, Tribhuvan’s son King Mahendra issued a new constitution, and the first democratic elections for a national assembly were held. The Nepali Congress Party was victorious and their leader, Bishweshwar Prasad Koirala formed a government and served as prime minister. But by 1960, King Mahendra had changed his mind and dissolved Parliament, dismissing the first democratic government.
+During the mid-19th Century Jung Bahadur Rana became Nepal's first prime minister to wield absolute power relegating the Shah king to mere figureheads. He started a hereditary reign of the Rana Prime Ministers that lasted for 104 years. The Ranas were overthrown in a democracy movement of the early 1950s with support from the-then monarch of Nepal, King Tribhuvan. Soon after the overthrow of the Ranas, King Tribhuvan was reinstated as the Head of the State. In early 1959, Tribhuvan's son King Mahendra issued a new constitution, and the first democratic elections for a national assembly were held. The Nepali Congress Party was victorious and their leader, Bishweshwar Prasad Koirala formed a government and served as prime minister. But by 1960, King Mahendra had changed his mind and dissolved Parliament, dismissing the first democratic government.
 
-After many years of struggle when the political parties were banned, they finally mustered enough courage to start a People’s Movement in 1990. Paving way for democracy, the then-King Birendra accepted constitutional reforms and established a multiparty parliament with King as the Head of State and an executive Prime Minister. In May 1991, Nepal held its first parliamentary elections. In February 1996, the Maoist parties declared People’s War against monarchy and the elected government.
+After many years of struggle when the political parties were banned, they finally mustered enough courage to start a People's Movement in 1990. Paving way for democracy, the then-King Birendra accepted constitutional reforms and established a multiparty parliament with King as the Head of State and an executive Prime Minister. In May 1991, Nepal held its first parliamentary elections. In February 1996, the Maoist parties declared People's War against monarchy and the elected government.
 
-Then on 1st June 2001, a horrific tragedy wiped out the entire royal family including King Birendra and Queen Aishwarya with many of their closest relatives. With only King Birendra’s brother, Gyanendra and his family surviving, he was crowned the king. King Gyanendra abided by the elected government for some time and then dismissed the elected Parliament to wield absolute power. In April 2006, another People’s Movement was launched jointly by the democratic parties focusing most energy in Kathmandu which led to a 19-day curfew. Eventually, King Gyanendra relinquished his power and reinstated the Parliament. On November 21, 2006, Prime Minister Girija Prasad Koirala and Maoist chairman Prachanda signed the Comprehensive Peace Agreement (CPA) 2006, committing to democracy and peace for the progress of the country and people. A Constituent Assembly election was held on April 10, 2008. On May 28, 2008, the newly elected Constituent Assembly declared Nepal a Federal Democratic Republic, abolishing the 240 year-old monarchy. Nepal today has a President as Head of State and a Prime Minister heading the Government.
+Then on 1st June 2001, a horrific tragedy wiped out the entire royal family including King Birendra and Queen Aishwarya with many of their closest relatives. With only King Birendra's brother, Gyanendra and his family surviving, he was crowned the king. King Gyanendra abided by the elected government for some time and then dismissed the elected Parliament to wield absolute power. In April 2006, another People's Movement was launched jointly by the democratic parties focusing most energy in Kathmandu which led to a 19-day curfew. Eventually, King Gyanendra relinquished his power and reinstated the Parliament. On November 21, 2006, Prime Minister Girija Prasad Koirala and Maoist chairman Prachanda signed the Comprehensive Peace Agreement (CPA) 2006, committing to democracy and peace for the progress of the country and people. A Constituent Assembly election was held on April 10, 2008. On May 28, 2008, the newly elected Constituent Assembly declared Nepal a Federal Democratic Republic, abolishing the 240 year-old monarchy. Nepal today has a President as Head of State and a Prime Minister heading the Government.
 
 The Constituent Assembly made significant progress to accomplish the mandate of writing a new democratic constitution of Nepal during its first 4 years term. The country also had an extensive democratic exercise in that direction including collection of public inputs on the contents of the new constitution and intense deliberations in the Assembly. However, due to political disagreements on some of the contentious issues like federal provinces and form of government, the first CA could not accomplish the historic task and there was natural termination of its mandate in 2012. The election of CA II was held in November 2013 and in its first meeting, leaders of political parties set the timeline of 1 year to complete the task of writing the new constitution.
 
@@ -83,11 +169,8 @@ How ethics and law differ from each other
 
 Explicit and implicit nature
 
-Laws are basically codified by either the state or relevant authorities and explicitly defined, making its interpretation and understanding easier. Ethics do not have a fixed version and is basically case to case basis when it comes to interpretation. Ethical in one case may not be ethical in another.
-
-Ex: Murder is a crime that is explicitly given in law and does not vary on case to case basis.
-    Lying is unethical in some cases whereas it is acceptable in some cases.
-    
+Laws are basically codified by either the state or relevant authorities and explicitly defined, making its interpretation and understanding easier. Ethics do not have a fixed version and is basically case to case basis when it comes to interpretation. Ethical in one case may not be ethical in another. For example, murder is a crime that is explicitly given in law and does not vary on case to case basis. Lying is unethical in some cases whereas it is acceptable in some cases.
+  
 General vs Specific
 
 Ethics is based on general idea of good and bad, correct and wrong and is thusvague when it comes to exact relevance. Law is usually specific for a specific case and applies for that case only.
@@ -97,34 +180,6 @@ Ex: When a particular crime occurs, ethics tries to understand the underlying ci
 Thus, laws and ethics may have different reasons for its existence but the underlying idea of both is to maintain socially conductive practices.
 
 source: \url{https://www.upsciq.com/law-and-ethics-considered-two-tools-controlling-human/}
-\end{solution}
-
-\question What is water-use efficiency? Describe the role of micro-irrigation in increasing the water-use efficiency.
-
-\begin{solution}
-
-Water use efficiency is the ratio of water used for plant metabolism to the water lost by plant through transpiration. It can be understood as a measure to reduce water wastage from plants by providing only the necessary amount.
-
-Role of micro-irrigation in increasing water-use efficiency
-
-Reduces excess water accumulation
-    
-In conventional irrigation system water is used in bulk without proper understanding of the requirement of the crop. This will result in accumulation of water without proper utilisation leading to wastage. In micro-irrigation, the water needed for the plant to grow is given in right amount so as to reduce wastage.
-
-Recycling of expelled water
-
-In micro-irrigation system such as greenhouse farming, the plant canopy is covered in plastic to prevent transpiration water from escaping. The water is then diverting back to the plant. This will ensure that water wastage from plant will be lower in comparison to the input.
-
-Reduces run-off
-
-Water irrigation in conventional methods like canals and tube well will result in water runoff from the fields without getting utilised. This will contribute towards wastage especially in areas where there is shortage of water. In micro-irrigation techniques, water will be targeted at the root of the crops so that wastage is as low as possible.
-
-Way forward
-It is necessary to device methods to make water use efficiency high and address shortage of water across the globe.
-
-Thus, micro-irrigation is a very important idea when it comes to sustainable use of water resources. The initial investment once recovered will make agriculture a profitable venture.
-
-source: \url{https://www.upsciq.com/what-is-water-use-efficiency/}
 \end{solution}
 
 \question Anger is a harmful negative emotion. It is injurious to both personal life and work life. Discuss how it leads to negative emotions and undesirable behaviours. How can it be managed and controlled?
@@ -159,45 +214,9 @@ Way forward
 
 Anger in a certain amount is beneficial as it keeps the spirits of an individual high. But exceeding the limit will usually create chances of negative emotions.
 
-Thus, anger management is an important component in the life of an individual. It not only keeps negative emotions from emerging, it also ensures that energy of an individual is used productively and  not spent on emotional angry outbursts.
+Thus, anger management is an important component in the life of an individual. It not only keeps negative emotions from emerging, it also ensures that energy of an individual is used productively and not spent on emotional angry outbursts.
 
 source: \url{https://www.upsciq.com/anger-harmful-negative-emotion-injurious-both-personal-life/}
-\end{solution}
-
-\question The global lockdown imposed due to COVID-19 pandemic has turned out to be beneficial for environment on short term. Validate.
-
-\begin{solution}
-The major countries of the world, including India have self imposed a lockdown to tackle spread of COVID-19 pandemic. This has impacted economy of the world in an adverse manner causing slowdown. But the silver lining in the situation is improvement in environmental conditions that we have observed.
-
-Environmental benefits due to global lockdown
-
-Reduction in air pollution levels
-
-The major environmental concern in this century is climate change, that has been caused due to air pollution across major human settlements. Due to the lockdown the pollutant level in air such as CO2, NO3, SO4, ozone, PM 10, PM 2.5 have seen a drastic drop. This has made the air cleaner for breathing and reducing health concerns.
-
-Reduction in water pollution levels
-
-Water pollution in developing countries is mainly due to factories dumping their waste in water bodies. The lockdown has forced the factories to shutdown and cut production. This has reduced or completely cut off waste discharge from factories.
-
-Reduction in solid municipal waste
-
-With low outdoor activities and travel, the household waste produced in cities have seen reduction. The reduced level makes it easier to dispose off the waste more effectively. Dumping grounds have a chance to recover if this trend continues.
-
-Increase in biodiversity
-
-Withdrawal of humans from outdoors have opened the spaces for biodiversity to recover their lost territories. Sea mammals like dolphins have returned back to the shores due to lack of disruption from humans in their territories.
-
-Reduction in sound and light pollution
-
-Cities have turned silent due to stoppage of vehicular movement and industrial activities. This has made the environment suitable for calmness. Excessive usage of light has been reduced too due to the same reasons.
-
-Way forward
-
-This restriction has to be converted into a habit for people to follow in future so that environmental pollution is kept in check.
-
-So, the global lockdown has helped the environment to recover upto certain extent. What needs to be seen is the impact that return of normality is expected to bring.
-
-source: \url{https://www.upsciq.com/the-global-lockdown-imposed/}
 \end{solution}
 
 \question What is the better form of government -- Parliamentary, Presidential and Semi-presidential ?
@@ -328,7 +347,7 @@ According to the Army Act, 2063 (Chapter-11; Section (dafa) 101),
 \item Freezing of promotion for Five years,
 \item Deduction of salary and allowances for Three months in case the offence has been committed in the course of military action,
 \item Freezing of salary and allowances until the recovery of compensation,
-\item Freezing of salary increments for a period not  exceeding Two years,
+\item Freezing of salary increments for a period not exceeding Two years,
 \item Warning (Nasihat).
 \end{itemize}
 
@@ -537,7 +556,7 @@ Similarly, separate regulations for national parks such as the Royal Chitwan Nat
 \item Insolvency Act, 2063 (2006)
 \item Land Acquisition Act, 2034 (1977)
 \item Kathmandu University Act, 2048 (1991)
-\item International Development Association’s Membership Acquisition Act, 2019 (1962)
+\item International Development Association's Membership Acquisition Act, 2019 (1962)
 \item Land Revenue Act, 2034 (1978)
 \item Martyr Gangalal National Heart Disease Centre Act, 2057 (2000)
 \item Lumbini Bouddha University Act, 2067 (2006)
@@ -667,7 +686,7 @@ Organizational Information
 
 The Inland Revenue Department (IRD) is currently responsible for the enforcement of Tax Laws and administration of the following taxes: Income Tax, Value Added Tax, Excise Duty and duties like Entertainment fee (Film Development Fee). Value Added Tax Department was merged with Department of Taxation on April 15, 2001. Later it was renamed as Inland Revenue Department since July 16, 2001.
  
-IRD is centrally located in Kathmandu. There are 59 field offices throughout Nepal including 1 Large Taxpayers Office, 1 Medium Level Taxpayer Office,  38 Inland Revenue Offices and 19 Taxpayer Service Offices. IRD carries out the following functions:
+IRD is centrally located in Kathmandu. There are 59 field offices throughout Nepal including 1 Large Taxpayers Office, 1 Medium Level Taxpayer Office, 38 Inland Revenue Offices and 19 Taxpayer Service Offices. IRD carries out the following functions:
 1. Tax Administration
 2. Tax Policy
 3. Tax Payer Services
@@ -709,6 +728,103 @@ K. Each taxpayer is to get Tax Clearance Certificate generally within TWENTY FOU
 \end{solution}
 
 \end{questions}
+
+\begin{questions}
+
+\question (Long answer type) Briefly analyse the existing situation of poverty in Nepal. Also mention the measures to be taken for poverty reduction in future.
+
+\begin{solution}
+
+Poverty alleviation
+
+The state of economic and social backwardness is called the poverty. A set of economic and humanitarian measures, strategies and activities intended to permanently lift people out of poverty is known as poverty alleviation/reduction. There are policy, legal and institutional efforts being made in Nepal to reduce poverty.
+
+The consitution of advocates and the sustainable development goals have highlighted social security and justice for people of all gender, regions while lending special emphasis to economically backwarded group of people in the society. Several programmes launched in the past two decades attempted to address the issue of poverty reduction and since the 10th five year plan, the issue was tackled systematically. Povery was categorized in three dimensions -- income poverty, human poverty and social deprivation. Currently more than 50 programmes aimed at lifting poor of their status are launched. In order to ensure that such programmes recognize true poverty stricken households and provide require interventions, a task of poor household identification and issuance of identity card to those has been on-going. Consequently, Nepal has made a significant progress in addressing poverty and improving human development index (HDI). Still, currently 18.7% of the population lie below poverty line and 28.6% of population is poor according to multidimentional poverty index (2018/19). This means we are still far from being established as a affluent nation.
+
+Sustainable development goals envisages, all multi-dimensional indicators of poverty addressed, which includes increament of per capita income and reduced economic inequality among classes of people of different geographical locations, gender and social sectors and reformed national efforts towards this end in future. Similary, efforts of public, private and community and NGO, INGO, including development stakeholders need to be concerted and streamlined with strong cooperation for poverty reduction.
+
+The 15th plan foresees a reduced absolute poverty rate to 11% and multidimensional poverty indicator to 13% by the end of planning period. Likewise it approaches for significant improvement of economic inequality between different income group of people.
+
+Apart from strategic and working course of action set forth by government for current planning period, a general framework of measures for poverty alleviation are given below:
+
+\begin{itemize}
+\item Income generation is the major safeguard against poverty, henceforth activities promoting employment and skill development should be promoted
+\item The distribution of poor households -- location, size and status should be recorded and database updated regularly
+\item Identity card should be distributed among the identified households in order to facilitate easy launching of programmes to the target group.
+\item Policy amendments with allowance package for truly poor individuals should be made
+\item Programmes and projects aimed at skill enrichment of different sectors of people should be launced based on priority
+\item Settlement plans for refugees should ensure their upliftment
+\item Street children, disabled and elder citizen should be granted special support
+\item Equal opportunity for employment to all classes of citizens
+\item Government should aim for improving livelihoods of the poor through their self-reliance
+\item Promote activities that increase self-employment. For this, agriculture commercialization and diversification should be done at policy level and supply of fertilizer, improved seeds and chemicals should be assured.
+\item Investment environment should be improved for increased investment in agriculture, manufacturing, trade, tourism, health and education.
+\item Fostering of inter-agency cooperation between government organizations in the fight against poverty.
+\end{itemize}
+
+A state of poverty reflects weak privilage for a nation and its citizens. It also means that the economy is underdeveloped and unhealthy for modern infrastructure attainment. Thus a targeted approach, that identifies and arranges basic facilities for the poor so as to enable them uplift their livelihood through skill generation and income generation enterprise is the current necessity in nationwide fight against poverty.
+
+\end{solution}
+
+\question Mention the problems for achieving good governance in Nepal.
+
+\question What do you mean by rule of law ? Explain.
+
+\question What is the meaning of reservation ? Why is it necessary in government services ? Mention.
+
+Recent census of 2011 has categorized 125 caste as well as ethnic communities in Nepal out of 26.5 million population. Over 92 spoken languages and more than 10 religions are identified in the country, although Nepali language and hindu religion characterize the largest fraction of the population. Social exclusion is known to be one of the main setbacks for inclusive democracy to prosper.
+
+Women cut across all categories irrespective of caste, ethnicity, individuals with disabilities, or children. Six categories, based on sex, caste, ethnicity, religion, religious and physical condition, have been listed as excluded groups.
+
+Excluded groups confront different sets of developmental challenges that more or less relate to securing basic rights to living a quality life. Marginalization from mainstream development, discrimination, under-representation in politics and beureaucracy and lack of competent power are some of the major problems.
+
+Measures are being institutionalized to secure for these groups the active participation in social, economic and political development with Nepal's endorsement of international human development agendas. One of those indlude the ratification of treaty on Ellimination of all Forms of Discrimination Against Women which came into effect on Sept 1981. Over the years pacts like the Indian Poona Pact, have created an obligation on the government to protect minority rights. Recent policy reforms target promotion of equality, participatory development, social security, positive discrimination, reservation on beureaucracy, gender budgeting and targeted program.
+
+Constitution of Nepal, 2072 defines Nepal as a multi ethnic, multi linguistic and multi religious country, and home to people of diverse races, religions, castes, socio economic conditions and languages. It has done fair justice to those holding small numbers in terms of population by ensuring their representation in all institutions of the country. It is said that a country's diversity should be reflected in every sector, only then can its diversity or heterogeneity be preserved. Minority rights serve as a basis for their representation in diverse sectors of the society. 
+
+- As per Article 42 of the constitution, socially backward women, Dalit, indigenous people, indigenous nationalities, Madhesi, Tharu, minorities, persons with disabilities, marginalised communities, Muslims, backward classes, gender and sexual minorities, youths, farmers, labourers, the oppressed and citizens of backward regions and indigent Khas Arya qualify for reservation in government jobs.
+
+- The second amendment of Civil Service Act, 1993 in order to increase participation in civil service through introduced reservation system, has allocated (pursuant to Chapter 3, Subsection 7, Clause 1 and 2)) 45% of the total posts to fulfilled by open competition to be set aside by having separate competition between the following candidates only (by considering the percentage into cent percent):
+
+  - Women: 33%
+  - Adiwasi/Janjati: 27%
+  - Dalit: 9%
+  - Disabled: 5%
+  - Backward area: 4% (Comprising Accham, Kalikot, Jajarkot, Jumla, Dolpa, Bajhang, Bajura, Mugu and Humla districts only)
+  
+The act also has made an arrangement for reviewing the impact of the above provision in a period of ten years. Moreover, the act has fixed 40 years as the age bar for women candidates to enter in the civil service, whereas the same is set to 35 years for men. Besides that individuals recruited through the reservation may be eligible for promotion only one year after working on a post.
+
+- Government initiated a project named Governance reform program 2001-2005. One of the responsibilities of this program was to explore the level of marginalization and to suggest corrective measures for the government. The project report, for the first time in Nepal, proposed quota reservation for marginalized people in Nepal.
+
+Through inclusivity and affirmative action, representation of the most deprived community is ensured. However, there have been criticisms that mishandling of privilage may tarnish merit based system in civil service. Again, it can be misused by those in charge of power in the deprived community itself. Here however is an opportunity for us to set an worldly example if the reforms are to avail themselves in a decade or so, but undoubtedly till then implementation of this democratic constitution remains the key challenge.
+
+\question What are the provisions in Constitution of Nepal, 2072 for activities, rights and duties of Commission for Abuse of Authorities ?
+
+\begin{solution}
+
+\end{solution}
+
+\end{questions}
+
+## Planned development history in Nepal 
+
+We were awakened when the world has started to move, now the world is running and we are walking. The pace of Nepal race for development lacks significance with reference to (Most Developed Countries (MDC). Still Nepal holds some majestic and unbelievable achievement in emancipation and people oriented development mechanism. Nepal's commitment for people oriented development, response to grass root people and empowerment of marginalized people still holds reliability. It is often said "Underdeveloped nations does not lacks resources but lacks good management." When we simply make SWOT analysis of Nepal's Development four major points for each becomes enough to indicate the reality. 
+
+Strength: Wonderful and well appreciated mechanism of development exists in Nepal. (Perfect Hardware)
+
+Weakness: The mechanism and setup of Development are non functional due to Socio-political insensitiveness and lack of Culture. (Non Functional Software)
+
+Opportunities: Potentially Nepal can achieve a sustainable development very soon and proactively. (People Oriented Development soon)
+
+Threats: A common commitment and functional interest of political and social entity. (Harmonization/Participation).
+
+Nepal development practice has been a victim of pseudo participation. This has misled development and has destructed culture of institutional thinking.
+
+Nepal is a nation of diversities. Vertical and horizontal diversity exist in society. Economical, cultural and social stratification in Nepalese society is both the creator of dynamism and obstacles in Nepal development. Dynamism is exposed in form of community initiatives, religious harmony and others, Obstacles are out laid as conflicts and non conducive environment. Recently the conflicts in the society have come to the surface. Nepalese society is struggling for transformation. The dominating issue is that weather present transition can be managed to direct and achieve desired outputs of Nepalese societies or not. Prevailing scenarios signify a search for direction and identified efforts to nation building. Immersed in long transition from 07BS till these days Nepal Development pace lacks efficiency to lead societies to enriched processing capacity. Centralized state has failed to adjust the demand and supply of the people needs at suburbs. Thus urge for decentralization has soared high. Poverty still exists at 31%. 1 Inflation rate is double digit. 
+
+National economy is founded by remittance hindering local resources utilization. Industrialization and mega developmental project are empty. Peace and security has lost its existence. Mass depression and many health hazards with natural disasters are striking regularly. Increasing loans and operating cost, disturbance of productive sectors and immature political culture are today's reality. Beside Nepal also possess the context same to other that of LDC's. Good Governance and its issues are frequently talked but the indicator remorse. Beside these realities people emancipation and institutionalizations are few achievements.
+
+Basic facilities in spite of low quality are becoming accessible. Development is in operation and people have felt about the change in the scenario.
 
 ## Events and programmes
 
@@ -757,9 +873,9 @@ Accordingly, CNI has also been focusing on the resilience of the infrastructure 
   - Public-Private Partnership (PPP) Centre.
   - Other legal and institutional issues.
 
-The 2nd Nepal Infrastructure Summit hosted by the Confederation of Nepalese Industries (CNI) facilitated discourse on the theme "Private Sector as indispensable Partner" for infrastructure development. The primary objective of the summit was to attract large scale private investment in areas of Nepal’s core needs and strengths; forge stronger networks and alliances in the region for seamless connectivity; and raise awareness on why investment in infrastructure needs an urgent push in the country.
+The 2nd Nepal Infrastructure Summit hosted by the Confederation of Nepalese Industries (CNI) facilitated discourse on the theme "Private Sector as indispensable Partner" for infrastructure development. The primary objective of the summit was to attract large scale private investment in areas of Nepal's core needs and strengths; forge stronger networks and alliances in the region for seamless connectivity; and raise awareness on why investment in infrastructure needs an urgent push in the country.
 
-The summit focused on the strategic vision of the infrastructure, value proposition, competitiveness, policy particularly on land acquisition and environmental clearance; and regulatory enablers and business environment. CNI in collaboration with Idea Studio will collect various infrastructure ideas from different sectors of the communities to come up with a creative and an innovative **infrastructure** (transportation, irrigation, energy, housing, digital, etc) **ideas** to solve the existing epic infrastructure deficit and address to the possible future need for our country’s development.
+The summit focused on the strategic vision of the infrastructure, value proposition, competitiveness, policy particularly on land acquisition and environmental clearance; and regulatory enablers and business environment. CNI in collaboration with Idea Studio will collect various infrastructure ideas from different sectors of the communities to come up with a creative and an innovative **infrastructure** (transportation, irrigation, energy, housing, digital, etc) **ideas** to solve the existing epic infrastructure deficit and address to the possible future need for our country's development.
 
 The Summit provided a platform for exchange of relevant experience in selected topics including:
 
@@ -768,84 +884,6 @@ The Summit provided a platform for exchange of relevant experience in selected t
 - Expediting Public Private Partnership (PPP)
 - Financing Resilient Infrastructure
 - Successful PPP Model: Global and regional Perspective
-
-### Relationship between climate change and energy use
-
-- Energy use has close ties with climate change. India and china are among the greatest emitters of greenhouse gases and consumers of fossil fuel, and it is predicted that their consumption of coal as major source of energy will continue to rise for at least a decade (IEA, 2019).
-- Into 2016 and we still have 80% of our total energy requirement met from fossil fuels (mostly, oil, coal and natural gases). International energy agency's report says that 30% of all energy-related carbon dioxide emission is related to coal as fuel, making it the biggest single contributor (2019).
-- An individual effort to parsimoniously treat energy resources available to us determines individual footprint. We could choose to reuse a battery/cell, with minor power drops, in alternative electronic items compatible with it or just treat at a refuse at our home. The latter activity with unforeseen consequences might lead to the battery being disposed improperly and polluting an ecosystem due the leakage of its electrolyte chemicals.
-- While electricity is lighting up most houses, its generation has been a markedly different process worldwide. The process basically depends with the resource endowment of a nation in their approach to choosing ways to explore it. Coal, for example, is used largely in China and the US despite its much tauted big contribution in greenhouse emission.
-
-
-## Impacts of climate change
-
-What are the impacts of climate change ? Discuss on detail about the initiative taken by Nepal Government in tackling the impacts of climate change.
-
-Climate change is now affecting every country in every continent. It is disrupting national economies and affecting lives, of individuals, communities and countries today and is likely to do so in the ensuing future. Weather pattern are changing, snowline are melting due to global warming and sea level are rising. 
-
-**Negative impacts**
-
-1. Numerous mountains are seeing accelerated the melting of snow due to global warming.
-2. Changes in monsoon patterns, such as erratic rainfall with alternate drought periods are the serious impacts of climate change in Nepal which hampers the agricultural production. The changes in monsoon pattern in Nepal greatly exacerbate the situation of poverty and food insecurity in the country.
-3. Flood, landslides, forest fires, snow melt are the disasters that occur as a result of climate change without any prewarning and causes heavy loss.
-4. High hills and mountains are more vulnerable to climate change compared to terai, thus climate change make large scale economic and ecolgical disruption in upper latitudes.
-5. Loss of plant and animal biodiversity.
-6. Increase in number of insects, pest and diseases and sporadic outbreaks becoming much frequent.
-
-The positive impact of global warming, a characteristic feature of climate change, is that the crops that could in the past be only growth in certain low altitudes, requiring prolonged exposure to heat can now be growth in higher regions such as Manang and Mustang districts of Nepal. The is evidently due to increase average temperature of the region, thus allowing the crop to perform well. However, as noted earlier, there are more prominent negative impacts than the benifits we can derive from the climate change.
-
-Nepal became signatory of UN Framework Convention on Climate Change (UNFCC) in 1994. Ever since then the issue of climate change has been routinely incorporated into policy and strategic frameworks by Government of Nepal. Following policies and strategies are currently in place to help mitigate the impacts of climate change in Nepal:
-
-1. Constitutional approach
-
-Article 30(1) of the constitution of Nepal guarantees a "clean environment" as fundamental right and elaborates that "every citizen shall have the right to live in a clean and healthy environment." Article 30(2) of the constitution also encourages the state to formulate necessary legal framework to balance environment and development.
-
-2. Approaches in periodic plans
-3. Climate change policy, 2067 (2011)
-4. National climate change policy, 2076 (2019)
-6. National adaptation plan of action (NAPA, 2010)
-7. Framework for local adaptation plan for action (LAPA, 2011)
-
-## Highlights of NCCP, 2076
-
-Reasons for Nepal's vulnerability to climate change are Topographical fragility, fragile geological structure, sensitive ecosystems and diversity of climate and micro-climate zones prevalence in Nepal. Additionally, poverty, illiteracy, social disparity and high dependence of communities on natural resources for livelihood.
-
-- Nepal National Red Strategy implemented to check greenhouse gases emmission from deforestation and forest destruction.
-- Provision of climate change coordination committee in Chairmanship of Prime minister.
-- Establishment of Climate change management section under Ministry of Forest and Environment as focal point for implementation of international treaty.
-- Provision of Climate budget code by National planning commission.
-- Alternative energy promotion center has established climate and carbon unit for executing Clean Development Mechanism (CDM) related activities.
-
-**Goal**
-
-To contribute to socio-economic prosperity of the nation by building a climate resilient society.
-
-**Objectives**
-
-a. To enhance climate change adaptation capacity of persons, families, groups and communities vulnerable to, and at risk of, climate change;
-b. To build resilience of ecosystems that are at risk of adverse impacts of climate change;
-c. To promote green economy by adopting the concept of low carbon emmission development;
-d. To mobilize national and international financial resources for climate change mitigation and adaptation in just manner;
-e. To conduct research, make effective technology development and information service delivery related to climate change;
-f. To mainstream or integrate climate change issues into policies, strategies, plans and programs at all levels of State and sectoral areas;
-g. To mainstream gender equality and social inclusion (GESI) into climate change mitigation and adaptation programs.
-
-**Policies** (Sectoral policy, strategies and working policies)
-
-1. Agriculture and food security
-2. Forest, biodiversity and watershed conservation
-3. Water resources and energy
-4. Rural and urban habitats
-5. Industry, transport and physical infrastructure
-6. Tourism and natural and cultural heritage
-7. Health and drinking water and sanitation
-8. Disaster risk reduction and management
-9. Gender equality and social inclusion, livelihoods and good governance
-10. Awareness raising and capacity development
-11. Research, technology development and expansion
-12. Climate finance management
-
-Policy number 9-12 are inter-thematic areas.
 
 ## Population census, 2068
 
@@ -868,21 +906,42 @@ dplyr::tribble(~"Indicator", ~"Unit", ~"Value",
 
 ```
 
+## Special groups, rights and exercise in positive discrimination
+
+### Reservation and the Khas Arya
+
+Citizens' rights to equality, justice and non- discrimination are ingrained principles that reaffirm the idea of inclusion in Nepal's 2015 Constitution, which in some areas has carried over relevant provisions from the Interim Constitution. For instance, the new constitution guarantees 33 per cent representation for women in the House of Representatives, the lower chamber of Parliament, and also in provincial legislatures. It also provides for 'proportionate inclusion' in government service (Article 285), which, in principle, would mean that the government would begin to reflect the country's social diversity.
+
+However, the new constitution also dilutes important commitments to greater inclusion by increasing the number of groups qualifying for reservations, and by using vague language that can be interpreted in different ways. Some marginalised communities have been pushing for revisions that can better uphold their interests. But the provision on the 'Right to Social Justice' in the new constitution identifies many more 'clusters' for reservation, a significant proportion of which are poorly defined, while the incorporation of the Khas Arya (a historically advantaged, 'upper caste' group) among the new groups qualifying for reservations adds a more specific complication.
+
+Initially, a total of 17 groups were mentioned in the new constitution as deserving special attention: 'Women, Dalit, indigenous people, Adivasi Janajati, Madhesi, Tharu, minorities, persons with disabilities, marginalised communities, Muslims, backward classes, gender and sexual minorities, youth, farmers, labourers, oppressed or citizens of backward regions, and indigent Khas Arya shall have the right to participate in state bodies on the basis of principles of inclusion' (Article 42).
+
+Heeding the demands of Madhesis and Janajatis, the first amendment of the constitution in January 2016 changed 'principles of inclusion' to 'principles of proportional inclusion'. Previously, 'proportionate inclusion' had been guaranteed only to women (Article 38) and Dalits (Article 40). The amendment also removed 'youth' and the superfluous 'indigenous people' (already covered by Adivasi Janajati), and re-ordered the groups as: 'Women, Dalit, Adivasi Janajati, Madhesi, Tharu, Muslims, backward classes, minorities, marginalised communities, persons with disabilities, gender and sexual minorities, farmers, labourers, oppressed or citizens of backward regions, and indigent Khas Arya'. Article 42 also includes the qualifier 'who are economically, socially or educationally backward' for the above groups, although it is not clear to which groups such a description applies or if it meant for all.
+
+Besides cluttering the list with undefined groups such as 'backward classes', 'minorities' and 'marginalised communities', all of which terms are also applicable to the historically marginalised, Article 20 shows how the 2015 Constitution has also provided reservations to the already dominant Khas Arya, a group that is overwhelmingly represented in all state structures. The addition of the Khas Arya stands against the principle of proportional inclusion and implies a potential reduction of positions reserved for marginalised communities as well as for women. Further, none of the communities other than the Khas Arya has been defined under the Constitution of 2015 (Article 176.6), effectively giving constitutional validity to the four groups described as belonging to this category while denying such validity to the more than a hundred that belong to the marginalised. This was a blatant instance of the Khas Arya, who were in leading positions in all the major parties represented in the Constituent Assembly, misusing their power to fulfil their own needs.
+
+Hence, under the new constitution, the Khas Arya community can lay claim to the reservation facility under five of the 15 eligible categories - as women, as labourers, as farmers, as belonging to backward regions, and as 'indigent' Khas Arya (as well as disabled people and gender and sexual minorities). It is true that poverty affects all communities, including the Khas Arya, but rather than address this through a programme aimed at poverty reduction, the 2015 Constitution has instead envisaged the reservation policy as a means towards that end, instead of recognising reservations as being aimed at empowering marginalised communities.
+
+The 2015 Constitution has also provided for a National Inclusion Commission whose 'functions, duties and powers' state that it is to engage in various activities for the welfare of 'the Khas Arya, backward classes, persons with disabilities, senior citizens, labourers, farmers, minorities and marginalised communities, people from Karnali and the poor'. Once again, the Khas Arya have been clearly identified whereas more excluded groups have been lost in a long list of undefined categories of people.
+
+### Representation and the Tarai
+
+The Interim Constitution had ensured that the Tarai, which is home to half of Nepal's population, would secure seats in the CA in proportion to the region's population under the first-past-the-post (FPTP) part of the election. Nepal's electoral system is split between FPTP and proportional representation (PR). In relation to inclusion more broadly, under the terms of the Interim Constitution, 58 per cent of the membership of both Constituent Assemblies was elected through PR – a deliberate design meant to increase the representation of marginalised communities. The new constitution has reduced this proportion to 40 in the federal parliament as well as the provincial legislatures.
+
+The mandate given to the Constituency Delimitation Commission under the Interim Constitution was to 'determine the number of members to be elected on the basis of the population of each district ... maintaining as far as practicable proportionality between the number of members and the population of the districts' (Article 154A.6). Under the present constitutional dispensation, the number of constituencies has a higher significance since 60 per cent of the legislative seats at both the federal and provincial levels will be elected directly through the FPTP system.
+
+The new constitution weakened this commitment, whereby the Constituency Delimitation Commission would 'consider geography and population as the basis for representation, and maintain as far as practicable the equal ratio or proportionality between geography, population and the number of members' (Article 286.5). The equal weight given to geography and population would mean the Tarai, which covers only 17 per cent of the country's territory but holds 50 per cent of the population, would lose out. The first amendment made the basis of delineation to be population first, and only then geography, in order to provide more seats to the Terai. But because each district is also to have at least one electoral constituency and with the hills and mountains accounting for 55 of the country's 75 districts, it is yet unclear whether or not the southern plains will get seats in proportion to their population.
+
+Further, the time period to re-delineate electoral districts has also been doubled from every 10 years in the Interim Constitution, following the decennial census, to every 20 years in the new statute. This arrangement is likely to reduce representation from the Tarai over time, given the migration patterns of people from the hills to the Tarai; the percentage of Pahadis (people of hill origin) living in the Tarai rose from six to 36 per cent between 1952 and 2011.
+
+Representation in the Upper House of Parliament (National Assembly) is also a challenge. The new constitution states that each of the agreed seven federal provinces shall send eight representatives to the National Assembly (including, encouragingly, at least three women, one Dalit, and one representing people with disabilities or a minority community). But it also means that Province 2, the only province that comprises exclusively Tarai districts and which has a population size of 5.4 million, will have the same representation in the National Assembly as Province 6, with just 1.5 million people
+
+source: \url{https://www.c-r.org/accord/nepal/comparing-2007-and-2015-constitutions}
+
 ## Hulaki rajmarga (Hulaki highway)
 
 http://www.karma99.com/
 http://www.karma99.com/2015/09/hulaki-rajmarga.html
-
-## Demographics of Nepal
-
-- Refer to wikipedia link \url{https://en.wikipedia.org/wiki/Demographics_of_Nepal}, for demographic statistics of Nepal. This includes
-  - Population growth
-  - Vital statistics: Live births per year, Deaths per year, Natural change per year, CBR, CDR, NC, TFR, IMR
-  - Population structure: Based on age group
-  - Ethnicity statisics
-  - Languages
-  - CIA factbook summary
-  - Religion, etc.
 
 ## Madan puraskar
 

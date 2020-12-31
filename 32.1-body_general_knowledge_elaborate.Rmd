@@ -1,71 +1,20 @@
 # General knowledge elaborate
 
-## Solution set
+## Budgeting, public accouting, finance and national economy
+
+**Approved budget**: An approved budget as defined by NPSAS, 2076 reflects the anticipated revenues or receipts expected to arise in the annual or multi-year budget period based on current plans and the anticipated economic conditions during that budget period, and expenses or expenditures approved by a legislative body, being the legislature or other relevant authority. An approved budget is not a forward estimate or a projection based on assumptions about future events and possible management actions which are not necessarily expected to take place. Similarly, an approved budget differs from prospective financial information which may be in the form of a forecast, a projection or a combination of both - for example, a one year forecast plus a five year projection. 
+
+In some cases budgets may be signed into law as part of the approval process. In other cases, approval may be provided without the budget becoming law. Whatever the approval process, the critical feature of approved budgets is that the authority to withdraw funds from the government treasury or similar body for agreed and identified purposes is provided by a higher legislative body or other appropriate authority. The approved budget establishes the expenditure authority for the specified items. The expenditure authority is generally considered the legal limit within which an entity must operate. In some cases, the approved budget for which the entity will be held accountable may be the original budget and in others it may be the final budget.
+
+**Original budget** may include residual appropriated amounts automatically carried over from prior years by law. For example, governmental budgetary processes include a legal provision that requires the automatic rolling forward of appropriations to cover prior year commitments. Commitments encomapass possible future liabilities based on a current contractural agreement. In some cases, they may be referred to as obligations or encumbrances and include outstanding purchase orders adn contracts where goods or services have not yet been received.
+
+Supplemental appropriations may be necessary where the original budget did not adequately envisage expenditure requirements arising from, for example, war or natural disasters. In addition, there may be a shortfall in budgeted receipts during the period, and internal transfers between budget heads or line items may be necessary to accomodate changes in funding priorities during the fiscal period. Consequently, the funds allotted to an entity or activity may need to be cut back from the amount originally appropriated for the period in order to maintain fiscal discipline. The **final budget** includes all such authorized changes or amendments.
+
+**Actual amounts** is used to to describe the amounts that result from execution of the budget. In some cases, "budget out-turn", "budget execution" or similar terms may be used with the same meaning as "actual" or "actual amounts".
+
+NPSAS applies to all entities that are required to, or elect to, make publicly available their approved budget(s). While making comparison of budget and actual amounts, presentation in the financial statements of the original and final budget amounts and actual amounts on a comparable basis with the budget, which is publicly available, will complete the accountability cycle by enabling users of the financial statements to identify whether resources were obtained and used in accordance with the approved budget.
 
 \begin{questions}
-
-\question Discuss about the major impacts on people's lifestyle due to the geographic conditions of Nepal.
-
-% \makeemptybox{1.5in} % use this to provide a box in question
-\begin{solution}
-
-Physical geography is the study of natural features and phenomena on the planet's surface and our interactions with them. These features include vegetation, climate, the local water cycle, and land formations. Geography doesn't just determine whether humans can live in a certain area or not, it also determines people's lifestyles, as they adapt to the available food and climate patterns. As humans have migrated across the planet, they have had to adapt to all the changing conditions they were exposed to. At first, particular cultures develop because of the physical landscape. Over time, those cultures exert their own influence on the landscape around them.
-
-Life cannot be the same in arctic regions as in the tropics; nor upon deserts of drifting sand as upon the grassy steppes which afford the natural home for wandering shepherds and their herds; nor upon the seacoast with its fisheries and commerce as among the mountains with their forests and mines. But it is not alone the extreme and unusual manifestations of nature which affect the life of man. So relatively inconspicuous a fact as the presence of a creature adapted to become a beast of burden might enable one people to grow into a triumphant race, contributors to a dominant civilization, and the absence of such a creature might condemn another race to backwardness and final extinction.
-
-Geography, in overall, affects socio-economic lifestyle of people in following ways:
-
-\begin{enumerate}
-\item Geographic conditions determine the size of populations.
-\item The economic occupations of a people are determined by their geographic environment.
-\item Stagnation or progression are conditioned largely by geographic surroundings.
-\item Lawlessness is the natural consequence of geographic inaccessibility
-\item The form of government is affected by geographic conditions
-\item Tastes and social and domestic customs are influenced by geographic conditions: Football is out of place in the tropics, and ice-skating is impossible. Athletic sports are indigenous to cool climates, and are the objects of amazement to inhabitants of torrid regions. The long evenings of the northern winter call into being suitable pastimes.
-\item Ethical differences are largely influenced by geographic environment
-\item Mythologies and religions are influenced by geographic environment: What the nature-myths of a people shall be depends in part upon what aspects of nature in their neighborhood are most impressive, whether they live by the sea, upon the banks of a great river, among the mountains, in the depths of the forest, or on a plain where the overarching sky with sun and stars chiefly command the gaze. The existing form of earthly power and authority tends to shape man's notion of divine rule.
-\item Geographic conditions affect the moods and psychic tendencies of a people: General vital processes, upon which the action of the brain and nervous system depends, affected by conditions of heat, light, and moisture, but the nerves themselves are directly stimulated or depressed. To this cause has been ascribed the fact that the cradles of civilization have been found in dry regions like the Egyptian oasis in the desert, and the plains of Iran and of Central America. Not only does climate affect the permanent tendencies of races, but passing changes of the seasons affect the moods of men. Alternations of the seasons give variety to life and stimulation to the imagination.
-\item Routes followed by migration, war and commerce have been marked out by geographic highways, and these have been the great distributers of human populations, customs, and commodities.
-\end{enumerate}
-
-\textbf{Land Formation}
-Land formation is the physical shape of an area and the several processes that help form that shape. One process that makes a big impact is plate tectonics: the movements of crustal plates on the Earth's surface. These plates are constantly sliding past and colliding into one another. Plate movements can affect the availability of water by disrupting rivers and they disturb land formations that humans have settled on, like an earthquake ravaging a major city. Animals hunted by humans for food can be displaced as well, forcing people to move to another area to survive. Thronging cities are found at points of geographical advantage.
-
-\textbf{Soil}
-Soil carries out several functions that profoundly impact human activity. Soil recycles nutrients, regulates water quality, sustains life, and provides structural support for buildings. Without healthy soil, a previously fertile area turns into a desert, making it difficult to sustain vegetation and prevent massive loss of life. Soil doesn't just provide for agriculture, it also helps modern life because it contains minerals. These minerals include ore, which contains metals used for electronics and peat used for heating. People may move temporarily to more fertile areas to provide for their families, especially if they live in poorer countries like Kenya.
-
-\textbf{Water Access}
-Water is purified by evaporation into the atmosphere, from where it falls back to land and the oceans through rainfall. All humans need water to survive, and depend on regular rainfall and other sources of clean water for drinking and agriculture. Water is found above, on, and under the ground. People tend to settle near bodies of water such as oceans, rivers, and lakes for easy access to large amounts of water. For example, nearly the entire population of Egypt is concentrated around the delta of the Nile River because the rest of the country is an arid desert.
-
-\textbf{Climate}
-Climate is the pattern of variation in temperature, humidity, and pressure over an area for long periods of time. There are several types of climates: tropical with high rainfall and temperatures over 18 degrees Celsius, dry, subtropical with mild winters, continental with cold winters, and polar. People have not only adjusted their clothing and housing based on temperature, but their bodies have also adapted. The Masai people have longer limbs that help them lose body heat in the warm climate of East Africa. Arctic-dwelling Inuit adapted by storing more body fat and increasing metabolic rates.
-\end{solution}
-
-\question What is the current status of languages used in Nepal according to Language Commission ?
-
-\begin{solution}
-
-Six new languages have been added to the list of 123 languages spoken in Nepal. These newly discovered one include:
-
-Kanchanpur: Rana Tharu,
-Manang: Nar Phu,
-Gorkha: Chum (Syaar) and Nubri (Larke),
-Dolpa: Poike, and
-Mustang: Serake (Seke)
-
-Current Chairman of the Language Commission Dr. Lava Dev Awasthi submitted the annual report to President in her Office at SheetalNiwas. Prior to it, the national census 2068 had enlisted 123 languages as the languages spoken in Nepal. The list then had grouped 68 languages of the Sino-Tibetian family, 48 languages of Indo-European family and one each of Dravidian family (Uraon-Kudukh) and Austroasiatic family (Santhali) and a language with anonymous identity (Kusunda) as in different language families.
-
-There are 19 languages with more than 100,000 speakers. This consists of 95.91\% of the total population. Among other languages spoken by the rest of the population 24 languages like Dura, Kusunda, Tilunga have a small number of speakers which has ultimately led them on the verge of extinction.
-
-Among others at stake are: Pali, Sankskrit and Bhot.
-
-The report blames excessive craze for English, colonial mindset and the illusions generated by the global market substituting the local one for endangering glorious linguistic diversity and multicultural lifestyle of Nepal.
-
-To facilitate its activities the commission has prepared the list of experts of 101 languages.
-
-The Commission has suggested to form a High-Level Linguistic Policy Determination Committee and assign it the task of coordinating and facilitating various activities related to the constitutional and other legal provisions related to language.
-
-\end{solution}
 
 \question What is budget? Describe the weakness of Nepal's budgetary system.
 
@@ -155,405 +104,431 @@ Need and importance of a government budget
 
 \end{solution}
 
-\question What is drug abuse ? What are the effects and consequences of drug abuse ?
-
-\begin{solution}
-
-The substance that affects our mind and organs and damages our body if used in uncontrolled amount is drug. The habit of taking drug regularly is drug abuse or drug addition. Drug abuse and addiction have negative consequences on individuals and society as well. In reality, drug addiction is a complex disease, and quitting it takes more than good intentions or a strong will. Drug abuse is a serious public health problem that affects almost every community and family in some way. Each year drug abuse causes millions of serious illnesses or injuries. Drug abuse also plays a role in many social problems, such as drugged driving, violence, stress, and child abuse. It can lead to homelessness, crime, loss of employment, failure in school, domestic violence, etc.
-
-Generally, drugs are illegal. Some of the drugs used and supplied by the drug users and drug traffickers are herion, smack, cocaine, cannabis, etc. Selling of such substance is illegal subject to criminal offense. Although strict laws are in place for punishing those who are involved in drug trafficking business, several people are involved in it. Below are some of the reasons that make it very difficult to stop drug trafficking:
-
-\begin{enumerate}
-\item The traffickers run this business in an organized way.
-\item The traffickers use their private means of transportation for supply.
-\item They have good link in customs, airport, etc.
-\item There is good deal of money in this business.
-\item The traffickers have link and wide network with high ranking officials and politicians.
-\end{enumerate}
-
-\textbf{Causes of taking drug}
-
-The use and trend of using drugs is increasing rapidly in the world. About 4\% of the world's population use drug of some form. Many adolescents, teenagers and youth easily fall to drug abuse than elders because they are easily motivated by traffickers. The causes of drug taking are:
-\begin{enumerate}
-\item Due to influence of bad company, they trust their peer groups and under peer pressure, youths start using drugs.
-\item Drug traders abuse them for their criminal purpose.
-\item Attraction to advertisement and promotional activities that youths are inclined to imitate.
-\item Due to lack of peace in family environment.
-\item Lack of love and care from family members or related peers (girl/boy friends)
-\item Teenagers have high expectations and when they are not fulfilled they feel frustrated and take drugs as resort.
-\end{enumerate}
-
-\textbf{Effects of drugs to and individual}
-\begin{enumerate}
-\item Cannot continue education
-\item Failure and setbacks in exams and cannot develop career
-\item Loose jobs due to decreased attention to work
-\item Possibility of contracting diseases like AIDS, Cancer, etc
-\item Suffers from financial crisis
-\item Increase in criminal attitude
-\end{enumerate}
-
-\textbf{Effects of drugs in a family and society}
-\begin{enumerate}
-\item Emotional stress in the family
-\item Family loses peace and prestige
-\item Financial crisis in the family
-\item Kids are victimized
-\item Squabble and conflict with neighbors
-\item Accident, robbery, murder, kidnapping and criminal activities increase in the society
-\item Society struggles with economic and infrastructure development
-\item Society loses active and creative manpower
-\end{enumerate}
-
-\textbf{Solution to the problem of drug abuse}
-\begin{enumerate}
-\item Strict laws should be made and implemented against drug traffickers.
-\item Mass awareness programmes should be conducted to aware general public about the consequences of drug abuse
-\item Various social organizations should play an active role in raising awareness against the drug abuse
-\item Children and youths should receive proper counselling
-\item Children should be raised in a good environment with proper love and care from parents
-\item Rehabilitation centres should be provisioned for those seeking institutional support
-\item Family and society should develop positive attitude towards those individuals committed to refrain drug use.
-\end{enumerate}
-\end{solution}
-
-\question What is social conflict? Discuss about the causes and consequences of social conflict in Nepal.
-
-\begin{solution}
-
-A society composed of diverse of individuals and groups. Each individual or group within a society have their unique ethnicity, language, culture and religion and socio-economic background. Similarly, it is hard to find individuals with common pursuit of interests, hobbies, habits and perspective. Therefore, in a ways, diversity itself gives way to conflict. Individuals differing for various interpersonal attributes and socio-cultural background can have a sense of amusement, non-acceptance, dispute/debate and disagreement in simple to moderate manifestation. In extremes of those, feelings of envy and grudge as well as tendency to exploit physical means of harm arises. All these happenings are characteristic of social conflict.
-
-Following factors give rise to social conflict in Nepal
-
-\begin{enumerate}
-\item An individual loses trut in other and fails to respect his rights and authorities
-\item Unemployment
-\item Increase in poverty
-\item Economic inequality
-\item Indifference to social customs and values
-\item Drug abuse and intoxication
-\item Lack of social justice
-\item Lack of education and awareness
-\end{enumerate}
-
-Although there are some \underline{positive} consequences of social conflict, including progression of socio-economic transformation, increase in awareness, improvement of social justice system and occassional enrichment of solidarity, several \underline{negative} consequences of it exit. Some of which are:
-
-\begin{enumerate}
-\item Disruption of social peace and order
-\item Increase in criminal activities of robbery, murder, kidnapping
-\item Encroachment of personal rights and feedom of individuals
-\item Social tradition will be replaced by wrong social customs and values
-\item Socio-economic development and physical development will be stalled.
-\end{enumerate}
-
-Acknowledging that social conflict has a wide reach within multiple socio-economic, religious and political sphere of a community and a nation as a whole, the situation should be resolved creatively rather than forcibly. A peaceful debate and a harmonious mindset with the feeling of tolerance are the pre-requisite for social order setting.
-\end{solution}
-
-\question How can we control the deforestation that might be caused by socio-economic factors ? Explain
-
-\begin{solution}
-
-Deforestation is the clearence of forest or woodland for extracting natural forest product such as timber, firewood, medicinal herbs, or any other form of human or human induced activities that result in loss of forest species. Such activities may include encroaching forest space and overgrazing, etc.
-
-Most of the population of Nepal dwell in rural areas with minimum access to urban infrastructure -- easy transportation, well developed alternative sources of fuel, means of communication and specialized occupation. This means people are excessively reliant on natural unprocessed products derived mainly from forest, for making their living. The 2011 AD forest survey indicated that Nepal has more than 40% of its land area covered with forest, thus highlighting significant interaction of forest ecosystem with people, communities, biodiversity and economy. The relationship is more profound when the context is rural, which most of the Nepal is composed (82.93% according to 2068 BS census).
-
-Still today, people use firewood as major source of fuel for cooking food to handling chores. In a lack of permanent residence building, several families still make thatched homes out of forest timber and tree cuttings. The latter is also fed to cattle as an important part of roughage diet since villages do not have reach to concentrate feed for the animals. Depleting an important reservior of human livelihood maker and animal provider in rural topography of Nepal will only make residents of these areas more vulnerable to economic shocks. When a household is engaged in forest timber accrual and supply as a source of earning, this dependence will lead to economic setbacks and overall lower quality of life during periods of lean supply from forest. Interestingly, the relationship applies conversely also, because regions like inner terai districts of Nepal, with inherently rich forest resources, are found to be progressing very quickly.
-
-An accelerating rate of forest clearence can be controlled by one or more of the following measures:
-
-1. Protection, utilization and benefit sharing scheme should be developed for community managed forest. Community participation in planning and execution of such schemes will make them have the feeling of ownership.
-2. Alternative sources of energy should be promoted for fuel.
-3. Marginal lands and shrublands should be disallowed for intensive agriculture and livestock grazing.
-4. Acknowledging that every 1 hectare of arable land should be accompanied by 3 hectares of forestland, programmes for forest reclaimation and plantation should be intensified.
-
-\end{solution}
-
-\question What are the provisions in Constitution of Nepal, 2072 for activities, rights and duties of Commission for Abuse of Authorities ?
-
-\begin{solution}
-
-\end{solution}
-
-\question What are the major reseasons for deforestation in Nepal ? What are the consequences of it ?
-
-\begin{solution}
-
-Deforestation is occuring in Nepal due to human and natural causes. Forest encroachment, illegal forest clearance, clearance due to waterway entry (river passage), land slide, forest fires, uncontrolled grazing, unchecked extraction of forest floor resources such as stones, pebbles, sand and minerals, lack of public awareness, etc are the major reasons for deforestation in Nepal. Several factors contributing to deforestation can be summarized as below:
-\begin{itemize}
-\item Excessive utilization of forest resources in physical infrastructure development.
-\item Forest protection, conservation and promotion activities are not having impact.
-\item Afforestation programmes and forest conservation endevours are not well organized and effective.
-\item Very feeble participation of stakeholders in overall development of forest sector.
-\end{itemize}
-
-Deforestation in Nepal has wide consequences, some of them are:
-
-\begin{itemize}
-\item Most important factor causing large-scale floods is deforestation in Tarai and Siwalik regions. Large-scale deforestation of northern Tarai and Chure range has aggravated flood problems in Tarai. Forest and vegetation obstruct the flow of water and reduces flow speed. Water is absorbed underground, resulting in less runoff and fewer floods. Also, forestland upstream provides a natural buffer for Tarai thus providing more response time. Deforestation has thus left the Tarai people with less reaction time, frequent and intense flooding, filling of agricultural lands with sand, diminishing ground water and high concentration of soluble minerals such as arsenic in tube well water.
-\end{itemize}
-
-\end{solution}
-
-\question Explain the role of tourism sector in the economic development of Nepal.
-
-\begin{solution}
-Tourism is one of the highly potential sectors for economic development of Nepal as it expands the opportunities for employment, income generation through indirect involvement and direct earning of the foreign currency.
-
-The home country to 8 of the world's top 10 highest peaks, birthplace of the Gautam Buddha and a center of faith for large swathe of hindu piligrims around the world, Nepal, also hosts numerous culturally rich societies as well as world heritage sites.
-
-According to World Travel and Tourism Council (WTTC) annual report in 2018, travel and tourism is one of the world's booming industries, generating approximately 8.8 trillion USD annually. Over 600 million international tourists visit different parts of the world every year.
-
-According to Lonley Planet, Kathmandu is the 5th top travel destination in the world for the year 2019. Recent years have seen positive signs of progressing tourism industry with the increase in inflow of foreign tourists after the devastating 2015 Earthquake. According to economic survey, 2018/19, the number of tourists arrivals in 2018 (not counting tourists who arrived by land) was 1173072, which is 25% more than 2017. The tourism industry brought in foreign currency equivalent to 76.09 billion NRS in the FY 2017/18.
-
-In 2018, the number of registered travel agencies reached 3508 and trekking agencies 2649. Government has formulated policies and allocated a budget of Rs 2.68 billion for the FY 2019/20 to support tourism sector in developing infrastructure and encouragin environment-friendly tourism activities. Rs 15.85 billion has been allocated for aviation sector improvement in the same year. Unfortunately worldwide spreading of COVID-19 pandemic, which reinstated nationwide lockdowns and tightened travel restrictions, caused government to retract its plans for launching a Visit Nepal 2020 campaign.
-
-\end{solution}
-
 \question What do you mean by periodic plan ? What are the major strategies adopted by the ongoing periodic plan (2073/74-2075-76) ?
 
-\question What do you mean by environment management ? Describe the interrelationship between environment management and sustainable development.
+\end{questions}
 
-\begin{solution}
+### Income tax
 
-Environment management is concerned with the description and monitoring of environmental changes, with predicting future changes and with attempts to maximise human benefit and to minimise environmental degradation due to human activities. Environmental managers are a diverse group of people including academics, policy-makers, non-governmental organisation (NGO) workers, company employees, civil servants and a wide range of individuals or groups who make decisions about the use of natural resources (such as fishers, farmers and pastoralists). Yet, characteristically, environmental management is about decision-making -- and it is especially concerned with the process of decision-making in relation to the use of natural resources, the pollution of habitats and the modification of ecosystems. Fundamentally, then, environmental management is a political activity because those decisions - about resources, pollution and ecosystems - are never neutral or objective.
+Income tax is a tax imposed on individuals or entities (taxpayers) that varies with respective income or profits (taxable income). Income tax is generally computed as the product of a tax rate times taxable income. Taxation rates may vary y type or characteristics of the taxpayer.
 
-Rural parts of Nepal (home to 81.75\% population) are traumatized by the poor geographical terrain wherein majority of household are reliant on forest (constitute 44.74\% of total area), biodiversity and natural watershed resources -- to the extent that these resources are already seeing a peril. The environment here is subject to the stresses and strains of deforestation, lossof top soil, misuse of pesticides or insecticides, soil contamination, a decrease in productivity, watershed disruption, a shortage of resources, landslides, flooding and indoor pollution. The general environmental problems in urban cities and municipalities are air and water pollution, unmanaged solid waste, the lack of land-use planning, inefficient urban infrastructure, a conglomeration of manufacturing establishments, resource shortages, over-crowding and loss of vegetation.
+Income tax is a kind of direct tax that has implications for earnings, expense and savings of a person or organization. Therefore, this forms an important toolbox in economic policy of the government. If the income taxation is low, this on one hand encourages savings of individuals and organizations while on the other promotes investement in infrastructures thereby orienting economy towards growth. However, excessive tax burden on taxpayers lead to poor saving behaviour and discourages capital expenditure. Hence income tax plays a significant role in a coutry's economic growth and stability.
 
-Currently there are 5,646 industries in operation in Nepal (Registered at DoI 2013/14), composed of agriculture and forestry, energy, manufacturing, service, construction, mining and tourism sectors. Capital wise, there are 686 large, 1330 medium and 3630 small industries.
+Likewise, differential taxation scheme (progressive taxation), which advocates for low taxes to low income generating individuals and high rates to high income generating individuals, can be a useful aid in filling in the gap between two income groups thereby helping foster social justice. Majority of nations worldwide take into consideration the abovementioned ideas in order to formulate policy and laws regarding income tax.
 
-Thus, in this context with need of rapid economic development through extensive resource mobilization, amidst the pushbacks from changing global climate, environment management and its conceptual ties with sustainability at the core, holds much greater importance. The human and infrastructure losses due to the earthquake of April 25, 2015 have become a great threat and challenge for environmental management in the present scenario of our country. Some interventions are already in place. Those constitute:
+- Income tax law, 2058 (in force from Chaitra 19, 2058)
+- Income tax regulations, 2059 (in force from Jestha 24, 2059)
 
-\begin{itemize}
-\item Constitution of Nepal, 2015; Article 30: Right to Clean Environment
-\item SDG Goal, 2030
-\item Environment Protection Act, 1997: The main thrusts of the Act and the Regulation are pollution control and environment assessment (EA). Regarding environmental pollution prevention and control, a pollution control permit system is conceived in the regulation. Detailed procedural approaches including environmental standards are identified by MOEP and executed through concerned line agencies. EA, the other environmental tool, is categorized into two parts: initial environmental examination (IEE) and environmental impact assessment (EIA). Development projects under the scope of IEE will be cleared by the concerned line agency, whereas MOEP will concentrate on the EIA category projects. Here again, monitoring of the EA-granted projects by MOEP has to be carried out by the concerned line agencies. Similarly, a provision of a revolving fund for pollution control, environment and heritage conservation, awareness creation, research and award business exists in the regulation. In addition to these, a compensation claim of damage due to environmental pollution caused by any sources could create controversies because of its vagueness and complaint handling procedures.
-\item Nepal has adopted the notion of green development to minimise stress on environment and to mitigate the impacts on climate change. National policy has stressed environment and climate change. It has mainly focussed on strengthening and updating environmental policy, existing laws, rules and mechanisms. It also focuses on enhancing institutional capacities.
-\item ISO 9001 Quality Management System: more than 600 companies registered
-\item ISO 14001 Environmental Management System: more than 30 companies registered
-\item ISO 14006
-\item Status and Assessment of EMS Implemented Industries of Kathmandu Valley, MoI, 2009 
-\item Environment Sector Programme Support (ESPS) 2000
-\end{itemize}
+Tax exemption provisions in Income tax act, 2058 ((Link)[http://www.lawcommission.gov.np/en/wp-content/uploads/2018/10/income-tax-act-alongwith-each-year-financial-acts-amendment-2058-2002.pdf])
 
-\end{solution}
+- Complete exemption
+ - 10 (part "ka")
+ - 10 (part "kha")
+ - 10 (part "ga")
+- Partly subsidization
+- Periodic subsidization
 
-\question What is the role of public, private and community institutions in environment management ?
+The income tax act is a 626 pages long document with following chapters:
 
-\begin{solution}
-The act of describing, monitoring, predicting changes and maximizing human benefits from natural resources by maintaining a balance in their use and conservation without negatively affecting their quality and availability for future generations is called environment management. The role of public, private and community institutions in environment mangement is highlighted below:
+1. Preliminary
+2. Tax bases
+3. Computation of tax
+4. Exemptible amounts and other exemptions
+5. Deductible amounts
+6. Tax accounting and time
+7. Quantification, allocation and characterization of amounts
+8. Assessment of net profit from property and liability
+9. Special provisions on natural person
+10. Special provisions for entity
+11. Special provisions on banking and insurance business
+12. Special provisions on retirement saving
+13. International tax
+14. Tax administration and authentic documents
+15. Records and information collection
+16. Payment of tax
+17. Withholding on payment
+18. Installment
+19. Income return and assessment of tax
+20. Collection, remission and refund of tax
+21. Review and appeal
+22. Fees and interest
+23. Offense and punishment
+24. Miscellaneous
 
-\textbf{Public sector}
+Schedule-1: Rate of tax
+
+Schedule-2: Assessment of depreciation deduction
+
+Financial ordinance, 2059 (2002), Financial ordinance, 2059 (2003), Financial ordinance, 2060 (2004), Financial ordinance, 2060 (2004), Financial ordinance, 2061 (2004)...
+
+(Taxation Details)[https://nepal.gov.np:8443/NationalPortal/view-page?id=94]
+
+VAT
+
+1. Introduction
+
+In Nepal, Value Added Tax (VAT) was introduced on 16 Nov. 1997. This tax was levied in place of the Sales Tax, Hotel Tax, Contract Tax and Entertainment Tax. However, it could not be implemented fully until the FY 1998/99 due to political instability and strong opposition from the business community.VAT replaces the old Sales Tax, Contract Tax, Hotel Tax and Entertainment Tax. It has been designed to collect the same revenue as the four taxes it replaced. Since the collection of both customs duties and income tax depends, to a great extent, upon the effectiveness of VAT, it is expected to help enhance revenue collection.
+
+(VAT) is a broad-based tax as it also covers the value added to each commodity by a firm during all stages of production and distribution. It is a modern tax system to improve the collection of taxes, to increase efficiency and to lessen tax evasion. It is also regarded as the backbone of income tax system in Nepal.The current threshold for VAT registration is Rs. 2 million. Those vendors whose annual turnover is below the threshold can, however, register voluntarily.There is a persistent increase in the number of VAT registrants. IT has crossed the 40,000 mark. At the time of conversion from the then existing sales tax to VAT, a total of 2045 taxpayers were converted as VAT registrants. As the taxpayers are increasing, the amount of revenue collection and the level of tax compliance is improving today.
+
+2. How does it Work?
+
+VAT is a tax imposed on the value added to goods and services consumed in Nepal or exported outside. The tax is based on the principle that each producer or distributor adds value, in some way, to the materials they have purchased and it is this added value that is taxed at each stage of the production and distribution chain. There is the presumption that VAT is shifted forward completely to the Consumer. In the VAT system, producers, distributors and people providing services raise VAT on the products or services sold or provided. The difference between the VAT collected on sales and the VAT charged on purchases determines the amount a registrant must remit or the amount that may be claimed as a refund. In other words, if the tax on sales is more than the tax on purchases, the dealer / businessman remits the difference. If the tax on sales is less than the tax on purchases, the dealer may carry forward this credit to the next month.
+
+3. What is an input tax credit ?
+
+Registered businessmen are obliged to collect and remit VAT on their taxable transactions. These registrants are entitled to recover the tax paid on their purchases. This recovery or refund is known as input tax credit. The Input Tax Credit (ITC) is the total of the tax paid or payable on taxable goods and services purchased in Nepal, and the tax paid on taxable goods imported into Nepal. Where VAT is paid or payable by a registrant on a purchase or on imports, the registrant is allowed to claim input tax credit for those purchases made by the registrant in his commercial activities. However, even though the purchase of goods or services may relate in part to a commercial activity, in certain circumstances the purchase may not generate input tax credit entitlement when he sells goods or services which are tax-exempt.
+
+Most registrants are entitled to claim input tax credits for the tax paid on acquisitions of capital goods for use primarily in commercial activities. Unlike the income tax deduction rules, the input tax credit for any VAT paid on capital goods is not amortized over the life of the asset. It can be claimed in full in the period in which it is acquired. If the capital goods are later put to a non-commercial use, special change-of-use rules will apply. Taxpayers whose export is more than 50% of total sales or those who are continuously on 6 months credit may claim for refund. Refund shall be made within 30 days from the receipt of refund claim.
+
+4. What is taxed and what is not?
+
+VAT divides all goods and services into two basic categories, taxable and tax-exempt. Goods and services are either taxed at the standard rate of 13 percent or they are taxed at 0%. Those taxed at the standard rate include all goods and services except those which are specified as taxed at 0% or tax-exempt.
+
+5. What Is Tax-Exempt ?
+
+The purchaser will NOT pay VAT on tax-exempt goods and services and the supplier is not allowed input tax credits on purchases related to the following goods and services:
+
+(a) Goods and services of basic needs which include rice, pulses flour, fresh fish, meat, eggs, fruits, flowers, edible oil, piped water, wood fuel.
+(b) Basic agricultural products are also tax-exempt, for example, paddy, wheat, maize, millet, cereals and vegetables.
+(c) The expense of buying goods and services required to grow basic agricultural products are tax-exempt. This includes live animals, agricultural inputs including machinery, manure, fertilizer, seeds, and pesticides.
+(d) Social welfare services including medicine, medical services, veterinary services and educational services.
+(e) Goods made for the use of disabled persons.
+(f) Air Transport.
+(g) Educational and cultural goods and services such as books and other printed materials, radio and television transmissions, artistic goods, cultural programmes, non-professional sporting events and admissions to educational and cultural facilities.
+(h) Personal services are also tax-exempt. These are services provided, for example, by actors and other entertainers, sportsmen, writers, translators and manpower supplies agents.
+(i) Exemption from VAT is also extended to the purchase and renting of land and buildings
+(j) Financial and insurance services.
+(k) Postage and revenue stamps, bank notes, cheque books.
+
+6. Are Imported Goods Taxed?
+
+The VAT Act, Schedule I lists imports which are tax-exempt. Some of these include prescription drugs, basic groceries, medical devices and agricultural products. Most imports, however, are fully taxable at customs point. Thereafter these are treated on the same basis as domestically produced goods.The VAT on imported goods is collected by Customs. It is calculated on the dutiable value of the goods, in other words, on the value of the goods including transportation, insurance, freight and commissions PLUS any duty or other taxes (other than VAT) payable on the goods. The value for the duty of the goods is determined in accordance with the valuation provisions contained in the Customs Act.
+
+Registrants may claim input tax credit for the VAT paid on imported goods used in their commercial activities.
+
+7. Are Exports Taxed ?
+
+VAT is applicable only to the consumption of goods and services in Nepal. However, supplies made in Nepal that are exported are taxable at 0%. Exporters are allowed to claim input tax credits for VAT paid or payable on purchase of goods and services relating to their commercial activities. Exports taxed at 0% include exports of both goods and services.
+
+8. Who must register ?
+
+Registration is required for any business:
+
+(a) With an annual taxable turnover of more than 2 million rupees.
+(b) Belonging to a conglomerate which has an aggregate annual taxable turnover exceeding 2 million rupees.
+
+9. Who is affected by VAT?
+
+In addition to consumers, persons involved in commercial activities are affected by VAT. A person means an individual, firm, company, association, cooperative, institution, joint business, partnership, trust, government body or religious organization.
+
+There are categories of persons and organizations which are not required to collect VAT nor allowed to claim a refund of the VAT they have paid in producing their goods and services for sale. These would include unregistered small suppliers, that is, persons with annual sales of taxable goods and services of Rs. 2 million or less. But even such people con voluntarily register for VAT purposes.
+
+10. What factors are taken into account when determining annual sales of taxable goods and services ?
+
+In assessing the value of taxable supplies a vendor must include the value of the supplies taxed at the standard VAT rate and his sales of supplies sold at 0% (the zero rated supplies). Sales of exempt supplies will not be included. If he has had or expects an abnormally large sale he should contact his IRO to determine if this sale should be taken into account when calculating his need to register.
+
+11. Can Small Businesses Register?
+
+Businesses with taxable annual sales of under 2 million rupees may apply to register. If a business chooses to register, it must remain registered for a full fiscal year.
+
+12. Who May Apply to Cancel Their Registration?
+
+A VAT registration may be cancelled by anyone whose total taxable sales for four consecutive calendar quarters is not more than 2 million rupees and who has been registered for a full fiscal year or by persons who no longer has a commercial activity because of bankruptcy, receivership, or cessation of the business.
+
+13. What are the obligations of VAT registrants ?
+
+VAT registrants are required to:
+(a) Submit VAT return and pay tax within the 25th day of the following month.
+(b) Provide their customers with a tax invoice.
+(c) Maintain Purchase Book, Sales Book, VAT Account.
+(d) Keep their VAT records for a period of 6 years.
+(e) Inform the IRO of changes to the business including new address, telephone number or a reorganization of a partnership within 15 days.
+(f) Put their Certificate of Registration in the premises where customers may easily see and read it.
+(g) Allow tax officers to enter the business to examine the business records and the stock on hand.
+
+14. What is a taxpayer required to put on his tax invoice?
+
+The tax invoice will require the name and address of the seller and the purchaser, the seller`s PAN number and invoice number, the date of the transaction and a description of the sale including the number of items purchased, the unit cost of each item and a mention of any discounts given.
+
+The tax invoice must be prepared in three copies and the first copy should be clearly identified as a tax invoice. The original copy is to be given to the purchaser, the second copy is to be retained for audit purposes while the bottom copy is for use by the seller in preparing a record of the transaction.
+
+15. What is an abbreviated invoice?
+
+Tax Officers may grant permission for a VAT registrant to issue an abbreviated invoice for retail sales below the value of Rs. 5000.The chief difference between the two tax invoices is that an abbreviated invoice does not require the name and address of the purchaser.The registrants have the right to request a detailed tax invoice as they will not be able to claim input tax credits with abbreviated invoices. IRD may order taxpayer to issue invoices by using cash machine or computer. The procedure in such case shall be as prescribed by the DG of IRD.
+
+IRD will have anytime access to the database of the taxpayer.
+
+16. Is it necessary to maintain a special accounting system ?
+
+Most businesses will require only minor modifications to their record keeping. In order to complete his VAT return a taxpayer will need to ensure that his books and records provide:
+
+1. The amount of VAT paid on purchases.
+1. The amount of VAT collected on sales.
+1. A method of distinguishing between taxable and exempt sales.
+1. The time the goods and services were supplied.
+1. Evidences that goods were exported, if any.
+
+17. What books and records must be kept?
+
+A taxpayer must keep the following books and records :
+
+1. A purchase book,
+1. A sales book, and
+1. A VAT accounts.
+
+18. What is to be included in the purchase and sales book?
+
+Purchase and sales books include:
+
+1. The invoice number
+1. The invoice date
+1. The supplier`s name and PAN number in the purchase book
+1. The customer`s name and PAN number in the sales book
+1. The taxable value, and
+1. The amount of VAT.
+
+Businesses which sell both taxable and exempt goods will need to complete additional columns of information to separate exempt sales and the purchases related to them. IROs will be pleased to provide taxpayers with a sample Purchase Book (Schedule 8) and a sample Sales Book (Schedule 9) format. PAN number refers to the Taxpayer Identification Number which will be allocated to each registrant after completion of the registration process.
+
+19. What is the VAT account ?
+
+The VAT account is a monthly summary showing the source of the figures used in the VAT return. This account contains purchases and sales and the VAT spent and collected. A sample VAT Account (Schedule 7) may be obtained from the concerned IRO.
+
+20. Offences
+
+Fines will be imposed if the taxpayer fails to file his return within the specified time.A registrant will make his VAT payment at a bank where he will receive a bank voucher as proof of payment. This number is to be entered on his VAT return to be submitted within 25 days after the end of the month of business transaction.
+
+The VAT Act imposes fines for failing to register. Similarly, if a registrant fails to use his registration number or clearly display his registration certificate in the business premises, he is liable to fine.
+
+Other penalties may be imposed if, for example, a registrant fails to file a return, issue invoices, keep an up-to-date account of transactions, obstructs visits by a tax officer in investigation, prepares false accounts and invoices or attempts to evade tax. Similarly, IRO/IRD may purchase or cause to purchase under invoiced goods.
+
+21. Administrative Review
+
+A taxpayer who is not satisfied with the Tax Assessment of a Tax Officer may submit an application to the DG of IRD for administrative review within 30 days from the time of receiving such decision.
+
+22. Tax Plate
+
+In order to make public the status of the registered taxpayer automatically, each registered taxpayer is required to display the tax plate which is visible from outside in the premises of the taxpayer. The size and the colour of the tax plate should be as follows:
+
+A. Size: The size of the tax plate should be 30 cm long and 10 cm width.
+B. Information to be shown on the tax plate:
+- Permanent Account Number (PAN)
+- Taxpayer`s Name.
+
+C. Colour : The tax status of the taxpayer will be identified on the basis of the following background and the colour of the tax plate:
+- Bush green background and letters in white colour: VAT registered tax payers.
+- Lemon yellow background and letters in black colour: Tax payers dealing in VATable goods and services but whose transaction is the below threshold i.e. Rs. 2 million per year.
+- Signal red background and letters in red colour: Tax payers dealing in non-VATable goods and services.
+
+23. Conscious Consumer Lottery Programme
+
+In order to encourage billing system and thereby improve the tax system and motivate the consumers to take bills on the purchase of goods and services and motivate the sellers to issue bills on the sale of goods and services, a conscious consumer lottery programme has been introduced since Magh, 2060.
+
+Types of bills to be included in lottery programme.
+
+a. Purchase bill issued by VAT registered taxpayers to consumers who are not registered in VAT.
+b. Tax invoice or abbreviated tax invoice in the name of natural person among individual purchasers who are unregistered.
+c. All types of bills except the purchase of vehicle ( excluding bicycle) and star hotel will be allowed to participate in the program.
+
+However, bills issued in the name of government authority, public enterprises, local level authorities and diplomatic missions and the bills issued by the public enterprises will not be entertained in the programme.
+
+
+```{r}
+tribble(
+  ~"Provision of Cash Prizes to Consumers", ~"Total Prize amount",
+  "First winner (1 Person)", "Rs. 1,00,000",
+  "Second winner (5 Persons, Rs.20,000 each)", "Rs. 1,00,000",
+  "Third winner (10 Persons, Rs.10,000 each)", "Rs. 1,00,000",
+  "Consolation prize (20 Persons, Rs.5,000 each)", "Rs. 1,00,000"
+) %>% 
+knitr::kable(booktabs = TRUE)
+```
+
+The prize will be declared once a month on the basis of coupons distributed in that month.
+
+Procedures of conducting lottery programme:
+- IRD will print lottery coupons with serial numbers of two copies.
+- A separate number will be marked in each coupon.
+- One coupon will be issued to the purchaser after receiving the purchase bill of Rs. 1,000 and a copy will be retained by the contractor conducting the program. For instance, if a consumer submits 3 bills containing the purchase of Rs. 400 each, he will receive one coupon and will be eligible to get another coupon in each additional amount of Rs. 1,000. However, surplus amount will not be entertained for the purpose of competition once coupons are issued after submission of the bills.
+- The bills worth less than Rs. 250 will not be entertained in the programme.
+
+Provision of Cash Prizes to sellers:
+In order to motivate the sellers to give bills to the buyers, those sellers whose invoices have enabled the cash prizes to the consumers will also get the following cash prizes:
+
+- First winner - 1 Seller Rs. 25,000
+- Second winner - 5 Sellers (Rs.5,000 each) Rs. 25,000
+- Third winner - 10 Sellers (Rs.3,000 each) Rs. 30,000
+- Consolation Prize - 20 Sellers (Rs.2,000 each) Rs. 40,000
+
+24. Proxy Criteria
+
+Taxpayers whose annual turnover is more than Rs.2 million are required to register in VAT compulsorily. Taxpayers who fall below this limit will be required to register in VAT within 30 days of their annual transaction reaching or crossing Rs.2 million. However, if the tax payer falls under any one of the following proxy criteria, he is required to register in VAT compulsorily:
+
+a) If the stock of the tax payer exceeds the specified amount when the tax officer inspects the stock or if the monthly sale exceeds Rs. 2 lakh or more during a month;
+b) If the annual expenses of the tax payer on the telephone and the rent exceeds Rs. 1 lakh; or
+c) If the premises of the taxpayer lies within the specified area of the market or the street as specified by the Department (IRD).
+
+### Addressing the income gap
+
+As a multi-dimensional concept equality means fair treatment of citizens of diverse distinctions. It reduces the gap between the haves and have-nots that scar the Nepali nation. The rationality of equality springs from the equal values attached to each citizen. Democratic virtues foster nationality and humanity of person which is a good worth of citizenship equality and entitled with same welfare provisions. They are the preconditions for freedom. Equality enhances the scale of economic security, wellbeing and dignity, reconciles with social justice and finds its resonance in the constitution. It sets the rules of the game. The unified application of the Constitution in Nepali society coordinates the conflicting conceptions of good life arising out of geographical, genetic, social, economic and cultural diversity, hierarchy and patriarchy. Equality can be measured by the same set of rules of governance for all Nepalis, equal rights, equal opportunity to improve their life-chances and equal welfare to find a life of liberty and progress.
+
+One key challenge Nepali leaders constantly face is the right to equality of citizens enshrined in the Constitution and the actual condition of inequality. This gap between the rich and the poor in Nepal is widening serving as a cause for aspirational politics open to alienation and instability. As a result, Nepali state is unable to muster authority, execute the constitution and stabilise the polity. The tension between Constitutional aspect of welfare state which aims to alleviate the misery of 30 per cent of population below poverty line earning $ 1.90 per day and poor state of redistributive politics owing to inability of Nepali state to finance all rights of citizens remain. In a hierarchy of social, economic and political advantage for certain groups, only equality of opportunity can glue multitude of Nepali citizens and share in a common life.
+
+The welfare state justifies the redistribution of income from capital to workers on moral ground on the basis of capital's income where the contribution of labour is no less significant. The improvement in the living standards of Nepalis can come only through broad-based growth of real economy and investment of surplus on the productive sectors. Economic growth alone does not lubricate the gear of human welfare if its fruits are unfairly distributed, powerful gaining the most and the poor receiving only trickle-down. In the context of growth of democratic awareness, deprivation may feed envy prompting them to engage in radical politics. Well-being across Nepali society can be an effective leveller which can contribute to asset creation and muster ability and capacity to participate in multilevel governance. The meaning of equal rights for Nepalis in the Constitution demands knowledge about it and institutional means to realise them. It provides a sense of security, well-being and dignity and a sense of belonging as a member of the national community, the Nepali state. Economy can grow if natural resource, skilled labour, machineries and infrastructures are optimally utilized and society fully supports its entrepreneurship.
+
+Social justice becomes sustainable with economic efficiency. It can reduce the level of inequality and cope with the negative effects of globalisation. Globalisation frees up the market and intensifies competition among its units but creates disadvantages for those people who cannot compete. This cuts the efficacy of citizenship. In Nepal, the contribution of tax to GDP is little over 15 per cent which is deficient to finance self-sufficient state, fulfil citizens' all rights and raise the living standards of Nepalis. The share of capital to GDP is less than the flow of remittance from the migrant Nepali workers. The annual per capita income of Nepalis stands \$1,000. The minimum wage for worker per month is about \$ 134 but this is inadequate to sustain even a nuclear family. Therefore, the trend of out-bound migration is increasing at a time when post-earthquake resilient rebuilding of this nation needs their active engagement for many years. Annually about 450,000 youth migrate abroad for job and they are source of remittance, entrepreneurship and local economic activities. They contribute 25 per cent to GDP and its benefits are decentralised in all 77 districts. So does its social costs.
+
+Three kinds of inequality pervade Nepali polity - situational inequality, positional inequality and deprivational inequality owing to lack of social, political and economic links. The unjust inequality is awful for economic progress. Democratic politics is designed to reduce the gap in inequality between the empirical facts such as unequal ownership of land and capital and other factors of production that cause misery in Nepali society and adoption of democratic values that is supposed to circulate power, position and wealth across the social classes, gender and generations through a policy embedded in social inclusion, social protection, social security and positive discriminations.
+
+All these concepts embedded in Nepal's constitution call for redistribution from the rich to the poor to meet basic needs, create appropriate jobs, avert social fractures and allow creative pursuit of life. The Constitution demands citizens' part of the sacrifice of their liberty for public security and public order. It is crucial to end the transitional politics and create an egalitarian and just society. This means attainment of public good is necessary. It is a good which does not exclude any Nepalis and can be considered a precondition for social peace. Availability of public good demands both formulation and enforcement of sound public policies based on the spirit of constitution and give a fillip to vital sense of common life. Otherwise, the nation will continue to be trapped in a sort of Greek tragedy where decision-makers do not know the iniquitous consequence of their actions.
+
+One critical aspect of public good in Nepal is public education. It fosters upward mobility by enabling citizens to reclaim control of their destiny and shape the future. Education provides vigilance which is about conscious awareness of one's own living condition and engagement in production and political struggle to improve this. Distribution of intelligence in Nepali society is a must to make its economy competitive and democracy functional. It fosters citizens' desire to innovate and engage in productive life. For example, skilled workers in agriculture increase productivity, reduce any need to migrate abroad for earning and invest more in children's education, health and basic amenities.
+
+Nepal now has a huge pool of skilled workers who have working experience from abroad. Many of them have become entrepreneurs and run their own business and industries. Others have gained skill in the use of modern technology and meet the requirement of Nepalis for human capital equality. Investment in human capital maximises equality, improves the quality of living and meets the need of intergenerational reproduction of human resources. But when financial position is a passport to entry in private education, health, safety, communication and law which poor Nepalis can ill-afford it is hard to gain legal and political equality. Equality before law can only open possibility, not actuality. This is why Nepal's remote and geographically isolated areas face the scarcity of public good such as food, educational and constructional materials, medicine, fertilizers, etc. at a time of amazing growth of private wealth, transport and communication.
+
+Nepal's constitution makes social inequality and discrimination on the basis of caste, gender, region and religion illegitimate. But the unwritten transcript of society continues which needs social reforms and institutional effectiveness to implement laws and set up the supremacy of law over social, economic and political leaders. The social discrimination owing to caste, gender or class inequality has perverse impact on equality. Nepal's social inclusion policy has widened the participation of women, Dalits, and other groups of society in labour market, politics, administration and improved their situation. Only effective institutions can sincerely implement social policies and forestall exclusion. They outlast individual members. But their renewal is important as per the tasks assigned to them by law.
+
+This, however, demands Nepali leaders' political will and commitment. The influence of money on politics has fostered political inequality. Economic equality is a precondition for political equality and civic competence. In Nepal, the proportional representation is dominated by moneyed class, cronyism and interest groups. This bars the inclusion of a large number of micro-minorities and formulate polices to compatible with constitutional spirit. When money becomes a means to peddle influence on politics, authority, law and development policies, low income groups will be trapped in hierarchy and structural injustice and turning their past as a future. They cannot overcome this situation and attain equality in the absence of political solidarity and struggle for equal status.
+
+Building trust among citizens is important to control free-riders, spoilers and predators, who appropriate the resource flow and block the material basis of the egalitarian transformation of Nepali society, economy and polity. For example, gender equality requires transforming the nature of political economy enabling women to gain access to representation, communication, and participation in public sphere, culture, everyday life and recognition of their identity. The debate about democratic equality of Nepali citizens can be initiated and its solution found in the public spheres and public interest, not in selfish promotion of private interests. It can be furnished where government is the solution of the problem of inequality as it has broad-based mandate to take decisions and formulate and implement egalitarian public policies underlined by the spirit of constitution.
+
+One strategy is the use of public funds for reducing inequalities, the other is increasing corporate social responsibilities, still the other is mobilisation of resources, knowledge, skill and technologies of intermediary associations, cooperatives, local government, CBOs, civil society, NGOs and charity-based organizations in alleviating human suffering such as poverty, inequality, joblessness, etc. The golden rule is: elected political leaders who have mandate for change must think outside their partisan interests and work for the general welfare of all citizens.
+
+Source: Dev Raj Dahal, \url{http://therisingnepal.org.np/news/25216}
+
+### Taxation and Governance
+
+Paying reasonable tax to the state is a civic duty of good citizens. They do so in return for the life-saving goods and services they get. Tax through coercion is justified for the robust government's role in the economy, production and supply of public goods, creation of a fairer society based on equity and justice and control free-riders. The classical ideal of democracy evoked "no taxation without representation." But the political limit of the government implies that consent of citizens is vital in any policy innovation. It affirms the democratic spirit of the principle of affected. Nepal's media have now spurred a heated debate on the political implications of raising and expanding visible tax base by three-tiered governments - federal, provincial and local- without prudent planning and ignoring its impacts on the life on of ordinary beings.
+
+Local units are collecting extra revenue to sustain fiscal federalism and finance growing public expenditures. The Constitution of Nepal clearly outlines single taxation system, not the double one and, therefore, spending on good causes need to be streamlined through the setup of Fiscal Commission. Many local representatives, unaware of their tax jurisdiction, seek well defined laws and rules. The Inter-Governmental Financial Management Act has fixed the proportional distribution of revenue and the royalty of natural resources. What is unspecified is which province and local body is entitled to what amount.
+
+The lack of clarity about economic path, due process and rate of tax collection by different layers and same layers in different scales continue to violate tax rules by stealth, bred malaises in the tax system and increased financial costs for doing business. Some kinds of harmonisation and standardisation in the determination of tax and due diligence are essential to balance the stock of revenue and policies of social justice. The taskforce, set up by Finance Ministry, now aims to settle the prevailing tax anomaly. The question is how can Nepali polity which has already maximised the cost of governance with huge size of politicians and bureaucracy fulfil Nepalis expectation of public goods.
+
+Optimal redistribution of the capital income to the poor can provide them incentives to work harder and augment the power of polity and build its capacity to reduce poverty and inequality. Tax, however, distorts incentive if the income of society is low and the nation is economically less unified. To measure capital income is hard if there are double book-keeping of companies and firms and tax and revenue administration is riddled with a number of loopholes and seductive incentives, reflecting poor transparency and law-enforcement. Only accountable governance can create fair opportunity for all citizens and utilise tax for overall progress.
+
+The howls of anguish of Nepali Congress (NC) against new tax regime manifests in its pledge of not imposing tax in NC dominated local bodies. Some Gaonpalikas and municipalities have already decided not to enforce tax on birth, death and marriage registration, migration, necessary services and wage labour of the poor. What is and how much is taxed depends on the ability of citizens. Business community who had earlier rebelled against value-added tax is not cheerful either. It wants to see the proper utilisation of tax money. The federation of Gaonpalikas has advised its members to review the taxation system while non-ruling left parties hit the street defying it and price hike on essential goods favouring radical egalitarianism. Ordinary citizens, haunted by tax increase, feel that it does not match their income level and services they get from the regime. They fear that it will be used for socially undesirable activities such as purchase of luxury goods, high cost vehicles and increment of perk, travel costs and allowances for normal meetings of local authorities.
+
+The share of tax in Nepal's GDP is about 23 per cent. Strong tax base of the state can give national leadership adequate policy space for the grasp of welfare measures and reduce the level of misery. Money moving from top-down via progressive taxation of wealthy can develop social welfare benefits to Nepalis and finance the wages of low income groups on health, education, income, contributory social security, social protection of vulnerable, unemployed and support the dignity of work and universal measures. By contrast opponents of progressive tax believe that it reduces incentive to increase income and investment and causes capital flight control of which is vital to drive investment in the nation's productive sectors of economy.
+
+The constitutional right to secure proportional redistribution and equalisation measures through Natural Resource and Fiscal Commission marks the seal of good governance and affirms the belief that proportional taxation of wealth can contribute to the quality of governance in Nepal. The general tendency is that tax avoidance and tax evasion persist among the high income groups especially those engaged in property markets including intellectual property. Taxes imposed on the income of factors of production such as land, labour, capital, technology, etc. increases the cost of production while tax on the consumption of public goods raises the prices where poor can ill afford.
+
+In this sense, introduction of any tax, direct or indirect, must sensibly match with the ability of citizens to pay. The Constitution of Nepal has promised all welfare provisions from the right to work to food sovereignty, expanded more rights to the citizens and made populist promises during the elections. But the fiscal capacity of Nepali state to fulfil them is weak. The nation since 1990s adopted revenue-based, not production oriented economy, infecting food crisis, misery, violent conflict and migration of youth. The rollback of Nepali state cut in public subsidy to agriculture and privatisation of public industries imposed a burden on the poor facing food scarcity and robed the soul of its social democratic constitution. Lowering of corporate tax did not increase either saving for productive investment or broad-based economic growth. The gross domestic saving as percentage of GDP is about 9 per cent. Nepal always faced a conflict between constitutional ideals of justice and usual biases of powerful actors prompted by private profit, privilege and distribution of income at higher ups.
+
+Taxation influences the governance effectiveness in many ways. The first is strong tax base of the nation provides Nepali government a degree of autonomy to engineer the vision, laws, policies, priorities and institutional design. It does not have to depend on external advice, financial resources to execute development projects and run meritocratic administration. The second is large share of finance in the budget from the tax makes the government accountable downward to the citizens. If bulk of revenue comes from remittance or foreign aid which Mike More calls "strategic rents," it undermines the mandate of the government to serve citizens and would be interested in sending its citizens abroad in the hope of hopping remittance to finance budget and trade deficits, soaring debt and mitigate inflation.
+
+For long, Nepali government did not care about tax for losing popular support and received large non-tax incomes from foreign aid and investment. This broke political leadership fiscally free from taxpaying Nepalis and less receptive to address their problems. Similarly, non-tax unearned money flowing through foreign businessmen, INGOs, NGOs, civil society, private foundations, solidarity support groups, sponsors of social movements and charity-based organisations have provided leadership additional incentives and leverage to work for the expansion of their own political constituencies, patronage and clientalist networks rather than work for the mobilisation of domestic resources for productive use and generate welfare benefits for Nepalis. It bred corruption. Businessmen, easy with tax-loopholes, are successful to thwart progressive tax with the help of bureaucracy, lawyers and political patronage and stifled redistribution which is the central appeal of democratic governance to peddle the prosperity of the poor.
+
+Erosion of Nepali state' monopoly on power and its ability to create security and business-friendly environment hamstrung to effectively collect revenues. The tax base of Nepali state is inadequate to sustain polity and acquire, utilise and keep power autonomous of either dominant interest groups of society or powerful business lobby and even donors to set a context for sustainable development. This is why Nepal's political class is weak to build up the political and institutional capacities of the state for effective governance that can manage both demand and supply, formulate and implement development policies, create public order and engage fully in resilient rebuilding of this troubled nation.
+
+In a crisis time, building the financial capacity of Nepali state and its institutions is vital to enable it to perform basic state functions and transcend geopolitical constraints and conditionalities that contest national prerogatives. The liberal economic policy of Nepal permitted self-disclosure of tax admitting the non-interventionist nature of state. But many business houses collude with certain sections of rent-seeking bureaucrats and politicians which has neutralised the action of all branches of governance in favour of tax-emption and choked governance effectiveness in service delivery.
+
+The ability of Nepal state to enforce law and order and foster national integrity system of economic and political institutions rests on the autonomy of Nepali regime from strategic rents, unearned and non-tax revenue. It enhances the responsiveness of governance. How government uses tax money transparently and yields positive outcome of development matters for political legitimacy. It is, however, absurd to think that a government fully dependent on taxation for revenues will be more effective and responsive to citizens' needs. The system of checks, monitoring and impact assessment are equally essential both for the efficient collection of tax and its proper use in the public and national interest.
+
+Tax reform in Nepal should introduce high rate of value-added tax on luxurious goods and abuse of tax laws. If a government imposes steep taxes coercively without welfare guarantee in return then it can easily spoil state-citizen relations, underpin poor governance and inflict distrust on public institutions and officials. National leadership in Nepal faces some disincentives to tax coercively owing to its tangible political costs manifesting in contradiction, resistance and opposition. It must assess the public mood, foresee political consequence and understand whether new tax regime veers to welfare regime as per the Constitution or converts into an extractive state that enriches few elites at the cost of many. Democracy is a distributive regime, therefore, its leadership should open possibility to consult citizens on what is suitable tax for Nepal. This can minimise Nepal's perpetual legitimacy crisis, dependence on aid, crisis of trust on governance and turn the nation successful.
+
+Source: Dev Raj Dahal, \url{http://therisingnepal.org.np/news/25513}
+
+### Nepal public sector accounting standards
+
+NPSAS provides standards for meaningful summarization of financial information. NPSAS has concept to prepare the financial statement of the Government like a private sector entity. NPSAS are in compliance with the Cash Basis International Public Sector Accounting Standards (IPSAS) 2003, updated in 2006 and 2007 developed by Public Sector Committee of International Federation of Accountants (IFAC). Previous reporting was based on different OAG Forms like form no. 9, 193, 194, 17, 208, 210 etc. and therein no information on total fund position and no records for third party transactions were reported. NPSAS, hence gives priority to recording of transactions which are not yet being accounted and reported. (like third party transactions, goods and services received free of cost, etc. NPSAS accrual basis covers total assets and liabilities but several other stages should be followed before accrual implementation, so current NPSAS guidelines resorts to stepwise implementation.
+
+The standard comprises of two parts -- Part 1 and Part 2. Part 1 is mandatory. It sets out the requirements which are applicable to all entities preparing general purpose financial statements under the cash basis of accounting. It defines the cash basis of accounting, establishes requirements for the disclosure of information in the financial statements and supporting notes, and deals with a number of specific reporting issues. The requirements in this part of the Standard must be complied with by entities which claim to be reporting in accordance with the Nepal Public Sector Accounting Standards *Financial Reporting Under The Cash Basis of Accounting*.
+
+Par 2 is not mandatory It identifies additional accounting policies and disclosures that an entity is encouraged to adopt to enhance its financial accountability and transparency of its financial statements. It includes explanations of alternative methods for presenting certain information.
+
+#### Requirements for reporting under the cash basis of accounting
+
+Information about the cash receipts, cash payments and cash balances of an entity is necessary for accountability purposes and provides input useful for assessments of the ability of the entity to generate adequate cash in the future and the likely sources and uses of cash. Reporting cash enhances comparability across and within the entities adopting the cash basis of accounting.
+
+**General purpose financial statements** are those intended to meet the needs of users who are not in a position to demand reports tailored to meed their specific information needs. Users of general purpose financial statements include taxpayers and ratepayers, members of the legislature, creditors, suppliers, the media and employees.
+
+The Preface to Nepal Accounting Standards issued by the Accounting Standards Board (ASB), Nepal explains that Nepal Accounting Standards (NASs) are designed to apply to the general purpose financial statements of all profit-oriented entities. Government Business Enterprises (GBEs) (as defined in paragraph 1.2.1 of NPSAS) are also the profit-oriented entities.
+
+While preparing general purpose financial statements, NPSAS requires the preparation of statement of cash receipts and payments which recognizes the cash controlled by the reporting entity, and the disclosure of accounting policies and explanatory notes. It also requires that amounts settled on behalf of the reporting entity by third parties be disclosed on the face of the statement of cash receipts and payments.
+
+General purpose financial statements should present information that is:
 
 \begin{enumerate}
-\item Forest, watershed, ponds and water reservoir conservation
-\item Reducing negative impacts of climate change and introduction of green development concept
-\item Mandatory provisioning of environmental impact assessment in development and construction projects
-\item Air pollution, water pollution, sound pollution, soil pollution, food pollution and industrial pollution control and setting threshold in place for keeping them on check
+\item Understandable;
+\item Relevant to the decision-making and accountability needs and of users;
+\item Reliable in that:
+\begin{enumerate}
+\item Represents faithfully the cash receipts, cash payments and cash balances of the entity and the other information disclosed;
+\item Is neutral, that is, free from bias; and
+\item is complete in all material aspects
+\end{enumerate}
 \end{enumerate}
 
-\textbf{Private sector}
+**Cash basis** means a basis of accounting that recognizes transaction and other events only when cash is received or paid by the entity.
+
+Financial statements prepared under the cash basis provide readers with information about the sources of cash raised during the period, the purposes for which cash was used and the cash balances at the reporting date. Although the mesurement focus is balances of cash and changes therein, notes to financial statemets may provide additional information about liabilities, such as payables and borrowings, and some non-cash assets, such as receivables, investments and property, plant and equipment.
+
+**Cash equivalents** are short-term, highly liquid investments that are readily convertible to known amounts of cash and which are subject to an insignificant risk of changes in value.
+
+**Cash flows** are inflows and outflows of cash.
+
+**Cash payments** are cash outflows. **Cash receipts** are cash inflows.
+
+Cash is controlled by an entity (a group of entities comprising a controlling entity and one or more controlled entities) when the entity can use the cash for the achievement of its own objectives or otherise benefit from the cash and exclude or regulate the access of others to the benefit. Cash collected by, or appropriated or granted to, an entity which the entity can use to fund its operating objectives, acquire capital assets or repay its debt is controlled by the entity. Amounts deposited in the bank account of an entity are controlled by that entity.
+
+Government may manage the expenditure of its individual departments and other entities through a centralized treasury function, often referred to as a "single account" basis. Under these arrangements, individual departments and entities do not control their own bank accounts. Rather, government monies are managed by a central entity through a "single" government account or series of accounts. The central entity will make payments on behalf of individual departments and entities after appropriate authorization and documentation. Consequently, individual departments and entities do not control the cash that they have been appropriated or otherwise authorized to expend. In these cases, the expenditures made by individual departments and entities will be reported in a separate column headed "treasury account" (or a similarly described column) in the statement of cash receipts and payments in accordance with the requirements of paragraph 1.3.24(a).
+
+In some cases, the centralized treasury function will be undertaken by an entity which controls the bank account(s) from which payments on behalf of the individual operating departments and other entities are made. In these cases, transfers to and payments from those bank accounts reflect cash receipts and payments which the central entity administers on behalf of the individual operating departments and other entities. Paragraph 1.3.13 specifies that cash receipts and payments which arise from transactions the entity administers on behalf of other entities and which are recognized in the primary financial statements may be reported on a net basis. Paragraph 1.4.9 requires the disclosure of cash balances held by an entity at reporting date that are not available for use by the entity or are subject to external restrictions.
+
+#### Financial statements
+
+An entity should prepare and present general purpose financial statements which include the following components:
+
+1. Statement of cash receipts and payments which:
 
 \begin{enumerate}
-\item Respecting and implementing plans, policies and laws-bylaws set forth by government
-\item Proper management of industrial and manufacturing wastes
-\item Public construction projects should be environment friendly
-\item Bearing of social responsibility
+\item recognizes all cash receipts, cash payments and cash balances controlled by the entity; and
+\item separately identifies payments made by third parties on behalf of the entity in accordance with paragraph 1.3.24 of NPSAS.
 \end{enumerate}
 
-\textbf{Community sector}
+2. Accounting policies and explanatory notes; and
+3. When the eneity makes publicly avaialble its approved budget, a comparison of budget and actual amounts either as a separate additional financial statement or as a budget column in the statement of cash receipts and payments in accordance with paragraph 1.9.8 of NPSAS.
+
+When an entity elects to disclose information prepared on a different basis from the cash basis of accounting, such information should be disclosed in the notes to the financial statements.
+
+**Information to be presented in the Statement of Cash Receipts and Payments**
+
+The statement of cash receipts and payments should present the following amounts for the reporting period:
 \begin{enumerate}
-\item Emphasis on organic farming and synthetic chemical-free fertilizer management in farming
-\item Increase awareness on sanitization and proper waste disposal in society
-\item Increase role in deforestation control
-\item Lauch campaign on waste management and develop community level infrastructure such as public toilet and waste treatment unit for the activity
+\item total cash receipts of the entity showing separately a sub-classification of total cash receipts using a classification basis appropriate to the entity's operations; 
+\item total cash payments of the entity showing separately a sub- classification of total cash payments using a classification appropriate to the entity's operations; and basis
+\item beginning and closing cash balances of the entity.
 \end{enumerate}
 
-\end{solution}
-
-\question (Long answer type) Briefly analyse the existing situation of poverty in Nepal. Also mention the measures to be taken for poverty reduction in future.
-
-\begin{solution}
-
-Poverty alleviation
-
-The state of economic and social backwardness is called the poverty. A set of economic and humanitarian measures, strategies and activities intended to permanently lift people out of poverty is known as poverty alleviation/reduction. There are policy, legal and institutional efforts being made in Nepal to reduce poverty.
-
-The consitution of advocates and the sustainable development goals have highlighted social security and justice for people of all gender, regions while lending special emphasis to economically backwarded group of people in the society. Several programmes launched in the past two decades attempted to address the issue of poverty reduction and since the 10th five year plan, the issue was tackled systematically. Povery was categorized in three dimensions -- income poverty, human poverty and social deprivation. Currently more than 50 programmes aimed at lifting poor of their status are launched. In order to ensure that such programmes recognize true poverty stricken households and provide require interventions, a task of poor household identification and issuance of identity card to those has been on-going. Consequently, Nepal has made a significant progress in addressing poverty and improving human development index (HDI). Still, currently 18.7% of the population lie below poverty line and 28.6% of population is poor according to multidimentional poverty index (2018/19). This means we are still far from being established as a affluent nation.
-
-Sustainable development goals envisages, all multi-dimensional indicators of poverty addressed, which includes increament of per capita income and reduced economic inequality among classes of people of different geographical locations, gender and social sectors and reformed national efforts towards this end in future. Similary, efforts of public, private and community and NGO, INGO, including development stakeholders need to be concerted and streamlined with strong cooperation for poverty reduction.
-
-The 15th plan foresees a reduced absolute poverty rate to 11% and multidimensional poverty indicator to 13% by the end of planning period. Likewise it approaches for significant improvement of economic inequality between different income group of people.
-
-Apart from strategic and working course of action set forth by government for current planning period, a general framework of measures for poverty alleviation are given below:
-
-\begin{itemize}
-\item Income generation is the major safeguard against poverty, henceforth activities promoting employment and skill development should be promoted
-\item The distribution of poor households -- location, size and status should be recorded and database updated regularly
-\item Identity card should be distributed among the identified households in order to facilitate easy launching of programmes to the target group.
-\item Policy amendments with allowance package for truly poor individuals should be made
-\item Programmes and projects aimed at skill enrichment of different sectors of people should be launced based on priority
-\item Settlement plans for refugees should ensure their upliftment
-\item Street children, disabled and elder citizen should be granted special support
-\item Equal opportunity for employment to all classes of citizens
-\item Government should aim for improving livelihoods of the poor through their self-reliance
-\item Promote activities that increase self-employment. For this, agriculture commercialization and diversification should be done at policy level and supply of fertilizer, improved seeds and chemicals should be assured.
-\item Investment environment should be improved for increased investment in agriculture, manufacturing, trade, tourism, health and education.
-\item Fostering of inter-agency cooperation between government organizations in the fight against poverty.
-\end{itemize}
-
-A state of poverty reflects weak privilage for a nation and its citizens. It also means that the economy is underdeveloped and unhealthy for modern infrastructure attainment. Thus a targeted approach, that identifies and arranges basic facilities for the poor so as to enable them uplift their livelihood through skill generation and income generation enterprise is the current necessity in nationwide fight against poverty.
-
-\end{solution}
-
-\question Mention the problems for achieving good governance in Nepal.
-
-\question What do you mean by rule of law ? Explain.
-
-\question What is the meaning of reservation ? Why is it necessary in government services ? Mention.
-
-Recent census of 2011 has categorized 125 caste as well as ethnic communities in Nepal out of 26.5 million population. Over 92 spoken languages and more than 10 religions are identified in the country, although Nepali language and hindu religion characterize the largest fraction of the population. Social exclusion is known to be one of the main setbacks for inclusive democracy to prosper.
-
-Women cut across all categories irrespective of caste, ethnicity, individuals with disabilities, or children. Six categories, based on sex, caste, ethnicity, religion, religious and physical condition, have been listed as excluded groups.
-
-Excluded groups confront different sets of developmental challenges that more or less relate to securing basic rights to living a quality life. Marginalization from mainstream development, discrimination, under-representation in politics and beureaucracy and lack of competent power are some of the major problems.
-
-Measures are being institutionalized to secure for these groups the active participation in social, economic and political development with Nepal's endorsement of international human development agendas. One of those indlude the ratification of treaty on Ellimination of all Forms of Discrimination Against Women which came into effect on Sept 1981. Over the years pacts like the Indian Poona Pact, have created an obligation on the government to protect minority rights. Recent policy reforms target promotion of equality, participatory development, social security, positive discrimination, reservation on beureaucracy, gender budgeting and targeted program.
-
-Constitution of Nepal, 2072 defines Nepal as a multi ethnic, multi linguistic and multi religious country, and home to people of diverse races, religions, castes, socio economic conditions and languages. It has done fair justice to those holding small numbers in terms of population by ensuring their representation in all institutions of the country. It is said that a country’s diversity should be reflected in every sector, only then can its diversity or heterogeneity be preserved. Minority rights serve as a basis for their representation in diverse sectors of the society. 
-
-- As per Article 42 of the constitution, socially backward women, Dalit, indigenous people, indigenous nationalities, Madhesi, Tharu, minorities, persons with disabilities, marginalised communities, Muslims, backward classes, gender and sexual minorities, youths, farmers, labourers, the oppressed and citizens of backward regions and indigent Khas Arya qualify for reservation in government jobs.
-
-- The second amendment of Civil Service Act, 1993 in order to increase participation in civil service through introduced reservation system, has allocated (pursuant to Chapter 3, Subsection 7, Clause 1 and 2)) 45% of the total posts to fulfilled by open competition to be set aside by having separate competition between the following candidates only (by considering the percentage into cent percent):
-
-  - Women: 33%
-  - Adiwasi/Janjati: 27%
-  - Dalit: 9%
-  - Disabled: 5%
-  - Backward area: 4% (Comprising Accham, Kalikot, Jajarkot, Jumla, Dolpa, Bajhang, Bajura, Mugu and Humla districts only)
-  
-The act also has made an arrangement for reviewing the impact of the above provision in a period of ten years. Moreover, the act has fixed 40 years as the age bar for women candidates to enter in the civil service, whereas the same is set to 35 years for men. Besides that individuals recruited through the reservation may be eligible for promotion only one year after working on a post.
-
-- Government initiated a project named Governance reform program 2001-2005. One of the responsibilities of this program was to explore the level of marginalization and to suggest corrective measures for the government. The project report, for the first time in Nepal, proposed quota reservation for marginalized people in Nepal.
-
-Through inclusivity and affirmative action, representation of the most deprived community is ensured. However, there have been criticisms that mishandling of privilage may tarnish merit based system in civil service. Again, it can be misused by those in charge of power in the deprived community itself. Here however is an opportunity for us to set an worldly example if the reforms are to avail themselves in a decade or so, but undoubtedly till then implementation of this democratic constitution remains the key challenge.
-
-\question Although Nepal is an agricultural country, what are the reasons for decreasing productivity of arable land in recent years.
-
-\begin{solution}
-
-Some of the reasons for decreasing productivity of arable land in recent years in Nepal are:
-
-\begin{itemize}
-\item Recent years have seen depletion of soil fertility. Besides leach and runoff of major nutrients, intensification of mono-cropping, mainly that of cereals, has accelerated exhaustion of these essential supplies. Likewise, farmers have not been, since early farming days, supplementing the land with micronutrient fertilizers. It should be noted that micronutrient deficiencies can have serious limitting effects in yield.
-\item Haphazard use of chemical fertilizers have resulted in acidity and salinity build-up in soil. The crops exhibit symptoms of toxicity when growth therein. Trace to almost null measures of soil amendment adds to this problematic scenario.
-\item Excessive reliance on seasonal rain has turned to become counterproductive. Monsoon streams and water bodies have not been able to fend for agricultural water needs. In some instances they have even dried down in recent years, mainly due to changing seasonal patterns and climate extremes.
-\item In recent years, size of land holding have decreased. This means that in average a farmer own less area of land than what he used to crop previously, currently 0.5 ha per household. This is in comparison to more advanced nations, less by ten to hundreds of order magnitude. This has a rippling effect. Today farmers are practicing farming only as a side gig as well as being less willing to invest in technology introduction. This translates into lesser input consumption and ultimately to lower yield. At the same time transition from traditional practices of diverse cropping to mono-cropping leads to a greater loss in diversity and deprivation from essential ecosystem services of natural environment. For example, natural enemies of insects are indiscriminately being eradicated while trying to turn the wheels against insect-pests. 
-\item While most development plans give high priority to agriculture - which contributes 30 percent to GDP - government investment in the Ministry of Agricultural Development (MOAD) - has declined from 3.7 percent of all government spending 10 years ago to around 3.0 during recent years. Meanwhile, overall government spending has doubled since 2006.
-
-\end{itemize}
-\end{solution}
-
-\question What is climate change ? What are the negative impacts or such impacts possible due climate change in Nepal ? Mention.
-
-\begin{solution}
-
-Climate is usually defined as the "average weather" in a place. It includes patterns of temperature, precipitation (rainfall or snow), humidity, wind and seasons. Climate patterns play fundamental role in shaping natural ecosystems, and the human economies and culture that depend on them.
-
-The planet's climate has been constantly changing over geological time. The global temperature today is about 15 $^\circ C$, though geological evidence suggests it has been much higher and lower in the past. However, in light of the global temperature records, scientists today are concerned that the natural fluctuation, or variability, is being overtaken by a rapid human-induced warming that has serious implications for the stability of the planet's climate. For example, notable events including drought and heat waves in Russia in 2010, drought in China in 2012, and droughts in the US in 2011 and 2012, have all had a major impact on agricultural production in these areas.
-
-Climate change is a change in the state of the climate that can be identified (e.g., by using statistical tests) by changes in the mean or the variability of climate properties and that persists for an extended period, typically decades or longer. Climate change may be due to natural internal processes or external forces or due to persistent anthropogenic changes in the composition of the atmosphere or in land use by factors such as biotic processes, variations in solar radiation received by Earth, plate tectonics, and volcanic eruptions. Certain human activities have been identified as primary causes of ongoing climate changes, often referred to as global warming.
-
-Observations of temperature have shown that 10 of the warmest 11 years have occurred since 2001. Coupled with these changes is the decrease in the number of frost days by 10\% in the eastern half of the US and an increase in the length of the growing season by over 10 days.
-
-Trends in precipitation are more difficult to assess; however, overall precipitation amounts and heavy precipitation events have increased in most regions of the world; while occurances of drought has been increasing, particularly since 1970 (IPCC, 2007). 
-
-\textbf{Impacts of climate change for human society}
-
-\begin{itemize}
-\item Melting glaciers, early snowmelt, and severe droughts will cause dramatic water shortages and increase the risk of wildfires in the American West.
-\item Rising seas levels will lead to coastal flooding on the Eastern Seaboard, especially in Florida, and in other areas such as the Gulf of Mexico. 
-\item Forests, farms and cities will face troublesome new pests, heat waves, heavy downpours, and increased flooding. All those factors will damage or destroy ecosystems which human excessively rely on -- Agriculture and fisheries.
-\item Disruption of habitats such as coral reefs and alpine meadows could drive many plant and animal species to extinction.
-\item Allergies, asthma, and infectious disease outbreaks will become more common due to increased growth of pollen-producing ragweed, higher levels of air pollution, and the spread of conditions favorable to pathogens and mosquitoes.
-\end{itemize}
-
-Examples of observed climatic changes
-
-\begin{itemize}
-\item During the past 50 years there has been an increase in $CO_2$ concentration from 325 to 390 ppm with a projection of further increases to nearly 500 ppm by the middle of the twenty-first century (IPCC, 2007).
-\item During the twentieth century, global average air temperatures increased by approximately 0.74 $^\circ C$ (0.56–0.92 $^\circ C$) (IPCC, 2007a) with projections of further increases in surface air temperatures of between 1.1 and 2.9 $^\circ C$ by 2100 under emission scenarios, which have adopted aggressive methods to reduce $CO_2$ emissions, and by up to 2.0–5.4 $^\circ C$ under scenarios with higher emission rates. 
-\item Winter temperatures have increased more rapidly than summer temperatures, and night time minimum temperatures have warmed more than daytime maximums. Across the US (and elsewhere), record high temperatures are three times higher than the number of record cold events.
-\item Decrease in snow cover and sea ice extent and the retreat of mountain glaciers in the latter half of the 20th century.
-\item Rise in global average sea level and the increase in ocean water temperatures. Between 1900 and 2016, the sea level rose by 16–21 cm (6.3–8.3 in). The accelerated decrease in coastal areas is attributed mostly to human induced global warming.
-\item Likely increase in average precipitation over the middle and high latitues of the northern hemisphere, and over tropical land areas.
-\item Increase in frequency and intensity of extreme precipitation events in some regions of the world.
-\end{itemize}
-
-Examples of observed physical and ecological changes
-
-\begin{itemize}
-\item Thawing permafrost
-\item Lengthening of the growing season in middle and high latitudes
-\item Pole-ward and upward shift of plant and animal ranges
-\item Decline of some plant and animal species
-\item Earlier flowering of trees
-\item Earlier and frequent emergence of insects-pests
-\item Disruption of seasonal pattern of migratory birds and egg laying animals.
-\end{itemize}
-
-Source: Encyclopedia of Agriculture and Food Systems
-
-\end{solution}
-
-\question What is green house effect ? Mention its implications of green house gases in global warming.
-
-\begin{solution}
-
-The earth's climate is warming as a consequence of the accumulation of greenhouse gases in the atmosphere. Warming of the atmosphere is actually happerning because the atmosphere is continuing to trap the heat that radiates from the earth and traps it between the earth and space.
-
-The most important greenhouse gases contributing to this warming are carbon Water vapor, dioxide ($CO_2$), methane ($CH_4$), and nitrous oxide ($N2O$). Although these gases are present in the atmosphere naturally, human activity has been responsible for a rapid increase in their concentration over the past century. Greenhouse gases are released by a variety of processes, the most important of which is fossil fuel consumption, which currently adds more than 9 billion tons of $CO_2-C$ to the atmosphere each year.
-
-Chlorofluorocarbons (CFCs), which are basically synthetic compounds that are created in the industrial setting, also play a part in green house conditioning. They are usually what plays a part in depletion of the ozone layer. The more the ozone layer is depleted, the hotter our earth will get.
-
-Globally, IPCC (2007d) estimates that 69\% of the GHGs originate from energy consumption, whereas 14\% arise from food production and 17\% from deforestation. Meanwhile, energy use, food use, and land use change, and thus emissions generally expand with incomes and population. In fact, historical emission data show that global GHG emissions and concentrations have been increasing at an increasing rate.
-
-Agriculture too is a major source of the greenhouse emissions. Practices such as deforestation, cattle feedlots, and fertilizer used currently account for approximately 25\% of greenhouse gas emissions. When broken down in total, this amounts to 14\% of carbon dioxide emissions, 48\% of methane, and 52\% of nitrous oxide emissions.
-
-\end{solution}
-
-\question Write about the "Chepang" ethnic group.
-
-\begin{solution}
-
-Chepangs are an indigenous Tibeto-Burman group of people from the south-central region of Nepal. Over the past two or three generations, the Chepang have begun to slowly shift from a semi-nomadic (slash-and-burn) lifestyle to a more settled way of life, relying increasingly upon the production of permanent fields of maize, millet and bananas. The severe topography, however, has made permanent farming difficult (and usually insufficient), and the forest has remained an important (although decreasingly so) source of food for the Chepang. Historically, the collection of wild yams and tubers, fish caught from nearby rivers, bats and wild birds, and periodically wild deer hunted from nearby forests, have supplemented their need for carbohydrates and protein. With increasing populations, lack of arable land and few irrigation options, malnutrition has been a historic problem for the Chepang despite forest supplements. 
-
-The Chepang have often been characterized as the poorest of Nepal's poor.
-According to the recent Nepal Living Standard Survey, almost 90 percent of Chepangs live below the poverty line, earning around 6,000 Nepali rupees per capita annually. Forced teenage pregnancies are common among this community members. Chepang men and women are basically egalitarian and no social ranking exists as it does in caste Nepalese society. Many Chepang cannot read and write due to a lack of education beyond elementary school, and this illiteracy stands in contrast to the great gains Nepal has been making in reducing illiteracy. According to the 2001 Nepal Census, there are 52,237 Chepang in the country, of which 67.63\% were Hindu, 23.38\% were Buddhists, 7.74\% were Christians, and 1.25\% others. They are mostly located in Dhading District, Chitwan District, Gorkha District, Makwanpur District, and Tanahu District.
-
-The Chepangs themselves follow Animism, although they are strongly influenced by both Hinduism and Buddhism, which came from the Tamangs just north of them. They observe all the Hindu festivals of Dashain, Tihar and Sakrantis besides their own tribal festival Nwagi or Chhonam, which is performed on a Tuesday during third week of Bhadra (some day in August and September). Chhonam is the auspicious day for eating a new crop. Before the celebration of this festival, eating certain agricultural products is prohibited.
-
-In the 5th National Gathering of Chepang, 2004, it was stated they practiced Prakriti (Nature), with ancestor worship as most important. They worship many deities including Bhumi, Aita Bare, Gaidu, Namrung etc. (earth deity) etc. They also observe other different festivals like, Maghe Sakranti, Saune Sakranti, Dashain, Tihar.
-
-The language is also known as Chepang but is called Chyo-bang by the people themselves. These people are also called "Praja" meaning "political subjects". The people speak 3 different dialects of this Tibeto-Burman language that is closely related to Raute and Raji, two undocumented languages spoken in western Nepal.
-
-Chepang language is one of the few languages which uses a duodecimal (base 12) counting system rather than the decimal (base 10). 
-
-Over the last decade, there has been increasing awareness among Nepalis regarding the plight of the Chepang people. Simultaneously, there has also been an rise in the number of NGOs working to support and uplift the livelihoods of Chepang communities.
-
-
-source: \url{https://kathmandupost.com/miscellaneous/2016/01/02/the-chepang-people-of-chitwan-and-their-conversion-to-christianity}; \url{https://en.wikipedia.org/wiki/Chepang_people}
-\end{solution}
-
-\question Write short notes on:
-
-\begin{enumerate}[label=(\roman*)]
-\item Ethnic groups of Nepal
-\item Biodiversity
+Total cash receipts and total cash payments, and cash receipts and cash payments for each sub-classification of cash receipt and payment, should be reported on a gross basis, except that cash receipts and payments may be reported on a net basis when:
+
+\begin{enumerate}
+\item they arise from transactions which the entity administers on behalf of other parties and which are recognized in the statement of cash receipts and payments; or
+\item they are for items in which the turnover is quick, the amounts are large, and the maturities are short.
 \end{enumerate}
 
-\question What are the measures that should be taken to conserve forest resources in Nepal ?
+Line items, headings and sub-totals should be presented in the statement of cash receipts and payments when such presentation is necessary to present fairly the entity's cash receipts, cash payment and cash balances. Total cash receipts may be classified to, for example, separately identify cash receipts from taxation or appropriation; grants and donations; borrowings; proceeds from the disposal of property, plant and equipment; and other ongoing service delivery and trading activities. Total cash payment may be classified to, for example, separately identify cash payments in respect of: ongoing service delivery activities including transfers to constituents or other government entities; debt reduction programs; acquisitions of property, plant and equipment; and any trading activities.
 
-\question Write in brief about the Lhosar festival celebrated in Nepal.
+#### General considerations
+
+1. *Reporting period* The general purpose financial statements should be presented at least annually. When, in exceptional circumstances, an entity's reporting date changes and the annual financial statements are presented for a period longer or shorter than one year, an entity should disclose in addition to the period covered by the financial statements:
+
+\begin{enumerate}
+\item the reason(s) for a period other than one year being used; and
+\item the fact that comparative amounts may not be comparable.
+\end{enumerate}
+
+2. *Timeliness*
+3. *Authorization date*
+4. *Information about the Entity*
+5. *Restrictions on cash balances and access to borrowings*
+6. *Consistency of presentation*
+7. *Comparative information*
+8. *Identification of financial statements*
+
+(For a brief presentation summary of NPSAS refer to the linked url^[https://dms.nasc.org.np/sites/default/files/documents/NPSAS-2076.pdf])
+
+\begin{questions}
 
 \question What is the accounting system in practice in Nepal ? What are the features of double entry system of bookkeeping ?
 
@@ -601,154 +576,41 @@ Features of double entry system of bookkeeping are:
 \end{enumerate}
 \end{solution}
 
-\question Explain about soil erosion, status and its consequences for Nepal. 
-
-\begin{solution}
-According to a United Nations-backed study, a third of the planet's land is severely degraded and fertile soil is being lost at the rate of 24 billion tonnes a year. In Nepal, the situation is even worse because two-thirds of the country's total area is geologically fragile where soil erosion is exceedingly high. Topsoil loss has been reported as high as 87 tonnes per hectare per year on sloping terraces. When the top soil is lost, the land is degraded.
-
-Poor land management in Nepal has caused soil erosion each year with impacts not just on food production but also on biodiversity loss, carbon loss and disaster resilience. Forecasts on land in South Asia indicate that countries like Nepal will have to face the greatest challenges if better land regulation and improved farming technologies are not put in place.
-
-When farmland is ploughed and tilled, the exposed topsoil is often blown away by wind or washed away by rain. Erosion due to faulty practices in crop production, for example, has resulted in the loss of millions of tonnes of topsoil every year. This leads to reduced soil fertility and degraded land.
-
-Unscientific farming in the hills (steep slope) is one of the causes of soil erosion in Nepal. Shifting cultivation and unnecessary tillage practices also lead to land degradation and damage the ground vegetation and natural ecosystems. Cultivation on the steep slope without taking improved farming practices such as terracing, selection of appropriate crops and use of organic manures into consideration have contributed to increased soil erosion. Furthermore, agricultural intensification produces certain by-products and side effects that are unfriendly to the environment. Ways must, therefore, be found to minimise the effects of these by-products and side effects on the quality of soil.
-
-Maintenance and enhancement of soil fertility are vital for food security and environmental sustainability. Ecologically sound agroforestry systems such as inter-cropping and growing tree crops in the sloppy lands can be helpful for the sustainability of farming. Many farming practices have been developed to improve efficiency in the use of resources and strengthen research on sustainable agriculture in developed countries and have made us hopeful about scientific and technological innovation in the management of soil.
-
-The practice of tilling sloped land along lines of consistent elevation in order to conserve rainwater and to reduce soil losses from surface erosion is called contour farming. It acts as reservoirs to catch and retain rainwater, thus permitting increased infiltration and more uniform distribution of water. The contour farming is a traditional practice in the hilly areas of Nepal.
-
-Another good practice to control soil erosion is the creation of windbreakers by planting evergreen trees around farmland in windy areas like Mustang. It helps prevent the wind blowing away the soil from the farmland. Windbreakers also help in protecting crops from damage caused by strong and severe wind and improve plant health, quality and yield. Crops protected from wind are able to retain significantly more moisture. Matting is the process of covering the soil with biodegradable materials that include mulch, straw, coconut fibre and wood chips. These are held together with biodegradable netting made from coco coir.
-
-Crop rotation with non-hosts of the pathogens that require control is considered one of the most important cultural factors for reducing overall disease problems of crops as well as minimising soil erosion. Beneficial organisms can be added directly, or the soil environment can be made more favourable for them through use of compost and other organic amendments. Soil pH, calcium level, nitrogen form and the availability of nutrients can all play major roles in soil disease management. Adequate crop nutrition makes crops more tolerant of or resistant to disease.
-
-Trees are often considered to be the universal answer to control soil erosion. Tree roots help prevent landslides on steep slopes and streambank erosion. Horticultural crops, particularly fruit trees, have positive implications for the future development of mountain agriculture in terms of minimising soil erosion, harnessing mountain niches and comparative advantages.
-
-Agro-forestry is a sustainable land use system and practice in which woody perennials (trees, shrubs) are grown with herbaceous annuals (crops, pasture grass). It supports the livelihood of billions of people worldwide and provides a wide range of products such as food, fuel, fibre, fodder and forage for livestock. Even the landless farmers sustain their livelihood with this system.
-
-According to a case study of agro-forestry from the mid-hills of Nepal, it is possible to earn Rs 45,490 per hectare from carbon sequestration per household if a payment scheme is introduced. It prevents the further degradation of the undulated fragile land of hilly areas.
-
-Soils and agro-ecosystems are essential for sustainable production, hence farmers, social workers, politicians and agriculturists should come together to develop soil management strategies for sustainable production. Farmers should try to keep their farmland productive for generations to come.
-\end{solution}
-
-\question Describe tourism and its prospects in context of Nepal.
-
-\begin{solution}
-Nepal with rich ancient cultures set against the most dramatic scenery in the world is a land of discovery and unique experience. For broad minded individuals who value an experience that is authentic and mesmerizing, Nepal is the ideal destination. Come and revel in the untouched and the undiscovered and uncover yourself.
-
-It is unsurpassed that the sheer diversity Nepal boasts, from steamy jungle and Terai to the icy peaks of the world’s highest mountains means that the range of activities on offer. Trekking, mountaineering, rafting in spectacular scenery are just three things Nepal is famous for. Activities as diverse as Elephant Polo and a micro-light flight through the Himalayas show that in Nepal, the only boundary is your imagination. With 15 National and Wildlife Parks (two are UNESCO Heritage sites) Nepal is one of the last places on earth you can spot the Asiatic rhinoceros and the Royal Bengal Tiger.
-
-For many, Nepal’s greatest attraction is its people. The traditions and famous hospitality of its many different groups are indeed a major part of what makes Nepal so special. From remote mountain villages to medieval hill-towns and the ancient cities of the Kathmandu Valley, the people of Nepal are always welcoming. Come and experience the strong and unique flavors of Nepalese cuisine, prepared with love and a depth of flavor or join in and celebrate at one of the many festivals year round. In fact, with more festivals than days of the year, there is nowhere else in the world that can offer as many festivities as Nepal.
-
-Tourism is one of the mainstay of Nepalese economy. It is also a major source of foreign exchange and revenue. Possessing 8 of the 10 highest mountains in the world, Nepal is a hotspot destination for mountaineers, rock climbers and people seeking adventures. The Hindu, Buddhist and other cultural heritage sites of Nepal, and around the year fair weather are also strong attractions.
-
-Nepal is the country of the Mount Everest, the highest mountain peak in the world, and the Birthplace of Gautama Buddha- Lumbini. Mountaineering and other types of adventure tourism and ecotourism are important attractions for visitors. There are other important religious pilgrimage sites throughout the country for the followers of various sects and religions.
-
-According to statistics from Nepal Tourism Board (NTB), a total of 598,204 foreign tourists entered the country via aerial route in 2012. The government of Nepal declared 2011 to be Nepal Tourism Year, and hoped to attract one million foreign tourists to the country during that year. The tourist industry is seen as a way to alleviate poverty and achieve greater social equity in the country.
-
-Wilderness tourism
-
-Nepal’s major tourist activities include wilderness and adventure activities such as mountain biking, bungee jumping, rock climbing and mountain climbing, trekking, hiking, bird watching, mountain flights, ultralight aircraft flights, paragliding and hot air ballooning over the mountains of the Himalaya, hiking and mountain biking, exploring the waterways by raft, kayak or canoe and jungle safaris especially in the Terai region.
-
-Religious sites
-
-Nepal is a multi-religious society. The major religion in Nepal is Hinduism, and the Pashupatinath Temple, which is the world’s one of the main Hindu religious sites is located in Kathmandu, attracts many pilgrims and tourists. Other Hindu pilgrimage sites include the temple complex in Swargadwari located in the Pyuthan district, Lake Gosainkunda near Dhunche, the temples at Devghat, Manakamana temple in the Gorkha District, and Pathibhara near Phungling, Mahamrityunjaya Shivasan Nepal in Palpa District where biggest metallic idol of Lord Shiva is located.
-
-Buddhism is another main religion. The World Heritage site Lumbini, which is the birthplace of Gautama Buddha, is an important pilgrimage site. Another prominent Buddhist site is Swayambhunath, the Monkey Temple, in Kathmandu. Dang valley is also a sacred place for Hindus as well as other religions. Kalika and Malika Devi in Chhillikot hill, Ambekeshawori temple, Krishna temple, Dharapani temple etc. are sacred place in Dang district. Chillikot hill is also a good place for sightseeing and also an ancient palace of a king. Muktinath is a sacred place for Hindus as well as Buddhists. The site is located in Muktinath Valley, Mustang district.
-
-Culture and Heritage Sites
-
-Kathmandu the capital city of Nepal is the city of temple and very rich in cultural heritage. Within 7 km radius there are 7 world heritage sites (Pashupatinath Temple, Baudhanath Stupa, Swayambhunath Stupa, Changunarayan Temple, Kathmandu Durbar Square, Patan Durbar Square and Bhaktapur Durbar Square) which cannot be found anywhere. Museums in Kathmandu have rich collections of archaeological, historical and artistic importance and galleries display art work of the past and present. Full of art, architecture and culture, the Kathmandu Valley is the prime destination for the tourists. As Nepal is a land of festivities and celebrations, visitors can experience how a culturally diverse and rich society of Nepal grooms in harmony.
-
-Major Tourism Activities in Nepal
-
-Mountain Climbing
-
-The 800 km stretch of the Nepal Himalayan is the greatest in the world with eight peaks that rise above 8,000m including the highest in the world, Mt. Everest. Ever since the country opened its peaks to climbers in 1994, the Nepal Himalayan has become a great theatre of mountaineering activity and the drama of success and failure have provided impetus to thousands of men and women to meet the ultimate challenge. The Nepal Himalayan has been an attraction to many people, be they saints, philosophers, researchers or adventures.
-
-Trekking
-
-The best way to experience Nepal’s unbeatable combination of natural beauty and culture riches is to walk through them. One can walk along the beaten trails or virgin tracks. Either way you are in for an experience for a lifetime. Along with forests of rhododendron, isolated hamlets, and small mountain villages, birds, animals, temple, monasteries and breathtaking landscapes, you will also encounter friendly people of different cultures offering a fascinating glimpse of traditional rural life.
-
-Bird Watching
-
-Nepal is a paradise for bird lovers with over 646 species (almost 8% of the world total) of birds, and among them almost 500 hundred species are found in Kathmandu Valley alone. The most popular bird watching spots in Kathmandu are Phulchoki, Godavari, Nagarjun, Bagmatiriver, Taudaha and so on. Get your binoculars and look forward to a rewarding experience.
-
-Rafting/Kayaking/Canyoning
-
-Rafting  is one of the best ways to explore the typical cross section of natural as well as ethno-cultural heritage of the country. There are numerous rivers in Nepal which offer excellent rafting or canoeing experience. You can glide on calm jade waters with munificent scenery all about or rush through roaring white rapids, in the care of expert river-men employed by government authorized agencies. One can opt for day of river running or more. So far, the government has opened sections of 10 rivers for commercial rafting. The Trisuli river  is one of the most popular of Nepal’s raftable rivers. The Kali Gandaki winds through remote canyons and deep gorges for five days of intense rapids. The BhoteKoshi is 26km of continuous white water and the raging Marshyanghi is four days of uninterrupted white water. The Karnaliriver provides some of the most challenging rapids in the world. The Sun Koshi , 27km, requiring 8-10 days to complete, is a big and challenging river. Adventurers are provided with world-class services by rafting agents. Agencies here provide life jackets, camping and the standard rafting paraphernalia needed by world-class rafting. An extremely popular sport in Europe, cannoning is now available in Nepal. Cannoning gives you the freedom to explore some of the most ruggedly beautiful, yet forbidden places in the world.
-
-Hot Air Ballooning
-
-Hot air ballooning is very popular with tourists for it affords the most spectacular bird's-eye view of the Kathmandu valley and the Himalayan ranges towering in the background. On a clear day it's a superb way to view the Himalayan (from over 6000m up), and the view of the valley is equally breathtaking.
-
-Bungee Jumping
-
-The ultimate thrill of a bungee jump can now be experienced in Nepal at one of the best sites that this sport can boast of anywhere in the world. Nepal's first bungee jumping site is situated 160m. Over the BhoteKoshiriver, inviting you to experience the ultimate adrenaline rush in the surroundings of this amazing place. The jump, at 160m., is staffed and operated by some of the most experienced jumpmasters in the business.
-
-Paragliding
-
-Paragliding in Nepal can be a truly wonderful and fulfilling experience for the adventure seeking. A trip will take you over some of the best scenery on earth, as you share airspace with Himalayan griffins vultures, eagles, kites and float over villages, monasteries, temples, lakes and jungle, with a fantastic view of the majestic Himalayas.
-
-Ultralight Aircraft
-
-Ultralight aircraft take off from Pokhara and offer spectacular views of the lakes, mountains and villages. This is an ideal way to see life from a new perspective. The choice of Pokhara Valley for ultra-light aircraft is appropriate chiefly because of the proximity of the mountains, and the scenic lakes. For those who wished they could fly birds when growing up, this flight is a must. It might be lonely at the top, but this flight is a must. It might be lonely at the top, but the spectacular view from up high certainly makes it all worth it. Flights are from the Pokhara airport beginning September through June. The flights take place from sunrise to 11 a.m. and from 3 p.m. to sunset every day during these months.
-
-Mountain Biking
-
-The best way to explore the Kathmandu Valley is on a mountain bike. Nepal’s diverse terrain is a mountain biker’s dream adventure comes true. Mountain biking offers an environmentally sound way of exploring this magnificent country, its landscape and living heritage. There are plenty of dirty roads and trails in Nepal to meet every mountain biker’s wildest fantasy. Mountain biking is specially recommended if you wish to explore urban centers of Nepal such as Pokhara and Kathmandu as well as the countryside. Adventurous souls may plan extended trips to such exotic locals as Namche Bazaar, and western Nepal. You could even do the entire length of Nepal across the plains. Mountain bikes are available for rent by the day or longer in many of the bicycle rental outlets in Nepal and around the city.
-
-Jungle Safari
-
-National Parks located specially in the Terai region in Nepal attract visitors from all over the world. A visit to these parks involves game- stalking by a variety of means-foot, dugout canoe, jeep, and elephant back. One is bound to sight a one - horned rhino or two at every elephant safari. Besides the rhinos, wild boars, samburs, spotted deer, sloth bear, four-horned antelope are also usually seen. A Royal Bengal tiger may surprise you by his majestic appearance.
-
-Mountain Flight
-
-Only awe-stricken silence can come close to matching the experience of going on a mountain flight to encounter the tallest mountains on earth. Mountain flights offer the closest possible aerial views of Mt. Everest, Kanchenjunga and the Tibetan Plateau. Mountain flights appeal to all category of travelers and have become a popular tourist attraction of Nepal. For those who are restricted by time or other considerations from going for a trek, these flights offer a panoramic view of the Himalayan in just one hour.
-
-Rock Climbing
-
-For all those cliffhangers out there, Kathmandu offers a roster of stone walls that make for an experience of a lifetime. Now of late, Rock climbing has become a popular sport in Kathmandu, which offers some really terrific places for rock climbing. Nagarjun, Balaju, Shivapuri and Budhanilkantha are some of the places where you can try this sport.
-
-source: \url{https://mofa.gov.np/about-nepal/tourism-in-nepal/}
-\end{solution}
-
-\question Write in brief about culture and society of Nepal.
-
-\begin{solution}
-
-Culture and Society of Nepal
-
-The culture of Nepal is rich and unique. The cultural heritage of Nepal has evolved over the centuries. This multi-dimensional heritage encompasses the diversities of Nepal’s ethnic, tribal, and social groups, and it manifests in music and dance; art and craft; folklore and folktales; languages and literature; philosophy and religion; festivals and celebration; foods and drinks.
-
-Dance and music
-
-Legends state that dances in the Indian subcontinent originated in the abode of Lord Shiva — the Himalayas and the Himalayan Kingdom of Nepal — where he performed the tandava dance. This indicates that dance traditions of Nepal are very ancient. With altitudes and ethnicity, the dances of Nepal slightly change in style as well as in the costumes. The Dishka, a dance performed at weddings, includes intricate footwork and arm movements. Accompanying music and musical instruments change in tune with the themes, which revolve around topics like harvesting of crops, marriage rites, war stories, a lonely girl’s yearning for her love, and several other themes and stories from everyday life in the villages.
-Languages and literature
-
-As per the 2011 census, 123 languages are spoken in Nepal. Nepal’s linguistic heritage has evolved from three major language groups: Indo-Aryan, Tibeto-Burman, and indigenous. The major languages of Nepal (percent spoken as mother tongue) are Nepali (44.6%), Maithili (11.7%), Bhojpuri (6%), Tharu (5.8%), Tamang (5.1%), Nepal Bhasa (3.2%), Magar (3%) and Bajjika (3%).
-
-Nepali, written in Devanagari script, is the official national language and serves as lingua franca among Nepalese ethno-linguistic groups. Maithili language that was originated in Mithila region of Nepal is the de facto official language of Nepal and Madhesh as a whole. Maithili is spoken in Nepal as a second language. Extinct languages of Nepal include Kusunda, Madhesiya and Waling.
-
-Religions and philosophy
-
-The 2001 census identified 80.6% of the population being Hindu. Buddhism was practiced by about 11% of the population (although many people labelled Hindu or Buddhist often practice a syncretic blend of Hinduism, Buddhism, and/or animist traditions). About 3.2% practice Islam and 3.6% of the population follows the indigenous Kirant religion. Christianity is practiced officially by less than 0.5%.
-
-Hindu and Buddhist traditions in Nepal go back more than two millennia. In Lumbini, Buddha was born, and Pashupatinath temple, Kathmandu, is an old and famous Shiva temple of Hindus. Nepal has several other temples and Buddhist monasteries, as well as places of worship of other religious groups. Traditionally, Nepalese philosophical thoughts are ingrained with the Hindu and Buddhist philosophical ethos and traditions, which include elements of Kashmir Shaivism, Nyingma school of Tibetan Buddhism, works of Karmacharyas of Bhaktapur, and tantric traditions. Tantric traditions are deep rooted in Nepal, including the practice of animal sacrifices. Five types of animals, always male, are considered acceptable for sacrifice: water buffalo, goats, sheep, chickens, and ducks. Cows are very sacred animals and are never considered acceptable for sacrifice.
-Festivals and celebrations
-
-Several of the festivals of Nepal last from one to several days. Dashain is the longest and the most important festival of Nepal. Generally Dashain falls in late September to mid-October, right after the end of the monsoon season. It is “a day of Victory over Demons”. The Newars celebrate the festival as Mohani. Tihar or Swanti and Chhath are another important festivals of Nepal. New Year’s Day of the lunar calendar Nepal Sambat occurs at this time.
-
-Other important festivals include Buddha Jayanti (the celebration of the birth of Buddha)Maha Shivaratri (a festival of Lord Shiva) and during Maha Shivaratri festivities, some people consume excessive drinks and smoke charas.Sherpas, mostly located at higher altitudes and in the Mount Everest region, celebrate Mani Rimdu, for the good of the world.
-
-Most festivals include dancing and music, and a variety of foods are consumed during festivals and on special occasions.
-
-The Sagan ceremony is the ritualized presentation of five food items (boiled egg, smoked fish, meat, lentil cake and rice wine) to a person which is done to bring good fortune as per Tantric tradition.
-
-Architecture and archeology
-
-Nepal Sumpada Sangha (Nepal Heritage Society) has compiled an inventory of 1,262 significant architectural and archeological sites in Nepal outside Kathmandu Valley.
-
-source: \url{https://mofa.gov.np/about-nepal/culture-society/}
-
-\end{solution}
-
 \end{questions}
+
+### Current status of national debt of Nepal
+
+Recently published (March 2020) joint study by WB and IMF of debt sustainability of Nepal using a framework developed for low income countries (LIC-DSF) showed that Nepal remains at low risk of debt distress for both the external and overall public debt.
+
+However, the analysis indicates that Nepal's public debt is projected to gradually increase over the medium-term owing to continuing fiscal and current account deficits, and that debt sustainability is vulnerable to export and economic growth shocks. These findings stress the importance of implementing reforms to increase the economy's resilience to external shocks and to encourage diversification. Further efforts to improve the domestic productivity and competitiveness and to enhance monitoring of risks related to contingent liabilities are necessary to ensure medium-to long-term debt sustainability.
+
+Public debt encompasses central and local governments' debts, government guarantees, central bank borrowings. The NRB borrowed from the IMF through the Rapid Credit Facility and on-lent the funds (about US \$50 million) to the government. Bond issuance by the central bank are only for the purpose of the monetary policy. Recently, mechanism has been developed to provide government as guarantee for debts on behalf of the state owned enterprises (SOEs).
+
+- Nepal's total public debt is estimated at 30.1 percent of GDP at mid-2019.
+- External public debt stood at 17 percent of GDP at mid-July 2019.
+- Domestic public debt was 13.1 percent of GDP at mid-July 2019.
+
+```{r public-domestic-debt-2018-19}
+tribble(
+  ~"Debt heading", ~"In billion NRs", ~"In percent of GDP", ~"In percent of domestic debt",
+  "Total domestic", 453, 13.1, 100, 
+  "Treasury bills", 147, 4.2, 32, 
+  "Treasury bonds (includes mostly development bonds and others)", 306, 8.8, 68, 
+    ) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = c("10em"))
+```
+
+- The stock of private external debt in Nepal has not been published by the authorities, bu it is estimated to be very small.
+- The contingent liability stress test includes contingent liabilites stemming from SOE debt (2 percent of GDP), PPP projects (2.1 percent of GDP) and financial markets (5 percent of GDP).
+
+Growth continued to perform well for the past a couple of years. Due to strong performances in agriculture, reconstruction activities, and tourism, real GDP **growth** picked up to 7.1 percent in FY 2018/19 from 6.7 percent in the previous fiscal year. In the mid-to long-term, it is expected to converge to potential growth of 5.3 percent. The **inflation** rate was 4.6 percent annually in FY 2018/19 and rose to 6.0 percent at mid-July 2019 owing to a surge in food prices, but it is expected to stabilize at 5.3 percent over the medium-term.
+
+The current account deficit was still high at 7.7 percent of GDP in FY2018/19 owing to continued strong import growth. Export and foreign direct investment were still weak, with remittances (a quarter of GDP) helping to finance the large trade deficit. Gross official reserves have fallen to US\$8.5 billion in July 2019, from US\$ 9.3 billion at the end of previous fiscal year. However, the large current account deficit in FY2018/19 did not lead to a commensurate increase in **external** debt or decline in reserves, due to large positive net errors and omissions in the balance of payments (2.7 percent of GDP in FY2018/19). The current account deficit is projected to narrow over the medium-term with slowing import demand. External debt is expected to decrease gradually over the projection period, to 18.5 percent of GDP at mid-2020 and 12percent of GDP by mid-2040.
+
+The primary **fiscal** deficit outturn of the central government in FY 2018/19 decreased to 4.0percent of GDP from 6.1 percent of GDP in the previous year. Even though the FY 2019/20 budget again targets an ambitious increase in spending, the primary fiscal deficit is projected at 3.9 percent of GDP in FY 2019/20, taking into account spending capacity constraints. Over the medium-term, it is projected to decrease to 3.2 percent of GDP.
+
+The Nepalese government is expected to gradually increase domestic borrowing to meet its fiscal deficit. Domestic borrowing is expected to reach 4 percent of GDP annually, and the **domestic debt** stock is projected to increase from 13 percent to 35.5 percent of GDP over the long-term, while external debt stock is projected to decrease to 11 percent of GDP over the projection period.
+
+Source: \url{http://documents1.worldbank.org/curated/en/205791586543067463/pdf/Nepal-Joint-World-Bank-IMF-Debt-Sustainability-Analysis.pdf}

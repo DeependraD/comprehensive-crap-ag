@@ -1,24 +1,23 @@
-Production remark,Production sub-remark,Rice,Wheat,Maize,Millet,Barley,Buckwheat,Sugarcane,Ginger,Turmeric,Potato,Tobaccoo
-Varieties notified (year),,"Chaite: 7, Barkhe: 116 (2076)",,88 (2076),,,,,,,,
-First released variety,,"Taichung-176, Chainung-242, Tainan-1, Tainan-2, all 4 released in 2024 BS",,,,,,,,,,
-NPK (per hectare),,Irrigated: 100:30:30, Unirrigated: 60:20:20,Irrigated: 100:50:50, Unirrigated: 50:50:20,`60:30:30,`30:20:10,Main crop: 120:60:40; Ratoon: 150:60:40,`30:30:60,`120:50:50,`70:50:40,`35:23:60
-pH,,,,,,,,,,,,
-Temperature,,,,,,,,,,,,
-,Minimum,,,,,,,,,,,
-,Maximum,,,,,,,,,,,
-,Optimum,,,,,,,,,,,
-FYM,,6,6,6,6,6,6,10,24,30,30,10
-Water requirement,,,,,,,,,,,,
-Seed rate,,40-50,120,20-25,7,100,50,5000-6000,4500-6000,2000-3000,1500-2000 tuber,30-40 g
-Optimum planting density (spacing),,20 x 10,22 x 10,75 x 25,20 x 10,23 x ?,50 x 15,90 x ?,30 x 30,30 x 25,70 x 25,60 x 25
-,,,,,,,,,,,,
-Critical stages of irrigation,,,,,,,,,,,,
-Growth duration,,,,,,,,,,,,
-Early maturity varieties,,"Spring: CH-45 and Chaite-4 (118 for both); Ghaiya-2 (113), Sukkha dhan-4, Sukkha dhan-5, ",,,,,,,,,,
-Medium maturing varieties,,"Ciherang sub-1, Radha-14, Hardinath-3",,,,,,,,,,
-Late maturing varieties,,"Radha-13, Sugandhit dhan-1, Bahuguni-1 and 2, Lekali dhan-1 and 3",,,,,,,,,,
-Productivity (year),,,,,,,,,,,,
-Production (year),,,,,,,,,,,,
-Area cultivated (year),,,,,,,,,,,,
-Latest released variety (year),,"Hardinath-3, Bahuguni-1 and 2 (2074 BS)",,,,,,,,,,
-Noteworthy features,,,,,,,,,,,,
+Production remark,Rice,Wheat,Maize,Millet,Barley,Buckwheat,Sugarcane,Ginger,Turmeric,Potato,Tobaccoo
+Varieties notified (year),"Chaite: 7, Barkhe: 116 (2076)",,88 (2076),,,,,,,,
+First released variety,"Taichung-176, Chainung-242, Tainan-1, Tainan-2, all 4 released in 2024 BS",,,,,,,,,,
+NPK (kg/ha),"Irrigated: 100:30:30, Unirrigated: 60:20:20","Irrigated: 100:50:50, Unirrigated: 50:50:20",Rainy and winter: 60:30:30,20:10:10,30:20:10,`30:20:10,Main crop: 120:60:40; Ratoon: 150:60:40, ,`30:30:60,`70:50:40,`35:23:60
+pH,,,,,,,,,,,
+"Temperature (min, optimum, max)",,,,,,,,,,,
+FYM,6,6,6,6,6,6,10,24,30,30,10
+Water requirement,,,,,,,,,,,
+Time of sowing,,,,,,,,,,,
+Seed rate (kg/ha),40-50,120,20-25,7,100,50,5000-6000,4500-6000,2000-3000,1500-2000 tuber,30-40 g
+Spacing (cm),20 x 10,22 x 10,75 x 25,20 x 10,23 x ?,50 x 15,90 x ?,30 x 30,30 x 25,70 x 25,60 x 25
+Intercultural operations,,,,,,,,,,,
+Critical stages of irrigation,,,,,,,,,,,
+Growth duration,,,,,,,,,,,
+Early maturity varieties,"Spring: CH-45 and Chaite-4 (118 for both); Ghaiya-2 (113), Sukkha dhan-4, Sukkha dhan-5, ",,,,,,,,,,
+Medium maturing varieties,"Ciherang sub-1, Radha-14, Hardinath-3",,,,,,,,,,
+Late maturing varieties,"Radha-13, Sugandhit dhan-1, Bahuguni-1 and 2, Lekali dhan-1 and 3",,,,,,,,,,
+Productivity (year),,,,,,,,,,,
+Production (year),,,,,,,,,,,
+Area cultivated (year),,,,,,,,,,,
+Latest released variety (year),"Hardinath-3, Bahuguni-1 and 2 (2074 BS)",,,,,,,,,,
+Noteworthy features,,,,,,,,,,,
+Seed yield (tons/ha),,,,,,,,,,,

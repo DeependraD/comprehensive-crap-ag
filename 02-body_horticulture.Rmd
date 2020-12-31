@@ -86,7 +86,10 @@ systems.
 ```{r climac-vs-nonclim}
 cl_ncl <- data.frame(climacteric = c("Avocado", "Banana", "Guava", "Mango", "Papaya", "Sapota"), 
                      non_climacteric = c("Litchi", "Mangosteen", "Pineapple", "Mountain apple (Bayer)", NA, NA))
-knitr::kable(cl_ncl, booktabs = TRUE, caption = "Climacteric and non climacteric fruits commonly cultivated in Nepal") %>% 
+
+cl_ncl %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Climacteric and non climacteric fruits commonly cultivated in Nepal") %>% 
   kableExtra::kable_styling(latex_options = "striped", position = "center")
 ```
 
@@ -107,12 +110,7 @@ Out of total area occupied by fruits 57% are tropical, 26% are citrus and only 1
 
 Currently, more than 90% of the citrus seedlings are annually distributed by private fruit nurseries. Technical support services to the fruit growers are also being provided by government farms in their command areas and to the pocket areas of the targeted districts through the extension service.
 
-```{r horticulture-fruits-veg}
-readr::read_csv("./data/vegetable_fruits_production_area_nepal.csv", skip = 1) %>% 
-  select(`Description`, `Component`, `2013-14`, `2014-15`, `2015-16`) %>% 
-  filter(Description %in% c("Fruit", "Vegetable")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Status of fruits and vegetable production and area during recent 3 years.")
-```
+For the tabulation of cultivation status of fruits and vegetables in Nepal, refer to \ref{tab:fruits-vegetable-cultivation}.
 
 About 3-4 percent of cultivated land is under fruit acreage. This could be observed from the table below showing the annual cultivation trend since 2005-06 AD. There is an increasing trend in area coverage and fruit production but the yield per hectare is low in comparison with other fruit producing countries. The fruit production needs to be increased to meet the increasing demand for domestic consumption and for exports as well. There are some important issues like infrastructure, physical and environmental, agronomic and technical support post harvest losses, problem oriented research and transfer of technology, which need to be addressed to promote fruit development in the country.
 
@@ -565,6 +563,6 @@ tribble(
   "Ginger", "5-10", 
   "Tomato", "22"
   ) %>% 
-  knitr::kable(booktabs = TRUE, format = "latex")
+  knitr::kable(booktabs = TRUE, format = "latex", caption = "Post harvest loss (estimates) in common crops")
 ```
 

@@ -13,8 +13,55 @@
 
 Millennium Development Goals (MDG) Progress Report (NPC, 2010) stated that the poverty rate has decreased, a reduction in the population suffering chronic food insecurity, and reduced unemployment rates, and there is a positive trend towards gender equality as indicated by a balanced enrollment of girls and boys in primary schools. The Report notes there has been increased allocation of public resources in favor of marginalized groups in remote areas, and greater attention has been given to environmental conservation and adaptation to climate change. The policy environment for achieving most of the MDG targets seems favorable with the Interim Constitution of Nepal 2063 (2007) and its subsequent laws emphasizing inclusive, participatory and decentralized governance.
 
-```{r}
-# readxl::read_xlsx("./data/millineum_development_goals.xlsx") # this needs to be filled
+```{r millennium-development-goals}
+mdgs <- readxl::read_xlsx("./data/millennium_development_goals.xlsx", skip = 1, range = "A2:B25")
+coln_mdgs <- colnames(mdgs)
+mdgs <- mdgs %>% 
+  janitor::clean_names()
+
+mdg_goals <- mdgs %>% 
+  filter(str_detect(goals_and_targets_from_the_millennium_declaration, "Goal [:digit:]+")) %>% 
+  select(-2)
+
+mdgs <- mdgs %>% 
+  mutate(goal_num = str_extract(goals_and_targets_from_the_millennium_declaration, "Goal [:digit:]+")) %>% 
+  fill(goal_num, .direction = "down") %>% 
+  filter(!str_detect(goals_and_targets_from_the_millennium_declaration, "Goal [:digit:]+")) %>% 
+  separate_rows(goals_and_targets_from_the_millennium_declaration, sep = "\\n(?=Target)") #%>% .[[12, 2]]
+
+mdg_goal_targets <- mdgs %>% 
+  distinct(goals_and_targets_from_the_millennium_declaration, goal_num)
+
+mdg_indicators <- mdgs %>%  
+  separate_rows(indicators_for_monitoring_progress, sep = "\\n(?=\\d+)") %>% 
+  filter(str_detect(indicators_for_monitoring_progress, "^\\d+")) %>% 
+  distinct(indicators_for_monitoring_progress, goal_num)
+
+# # note that target 12-15 do not have distinct indicators identified. separation to rows is useless.
+# removal_string <- "Some of the indicators listed below are monitored separately for the least developed countries (LDCs), Africa, landlocked countries and small island developing States.\nOfficial development assistance\n"
+# 
+# mdgs %>%   
+#   mutate(indicators_for_monitoring_progress = str_remove(indicators_for_monitoring_progress, pattern = fixed(removal_string)))
+
+mdg_goals %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% 
+               str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling()
+
+mdg_goal_targets %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% 
+               str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling() %>% 
+  kableExtra::column_spec(column = 1, width = "33em")
+
+mdg_indicators %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% 
+               str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling() %>% 
+  kableExtra::column_spec(column = 1, width = "33em")
 ```
 
 
@@ -34,6 +81,35 @@ The National Planning Commission (NPC) is the specialised and apex advisory body
 - It is headed by the Right Honorable Prime Minister. The NPC assesses resource needs, identifies sources of funding, and allocates budget for socio-economic development. 
 - It serves as a central agency for monitoring and evaluating development policy, plans and programs. 
 - The NPC also serves as an intellectual hub for the exchange of new development ideas and proposals from scholars, private sector, civil society, and development partners.
+
+Government of Nepal (GoN) has also assigned following roles and responsibilities to NPC by NPC Executive Order  of March 12, 2018.
+
+- To formulate basic development policies and prepare periodic development plans accordingly within the framework of a long-term development perspective.
+- To explore internal and external resources along as well as indigenous and foreign technology and to recommend suggestions to GoN to accelerate the pace of development.
+- To explore innovative approaches for sustainable development based on the economic situation of the country.
+- To formulate annual programmes and assist GoN in their implementation.
+- To advice GoN for the institutional development of monitoring & evaluation system, to monitor the implementation of programmes and projects according to plan target and outlay, and to carry out an imp`act evaluation of plans and projects.
+- To provide guidelines, advice and suggestions to sectoral ministries, departments, other agencies and local bodies and assist them in the plans and projects formulation.
+- To provide guidelines to collect data and to carry out action-oriented research necessary for the evaluation of new policies and for the refinement of the planning process.
+
+Financial Administration Regulation (FAR) 1999 has assigned following roles and responsibilities to NPC:
+
+- NPC has to provide guidelines on policy targets and priorities regarding formulation of budget for the coming fiscal year to the Ministry of Finance and all other line ministries before the issuance of circular on budget formulation.
+- Formulate a policy framework for approval of the district level projects by the secretaries of the ministries.
+- Approve Central level projects.
+- Set policy targets on development programmes for the coming year within the month of December.
+- Provide advice to GoN offices for accepting any kind of aid in kind or cash or reaching an agreement for foreign aid.
+
+The National Planning Commission has been accomplishing various activities in order to carry out above mentioned roles and responsibilities. These activities are as follows:
+
+- In addition to working as a national planning and programming body, the NPC has emerged as a leader and principle advisor in the economic development and economic affairs of the country. Almost all economic development and economic policies and programmes come into force either at the initiative of the Commission or on its advice or recommendations.
+- NPC has emerged as a key coordinator in the management of economic development and general economic affairs of the country.
+- NPC is also performing the role of an active and positive facilitator in the implementation of economic developmental policies and programmes. It has often assisted government organizations in solving challenges/problems faced in economic policy and programme implementation.
+- The NPC has played the role of a pioneer in policy reforms. It has successfully pioneered the formulation and implementation of economic liberalization and other reform programmes.
+- The Commission is working as the central level institution for monitoring and evaluation of economic development of the country.
+- The Commission is a platform for exchange, dissemination, discussion and consultation in respect to economic affairs and development of the country. The meetings held in the offices of Vice-chairman and members of the Commission are important inputs for the development of the country.
+
+The Commission also serves as an institution involved in analysis and finding solution to the problems of private sector in the country. The Policy Dialogue Committee under NPC is an effective forum for co-ordination of policy implementation and to address the various problems faced by the private sector
 
 Membership
 
@@ -204,12 +280,27 @@ Objective 5
     - NADC to monitor the implementation on national level
     - Strategies, programs and responsible bodies of related matters may be implemented by concerned ministries upon approval.
 
+## National adaptation plan (NAP)
+
+Nepal has adopted an approach to its NAP process that fits its specific context, taking into account the particular climatic and geographic characteristics of the country, opportunities and challenges associated with governance and the overarching development vision. This has yielded a number of unique features, notably:
+
+- A process that will "leave no one behind": Inclusive NAP processing bringing in marginalized and disadvantaged communities, indigenous and traditional groups, with special consideration for youth, women and people with disabilities. Gender equality and social inclusion have been treated as both a cross-cutting issue and a standalone theme for the NAP process, providing a solid basis for addressing these issues in an informed and practical way, from teh beginning of the process.
+  
+- Integrated approach: In contrast with the sector- or ministry-based planning approach adopted by many countries, Nepal adopted an integrated approach, focusing on seven thematic areas, as well as two cross-cutting issues, with working groups focused on each. This has allowed for multidisciplinary dialogue and analysis throughout the process to date.
+
+- Emphasis on stakeholder engagement: While the NAP process is led by the government, it has involved active participation of stakeholders from the very beginning, through the thematic and cross-cutting working groups. These groups bring together civil society organizations, academics and research organizations and private sector actors, among other representatives, enabling effective multistakeholder dialogue on the opportunities and gaps associated with adaptation within the different themes.
+
+- An informed process: Recognizing the importance of technical and scientific rigour for adaptation planning, Nepal has made a considerable investment in research, analysis and technical capacity to inform the NAP process. This includes stocktaking reports and capacity gap assessments for the themes and cross-cutting issues, analysis of climate trends and future scenarios and the development of a comprehensive framework for vulnerability and risk assessment. Collectively, these efforts provide a solid base of information and analysis upon which informed decisions can be made regarding adaptation planning and implementation.
+
+An important issues to the context in NAP implementation is the clarification of the role of sub-national actors and the creation of strategic linkages between national and sub-national adaptation planning as the new governance systems and structures are established. Related to this is the challenge of ensuring that the process is gender-balanced and inclusive, in line with the commitment to leave no one behind.
+
+Nepal's NAP process builds on past experience with adaptation planning, including through the National Adaptation Programme of Action (NAPA), developed in 2010, and the Framework on Local Adaptation Plans for Action (LAPA), developed in 2011, which has facilitated development of adaptation plans by Village Development Committees across the country. The government, led by the Ministry of Population and Environment has integrated the lessons learned from these past efforts in the NAP process, taking a deliberate and thoughtful approach that aims to be participatory and inclusive, while integrating the best available scientific information about current and future climate risks.
+
 ## Medium term expenditure framework (MTEF)
 
 Recognizing the fiscal deterioration and the need to revise the Tenth Plan accordingly, the Government initiated the preparation in parallel of a Medium Term Expenditure Framework (MTEF) in late 2001. The key objective of the MTEF was to begin to implement the Tenth Plan from the beginning of the fiscal year 2002/03, without waiting for the formal finalization of the Plan. Accordingly, the key projects/programs and activities that are considered essential for achieving the Tenth Plan's poverty reduction goals and their resource requirements for the next three years were to be identified, and were to be given priority in terms of budget allocations in the 2002/03 budget. Additional considerations guiding the MTEF, in view of the fragility of the fiscal situation, were: (i) How to streamline the budget which was already overextended well beyond resource availability, with over 600 ongoing activities/budget lines ? (ii) How to protect the Tenth Plan's key priorities in the event of further shortfalls in resource availability ? and (iii) How to ensure that the resources allocated and released for priority activities would be effectively utilized? The MTEF was expected to be the principal instrument for operationalizing the Tenth Plan, by prioritizing the proposed Plan activities according to the changing resource situation, and firmly linking the annual budget process and the Plan.
 
 Thus, a three year MTEF was prepared in early 2002 by virtually the same line ministry teams responsible for Tenth Plan preparation, using similar methodology for ranking and prioritizing activities, (but with a sharper focus on implementability, short term financing needs and results). On the basis of the MTEF, (i) the 2002/03 development budget was initially set at a significantly lower level -- Rs. 38 billion, compared to Rs. 50 billion in the 2001/02 budget; and the number of budget lines were reduced from over 600 to 430. (ii) Even more importantly, all activities were classified into three groups according to their priority (P1being the highest priority and P3 being the lowest); and (iii) The principle was established that the priority classification would be strictly followed in releasing funds for development activities. Thus, P1s will receive first priority in budget releases; and P2 and P3 will get funded only if funds are still available after providing for P1s. This has established clear criteria and methodology for adjusting resource allocations on the basis of Tenth Plan's priorities, in line with changes in the resource situation. (iv) Finally, resource allocation was linked to expenditure reporting and performance, in order to ensure satisfactory results. Thus, under the new system that has been evolved, activities which do not provide statements of expenditures (SOEs) for the preceding trimester will not be given additional funds, until they provide the SOE's.
-
 
 ## 10th plan (FY: 2059/60-2063/64)
 
@@ -241,7 +332,7 @@ Implementation strategy of four-pillars and their implications for sectoral prog
 ```{r tenth-periodic-plan}
 read_csv("./data/periodic_plan_10th.csv", skip = 1) %>% 
   rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Achievements of 9th and goals for 10th periodic plan under normal and restrained cases.") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Achievements of 9th and goals for 10th periodic plan under normal and restrained cases.", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::collapse_rows(columns = 1, valign = "middle") %>% 
   kableExtra::column_spec(column = 1:5, width = c("10em", "10em", "8em", "8em", "8em"))
@@ -281,7 +372,27 @@ read_csv("./data/periodic_plan_13th.csv", skip = 1) %>%
 
 \begin{solution}
 
-The 15th plan approach paper is a piece of shit.
+Objectives
+
+\begin{itemize}
+\item Development of affordable, quality and modern infrastructure. Increment of productive, dignified employment opportunities. High, sustainable and comprehensive economic growth and poverty alleviation to lay foundations of prosperity.
+\item Quality health and education, healthy and balanced environmental conditions, social justice and accountable public service will improve federal governance. Citizens will be realize improved and dignified ways of life.
+\item Socio-economic transformation and development of sovereign national economy thereby resulting in a protection of national welfare, sovereignty and independence.
+\end{itemize}
+
+Strategies
+
+\begin{itemize}
+\item High, sustainable and employment generating economic growth
+\item Affordable and qualitative health and education service assurance
+\item Domestic and international interconnectedness and sustainable urban infrastructure development
+\item Increase production and productivity
+\item Provisioning of complete, sustainable and productive social security and protection. 
+\item Poverty alleviation and economic and creation of judicious social system that ensures social equality.
+\item Conservation of natural resources, it's mobilization and promotion.
+\item Strengthening of public service, maintaining balance at provincial level and foster national unity.
+
+\end{itemize}
 
 \end{solution}
 

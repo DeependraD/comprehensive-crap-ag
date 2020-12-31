@@ -17,27 +17,70 @@
 - Pasture land: 1766000 (11.99%)
 - Total Jungle = Shrub + Pasture
 
-**GDP of Agriculture and releated sector/subsectors**
+### GDP contribution, and growth rate of Agriculture and related sector/subsectors
 
-```{r}
-dplyr::tribble(~"sector", ~"fy_2074-75", ~"fy_2073-74", ~"fy_2072-73", 
-               "Agriculture and forestry", 27.10, 28.25, 31.08,
-               "Fishery", 0.49, 0.51, 0.53,
-               "Non-agriculture", 72.41, 71.24, 68.39) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Percentage contribution of different sector and subsectors to total national GDP", col.names = c("Sector", "FY 2074/75", "FY 2073/74", "FY 2072/73")) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+```{r gdp-contribution-growth}
+
+growth_gdp_sectoral <- read_csv("./data/economic_growth_rates_sectors.csv", skip = 1) %>% 
+  select(-1) %>% 
+  mutate(gdp_contribution = ifelse(is.na(gdp_value_percentage), NA, paste0(gdp_value_percentage, "\\% ", "(", gdp_growth_rate_percent,")"))) %>% 
+  select(-gdp_value_percentage, -gdp_growth_rate_percent)
+
+growth_gdp_sectoral %>% 
+  filter(!is.na(gdp_contribution)) %>% 
+  pivot_wider(id_cols = 1, names_from = year, names_prefix = "", values_from = c(gdp_value, gdp_contribution)) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_replace_all("gdp", "GDP")) %>% 
+  relocate(6, .after = 2) %>% 
+  relocate(7, .after = 4) %>% 
+  relocate(8, .after = 6) %>% 
+  knitr::kable(caption = "GDP values and contribution (and GDP growth rates) of various sectors in recent years", booktabs = TRUE, longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("6em", rep("5em", times = 8)))
 ```
 
-**Agricultural growth rates**
+\blandscape
 
-```{r}
-dplyr::tribble(~"Year", ~"Growth rate (%)", 
-               2072/73, 0.01, 
-               2073/74, 5.14,
-               2074/75, 2.72) %>% 
-  knitr::kable(caption = "Agriculture growth rates of recent years in Nepal.", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+### Production status of crops
+
+```{r cereal-legumes-cultivation}
+read_csv("./data/area_production_productivity/cereal_legumes_production_area_nepal.csv", skip = 1) %>% 
+  filter(source %in% c("Agriculture diary, 2076", "Agriculture diary, 2076")) %>% 
+  select(-scale, -sn, -source, -remark) %>% 
+  mutate(productivity = production/area_total) %>% 
+  pivot_wider(id_cols = 1, names_from = year, values_from = 3:5) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Area of cultivation, production and productivity of cereal and legume crops in recent years", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:10, width = c("6em", rep("5em", times = 9)))
 ```
+
+
+```{r commercial-cultivation}
+read_csv("./data/area_production_productivity/commerical_production_area_nepal.csv", skip = 1) %>% 
+  filter(source %in% c("Agriculture diary, 2076", "Agriculture diary, 2076")) %>% 
+  select(-scale, -source, -remark, -district) %>% 
+  mutate(productivity = production/area_total) %>% 
+  pivot_wider(id_cols = 1, names_from = year, values_from = 3:5) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Area of cultivation, production and productivity of commercial crops in recent years", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:10, width = c("6em", rep("5em", times = 9)))
+```
+
+
+```{r fruits-vegetable-cultivation}
+read_csv("./data/area_production_productivity/vegetable_fruits_production_area_nepal.csv", skip = 1) %>% 
+  filter(source %in% c("Agriculture diary, 2076", "Agriculture diary, 2076")) %>% 
+  select(-scale, -sn, -source, -remark, -area_productive) %>% 
+  mutate(productivity = production/area_total) %>% 
+  pivot_wider(id_cols = 1, names_from = year, values_from = 3:5) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Area of cultivation, production and productivity of vegetable and fruit crops in recent years", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:10, width = c("6em", rep("5em", times = 9)))
+```
+
+\elandscape
 
 ## Chronology of Agriculture development in Nepal
 
@@ -72,6 +115,16 @@ readxl::read_xlsx("./data/agriculture_development_chronology.xlsx", skip = 1) %>
 
 - Cooperative campaign was first initiated when implementing first five year plan (In 2013), wherein Rapti Dunn Project was launched and 378 cooperative organizations were established in the course.
 
+Principles by which cooperatives put their values into practice are:
+
+1. Voluntary and open membership
+2. Democratic member control
+3. Member's economic participation
+4. Autonomy and independence
+5. Education, training and information
+6. Cooperation among cooperatives
+7. Concern for society
+
 Importance of cooperatives
 
 - Poverty alleviation
@@ -98,6 +151,19 @@ Importance of cooperatives
 - To legalize a cooperative organization establishment, it should be registered:
   - Under Organization act in District Administration Office, or
   - According to Cooperative act and regulations under Cooperative Division Office.
+
+### Current status of cooperatives in Nepal
+
+```{r}
+cooperatives_nepal <- read_csv("./data/cooperatives_nepal.csv", trim_ws = T, skip = 1)
+
+cooperatives_nepal %>% 
+  select(year, nature, number_of_cooperatives) %>% 
+  pivot_wider(names_from = "year", values_from = "number_of_cooperatives") %>% 
+  knitr::kable(booktabs = TRUE, col.names = c("Nature of cooperative", "FY 2069", "FY 2074")) %>% 
+  kableExtra::kable_styling(position = "center", font_size = 8, latex_options = "striped")
+```
+
 
 ## Budget speech, 2076-77 BS
 
@@ -278,12 +344,9 @@ Regional agriculture research centres and programs
   - Pakhribas, Dhankuta
   - Tarahara $\rightarrow$ Aquaculture
 
-## Agricultural Perspective Plan
+## Agricultural Perspective Plan (2052/53 -- 2071/72 BS)
 
-- Finalized: 1995 with technical assistance of ADB
-- Implemented for the period: 2052/53 -- 2071/72 BS
-
-The Agricultural Perspective Plan (APP) was designed to increase agricultural growth whereby per capita AGDP will grow from its 1995 level of 0.5% to 4% per year. This growth was expected to stimulate nonagricultural growth in employment-intensive goods and services in both urban and rural areas. This would open up job opportunities for the poor, particularly poor women, and thereby help reduce the number of rural poor. With implementation of the APP the incidence of poverty was expected to come down from 42% in 1991/92 to 14% in 2014/15, whereas the latter figure without the APP would have been 29%. Poverty in 2011 is estimated at 25%, which is still far from the APP target. The increase in agricultural productivity was also expected to help protect the environment by removing the most fragile land resources from agriculture and putting them under suitable forest cover and other sustainable uses.
+The Agricultural Perspective Plan (APP), finalized with the technical assistance of ADB in 1995 was designed to increase agricultural growth whereby per capita AGDP will grow from its 1995 level of 0.5% to 4% per year. This growth was expected to stimulate nonagricultural growth in employment-intensive goods and services in both urban and rural areas. This would open up job opportunities for the poor, particularly poor women, and thereby help reduce the number of rural poor. With implementation of the APP the incidence of poverty was expected to come down from 42% in 1991/92 to 14% in 2014/15, whereas the latter figure without the APP would have been 29%. Poverty in 2011 is estimated at 25%, which is still far from the APP target. The increase in agricultural productivity was also expected to help protect the environment by removing the most fragile land resources from agriculture and putting them under suitable forest cover and other sustainable uses.
 
 The overall objectives of APP were as follows:
 
@@ -423,27 +486,18 @@ APP design gave priority to certain key inputs (i.e., irrigation, fertilizer, te
 
 The agricultural sector in Nepal has made progress in several indicators of well-being and development. For example, income per capita and productivity of agricultural labor has increased, poverty has reduced, and malnutrition has declined. The road network has considerably expanded and irrigation cover has increased as well. In almost all agriculture subsectors (crop, livestock, fishery, and agroforestry) there has been progress in terms of production or/and productivity. However, the sector is in a low development stage as highlighted by a number of indicators including labor productivity, productivity gaps, trade and competitiveness, poverty and malnutrition, and infrastructure. There are however positive signals that show not only the potential for growth but also opportunities that the ADS should build upon.
 
-```{r}
-tribble(
-  ~"Indicator", ~"1995/96", ~"2010/11", 
-  "Agricultural GDP", "\\$3.4 billion", "\\$5.2 billion", 
-  "Productivity of agricultural labor (\\$ per person)", "\\$466", "\\$700", 
-  "Agricultural land per household (ha/hh)", "1.1", "0.7", 
-  "Percentage of hodings operating less than 0.5 ha", "40.1", "51.6", 
-  "Agricultural land use (Cereal as percentage of cultivated land)", "80", "80", 
-  "Seed turnover", "8", "8", 
-  "Employment in agriculure", "66", "60", 
-  "Agricultural exports", "\\$32 million", "\\$248 million", 
-  "Agricultural imports", "\\$157 million", "\\$621 million", 
-  "Poverty (2010/11)", "42", "25", 
-  "Percentage of households reporting inadequacy of food consumption", "50.9", "15.7", 
-  "Stunting of children (less than 5 years age)", "60", "42", 
-  "Irrigation coverage (\\% of cultivated area)", "39.6", "54", 
-  "Infrastructure (Rural road network (km) and strategic road network (km))", "SRN = 10000 km", "RRN = 40000 km, SRN = 20000 km", 
-  "ICT reach", "Less than 10\\% connected", "46\\% connected"
-) %>% 
+```{r app-performance-indicators}
+options(scipen = 20)
+readxl::read_xlsx("./data/app_targets_performance_indicators.xlsx", sheet = "app_base_2010") %>% 
   knitr::kable(booktabs = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = "12em")
+
+readxl::read_xlsx("./data/app_targets_performance_indicators.xlsx", sheet = "app_base_2014") %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% 
+               str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1, width = "12em")
 ```
 
@@ -456,7 +510,7 @@ Agriculture absorbs the majority of the labor force (61% self-employed in agricu
 
 Agricultural land per capital also decreased as the combined effect of several factors including inheritances, loss of agricultural land to urbanization, and degradation of land. Smaller size and more fragmented farms make it more difficult to realize economics of scale and also to provide sufficient livelihood for smallholder farm families. Even though GDP per hectare of cultivated land is about \$1800, the average farm size is only about 0.7 ha per household on average and more than 50% of households have farm size less than 0.5 ha. Although, it should be noted that, aggregate land productivity does not compare too badly with several neighbors of Nepal. During 2011 Nepal had 0.082 ha arable land per capita which yielded 2481 kg of cereal per hectare and fetched ADGP equivalent of \$2651 per hectare (India had \$2139 per hectare).
 
-```{r}
+```{r app-holding-classification}
 tribble(
   ~"Selected variables", ~"1995/96", ~"2003/04", ~"2010/11", 
   "Average size of agricultural land (in hectares)", 1.1, 0.8, 0.7, 
@@ -851,7 +905,7 @@ tribble(
 ) %>% 
   rename_at(2:3, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
   knitr::kable(booktabs = TRUE, caption = "Women farmer participation in decision making") %>% 
-  kableExtra::kable_styling(latex_options = "hold_position")
+  kableExtra::kable_styling(latex_options = c("hold_position", "striped"))
 ```
 
 

@@ -40,21 +40,116 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
 
 ```{r crop-cultivation-cereal-commercial-remarks}
 read_csv("./data/crop_production_technology_cereal_commercial.csv") %>% 
-  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Cereal and commercial)", 
-               col.names = replace(colnames(.), 2, "")) %>% 
-  kableExtra::kable_styling(font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:13, width = c("8em", "5em", "8em", rep("6em", 10))) %>% 
-  kableExtra::landscape(margin = "0.75cm")
+  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Cereal and commercial)", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 5, position = "center", latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:12, width = c("12em", "12em", rep("10em", 10))) %>% 
+  kableExtra::landscape(margin = "1cm")
 ```
 
 ```{r crop-cultivation-legume-oilseed-remarks}
-read_csv("./data/crop_production_technology_legume_oilseed_other.csv") %>% 
-  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Legume and oilseeds)", 
-               col.names = replace(colnames(.), 2, "")) %>% 
-  kableExtra::kable_styling(font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:15, width = c("8em", "5em", "8em", rep("6em", 12))) %>% 
-  kableExtra::landscape(margin = "0.75cm")
+oil_joined <- tibble(`Production remark` = c("Time of sowing", "Seed rate (kg/ha)", 
+                                             "Spacing (cm)", "NPK (kg/ha)", "Seed yield (tons/ha)"), 
+                     `Mustard/rapeseed/sarsoon` = c("Mid September - Mid October", 
+                                                    "5-8", "30 x 7.5 - 10", "60:40:20", "1.5-2.0"), 
+                     Groundnut = c("Mid June - 1st Week of July", 
+                                   "Spreading type: 60-80; Bunchy type: 80-100", "45-60 x 10-15; 30 x 10 - 15", 
+                                   "20-40:50-60:20-40", "1.5-2.0"), 
+                     Sesamum = c("First week of June - First week of July", 
+                                 "2.5-5.5", "30-45 x 15-22", "30:60:30", "0.2-0.6"), 
+                     Sunflower = c("Rainy, 1-15 July; Spring, 1-15 March", 
+                                   "8-10", "60 x 20", "60-80:40-60:20-40", "1.5"), 
+                     Niger = c("Mid July (June-August)", 
+                               "6-8", "30 x 15", "20:20:10", "0.3-0.4"), 
+                     Linseed = c("First week of October - Mid November", 
+                                 "30-35", "22-30 x 5-6", "50:40:30", "1.0-1.9"))
+
+leg_oilseed <- read_csv("./data/crop_production_technology_legume_oilseed_other.csv")
+
+leg_oilseed %>%
+  left_join(oil_joined) %>%
+  rows_upsert(oil_joined %>% # update the values in x from y and and also insert missing rows from y.
+                left_join(leg_oilseed)) %>%
+  select(`Production remark`, Lentil, Blackgram, Moongbean, Pigeonpea, Cowpea, Chickpea, Pea, Soybean) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Legume)", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 6, latex_options = "striped", position = "center") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("14em", rep("11em", 8))) %>% 
+  kableExtra::landscape(margin = "1cm")
+
+leg_oilseed %>%
+  left_join(oil_joined) %>%
+  rows_upsert(oil_joined %>% # update the values in x from y and and also insert missing rows from y.
+                left_join(leg_oilseed)) %>%
+  select(`Production remark`, `Mustard/rapeseed/sarsoon`, Cotton, Sunflower, Groundnut, Linseed, Sesamum, Niger) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Oilseeds)", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 6, latex_options = "striped", position = "center") %>% 
+  kableExtra::column_spec(column = 1:8, width = c("14em", rep("12em", 7))) %>% 
+  kableExtra::landscape(margin = "1cm")
+  
+read_csv("./data/crop_production_technology_legume2.csv") %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 6, latex_options = "striped", position = "center") %>% 
+  kableExtra::column_spec(column = 1:9, width = c("10em", rep("12em", 8))) %>% 
+  kableExtra::landscape(margin = "1cm")
 ```
+
+### Optimum pH range for some crops
+
+```{r crop-cultivation-ph}
+readr::read_csv("./data/crop_production_ph_optimum.csv") %>% 
+  mutate(half_sep = ifelse(row_number() < ceiling(nrow(.)/2), 1, 2)) %>% 
+  group_by(half_sep) %>% 
+  mutate(row_id = 1:n()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = half_sep, names_glue = "{.value}_{half_sep}", values_from = c(pH, crop), values_fill = list(value = 0)) %>% 
+  select(-row_id) %>% 
+  relocate(pH_1, .after = crop_1) %>% 
+  relocate(pH_2, .after = crop_2) %>% 
+  knitr::kable(booktabs = TRUE, col.names = rep(c("Crop", "pH"), times = 2), longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8)
+```
+
+
+### Notable varieties of some crops
+
+```{r crop-notable-varieties}
+readr::read_csv("./data/crop_notable_varieties.csv") %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  select(-1) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("8em", "10em", "24em"))
+```
+
+
+### Potential crop varieties for import substitution and export promotion (Seed vision, 2013-25)
+
+```{r}
+tribble(~"Crop", ~"Varieties", ~"Trade potential", 
+        "Rice", "Khumal-4, Shambha mahasuri sub-1, Jethobudho, Sunaulosugandha", "Import substitution", 
+        "Lentil", "Shishir, simrik", "Export promotion", 
+        "Tomatoes", "Srijana hybrid, Lapsigede", "Import substitution", 
+        "Radishes", "Minnow early, 40 days, Tokineshe, Pyuthane, Rocky-45 (Bangladeshi)", "Import substitution and export promotion", 
+        "Broccoli", "Green sprouting and calabrese", "Import substitution", 
+        "Peas", "Arkel, Sikkim, Azad", "Import substitution and export promotion", 
+        "Cowpea", "Prakash, akash, khumal tane, some selected lines of Chinese origin", "Import substitution", 
+        "Onion", "Red creole, Agrifound dark red", "Import substiution and export promotion", 
+        "Garlic", "Chinese and local", "Import substitution", 
+        "Carrot", "Nantes and newkuroda", "Import substitution and export promotion", 
+        "Egg plant", "Nurki, Sarlahi green, Pokhara lurke", "Import substitution", 
+        "Cucumber", "Bhaktapur local and kushle", "Import substitution and export promotion", 
+        "Squash", "Gray zuchhini", "Import substitution", 
+        "Bean", "Trishuli, four season, contender, some lines of Chinese origin", "Export promotion", 
+        "Mung bean", "Pusabaisakhi, Kalyan, Pratiksha", "Import substitution", 
+        "Pigeon pea", "Bageshwori and Rampur arhar-1", "Import substitution", 
+        "Potato", "Khumal laxmi, Kufri jyoti, Khumal rato", "Import substitution"
+        ) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(position = "center") %>% 
+  kableExtra::column_spec(column = 1:3, c("6em", "18em", "12em"))
+
+```
+
 
 ## Seed technology
 
@@ -99,7 +194,7 @@ tibble::tribble(~"Crop", ~"Number of seeds",
         "Watermelon", 75,
         "Luffa gourd", 40
         ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Number of seeds per 10 gram of vegetable crops") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Number of seeds per 10 gram of vegetable crops", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped")
 ```
 
@@ -110,6 +205,27 @@ tibble::tribble(~"Crop", ~"Number of seeds",
 - 90\% of the seeds are supplied through informal sector (SQCC, 2011).
 - Seed replacement rate of cereals: 9.75\% (SQCC, 2011)
 - SRR for vegetable crops was as high as 66% in 2009 (NSV)
+- Seed vision, 2013-2025 published by SQCC, Nepal has envisioned improvement in SRR during the implementation period, with
+  - Cereals: 25% SRR
+  - Vegetables: 90% SRR
+
+```{r seed-replacement-rate-crops}
+tribble(~"Crop", ~"SRR (percent, 2009)", ~"SRR (percent, 2010)", 
+        "Paddy", 9.14, 11.38,
+        "Maize", 6.54, 9.03,
+        "Wheat", 9.4, 11.0,
+        "Millet", 1.97, 2.35,
+        "Lentil", 3.08, 3.26,
+        "Oilseeds", 2.62, 2.86,
+        "Vegetables", 66.3, 68.3,
+        "Potato", 5, 5.5,
+        "Average (cereals)", 8.78, 10.68) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Seed replacement rate of different crops (SQCC, 2010).") %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::add_footnote(label = c("Source: SQCC, 2011 as cited in Seed vision, 2013-2025."))
+```
+
+
 - Establishment of agriculture input corporation: 1974
 - In 1960, High yielding variety of wheat Lerma-52 was released.
 - In 1962, Seed testing laboratory was established under Agronomy Division, Khumaltar.
@@ -162,6 +278,8 @@ Following activities are carried out in various stages of a crop are crucial for
   3. Source of seed verification
   4. Timing of inspector assignment
 
+\blandscape
+
 ### Certification standards
 
 ```{r certification-standards-field}
@@ -169,11 +287,8 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "field_
   rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
   knitr::kable(caption = "Field standards of standing crop for certification", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:9, width = c("8em", rep("6em", times = 8))) %>% 
-  kableExtra::landscape()
+  kableExtra::column_spec(column = 1:9, width = c("8em", rep("6em", times = 8)))
 ```
-
-\blandscape
 
 ```{r certification-standards-seed}
 readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_standards") %>%
@@ -204,7 +319,6 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_s
 - fragile ecosystem, remoteness, extensive soil mining
 
 2. Weeds
-
 3. Market and trade
 - Indian seed market
 - Price instability
@@ -226,7 +340,7 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_s
 
 #### Insects and diseases of major crops
 
-```{r}
+```{r insect-pests-major}
 tibble::tribble(
   ~"Crop", ~"Major insects", ~"Major disease",
   "Rice", "Rice bug, rice hispa, yellow stem borer, stripped stem borer, rice gall midge, mole cricket, plant hopper", "Bacterial blight (Xanthomonas oryzae), Blast (Pyricularia oryzae), False smut (Ustilaginoides virens), Brown leaf spot (Helminthosporium oryzae)", 
@@ -256,6 +370,26 @@ tibble::tribble(
 - Seed exporting opportunities
 - Increaseing productivity of cereal and legume crops
 
+### Expect results of Seed vision 2013-25
+
+1. 10 lakh farm families will have access to quality seeds upon demand prior to planting season. The country will be self-sufficient in food crop seeds.
+2. 88 mt breeder, 2,978mt foundation and 92,527 mt improved seeds will be produced through formal system by 2025. 
+3. 750mt Nepal produced high quality seeds will have improved access to export by 2025.
+4. Seed replacement rates will be increased up to 25 percent for cereals and over 90 percent for vegetables.
+5. Good quality seeds will be available in market through quality assurance with genuine label.
+6. Four hundred twenty-three open pollinated varieties and 60 hybrids will be released by 2025.
+7. 40,000 seed samples will be tested and analyzed annually by seed laboratories. 
+8. Seed production and marketing will be done through structured and efficient seed system.
+9. Yield of rice and vegetable crops will be increased up to 3.8 mt/ha and 19 mt/ha respectively. 
+10. Enhanced participation of private sector will increase availability of quality seeds in the market.Private sector will establish or strengthen four big seed companies.
+11. 293 highly skilled seed specialists will be developed in private and public sectors.
+12. Farmers' rights will be protected and breeders will get incentive for developing better varieties.
+13. Seed import and export regulations will be harmonized in line with WTO and SAARC.
+14. All the stakeholders will be accountable to farmers and be responsible participants of Nepalese seed system.
+15. 255 thousand people will get additional full time employment upon the implementation of Seed Vision 2013 -2025.
+16. Seed Vision will contribute to food security. Edible food availability by 2025 will reach 8 million mt,worth around 200billion rupees at current price. 17. Agro-based industries will have adequate raw materials from increased production.
+18. Nepal's seed sector will be able to share its experience and knowledge to other countries.
+
 ## Seed production
 
 - Sampling of the variety to btian nucleus seed
@@ -265,49 +399,9 @@ tibble::tribble(
 - Roughing should be done before flowering.
 - Purity: 99.9% for breeder's seed.
 
-### Seed production of Oilseed crops
+### Oilseed crops
 
-
-```{r oilseed-sowing}
-tibble::tribble(
-  ~"Crops", ~"Time of sowing", 
-  "Rapeseed and mustard", "Mid September - Mid October", 
-  "Groundnut", "Mid June - 1st Week of July", 
-  "Sesamum", "First week of June - First week of July", 
-  "Sunflower", "Rainy, 1-15 July; Spring, 1-15 March", 
-  "Niger", "Mid July (June-August)", 
-  "Linseed", "First week of October - Mid November"
-  ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Time of sowing (season) of various oilseed crops") %>% 
-  kableExtra::kable_styling(position = "center")
-```
-
-```{r oilseed-rate-spacing}
-tibble::tribble(
-  ~"Crop", ~"Seed rate (kg/ha)", ~"Spacing (cm)", 
-  "Rapeseed and mustard", "5-8", "30 x 7.5 - 10", 
-  "Groundnut", "Spreading type: 60-80; Bunchy type: 80-100", "45-60 x 10-15; 30 x 10 - 15", 
-  "Sesamum", "2.5-5.5", "30-45 x 15-22", 
-  "Sunflower", "8-10", "60 x 20", 
-  "Niger", "6-8", "30 x 15", 
-  "Linseed", "30-35", "22-30 x 5-6"
-) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Seed rate and optimal spacing for cultivation of oilseed crops") %>% 
-  kableExtra::kable_styling(latex_options = "striped", position = "center")
-```
-
-```{r oilseed-fertilization-yield}
-tibble::tribble(
-  ~"Crop", ~"NPK (kg/ha)", ~"Seed yield (qtl/ha)", 
-  "Rapeseed and mustard", "60:40:20", "15-20", 
-  "Groundnut", "20-40:50-60:20-40", "15-20", 
-  "Sesamum", "30:60:30", "2-6", 
-  "Sunflower", "60-80:40-60:20-40", "15", 
-  "Niger", "20:20:10", "3-4", 
-  "Linseed", "50:40:30", "10-19"
-) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Fertilizer recommendation and seed yield of oilseed crops")
-```
+For seed and crop production practice of oilseed crops, refer to Table \ref{tab:crop-cultivation-legume-oilseed-remarks}.
 
 ### Sugarcane
 
@@ -352,6 +446,52 @@ tibble::tribble(
 - Inspection: Before anthesis and at full flowering
 - Seed yield: 300-600 kg/ha
 
+### Radish/carrot
+
+1. Seed to seed method
+
+- This method is also called in-site seed production technique because seed is produced in crop production plot itself. Although good production can be obtained from this method, high quality seed cannot be ensured. This method allows for quick harvest in expense of purity of the seed produced.
+
+2. Root to seed method
+
+- Well developed, uniform tap root are harvested and transferred to seed production plots.
+- A small portion of above ground part and some of the below ground portion is trimmed off while maintaining only 8 cm long root stubs.
+- The stubs are then strored for 8-10 days in a cold storage facility maintaining $0^\circ$ C and 90-95% relative humidity.
+- The root stubs are called stalks and the process of preparing those is called stalking.
+- Stalks are planted in seed production plots at a spacing of 15 x 15 cm R-R x P-P distance.
+
+### Onion
+
+1. Seed to seed method (similar to radish/carrot)
+2. Bulb to seed method
+
+- Bulbs are dug/pulled out when 75\% of the top portion of onion topples.
+- Those harvested bulbs are cured for 10-15 days in natural condition
+- 2-3 cm upper portion of the bulb is removed.
+- Desirable bulb size: 50-80 kg
+- The bulb is then planted at 10-15 x 10-15 cm distance in seed production plot.
+- With this method, high quality seed material with desirable purity can be maintained.
+
+### Cabbage
+
+1. Seed to seed method (similar to radish/carrot)
+2. Head to seed method
+
+- Once healthy fully mature upper portion of it is given a cross shaped out (i.e., cut to center from all directions).
+- Heads are stored in shade for 5-7 days
+- Thenafter, heads are planted at 15-20 x 15-20 cm distance on seed production plot
+- Seed production of quantity 100-200 seed/ha could realized.
+
+### Cauliflower
+
+1. Seed to seed method (similar to radish/carrot)
+2. Curd to seed method
+
+Central part of the curd is cut and removed giving it a both 3-4 cm deep and wide cut -- a practice called scooping. Scooping helps in the earlier emergence of the flower stalk. On 5-7 days of scooping the curds are transferred to seed production plot and planted at a spacing of 15-20 x 15-20 cm.
+- Seed production of quantity 200-600 kg/ha could be realized in this way.
+
+
+
 
 ## Grain legumes
 
@@ -369,6 +509,30 @@ tibble::tribble(
 - Energy expended per gram of seed (i.e. gram photosynthate):
   - 0.74-0.96 in cereals
   - 2.03-2.09 in pulses/oilseeds
+
+## Biological nitrogen fixation
+
+```{r biological-nitrogen-fixation}
+tribble(~"crop", ~"nitrogen_kg_ha", 
+        "Pea", "52-77", 
+        "Cowpea", "73-345", 
+        "Soybean", "60-168", 
+        "Bean", "40-70", 
+        "Chickpea", "103", 
+        "Lentil", "88-114", 
+        "Pigeonpea", "168-280", 
+        "Forage soybean", "168", 
+        "Stylo", "200", 
+        "Lucerne", "290", 
+        "White clover", "128", 
+        "Vetch", "110", 
+        "Centro", "125-400", 
+        "Horsegram", "45-52") %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Amount of nitrogen (in kilogram) fixed by different leguminous crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
 
 # Breeding
 
@@ -406,7 +570,9 @@ tribble(
   "Rubber, Hevea brasiliensis",	"200",	"Brazil, Bolivia, Paraguay",
   "Alfalfa, Medicago sativa",	"4000",	"Iran, Northern Pakistan",
 ) %>% 
-  knitr::kable(booktabs = TRUE)
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:3, width = c("8em", "12em", "12em"))
 
 ```
 

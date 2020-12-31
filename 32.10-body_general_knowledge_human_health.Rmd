@@ -21,13 +21,13 @@ Diseases can also be classified in other ways, such as communicable versus non-c
 
 ```{r human-diseases}
 readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "bacteria-virus", skip = 1) %>% 
-  knitr::kable(caption = "Bacterial and viral diseases of humans", booktabs = TRUE) %>% 
+  knitr::kable(caption = "Bacterial and viral diseases of humans", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::collapse_rows(columns = 1) %>% 
   kableExtra::column_spec(column = 1:6, width = c("5em", "6em", "6em", "8em", "8em", "6em"))
 
 readxl::read_xlsx("./data/health_human_diseases_infectious.xlsx", sheet = "fungi-nematode") %>% 
-  knitr::kable(caption = "Fungal and nematode diseases of humans", booktabs = TRUE) %>% 
+  knitr::kable(caption = "Fungal and nematode diseases of humans", booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::collapse_rows(columns = 1) %>% 
   kableExtra::column_spec(column = 1:6, width = c("5em", "6em", "6em", "8em", "8em", "6em"))
@@ -91,7 +91,7 @@ tribble(~"Measurement", ~"Normal", ~"Pre-hypertensive", ~"Hypertensive",
 
 - Raise total cholesterol: Increases the risk of heart disease and stroke. A 10% reduction in serum cholesterol in men aged 40 has been reported to result in a 50% reduction in heart disease within 5 years.
 - Elevated glucose
-- Overweight and obesity: Abnormal or excessive fat accumulation that presents a risk to health. A Body Mass Index (BMI) of 30 or more indicated obesity in $BMI = \frac{Weight in kg}{Heigt in meters^2}$
+- Overweight and obesity: Abnormal or excessive fat accumulation that presents a risk to health. A Body Mass Index (BMI) of 30 or more indicated obesity in $BMI = \frac{\text{Weight in kg}}{\text{Height in meters}^2}$
 
 
 Disease spread through blood transfusion

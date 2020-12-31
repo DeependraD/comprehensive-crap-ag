@@ -1,24 +1,23 @@
-Production remark,Production sub-remark,Mustard/rapeseed/sarsoon,Cotton,Sunflower,Lentil,Blackgram,Moongbean,Pigeonpea,Cowpea,Chickpea,Pea,Soybean,Groundnut,Linseed
-Varieties notified (year),,,,,,,,,,,,,,
-First released variety,,,,,,,,,,,,,,
-NPK (per hectare),,`60:40:20,`60:40:20,`60:40:20,`20:20:20,`20:20:20,`20:20:20,`20:40:30,`20:40:30,`20:40:20,`15:40:10,`10:40:30,`40:60:20,`40:30:20
-pH,,,,,,,,,,,,,,
-Temperature,,,,,,,,,,,,,,
-,Minimum,,,,,,,,,,,,,
-,Maximum,,,,,,,,,,,,,
-,Optimum,,,,,,,,,,,,,
-FYM,,6,6,10,4-6,4-6,4-6,4-6,4-6,4-6,4-6,4-6,6,4-6
-Water requirement,,,,,,,,,,,,,,
-Seed rate,,8-10,25-30,12-15,40-50,15-20,30,25-30,40-50,60,80,50-70,60-80,5-7
-Optimum planting density (spacing),,30 x 10,90 x ?,60 x 30,22 x ?,50 x 5,30 x 5,40-50 x 10-15,40-50 x 10-15,40-60 x 5-10,75 x 75,40-60 x 5,50 x 20,22 x 10
-,,,,,,,,,,,,,,
-Critical stages of irrigation,,,,,,,,,,,,,,
-Growth duration,,,,,,,,,,,,,,
-Early maturity varieties,,,,,,,,,,,,,,
-Medium maturing varieties,,,,,,,,,,,,,,
-Late maturing varieties,,,,,,,,,,,,,,
-Productivity (year),,,,,,,,,,,,,,
-Production (year),,,,,,,,,,,,,,
-Area cultivated (year),,,,,,,,,,,,,,
-Latest released variety (year),,,,,,,,,,,,,,
-Noteworthy features,,,,,,,,,,,,,,
+Production remark,Mustard/rapeseed/sarsoon,Cotton,Sunflower,Lentil,Blackgram,Moongbean,Pigeonpea,Cowpea,Chickpea,Pea,Soybean,Groundnut,Linseed
+Varieties notified (year),,,,,,,,,,,,,
+First released variety,,,,,,,,,,,,,
+NPK (kg/ha),`60:40:20,`60:40:20,`60:40:20,`20:20:20,`20:20:20,`20:20:20,`20:40:30,`20:40:30,`20:40:20,`15:40:10,`10:40:30,`40:60:20,`40:30:20
+pH,,,,,,,,,,,,,
+"Temperature (min, optimum, max)",,,,,,,,,,,,,
+FYM,6,6,10,4-6,4-6,4-6,4-6,4-6,4-6,4-6,4-6,6,4-6
+Water requirement,,,,,,,,,,,,,
+Time of sowing,,,,,,,,,,,,,
+Seed rate (kg/ha),8-10,25-30,12-15,40-50,15-20,30,25-30,40-50,60,80,50-70,60-80,5-7
+Spacing (cm),30 x 10,90 x ?,60 x 30,22 x ?,50 x 5,30 x 5,40-50 x 10-15,40-50 x 10-15,40-60 x 5-10,75 x 75,40-60 x 5,50 x 20,22 x 10
+Intercultural operations,,,,,,,,,,,,,
+Critical stages of irrigation,,,,,,,,,,,,,
+Growth duration,,,,,,,,,,,,,
+Early maturity varieties,,,,,,,,,,,,,
+Medium maturing varieties,,,,,,,,,,,,,
+Late maturing varieties,,,,,,,,,,,,,
+Productivity (year),,,,,,,,,,,,,
+Production (year),,,,,,,,,,,,,
+Area cultivated (year),,,,,,,,,,,,,
+Latest released variety (year),,,,,,,,,,,,,
+Noteworthy features,,,,,,,,,,,,,
+Seed yield (tons/ha),,,,,,,,,,,,,

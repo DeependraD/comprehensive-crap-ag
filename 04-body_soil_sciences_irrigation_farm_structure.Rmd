@@ -11,6 +11,63 @@
 
 **Soil textural classes**
 
+## Fertiliers and/or extracts and their chemical composition
+
+**Nutrient content of Green manuring crops**
+
+```{r nutrient-green-manure}
+tribble(~"Crop", ~"Nitrogen (percent)", ~"Phosphorus (percent)", ~"Postassium (percent)", 
+        "Dhaincha", 3.5, 0.6, 1.2, 
+        "Sirish", 2.9, 0.7, 2.6, 
+        "Asuro", 4.3, 0.9, 4.5, 
+        "Titepati", 2.4, 0.4, 4.1, 
+        "Sanai", 3.2, 0.8, 1.8, 
+        "Taramandal", 5.0, 0.9, 4.2, 
+        "Khirro", 2.8, 0.7, 2.9, 
+        "Banmara", 2.4, 0.7, 4.0) %>% 
+  knitr::kable(booktabs = TRUE)
+```
+
+
+**Nutrient composition of vermicompost**
+
+```{r nutrient-vermicompost}
+tribble(~"Chemical", ~"Content", ~"Unit",
+        "Nitrogen", 5.3, "percent",
+        "Phosphorus", 3.8, "percent",
+        "Potassium", 4.3, "percent",
+        "Manganese", 645, "ppm",
+        "Zinc", 580, "ppm",
+        "Copper", 106, "ppm",
+        "Sulfur", 0.4, "percent", 
+        "Calcium", 1.5, "percent", 
+        "Magnesium", 0.4, "percent", 
+        "Iron", 0.7, "percent", 
+        "Born", 23, "ppm", 
+        "Molybdenum", 47, "ppm") %>% 
+  mutate(Content = paste0(Content, " ", Unit)) %>% 
+  select(-Unit) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center")
+```
+
+**Nitrogen fixation capacity of different leguminous crops**
+
+```{r n-fixation-legume}
+tribble(~"Crop", ~"N-fixation (kg/ha)", 
+        "Horsegram", "45-52", 
+        "Pea", "52-77", 
+        "Soybean", "60-168", 
+        "Chickpea", "103", 
+        "Cowpea", "73-354", 
+        "Bean", "40-70", 
+        "Lentil", "88-114", 
+        "Pigeonpea", "168-280"
+        ) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center")
+```
+
 
 ## Crop water requirement
 
@@ -18,9 +75,8 @@
 read_csv("./data/crop_water_requirements.csv", skip = 2) %>% 
   dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Crop water requirement and growth duration of major crops of Nepal", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:5, width = c("6em", "6em", "8em", "8em", "20em")) %>% 
-  kableExtra::landscape()
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("6em", "6em", "8em", "8em", "20em"))
 ```
 
 

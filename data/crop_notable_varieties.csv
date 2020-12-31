@@ -1,0 +1,20 @@
+sn,crop,characteristic,varieties
+1,Rice,Drought tolerance,"Sukkha dhan-1, Sukkha dhan-2, Sukkha dhan-3, Sukkha dhan-4, Sukkha dhan-5, Sukkha dhan-6, Tarahara, Hardinath-2"
+2,Rice,Submergence tolerance,"Swarna sub-1, Samba masuli sub-1, Ciherang sub-1"
+3,Rice,Drought and submergence tolerance,"Bahuguni-1, Bahuguni-2, Sukkha dhan-6"
+4,Rice,Cold tolerance,"Lekali dhan-1, Lekali dhan-3, Chandannath-3"
+5,Rice,Aromatic,"Sunaulo sugandha, Sugandhit dhan-1, Lalkha basmati"
+6,Rice,Hybrid,"Hardinath hybrid dhan-1, Hardinath hybrid dhan-3"
+7,Maize,Drought tolerance,Deuti
+8,Maize,High protein content,"Poshilo makai-1, Poshil makai-2"
+9,Maize,Hybrid,"Khumal hybrid-2, Rampur hybrid-1"
+10,Maize,Quick maturing,"Arun-2, Arun-3, Arun-4 (90 days), Arun 6 (80 days)"
+11,Maize,Dhwase theglo rog tolerance,"Manakamana-3, Ganesh-1, Sheetal, Deuti, Khumal hybrid-2"
+12,Wheat,UG-99 tolerant,"Bijay, Danfe, Tilottama, Swargadwari, Banganga"
+13,Wheat,Heat tolerance (late),"Gautam, Bijay"
+14,Wheat,Leaf blight,"Bijay, Danfe, Tilottama, Gautam"
+15,Wheat,"Rust (Black, brown, yellow) tolerant","Munal, Chyakhura"
+16,Wheat,Durum,"Khajura durum-1, Khajura durum-2"
+17,Rapeseed/mustard,High yielding and drought tolerance,Lumle tori-1
+18,Potato,Useful for making chips,"Khumal bikash, Khumal ujjwal, Khumal seto-1"
+19,Potato,Blight resistant,"Janakdev, Khumal bikash, Khumal ujjwal, Khumal rato-2, Khumal seto-1, Khumal upahar"

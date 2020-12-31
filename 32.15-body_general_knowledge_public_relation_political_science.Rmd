@@ -463,7 +463,7 @@ Civil society include among others, following institutions:
 
 \begin{solution}
 
-About PEFA: Historical Overview
+\textbf{Historical Overview}
 
 PEFA began in 2001 as a means to harmonize country level assessment of public financial management (PFM) across the organizations that established the program. Those organizations were the European Commission, International Monetary Fund, World Bank, and the governments of France, Norway, Switzerland, and the United Kingdom. They remain the custodians of the program and have supported PEFA through four phases of implementation.
 
@@ -475,14 +475,16 @@ PEFA introduced a standard methodology and reference tool for PFM diagnostic ass
 
 Since the early assessments in 2005 PEFA has been used more than 500 times in 150 countries. It has become the acknowledged standard for PFM assessments and has amassed a pool of data comprising over 40,000 individual performance scores.
 
-PEFA Program Phases
+\textbf{PEFA Program Phases}
 
 To date there have been four phases of the PEFA program. The current phase began in July 2012.
 
-Phase I (2002-2005): Development
-Phase II (2006-2008): Dissemination
-Phase 1II (2009-2012): Integration
-Phase IV (2012-2017): Global Public Good
+\begin{itemize}
+\item Phase I (2002-2005): Development
+\item Phase II (2006-2008): Dissemination
+\item Phase 1II (2009-2012): Integration
+\item Phase IV (2012-2017): Global Public Good
+\end{itemize}
 
 \end{solution}
 

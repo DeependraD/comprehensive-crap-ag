@@ -64,10 +64,10 @@ Legislatively, the UNCCD is committed to achieving Land Degradation Neutrality (
 
 The issues addressed included:
 
-	- systematic scrutiny of patterns of production -- particularly the production of toxic components, such as lead in gasoline, or poisonous waste including radioactive chemicals
-	- alternative sources of energy to replace the use of fossil fuels which delegates linked to global climate change
-	- new reliance on public transportation systems in order to reduce vehicle emissions, congestion in cities and the health problems caused by polluted air and smoke
-	- the growing usage and limited supply of water
+- systematic scrutiny of patterns of production -- particularly the production of toxic components, such as lead in gasoline, or poisonous waste including radioactive chemicals
+- alternative sources of energy to replace the use of fossil fuels which delegates linked to global climate change
+- new reliance on public transportation systems in order to reduce vehicle emissions, congestion in cities and the health problems caused by polluted air and smoke
+- the growing usage and limited supply of water
 - UNFCCC led to Kyoto Protocol and the Paris Agreement.
 
 ## Nagoya Protocol
@@ -153,7 +153,7 @@ Ban Ki Moon, Secretary General of the United Nations, called on world leaders to
 
 The WTO agreements cover a wide range of activities such as agriculture, textiles and clothing, banking, telecommunications, government purchases, industrial standards and product safety, food and sanitation regulations and intellectual property. GATT is now the WTO's principal rule-book for trade in goods. The Uruguay Round also created new rules for dealing with trade in services, relevant aspects of intellectual property, dispute settlement, and trade policy reviews. The complete set runs to some 30,000 pages consisting of about 30 agreements and separate commitments (called schedules) made by individual members in specific areas such as lower customs duty rates and services market-opening (WTO, 2008).
 
-Agreement related to Agriculture Sector in WTO
+### Agreement related to Agriculture Sector in WTO
 
 Agreement on Agriculture (AOA)
 
@@ -175,46 +175,51 @@ Market access is one of the three main pillars of the AOA – the other two bein
 
 In the WTO context, market access is about both obligations and rights. Nepal's obligation is to provide market access to other Members in return for her right of access to others' markets for Nepalese goods on multilaterally agreed terms. Thus, a balanced analysis of market access provisions would cover both obligations and rights.
 
-The AoA provisions on market access
-  - Prohibition of quantitative restrictions on imports
-  - Tariff binding and reduction
-  - Bound versus applied tariffs
-  - Tariff Rate Quota
-  - Special Safeguard Measures
-  - Export subsidies and export restrictions
+The AoA provisions on market access:
+
+- Prohibition of quantitative restrictions on imports
+- Tariff binding and reduction
+- Bound versus applied tariffs
+- Tariff Rate Quota
+- Special Safeguard Measures
+- Export subsidies and export restrictions
 
 In common with all least developed countries (LDCs) and a majority of the developing countries, Nepal does not subsidize exports. At the time of the WTO accession, it committed not to subsidize exports in future also. One of the conclusions of the study is that this commitment is unlikely to have any negative implications for the Nepalese agriculture for two reasons. First, export subsidization is not a sound economic policy. Second, Nepal could not afford export subsidies at its low level of economic development. On the other hand, there were several instances in the past when export subsidization by other countries had some negative effects on the Nepalese agriculture. Therefore, it is in Nepal's interest to tighten WTO rules on export subsidy (Tiwari et al, 2004).
 
 Implication on Nepalese Agriculture:
-  - Nepal can promote exports through various incentive measures of the WTO Subsidies Agreement.
-  - Limited implications of the WTO rules on export restriction and taxation policies.
-  - Nepal is occasionally affected negatively by export subsidization by others
-  - Domestic policy issues and analytical needs
+
+- Nepal can promote exports through various incentive measures of the WTO Subsidies Agreement.
+- Limited implications of the WTO rules on export restriction and taxation policies.
+- Nepal is occasionally affected negatively by export subsidization by others
+- Domestic policy issues and analytical needs
 
 Sanitory and Phyto Sanitory (SPS)
 
 Food quality and safety issues have entered into a new era of evolution as it involves integrated effort linking production to consumption in the entire food chain. The traditional domain of inspecting and analysing the end product does not necessarily meet the requirement of emerging trade regime of WTO and related agreements such as the SPS.
 
 The main objectives of the SPS Agreement are the following (Karki et al, 2004).
-  - Protect and improve the current human health, animal health, and phytosanitary situation of all Member countries; and
-  - The entry, establishment or spread of pests, disease, disease-carrying organisms or disease-causing organisms;
-  - Additives, contaminants, toxins or disease-causing organisms in foods, beverages or feedstuffs;
-  - Carried by animals, plants or products thereof, or from the entry, establishment or spread of pests; or
-  - Prevent or limit other damage within the territory of the Member from the entry, establishment or spread of pests.
+
+- Protect and improve the current human health, animal health, and phytosanitary situation of all Member countries; and
+- The entry, establishment or spread of pests, disease, disease-carrying organisms or disease-causing organisms;
+- Additives, contaminants, toxins or disease-causing organisms in foods, beverages or feedstuffs;
+- Carried by animals, plants or products thereof, or from the entry, establishment or spread of pests; or
+- Prevent or limit other damage within the territory of the Member from the entry, establishment or spread of pests.
 
 The following are the main elements of the SPS Agreement (Karki et al, 2004).
-  1. Harmonization
-  2. Equivalence
-  3. Risk assessment
-  4. Transparency
-  5. Consultation and dispute settlement:
-  6. Technical cooperation and Special and Differential Treatment
+
+1. Harmonization
+2. Equivalence
+3. Risk assessment
+4. Transparency
+5. Consultation and dispute settlement:
+6. Technical cooperation and Special and Differential Treatment
 
 The SPS Agreement and Trade In Live Animals and Animal Products
 
 The SPS Agreement recognizes the International Office of Epizootics (OIE) as the relevant international organisation responsible for the development and promotion of international animal health standards, guidelines, and recommendations affecting trade in live animals and animal products. Similarly, the official (Public) Veterinary Services of a country are recognized as the relevant authority with ultimate responsibility for animal health matters involving international trade in live animals and animal products.
 
 The OIE provides detailed Guidelines for the Evaluation of Veterinary Services (Chapter 1.3.4. of the Terrestrial Animal Health Code). According to these guidelines, the national Veterinary Services should be able to demonstrate capacity, supported by appropriate legislation, in the following areas (Mahato et al, 2004).
+
 - Exercise control over all animal health matters
 - Prescribe methods for control and to exercise systematic control over the import and export processes of animals and animal products in so far as this control relates to sanitary and zoo-sanitary matters.
 - Control imports and transit of animals, animal products and other materials that may introduce animal diseases.
@@ -242,10 +247,11 @@ Lastly, the TRIPS agreement provides that geographical indications, hitherto use
 General Agreement on Trade in services (GAT)
 
 This Agreement opens the door for foreign investment in different sectors while accessing the membership of WTO by Nepal, had agreed on 74 different sectors and sub-sectors for trade out of which only 2 sectors are related to agriculture. They include
+
 1. Animal medical services
 2. Technical Experiment and investigation services
 
-WTO and Emerging Issues in Nepalese Agriculture
+### WTO and Emerging Issues in Nepalese Agriculture
 
 Keeping eyes on the benefits that can arise from the agreements of WTO, we need to address major issues in agricultural sector. The issues at hand include scale sensitivity, trade restriction at disguise, resource mobility and technology transfer (Pant, 2004 & 2007).
 
@@ -348,7 +354,109 @@ As per the obligation under the World Trade Organization (WTO), the member count
 
 ## BIMSTEC
 
-## Sustainable development goals: Policy background, challanges and progress in Nepal
+## Sustainable development goals
+
+Chapter I: Introduction
+
+Nepal, a young democracy and the youngest federal democratic republic, has been passing through a protracted political transition for more than a decade. The country, as one of the 48 least developed countries of the world with per capita income of about US\$ 850 in 2017, is recovering from a decade long violent armed conflict, and passing through a stage of peace building, social reconciliation and economic revival.
+
+Nepal has made significant progress in poverty reduction and human development in the last two decades - absolute poverty declined by one percentage point each year and HDI improved by one basis point per year. Still, absolute poverty at 21.6 percent is among the highest in South Asia; and the country is at the bottom of the countries with middle human development status.
+
+Political and social strife, prolonged political transition, and instability of the government has deteriorated investment climate, suppressed agricultural activities, and undermined the expansion of service sectors like tourism and finance resulting in slow economic growth. Besides, the country has been passing through various economic and environmental risks and vulnerabilities. The massive earthquake and trade blockade in the Southern border between April and September 2015 are their manifestations.
+
+This report is an update of the National SDGs Report prepared by NPC in 2015. It revises SDGs indicators to make them consistent with global ones, updates their baseline status, and revises targets set for 2030 wherever necessary. Consultations with NPC Thematic Task Forces for SDGs and various non-government stakeholders including the private sector and civil society organizations were held to discuss the proposed SDG indicators and their 2030 outputs.
+
+Chapter II: Overview of MDG Outcome, and Implementation Status of SDGs
+
+The MDG Final Status Report shows Nepal's commendable progress on reducing extreme poverty and hunger during the period of 2000–2015. Extreme poverty (defined as 1\$ - a - day) dropped from 33.5 percent of the population in 1990 to 16.4 percent in 2013 thereby achieving the target of halving poverty by 2015. Poverty gap narrowed down to 5.43 in 2011 from 7.55 in 2004 implying that poor people, on average,are now closer to rising above the poverty line than in 2004. A noteworthy achievement was made in the reduction of hunger also.
+
+A very good progress was made in achieving universal primary education - enrollment ratio (NER) reached to 96.6 percent, survival rate to 89.4 percent and the literacy rate (15-24 years) to 88.6 percent in 2015. Gender equality was achieved at primary and secondary education levels with gender parity index (GPI) scores of 1.09 in primary and 1.0 in secondary education in 2015.
+
+All the targets under child health - reducing infant mortality rate (IMR), reducing under-five mortality rate (U5MR), and increasing immunization against measles have been met. The IMR dropped from 64 per 1,000 live births in the year 2000 to 33 in 2015; and U5MR declined from 91 per 1000 live births in 2000 to 38 in 2015. Nepal was close to meeting the targets of reducing the maternal mortality ratio (MMR).
+
+The country has been able to reduce the rate of biodiversity loss. Forest cover increased from less than 40 percent in 2000 to 44.7 percent of total land area in 2015. It has achieved the MDG target of halving the proportion of people without sustainable access to basic drinking water and basic sanitation as households with access to an improved source of drinking water increased from 46 percent in 1990 to 83.6 percent in 2015; and households having access to sanitation (toilets) increased from 6 percent in 1990 to 81 percent in 2015.
+
+The MDGs Final Status Report highlights on several unfinished agenda of the MDG with particular focus on absolute poverty, malnutrition, universal school enrollment, maternal mortality, and access to reproductive health facility. Besides, the report also flags on the quality, inclusion and equality aspects of the MDGs achieved in quantitative terms - such as in education, child health, and environment. The SDGs have to meet these gaps even before embarking on making further progress.
+
+The 14th Year Plan starting July 2016 and budget for FY 2016/17 have considered SDGs while prioritizing and allocating resources. The budget allocations in the annual programs are audited against the SDGs, also to check if the allocations are balanced across SDG areas. The budget audit of FY 2016/17 shows almost two-thirds (65 percent) of the spending gone in three infrastructure related SDG areas - namely the Goals 7, 9 and 11; 18 percent on social sectors like education, health, water supply and sanitation; and 13percent to directly address poverty and hunger (Goals 1 and 2).
+
+In order to coordinate SDGs implementation across various sectors, the government has constituted SDGs Steering Committee under the chairmanship of the Prime Minister while SDGs working committee is constituted under VC of NPC to coordinate SDGs implementation at the national as well as sub-national levels. Thematic working groups for SDGs are formed under the convenership of Members of the NPC with secretaries of the relevant Ministries as co-conveners and other concerned agencies as members of the groups.
+
+Chapter III: Targets and Indicators for Sustainable Development Goals
+
+The proposed SDG 1 targets for 2030 are to reduce extreme poverty to less than five percent, reduce poverty gap to 2.8 percent, raise per capita income to US\$ 2,500,and raise social protection budget to 15 percent of total budget. 
+
+The targets for SDG 2 include reduction in prevalence of undernourishment (measure of sufficiency of access to food) to 3 percent and prevalence of underweight children under five years of age to 5 percent by 2030.
+
+The proposed SDG 3 targets include reduction of MMR to less than 70 per 100 thousand live births by 2030 which is in line with the global target. The child health targets include reduction of preventable death of newborn and children to less than one percent. However, for overall newborn and U5 mortality rates, the targets are to reduce them from 23 and 38 per thousand live births in 2015 to 10 and 22 respectively by 2030. The other targets include almost elimination of the prevalence of HIV, TB, Malaria and other Tropical Diseases, and water borne diseases.
+
+The major targets for SDG 4 include 99.5 percent net enrollment and completion of primary education, and 99 percent gross enrollment in secondary education by 2030. The other targets are: 95 percent of students enrolled in grade one to reach grade eight; and elimination of gender disparities in tertiary education.
+
+The major targets for SDG 5 are elimination of wage discrimination at similar work, elimination of physical/sexual violence, eliminating all harmful practices, such as child, early and forced marriage and chhaupadi, increasing seats held by women in the national parliament to 40 percent, and increasing women' proportion in public service decision making positions by nearly 4 folds to 7.5 percent of total employees in 2030 from 2 percent in 2015.
+
+The proposed targets for SDG 6 include basic water supply coverage to 99 percent of households and piped water supply and improved sanitation to 90 percent of households. Other targets are to free 99 percent of the communities from open defecation, to reach 95 percent of the households with improved sanitation facilities which are not shared, and to ensure 98 percent of the population using latrine.
+
+The proposed specific targets for SDG 7 include accessibility of 99 percent households to electricity, reduction to 10 percent-from nearly 75 percent now - the households who resort to firewood for cooking, increase per capita electricity to 1500 kwh and decrease the commercial energy use per unit of GDP from 3.20 ToE/million Rs in 2015 to 3.14 ToE/million Rs in 2030.
+
+The SDG 8 target for 2030 is to achieve per capita GDP growth of 7 percent, to maintain the growth of agriculture to about 5 percent and that of construction to 15 percent; reduce material intensity in manufacturing to 60 percent; lower underemployment to less than 10 percent; and to eliminate the worst form of child labor.
+
+The 2030 targets for road in SDG 9 are to increase road density to 1.5 km/sq km and paved road density to 0.25 km/sq km and to connect all the districts, municipalities and village councils by road. For industries, the targets for 2030 are to increase the share of industry to 25 percent so as to promote labor intensive activities and to raise employment in manufacturing to 13percent of the total employment.
+
+The key targets for SDG 10 are to reduce consumption inequality (index) from 0.33 in 2015 to 0.16by 2030 and to reduce income inequality from 0.46 to 0.23 at the same time period. The PALMA index is targeted to improve from 1.3 to 1 in the same period.
+
+The 2030 target for SDG 11 is to make at least 50 percent of the urban road to be safe from global standard. Besides, the proposed specific targets for 2030 include doubling the proportion of households living in safe houses; substantially reducing air pollution, preventing the deaths and injuries due to disaster, repairing and reconstructing, by 2020, all cultural heritages destroyed by earthquake.
+
+The SDG 12 target for land to be available for cereal production by 2030 is set at 75 percent of all cultivated land. Consumption of wood is proposed to be not more than 0.05 cubic m per capita per year by 2030 from to 0.11 cu m per capita per year in 2015. Use of plastic per capita which was 2.7 gram per day in 2015 is proposed to be almost zero by 2030. Similarly, the post-harvest loss of food is targeted to be less than 1 percent by 2030 from 15 percent in 2015.
+
+The key targets for SDG 13 are making half the existing CO2 emission level including from transportation, industrial, and commercial sectors. Consumption of ozone depleting substance is targeted to reduce to one third of the existing level. In the meantime, climate smart villages are proposed to be 170 and climate smart farming to be 500 units by 2030 from zero at present. Almost all the schools will be covered by climate change education and the number of trained persons (local planners) for climate change planning would reach 3 thousand.
+
+The key 2030 targets for SDG 15 are to maintain conservation area at 23.3 of the total land area, increase forest under community management from 39 percent to 42 per cent of the forest area, halt forest loss and degradation, increase mountain ecosystem covered by the protected area to 70 percent in 2030 from 68 percent in 2015, and undertake additional plantation of 5000 ha per annum.
+
+The major targets for SDG 16 include ending death from violent conflict, violence against women, and violence against children, improve transparency and accountability score from a scale of 3 at present to 5, and good governance scale from (-) 0.78 to 2.0 in a scale of -2.5 to 2.5. The 2030 targets also include eliminating marriage before the age of 18 years, 100 percent birth registration, 80 percent voter turnout in elections, and access to justice for all.
+
+SDG 17 is for all the stakeholders to adhere to - ranging from resource mobilization and capacity development and accountability to shared responsibility. The target for revenue collection for 2030 is set at 30 percent of GDP. Domestic expenditure financed by domestic revenue is targeted to reach 80 per cent from 76 percent in 2015. For meeting the private sector investment financing gap, foreign direct investment (inward stock) is targeted to increase to 20 percent of GDP in 2030 from less than 3 percent in 2015.
+
+Chapter IV: Issues and Challenges in SDGs Implementation
+
+The SDGs are comprehensive, ambitious and challenging goals and require huge resources as well as capacity enhancement to achieve them in 15 years' time. As SDGs are not stand-alone goals, achievement of one goal has implications to the achievement of several other goals.
+
+Once the SDGs are tailored in the periodic plans and annual budgets, there is a need for annual budget audit from the SDGs perspectives. While developing a framework for such an audit is critical, a designated agency for the task has to be put in place. A SDGs dashboard could be created to provide open source information on the state of SDGs implementation and their progress.
+
+Although SDGs are equally important, indivisible, and common for all countries, their priorities are country specific, depending upon the level, gaps and structure of development. Priority, being a relative and not an absolute term, implies that prioritization should be done in ranks such as priority one, priority two and priority three. There is no defined way to prioritize them by goals or sectors. Prioritization can better be done within the targets and indicators. Prioritization will also be guided by financing and other resource availability and donor support to specific SDGs.
+
+As the localization of SDGs at the Provincial and Local Government levels is critical for the universal, equitable and inclusive outcome of sustainable development efforts, it is equally important to have a political set up at those levels willing and capable of handling the development agenda in an effective manner.
+
+Containing inequality through market based policy instruments would be a formidable task; and unless pro poor growth policies and interventions along with strong distributive measures are put in place, it is hard to increase the share of bottom 40 percent in national income. Currently, the bottom 40 percent of the population holds only 12 percent of the national income and it has to be raised to 18 percent of total income if some tangible achievement is to be made in this area.
+
+As the SDGs encompass diverse set of outputs and activities, they can be financed by multiple sources. The government can finance them through public investment programs at all the levels. Households, who can afford, can finance them in the form of out-of-pocket expenses. The non-government organizations, cooperatives and community sectors can finance some of the SDGs through resource mobilization at the community level. The private sector can mobilize equity and debt from the domestic market as well as through Foreign Direct Investment for financing the SDGs which could be implemented in business model.
+
+The SDG 17 has clearly mentioned about enhancing international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the sustainable development goals, including through North-South, South-South and triangular cooperation. But international support must be led and reinforced by the national government so that capacity constraints do not impede the achievement of SDGs despite commitments, resource availability and willingness to carry forward the agenda.
+
+Strong monitoring system with credible data base is crucial to the success of SDGs. Only an effective government with a strong statistical systems can measure and incentive progress across the goals. There is also huge difference between government recorded data and those compiled by non-government organizations. This is particularly the case with violence, crime, human trafficking, violation of human rights, etc.
+
+The existing statistical system is marred with various problems such as data sources spread over multiple windows andother than census and economic surveys, social and governance related surveys being outside the purview of CBS. Data revolution taking place due to technological changes, evolution of big data and growing trend of open data system is yet to evolve.
+
+Chapter V: Conclusion and Way Forward for Achieving the SDGs
+
+Eradicating poverty requires commencing two-pronged strategyputting credible macroeconomic policies in place for higher economic growth and affecting distribution of income through policy interventions in the labor market along with expanding social protection. Unlocking the economic growth potential requires that enabling fiscal, monetary, external trade, investment and labour market policies are in place, and are providing environment for private investment –domestic and foreign.
+
+Income inequality has reduced the impact of economic growth on poverty reduction in Nepal also. Such inequality is built in the disparity in the ownership of productive assets like land, capital and technology, level of education and skill, and remoteness of human settlements. For progressively achieving and sustaining income growth of the bottom 40 per cent of the population at a rate higher than the national average, interventions have to focus on those very population and areas along with following progressive taxation and subsidy policies.
+
+Inclusion of peace, justice, and responsible institutions in SDGs agenda is a welcome step. However, the goal, especially in the components of good governance, rule of law and access to justice, is quite vague. The country needs to prioritize particular indicators in the agenda as appropriate to the context.
+
+The SDGs being shared responsibility, both the national government and international development partners have to be on board and should be working together to address the resource, governance, and capacity gaps at the country level. But if the experience of MDGs was any indication, it would be extremely difficult to bring all the global development actors on one platform. This applies even among the UN agencies.
+
+The SDGs are very much resource intensive; and developing countries like Nepal can face large financing, technological and implementation capacity gaps. Such gaps have to be measured in concrete terms with proper needs assessment tools so that funding and raising implementation capacity could be objectively worked out. Pledging international aid for the SDGs also requires that the funding gap is credibly worked out. The government will have to identify the interventions needed for achieving the targets and their indicators, and assess the constraints in their implementation.
+
+Obviously SDG priorities have to be set against fiscal, financial, managerial, institutional and other capacity constraints. But they should not be rigidly bound by the constraints; and, efforts must be made to unlock the binding resource and other capacity constraints.In essence, prioritization of projects and programs should be based, along with direct or indirect contribution to the achievement of any SDGs, on synergy that they can bring in the development process, having larger social impact along with economic.
+
+The SDGs cut across all sectors and actors including the civil society organizations and the private sector. A large portion of activities under SDGs are to be held at the private sector and other non-government development actors. At the current planning process, more than 55 per cent of the investment required to achieve the outputs and outcomes of the plan are not monitored. This should be corrected, and all non-government actors including the private sector should be brought under the monitoring purview of the plan and the SDGs.
+
+SDGs are very much data intensive so far as their monitoring and tracking the progress is concerned. The aspiration of 'leaving no one behind' implies that the progress must be tracked at a highly disaggregated level, also given the disparity in the initial condition of development across age, sex, location, ethnicity, disability and income groups. A large number of surveys have to be done in the next few years to meet the data gap and create base line data for the targets having no database so far. Existing surveys will have to be tailored to the SDG monitoring needs particularly when it comes to gender, social class and geographical location based target setting, analysis, and monitoring of the SDG outcomes.
+
+source: Nepal's Sustainable Development Goals: Baseline Report, June 2017 (NPC, GoN)
+
+### Policy background, challanges and progress in Nepal
 
 Nepal's social and political progress has been highly progressive. Economic growth remained sluggish but picking up now. Nepal's natural vulnerabilities, from earthquakes to climate change, lie unmitigated. Building on the gains so far, the challenge for Nepal is to swiftly complete the unfinished agenda of the Millennium Development Goals (MDGs), and embrace a much more ambitious aspiration of fulfilling the SDGs. Furthermore, Nepal expects to become a vibrant middle income country by 2030. However, the country is resource constrained, and it needs to forge a diverse alliance for SDGs. 
 

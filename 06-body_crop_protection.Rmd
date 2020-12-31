@@ -138,6 +138,94 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
 
 ## Pesticides
 
+### History
+
+- The oldest available record is Homer's mention (about 1000 BC) that Odysseus burned sulfur to purge the hall and the house and the court.
+- In 1669, the earliest known record of arsenic as an insecticide in the western world mentioned its use with honey as an ant bait.
+- Use of tobacco as contact insecticide was mentioned later in the same century.
+- Copper compounds were known since 1807 to have fungicidal value, and the Bordeaux mixture (hydrated lime and copper sulfate) was first used in France in 1883.
+- Hydrocyanic acid, known to the egyptians and the Romans as a poison, was used as a fumigant in 1877 to kill museum pests in insect collections.
+- Carbon disulfide has been used as an insect fumigant since 1854.
+- Mercury chloride was extensively used as fungicide since 1891, and was slowly replaced by its organic forms such as phenylmercury (1915), alkylxyalkylmercury (1920s).
+- First synthetic organic insecticides that appeared for public use was probably dinitro compounds and thiocyanates (in early 1930s)
+- These led to proliferation of new synthetic pesticides including DDT, organophosphates and pyrethroids.
+- Paul Muller (awarded nobel prize in Medicine for his discoveries) in 1939 found dichlorodiphenyltrichloroethane (DDT) acted as a contact poison on flies, mosquitores, and other insects. In 1945, monsanto begins manufacturing 2,4-D.
+- In 1949, case of human exposure to dioxin causing severe skin lesions was first documented.
+- Organic sulfur fungicides such as captan, maneb and others were introduced in late 1950's, however some are known to have toxicological problems.
+- In 1972 EPA banned DDT.
+- In developing countries where the risk of contracting malaria is extremely high, DDT is permitted as a tool for mosquito population control. The benefit of suppressing the malaria-transmitting mosquitoes outweighs the risk of DDT exposure.
+- Production of DDT in the USA peaked in the early 1960's and gradually declined. 
+- In 1962 Rachel Carson published the book Silent Spring, an impassioned denouncement of the consequences of chemical contamination of the environment, with particular emphasis on the bioaccumulation of DDT and its effects on bird reproduction.
+- Pyrethroids derive from molecules originally isolated from pyrethrum flowers which were used by Gaucasian tribes and in Persia since the early 1800's to control body lice. The flower extracts contain six closely related insecticidal esters, collectively referred to as the pyrethrins, whose main structures were elucidiated between 1910 and 1924.
+- Some of the most commonly used pyrethroid insecticides, such as permethrin, cypermethrin, decamethrin and fenvalerate, were synthesized in the 1970s.
+
+
+
+```{r}
+tribble(~"Year", ~"Event", 
+        "1930s", "'Ginger jake' paralysis in the US caused by cresyl phosphates", 
+        "1962", "Silent spring by Rachel Carson published", 
+        "1970-73", "Restriction in the use of DDT in Sweden and US for its ecological effects", 
+        "1971-72", "Outbreak of poisoning in Iraq due to alkylmercury fungicides", 
+        "1976", "Poisoning of spraymen in Pakistan by malathion due to its potentiation by impurities", 
+        "1977", "Restriction on the use of dibromochloropropane for its toxicity on the male reproductive system", 
+        "1984", "Accidents in Bhopal during the manufacture of carbaryl", 
+        "1986", "Over 1000 tons of pesticides are spilled in the Rhine river") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Some toxicologically-related events involving pesticides")
+```
+
+### Brief history of DDT
+
+DDT (dichloro-diphenyl-trichloroethane) was developed as the first of the modern synthetic insecticides in the 1940s. It was intially used with great effect to combat malaria, typhus, and the other insect-borne human diseases among both military and civilian populations adn for insect control in crop and livestock production, institutions, homes and gardens. DDT's quick success as a pesticide and broad use in the US and other countries led to the develpment of resistance by many insect pest species. The US Department of Agriculture, the federal agency responsible for regulating pesticides before the formation of the US Environmental Protection Agency in 1970, began regulatory actions in the late 1950s and 1960s to prohibit many of DDT uses because of mounting evidence of the pesticide's declining benefits and environmental and toxicological effects. Rachel Carson's book Silent Spring in 1962 stimulated widespread public concern over the dangers of improper pesticide use and the need for better pesticide controls. DDT was firstly banned in 1972 by many European nations.
+
+### Stockholm convention
+
+The stockholm convention was brought about as a global treaty to protect human health and the environment from persistent organic pollutants (POPs). The convention seeks the elimination or restriction of production and use of all intentionally produced POPs (i.e. industrial chemical pesticides), and the continuing minimization and, where feasible, ultimate elimination of releases of unintentionally produced POPs, such as dioxins and furans. Stockpiles must be managed and disposed off in a safe, efficient, environmentally sound manner. The convention was finalized at the 5th Intergovernmental Negotiating Committee (INC) Meeting in Johannesburg in December, 2000. The signing and adoption of the Stolkholm Convention took place in Stolkholm on 23 May 2001 with entry into force following on 17th May 2004 after the fiftieth ratification. Currently, 176 countries are parties to the Convention.
+
+```{r banned-pesticides}
+tribble(
+  ~"sn", ~"pesticide", ~"year_banned", ~"remark",
+  5, "Aldrin", 2001, NA,
+  9, "BHC", 2001, NA,
+  1, "Chlordane", 2001, NA,
+  3, "Dieldrin", 2001, NA,
+  2, "DDT", 2001, NA,
+  4, "Endrin", 2001, NA,
+  6, "Heptachlor", 2001, NA,
+  10, "Lindane", 2001, NA,
+  12, "Organo mercury fungicides", 2001, NA,
+  7, "Mirex", 2001, NA,
+  11, "Phosphamidon", 2001, NA,
+  8, "Toxaphene", 2001,  NA,
+  14, "Monocrotophos", 2007,  NA,
+  13, "Methyl parathion", 2007, NA,
+  15, "Endosulfan", 2014, NA,
+  16, "Phorate", 2015, "Use and distribution allowed untill 2077-09-16", 
+  17, "Benomyl", 2018, "Use and distribution allowed untill 2077-09-16",
+  18, "Carbofuran", 2018, "Use and distribution allowed untill 2077-09-16",
+  19, "Triozophos", 2018, "Use and distribution allowed untill 2077-09-16",
+  20, "Dichlorovus", 2018, "Use and distribution allowed untill 2077-09-16",
+  21, "Carbaryl", 2018, "Use and distribution allowed untill 2077-09-16",
+  22, "Carbosulfan", 2019, "Use and distribution allowed untill 2078-04-19",
+  23, "Dicofol", 2019, "Use and distribution allowed untill 2078-04-19",
+  24, "Aluminium Phosphide", 2019, "Use and distribution allowed untill 2078-04-19",
+) %>% 
+  arrange(sn) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of pesticides banned in Nepal.") %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
+
+### Additional information
+
+Annotations used in describing formulations:
+- GR: Granule
+- CG: Encapsulated granule
+- SP: Soluble powder
+- DP: Dusting powder
+- WP: Wettable powder
+
 ### Chemical fungicides
 
 - A popular fungicide, generally used for seed treatment, called Carbendazim is available in commercial formualtion as KI-BESTIN (Carbendazim 50% WP).
@@ -154,8 +242,8 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
 
 ### Biopesticides
 
-- _Nisarga_
-  - Active ingredient: _Trichoderma viridae_
+- _Trichoderma viridae_ (Nisarga, Nicoderma, Bio-Powder-F)
+  - Available as 1% or 1.15% AI WP formulation.
   - Effectiveness: Stem rot, Root rot, Sett rot, Damping off, Ganoderma etc. Against _Fusarium_, _Sclerotium_, _Phytopthora_ and _Ganoderma_.
   - Utility crops: Potato, tomato, sweet pepper, garlic, cauliflower, onion, tea, coffee and pulses.
   - Dosage: Spray 5 gm Nisarga per liter of water solution. While applying in soil, 500 gm Nisarga is mixed with 2.5 kg of mature FYM or compost. This suffices for 1 ropani of land.
@@ -167,19 +255,64 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
   - Secondary metabolites, i.e. Auxin, Gibberelic acid and Cytokinins promote plant health.
   - Dosage: Spray 5 g of Pseudomonas commercial formula in 1 liter of water. While applying in soil, 500 gm Nisarga is mixed with 2.5 kg of mature FYM or compost. This suffices for 1 ropani of land.
 
-- Verticillium fungicide is effective against sucking insects and nematodes.
+- *Beauveria bassiana* (BABA, BIO-Powder)
+  - Active ingredient 1.15%
+  - Available in WP formulation
+
+- *Verticillium lecani* (Mealikil(TM))
+  - Available as 1.15% WP formulation
+  - Verticillium fungicide is effective against sucking insects and nematodes.
   - In a ropani of land, use 500 gm of verticillium preparation with 2.5 kg of FYM/compost.
 
-- Neem Baan
-  - Contains Azadirachtin.
+- Azadirachtin (Nimbicidine, Multineem, Multinemor, Niconeem, Neemate-10, Ozoneem Trishul)
   - Effectiveness: Against phytophagous insects for deterrence. It inhibits oviposition and is ovicidal (kills larvae if hatched)
   - Most effective against sap sucking type insects (Aphid, mealy bug, white fly, thrips, etc.) and chewing type insects (Stem and fruit borer larvae)
   - Has contact and systemic property
   - Dosage: 2-5 ml liquid in 1 ltr of water is sprayed in 12 days interval, 2-3 times.
   - Composition: 0.03%, 0.15%, 1%, etc.
 
+- *Metarhizium anisopliae* (Pacer (TM))
+  - Available as 1.15% WP formulation
+
 - Nuclear polyhedrosis virus (NPV)
 - Granulosis virus (GVs)
+
+### Rodenticides
+
+- Bromadiolone (Ratonil, Krazy ratmaar, Roban) available as 0.005-0.25% RB, WP and CB formulation.
+- Zinc phosphide (All commando, Commando, K-rat, Ratal, Ratfre, Ratil, Ratox) available as 80% WW formulation.
+
+### Waiting periods of some pesticides
+
+```{r}
+tribble(~"sn", ~"waiting_period (days)", ~"group", ~"common_name", 
+        1, "1", "Bactericide", "Streptomycin sulphate + Tetracycline hydrochloride", 
+        2, "3", "Botanical", "Azadirachtin, Metarhizium anisopliae, Pseudomonas flurescens", 
+        3, "3-5", "Insecticide", "Dichlorovos", 
+        4, "4", "Insecticide", "Beta-cyfluthrin", 
+        5, "5", "Insecticide", "Novaluron, Buprofezin", 
+        6, "5", "Miticide", "Fenpyroximate", 
+        7, "6", "Insecticide", "Bifenthrin", 
+        8, "6", "Miticide", "Dicofol",
+        9, "6", "Fungicide", "Metiram",
+        10, "3-7", "Insecticide", "Fenpyroximate", 
+        11, "7", "Insecticide", "Cyfluthrin, Alphamethrin, Cypermethrin, Cyromazine, Deltamethrin, Diflubenzuron, Fenvalarate, Thiodicarb", 
+        12, "7", "Botanical", "Beuveria bassiana, Trichoderma viride, Verticillium lecani", 
+        13, "7", "Weedicide", "2-4 D NA salt, Pyrazosulfuron ethyl",
+        14, "10", "Insecticide", "Emamectin benzoate", 
+        15, "10", "Fungicide", "Zineb", 
+        16, "14", "Insecticide", "Abamectin, Alphacypermethrin, Carbofuran, Ethion, Lambdacyhalothrin, Lufenuron, Malathion, Profenofos, Triazophos", 
+        17, "14", "Miticide", "Propargite", 
+        18, "14", "Fungicide", "Carbendazim, Chlorothalonil, Copper hydrochloride, Copper hydroxide, Cymoxanil, Dimethomorph, Iprobenfos, Kresoxim, Methyl sulphur, Thiophanate methyl", 
+        19, "15", "Insecticide", "Acephate, Acetamiprid, Dimethoate", 
+        20, "15", "Weedicide", "Oxyfluorfen"
+        ) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Waiting period of some commonly used pesticides", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:4, c("4em", "6em", "6em", "20em"))
+```
+
 
 ## Pathogenic Nematodes
 
@@ -221,7 +354,8 @@ tribble(~"Virus", ~"Nematode",
         "Onion mosaic virus", "Eriophyses tulipae (Mites)", 
         "Soybean mosaic virus", "Aphids", 
         "Potato leaf roll virus", "Myzus persicae") %>% 
-  knitr::kable(booktabs = TRUE, caption = "Insect mediated virus transmission")
+  knitr::kable(booktabs = TRUE, caption = "Insect mediated virus transmission") %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 ```
 
 
@@ -431,6 +565,22 @@ Status of pesticide use in Nepal
     - PoPs: Aldrin, chlordane, DDT, Dialdrin, Eldrin, Heptachlor, Mirex, Toxaphene, HCB, PCB, Dioxyn, Furan, etc.
     - These pesticides require special treatment facility for disposal.
 
+## Farmers' field school (FFS)
+
+Farmers' field school (or Farmer field school) is a widely used extension approach to educate farmers in agriculture. This approach was initated in Nepal with the FAO supported TCP project on community IPM in 1998 for the integrated management of BPH in rice fields. In addition, FFS curricula have been developed for the integrated pest management in different crops including maize. Different levels of facilitators (Officer, assistant level staff and farmers themselves) have been developed for different pests specific to crops.
+
+While it may be worthwhile to train and aware local farmers on localized sporadic insect outbreaks, mass information campaign, rural radio broadcast, participatory video exhibition and community action plans may be needed to contain widespread regional outbreak of pests (like Fall armyworm outbreak in late 2019).
+
+Integrated pest management (IPM) is the careful consideration of all available pest control techniques and subsequent integration of appropriate measures that discourage the development of pest populations, and keep pesticides and other interventions to levels that are economically justified and reduce or minimize risks to human and animal health and/or the environment. IPM emphasizes the growth of a healthy crop with the least possible disruption to agro-ecosystems and encourages natural pest control mechanisms (definition from the International Code of Conduct on Pesticide Management, FAO/WHO, 2014). In order to support this, IPM implementation in Farmer Field Schools is based on four practical principles.
+
+- Grow a healthy crop in a healthy farming system
+- Conserve natural enemies
+- Observe fields regularly
+- Farmers become experts
+
+These principles describe the main actions of IPM implementation through FFS. Specific processes that take into consideration the variation of each field and farm family backup each principle, so that management can be done on a field-by-field, season-by-season basis. IPM is not a "packaged technology", but also a decision-making process that is adopted by farmers and farming community it is gradually improved with greater ecological knowledge and observation skills.
+
+
 ## Crop insects
 
 ### Major insects of rice
@@ -512,3 +662,98 @@ Crop damage should be monitored every two weeks. If noted abnormal minining in t
 
 1. Fruit borer ( _Cryptophlebia illepida_, _Rapala varuna_, _Deudorix epijarbas_, _Deudorix isocrates_)
 2. Fruit fly ( _Bactrocera dorsalis_)
+
+### Fall armyworm (FAW)
+
+The FAW life cycle is completed in 28-48 days depending on temperature and food availability but in laboratory conditions it has been observed to complete in 27-32 days at average daily temperature of $27^\circ$ C. Heavy rainfalls are reported to break the life cycle of FAW. The insect is not reported to have the ability to diapause.
+
+In Nepal, considering the low winter temperatures, migratory FAW are supposed to arrive if allowed by conducive environmental conditions.
+
+**Life cycle**
+
+1. Egg: Creamy white or grey in color covered by light brown wool like material imparting a moldy appearance. The total eggs are dome shaped. The number of eggs per mass varies considerably but is often 100-200, and total egg production per female averages about 1500 with a maximum of over 2000. The female normally deposits most of her eggs during the first 4-5 days of life, but some oviposition continues to occur for upto 3 weeks. On average, adults live for 12-14 days. Egg continues unhatched for 2 days in warm laboratory conditions.
+
+2. Larvae: The FAW has six larval instars. The first instar are whitish in color which later change into greenish color with black head. The larvae measures 30-35 mm long, and their color varies from brown, gray, yellowish, pinkish to greenish with granulated texture all over the body. The total larval period lasts 14-15 days in aforementioned laboratory conditions. Inverted 'Y' shaped whitish marking is present on the head. The best identifying feature of the FAW is a set of four large spots (pinacular) that form a square on the upper surface of 8th segment of body. The late instar larvae also have three creamy yellow stripes on the dorsal surface which run in parallel manner from thorax to last abdominal segment. Larvae tend to hide themselves in the plant whorls during the sunny day.
+
+3. Pupa: The FAW normally pupates in the soil at a depth of about 2-8 cm. The larvae constructs a loose cocoon by tying together particles of soil with silk. The pupae is reddish brown in color, measuring 14-18 mm in length and about 4.5 mm in width. Duration of pupal stage is 6-8 days in lab conditions.
+
+4. Adult: Moths have a wingspan of 32-40 mm. Hind wings in both male and female are white with black lines on inner margins. Adult male moth of the insect has distinct markings on the forewings whereas markings on female forewings are not distinct. In male moth, the forewing generally is shaded gray and brown, with triangular white spots at the tip. Brown and oval shaped spot is present at the center of forewings. The forewings of females are less distinctly marked, ranging from a uniform grayish brown to a fine mottling of gray and brown. Adults are nocturnal, and are most active during warm, humid evenings. Duration of adult life cycle (as observed in laboratory conditions in Nepal) is 5-7 days.
+
+**Feeding behavior and damage**
+
+The larvae can feed and damage entire plant including leaves, whorls, tassels, silk and ears. Early instars (1st and 2nd) feed by scrapping the leaf surface leaving the epidermis intact which results in the appearance of elongated papery windows of different size. They also bore into the whorl resulting into small pin holes.
+
+Larvae of 3rd and 4th instars voraciously feed on foliage showing ragged and elongated holes on plant and size of holes increase with the growth of the larvae. Both 5th and 6th instars feed extensively and result in leaf area loss or defoliation overall. Severe feeding gives the appearance of maize plant that has been damaged by hail. After feeding, the larvae leave behind large amounts of moist saw dust like frass near the whorl and upper leaves.
+
+In the maize crops' reproductive stage, taseel and ear are vulnurable to being bore into. The larvae can feed on kernels of ear affecting the yield, or cause quality deterioration due to mycotoxin contamination.
+
+**List of pesticides that can be of potential use against FAW management**
+
+1. Azadirachta indica extracts (Margo NF), Azadirachtin (Agriguard, astan-killer, astha neem super-1, etc.)
+2. Bacillus thuringiensis (Chandani-5 WP, Lipel, Mahastra-0.5 WP)
+3. Chlorantranilipole 18.5% SC (Allcora, Nicora gold, coragen, ferterra 0.4% GR) at the rate 0.4 ml/ltr of water.
+4. Emamectin benzoate (Aberkiller, Allclaim) 5% SG at the rate 0.4 g/ltr of water.
+5. Metarhizium anisopliae (Biocide manic, Emerald, Lalichakra, Pacer, Peak moti, Recharge, Varunastra)
+6. Spinetoram (Delegate) 11.7% SC at the rate 0.5 ml/ltr of water
+7. Spinosad (Tracer) (Registered in 2019) 45% SC at the rate 0.3 ml/ltr of water.
+
+**Monitoring of FAW**
+
+1. Trap selection: Suitable trap, it could be Funnel trap or Bucket trap
+2.Lure selection: Procure FAW specific pheromone lure, and store lures in a Refrigerator ($4-5^\circ$C); change the lure once every 4-6 weeks.
+3. Trap placement and setup: 
+  - Establish the pheromone trap two weeks before planting at a height of approximately 1.25 meters from the ground level. 
+  - Place the trap in or next to the maize field
+  - Install the trap from a long pole in a vertical orientation to prevent water entering into it and adjust the trap height to at least 30 cm above plant height. 
+4. Install 3 traps per cluster at the distance of at least 50 meters apart.
+5. Trap monitoring and recording: Weekly intervals throughout the season
+6. Monitoring and crop phenology/stage
+7. Area-wide and community-based approaches in terms of pheromone traps could be more effective than at the individual farm level
+8. Record the weather record(temperature, humidity, rainfall, etc.),wherever possible.
+9. Share and use the FAW monitoring data with extension agents.
+
+**Scouting pattern**
+
+_W pattern_
+
+- Scouting in the field is done in a semi-systematic manner to determine the risk of yield depression associated with foliar feeding and density of small and large larvae. It is one of the approaches that follow a "W" pattern to cover the entire field.
+- While entering into the field for scouting at least two outer rows should be left. This is practiced to avoid border effect.
+- At every point, inspect 10-20 plants in a row or around the central plant of the point (in case of scattered planting).
+- Observe the signs in upper 3-4 leaves for damage or fresh frass carefully in each plant. Fresh frass indicates the presence of living larvae in the whorl.
+
+_Ladder pattern_
+
+**IPM options for FAW**
+
+- Seed and varieties (Seed treatment with Imidachlorpid 48% FS at the rate of 4 ml per kg). This protects plant upto 2-3 after germination.
+- Select maize varieties with tight husk cover.
+
+
+**Cultural management practices**
+
+- Avoid late and staggered planting. Early planting often helps to escape the peak migration and incidence of FAW adults.
+- Use of recommended dose of manures and fertilizers.
+- Maintain adequate soil moisture for producing vigorous and healthy plants which can withstand pest infestation and damage.
+- Ploughing the field to a depth of 10 cm helps to expose FAW pupae to sunshine and natural enemies. Allow soil to be open for 2-3 after plowing for promoting this natural control.
+- Adopt push-pull technology incorporating Desmodium grass and other legume crops such as pigeonpea, beans, groundnuts as intercrops for push and border crop of Napier grass for pull.
+- Destroy crop residues after harvest for destroying sheltering eggs, larvae and pupae of FAW.
+- Practice crop rotation with alternate crops to minimize the attack of FAW.
+
+**Mechanical control**
+
+- Hand picking and crushing of FAW egg masses and young larvae (if found in field) or emmerse them into soap water.
+
+**Biological control**'
+
+- Natural enemies in field should be conserved with a provision of sheltering and pollen resourceful flowering plants around. Some naturally occurring biological organisms identified as effective control agents against FAW include:
+
+1. Predators (Earwigs, Ladybird beetles, Ground beetles, Assassin and flower bugs, predatory wasps, Spiders and Ants)
+2. Parasitoids (*Telenomus remus*, *Chelonus insularis*, *Cotesia marginiventris*, *Trichogramma* spp., Fly parasitoids: *Archytas*, *Winthemia*, *Lespesia*)
+3. Parasites and microbial pathogens (NPV, MNPV, BT, *Nomuraea rileyi*, Entomopathogenic nematodes (*Heterorhabditis, Steinernema*))
+
+**Botanicals and indigenous management options**
+
+- Use of local botanicals (neem, hot pepper, titepati, timur and other plant extracts) act as antifeedant and repellant against FAW.
+- Sugary sprays, oil, "fish soup" or other materials can also be used to attract ants and wasps to the maize plants.
+
+**Use of chemical pesticides**
