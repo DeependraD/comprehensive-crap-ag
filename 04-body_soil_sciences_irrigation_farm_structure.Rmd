@@ -144,6 +144,24 @@ The penman equation describes evaporation (E) from an open water surface, and wa
 
 **Penman-Monteith equation (1965)**
 
+## Soil erosion
+
+Soil erosion is the displacement of upper layer of soil, one form of soil degradation. The agents of soil erosion are water ice, and wind, each contributing a significant amount of soil loss each year.
+
+### Process
+
+1. Detachment
+
+Process depends upon type of soil, OM, moisture, nature of detaching agents (energy). Rainsplash is the most important detaching agent. As a result of raindrops striking a bare soil surface, soil particles may be thrown through the air over distances of several centimeters. Continuous exposure to intense rainstorms considerably weakens the soil.
+
+Decrease in organic matter lowers the binding action causing the low aggregates formation which can be easily eroded by water, wind and ice movement. 
+
+Detachment of soil particles by flowing water in rill erosion (D) varies with square of velocity of flowing water (V2). The soil is also broken up by weathering processes, both mechanical, by alternate wetting and drying, freezing and thawing and frost action, and biochemical.
+
+The transporting agents comprise those that act a really and contribute to the removal of a relatively uniform thickness of soil, and those that concentrate their action in channels. The first group consists of rainsplash, surface runoff in the form of shallow flows of infinite width, sometimes termed sheet flow but more correctly called overland flow, and wind The second group covers water in small channels, known as rills, which can be obliterated by weathering and ploughing, or in the larger more permanent features of gullies and rivers. 
+
+Process depends upon size, and shape of detached materials and velocity of the transporting agent. The higher the size of the particles the higher will be the energy required and higher will be the depth required. Ability of flowing water to transport soil particles (T) varies with fifth power to the velocity of flowing water (V5). The severity of erosion depends upon the quantity of material supplied by detachment over time and the capacity of the eroding agents to transport it.
+
 ## Irrigation development in Nepal
 
 ```{r irrigation-development-nepal}
