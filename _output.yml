@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Comprehensive agriculture guide</a></li>
+        <li><a href="./">Comprehensive Crap Guide (Agriculture)</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/deependrad/comprehensive_crap_guide/edit/master/%s

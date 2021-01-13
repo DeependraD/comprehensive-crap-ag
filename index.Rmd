@@ -1,5 +1,6 @@
 --- 
 title: "Comprehensive Crap Guide"
+subtitle: "Agriculture"
 author: "Deependra Dhakal, Samita Paudel"
 date: "November, 2019"
 site: bookdown::bookdown_site
@@ -9,8 +10,8 @@ classoption: openany # this will force for 2 side layout of book to open chapter
 bibliography: [bibliography/vegetable.bib, bibliography/bib.bib]
 biblio-style: apalike
 link-citations: yes
-# github-repo: deependrad/comprehensive_agriculture_guide
-description: "This is a guide book for agriculture and general knowledge."
+# github-repo: deependrad/comprehensive_crap_guide
+description: "This is a guide book for agriculture"
 header-includes: 
   - \usepackage{fancyhdr}
 ---
