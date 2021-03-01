@@ -1,0 +1,60 @@
+# physiological disorder of some crops,,,,,
+sn,Crop,Injury,Symptom,Remarks,lowest_safe_storage_temperature
+1,Avocado,Chilling,,Lowest safe storage temperature: (\si{\celsius}),5-12
+2,Banana,Chilling,,Lowest safe storage temperature: (\si{\celsius}),12
+3,Cucumber,Chilling,,Lowest safe storage temperature: (\si{\celsius}),7
+4,Egg plant,Chilling,,Lowest safe storage temperature: (\si{\celsius}),7
+5,Lemon,Chilling,,Lowest safe storage temperature: (\si{\celsius}),10
+6,Lime,Chilling,,Lowest safe storage temperature: (\si{\celsius}),7
+7,Mango,Chilling,,Lowest safe storage temperature: (\si{\celsius}),5-12
+8,Melon,Chilling,,Lowest safe storage temperature: (\si{\celsius}),7-10
+9,Papaya,Chilling,,Lowest safe storage temperature: (\si{\celsius}),7-15
+10,Pineapple,Chilling,,Lowest safe storage temperature: (\si{\celsius}),6-15
+11,Tomato,Chilling,,Lowest safe storage temperature: (\si{\celsius}),10-12
+12,Apple,Superficial scald,"Slightly sunken skin discoloration, may affect whole fruit",,
+13,Apple,Sunburn scald,Brown to black color on areas damaged by sunlight during growth,,
+14,Apple,Senescent breakdown,"Brown, mealy flesh; Occurs with overmature, overstored fruit",,
+15,Apple,Low temperature breakdown,Browning of cortex,,
+16,Apple,Soft (or deep) scald,"Soft, sunken, brown to black, sharply defined areas on the surface and extending a short distance into flesh",,
+17,Apple,Jonathan spot,"Superficial spotting of lenticels, occurs at higher temperatures",,
+18,Apple,Senescent blotch,Grey superficial blotches on overstored fruit,,
+19,Apple,Core flush (brown core),Browning within core line,,
+20,Apple,Watery core,Translucent ares in flesh; may brown in storage,,
+21,Apple,Brown heart,Sharply defined brown areas in flesh; may develop cavities,,
+22,Radish,Brown heart,Appearance of reddish pigmentation in the central part of the tuberous root.,Due to deficiency of Boron mineral,
+23,Carrot,Carrot splitting,Splitting of the root,Prolonged drought and sudden exposure to high precipitation,
+24,Cauliflower,Buttoning,"Florets form in the center of the foliage. However, instead of heading, they are separate, each with its own small, button-like top.",Caused due to use of overmature transplanted seedling; Due to lack of nitrogen in soil and extremes of temperature,
+25,Cauliflower,Riceyness,Rice curds look like white fuzzy mold or grainy/velvety cooked rice.,Excessive fluctuation of temperature and soil moisture,
+26,Cauliflower,Whiptail,Appearance of horsetail like inflorescence tip,Due to lack of Molybdenum mineral,
+27,Cauliflower,Chlorosis,Leaves become yellow and later on necrotic,Due to lack of Magnesium,
+28,Cauliflower,Blindliness,Cauliflower fails to produce a head. There is ample foliage with no hint of vegetable formation at the center.,Due to chilling temperatures and frost for extended period of time,
+29,Tomato,Sunscald,Initially the outer surface of starts to yellow and over time inner parts become necrotic.,High temperature,
+30,Tomato,Pufffyness,Inner portion of the fruit develop hollowness.,Excessive fluctuation of temperature and soil moisture,
+31,Tomato,Tomato cracking,,Sudden precipitation after long period of drought,
+32,Tomato,Blossom end rot,,Calcium deficiency; Excessive fluctuation of soil moisture.,
+33,Mango,Alternate bearing,,Characteristic of a variety – Alfonso; Lack of nutrition; Use of overmature saplings.,
+34,Mango,Vegetative mango malformation,Newly formed flush arise from a common node in a miniature cluster form giving a broom like appearance.,Lack of nutrients; Hormonal imbalance,
+35,Mango,Floral mango malformation,,Hormonal imbalance; Can be corrected by use of auxin,
+36,Mango,Black tip,Deposition of black shoot on the rind of the fruit.,"Due to atmospheric pollutants such as carbon monoxide, suphur dioxide. In commercial mango orchard management the location should be so established that the nearest brick kiln is 60 km away.",
+37,Mango,Clustering,Dense fruitlets of miniature size developing in the same bunch.,Due to extremely low temperature during fruit development.,
+38,Mango,Spongy tissue,"Although the outer surface of the fruit seems okey, portions of flesh  may have lumps and have corky appearance.",Due to prolonged storage in outdoor sunny environment after harvest.,
+39,Mango,Fruit drop,"Only 0.1\% of the total blossom develop into fruitlets, rest of the flowers are shed at different periods.",Due to developing fruitlets competing for nutrition.,
+40,Mango,Little leaf,Leaves occur in their miniature form,Due to lack of Zinc mineral.,
+41,Citrus,Post set fruit drop,"Just after fruit set occurs, fruitlets are lost by shedding.",,
+42,Citrus,June drop,Occurs during spring season.,,
+43,Citrus,Pre-harvest drop,Occurs right before the harvest when the fruits have fully developed.,,
+44,Citrus,Granulation,Fruit is corky and contains very little juice.,Due to hormonal imbalance of Auxin and Gibberelin.,
+45,Guava,Bronzing,Appearance of bronze discoloration in leaf and fruits.,Due to lack of Phosphorus and Potassium.,
+46,Maize,White bud,Young leaves are chlorotic and whitish.,Due to lack of Zinc mineral.,
+47,Pear,Core breakdown,"Brown, mushy core in overstored fruit",,
+48,Pear,"Neck breakdown, vascular breakdown",Brown to black discoloration of vascular tissue connecting stem to core,,
+49,Pear,Superficial scald,Grey to brown skin speckles; occurs early in storage,,
+50,Pear,Overstorage scald,Brown areas on skin in overstored fruit,,
+51,Pear,Brown heart,Sharply defined brown areas in flesh; may develop cavities,,
+52,Grape,Storage scald,Brown skin discoloration of white grape varieties,,
+53,Citrus,Storage spot,Brown sunken spots on surfaces,,
+54,Citrus,Cold scald,Superficial grey or brown patches,,
+55,Citrus,Flavocellosis,Bleaching of rind; susceptible to fungal attack,,
+56,Citrus,Stem-end browning,Browning of shrievelled areas around stem-end,,
+57,Peach,Woolliness,"Red to brown, dry areas in flesh",,
+58,Plum,Cold storage,"Brown, gelatinous areas on skin and flesh breakdown",,

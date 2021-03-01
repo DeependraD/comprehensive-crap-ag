@@ -1,0 +1,82 @@
+Crop,R-R_lower,R-R_upper,P-P_lower,P-P_upper
+Mango,10,12,10,12
+Mango (Amrapali),8,,8,
+Litchi,10,,10,
+Banana,2,3,2,3
+Banana (Dwarf),2,,2,
+Pineapple,0.6,,0.3,
+Papaya,2,,2,
+Guava,6,7,6,7
+Jackfruit,12,15,12,15
+Coffee,2,,2,2.5
+Tea (CTC),0.9,,0.6,
+Tea (Orthodox),0.6,,0.4,
+Avocado,8,10,8,10
+Macademia nut,6,,6,
+Strawberry,0.9,,0.3,0.45
+Arecanut,3,,3,
+Apple,6,,6,
+Pear,6,8,6,8
+Walnut,10,12,10,12
+Gladiolus,0.15,,0.15,
+Rose,0.45,,0.6,
+Gerbera,0.3,,0.45,
+Peach,5,6,5,6
+Plum,5,6,5,6
+Persimmon,5,6,5,6
+Apricot,6,,6,
+Hog plum,10,,10,
+Pomegranate,5,,5,
+Grape,2,3,2,3
+Kiwi,6,,4,
+Olive,8,,8,
+"Mandarin, sweet orange",5,6,5,6
+Lime,4,5,4,5
+Lemon,5,,5,
+Pummelo,5,6,5,6
+Sour orange,3,,4,
+Cauliflower (OP early type),0.45,,0.45,
+Cauliflower (OP medium type),0.6,,0.45,
+Cauliflower (OP late type),0.6,,0.45,
+Cauliflower (Hybrid),0.45,,0.45,
+Cucumber,0.75,2,0.75,2
+Chilly,0.3,0.6,0.3,0.6
+Rajnigandha,0.15,,0.2,
+Chrysanthemum,0.3,,0.3,
+Kholknol,0.2,,0.2,
+Cress,0.45,,0.3,
+Onion,0.15,,0.1,
+Cowpea,0.3,1.2,0.3,0.7
+Radish,0.2,,0.2,
+Turnip,0.3,,0.2,0.3
+Asparagus,1,,0.6,
+Large cardamom,1.2,1.5,1.2,1.5
+Carnation,0.15,,0.15,
+Tomato (tall),0.6,0.75,0.45,
+Tomato (short),0.6,0.75,0.45,0.75
+Tomato (medium),0.75,,0.45,0.75
+Pea,0.6,0.75,0.6,0.75
+Carrot,0.3,0.6,0.1,0.45
+Sponge gourd,2,3,2,3
+Chamsur,0.2,,0.2,
+Beet,0.45,,0.1,
+Watermelon,2,,1,
+Bitter gourd,1.5,,1,
+Lettuce,0.2,,0.2,
+Pumpkin,0.9,2,0.9,2
+Faba bean,0.6,,0.3,
+Cabbage,0.4,0.6,0.3,0.45
+Broccoli,0.45,0.6,0.3,0.45
+Brinjal,0.6,0.45,0.6,
+Chilly pepper,0.6,,0.45,
+Broad leaf mustard,0.45,0.5,0.3,0.5
+Garlic,0.15,,0.15,
+Bottle gourd,2,,2,
+Bean (kidney),0.45,1.2,0.3,0.7
+Swiss chard,0.45,,0.3,
+Sweet potato,0.45,,0.45,
+Soybean,0.3,,0.3,
+Potato,0.75,,0.25,
+Potato (TPS),0.25,,0.004,
+Ginger,0.3,,0.3,
+Turmeric,0.3,,0.25,

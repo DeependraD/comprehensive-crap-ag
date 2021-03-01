@@ -5,7 +5,7 @@
 
 In global production, 40% loss is attributed to insect; disease results in 13% loss of yield overall.
 
-## Plant pathology: historical events
+## Historical outbreaks of diseases
 
 **Irish famine**
 
@@ -19,7 +19,7 @@ Around 8 million people suffer from famine due to late blight of Potato by _Phyt
 
 Rust was first reported in the major coffee growing regions of Sri Lanka (then called Ceylon) in 1867. The causal fungus was first fully described by the English mycologist Michael Joseph Berkeley and his collaborator Christopher Edmund Broome after an analysis of specimens of a “coffee leaf disease” collected by George H.K. Thwaites in Ceylon. Berkeley and Broome named the _Hemileia vastatrix_ (Pucciniales, Basidiomycota), "Hemileia" referring to the half smooth characteristic of the spores and "vastatrix" for the devastating nature of the disease. Farmers completely burned down the orchard and restarted the cultivation.
 
-```{r coffee-rust-symptom, fig.width=6, out.width="80%"}
+```{r coffee-rust-symptom, out.width="50%", fig.cap="Coffee leaf showing rust pustules due to fungus"}
 knitr::include_graphics("./images/hemileia_vastatrix_coffee_leaf_rust.jpg")
 ```
 
@@ -30,13 +30,41 @@ Order: Peronosporales
 
 _Plasmopara viticola_, also known as grape downy mildew, is considered to be the most devastating disease of grapevines in climates with relatively warm and humid summers. It was first observed in 1834 by Schweinitz on Vitis aestivalis in the southeastern United States. France was among the first of the European countries to gain experience in dealing with the pathogen. Within just a few years of the pathogen's introduction the French attempted to graft American root stock to their own vines in order to produce a more resistant strain of grape. Depending on the year, production of grapes in France has been estimated to have been reduced by as much as 50%.
 
-```{r grape-downy-mildew, fig.width=6, out.width="80%"}
+```{r grape-downy-mildew, out.width="45%", fig.cap="Electron micrograph image of downy mildew fungus (\\textit{Plasmopara vitticola})"}
 knitr::include_graphics("./images/Plasmopara_vitticola.jpg")
 ```
 
 **Bengal famine of 1943**
 
 The Bengal famine stroke Bengal province of British India during World war II. An estimated 2.1-3 million, out of a population of 60.3 million, died of starvation, malaria, or other diseases aggravated by malnutrition, population displacement and other causes. Affecting of winter rice with a severe outbreak of fungal brown spot disease ( _Helminthosporium oryzae_) is considered to have a major role in the exacerbation of famine besides, political and other causes, cyclone particularly.
+
+\bquestions
+
+\question Classify various natural enemies and the nature of their effects on plants.
+
+\bsolution
+
+```{r natural-enemy-classification}
+tribble(
+  ~"Taxonomic group", ~"Enemy group", ~"Effect on plant", 
+  "Virus", "Pathogen", "Disease infection",
+  "Phytoplasma", "Pathogen", "Disease infection",
+  "Fungus", "Pathogen", "Disease infection",
+  "Higher plant", "Parasite", "Infestation",
+  "Nematode", "Parasite", "Infestation",
+  "Insect", "Parasite", "Infestation",
+  "Insect", "Herbivores", "Infestation",
+  "Snail and slug", "Herbivores", "Infestation",
+  "Vertebrate", "Herbivores", "Biting damage"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Taxonomic group of organisms and nature of damage to crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8)
+```
+
+
+\esolution
+
+\equestions
 
 ## Disease pests
 
@@ -160,8 +188,7 @@ Control measures: Apply Dilhan 278 (2g), Cuman L (4 ml/ltr) and Rovral (2g/ltr) 
 - Some of the most commonly used pyrethroid insecticides, such as permethrin, cypermethrin, decamethrin and fenvalerate, were synthesized in the 1970s.
 
 
-
-```{r}
+```{r historical-accidents-pesticide-release}
 tribble(~"Year", ~"Event", 
         "1930s", "'Ginger jake' paralysis in the US caused by cresyl phosphates", 
         "1962", "Silent spring by Rachel Carson published", 
@@ -171,7 +198,9 @@ tribble(~"Year", ~"Event",
         "1977", "Restriction on the use of dibromochloropropane for its toxicity on the male reproductive system", 
         "1984", "Accidents in Bhopal during the manufacture of carbaryl", 
         "1986", "Over 1000 tons of pesticides are spilled in the Rhine river") %>% 
-  knitr::kable(booktabs = TRUE, caption = "Some toxicologically-related events involving pesticides")
+  knitr::kable(booktabs = TRUE, caption = "Some toxicologically-related events involving pesticides") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(1:2, width = c("6em", "20em"))
 ```
 
 ### Brief history of DDT
@@ -565,7 +594,9 @@ tribble(~"Toxicity class", ~"Toxicity label", ~"Oral LD50 (mg/kg)", ~"Dermal LD5
         "Moderately toxic", "Warning!", "50-500", "200-2000", "0.2-2", 
         "Slightly toxic", "Caution!!", "500-5000", "2000-20000", "2-20", 
         "Relatively non-toxic", "Caution!!", ">5000", ">20000", ">20") %>% 
-  kable(booktabs = TRUE, caption = "Categories of pesticide toxicity")
+  kable(booktabs = TRUE, caption = "Categories of pesticide toxicity") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(1:5, width = c("6em", "6em", "8em", "8em", "8em", "8em"))
 ```
 
 Status of pesticide use in Nepal
@@ -635,6 +666,16 @@ These principles describe the main actions of IPM implementation through FFS. Sp
 
 - Same as that for control of Maize stem borer
 
+### Major insects of leguminous crops
+
+#### Soybean hairy caterpillar (Spilosoma obliqua)
+
+- Larvae is hairy with black and red hair (3-9 weeks)
+- Feeds gregariously in foliage upto 3rd instar and feeds whole foliage part of plant after 4th instar.
+- Adults have light yellow wings, larger spot in hind wings and small black spot in fore wings. They bear red abdomen.
+
+(...Continue from note copy)
+
 ### Major insects of tomato
 
 #### Leaf miner of tomato ( _Tuta absoluta_)
@@ -645,7 +686,7 @@ Its life-cycle comprises four development stages: egg, larva, pupa and adult. Ad
 
 After hatching, young larvae penetrate leaves, aerial fruits (like tomato) or stems, on which they feed and develop. Larvae drop to the ground in a silken thread and pupate in soil. Pupae (length: 5–6 mm) are cylindrical in shape and greenish when just formed becoming darker in colour as they are near adult emergence. Adults are 6–7 mm in length and present filiform antennae and silver to grey scales. Black spots are present on anterior wings, and the females are wider and more voluminous than the males. The adult moth has a wingspan around 1 cm. In favorable weather conditions eight to ten generations can occur in a single year. 
 
-```{r tuta-larvae, fig.width=6, out.width="80%"}
+```{r tuta-larvae, out.width="60%"}
 knitr::include_graphics("./images/tuta_absoluta.jpeg")
 ```
 
@@ -781,3 +822,429 @@ _Ladder pattern_
 - Sugary sprays, oil, "fish soup" or other materials can also be used to attract ants and wasps to the maize plants.
 
 **Use of chemical pesticides**
+
+## Pesticide and use registration in Nepal
+
+Pesticides management act, 2076 (2019) defines "pesticide" as:
+
+Any organic, vegetation, biological and chemical material which is used to protect plants, agricultural products, forest and forest products, living beings, livestock, human health, storage, packaging and construction works from any harmful disease, insect, mite, nematode, weed grass and rat, and this term also indicates the following substance:
+
+1. substance that reduces the growth of insects (harmful living beings) by preying on them, being predator, being parasite or causing disease on them and pheromone, attractant, repellent and deterrent,
+2. insect growth regulator, inhibitor,
+3. plant growth inhibitor,
+4. defoliant,
+5. dessicant,
+6. thinning agent,
+7. agent for preventing problems including the premature fall of fruit,
+8. substance in labs related to crops and agro-products to make disinfection (Disinfectant).
+
+There are 2 methods to pesticide registration -- Analogous and Comprehensive. Method in use for registration in Nepal is the Analogous method. Chapter 2 of the act details the procedure as well as criteria for registration of pesticides.
+
+### Registration procedure
+
+1. Any person, institution or body shall register any pesticide and its active element with the Plant Quarantine and Pesticides Management Center, prior to making its production, synthesis, export, import, commercial use, storage, sale,distribution, transportation, packaging or re-packaging.
+2. Any person, institution or body that wishes to make registration, should submit an application (accompanied by the details (refer to Table \ref{tab:application-details}) in the form prescribed).
+
+```{r application-details}
+
+```
+
+3. After examination (based on the criteria detailed in Table \ref{tab:pesticide-examination-criteria}), if the prescribed terms are found to have been met, it shall register such pesticide and grant the certificate thereof.
+
+```{r pesticide-examination-criteria}
+
+```
+
+4. The certificate shall be valid for 3 years.
+5. Provisions relating to the fee required for the registration of a pesticide are as indicated in Table \ref{tab:pesticide-registration-fees}
+
+```{r pesticide-registration-fees}
+
+```
+
+6. The ministry shall publish the name of the pesticides registered in the Nepal Gazette.
+
+The act has provisions for following:
+
+- Prohibition on use of pesticide not registered
+- Power revoked or suspend registration
+- Re-registration of the pesticide
+- Renewal of registered pesticide (Renewal of registration is valid for another 3 years)
+
+Similar to pesticide registration, Chapter 3 of the act has provisions relating License of the pesticide for:
+
+- Production
+- Synthesis
+- Export
+- Import
+- Transport
+- Packaging
+- Repacking
+
+The validity of the license is for 3 years, and further provisions relating to licensing, constitute:
+
+- Application by entity (Person, institution or body) for obtaining the license in the prescribed format with details
+- Examination by the Center
+- Provisions relating to the license for sale, distribution, spraying of pesticides, granting of license for sale, distribution of pesticide and business of spraying of pesticides, renewal and revocation thereof shall be as provided in the Provincial law of the concerned Province.
+- The license not renewed shall be deemed to have been revoked ipso-facto.
+- Qualification of the person, institution or body wishing to obtain the license are as follows:
+
+???
+
+- License may be revoked by the Centre in case of violation of the terms specified at the time of granting the license.
+
+The act (under Chapter 4) provisions formation of Pesticides Management Committee. There shall be a Pesticides Management Committee in order to provide opinion, suggestion and advice to the Government of Nepal on matters including the formulation of necessary policy related to the management of pesticides. The committee will be chaired by Secretary of the Ministry. The tenure of the members nominated shall be 3 years. The committee shall meet at least once in six months.
+
+Following are the functions, duties and powers of the committee:
+
+1. To  formulate  the  policy  on  pesticides  and  submit  it  to the Government of Nepal,
+2. To encourage the private seector to make investment in organic, vegetation based and safe chemical pesticides industries,
+3. To do, or cause to be done, acts relating to the setting of standards of pesticides and management of pesticides,
+4. To give necessary suggestion to the Government of Nepal for the ratification and implementation of international treaties and agreements on pesticides,
+5. To restrict the pesticides that cause adverse effect on human and animal health, health of living creatures and the environment,
+6. To hear complaints made against the decisions made by the Inspector or the Chief,
+7. To ascertain, or cause to be ascertained, if any substance or good is a pesticide or not,
+8. To approve the standards on the management of pesticides and enforce, or cause to be enforced, the same,
+9. To delegate the power as and when required to the Center and sub-committee,
+10. To perform such other functions as prescribed.
+
+The committee may, as required, form a sub-committee for the carrying out of acts of production, synthesis, import, export, commercial use, storage, sale, distribution, transportation, packaging or re-packaging of pesticides easily and smoothly.
+
+The committee may delegate some of its powers to the Provincial Pesticide Management Committee.
+
+There shall be a Plant Quarentine and Pesticides Management Center under the Ministry for carrying out the functions including the control, regulation, registration and management of pesticides. The Center has following functions, duties and powers:
+
+1. To carry out necessary functions as the secretariat of the Committee,
+2. To arrange for the registration or re-registration of pesticides,
+3. To specify the process and procedure to be followed for the registration of pesticides,
+4. To examine the applications received for the registration, re-registration of pesticides or renewal of the registered pesticides,
+5. To issue the certificate upon registration and re-registration of pesticides and renew the same,
+6. To issue the license for carrying out work relating to pesticides and renew the same,
+7. To prepare such infrastructures as prescribed for the use of pesticides, 
+8. To specify the standards for the equipment required for using pesticides,
+9. To carry out such other functions as specified by the Committee,
+10. To carry out such other functions as prescribed.
+
+Chapter-6 of the act contains provisions for use and management of pesticides and provides explanation of following sections:
+
+- Use of pesticides
+- Use of domestic pesticides
+- Production and use of vegetation based and organic pesticides to be encouraged
+- Production and synthesis of pesticides
+- Use of pesticides to be restricted
+- Management of the expired pesticides
+- Inspector to be appointed
+- Functions, duties and powers of the Inspector
+- Samples to be collected
+- Establishment of laboratory
+- Prohibition on advertisement of unregistered and restricted pesticides
+- Disposal of pesticides
+- Records to be maintained
+- Code of conduct may be formulated
+
+Chapter 7 and 8 contain sections on offence, punishment and compensation, and miscellaneous sections, respectively.
+
+
+## Chemical control of insect pests
+
+\scalebox{0.6}{\begin{minipage}{1.0\textwidth}
+
+```{r chemical-control-insects}
+read_csv("./data/chemical_control_insects.csv", skip = 1) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of chemical compounds used for pest control", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:10, width = c("6em", "7em", "4em", "4em", rep("5em", time = 6)))
+```
+
+\end{minipage}}
+
+## Pesticides and their effects on health
+
+```{r pesticide-effects}
+tribble(
+  ~"Insecticides", ~"Effects",
+  "Organochlorines", "Cause cancer, tumors, birth defects, mutations, blood disorders, spontaneous abortion, and damage to the brain, nerves and kidneys", 
+  "Aldrin (Class II, 100 mg/kg) ", "Cumulative in animal tissue but rapidly eliminated when exposure is terminated, short-lived on foliage, half life in soil is approximately 1-4 months, shorter in tropical conditions.",
+  "Lindane (gamma HCH, gamma BHC; Class II, 88 mg/kg)", "Stored in body fat",
+  "Chlordane (Class II, Oral 460 mg/kg)", "Stored in body fat, highly residual. Harmful to fish.",
+  "DDT (Class II, Oral 113 mg/kg)", "Stored in body fat, highly residual. Harmful to fish.",
+  "Endosulfan (Class II, Oral 80 mg/kg)", "Not cumulative in body tissues, moderately persistent on foliage. 50 percent residue is lost from plant tissue in 3-7 days.", 
+  "Organophosphates", "Build-up in humans with repeated exposure can cause irrversible nerve damage, loss of muscle functions. Spontaneous abortion, psychiatric disorders, and death. One teaspoonful of methy parathion spilled on the skin can be fatal",
+  "Demeton-s-methyl", "Does not accumulate in the body tissue, relatively short lived -- 14-21 days.",
+  "Diazinon", "Diazinon and its metabolities are rapidly excreted from the body, mainly in the urine, residue on foliage 5-10 days, and in the soil 2-3 weeks.",
+  "Dichlorovos (Class IB, 56 mg/kg)", "Non cumulative in the body tissue",
+  "Dimethoate (Class II, 150 mg/kg)", "Non cumulative in body tissue, as it is rapoidly excreted via the urine.",
+  "Fenitrothion (Class II, 500 mg/kg)", "Does not accumulate in body tissue",
+  "Malathion (Class III, 2100 mg/kg)", "Does not accumulate in body fat, residual properties are moderate",
+  "Monocrotophos (Class Ib, 14 mg/kg)", "Does not accumulate in body fat, persistance 7-14 days. Half life in soil is 10-20 days.",
+  "Parathion, methyl (Class Ib, 14 mg/kg)", "Does not accumulate in body tissue, non-persistent",
+  "Phorate (Class IB, 2 mg/kg)", "Does not accumulate in body fat, residues in the soil approximately 14 weeks",
+  "Phospahmidon (Class IA, 7 mg/kg)", "Does not accumulate in body tissues, half life on plants about 2 days",
+  "Carbamates", "Cause nerve damage, spontaneous loss of muscle function, and death",
+  "Carbaryl (Class III, > 300 mg/kg)", "Residual half life of 3-5 days",
+  "Carbofuran (Class III, 8 mg/kg)", "Half life in the soil, 30-60 days, metabolised in the liver",
+  "Pyrethroids", "Affects central nervous system",
+  "Cypermethrin (Class III, > 4000 mg/kg)", "Does not accumulate in the tissues, residues on foliage 10-14 days but several weeks in the soil.",
+  "Fenvalerate (Class III, 32000 mg/kg)", "Persistent in fat tissue but does not accumulate, short residual life on foliage (10-14 days) but several weeks in the soil.",
+  "Copper oxychloride (Class III, 1440 mg/kg)", "Does not accumulate in animal tissues, relatively short life",
+  "Mancozeb (Class II, 8000 mg/kg)", "Does not accumulate in body fats, residual-moderately persistent",
+  "Tridemorph (Class II, 650 mg/kg)", "Residual properties 20-28 days, does not accumulate in animal tissues",
+  "2,4-D (Class II, Oral 375 mg/kg in rats)", "Relatively short-lived dry residue, breaks down quite rapidly",
+  "Atrazine (Class III, 7500 mg/kg)", "Residue approximately 6-12 months in soil depending on the soil type, slightly toxic to fish."
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Effects of pesticides on health", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("12em", "28em"))
+```
+
+
+## Integrated pest management
+
+IPM is ecologically sound, environmentally non-pollutive, and sustainable to the economies of poor nations.
+
+Integrated Pest Management aims to suppress pest populations below the economic injury level (EIL). The UN's Food and Agriculture Organization defines IPM as "the careful consideration of all available pest control techniques and subsequent integration of appropriate measures that discourage the development of pest populations and keep pesticides and other interventions to levels that are economically justified and reduce or minimize risks to human health and the environment. IPM emphasizes the growth of a healthy crop with the least possible disruption to agro-ecosystems and encourages natural pest control mechanisms."
+
+An American IPM system is designed around six basic components:
+
+1. Acceptable pest levels
+2. Preventive cultural practices
+3. Monitoring
+4. Mechanical controls
+5. Biological controls
+6. Responsible use
+
+The Plant Protection Center and the International Rice Research Institute (IRRI) have been encouraging farmers to grow flowers, okra and beans on rice paddy banks, instead of stripping vegetation, as was typical. The plants attract bees and a tiny wasp that eats planthopper eggs, while the vegetables diversify farm incomes.
+
+### Development of resistance in insects
+
+Nepal has been using chemical pesticides since 1955. In the beginning, they were considered to be boon for the farmers with sightings of dramatic yield increases, as well as being useful against of serious tropical diseases like malaria.
+
+It was soon found that new chemicals were also responsible for environmental damage. People were poisoned through land, water and food. Indiscriminate use of pesticides was found to be responsible for creating new biotypes -- "super bugs".
+
+Pyrethroid, endosulfan, organophosphate and carbamate insecticides created a resistance to them in the larvae of _Helicoverpa armigera_ in Nepal. _H. armigera_ strains from Pokhara showed a 12-fold resistance to pyrethroids in 1993 and that in 1995 in Nepalgunj was 103-fold. During the same period, 2-3 fold tolerance to endosulfan was recorded in Pokhara.
+
+### IPM in Nepal
+
+- In 1997, Nepal adopted the Community IPM (CIPM) and first project of that was implemented in 1998 as Farmer's Field School (FFS) in Chitwan (Kumroj and Kathar area) for the management of pest (Brown Plant Hopper) in spring rice.
+- From the 9th five year plan (1997-2002), Government of Nepal listed IPM-FFS on the top priority.
+- Nepal received additional financial support from the Norwegian Government under the technical support of FAO Regional Community IPM (CIPM) of Asia for 1998 - 2000.
+- In 1999, one year after the first IPM-FFS lunched, two INGOs (CARE and World Education) also joined the CIPM program in Nepal.
+- National IPM program (2003)
+- Support to National IPM-FFS program (SNIPM) Phase-I (2004-2007)
+- National Agriculture Extension Strategy (2006) of Department of Agriculture (DOA) has also given priority to IPM-FFS model. 
+- Support to National IPM-FFS program (SNIPM) Phase-II (2008-2012)
+
+### IPM techniques in pest control
+
+1. Cropping system change
+2. Mechanical control
+
+#### Some traps used in pest monitoring and control
+
+```{r pest-traps}
+tribble(
+  ~"sn", ~"trap", ~"use",
+  1, "Light trap", "Nocuturnal insects with flight",
+  2, "Yellow sticky trap", "Small insects with flight like, aphid, white fly, leaf minor",
+  3, "Steiner trap", "Methyl eugenol, Cu-lure pheromone", 
+  4, "Funnel trap", "Heli-lure, Spodi-lure, Lucinoid-lure, Pectino-lure, Scirpolure", 
+  5, "Delta trap", "DBM and Protula-lure",
+  6, "Ottati trap", "DBM, Protula-lure, PTM-lure",
+  7, "McPhail trap", "Can be used with different pheromone based lures",
+  8, "Pitfall trap", "Surface dwelling/crawling insects"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Some traps and lures for pest monitoring and management", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("16em", "25em"))
+```
+
+```{r pheromone-traps-graphics, fig.cap="Different types of pheromone traps used in field; traps used in crop field (a-e), traps with trapped pest insects (f-h). a. one lure septum hanged with crop plant, b. net trap, c. water trap, d. bucket trap, e. bucket with window trap, f. delta trap, g. Yellow sticky trap, h. wing trap", out.width="50%"}
+knitr::include_graphics("./images/pheromone_traps.png")
+```
+
+#### Some pheromone based traps and lures
+
+```{r pheromone-lures}
+tribble(
+  ~"sn", ~"Trap name", ~"Use", ~"Crop",
+  1, "Methyl eugenol", "Fruit fly larvae", "Citrus, mango", 
+  2, "Cu-lure", "Fruit fly larvae", "Cucurbitaceous crops",
+  3, "Bactrocera dorsalis", "Fruit fly larvae", "Citrus, mango and cucurbitaceous crops",
+  4, "Heli lure", "Tomato fruit borer", "Tomato, chickpea, pigeonpea",
+  5, "Spodo lure", "Tobaccoo leaf worm", "Tobaccoo, crucifer, potato and tomato",
+  6, "DBM and protula lure", "Diamond back moth", "Crucifer",
+  7, "Leucinoid lure", "Fruit and stem borer", "Brinjal", 
+  8, "PTM lure", "Miner", "Potato",
+  9, "Scirpo-lure", "Yellow borer", "Rice",
+  10, "Pectino-lure", "Pink borer", "Cotton",
+  11, "TLM-lure", "Tomato leaf miner", "Tomato"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Some commonly used phenomone traps and lures for respective crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:4, width = c("5em", "6em", "8em", "8em"))
+```
+
+3. Biological control
+
+- Tabulate ... botanicals (Azadirachtin, Bt, Pseudomonas ...)
+
+4. Legal method
+5. Use of botanicals
+6. Chemical method
+
+
+## Estimated crop loss owing to different causes
+
+- Post-harvest loss: 10-12\%
+- Loss during storage: 7-10\%
+- Post-harvest loss in vegetables: 25\%
+- Post-harvest loss in tomato: 22\%
+- Post harvest loss in cereal grains: 10-30\%
+- Post harvest loss in potato: 32\%
+- Post harvest loss in fruits: 20\%
+- Post harvest loss in cruciferous vegetables: 12-15\%
+- Crop loss due to rodents: 7-10\%
+- Crop loss during harvesting/cutting: 2-7\%
+- Loss during seed storage: 4-5\%
+- Crop loss due to diseases: 14\%
+
+## Bee keeping (Apiary)
+
+```{r life-cyle-bee}
+tribble(
+  ~"Type", ~"Reproductive maturity", ~"Egg", ~"Larvae", ~"Pupa", ~"Time to adult", ~"Length of body", ~"Hatching weight", ~"Average span of life",
+  "Queen", "23 days", "3 days", 
+  "8 days", "8 days or time to emergence", "16 days",
+  "8-22 mm", "200 mg", "2-5 years",
+  "Worker", NA, "3 days", "9 days", "10 days or time to emergence", "24 days", "12-15 mm", "100 mg", "5-6 months",
+  "Drone", "38 days", "3 days", "9.5 days", "10 days or time to emergence", "21 days", "15-17 mm", "200 mg", "Untill first mating"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Life cycle of various types of bees", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:9, width = c("3em", "4em", "3em", "4em", "6em", "5em", "4em", "4em", "5em"))
+```
+
+### Nepalese honey bees
+
+1. _Apis cerana_
+
+- Domestic species
+- Suitable for hilly region
+- Can be successfully reared upto the elevation of 3400 masl
+- Also called "asian bee"
+- Average productivity: 15 kg/year/hive
+
+2. Apis melifera
+
+- Imported from europe durign FY 2051/52
+- Can be successfully reared upto the elevation of 1500 masl
+- Also called "european bee"
+- Extensively adopted kind for commercial apiary
+- Average productivity: 40 kg/year/hive
+
+3. Apis laboriosa
+
+- Found in wild form in forests of Nepal
+- Adapted to locations ranging upto 1200-1500 masl
+- Also called "rock honey"
+- Average productivity: 2-5 kg/year/hive
+
+
+4. Apis dorsata
+
+- Found in wild form in forests of Nepal
+- Adapted to locations within 1000 meters above sea level
+- Also called "Giant bee"
+- Average productivity: 2-5 kg/year/hive
+
+5. Apis florea
+
+- Found in wild form in the forests of Nepal
+- Can be found in regions upto 300-500 masl
+- Also called "Small bee"
+- Average productivity: 1 kg/year/hive
+
+### Historical events related to apiary
+
+1. 2022/23 BS -- Department of Agriculture started providing general services regarding beekeeping.
+2. 2029 BS -- Entomology division established at Khumaltar, Lalitpur
+3. 2040 BS -- Apiary development section under Department of Agriculture.
+4. 2057 BS -- Apiary development section was renamed into commercial insect development directorate.
+5. 2051/52 BS -- Modern apiary began in Nepal
+6. 2075 BS -- Commercial insect development directorate was renamed as commercial insect development centre.
+
+### Some facts related to bee keeping
+
+- The feed of the queen is called Royal jelly.
+- Worldwide, recorded history of bee keeping dates back to 1835.
+- The optimal number of bees in a beehive ranges 30000-40000, out of which queen there is a single queen and 1000-2000 drones (male) and the rest are worker bees.
+- Flight ability of a bee: 22 mph (10 meter per second)
+- At any given time a bee hauls 25-40 ml of flower nectar.
+
+```{r bee-behavior}
+tribble(
+  ~"Swarming", ~"Absconding",
+  "Swarming is a honey bee colony's natural means of reproduction.", "The act of all adult honey bees permanently leaving their nest is called Absconding.", 
+  "In the process of swarming, a single colony splits into two or more distinct colonies", "This usually occurs because the colony is stressed: possible causes are poor ventilation, too much heat, moisture, predators such as mites, moths, ants, or beetles, lack of food, or other intolerable problems.",
+  "Swarming is mainly a spring phenomenon, usually within a two- or three-week period depending on the locale, but occasional swarms can happen throughout the producing season.", "Absconding may occur at any time of the year, owing to the stressing factors", 
+  "A prompt sign of swarming is excessive increase in hive population. Likewise, when the hive is getting ready to swarm, the queen lays eggs into the queen cups. New queens are raised and the hive may swarm as soon as the queen cells are capped", "These are a few things that may be a sign of bees that may abscond -- Spotted brood pattern, Decreasing population, Bees with deformed wings, Lack of honey stores, Empty combs, Small hive beetles, Wax moth, Ant invasion, Wasps", 
+  "This usually results in establishment of new and healthy colony", "Absconding results in loss of existing colony as well as the resources as the bees tend to exhaust honey during the course.",
+  "If there is suitable hive to relocate nearby swarming bees may be safely captured", "Absconding bees take a tall flight and drive away quick without even scouting; they cannot be captured or propagated."
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Difference between Absconding and Swarming behavior of bee", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
+```
+
+### Nepalese standard of honey
+
+- Fructose/glucose: > 1\%
+- Sucrose: < 6\%
+- Sugar: > 65\%
+- Moisture: 20\%
+- Free acid: < 0.2\%
+- European Union banned the import of Nepalese honey in 2002 AD.
+
+### Diseases of honeybee
+
+1. European foul brood
+- Both _A. melifera_ and _A. cerana_ species of bees are affected, with sympotoms prominent in larval stage.
+- Causative organism: _Melisococcus plutorious_ (bacteria)
+- Once the bacteria infects the larvae, the body of the insect turns yellow, initially and brown later on, eventually the larvae decays.
+
+2. Thai sac brood
+- Observed in both _A. melifera_ and _A. cerana_ species.
+- Causative agent: Thai Sac Brood Virus
+- This disease was first observedin Thailand.
+- Sacbrood virus causes an uneven brood pattern with discoloured, sunken or perforated cappings scattered throughout the brood.
+- The virus multiplies within the infected larvae, which cause the larvae to sit in the cell with their heads raised and causes the larvae to die shortly after capping.
+- The superficial layer of the infected larvae becomes tender and sac-like, with yellow fluid inside.
+- The Sacbrood virus may remain viable in dead larvae, honey or pollen for up to four weeks.
+
+3. Chalk brood
+- Causative agent: _Ascosphaera apis_ (fungus)
+- Mostly affects colonies during winter season
+- As infection progresses, larvae grows stiff and eventually appears whitish chalk-like.
+
+4. American foul brood
+- Affects larval stage of the insect
+- As of recent, it has not been observed in Nepal
+- Causative agent: _Paenibacillus larvae_ (bacteria)
+
+5. Nosima
+- Affects adult form of the insect
+- Causative agent: _Nosema apis_ (unicellular parasitic fungus)
+- The dormant stage of _N. apis_ is a long-lived spore which is resistant to temperature extremes and dehydration, and cannot be killed by freezing the contaminated comb.
+- This disease causes unusually heavy intestine injuries in the bees, no diarrhea, preferential affliction of older collecting bees. Bees die far away from the dwellings, as when they leave they are too weak to return.
+
+6. Paralysis
+- Disease affects adult stage of life form of the insect.
+- Bees crawl with loss of flight ability when affected.
+- Causative agent: Chronic bee paralysis virus
+
+## Semiochemicals
+
+**Allomones** are communication compounds that function in interspecific communication. They fall within the broad classes of chemical signals referred to as allelochemicals or allelomones. On contact with an individual of another species, an allomone evokes a behavioral and/or a physiological response in the receiver. Allomones are of benefit to the releaser, usually to the detriment of the receiver. Key among these are their roles as defensive secretions against predators or other natural enemies, such as the formic acid sprayed by formicine ants and the venom from many social wasps, social bees, and ants. Compounds including organic acids, alcohols, ketones, aldehydes, esters, hydrocarbons, phenolics, quinones, amines, alkaloids, sulfides, steriods, and proteins have all been identified as allomones in various social insects.
+
+**Kairomones** a chemical substance emitted by an organism and detected by another of a different species which gains advantage from this, e.g. a parasite seeking a host. This "eavesdropping" is often disadvantageous to the producer (though other benefits of producing the substance may outweigh this cost, hence its persistence over evolutionary time). The kairomone improves the fitness of the recipient. In the Ponderosa Pine tree (Pinus ponderosa), a terpene called myrcene is produced when it is damaged by the Western pine beetle. Instead of deterring the insect, it acts synergistically with aggregation pheromones which in turn act to lure more beetles to the tree.

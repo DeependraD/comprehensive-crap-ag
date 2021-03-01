@@ -1,0 +1,490 @@
+## Prime minister agriculture modernization project
+
+Prime Minister Agriculture Modernization Project (PMAMP) is 10 years plan for increasing agricultural production, productivity, management of input and technical manpower for agricultural production, mechanization in production, processing and marketing infrastructure development for the modernization and overall independency in agriculture. Ministry of Agriculture and Livestock Development, Government of Nepal is the implementing body of the project.
+
+- Project duration: Shrawan 2073 - Ashar 2082
+- Total estimated cost of project: 1 Kharba, 30 Arab, 74 Crore, 20 Lakhs
+- Budget of the year 2076/77: 8 Arab
+
+Coordinating agencies for project implementation are:
+
+- Ministry of Finance
+- Ministry of Irrigation
+- Ministry of Forestry and Land Conservation
+- Ministry of Industry
+- Ministry of Commerce
+- Ministry of Federal Affairs and Local Development
+- Ministry of Energy (As of Magh 2077, Ministry is repurposed as Ministry of Energy, Water Resources and Irrigation)
+- Ministry of Livestock and Poultry Development
+- Ministry of Urban Development
+- Ministry of Physical Infrastructure and Transportation
+- Ministry of Education
+
+Under this project, four category of agriculture production will be implemented among which Small commercial agriculture production center (Pockets), Commercial, agriculture production centers (Blocks), Commercial agriculture production and processing centers (Zones) and Extensive commercial agriculture production and industrial centers (Super zones) development program will be launched in different parts of country according to the Agro-ecological diversity.
+
+The PMAMP project has set the goals to render the country self-reliant in cereal crops within 3 years and vegetables and fishery within 2 years. There is a provision of formation of program implementation coordination committee with membership of individual farmers, farmer groups, cooperatives and firms in each of the pockets, blocks, zones and superzones to facilitate the activities of the program.
+
+```{r membership-pmamp-coordination-committee}
+tribble(
+  ~"Program", ~"Committee", ~"Membership", ~"Female members", ~"Term", 
+  "Pocket", "Pocket implementation coordination committee", 5, 2, 2, 
+  "Block", "Block implementation coordination committee", 7, 3, 2, 
+  "Zone", "Zone implementation coordination committee", 9, 3, 2, 
+  "Superzone", "Superzone implementation coordination committee", 9, 3, 2
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "PMAMP program implementation committees membership norms") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 2, width = "12em")
+```
+
+The current running fiscal year 2077/78 is the 5th year of project implementation.
+
+### Super Zones
+
+Super zones are the areas with particular commodity cultivated in 1000 hectors of area with minimum infrastructures, implemented with intention of large agricultural production, and development of agro-industrial area. The major objectives of Super zones in Nepal are increase in production and productivity of commodity, mechanization and commercialization, establishment of processing centers, seed production and agricultural research centers in those areas and eventually lead to independent in agricultural commodity. They will be working at national level for agricultural production.
+
+There will be total of 21 super zones in Nepal by the end of this project. 
+
+At present the existing 16 Super zones of different commodity in Nepal are given below:
+
+- Rice: Jhapa, Kapilvastu, Bardiya, Kanchanpur
+- Fish: Bara, Dhanusha, Rupendehi
+- Potato: Kavrepalanchowk, Dadeldhura
+- Vegetable: Kaski
+- Maize: Dang
+- Apple: Jumla
+- Wheat: Kailali
+- Sweet orange: Sindhuli
+- Mandarian: Syangja
+- Coffee: Gulmi
+
+### Zones
+
+Zones are the areas with minimum infrastructure and with minimum of 500 hectors of particular commodity cultivation established with objective of increasing production and productivity, mechanization, commercialization and finally establishing agricultural processing centers. Also, it aims establishing Custom hiring Centre, Community seed banks, Processing grading and packaging units, marketing infrastructures, CAESC Infrastructures/laboratories etc. in such areas as agricultural infrastructures. They will be working at national level for agricultural production.
+
+By the end of the project's term, 300 zones will have been established all over the country.
+
+At present the existing 106 zones (including 8 related to livestock and poultry) of different commodity in Nepal are given below:
+
+- Rice: Morang, Sunsari, Siraha, Dhanusha, Sarlahi, Rautahat, Chitwan, Gorkha, Pyuthan, Salyan, Parbat
+- Maize: Jhapa, Khotang, Sindupalchowk, Parbat, Gulmi, Rolpa, Banke, Baitadi, Dhading
+- Wheat: Nawalparasi
+- Multi cereal crops (Rice, Maize, Potato): Udyapur
+- Potato: Okhaldhunga, Ramechhap, Rasuwa, Nuwakot, Bhaktapur, Kathmandu, Baglung, Dailekh, Bajhang, Achham
+- Vegetable: Dhankuta, Sunsari, Mahottari, Parsa, Nuwakot, Dhading, Chitwan, Makwanpur, Lalitpur, Tanahun, Nawalparasi, Palpa, Kapilvastu, West Rukum, Arghakhachi, Surkhet, Rautahat
+- Bean: Mugu
+- Soybean: Dadeldhura
+- Rapeseed: Dang, Kailali
+- Fish: Morang, Sunsari, Mahottari, Kapilvastu
+- Goat: Ramechhap, Arghakhachi, Dailekh, Achham
+- Pig: Myagdi, Sunsari
+- Buffalo: Saptari
+- Cow: Ilam
+- Apple: Manang, Mustang, Kalikot, Dolpa, Humla, Darchula
+- Mandarian: Solukhumbu, Udyapur, Gorkha, Myagdi, Nawalpur, Gulmi, Jajarkot, Dailekh
+- Sweet orange: Ramechhap
+- Mango: Saptari, Siraha
+- Banana: Chitwan
+- Walnut: East Rukum
+- Kiwi: Ilam, Dolakha, Solukhumbu.3
+- Cardamom: Taplejung, Pachthar, Sankhuwasabha, Terathum, Bhojpur, Lamjung
+- Ginger/Turmeric: Solukhumbu, Udyapur, Sunsari, Syangja, Salyan, Surkhet, Doti
+- Honey Bee: Dang, Chitwan, Jajarkot
+- Arachis (Supari): Jhapa
+- Rubber: Jhapa
+- Olive: Bajura
+
+### Blocks
+
+Blocks are the areas with minimum infrastructure and with minimum of 100 hectors of particular commodity (In case of Honey bees, Mushroom, High tech, Green house / plastic house, fish pond according to act) cultivation established with objective of increasing production and productivity, mechanization, commercialization. Blocks are at district level which are agricultural production centers and support in advancement in district agricultural production and status. The agriculture infrastructure developed will be community seed bank, processing, grading and packaging units, marketing infrastructures, plant quarantine infrastructure / laboratory.
+
+There will be total of 1500 blocks all over the country.
+
+Currently, there are only 336 blocks in fully functioning state.
+
+### Pockets
+
+Pockets are the primary agricultural production centers at district level with minimum area of 10 hectors of cultivated areas of particular commodity. (In case of Honey bees, Mushroom, High tech, Green house / plastic house, fish pond according to act). The major objectives of pockets are increase in production, productivity, commercialization, modernization, easy supply of agricultural production inputs and technical assistance in those areas. Agricultural infrastructures like threshing floor, storage house, collection centers will be developed in such areas.
+
+There will be 10,000 pockets in total all over the country. The existing number of established pocket areas is 2776.
+
+```{r zone-superzone}
+
+pmamp_2075_zone_superzone <- readxl::read_xlsx("./data/npl_pmamp_superzone_zone_block_pockets.xlsx", sheet = "zone_superzone", skip = 1)
+
+knitr::kable(pmamp_2075_zone_superzone,
+             booktabs = TRUE,
+             caption = "Zone and superzones programs under PMAMP (2075)", 
+             digits = 3, linesep = '',
+             align = paste0(rep("l", times = ncol(pmamp_2075_zone_superzone))),
+             longtable = TRUE,
+             escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
+                            full_width = FALSE, font_size = 8, 
+                            # row_label_position = "c", # centering row label breaks "column_spec" and everything 
+                            position = "center")
+```
+
+\scalebox{0.8}{\begin{minipage}{1.0\textwidth}
+
+```{r pocket-blocks}
+
+pmamp_2075_pockets <- readxl::read_xlsx("./data/npl_pmamp_superzone_zone_block_pockets.xlsx", sheet = "pocket", skip = 1)
+
+pmamp_2075_pockets_split <- pmamp_2075_pockets %>% mutate(splits_cut = as.numeric(cut(row_number(), breaks = 4))) %>% 
+  group_split(splits_cut) %>% 
+  map(~.x %>% select(-splits_cut))
+
+max_rows <- max(map_dbl(pmamp_2075_pockets_split, nrow))
+equalizing_mask <- map_dbl(pmamp_2075_pockets_split, nrow) != max_rows
+
+pmamp_2075_pockets_split[equalizing_mask] <- pmamp_2075_pockets_split[equalizing_mask] %>% 
+  map(~add_row(.x, tibble("SN" = rep(NA, max_rows-nrow(.x)), 
+                          "District" = rep(NA, max_rows-nrow(.x)), 
+                          "Number of pockets" = rep(NA, max_rows-nrow(.x)))))
+
+pmamp_2075_pockets_split <- pmamp_2075_pockets_split %>% 
+  bind_cols()
+
+knitr::kable(pmamp_2075_pockets_split,
+             format = "latex",
+             booktabs = TRUE,
+             caption = "Districtwise pocket programs implemented in 2073/74 under PMAMP", 
+             digits = 3, linesep = '',
+             align = paste0(rep("l", times = ncol(pmamp_2075_pockets))),
+             longtable = TRUE,
+             escape = FALSE, col.names = rep(colnames(pmamp_2075_pockets), times = 4)) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
+                            full_width = FALSE, font_size = 8, 
+                            position = "center") %>% 
+  kableExtra::column_spec(column = outer(1:3, 3), width = rep("6em", times = 3))
+```
+
+\end{minipage}}
+
+### Minimum area cultivation/rearing requirements
+
+Minimum area required for pockets and blocks denominations are differently indicated for agro-ecological zones of Nepal.
+
+\scalebox{0.6}{\begin{minipage}{1.0\textwidth}
+
+```{r pockets-blocks-requirement}
+read_csv("./data/pmamp_production.csv", skip = 1) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::column_spec(column = c(1:2,4,8), width = c("12em", "10em", "8em", "10em"))
+```
+
+\end{minipage}}
+
+\scalebox{0.8}{\begin{minipage}{1.0\textwidth}
+
+```{r zone-superzone-requirement}
+
+tribble(
+  ~"product", ~"unit", ~"area", ~"remark", 
+  "Crop", "Ha", 500, NA, 
+  "Bee", "Hives", 5000, NA, 
+  "Fishery", "Ha of pond/reservoir", 500, NA, 
+  "Cattle", "Number of improved milch animal", 2000, "A minimum of 5000 ltr of daily milk production", 
+  "Buffalo", "Number of improved milch animal", 1000, "A minimum of 5000 ltr of daily milk production", 
+  "Goat", "Number of improved breed of animal", 15000, NA, 
+  "Swine", "Number of improved breed of animal", 1000, NA
+  ) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Minimum area/number of units required for a Block program", longtable = TRUE, col.names = str_to_sentence(colnames(.))) %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 4, width = "8em")
+
+tribble(
+  ~"product", ~"unit", ~"area",
+  "Crop", "Ha", 1000, 
+  "Fishery", "Ha of pond/reservoir", 500
+  ) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Minimum area/number of units required for a Superzone program", longtable = TRUE, col.names = str_to_sentence(colnames(.))) %>% 
+  kableExtra::kable_styling(font_size = 10)
+```
+
+\end{minipage}}
+
+## Multidimensional poverty index (MPI)
+
+MPI is a composite index of three dimensions of poverty -- health, education each with two indicators (nutrition, child mortality, for health, and years of schooling and school attendance, for education) and living standard with six indicators (cooking fuel, improved sanitaiton,improved drinking water, electricity, flooring and roofing and asset ownership). The percentage of people under deprivation is the outcome of equal weight of all dimensions and their respective indicators. The MPI is used to identify a person as multi-dimensionally poor is he or she is deprived in at least one third of the dimensions.
+
+- MPI of nepal:
+  - 2011 $\longrightarrow$ 0.217
+  - 2014 $\longrightarrow$ 0.127 (NPC, 2019). This means that multi-dimensionally poor people in Nepal experience 12.7% of the total deprivations that would be experienced if all people were deprived in all indicators.
+  
+- $MPI = H \times A$
+  - H: The incidence of poverty (or poverty rate; The proportion of people identified as multi-dimensionally poor).
+  - A: The intensity of poverty (of the average proportion of weighted indicators in which the poor are deprived)
+  - Values of H and A are, respectively, 28.6% and 44.2% (as of 2014 survey).
+- Provincewise MPI values:
+  - Province 1: 0.085
+  - Province 2: 0.217
+  - Province 3: 0.051
+  - Province 4: 0.061
+  - Province 5: 0.133
+  - Province 6: 0.230
+  - Province 7: 0.146
+
+## Human Development Index
+
+The HDI is a simple, approximate statistic devised to introduce non-income factors and rival traditional economic indicators within a framework of international development. Formula produces composite statistic of life expectancy, education and income indices, which are used to rank countries into four tiers of human development, well-being concept based on capability approach. It is annually published by the UNDP since 1990. The index has been developed as a broad proxy intending to stimulate political changes and according to UNDP shall not be considered the only measure of a country's level of development in general nor the ultimate measure within the concept of human development. Despite shortcommings, HDI is reported to greatly influence policy-makers all around the world, thus contributing to reduction of global poverty.
+
+- HDI of Nepal was 0.463 (157th position globally), while it was 0.955 (1st position globally) for Norway.
+- HDI of Nepal was 0.54 (145th position globally)
+
+## Gender Development Index (GDI) and Gender Empowerment Index (GEI)
+
+The GDI and GEI were introduced in 1995 in the Human Development Report written by the UNDP. The aim of these measurements was to add a gender-sensitive dimension to the Human Development Index (HDI). The GDI is defined as a distribution-sensitive measure that accounts for the human development impact on existing gender gaps in the three components of the HDI (Klasen, 1995). The GDI takes into account not only the average or general level of well-being and wealth within a country, but focuses also on how this wealth and well-being is distributed between different groups within society. The HDI and the GDI were created to rival the more traditional general income-based measures of development such as GDP and GNP. GDI, on the other hand, addresses gender-gaps in life expectancy, education, and incomes. It uses an "inequality aversion" penalty, which creates a development score penalty for gender gaps in any of the categories of the HDI which include life expectancy, adulty literacy, school enrollment, and logarithmic transformations of per-capita income.
+
+Only the gap between the HDI and GDI can be accurately considered; the GDI on its own is not an independent measure of gender-gaps.
+
+- The GDI and HDI (women) of Nepal are, respectively, 0.925 and 0.552 as of 2017. This ranks Nepal in 115th position globally.
+
+## Organic agriculture
+
+Organic Agriculture is a production system that sustains the health of soils, ecosystems, and people. It relies on ecological processes, biodiversity and cycles adapted to local conditions, rather than the use of inputs with adverse effects. Organic Agriculture combines tradition, innovation, and science to benefit the shared environment and promote fair relationships and good quality of life for all involved. -- IFOAM General Assembly, 2008
+
+In September 2005 in Adelaide, Australia, the General Assembly of IFOAM - Organics International passed a motion to establish a succinct Definition of Organic Agriculture.
+
+Alternatively, organic farming is the system of growing crops wherein use of chemical fertilizer and pesticides is avoided and the health and hygiene of human as well as the production systems are attempted to improve.
+
+### History
+
+- The emergence of organic agriculture can be tracked back to the early 20th century, when the Austrian philosopher Rudolf Steiner delivered a series of lecture in 1924, which were later published as "Spirituals Foundations for Renewal of Agriculture" that coined the term 'biodynamic agriculture'. Later its development followed by a number of key people, independently in the USA, Germany, and United Kingdom; and at present it is guided by the four principles of International Federation of Organic Agriculture Movement (IFOAM).
+
+Albert Howard (England, 1940) independently initiated the organic movement. He is also known as the father of organic agriculture. With the rising concerns about environmental impacts of pesticide use and rise in extreme climatic events attributable to the climate change, and issues regarding environmental degradation and widespread acceptance about need for environmental protection, currently individuals and groups alike, worldwide, have felt the necessity to promote organic system for food production system.
+
+### Principles
+
+#### The principle of health
+
+Health is the wholeness and integrity of living systems. It is not simply the absence of illness, but the maintenance of physical, mental, social and ecological well-being. Immunity, resilience, and regeneration are key characteristics of health.
+
+This principle points out that the health of individuals and communities cannot be separated from the health of ecosystems -- healthy soils produce healthy crops that foster the health of animals and people.
+
+The role of organic agriculture, whether in farming, processing, distribution, or consumption, is to sustain and enhance the health of ecosystems and organisms from the smallest in the soil to human beings.
+
+#### The principle of ecology
+
+Organic agriculture should be based on living ecological systems and cycles, work with them, emulate them and help sustain them.
+
+This principle roots organic agriculture within living ecological systems. It states that production is to be based on ecological processes, and recycling.
+
+Organic farming, pastoral and wild harvest systems should fit the cycles and ecological balances in nature. These cycles are universal but their operation is site-specific. Organic management must be adapted to local conditions, ecology, culture and scale. Inputs should be reduced by reuse, recycling and efficient management of materials and energy in order to maintain and improve environmental quality and conserve resources.
+
+Organic agriculture should attain ecological balance through the design of farming systems, establishment of habitats and maintenance of genetic and agricultural diversity. Those who produce, process, trade, or consume organic products should protect and benefit the common environment including landscapes, climate, habitats, biodiversity, air and water.
+
+#### The principle of fairness
+
+Organic agriculture should build on relationships that ensure fairness with regard to the common environment and life opportunities.
+
+Fairness is characterized by equity, respect, justice and stewardship of the shared world, both among people and in their relations to other living beings.
+
+This principle emphasizes that those involved in organic agriculture should conduct human relationships in a manner that ensures fairness at all levels and to all parties - farmers, workers, processors, distributors, traders and consumers. Organic agriculture should provide everyone involved with a good quality of life, and contribute to food sovereignty and reduction of poverty. It aims to produce a sufficient supply of good quality food and other products.
+
+This principle insists that animals should be provided with the conditions and opportunities of life that accord with their physiology, natural behavior and well-being.
+
+#### The principle of care
+
+Organic agriculture should be managed in a precautionary and responsible manner to protect the health and well-being of current and future generations and the environment.
+
+Organic agriculture is a living and dynamic system that responds to internal and external demands and conditions.
+
+This principle states that precaution and responsibility are the key concerns in management, development and technology choices in organic agriculture.
+
+Science is necessary to ensure that organic agriculture is healthy, safe and ecologically sound. However, scientific knowledge alone is not sufficient. Practical experience, accumulated wisdom and traditional and indigenous knowledge offer valid solutions, tested by time.
+
+### Status and policy mechanisms in Nepal
+
+Majority households of Nepal have traditionally been practicing subsistence form of agriculture. One quarter of the total cultivated area in Nepal is pesticide-free. 60\% of the farm holdings are less than 0.5 ha and the farming is much reliant on monsoon rainfall. Since most of the areas of hills and high hills do not have access to chemical fertilizer, these regions are organic by-default.
+
+- In 1986, a systematic approach to promote OA was started after establishment of INSAN, Mrs. Judith Chase (founder of AAA) initiated the first commercial organic farm at Ghamcha, Bhaktapur in 1987.
+- In 1991, 4th International Permaculture Conference was organized in Kathmandu from Feb 10-15. It was organized by INSAN, with support from Chris Evans (JPP co-founder).
+- In 2005, National Workshop on Organic Agriculture and Food Security (13-15 December) was organized by NPG.
+- In 2006, The first National Workshop on Organic Farming (12-14 June), organized jointly by Directorate of Agriculture Extension, Directorate of Vegetable Development, and District Agricultural Development Office.
+- In 2008, An international Workshop on "Organic Agriculture: Challenges and Opportunities"
+- In 20011, National policy dialogue workshop on OA (21 March), organized by NPG, MoAD and CoPP/Helvetas.
+- Few institutions, group of farmers, and a few innovative individuals (including INSAN; NECOS; HASERA agriculture farm, 1992; Ecological Services Center, 1994) showed affection to organic agriculture in Nepal after 2046/47.
+- The Government of Nepal (GoN) for the first time in the history of planning emphasized organic agriculture in the 10th five year plan (2059/60-63/64). The plan used the term 'organic farming' as a means of reducing chemical pesticide use, although itself it was focused on agriculture commercialization and diversification with heavy use of chemical inputs.
+- Organic agriculture standards guidelines, 2064 was first put into practice in 2064. Later onwards, several working groups have been formed for promotion and refinement of organic agriculture and its practices in Nepal.
+- Organic fertilizer manufacturing industry subsidy guidelines, 2066
+- Declaration that Karnali province will be developed as organic oriented province in 2075.
+- DoA launched Organic Production and Promotion Mission Program in 2075/76.
+- Currently, Nepal has been organizing annual organic agriculture fairs and exhibitions in several districts (12th National Organic Agriculture Fair was organized in 2075).
+
+The organic agriculture is rapidly growing in all parts of the world because of increased people's willingness to eat the organic product indifferent of premium price. In Nepal, the domestic demand for organic product (mostly driven by increased awareness) is increasing along with the increasing demand from other countries as well. However, adoption of OA, despite increasing promotion, at field so far is limited, with a mere 9361 ha (0.2% of the total agricultural land area) in 2013. Therefore, there lies a greater scope and potential for expansion of Organic Agriculture.
+
+During 2007 (2064/01/25 and 26), 14th district council of Jumla declared the district as Organic. Since then, there have been increase in interest all over the country. Budget speech 2071/72 promised an additional of 25% budget to the VDC promoting organic agriculture. As of current, following policies, working guidelines and standards related to organic agriculture have been implemented:
+
+1. National Standards of Organic Agriculture Production and Processing directives, 2064 (Amendment, 2065)
+2. Organic fertilizer subsidy directives, 2068
+3. Organic and biofertilizer regulation guidelines, 2068
+4. Organic agricultural product certification and provision relating to cost subsidy guidelines, 2069
+5. Registration Process of Accreditation of Organic Certification Body guidelines, 2069
+6. Guidelines of Internal Control System for Group Certification
+7. Guidelines for Participatory Guarantee Systems
+
+Aspects of OA have been addressed in several other policy and strategic workouts, including:
+
+- Agricultural Perspective Plan 1995
+- National Fertilizer Policy 2002
+- National Coffee Policy 2003
+- National Agricultural Policy 2004
+- Agribusiness Policy 2006
+- Agricultural Biodiversity Policy 2006 (Amendment in 2014)
+- Trade Policy 2009
+- Nepal Trade Integration Strategy 2010
+- Climate Change Policy 2011
+- Agricultural Development Strategy (final report) 2014
+
+There are standards and norms set for maintaining a prescribed quality of organic produce in stages of production, processing and distribution. Adherence to these conditions ensure the trustworthiness of the product. If such conditions are met in production and processing chain of a crop, a third-party testament in a form of certificate may be applied for by the producer; this is called certification. The agency for granting such services within the framework of established standards is called certifying body. The body issues a certifying logo upon completion of procedure.
+
+The Article 4.2 of the National Standards of Organic Agriculture Production and Processing 2007 established NOAAB that is a national coordination body. It regulates, monitors and evaluates organic agriculture development in Nepal. It also accredited organic agriculture certification body (OCB), both national and international,and allows them to use organic logo. NOAAB has so have not far accredited any certifying bodies (CBs) in Nepal. However, major certifying bodies, (even Organic Certification Nepal (OCN)) issue third-party certification. Major third party organic certifying bodies are:
+
+1. NASAA
+2. EcoCert
+3. OneCert
+4. LACON GmbH
+5. SGS
+6. Institute of Market Ecology
+
+**Organic certification standards in Nepal**
+
+In general certification, is guided by certain standards which involve process of growing, storage, processing, packaging and shipping. Other important factors taken into considered for organic certification are:
+
+- Avoid using human sewage sludge fertilizer used in cultivation of plant and feeding animals
+- Avoid using synthetic chemicals (fertilizers, pesticides, antibiotics, food additives), genetically modified organisms, irradiation
+- Use of farmland for cultivation that is free from synthetic chemicals for more than three years
+- Maintaining records of production and sales (audits) in written form
+- Periodic on-site inspections and supervisions
+- Maintaining physical separation between organic products from other non-organic products during the process of growing, storage, processing, packaging and shipping
+  - At least 4 m distance between chemically managed and organically managed plot if roadway separates the two, and 5 m of buffer zone for other cases.
+  - Cultivation of organically and chemically managed crops is not allowed within the same legal parcel.
+  - Two crops of similar kinds and having similar maturity states with chances of admixture are not allowed in proximity.
+- Any machines, tools and implements coming in contact with the chemical inputs should be thoroughly cleaned before use in organic farm.
+- At least 3 years of transition period is required for conversion of chemically managed farm unit to an organic farm.
+- Unless derived from GMOs, beneficial microorganisms are allowed for incorporation into the soil and fertilizers.
+- There should be a minimum of 5 m distance isolating organically managed fish pond and the conventional pond.
+- For organic apiary, 2 km of foraging range (for local breed _Apis cerena_) and 4 km of foraging range (for European bee _Apis mellifera_) is required.
+
+### Importance
+
+- With its techniques in soil, water and biodiversity conservation, as well as its integral and sustainable farm management, OA can be highly productive, achieve family food security and improve incomes.
+- Organic farming systems are more resilient than conventional systems that are highly dependent on external inputs, which are not only expensive and harm the environment but are increasingly being controlled by a handful of corporations throughout the food chains.
+- OA has well established practices that simultaneously mitigate climate change, build resilient farming systems, reduce poverty and improve food security. 
+- OA emits much lower levels of greenhouse gases and quickly, affordably and effectively sequesters carbon in the soil. 
+- OA makes farms and people more resilient to climate change, mainly due to its water efficiency, resilience to extreme weather events and lower risk of crop failure. 
+- In order to conserve their traditions and be successful in the marketplace, organic smallholders organize themselves, strengthen their social structures, build innovative links and promote entrepreneurship
+
+### Role of smallholder farmers^[https://www.ifoam.bio/sites/default/files/2020-03/position_smallholders.pdf]
+
+Ninety percent of farms worldwide are less than two hectares, they provide employment to 1.3 billion people and dominate agriculture in developing countries. Smallholder agriculture is multifunctional, as it accounts for the majority of rural employment, most food production and the provision of ecosystem services, contributing to the preservation of natural resources and biological and cultural diversity in their rural settings. Smallholder farming is the backbone of agriculture and food security, not only throughout the developing world (where, like in many African countries, they represent the largest private sector activity), but also in several industrialized countries in Asia and Europe. It not only feeds families, but also generates jobs and catalyses the growth of rural businesses, particularly in the sector of micro and small enterprises. Smallholder agriculture is also important in urban settings, especially in Asia but increasingly in Africa and Latin America and also in the industrialized world. Urban and periurban agriculture increases the amount and quality of food available to people living in cities, which is already over 50% of the world s population. Globally, almost 1 billion people practice urban agriculture and produce approximately 15% of the world’s food.
+
+While most small farms tend to be highly productive when the whole farm business is taken into account (as opposed to individual crop yields only), many smallholder farmers are very poor, scraping by on marginal or degraded lands, using under-performing and often unsustainable farming systems that erode soils and deplete biodiversity. Poverty is also a driver of erosion and the over-exploitation of natural resources, rendering communities more vulnerable to food insecurity, climate change and natural disasters. Many millions therefore are unable to generate sufficient incomes to achieve an acceptable standard of living, and many more rural poor do not have access to land and other resources needed to feed themselves.The definition and principles of IFOAM - Organics International state that “OA combines tradition, innovation and science to benefit the shared environment and promote fair relationships and a good quality of life for all involved.” OA should go beyond the simplistic guarantee that prohibited materials are not used in the production system (i.e. organic-by-default production of tropical crops or input substitution in intensive horticultural systems) to an integrated implementation of better and more productive systems, with measurable improvements in yield, ecosystem services and functional interactions between the different actors and components of a farming community.
+
+Given that OA systems are equally applicable to subsistence farming and local markets as they are to international, their roles have to be recognized and and uptaken in supplementing government policies directed towards enhancement of organic agricultural systems at all levels, as well as facilitated the support of smallholders so that their systems are sustainable and consistently productive and profitable. This support may take form of dedicated instruments for improved extension, market incentives, micro-credit schemes, specific programs for the rural young, or access to land and participation in value chains where smallholders can flourish rather than be expelled.
+
+Organic certification of smallholder groups in developing countries is already a well established alternative to standard certification procedures. Also, innovative approaches like participatory guarantee systems are being encouraged worldwide for greater participation of smallholders.
+
+Smallholders live in highly variable agroecosystems, and the techniques that may contribute to the improvement of yield and quality, as well as overall system sustainability, are generally site-specific and, in order to promote processes of rural innovation, require the participation of all relevant stakeholders from the design through the implementation and evaluation of research and development activities.
+
+In accordance with discussions in the United Nations Human Rights Council, there is also an urgent need to ensure that government policies are sufficient well formulated in order to address the needs of the most vulnerable people working in rural areas. A better implementation of the human rights instruments protecting the rights of peasants and other people working in rural areas is also urgently needed. But to further advance the rights of peasants and other people working in rural areas, there is a need to elaborate a new international human rights instruments, a Declaration or a Convention, to recognized in a single instrument the rights that have been enshrined in other international instruments, to increase coherence and visibility.
+
+## Titles for vegetable and fruits
+
+```{r king-queen-title}
+tribble(
+  ~"crop", ~"title",
+  "Wheat", "King of cereals", 
+  "Chickpea", "King of pulses", 
+  "Mango", "King of fruits; Bathroom fruit", 
+  "Brinjal", "King of vegetable", 
+  "Rapeseed", "King of oilseed", 
+  "Black pepper", "King of spices", 
+  "Mushroom", "Vegetarian meat",
+  "Cotton", "White gold", 
+  "Tomato", "Poor man's orange", 
+  "Maize", "Queen of cereals", 
+  "Pea", "Queen of pulses", 
+  "Litchi", "Queen of fruits", 
+  "Potato", "Queen of vegetables", 
+  "Sesame", "Queen of oilseed", 
+  "Cardamom", "Queen of spices", 
+  "Soybean", "Poor man's meat", 
+  "Large cardamom", "Black gold", 
+  "Guava", "Poor man's apple", 
+  "Banana", "Tree of paradise/wisdom",
+  "Guava", "Apple of tropics/Poor man's apple",
+  "Soyabean", "Poor man's meat",
+  "Potato", "Poor man's friend/King of Vegetable",
+  "Gladiolus", "Queen of Flower",
+  "Dahlia", "King of flower",
+  "Avocado", "Butter fruit",
+  "Tea", "Queen of Beverage",
+  "Apple", "King of Temperate fruit",
+  "Maize", "Drosophila of crop plants",
+  "Cowpea", "Vegetable meat",
+  "Napier", "King of fodder/Elephant grass",
+  "Leucerne", "Queen of fodder"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "King, queen and title of crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
+
+## Good agricultural practices (GAP)
+
+Nepal became member of WTO on 2004 AD. With that, the country has been the signatory to several of multilateral treaties. Amongst the treaties, two major ones impacting agriculture are:
+
+1. Agreement on Agriculure (AoA)
+2. Agreement on Sanitory and Phytosanitory Measures (SPS)
+
+An estimate about the toll that unhygenic food has on human lives is exemplified by the fact that, worldwide:
+- More than 200 diseases have been known to be caused due to unhygenic food
+- More than 600 million individuals annually become ill due to foodborne diseases
+- More than 0.125 million children below age of 6 die due to foodborne diseases
+
+Food safety has gained increasing importance over the years because of its significance both from health and trade perspectives. The production of safe food is essential for protecting consumers from the hazards of foodborne illnesses and is important both in the domestic food business as well as for increasing competitiveness in export markets. Hazards may occur at different stages of the food chain starting right from the primary production, e.g. residues above permitted levels, microbial contaminants and heavy metals. It therefore becomes important to address food safety right from food production at farm level. Implementing Good Agricultural Practices (GAP) during on-farm production and post-production processes resulting in safe agricultural products is of immense importance for ensuring a safe food supply.
+
+Also, while talking about safe food production, the health of the farmer is not taken into account. The workers who spray pesticides are the most vulnerable to its impact. Due to lack of awareness and knowledge about safe and hygienic farming practices, a greater number of workers are found not using personal protective equipment while spraying pesticide.
+
+GAP, as defined by FAO, are a "collection of principles to apply for on-farm production and post-production processes, resulting in safe and healthy food and non-food agricultural products, while taking into account economic, social and environmental sustainability."
+
+The fundamental of good agricultural practices is the integration of the application of new production systems, such as Integrated Pest Management (IPM), Integrated Crop Management (ICM) and Integrated Nutrient Management (INM) for the commercial production of agricultural products.
+
+The enforcement of GAP is more relevant today with the rampant use of pesticides and chemical fertilisers to boost production. GAP ensures safe crop production, facilitates regional trade and ensures acceptability of fruits and vegetables in the global market. It helps to produce quality goods with higher yield that comply with the standards of national and international regulations. Currently, exporters of agriculture products have been facing various hassles due to quality concerns being raised by the importing countries. Many importing countries as well as domestic buyers require producers to implement GAP to ensure the quality and safety of their produce.
+
+Many of the SAARC countries had not adopted GAP and did not have an institutional infrastructure for supporting GAP in terms of standards as well as their implementation, certification and accreditation. FAO, at the request of some SAARC countries, through a regional project on "Development of Standards and Scheme for Good Agricultural Practices (GAP) Implementation and Certification in Countries of SAARC" developed a common standard on GAP for the horticulture sector along with a national system for its implementation.
+
+This GAP scheme has been developed as a regional scheme that may be adopted as it is or adapted by countries to suit their needs. The process for development of the scheme was through initial discussions on a draft at a regional workshop in September 2014 that was then implemented in four pilot countries, namely Bangladesh, Bhutan, Maldives and Nepal. The standard and national implementation structure in terms of a Scheme Owner (SO), certification body (CB) and accreditation body (AB) system was first agreed upon and was followed by support provided to the SO and CB to set up their processes and systems based on the draft scheme. Based on experiences in the four countries, the Scheme has now been revised. The Scheme can be used by any country globally.
+
+This GAP scheme comprises three important areas or sections: 
+- standards for GAP; 
+- the structure for implementation in the country; and 
+- the certification and accreditation aspects. 
+
+In order to align the scheme to other national and international requirements, various national and international standards such as ASEAN GAP, GLOBALG.A.P, other country's GAP, prevalent industry standards and best practices, and related International Organization for Standardization (ISO) standards and guides have been referred to.
+
+Several studies have shown that the implementation of GAP encourages the promotion of optimum use of resources, such as pesticides, fertilisers and water. The social dimension of GAP helps to protect the health of agricultural workers from improper use of chemicals and pesticides while ensuring decent wages to them.
+
+FAO has given five modules of GAP, which include: 
+
+- Food Safety Module, 
+- Environment Management Module, 
+- Produce Quality Module, 
+- Workers Health Safety and Welfare Module, and 
+- General Requirement Module. 
+
+The first four modules are stand-alone modules and may be implemented depending upon the objective to be met. However, the general requirement module must be met by the farm in addition to any of the four modules.
+
+Nepal endorsed Nepal Good Agriculture Practices Implementation Directive in October 2018 based on the Agriculture Development Strategy (ADS), Nepal Agro Business Policy, 2016 and GAP prepared for SAARC countries by FAO. Any farm that wants to receive recognition or certification of GAP must apply for it at the respective accreditation institute, which in Nepal is the Department of Food and Quality Control (DFQC), and then abide by the rules as mentioned in the Nepal GAP Implementation Directive. Upon successful accomplishment of the standards set by the certification body, the farm receives a certification of GAP.
+
+Nepal is a member of the World Trade Organization (WTO). It has to follow the code of conduct of WTO while exporting goods. There is that bitter experience of Nepali tea and honey being rejected by the European Union due to the presence of high pesticide residue in them. Frequently, trucks carrying Nepali products are made to wait at the Indian border on suspicion that they contain pesticide residue above the maximum level allowed.
+
+Lack of certification of Nepalese agricultural products has been causing post-harvest loss as well as it has been diminishing the consumer's trust on our products. The European Union has declared that it will allow the import of only certified products into the European market from the middle of 2017. The EU is one of the lucrative markets for Nepali tea, coffee and cardamom. Strict regulations of the European Union may affect the marketing of Nepali products unless good agricultural practices are followed by the producers.
+
+Currently, interested individuals, farmer groups, cooperatives or companies can certify their produce. GAP certification is performed by Department of Food Technology and Quality Control. All standards of GAP (so far 211) are categorized into following classes: Critical (18), Major (141), Supporting (52).
+
+For those individuals and organizations intending to obtain certificate they should meet 100 percent of the criteria under critical standards, 90% of those under the major standards and 50% of those falling under the supporting criteria. Once the producer/farmer applies for the certificate, the Department assigns an auditor to inspect whether or not or to what extent are the standards met. Based on the report submitted the certification committee decides on whether to grant the certificate or not. Once the certificate is issued the producer can use GAP logo. The certification is valid for 3 years, however, inspections and revisiting of the production technology shall be done at least three times by the certifier.

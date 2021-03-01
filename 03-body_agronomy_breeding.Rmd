@@ -18,7 +18,7 @@ readxl::read_xlsx("./data/varietal_notification_status.xlsx") %>%
 - For a more complete listing, refer to publicdata repository for the [list of denotified varieties](https://raw.githubusercontent.com/DeependraD/publicdata/master/crop_varieties/denotified_varieties.csv).
 - Also the [Seed Quality Control Centre](http://sqcc.gov.np/en) is the authentic government body that routinely updates by enlisting crop variety database and publishing seed related information.
 
-## Varietal description of some common rice varieties
+## Varietal description of some common rice and maize varieties
 
 ```{r rice-varieties}
 read_csv("./data/rice_variety_description.csv", skip = 2) %>% 
@@ -28,6 +28,8 @@ read_csv("./data/rice_variety_description.csv", skip = 2) %>%
   kableExtra::landscape(margin = "1.5cm")
 ```
 
+<!-- \scalebox{0.7}{\begin{minipage}{1.0\textwidth} -->
+
 ```{r maize-varieties}
 read_csv("./data/maize_variety_description.csv", skip = 2) %>% 
   knitr::kable(booktabs = TRUE, caption = "Varietal description of recently released maize varieties", escape = FALSE) %>% 
@@ -36,7 +38,273 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
   kableExtra::landscape(margin = "1.5cm")
 ```
 
-## Crop production technology
+<!-- \end{minipage}} -->
+
+## Oilseed crops production
+
+### Mustard (*Brassica napus*)
+
+#### Introduction
+
+```{r names-oilseeds, results="asis"}
+b_name <- readxl::read_xlsx("./data/oilseeds.xlsx", sheet = "names", col_names = TRUE)
+knitr::kable(b_name, align = "c", caption = "Oilseed crops", booktabs = TRUE, longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), position = "center") %>%
+  kableExtra::column_spec(column = 2, italic = TRUE, color = "blue") %>% 
+  kableExtra::column_spec(column = 4, width = "12em")
+```
+
+- Domestication took place in Asia
+- The leftover meal after pressing out the oil has also been found to be an effective pesticide
+- Used in production of biodiesel
+- White mustard (*Sinapis alba*) is useful crop for supression of nematodes
+- Crops of genus Brassica are called cole crops
+- *B. carinata*, *B. juncea*, *B. oleracea*, *B. napus*, *B. nigra*, and *B. rapa*, all evolved by combination of chromosomes from three earlier species.
+- They provide high amounts of vitamin C and soluble fiber and contain nutrients with anticancer properties: 3,3'-diindolylmethane, sulforaphane and selenium.
+- Contain modulator of the innate immune response system with potent antiviral, antibacterial and anticancer activity.
+- Contain goitrogens
+
+#### Botany
+
+```{r rape-flowers, out.width="40%", fig.ncol = 2, fig.cap="Inflorescence and flowering field of brassica", fig.subcap=c("Inflorescence of Brassica plant", "Blooming field of Brassica crop")}
+knitr::include_graphics("./images/food_crops/Brassica_campestris_flower.jpg")
+knitr::include_graphics("./images/food_crops/rapeseed_20130604-00955.jpg")
+```
+
+- The plants and seeds of all brassica oilseeds contain glucosinolates, which are secondary metabolites that serve as chemical protectants.
+- In the warmer semitropical regions, *B. juncea* and *B. rapa* predominate
+- In cooler temperate regions, *B. napus* and *B. rapa* predominate.
+- Natural hybridization occurs readily between different species.
+
+#### Climate and Soil
+
+- Grown as winter season crop in Nepal and India.
+- Requires \SIrange{18}{25}{\celsius}, low humidity.
+- Rainfall during flowering is undesirable.
+- High RH and rainfall increase incidence of insects and diseases.
+- Excessive cold and frost harmful.
+- Thrive best in medium or heavy loam soils.
+- Sensitive to water logging.
+- Good tolerance to saline and alkaline soils.
+
+#### Varieties
+
+```{r rapeseed-vars, results='asis'}
+rapeseed <- readxl::read_xlsx("./data/oilseeds.xlsx", sheet = "rape_vars", skip = 1)
+
+knitr::kable(rapeseed, align = "c", 
+             caption = "Rapeseed varieties released till date", booktabs = TRUE, longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "striped", position = "center") %>% 
+  kableExtra::column_spec(c(3, 5), width = c("6em", "16em"))
+```
+
+### Sesame (*Sesamum indicum*)
+
+#### Introduction
+
+```{r sesamum-fruit, out.width="60%"}
+knitr::include_graphics("./images/food_crops/Sesamum_indicum_fruit.jpg")
+```
+
+
+```{r sesamum-tax, results="asis"}
+structure(list(V1 = structure(c(4L, 1L, 1L, 1L, 5L, 2L, 3L, 6L
+), .Label = c("Clade", "Family", "Genus", "Kingdom", "Order",
+"Species"), class = "factor"), V2 = structure(c(7L, 2L, 4L, 3L,
+5L, 6L, 8L, 1L), .Label = c("\\textit{S. indicum}", "Angiosperms", "Asterids",
+"Eudicots", "Lamiales", "Pedaliaceae", "Plantae", "Sesamum"), class = "factor")), .Names = c("V1",
+"V2"), class = "data.frame", row.names = c(NA, -8L)) %>%
+  knitr::kable(caption = "Scientific classification of Sesamum", col.names = NULL, booktabs = TRUE, escape = FALSE, longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = c("striped"))
+```
+
+- Derived from Latin "sesamum" or Greek "sesamon"
+- Annual flowering plant, also called *benne*
+- Wild relatives occur in Africa and India, with the origin of cultivated *S. indicum* traced India.
+- Natural crop of tropical regions, cultivated for its edible seeds, which grow in pods or "buns"
+- One of the oldest oilseed crops known
+- Oil has nutty flavor, and is ingredient in cuisines across the world
+- Often sold decorticated (seed coat removed) for baking
+
+```{r sesame-nutrition, results="asis", warning=FALSE, message=FALSE}
+readxl::read_xlsx("./data/oilseeds.xlsx", sheet = "sesame_nutrient", skip = 1, col_names = TRUE) %>%
+  knitr::kable(col.names = NULL, booktabs = TRUE, caption = "Nutrient content of sesame seeds (per 100 g serving)", longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
+#### Botany
+
+```{r sesame-bot, out.width="60%"}
+knitr::include_graphics("./images/food_crops/Sesamum_gingelly.JPG")
+```
+
+- Grows upto 50-100cm
+- Has opposite leaves 4-14cm with entire margin; lanceolate, narrowing at the base of the plant to just 1 cm.
+- Flowers are yellow, tubular, 3-5cm long with four-lobed mouth; flowers vary in color(white, blue, or purple).
+- Seeds occur in many colors.
+- Fruit is capsule, normally pubescent, rectangular in section, typically grooved with a short, triangular beak.
+- Length of the fruit capsule varies from 2-8 cm.
+- Number of loculi varies from 4 to 12.
+- Fruit is dehiscent, splitting along the septa.
+- Seeds 3-4mm long by 2mm wide, ovate, slightly flattened.
+
+```{r sesamum-bot, fig.ncol = 2, fig.cap = "Vegetative and reproductive parts of sesamum", out.width="30%", fig.subcap = c("Sesamum fruit", "Sesamum plant")}
+knitr::include_graphics("./images/food_crops/Sesamum_indicum_fruit_ts.jpg")
+# knitr::include_graphics("./images/food_crops/Sesamum_fruit-and-seeds.jpg")
+knitr::include_graphics("./images/food_crops/Sesamum_indicum_upper_plant.jpg")
+# knitr::include_graphics("./images/food_crops/Sesamum_indicum_fruit.jpg")
+```
+
+#### Climate and Soil
+
+- Tolerant to drought-like conditions.
+- Adapted to many soil types. Best on well-drained, fertile soils of medium texture and neutral pH.
+- Low tolerance to salinity, and water logging.
+- Require 90-120 frost free days. Warm conditions above \SI{23}{\celsius} favor growth and yields.
+- Flowering initiation is sensitive to photoperiod, as is the oil content.
+- Oil content is inversely proportional to its protein content.
+- Rainfall late in the season is particularly harmful (prolongs growth and increases dehiscence loss).
+
+#### Varieties
+
+```{r sesame-vars, results='asis'}
+sesame <- readxl::read_xlsx("./data/oilseeds.xlsx", sheet = "sesame_vars", skip = 1)
+
+knitr::kable(sesame,
+             align = "c",
+             caption = "Sesame varieties released till date", 
+             booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "scale_down"), position = "center")
+```
+
+#### Field preparation
+
+- Ploughed with tractor twice or 3-4 times with country plough.
+- In rice fallows, ploughing done once to retain residual moisture and sown immediately.
+
+#### Fertilizer and manuring
+
+### Groundnut (*Arachis hypogea*)
+
+```{r peanut-full, out.width="60%"}
+knitr::include_graphics("./images/food_crops/Peanut_bot.jpeg")
+```
+
+#### Introduction
+
+- Originated either in Africa or Brazil of South America.
+- Introduced to other parts of world by the Spanish and Portuguese.
+- Dug, extracted, processed and consumed as a snack food, peanut butter, and a candy.
+- Seed contains 45-50% oil content.
+- Pressed for oil extraction. Oil used for margarine, salad dressings, and cooking oil.
+- Cake fed to livestock.
+- Manufacture of paint and cosmetics.
+- The perennial species (*Arachis glabarata*) is used as a forage legume, or as cover crop.
+- Some people are allergic.
+
+#### Botany
+
+- Plant is decumbent, with stems extremely inclined, and with the tips raised, reach upto 18 inches in height.
+- Pinnately compound leaf with two pair of leaflets.
+- Flowers yellow in color, borne in leaf axils of the stems.
+- After pollination, the ovary elongates to produce a **peg** that buries the ovary into the soil, which matures and hardens into a shell containing the peanuts.
+
+```{r groundnut-bot, fig.cap="Floral part and economic parts of Groundnut", fig.ncol = 2, out.width="40%", fig.subcap=c("Flower of groundnut", "Groundnut plant")}
+knitr::include_graphics("./images/food_crops/Arachis_hypogaea_003.JPG")
+knitr::include_graphics("./images/food_crops/Arachis hypogaea.jpg")
+```
+
+#### Climate and Soil
+
+- Grows best in tropical and subtropical climates, having warm growing-season temperature, adequate rainfall, and long growing season.
+- Well-drained, sandy soils that allow formation of the peanut are required.
+- Needs about $70-90^oF$ temperature during its growing period with cold nights for maturity.
+- Areas receiving well distributed annual rainfall of 500-1250 mm.
+- Requires plenty of calcium in soil.
+- pH: 5.0-8.5
+
+#### Varieties
+
+```{r groundnut-vars, results='asis'}
+groundnut <- readxl::read_xlsx("./data/oilseeds.xlsx", skip = 1, sheet = "groundnut_vars")
+
+knitr::kable(groundnut, align = "c",
+             caption = "Groundnut varieties released till date", 
+             booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "scale_down"), position = "center")
+```
+
+#### Land preparation
+
+- Require weed free well pulverized, open and aerated, levelled seed-bed for sowing.
+- 2 tills with a local plough, followed by two harrowings and  planking required.
+- Fields infested with white grubs need to be remedied with Heptachlor or Chlordane (\@ \SI{25}{\kilogram\per\hectare}) before final harrowing.
+
+#### Manuring
+
+- Does not require high does of chemical fertilizers.
+- FYM/compost
+  - Rainfed: \SI{6.25}{\tonne\per\hectare}
+  - Irrigated: \SI{12.5}{\tonne\per\hectare}
+  - 10-20, $P_2O_5$: 40, $K_2O$: \SI{40}{\kilogram\per\hectare}
+- Nitrogen applied best as $(NH_4)_2SO_4$ or Calcium ammonium nitrate, P as SSP and K as MOP.
+- Nitrogen applied in splits in very light soils.
+- Correction for B, Mo, S, Zn and Ca deficiencies by 5 kg Borax, 1 kg Ammonium molybdate, 15-20 kg $ZnSO_4$ and 200-500 kg gypsum per hectare. While others are basally applied gypsum is band placed 30 DAS.
+- Gypsum (\SI{400}{\kilogram\per\hectare}) applied on second hoeing/interculture (40-45 DAS).
+
+#### Seed treatment
+
+- Seeds should be free from diseases and of damage.
+- Kernels treated with Captan or Thiram (Slurry made by mixing 125 g Thiram/100 kg kernel in 500 ml water)
+- Some varieties have a dormancy state, therefore a storage requirement.
+- Rhizobium biofertilizer: For 50 kg of kernels, 10% solution of gum Arabic is prepared in water, Jaggary is added to make a solution of 5%. When it dissolves, 2-3 packets (200 g each) of peat based culture is added, groundnut kernels are poured and agitated with the content to make a slurry. As all kernels coat the slurry uniformly, they are spread out on newspaper sheets in the shade.
+
+#### Sowing
+
+- Time of sowing:
+  - Irrigated: April-July
+  - Rainfed: June 20-July 31
+- Seed rate
+  - Spreading type: \SIrange{60}{70}{\kilogram\per\hectare}
+  - Bunching type: \SIrange{85}{90}{\kilogram\per\hectare}
+- Method of sowing: Either by dibbling the seeds behind the plough or by using a seed drill. In irrigated crops, ridges and furrows and better prepared.
+- Sowing depth: 5-8 cm in light soils, 4-6 cm in moderate to heavy soils.
+- Spacing:
+  - Spreading type or irrigated: 50 cm x 15-20 cm
+  - Bunching type or rainfed: 20-30 cm x 8-10 cm
+
+#### Irrigation
+
+- When grown as kharif season crop (April-July): 500-700 mm water.
+- At frequency of 8-12 days.
+- Critical stages: flowering pegging and pod formation.
+- Stopped 20-25 days prior to maturity.
+
+#### Weed management
+
+- May cause yield reductions to extent of 20-40%.
+- First hand weeding on 20-25 DAS, next 15 days later.
+- The bunching type should be given a light earthing to facilitate maximum peg penetration into the soil.
+- TOK-E-25 or Lasso (5 ltr of commercial material dissolved in 500 ltr water) as pre-emergence soil spray within 2-3 DAS.
+
+#### Harvesting
+
+- Indicators:
+  - Yellowing and shedding of leaves
+  - Development of proper color of shell and a dark tint on the inner side of the shells.
+  - Usually takes 120-140 days to mature.
+- Usually carried out in October-November.
+- Bunching types are hand-pulled, spreading types are dug.
+- Storage time moisture should not be more than 5%.
+- Higher moisture favors fermentation and development of *Aspergillus flavus* mould in the kernel.
+
+#### Yield
+
+- Irrigated: \SIrange{3}{3.5}{\tonne\per\hectare}
+- Rainfed: \SIrange{1.5}{2.0}{\tonne\per\hectare}
+- Shelling percentage: 70-75\%
+
+### Cereal and commercial crops
 
 ```{r crop-cultivation-cereal-commercial-remarks}
 read_csv("./data/crop_production_technology_cereal_commercial.csv") %>% 
@@ -46,9 +314,11 @@ read_csv("./data/crop_production_technology_cereal_commercial.csv") %>%
   kableExtra::landscape(margin = "1cm")
 ```
 
+### Oilseed and legume crops
+
 ```{r crop-cultivation-legume-oilseed-remarks}
 oil_joined <- tibble(`Production remark` = c("Time of sowing", "Seed rate (kg/ha)", 
-                                             "Spacing (cm)", "NPK (kg/ha)", "Seed yield (tons/ha)"), 
+                                             "Spacing (cm)", "NPK (kg/ha)", "Seed yield (ton/ha)"), 
                      `Mustard/rapeseed/sarsoon` = c("Mid September - Mid October", 
                                                     "5-8", "30 x 7.5 - 10", "60:40:20", "1.5-2.0"), 
                      Groundnut = c("Mid June - 1st Week of July", 
@@ -406,8 +676,8 @@ For seed and crop production practice of oilseed crops, refer to Table \ref{tab:
 ### Sugarcane
 
 - Area cultivated: 58,101 ha
-- Production: 2354412 tons
-- Productivity: 40.52 tons/ha
+- Production: 2354412 tonne
+- Productivity: 40.52 tonne/ha
 
 **Isolation**
 
@@ -421,13 +691,13 @@ For seed and crop production practice of oilseed crops, refer to Table \ref{tab:
 - 1st inspection: 2 months of planting
 - 2nd inspection: 2 months before harvest
 
-**Harvest and seed yield**: 40-60 tons/ha
+**Harvest and seed yield**: \SIrange{40}{60}{\tonne\per\hectare}
 
 ### Cotton
 
 - Area cultivated: 100 ha
-- Production: 59 tons (2008/09)
-- Productivity: 0.59 tons/ha
+- Production: \SI{59}{\tonne} (2008/09)
+- Productivity: \SI{0.59}{\tonne\per\hectare}
 - Variety: Tamcot-SP-37 released upto 2010
 
 **Isolation requirements**
@@ -491,13 +761,11 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 - Seed production of quantity 200-600 kg/ha could be realized in this way.
 
 
-
-
 ## Grain legumes
 
 - "Legume" comes from "legere" meaning "to gather".
 - Soybean cultivation recorded in China 3000 to 2000 BC
-- Globallyh 70.6 million hectares (production: 61.5 million mt) of legumes are planted
+- Globally 70.6 million hectares (production: 61.5 million mt) of legumes are planted
 - In Nepal, 0.32 million hectares producing 0.26 million mt was grown (when ?)
 - Consumption trend of legumes in Nepal is 9 kg per person per year. However, the recommended annual intake is 36 kg.
 - Legumes are an important part of natural soil fertility maintainance system -- fixing atmospheric nitrogen.
@@ -509,6 +777,83 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 - Energy expended per gram of seed (i.e. gram photosynthate):
   - 0.74-0.96 in cereals
   - 2.03-2.09 in pulses/oilseeds
+  
+## Sugarcane production
+
+### Status of production
+
+- According to MoALD, 2075/76 statistics, out of total cultivable agricultural land, 71625 hectares are dedicated to sugarcane with production of 3557934 tons.
+- Average productivity (per hectare): 49.67
+- Currently 41 districts of Nepal grow sugarcane, out of which only 11 districts of terai grow the crop commercially.
+- Sugarcane processing mills of Nepal consumed raw sugarcane equivalent to 20,812,089 quintals during 2075/76 producing 1,825,443 quintals of sugar.
+
+```{r sugarcane-varieties}
+tribble(
+  ~"sn", ~"variety", ~"maturity_group", ~"sugar_recovery",
+  1, "Co-0238", "early", 14,
+  2, "Co-0232", "early", 13.64,
+  3, "CoS-96268", "early", 10.91,
+  4, "CoSe-98231", "early", 11.37,
+  5, "CoJ-85", "early", 14,
+  6, "CoJ-64", "early", 11.5,
+  7, "BO-139", "early", 10.3,
+  8, "Co-0233", "mid to late", 11.66,
+  9, "CoS-07250", "mid to late", 11.55,
+  10, "CoSe-01434", "mid to late", 13.01,
+  11, "BO-141", "mid to late", 11.7,
+  12, "UP-9530", "mid to late", 12.5,
+  13, "CoJ-88", "mid to late", 12.92,
+  14, "BO-147", "mid to late", 10.61
+) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Cultivars of popular sugarcane cultivars in Nepal; Source: National Sugarcane Research Program, Jitpur, Bara (2075/76)") %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:4, width = c("4em", "6em", "8em", "6em")) %>% 
+  kableExtra::add_footnote(label = "Early type cultivars mature within 10-12 months and late to medium type cultivars mature in 12-14 months of planting.")
+```
+
+
+```{r sugarcane-production-top-districts}
+tribble(
+  ~"district", ~"area_hectares", ~"production_mt", ~"yield_mt_per_hectares",
+  "Sarlahi", 22153, 1101915, 49.76,
+  "Rautahat", 9112, 438925, 48.17,
+  "Kanchanpur", 8042, 397114, 49.38,
+  "Mahottari", 7642, 392493, 51.36,
+  "Sunsari", 4812, 283282, 58.87
+) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Area production and productivity of top sugarcane producing districts of Nepal; Source: MoALD, 2020 (2075/76)") %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:4, width = c("8em", "6em", "8em", "6em"))
+```
+
+- Processing of 100 kg of raw sugarcane results in:
+  - 4.5 kg of molasses
+  - 3 kg of press mud
+  - 35 kg of bagasse
+  - 12.5 units of heat energy
+- 100 kg of molasses results in 2.1 ltr ethanol.
+
+- Nepal Government repealed the prevailing payment scheme to the sugarcane producer farmers, in which sugar mills provided farmers the sum based on the sugar sales with addition of the government subsidized amount (Rs 65.28 per quintal) and since declaring in the budget speech of 2075/76, government provisioned payment of the subsidy directly to respective producer farmers (ministerial level decision on 2075/04/18).
+
+```{r sugarcane-price}
+tribble(
+  ~"sn", ~"fiscal_year", ~"price_per_quintal", 
+  1, "2070/71", 476,
+  2, "2071/72", 461,
+  3, "2072/73", 448,
+  4, "2073/74", 531.20,
+  5, "2074/75", 536.56,
+  6, "2075/76", 536.56
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Price of sugarcane fixed by government for various fiscal years.", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::add_footnote(label = "As of 2074/75 and 75/76, out of price set by government, Rs 65.28 per quintal is paid due government and Rs 471.28 is paid by the respective sugar mill purchasing the cane.")
+```
+
+(for further details, refer to booklet on Sugarcane production^[\url{https://s3-ap-southeast-1.amazonaws.com/prod-gov-agriculture/server-assets/publication-1595229803338-cb578.pdf}])
 
 ## Biological nitrogen fixation
 
@@ -533,12 +878,289 @@ tribble(~"crop", ~"nitrogen_kg_ha",
   kableExtra::kable_styling(latex_options = "striped")
 ```
 
+## Major weeds and their management
+
+Globally, weeds cause upto 40% reduction in yields of all major cultivated crops. Even crop plants can be serious weeds in other crops, e.g. volunteer potatoes or weed beet.
+
+There have been numerous definitions of weeds. Older ones include: 
+
+> _"a plant not valued for its use or beauty"_
+
+and 
+
+> _"a plant whose virtues have yet to be discovered"_
+
+However, most modern definitions convey an opinion that these are the plants which are considered undesirable in some way^[for illustrated review of major weeds, refer to review note on Identification and Characterization of Major Weeds of Selected Field Crops].
+
+### Characteristics of weed
+
+```{r weedification}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "reasons", skip = 1) %>% 
+  mutate_at("Examples", list(~str_replace_all(., "\\*([:alpha:]+\\s?[:alpha:]*)\\*", "\\\\textit{\\1}"))) %>% 
+  knitr::kable(caption = "Qualifications of a plant as a weed", format = "latex", 
+               longtable = TRUE, booktabs = TRUE, 
+               escape = FALSE) %>% 
+  kableExtra::kable_styling(position = "center", latex_options = c("HOLD_position", "repeat_header", "striped"), font_size = 8) %>% 
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::column_spec(1:3, width = c("8em", "14em", "14em"))
+```
+
+### Chemical control of weeds
+
+**Common weed control chemicals and their description**
+
+```{r chemical-weed-management-general}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_common") %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Some common weed control chemicals (Atrazine, Pendimethalin, Pretilachlor)", escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:4, width = c("6em", "10em", "10em", "10em"))
+```
+
+**Herbicides classification based on application timing**
+
+```{r chemical-herbicides-classification}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicide_class_applied") %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:4, width = c("8em", "8em", "8em", "8em"))
+```
+
+**Herbicide classification based on selectivity of weed targets (Broad spectrum herbicides)**
+
+```{r chemical-broad-spectrum-herbicides}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicide_broad_spec") %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:4, width = c("5em", "10em", "12em", "10em"))
+```
+
+### Major weeeds of wheat
+
+```{r maize-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_maize", skip = 1, col_names = FALSE) %>% 
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Maize crop", 
+             col.names = c("Scientific name", "Local name"), 
+             format = "latex", longtable = TRUE, booktabs = TRUE, escape = FALSE) %>%
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "repeat_header", "striped"), full_width = FALSE)
+```
+
+**Narrowleaf weeds**
+
+1. Phalaris minor ( _Ragatey jhar_); a major weed in about 80% cases
+2. Avena fatua ( _Jangali jai_)
+3. Poa annua ( _Padey ghans_)
+
+**Broadleaf weeds**
+
+1. _Chenopodium album_ ( _Bethe_)
+2. _Melilotus alba_ ( _Jangali methi_)
+3. _Fumaria spp._ ( _Ban gajar_)
+4. _Vicia sativa_ ( _Kutilkosa_)
+5. _Lathyrus aphaca_ ( _Bankhesari_)
+
+**Chemical control of weeds of wheat**
+
+1. 2, 4- Dichlorophenoxyacetic acid
+
+- Controls broadleaf weeds
+- Post-emergence application
+- Apply 0.5 kg a.i. of the herbicide mixed with 400-600 ltr of water in 1 hectare of land.
+- Field application at 30-35 days of sowing.
+
+2. Isoproturon
+
+- Controls both broadleaf and narrowleaf weeds.
+- Post-emergence application
+- Apply 0.75-1.25 kg a.i. of the herbicide mixed with 400-600 ltr of water in 1 hectare of land.
+- Field application at 32-35 days of sowing.
+
+3. Sulfofuran
+
+- Controls narrowleaf weeds
+- Post-emergence application
+- Apply 0.02 kg a.i. of the herbicide mixed with 400-600 ltr of water in 1 hectare of land.
+- Field application at 35-40 days of sowing.
+
+4. Metribuzin
+
+- Controls narrowleaf weeds
+- Post-emergence application
+- Apply 0.21 kg a.i. of the herbicide mixed with 400-600 ltr of water in 1 hectare of land.
+- Field application at 35-40 days of sowing.
+
+5. Pendimethalin
+
+- Controls both narrowleaf and broadleaf weeds
+- Pre-emergence application
+- Apply 2 kg a.i. of the herbicide mixed with 400-600 ltr of water in 1 hectare of land.
+- Field application at 3-4 days of sowing.
+
+```{r chemical-weed-management-wheat}
+tribble(
+  ~"pre_emergence_weedicide", ~"post_emergence_weedicide", 
+  "Applied prior to weed emergence", "Applied over the standing weeds", 
+  "Example: Alachlor, butachlor, atrazine, simazine", "Example: 2, 4-D, Glyphosate, Sulfofuran, Metribuzin, Isoproturon"
+  ) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("12em", "12em"))
+```
+
+### Major weeds of rice
+
+```{r rice-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_rice", skip = 1, col_names = FALSE, .name_repair = "universal") %>% 
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Rice crop", 
+             col.names = c("Scientific name", "Local name"), 
+             format = "latex", longtable = TRUE, booktabs = TRUE, escape = FALSE)  %>%
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "repeat_header", "striped"), full_width = FALSE)
+```
+
+**Narrowleaf weeds**
+
+1. _Echinochloa crusgalli_ ( _Thulo sama_)
+2. _Eragrostis spp._ ( _Kush ghans_)
+3. _Paspalum spp._ ( _Janai ghans_)
+
+**Broadleaf weeds**
+
+1. _Eleusine indica_ ( _Kodey jhar_)
+2. _Setaria glauca_ ( _Ban kauli_)
+3. _Panicum spp._ ( _Banso_)
+4. _Cyperus rotundus_; _C. irris_; _C. deformis_ ( _Mothey_)
+
+#### Chemical control of weeds of Rice
+
+```{r rice-chemical-herbicides}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_rice", skip = 1, col_names = TRUE) %>% 
+  knitr::kable(caption = "Herbicidal control of rice weeds", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", latex_options = c("HOLD_position"), font_size = 8) %>% 
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
+  kableExtra::column_spec(2, color = "white", background = "#67161d") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("14em", "14em"))
+```
+
+
+1. Butachlor
+
+- It is effective against grasses, sedges and broadleaves.
+- Pre-emergence application
+- Rate of application: \SIrange{0.75}{1.0}{\litre\per\hectare}
+- Time of application: 2-5 DAS
+- Apply to moist and puddled soil. Control water normally after applying without submerging seedlings; Spray volume is \SI{200}{\litre\per\hectare}. Maintain \SIrange{2}{5}{\centi\meter} water after land levelling. Broadcast seeds 4 days after herbicide application. Drain excess water from the field. Irrigate at 6-8 DAS and maintain water at 2-3 cm for 1-2 days. Irrigate the field 1 day after application. Maintain water at 2-3 cm 1-3 days. Do not submerge rice seedlings.
+
+2. Propanil
+
+- Contact herbicide and, when used alone, generally requires a second application before the permanent flood is established for complete grass control.
+- Weed foliage must not be covered with water at the time of application for the effective control.
+- Does not have any residual activity for weed control from application to the soil.
+- Activity is dependent upon temperature. At lower temperature weed control activity is lower.
+
+### Major weeds of Millet
+
+```{r millet-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_millet", skip = 1, col_names = FALSE) %>% 
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Millet crop", 
+               col.names = c("Scientific name", "Local name"), 
+               format = "latex", booktabs = TRUE, escape = FALSE) %>%
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE)
+```
+
+### Major weeds of Pigeonpea
+
+```{r pigeonpea-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_pigeonpea", 
+                  skip = 1, col_names = TRUE) %>% 
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Pigeon pea crop", 
+               format = "latex", 
+               booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position"))
+```
+
+#### Chemical control of weeds of Pigeonpea
+
+```{r pigeonpea-chemical-herbicides}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_pigeonpea", skip = 1, col_names = TRUE) %>% 
+  knitr::kable(caption = "Herbicidal control of Pigeonpea weeds", format = "latex", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", full_width = FALSE, latex_options = c("HOLD_position")) %>% 
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
+  kableExtra::column_spec(2, color = "white", background = "#67161d")
+```
+
+
+### Major weeds of Lentil
+
+```{r lentil-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_lentil", skip = 1, col_names = TRUE) %>%   
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Lentil crop", 
+               col.names = c("Scientific name", "Local name"), 
+               format = "latex", booktabs = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE) %>% 
+  kableExtra::row_spec(0, bold = TRUE)
+```
+
+
+### Major weeds of Soybean
+
+```{r soybean-weeds}
+readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_soybean", 
+                  skip = 1, col_names = TRUE) %>% 
+  mutate_at(1, list(~str_c("\\textit{", ., "}"))) %>% 
+  knitr::kable(caption = "Major weeds of Soybean crop", 
+               format = "latex", 
+               booktabs = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE) %>% 
+  kableExtra::row_spec(0, bold = TRUE)
+```
+
+#### Chemical management of Soybean weeds
+
+```{r soybean-chemical-herbicides}
+readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_soybean", skip = 1, col_names = TRUE) %>% 
+  knitr::kable(caption = "Herbicidal control of soybean weeds", format = "latex", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", full_width = FALSE, latex_options = c("HOLD_position")) %>% 
+  kableExtra::row_spec(0, bold = TRUE) %>% 
+  kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
+  kableExtra::column_spec(2, color = "white", background = "#67161d")
+```
+
+## Sloping Agricultural Land Technology (SALT)
+
+- SALT is otherwise known as contour hedgerow intercropping (agroforestry) technology CHIAT.
+- Under this system dense hedgerows of fast growing perennial nitrogen-fixing trees or shrub species are planted along contour lines thus creating a living barrier that traps sediments and gradually transforms the sloping land to terrraced land.
+- The technology was developed by the Mindanao Baptist Rural Life Centre, internationally known by the name of its sister affiliate Asian Rural Life Development Foundation (ARLDF), on a marginal site in Kinua Kusan, Mindanao Island, in the Philippines originally during 1971-80 AD.
+- SALT can be established on farmland slopes with gradients ranging from 5 to 25 per cent or more.
+- Cropping alley: 4-6 m
+- Double hedge rows: 30-50 cm
+
+**Types of SALT techniques**
+
+1. SALT-1 (75\% Cereal crops + 25\% Cash crops)
+2. SALT-2 (20\% Cereal crops + 20\% Cash crops + 20\% Forest trees + 40\% Fodder trees)
+3. SALT-3 (20\% Cereal crops + 20\% Cash crops + 60\% Wood and timber)
+4. SALT-4 (40\% Cereal crops + 60\% Fruit and cash crops)
+
 
 # Breeding
 
 ## Center of origin and estimated time of cultivation
 
-```{r}
+```{r center-of-origin-cultivation}
 tribble(
   ~"Crop",	~"Length of time domesticated (years)",	~"Possible region of origin",
   "Maize, Zea mays",	"7000",	"Mexico, Central America",
@@ -571,8 +1193,8 @@ tribble(
   "Alfalfa, Medicago sativa",	"4000",	"Iran, Northern Pakistan",
 ) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(position = "center", latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:3, width = c("8em", "12em", "12em"))
+  kableExtra::kable_styling(position = "center", latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("10em", "12em", "12em"))
 
 ```
 

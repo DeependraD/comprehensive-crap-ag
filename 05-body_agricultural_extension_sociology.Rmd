@@ -1,6 +1,327 @@
 
 # Extension and sociology
 
+## Agriculture extension
+
+Extension word is derived from latin words "Ex" meaning "Out" and "tension" meaning "stretching". The term extension was used in 1867 AD in England for the first time. The term _extension education_ was used in 1873 AD in USA. The term extension was used in the context of diffusion of agriculture information to farmers in 1894 AD by Vorhees in USA for the first time.
+
+Agricultural extension is the application of scientific research and new knowledge to agricultural practices through farmer education. It now encompasses a wider range of communication and learning activities. Modern agricultural extension began in Dublin, Ireland in 1847 during the great famine. It expanded in Germany in the 1850s and later in the USA via the cooperative extension system in 1914. In the US, an extension agent is a university employee who assists people in economic and community development, leadership, family issues, agriculture and environment. In Nepal, agricultural extension is broadly understood as the "dissemination of new knowledge" from researcher to farmers.
+
+FAO defines agricultural extension as _non formal_ out of school education service for training and influencing farmers (and their families) to adopt improved practices in crop and livestock production, management, conservation and marketing.
+
+It is a two way bridge carrying information from research work to the rural people and bringing back knowledge and suggestion based upon local experiences as a guide for further research.
+
+Agriculture Extension Section was established in the Department of Agriculture (DoA) in August 1959 (2016 BS) together with the shift of responsibility of extension service form Tribhuvan Village Development Program (TVDP) to the DoA. The Department of Agricultural Extension was then established in 1967 (2023 BS).
+
+- The present agricultural extension approach adopted by the government of Nepal is: **Farmers Group Approach**.
+- Agriculture Extension Strategy, 2006 has approved pluralistic approach in agriculture extension.
+
+### Brief history of extension in Nepal
+
+Nepal initiated the agricultural extension approach with the concept of Training and Visit System (T and V System). Initially it was implemented in 23 districts with support from the World Bank from 1975 to 1989 with some hiccups and criticisms about its cost. The Integrated Rural Development Approach followed in all the 75 districts with the objective of providing holistic support from service to production and marketing. However, it did not cater to all the categories of farmers.
+
+The Tuki approach of extension was initiated with support of the Swiss-assisted Integrated Hill Development Project in 1977, but was limited to two project districts. In this system, a trial was made in the farmers’ field by distributing a packet of seeds and fertilizers and sharing the results to test their suitability in the local condition. The system was implemented with the recruitment of Tuki volunteers after an intensive 15-day progressive farmers’ training.
+
+In the 90s, the Farming Systems Research and Extension (FSR/E) project was initiated to integrate research and extension by generating technology in the research outreach sites with the participation of the farmers. Proven agricultural technologies got expanded within the Extension Command Area (ECA) in the hill districts in close coordination with the British-funded Lumle Agriculture Centre and Pakhribas Agriculture Centre (PAC). These two centres were run for more than 30 years in Nepal with good success.
+
+In the later stage, the Block Production Programme (BPP) was initiated under the USAID-supported Integrated Cereals Project (ICP) to increase production and productivity of a particular commodity. Started in 1982, the approach was tested in two Terai districts and later expanded to the entire belt and some hill districts with government funding.
+
+Agricultural extension in Nepal have metamorphosed through conventional Education Approach to the more recent Pocket Package Approach. In the former approach, key farmers themselves disseminate the knowledge and skills taught to them, whereas in the Pocket Package Approach, production is on a pocket area basis. Until the recent past, the Department of Agriculture (DoA), under the Ministry of Agriculture, had the primary mandate of agricultural extension from the centre to the region, and district to the community level. In addition to the Department, it had disciplinary directorates at the center, regional offices in each region and a District Agricultural Development Office (DADO) in the districts. The village level technicians, popularly known as JT/JTAs, were grass-roots level staff with a dense presence at all the levels.
+
+Along with the adoption of the federal system in Nepal, agricultural extension has also been adopted accordingly. The agricultural extension system is basically a top-down approach. Nepal’s constitution has ascribed the function of production to local level and to some extent to the provinces, reserving the central government the role of formulating acts, rules, regulations and international coordination. However, a similar spirit could not be ensured in the new organogram, which was prepared in 2074 BS. As a result, the major function of technicians has been deviating from technical backstopping to serving as input distributing agents. So they have a subsidiary role instead of being a technology generator and disseminator.
+
+Some donor-supported programmes and Prime Minister Agricultural Modernisation Project (PMAMP) have been initiated, under the pocket package approach. The Farmers Field School (FFS) Approach has been in operation based on the principle of learning by doing and seeing is believing. This is one of the successful approaches in the Integrated Pest Management Programme. Government organisations are undertaking a partnership approach with other organisations like the Department of Irrigation, Commerce, universities, media, NGOs, CBOs and private organisations to deliver the extension services effectively.
+
+Agriculture as a science has to be linked to the practice of delivery of new innovations to the farmers. This needs regular capacity building of the staffers and organisations with strong coordination and linkages. However, at present, there is cryptic coordination among the Agricultural Knowledge Centres (AKC), under the provincial ministry, and the institutions working at the local as well as federal levels. In fact, AKCs were conceptualized to provide expertise to the farmer by staying in between the three tiers of governance. The AKC was to be the interface among the researcher, extension and students.
+
+(Source: \url{https://thehimalayantimes.com/opinion/agricultural-extension-keeping-up-with-the-times/})
+
+### Objectives of extension
+
+- Uplifting the livelihood of rural community
+- Generating the sources of income
+- Improving leadership capacity of individuals of the rural communities
+- Protecting culture and tradition
+- Guiding changes in knowledge and skills of individuals
+
+### Characteristics
+
+- Informal
+- Continuous and non-institutional
+- Behavioral and practicable
+- Flexibility
+- Based on common values and interests
+- Broad scope
+- Local and rural leadership development
+
+### Principles of agricultural extension
+
+- Principle of Participation
+- Principle of Adaptability
+- Resource use and their mobilization
+- Self-help
+- Need and interest
+- Cultural difference
+- Leadership
+- Voluntarity
+- Flexibility
+- Learning by doing
+- Self dependence
+- Sustainability
+- Motivation and encouragement
+- Cooperation
+- Whole family
+
+## Agricultural extension approaches
+
+- Vorhees was the first person (1894) to use Extension (in agriculture) in context of diffusion of information to farmers.
+
+(for a detailed treatment of the topic refer to: https://reliefweb.int/sites/reliefweb.int/files/resources/AgExtServDelSysNepal.pdf)
+
+### Training and visit system
+
+This approach was implemented with assistance of World Bank in twenty-three districts of the country, the approach was well accepted in the beginning as a means to expand extension coverage. Initially Bara and Parsa districts were selected and later expanded to include 19 terai and 4 mid-hill districts. The concept of training the farmers and extension workers and a time bound schedule of visits to the farmers passing the technological recommendations was worth working. This approach was implemented from 1975 until 1989. Several problems including high cost for sustainence in terms of both financial and human resources, repetition of messages regarding the technical recommendations only, emphasis on production aspect only but missing treatment of post-harvest and agribusiness activities, input, credit and marketing, etc were realized as implementation progressed. Other problems were lack of motivation and regular supervision on part of regulatory agency; poor communication infrastructure in the hilly areas, etc.
+
+### The block production programme
+
+It has its roots from the concept of Green Revolution technology development in that production and productivity can be increased when complete packages of production practices are integrated and concentrateed in a particular commodity in contiguous agricultural area called the 'block'. In 1982, the approach was tested in the two Terai districts of Chitwan and Parsa under a USAID supported Integrated Cereals Project (ICP). Later it was expanded to the entire Terai and to some hill districts with government funding. Originally, the block consisted of 1000 hectares of contiguous plots but was later changed to 100 hectares sub-blocks when the pre-requisites were not available for larger 'blocks'. In the hill regions, the sub-blocks were often of 20 hectares per block. The success of BPP rests on the integrated use of seeds, fertilizer, irrigation and management practices. These inputs were to impact on raising productivity through large scale demonstration effect to the farmers, and to support self-reliance in the food security needs of the country.
+
+Agronomists (not the regular extension workers) from research were deputed to the blocks supported by JTs/JTAs, thus there was a higher ratio of extension workers to farmers compared to normal extension support found elsewhere, which, although positive, proved to be unsustainable for large scale replication throughout the country and was thus finally discontinued. Originally, the 1 000 ha blocks was to be supervised by one agronomist, 2 JTs and 10 agriculture assistants but this was later relaxed in line with manpower availability. The BPPs covered 1 10 000 ha consisting of about 78,000 farm households in 28 districts.
+
+Problems associated with the Block Production Program:
+
+1. Relied heavily on public sector support for inputs, credit, irrigation, technical recommendations, and marketing.
+2. The private sector’s participation was grossly neglected.
+3. Network and linkages among stakeholders (such as input and credit suppliers, etc) was weak as the program went expanding.
+4. The program was biased towards large and resource-rich farmers who had large farm sizes with irrigation facilities and afforded purchased inputs.
+5. Costly in terms of financial and human resources compared to the nationwide conventional approach.
+
+### The tuki extension system
+
+The Tuki system of agriculture extension was introduced in the Dolakha and Sindhupalchowk hill districts in 1977 under a Swiss-assisted Integrated Hill Development Project (IHDP). The main features of the system are:
+
+1. This system did not generate new technologies for use by the farmers but relied on technologies developed by commodity research programmes in the country and screened them through the conduct of adaptive trials in the three agricultural farms by the researchers in the project districts.
+2. Package of seeds and fertilizers was also distributed to test their suitability in the local condition.
+3. Researchers met with the extension staff to relay the results of the trials conducted.
+4. Farmers trainings were conducted at quarterly basis with the involvement of researchers.
+
+The Tuki System's activities were not limited to technical subjects alone. The extension worker under this system had to: fulfill the needs with respect to improved agricultural inputs; disseminate information and train his neighbours; demonstrate new technology to his neighbours; and understand his own capacity and those of the agencies helping the farmers.
+
+The system was implemented with the recruitment of volunteers (the Tukis) to the VDC after an intensive 15-days long progressive farmers training. They received four trainings in a year before the agriculture seasons. These volunteers called "Tukis" were those who had high respect within the community, with willingness to help their farmer neighbors in modern technologies, who maintained their own model farms, and distributed agricultural inputs to farmers and who were also interested to interact with neighbors regarding modern farming issues. As honorarium, Tukis received from the project 20 percent commission on the sale of inputs (seeds, seedlings, saplings, chicks, goats, tools, etc) and allowances at Nepalese Rupees 6 (NRs) 0.50 per km travelled for the deliveries of such inputs. As well, Tukis also received interest-free credit, up to NRs 500 (US\$ 6.84) worth of inputs for three months. Later the commission on input sales was replaced by the provision to them of a seed multiplication programme in which the Tukis as well could participate.
+
+The Tuki system, however, did not expand beyond the two project districts, and the operation, since it was basically the conventional approach (with only addition being that Tukis functioned to provide inputs), after IHDP was phased out in 1990. Under 1988/89 prices, the operation of the Tuki system required about NRs 4,00,000 per year which was equivalent to about 24\% of the then annual budget of Dolakha district. Tukis later organized themselves into a Tuki Association and also sought alternative forms of employment given the paucity of business transactions.
+
+### Farming system research and extension approach
+
+Under a Department for International Development (DFID) assisted project, the Lumle Agriculture Center (LAC) and the Pakhribas Agriculture Center (PAC) located in the western and eastern hills respectively were assisted to integrate research and extension in the hill districts. It was initiated in a Farming Systems Research and Extension (FSRE) project under a single umbrella (and line of command) to generate technology in the research outreach sites with the participation of farmers to avail inputs locally and to expand the adoption of proven agricultural technologies within the Extension Command Area (ECA). There were only 2 divisions in the project namely, technical and administration. The integrated approach, however, confined itself within the project for inputs delivery and not much attention was paid to the existence of private stakeholders for future sustainability in marketing and enterprise development. At the later stage, the project extended partnership with the T and V System in the hills, in the western region, but the coordination and linkage was weak due to differences in management aspects in separate projects funded by different donors. Though the extension service under the project established good contact with farmers, the high extension cost could not be sustained by the government.
+
+### Integrated rural development approach
+
+All the administrative zones in the country were covered by the Integrated Rural Developmenent Projects (IRDPs) in the 1970s and the 1980s.The mode of implementation recognized the existence of technology but what remained to be done was to boost agricultural production and productivity with improved supply of inputs, better extension services support and infrastructural development to uplift the rural standards of living. Thus the IRDPs emphasized strengthening the existing conventional extension system with additional temporary manpower, the supply of production inputs, construction of Agriculture Service Centers and additional fund for services. In sum, the IRDPs adopted the conventional extension system described earlier and focused on the intensity with which to implement the extension interventions. The projects in different locations varied in terms of project components, level of funding, coverage of geographical area from a single district to the entire zone, density of extension service
+
+The Ministry of Local Development (MLD) was the central coordinating agency and the Project Coordinator was deputed from there. Individual components were to be implemented by the respective ministries through their district level line agencies. Some of the major hurdles in the approach were remuneration incentives, weak integration because of the varying rules and working guidelines adopted by different line ministries and the line of command was unclear due to the presence of many bosses that extension had to report to. 
+
+Grass roots level extension infrastructures like ASC buildings, market yards, trails, rural roads and small irrigation schemes proved to be of worth and some of them are still useful today. Research-extension linkage worked through strengthening existing agricultural farms within the project area while others relied heavily on the available technology and was promoted through the DADOs. At later stages, it was realized that technology was not available for all categories of farmers (e.g. irrigated/non-irrigated conditions) to adopt based on the assumption of green revolution technology applicable to all environments.
+
+```{r extension-methods}
+read_csv("./data/extension_methods.csv", skip = 2) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Comparison of different extension methods", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:8, width = c("8em", rep("6em", times = 6)))
+```
+
+### Conventional educational approach
+
+Besides the group members, this approach involves the key farmers in the process of motivation and education. The farmers themselves in a wider area disseminate the knowledge and skills taught to them. This approach has been effective to facilitate the adoption of new innovation by interested farmer, which eventually radiated demonstration effect the neighboring farmers.
+
+### Pocket package approach
+
+Pocket package approach refers to the production strategy on pocket area basis. The feasible pockets for a certain commodity are selected and then a project is developed through bottom up process. This has been positive to introduce the package of technologies as demanded by pockets. It has also helped to develop the crops/commodities on commercial scale.
+
+### Projectization approach
+
+Every commodity based production program has been implemented on the basis of project-designed within the framework or time duration, budget expenditure and expected output. Package of activities which are required to achieve the output are identified and included in the Project. This approach has been adopted in all the 75 districts with a priority in the production pockets.
+
+### Farmer's group approach
+
+Group method of extension was initiated from 2044/45 BS from Chitwan. Group Formation and Operation Guidelines, 2050 provides a framework for creating as well as granting official status to the groups. The principle is to put the farmers of same interest together and carry out the activities on group basis. This method has been very effective in bringing the innovation to a group first, which in turn expand to its command area farmers. The limited manpower and other resources can be well utilized by means of group. 8th five year plan emphasized the Group Approach to extension in Nepal.
+
+### Farmers field school approach
+
+Farmers field school was started in Nepal from 2056 BS. A farmer's field school is a time bound activity (generally one agricultural production cycle or a year), involving a group (commonly 20-30) of farmers. FFS usually runs its course with intensive field visits, involving self-exploratory methodology of teaching-learning with practical problems of certain crop or animal. It is facilitated by extension staff -- increasingly -- by farmer facilitators (FFs). 
+
+The FFS approach is an innovative, participatory and interactive learning approach that emphasizes problem solving and discovery based learning. FFS aims to build farmers' capacity to analyze their production system, identify problems, test possible solutions, and eventually encourage the particpants to adpot the practices most suitable for their farming systems. Theis approach is becoming popular because of its democratic and participatory process.
+
+The FFS emphasizes group observation, discussion, analysis, presentation, and collective decision making and actions. The basic component of FFS is setting up of a Participatory Comparative Experiment (PCE), commonly referred to as Participatory Technology Development (PTD), whereby the farmers put the FFS concept into practice. A PCE can be developed using either subjects of agriculture, livestock, forestry, agroforestry, livelihood and other.
+
+Core principles of FFS are:
+
+- The field is the learning place
+- Facilitation, not teaching
+- Hands on and discovery based learning -- "Learning by doing" philosoply
+- The farmers are expert
+- Equity, and no hierarchy
+- Integraetd and learner-defined curriculum -- Unique to each group
+- Comparative experiments
+- Agroecoystem analysis
+- Special topics
+- Team building and social animation -- through song, dance, drama, etc.
+- Participatory monitoring and evaluation
+
+**Public-private partnership approach**
+
+- Government bodies are forming partnership with other organization like Department of Irrigation, NGOs, CBOs, Private organizations, etc., to deliver the extension services effectively. This strategy has encouraged relevant stakeholders to join hands in development.
+
+**Pluralistic approach**
+
+- Pluralism in extension -- extension system with multiple providers of service, and often with multiple funding sources, and multiple extension approaches.
+- Pluralism raises a number of issues -- coordination, roles, collaboration and competition, strengthening capacity of extension managers and systems at different levels.
+
+- Coverage of agriculture extension in Nepal: 20%
+- JT/JTA to farmer family ratio: 1:1333
+- In group approach extension program, 60% of budget for agriculture development in district are allocated for pocket areas and remaining 40% for other general program.
+- Agriculture extension program was initiated with the inception of Tribhuvan Graham Bikash from 2010 BS.
+- 4H club was initiated in Nepal: 2011 BS (1953/54).
+- Minikit (Adaptive) is group contact type communication. It is organized by commodity research program in collaboration with DADO and the farmers in farmers' condition. It is used to test the performance of new practices (varieties) that is found to be promising on a research station.
+- For minikit, cereals need 100-125 msq while vegetables require 25-50 msq area.
+- For result demonstation, 0.05 ha (1 ropani) is required in hills and 2 kattha in Terai.
+- Most effective teaching method in extension -- result demonstration.
+- 4 stages of group formation in extension:
+  - Forming
+  - Storming
+  - Norming
+  - Performing
+
+- Principles to run a meeting are:
+  1. Agenda
+  2. Discussion
+  3. Decision
+  4. Minuting
+
+- Characteristics of a group are:
+  1. Plurality
+  2. Physical togetherness
+  3. Common goal
+
+- 10% of the population will be taken for sampling survey in extension.
+- 4-H club started in USA in 1914.
+
+## Communication
+
+### Theories (Models of mass communication)
+
+1. **Hypodermic-Needle model**: Based on S-R theory. Mass media $\longrightarrow$ Direct audience effect.
+
+2. **Two step flow model**: Multi-step flow model
+
+Mass media $\longrightarrow$ Audience 1$\longrightarrow$ Audience 2 $\longrightarrow \ldots \longrightarrow$ Audience effect.
+
+### Steps in teching-learning process
+
+- Attention (Getting attention of the learner)
+- Interest (Simulating learner's interest)
+- Desire (Arousing learner's desire for information)
+- Conviction (Convincing the learner that he/she would go for action)
+- Action (Getting action by the learners)
+- Satisfaction (Ascertaining satisfaction from action)
+
+### Theories of learning
+
+1. Stimulus-Response theory (S-R theory)
+
+Stimulus is a situation representing the environment. A response is the behavior of a person or organism in relation to the stimulus. In practical terms, the S-R theories assume that man's environment (stimuli) shapes his behavior (responses).
+
+Four important law of this theory (Thorn dike's law of learnging):
+
+- Law of readiness
+- Law of exercise
+- Law of effect
+- Law of belonging
+
+2. Cognitive theory
+
+It is also called SOR theory (Stimulus-Organism-Response) theory. This theory stresses that it is the man's perception or understanding of the stimulus that shapes his behavior not the stimulus alone.
+
+3. Motivation theory
+
+Motivation theory states that it is a person's motive that leads him to certain activity and finally learning.
+
+### Extension teaching methods
+
+1. Based on use
+
+- Individual contact (high efficiency but slow)
+- Group contact (best method)
+- Masss contact (rapid)
+
+2. Based on form
+
+- Written
+- Spoken
+- Visual
+- Spoken and visual
+- Electronic
+
+### Adoption
+
+There are 4 stages of social change/transformation
+
+1. Knowledge
+2. Pursuation
+3. Decision (Adoption/Rejection)
+4. Confirmation (Continued adoption, discontinuance, later adpotion, continued rejection)
+
+Adopter's cateogry classification in Nepal:
+
+- Innovative: 2.5 \%
+- Early adopters: 13.5 \%
+- Early majority: 34 \%
+- Late majority: 34 \%
+- Laggards: 16 \%
+
+### Kinds of Extension program planning
+
+i. Pre-determined (planning by top level or by the government)
+ii. Joint-determined (planning with consultation of the people of grass root level)
+iii. Self-determined (planning by the leaders forming committee without involvement of grass root people and governmental officials)
+
+### PRA and RRA
+
+- Rapid Rural Appraisal (RRA) can be described as "a semi-structured activity carried out in the field by a multidisciplinary team and designed to acquire quickly new information on, and new hypotheses about, rural life"
+- An RRA study aims at generating information on rural life and conditions that is relevant, timely, accurate and usable in a cost-effective way.
+- Participatory Rural Appraisal (PRA) is a methodology for interacting with villagers or a community, understanding them and learning from them. It involves a process of communicating with them using a set of menu of methods that seek community participation.
+- Besides enabling outsiders to obtain information about the communities, PRA is intended to enable the community members to conduct and share their own investigations and analysis.
+- The role of the outsider is that of a catalyst, a facilitator of processes within a community which is prepared to alter their situation.
+
+```{r rra-pra-difference}
+tribble(
+  ~"RRA", ~"PRA",
+  "Responding to needs of development workers and agencies", "Responding to needs of communities and target groups",
+  "More emphasis on efficient use of time and achiement of objectives", "More emphasis on flexibility to adapt to time frame of community",
+  "Communication and learning tools used to help outsiders analyse conditions and understand local people", "Communication and learning tools used to help local people analyze their own conditions and communicate with outsiders",
+  "Focus on RRA decided by outsiders", "Focus on PRA decided by communities",
+  "End product mainly used by development agencies and outsiders", "End product mainly used by community", 
+  "Enables development agencies and institutions to be more participatory", "Enables (empowers) communities to make demands on development agencies and institutions", 
+  "Can be used purely for research purposes without necessarily linking to subsequent action or intervention", "Closely linked to action or intervention and requiring immediate availability of support for decisions and conclusions reached by communities as a result of the PRA"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Difference between RRA and PRA") %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
+```
+
+- The first Nepal Young Farmers Conference was held in June 2016.
+- Kishan Call Center was started in Feb 26, 2016.
+- Poster size commonly used in extension program is 1.5 x 2 square feet and can be seen from 25-30 feet away.
+- Organization of farmer's day requires participation of 10-12 farmers.
+- In a farmer's visit, 30-40 farmers are engaged.
+- A group discussion is most appropriate when held between 20-25 people.
+- A leader farmer training is conducted for 5 days.
+- In a method demonstration, appropriate size of farmers' group is 20.
+- For result demonstration, participation of 20-25 farmers is regarded appropriate.
+- Farmers' field school was started in 1989 from Indonesia and in Nepal, FFS started in 2056 BS.
+
+## Government organizations in agriculture
+
 - Department of Agriculture is headed by the Director General (DG). There are 3 deputy DGs (DDGs).
   - DDG, Planning and Human Resource
   - DDG, Monitoring, Evaluation and Management
@@ -18,42 +339,22 @@
   - Vegetable development farm/center: 9
   - Fishery development and training center: 11
   - Central fisher laboratory: 1
-  - Regional plant quarentine office: 5
+  - Regional plant quarantine office: 5
   - District agriculture development office: 75
   - Agriculture service center: 378
 
-## Multidimensional poverty index (MPI)
+## Agricultural credit
 
-MPI is a composite index of three dimensions of poverty -- health, education each with two indicators (nutrition, child mortality, for health, and years of schooling and school attendance, for education) and living standard with six indicators (cooking fuel, improved sanitaiton,improved drinking water, electricity, flooring and roofing and asset ownership). The percentage of people under deprivation is the outcome of equal weight of all dimensions and their respective indicators. The MPI is used to identify a person as multi-dimensionally poor is he or she is deprived in at least one third of the dimensions.
+In general, there is no easy access to agricultural credit in Nepal. The existing Agricultural Development Bank, Nepal (ADB/N) has been restructured as a limited company to perform on a commercial footing and there is not designated lending agency for agriculture now. No particular amount of agricultural credit is earmarked as against in the past when ADB/N performed the function for the institutional loan for agriculture with resources support from the government. In the absence of this, targeted programs to reach specified vulnerable and disadvantaged group of peoples has been difficult. Interest rates for agriculture purposes with ADBL range from 10-12 percent (?) and rural areas are devoid of formal sources of credit as it is difficult to find branches operating in the vicinity of farmers. The branch offices in rural areas were recalled during the decade-long arm conflict by the Maoists and have not been reinstated since.
 
-- MPI of nepal:
-  - 2011 $\longrightarrow$ 0.217
-  - 2014 $\longrightarrow$ 0.127 (NPC, 2019). This means that multidimensionally poor people in Nepal experience 12.7% of the total deprivations that would be experienced if all people were deprived in all indicators.
-  
-- $MPI = H \times A$
-  - H: The incidence of poverty (or poverty rate; The proportion of people identified as multidimensionally poor).
-  - A: The intensity of poverty (of the average proportion of weighted indicators in which the poor are deprived)
-  - Values of H and A are, respectively, 28.6% and 44.2% (as of 2014 survey).
-- Provincewise MPI values:
-  - Province 1: 0.085
-  - Province 2: 0.217
-  - Province 3: 0.051
-  - Province 4: 0.061
-  - Province 5: 0.133
-  - Province 6: 0.230
-  - Province 7: 0.146
+To fill the credit gap, farmers raise their own groups welfare funds and mobilize for agricultural and social purposes on terms decided by their members. These accumulated funds are growing bigger and extension should pay attention to utilizing them as participatory investments in demand-driven programmes. Savings and credit cooperatives constitute 40% of the total cooperative organizations and are potential lending institutions. But their presence is more pronounced in urban than in rural areas.
 
-## Human Development Index
+Microfinance institutions operate at both retail and wholesale levels but the coverage in rural areas is limited. The rest of the credit needs is met from informal sources on varying interest rates which often happen to be exorbitantly high.
 
-The HDI is a simple, approximate statistic devised to introduce non-income factors and rival traditional economic indicators within a framework of international development. Formula produces composite statistic of life expectancy, education and income indices, which are used to rank countries into four tiers of human development, well-being concept based on capability approach. It is annually published by the UNDP since 1990. The index has been developed as a broad proxy intending to stimulate political changes and according to UNDP shall not be considered the only measure of a country's level of development in general nor the ultimate measure within the concept of human development. Despite shortcommings, HDI is reported to greatly influence policy-makers all around the world, thus contributing to reduction of global poverty.
+## Agricultural marketing
 
-- HDI of Nepal was 0.463 (157th position globally), while it was 0.955 (1st position globally) for Norway.
-- HDI of Nepal was 0.54 (145th position globally)
+There is inherent inefficiency in the performance of the agriculture produce marketing in Nepal as wholesalers and middlemen significantly influence prices of agricultural products. There should be a level playing field for all stakeholders to participate in the market to promote competition in efficient marketing. The contribution of the cooperatives in marketing is very low as marketing cooperatives are few in number. The GON has assisted construction of collection centers, market centers and other market infrastructures in partnership with the producer groups, other stakeholders and the local government. Livestock and fisheries products markets are very few, follow the traditional unhygienic practices and the regulation of these markets has been challenging.
 
-## Gender Development Index (GDI) and Gender Empowerment Index (GEI)
+The GON lacks funds to facilitate construction of more physical infrastructures and develop efficient and competitive agricultural markets that would provide producers the incentive to invest in innovations for increased farm incomes. Demand-driven extension programmes motivate producers to invest in such local rural market development which raises their income earnings. Development Partners can play a crucial role to develop locally viable agricultural markets at least in areas served by feeder roads. This should be concomitantly supported with marketing extension services thus far neglected. Extension service advocates unilateral transfer of technology for increased productivity with new technologies. Services to market-oriented production planning (commercial farming) are grossly lacking with the government supported extension system.
 
-The GDI and GEI were introduced in 1995 in the Human Development Report written by the UNDP. The aim of these measurements was to add a gender-sensitive dimension to the Human Development Index (HDI). The GDI is defined as a distribution-sensitive measure that accounts for the human development impact on existing gender gaps in the three components of the HDI (Klasen, 1995). The GDI takes into account not only the average or general level of well-being and wealth within a country, but focuses also on how this wealth and well-being is distributed between different groups within society. The HDI and the GDI were created to rival the more traditional general income-based measures of development such as GDP and GNP. GDI, on the other hand, addresses gender-gaps in life expectancy, education, and incomes. It uses an "inequality aversion" penalty, which creates a development score penalty for gender gaps in any of the categories of the HDI which include life expectancy, adulty literacy, school enrollment, and logarithmic transformations of per-capita income.
-
-Only the gap between the HDI and GDI can be accurately considered; the GDI on its own is not an independent measure of gender-gaps.
-
-- The GDI and HDI (women) of Nepal are, respectively, 0.925 and 0.552 as of 2017. This ranks Nepal in 115th position globally.
+Marketing of outputs suffer from inadequate capacity of storage, absence of grading and appropriate packaging, poor transport, quality control and marketing infrastructures. Marketing infrastructures can broadly be classified into collection centers, small wholesale and big wholesale markets according to Nepalese scale of operation. In the localhaat bazaars that mostly operate on weekly basis, inputs and outputs are transacted freely without regards to quality and standards, a practice continuing since long. Milk marketing is handled by three organizations—milk cooperatives, Dairy Development Corporation (DDC) owned by the government and private sector dairies. DDC alone handles about 50% of the milk marketed in the country. Similarly, fruits and vegetable entrepreneurs operate for fresh products transactions in both government-constructed Agriculture Produce Market Centers (APMCs) and private premises. APMCs are managed by a committee of government, producers, traders and local body representatives.Export markets are managed by organizations and individuals of the business community. Knowledge and information on quality control and certification system (e.g. organic products), sanitary and phytosanitary regulations, and grades and standards are becoming crucial for Nepalese producers to facilitate participation in regional and global markets. There are specialized fields and the capacity of the extension system should be enhanced to provide such needed services for the various agricultural stakeholders.

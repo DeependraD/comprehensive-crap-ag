@@ -7,8 +7,12 @@ language:
 rmd_files:
   html: []
   latex: ["index.Rmd",
-  "01-body_general_agriculture.Rmd",
-  "02-body_horticulture.Rmd",
+  "01-body_general_agriculture1.Rmd",
+  "01-body_general_agriculture2.Rmd",
+  "01-body_general_agriculture3.Rmd",
+  "02-body_horticulture_general_vegetable_cultivation.Rmd",
+  "02-body_horticulture_fruit_cultivation.Rmd",
+  "02-body_horticulture_tea_coffee_spices.Rmd",
   "03-body_agronomy_breeding.Rmd",
   "04-body_soil_sciences_irrigation_farm_structure.Rmd",
   "05-body_agricultural_extension_sociology.Rmd",

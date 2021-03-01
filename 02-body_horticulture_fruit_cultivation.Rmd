@@ -1,0 +1,380 @@
+
+## Mango cultivation
+
+### Varieties of mango and classification
+
+```{r mango-varieties}
+tribble(
+  ~"classification", ~"group", ~"cultivar",
+  "Based on maturity", "Very early varieties", "Bangalora, Banganpalli",
+  "Based on maturity", "Early varieties", "Bombay green, Bombay yellow, Himsagar, Kesar, Swarnarekha",
+  "Based on maturity", "Mid season varieties", "Dashehari, Langra, Zardalu, Krishnabhog, Alphonso",
+  "Based on maturity", "Late varieties", "Samarbahisth, Chausa, Fazri, Neelum, Mulgoa, Amrapali, Kaitki",
+  "Based on firmness of pulp", "Soft pulp type", "Langra, Dashehari",
+  "Based on firmness of pulp", "Firm pulp type", "Bangalora, Mallika",
+  "Based on firmness of pulp", "Loose pulp type", "Sukul, Baramasia",
+  NA, "Sucking type", "Luknow safeda, Mithua, Ghazipur, Gilus",
+  "Based on embryony", "Polyembryonic varieties", "Bellary, Bappakai, Chandrakaran, Goa, Kurukkan, Olour, Nileshwar dwarf",
+  "Based on embryony", "Monoembryonic varieties", "Almost all commercial varieties",
+  "Based on fibre content of fruit", "Fibrous", "Sukul, Baramasia",
+  "Based on fibre content of fruit", "Fibreless", "Langra, Dashehari, Zardalu, Ranipasand", 
+  "Based on fibre content of fruit", "Moderately fibrous", "Fazil, Sipia", 
+  NA, "Regular bearing varieties", "Amrapali, Neelum, Bangalora, Mallika",
+  NA, "Colored varieties", "Sindhuria, Gulabhas, Zafrani",
+  NA, "Hybrid varieties", "Mallika (Neelam x Dashehari)",
+  NA, "Hybrid varieties", "Amrapalli (Dashehari x Neelam)",
+  NA, "Hybrid varieties", "Ratna (Neelum x Alphonso)",
+  NA, "Hybrid varieties", "Neeluddin (Neelum x Himayuddin)",
+  NA, "Hybrid varieties", "Arka aruna (Baganpalli x Alphonso)",
+  NA, "Hybrid varieties", "Nelphonso (Neelum x Alphonso)",
+  NA, "Hybrid varieties", "Neelshan (Neelum x Baneshan)",
+  NA, "Hybrid varieties", "Neeleshwari (Neelum x Dashehari)"
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Mango varieties and its classification", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:3, width = c("8em", "8em", "16em"))
+```
+
+## Citrus cultivation
+
+### Botany and classification
+
+Citrus belongs to the family Rutaceae. Almost all the cultivated species, varieties and forms of citrus, fortunella and poincitrus are diploid, the monoploid number of chromosome being 9 i.e. 2n = 18.
+
+#### Related genera
+
+- Trifoliate orange ( _Poncitrus trifoliata_): Very thorny parts, fruits inedible, used as root stock and for inter-generic crosses, polyembryonic. Susceptible to blight but tolerant to most viral diseases, Phytophthora root rot and citrus nematode.
+- Fortunella (Kumquat) ( _F. japonica_, _F. hindsii_, _F. margarita_, _F. crassifolia_) used for ornamental purpose. Trees and shrubby. Fruits are made into candy.
+
+#### Orange group
+
+- Sweet orange ( _Citrus sinensis_): Some of the varieties are Junar, Shamauti and Pineapple, Valencia late, Hamlin, Jaffa, Blood red malta, Mosambi, Washington navel orange.
+- Sour orange ( _C. aurantium_): World's principal root stock, cold hardy and resistant to several diseases.
+
+#### Mandarin group
+
+```{r mandarin-citrus}
+tribble(
+  ~"mandarin_group", ~"scientific_name", ~"cultivars", 
+  "Mandarin orange", "\\textit{Citrus reticulata}", "Includes all loose skinned orange", 
+  "King mandarin", "\\textit{Citrus nobilis}", "\\textit{Citrus reticulata} x \\textit{Citrus sinensis}", 
+  "Willow leaf mandarin", "\\textit{Citrus deliciosa}", NA,
+  "Kinnow mandarin", NA, "Hybrid of king and willow leaf mandarin", 
+  "Nagpur santra", NA, "Ponkon",
+  "Nepali suntala", NA, NA,
+  "Satsuma mandarin", "\\textit{Citrus unshiu}", NA
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Mandarin group and some examples", escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
+
+The introduced loose skinned orange are Yoshida Ponkan, Clementine, Kinnow and Israeli.
+
+#### Acid group
+
+```{r acid-citrus}
+tribble(
+  ~"mandarin_group", ~"scientific_name", ~"type",
+  "Citron", "\\textit{Citrus medica}", "Monoembryonic seed",
+  "Lemon", "\\textit{Citrus limon}", "Eureka lemon, Lisbon lemon, Lucknow seedless, Nepali oblong, Hill lemon",
+  "Lime", "\\textit{Citrus aurantifolia}", "Acid lime/kagzi lime (Paper thin rind)", 
+  "Rangapur lime", "\\textit{Citrus limonia}", "Mainly used for root stock. It is considered to be hybrid between mandarin and lemon like fruit", 
+  "Sweet lime", "\\textit{Citrus limettoides}", NA, 
+  "Rough lemon", "\\textit{Citrus jambhiri}", "It is indigenouly found in Nepal. Mainly used for making concentrated Nibu juice, an important root stock",
+  "Pomelo", "\\textit{Citrus maxima}, \\textit{Citrus grandis}", "Strictly monoembryonic", 
+  "Grapefruit", "\\textit{Citrus paradisi}", "Closely related to pomelo. As the fruits are borne in cluster (upto 12) like grapes"
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Acid group of citrus fruits", escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 2:3, width = c("6em", "16em"))
+```
+
+#### Citrus hybrids
+
+```{r hybrids-citrus}
+tribble(
+  ~"hybrid_name", ~"parentage",
+  "Citrange", "\\textit{Poncitrus trifoliata} x \\textit{Citrus sinensis}",
+  "Citrange quat", "Citrange x Kumquat",
+  "Citrangors", "Backcross between Citrange and \\textit{Citrus sinensis}",
+  "Cicitrange", "Citrange x \\textit{Poncitrus trifoliata}",
+  "Citrumelo", "\\textit{Poncitrus trifoliata} x \\textit{Citrus paradisi}",
+  "Citandarin", "\\textit{Poncitrus trifoliata} x \\textit{Citrus reticulata}",
+  "Limequat", "\\textit{Citrus aurantifolia} x \\textit{Fortunella japonica}",
+  "Lemonimes", "\\textit{Citrus limon} x \\textit{Citrus convantifolia}",
+  "Tangors (Temple orange)", "\\textit{Citrus sinensis} x \\textit{Citrus reticulata}",
+  "Tangelos", "\\textit{Citrus reticulata} x \\textit{Citrus paradisi}"
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Citrus hybrids and their parentage", escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 2, width = "10em")
+```
+
+
+### Principal rootstocks
+
+Today, five types of rootstock predominate in relatively not cool climates where cold or freezing weather is not probable, especially Florida and southern Europe.
+
+Sour orange rootstock: it is the only rootstock that truly is an orange (the Citrus aurantium or bitter orange). It is vigorous and highly drought-resistant.
+
+Poncirus trifoliata: it is a close relative of the Citrus genus, sometimes classified as Citrus trifoliata. It is especially resistant to cold, the tristeza virus, and the fungus Phytophthora parasitica (root rot) and grows well in loam soil. Among its disadvantages are its slow growth-it is the slowest growing rootstock-and its poor resistance to heat and drought. It is primarily used in China, Japan, and areas of California with heavy soils.
+
+Swingle citrumelo: it is tolerant of tristeza virus and Phytophthora parasitica and moderately resistant to salt and freezing. This rootstock selection was hybridized from the Duncan grapefruit (Citrus paradisi Macfadyen) and the Poncirus trifoliata (L.) Raf. by Walter Tennyson Swingle in Eustis, Florida, in 1907. It was released by the US Department of Agriculture to nurserymen in 1974.
+
+Troyer citrange and Carrizo citrange: these reasonably vigorous rootstocks are resistant to Phytophthora parasitica, nematodes, and tristeza virus and show good cold tolerance. They also are highly polyembryonic, so growers can obtain multiple plants from a single seed. Citrange, however, does not do well in clay, calcareous or high-pH soils, and is sensitive to salinity. It is not feasible as rootstock for mandarin scions, as it overgrows them by producing branches of its own in competition with the grafted budwood.[3] Citranges are hybrids of the Washington navel orange and the Poncirus trifoliata. The original crosses, made in the early 1900s by the U.S. Department of Agriculture with the intention of producing cold tolerant scion varieties, were later identified as suitable for use as rootstocks. The commercial use of these rootstocks began in Australia in the 1960s. The Troyer variety generally is found in California, while the Carrizo variety is used in Florida.
+
+Cleopatra mandarin: it is tolerant of salinity and soil alkalinity and also suitable for shallow soils. It is used primarily in Spain, Australia, and Florida. Dade County, for example, has 85% calcareous soil, a typical trait of land that has been under water.[4] The Cleopatra mandarin, originated in India and introduced into Florida from Jamaica in the mid-nineteenth century, has been distributed and tested as a rootstock throughout the world. Nowadays, however, it is considered an inferior rootstock because it is sensitive to many diseases, grows slowly, and is difficult to propagate.
+
+## Pineapple cultivation
+
+The pineapple ( _Annanas commosos_) is perennial monocarpic herb (i.e. each stem flowers only once and dies after fruiting), xerophytic plant with thick, long sessile and spine leaves. Multiple fruits called synocarp is a parthenocarpic type.
+
+### Origin
+
+The center of origin is believed to be in the Paraguay River drainage basin area in South America where the original seed species still occur wild. Another center of origin is siaid to be along the river banks of the most southern ares in Guyana. The records of the early explorers show that the pineapple was widely distributed throughout most of tropical America and later taken to other tropical areas of the world, e.g. Africa, Asia, the South Pacific and Australia.
+
+### Distribution
+
+In Nepal, pineapple is grown in 45 districts (? when). Major pineapple growing districts are: Jhapa, Morang, Sunsari, Dhanusha, Chitwan, Bara, Nawalparasi, Dhading and Nuwakot.
+
+### Uses
+
+Originally, pineapple was consumed only as a fresh fruit. With the development of processing industry, the fruit is now prepared and consumed in various forms such as pineapple chunks, slices, juices, syrups, jams, crushed pineapple, diced pineapple, etc. Also, the wastes from the processing of the fruit are now further processed into sugar, wines, vinegar, animal feed, etc.
+
+High quality fibers, ideal for the manufacture of luxury clothing, are produced from the leaves of the pineapple varieties. Fibers of the wild species are used for making rope and fishing nets. The fiber is also used for making pulp in the paper industry.
+
+### Soil and climate
+
+Loam, clay loam and clay soil high in organic matter with improved drainage and water control systems are suitable for pineapple cultivation. Soils prone to water logging are unsuitable since they hasten the development of root rot. Best growth is achieved on well-drained, fertile, sandy loam soil with a pH range of 4.5-5.5.
+
+It's habitat is humid tropical region (\SIrange{15.6}{32}{\celsius}). A high temperature at night is deleterious and a difference of at least \SI{4}{\celsius} between day and night temperatures is desirable. 
+
+- Rainfall 1000-1500 mm,
+- pH: 5.0 - 6.0,
+- Elevation: > 100 masl
+
+Although the pineapple plant is fairly resistant to drought, it requires medium to high evenly distributed rainfall for good growth and the production of healthy fruits. It will grow with an annual rainfall as high as 2500 mm once adequate drainage is provided.
+
+### Varieties
+
+There are 3 main grouping;
+
+- Cayennue: Canning + Table purpose, e.g. Hilo, Chailotte, Kew and Giant kew
+- Spinach: Canning + Table purpose, e.g. Red spinach, Singapore, Spinach and Masmerah
+- Queen: Queen, Mouritius, Kipley queen and Alexender
+
+Other: 
+
+```{r pineapple-varieties-other}
+tribble(
+  ~"group", ~"example",
+  "Mardilonus", "Perolena, Maipur Random, Mainpure, Milagrena",
+  "Permemukulo", "Permanmbuce, Perola and Papelon"
+) %>% 
+  knitr::kable(booktabs = TRUE, col.names = NULL) %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "12em")
+```
+
+
+### Propagation methods
+
+The pineapple is propagated vegetatively. Planting materials obtained from various parts of the plant are identified based on the part they are obtained from.
+
+- **Suckers** (Ratoon or side shoots): Ratoon suckers are produced from ground level and when used will produce shoot in 12-14 months of planting. Side shoots/suckers are produced from above ground level and, when used, bear within 18-20 months of planting.
+
+- **Slips** (Basal suckers): They are the shoots located at the base of the fruit. When used, they bear within 14-16 months of planting.
+
+- **Crown**: Bunch of leaves on top of fruits. When used, it requires > 24 months for them to bear.
+
+- **Stem bits or disc**: After harvesting, the stem is divided into small bits containing at least 2-3 buds. Each bit is known as disc. When used, it requires > 24 months for them to bear.
+
+Sucker and slip are usually preferred for planting.
+
+To avoid rotting of plants after planted, sucker and slips are cured by stripping off the lower leaves followed by drying in sun or in partial shade for about a week before planting.
+
+### Planting
+
+When planting, ensure that the "heart" of the plant is above soil level, otherwise rotting may occur, particularly if the soil is wet. Either the single or double-row system can be used. However, for a more cost-effective land use, the philosophy is to have the largest number of plants per unit area as is practical. This is better achieved by the double row system, which is the recommended system for most conditions.
+
+#### Single row
+
+The rows are spaced 150 cm apart and plants are spaced 60 cm within the row. This allows the population of 11000 plants/hectare.
+
+#### Double row
+
+The spacing of 30 cm, 60 cm and 90 cm between plants, rows and beds respectively in a double row system accommodates upto 43,500 plants/hectare.
+
+### Planting time
+
+Planting time is early monsoon, but after monsoon is preferred time in heavy rainfall areas. Winter planting is possible if water is available.
+
+### Manure and fertilizer
+
+The fertilizer recommendation in pineapple is based on plant density. In general 30t of well decomposed FYM is required for a hectare.
+
+NPK \@ 16g: 5g: 12g per plant per year is recommended, with full dose application of Phosphorus and Potassium and top dressing of half of the nitrogen during May-June on individual basis.
+
+### Weed control
+
+Pineapple plants grow slow and do not cover the ground well enough to suppress weeds from developing. Weed management cost in pineapple may accrue upto 40\% of the total production cost. Manual weeding is difficult, due to presence of spines, and expensive too. Following chemical weedicides are usually applied:
+
+- Bromacil + Diuron \@ 2 kg a.i. per hectare (pre-emergence)
+- Glyphosate \@ 2 kg per hectare in \SI{1000}{\litre} of water as directed spray (post-emergence)
+
+### Flowering
+
+Flowering is not uniform and regular. This is due to various ages, growth and health of planting material used. Although it offers a chance to take harvest of fruit spred several months from summer to winter, the later harvest is commercially not good. Young and unhealthy plants should not be induced to flower since they produce small fruits.
+
+Artificial flower-induction permits better scheduling of the harvest as it takes 5 months from the time of induction to full maturity of fruits. Flowering in pineapple may be induced if the stems are kept in horizontal position, due to geotropism. In this way, accumulation of auxins induces bud initiation. The plants in the block to be treated should be homogeneous in size and not less than 12 months old or possess less than 25 leaves. Treatment should take place during cool hours of the day, early in the morning or late afternoon (later preferred).
+
+- The main products used to induce flowering are: Naphthalene Acetic Acid (NAA) and Ethrel. It is done using Planofix (200 ppm), Ethephon (20 ppm) and CaC2 (2\%) for early flowering, uniform flowering, to increase the fruit size and to induce fruiting at anytime of the year.
+- Plants raised from suckers and treated with 100 ppm Ethrel + 2\% Urea + 0.004\% CaCO3 at 18 months after planting gave 96\% flowering.
+- Ethylene induces 90-100\%  flowering and CaC2 (1g) induces 60-66\% flowering in pineapple.
+- NAA induces 60\% flowering, 15-20\% large fruit size
+- Increased number of slips delay maturity of fruits, so they are recommended for removal as soon as possible.
+- Desuckering can be delayed as much as possible because fruit weight increases with increase in number of suckers/plant.
+
+### Harvesting
+
+As a climacteric fruit, pineapple should be harvested only after the fruit fully ripens. In Nepal, it normally ripens in July-September. Winter ripen fruits are more acidic.
+
+### Maturity indices
+
+- Drying of bracts
+- Color changes to yellow
+- Less angular near eyes
+- TSS: 8-16\%
+
+The pineapple is best harvested with hands by breaking or cutting the stalk with crown a few centimeters below the fruit. Crown removal quickens ripening and reduces shelf life of the fruit.
+
+### Yield
+
+Well managed crop at high density planting normally yields \SIrange{40}{50}{\tonne\per\hectare}. Single row gives \SI{20}{\tonne\per\hectare}.
+
+### Insect pests
+
+1. Mealy bug ( _Dysmiococcus brevipus_)
+2. Fruit-eating beetle ( _Carpophilus dimidiatus_)
+3. Termites ( _Odontotermes spp_)
+
+### Diseases
+
+1. Mealy bug wilt (Transmitted by mealy bug)
+
+
+## Macadamia nut cultivation
+
+Macadamia is an evergreen genus that grows 2-12 m (7-40 ft) tall. The leaves are arranged in whorls of three to six, lanceolate to obovate or elliptic in shape, 6-30 cm (2-10 in) long and 3-13 cm (1-5 in) broad, with an entire or spiny-serrated margin. The flowers are produced in a long, slender, simple raceme 5-30 cm (2-10 in) long, the individual flowers 10-15 mm (0.4-0.6 in) long, white to pink or purple, with four tepals. The fruit is a hard, woody, globose follicle with a pointed apex, containing one or two seeds.
+
+- _Macadamia integrifolia_ Maiden & Betche
+- _Macadamia jansenii_ C.L.Gross & P.H.Weston
+- _Macadamia ternifolia_ F.Muell.
+- _Macadamia tetraphylla_ L.A.S.Johnson
+
+Nuts from _M. jansenii_ contain toxic amounts of cyanogenic glycosides, The other three species are cultivated in the commercial production of macadamia nuts for human consumption.
+
+Previously, more species with disjunct distributions were named as members of this genus Macadamia. Genetics and morphological studies published in 2008 show they have separated from the genus Macadamia, correlating less closely than thought from earlier morphological studies. The species previously named in the genus Macadamia may still be referred to overall by the descriptive, non-scientific name of macadamia.
+
+Three of the four species -- _Macadamia integrifolia_, _Macadamia ternifolia_, and _Macadamia tetraphylla_ -- are of commercial importance. The other species, _M. jansenii_, produces poisonous nuts resulting from toxic amounts of cyanogenic glycosides.
+
+### Cultivation
+
+The macadamia tree is usually propagated by grafting, and does not begin to produce commercial quantities of seeds until it is 7-10 years old, but once established, may continue bearing for over 100 years. Macadamias prefer fertile, well-drained soils, a rainfall of 1,000-2,000 mm (40-80 in), and temperatures not falling below $10^\circ C$ ($50^\circ F$) (although once established, they can withstand light frosts), with an optimum temperature of $25^\circ C$ ($80^\circ F$). The roots are shallow and trees can be blown down in storms; they are also susceptible to Phytophthora root disease.
+
+Cultivars: Beaumont, Maroochy, Nelmac II, Renown
+
+### Food and nutrition^[https://en.wikipedia.org/wiki/Macadamia]
+
+The seeds (nuts) are a valuable food crop. In a 100-gram amount, macadamia nuts provide 740 Calories and are a rich source (20% or more of the Daily Value, DV) of numerous essential nutrients, including thiamin (104% DV), vitamin B6 (21% DV), manganese (195% DV), iron (28% DV), magnesium (37% DV), and phosphorus (27% DV) (table). Macadamia nuts are 76% fat, 14% carbohydrates, including 9% dietary fiber, and 8% protein.
+
+Compared with other common edible nuts, such as almonds and cashews, macadamias are high in total fat and relatively low in protein. They have a high amount of monounsaturated fats (59% of total content, table) and contain, as 17% of total fat, the monounsaturated fat, omega-7 palmitoleic acid.
+
+## Guava cultivation
+
+- _Psidium guajava_ (Myrtaceae)
+- Origin: Tropical america; originated in the warm, lowland tropics
+- Contains low energy, low fat and high amounts of vitamin C.
+- Commercial trade is smaller in volume compared to other fruits.
+
+### Morphology and Botany
+
+- Photoperiod insensitive
+- Can be forced to flower by pruning
+- Woody is hardy; resistant to strong winds.
+- The rhythmic flushing of vegetative growth and flowering influences when and how pruning is
+carried out.
+- Guavas are forced to produce year round, and normally the actively growing shoots are tipped once they become too large. This tipping forces regrowth and new flowers to be induced, to keep production high and constant.
+- As soon as the harvest is finished, a peripheral pruning of the canopy is performed, in order to force new shoots that will bear flowers.
+
+### Climate and soil
+
+- Temperature lower than $8\ ^\circ C$ is inappropriate for commercial cultivation.
+- Moderately tolerant to saline conditions.
+
+### Varieties
+
+- Lucknow-49, Allahabad safeda, Seedless
+
+### Propagation 
+- Stem and root cuttings, Air layering and Budding
+- Guava trees propagated by grafting have tap roots that provide substantial anchorage. 
+- Trees propagated by cuttings have weaker root
+systems.
+
+### Planting and orchard establishment
+
+- Spacing with fillers: 3.1 x 7.6 (424 trees/ha)
+- Permanent spacing: 6.2 x 7.6 (212 trees/ha), or 4.6 x 7.6 (286 trees/ha)
+
+```{r climac-vs-nonclim}
+cl_ncl <- data.frame(climacteric = c("Avocado", "Banana", "Guava", "Mango", "Papaya", "Sapota"), 
+                     non_climacteric = c("Litchi", "Mangosteen", "Pineapple", "Mountain apple (Bayer)", NA, NA))
+
+cl_ncl %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Climacteric and non climacteric fruits commonly cultivated in Nepal") %>% 
+  kableExtra::kable_styling(latex_options = "striped", position = "center")
+```
+
+### Post-harvest
+
+- High moisture loss occurs
+- No dramatic change in taste during storage at higher temperatures (10-15 $\ ^o C$)
+
+## Litchi cultivation
+
+**Taxonomy** 
+
+Family: Nepheleae. Family contains about 150 genera and 2000 species. Related species of the family are Rambuton ( _Nephelium lappaceum_) and pulsan ( _N mutabile_). The genus Litchi has 3 species:
+
+  - Sub species chinensis -- Commercial litchi.
+  - Sub species philippinensis -- Developed in Philippines. It has long, oval shaped fruit with inedible flesh and long thorn like protuberances which can be used as root stock.
+  - Sub species Javenensis bears fruit similar to Chinensis but the aril is thinner.
+  
+**Varieties**
+
+Mazzafarpur (Bears profusely, fruits are deep orange to pink, pulp is sweet, tough, moderately juicy, good flavored and pulp:seed ratio is high), Deshi (Bearing is moderate and regular, fruit is oval, oblong or oblong conical in shape), Rose scented (Fruits are delicious rosy flavor in the aril. Trees are vigorous. Fruits are mostly oblong or oblong conical in shape, deep rose pink in color, pulp grayish white, and soft and very sweet), Shahi, Dehradun, Culcuttia, Seedless late, Saharanpur, etc.
+
+Origin: Originated from northern China, Northern Vietnam and Malaysia
+
+Uses: Fruit makes excellent canning. The preservation of fruit can be done in honey.
+
+Botany: Long lived, medium to large, brached, round topped, evergreen tree reaching upto 10 m or more height with short stocky trunk. Leaves are compound, alternate, consists of 4-7 oblong leaflets, glossy dark green. Bark is grayish brown and rough. Vegetative growth is rhythmic and occurs in 3-4 recurrent flushes alternating with period of rest. The inflorescence is compound raceme developing both from terminal and axillary buds. Flowers are small, male, pseudo hermaphrodite (functional male) and hermaphrodite. The edible portion is aril. The seed is dark brown in color.
+
+Climate: The litchi is adapted to the warm sub-tropic, cool, dry, frost free winter, and long, hot summer with high rainfall and high humidity. The litchi usually likes low elevation but can be grown upto 800 masl. The optimum temperature requirement for flowering is 16-20 degree C. High temperatures, more than 30 degree C and low relative humidity (less than 60%) during fruit development stage cause the fruit cracking in litchi. The hot winds in summer cause fruit cracking and subsequently damage the pulp (aril). Sometimes it limits the expansion of litchi cultivation. Wet spring, dry summer and light winter are desirable conditions for fruiting in litchi.
+
+The litchi can grow under wide variety of soild including alluvial soil, loams, and heavy clays with rich source of organic matter. Litchi can withstand water for a considerable period, provided the water does not stagnate, but will die after prolonged immersion. It is suggested that new plant should be grown in soil taken from the vicinity of old trees to introduce the mycorrhiza. The optimum pH range is 5.5-6.5
+
+
+## National fruit development directorate (Institutional development of fruits)
+
+The agro-ecological conditions of Nepal are very much suitable for the successful cultivation of large number of fruit species. Growing of fruits in homestead gardens is a traditional practice in Nepal since time immemorial. The systematic fruit development program in Nepal was initiated in a planned manner since 1960.
+
+Agriculture Perspective Plan (APP) stressed development activities for commercial production of two major high value fruit crops such as Apple in high hills & Citrus (especially Mandarin) in mid-hills. The emphasis was given on pocket-package development strategy, which must be carried out as a campaign on a participatory basis from the grass-root level to higher ups. The other fruits of the commercial importance such as Mango, Litchi and Banana etc. are also addressed near/along the highway corridors of Terai and inner Terai belts so as to meet the fruit requirements in the country. However, horticulture sector has not gained the level of expected industrialization/commercialization due to various constrains.
+
+Fruit Development Directorate (FDD) was first established as Horticulture Section in 1955, which evolved as Fruit Development Section in 1966, Fruit Development Division in 1990 and the directorate in 2000. FDD is the central body responsible for the development of fruits, coffee, tea and ornamental crops in the country. National Centre for Fruit Development was established in 2018 after restructure under federal system for Fruit Development Directoriate, National Citrus Development Programme and Coffee and Tea Development Section.

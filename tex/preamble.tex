@@ -30,8 +30,9 @@
 % \usepackage{exam} % this and exam.sty cause error
 \usepackage{pdfpages}
 \usepackage{siunitx}
+% \usepackage{subfig}
 
-% \usepackage{subcaption} % doesn't work with tinytex in windows
+\usepackage{subcaption} % doesn't work with tinytex in windows
 % \newcommand{\subfloat}[2][need a sub-caption]{\subcaptionbox{#1}{#2}}
 
 % simple fix for exam class features of questions and solution
@@ -42,3 +43,21 @@
 \newcommand{\question}{\item}
 
 \newenvironment{solution}{ {\bfseries Solution}:}{}
+
+\DeclareSIUnit\ropani{ropani}
+\DeclareSIUnit\year{year}
+
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{myquotebox}{
+enhanced,
+boxrule=0pt,frame hidden,
+borderline west={4pt}{0pt}{green!75!black},
+colback=green!10!white,
+sharp corners
+}
+
+\newcommand{\bquestions}{\begin{questions}}
+\newcommand{\equestions}{\end{questions}}
+\newcommand{\bsolution}{\begin{solution}}
+\newcommand{\esolution}{\end{solution}}

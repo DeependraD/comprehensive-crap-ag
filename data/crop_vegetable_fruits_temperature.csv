@@ -1,0 +1,27 @@
+# optimum temperature requirement of vegetable and fruit crops,
+Crop,Optimum temperature (\si{\celsius})
+Tomato,"Day: 20-24, Night: 15-20"
+Brinjal,21-26
+Okra,25-30
+Chilly,18-32
+Sweet pepper,18-25
+Potato,15-20
+Cucumber,"Day: 18-24, Night: 15-18"
+Pumpkin,"Day: 25-30, Night: 18-20"
+"Bitter gourd, Sponge gourd",25-30
+Bottle gourd,24-27
+"Ginger, Turmeric",25-30
+"Radish, Carrot",15-20
+Asparagus,15-18
+"Cole crops (Cauliflower, cabbage)",15-20
+Tea,16-32
+Coffee (Arabica),18-24
+Pineapple,21-32
+Pomegranate,10-40
+Jackfruit,25-30
+Litchi,10-35
+Pear,22-26
+Peach,European cultivar requires 1000 hours of chilling treatment; Japanese cultivars require chilling treatment of less than 400 hours.
+Apricot,"Night: 22-25, Day: 7-13"
+Strawberry,20-30
+Cardamom,8-20

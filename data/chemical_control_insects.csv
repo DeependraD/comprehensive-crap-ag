@@ -1,0 +1,12 @@
+# chemical control of insect pests,,,,,,,,,
+Chemical compound,Commercial name,LD-50,WHO class,Crop,pest_common_name,pest_scientific_name,active_ingredient,waiting_period,recommended_dose
+Acephate,"Dhanraj 755 SP, Lucing 755 SP, Altop 755 SP",945,II,Cotton,Hopper,Amrasca biguttula biguttula,212,15,1.2-1.5
+,,,,Rice,Borer,Scirpophaga inscertulas,500-700,15,0.75-1
+,,,,Rice,Borer,Chilo partellus,500-700,15,0.75-1
+,,,,Rice,Borer,Sesamia inferens,500-700,15,0.75-1
+Chlorpyriphos,,,,Rice,Leaf roller,Cnaphalocrocis medinalis,500-700,15,0.75-1
+,,,,Rice,Brown plant hopper,Nilaparvata lugens,500-700,15,0.75-1
+,,,,Rice,Green plant hopper,Nephotettix nigroictus,500-700,15,0.75-1
+Chlorpyriphos,,,,Rice,Whorl maggot,Hydrelia spp.,250,,1.25-2.5
+Chlorpyriphos,,,,Rice,Dhungre kira,Orselia oryzae,250,28,1.25-2.5
+Chlorpyriphos,,,,,,Dicldispa armigera,,,

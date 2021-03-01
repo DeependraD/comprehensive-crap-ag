@@ -1,0 +1,631 @@
+## Miscellaneous
+
+### National Farmers Commission
+
+- Chariman: Chitra Bahadur Shrestha
+- Members: 7 total
+- 2073/10/06: National Farmers' Commission organization directives
+- Has central office in Hariharbhawan, Lalitpur
+
+### Weekly radio and television broadcast on Agriculture Program
+
+```{r weekly-radio-television-agriculture}
+dplyr::tribble(~"SN", ~"Day of week", ~"Radio Nepal (6:40 to 6:55)", ~"NTV (60:40 to 6:57)",
+               1, "Sunday", "Saptahik krishi gatibidhi", "Krishi sambad", 
+               2, "Monday", "Safalta ko katha", "Krishi sambad", 
+               3, "Tuesday", "Food and nutrition", "Samaya sandarva", 
+               4, "Wednesday", "Krishi sambad", "Ajako krishi", 
+               5, "Thursday", "Krishak ko sarokar", "Krishak ko sarokar", 
+               6, "Friday", "JTA ra budhi ama", "Saptahik krishi gatibidhi", 
+               7, "Saturday", "Radio patrika", "Krishi teleserial"
+               ) %>% 
+  knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"))
+```
+
+### Kishan call center
+
+The public agricultural extension service is able to reach only so far to 15% of the total farm households. While the need for professionalizing agriculture sector and improving livelihood standards of farming community is imminent. The issue of food security, besides being a hot topic of discussion in national and international community, is closely associated with the citizen's rights. In this regard, it becomes all the more essential for traditional agricultural systems to be transformed to a information-technology based commercial system wherein farmers can connect with greater ease to subject specialists for consultation. For serving the purpose of addressing farmers' inquiries about crop and livestock, mainly concerning problems such as disease and pests, Kishan Call Center was established in 2072/73.
+
+**Objectives**
+
+- Addressing problems relating to crop, livestock and business enterprise faced by farmers and entrepreneurs through telephone contact with subject matter specialists.
+- Minimize the geophysical barriers in communication and information exchange so that service delivery could be streamlined.
+
+- Phone number: 16600195000
+- Subjects dealt in respective days and schedule:
+
+```{r kishan-call-center-schedule}
+tribble(
+  ~"Day", ~"Subject", ~"Time of day", 
+  "Sunday", "Cereal crop, apiary, silkworm farming, mushroom cultivation, crop protection", "11 AM to 4 PM", 
+  "Tuesday", "Vegetable, fruits, soil and market", "11 AM to 4 PM", 
+  "Thursday", "Fisheries, livestock farming, poultry farming, production technology, fodder and forage management", "11 AM to 4 PM"
+) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "16em")
+```
+
+### NPK Content of fertilizer
+
+- Urea: 46%  Nitrogen
+- DAP(Diammonium Phosphate): 18% N, 46% Phosphorus
+- MoP(Muriate of Potash): 60% potash
+- SSP(Single Superphosphate): 16% P
+- DSP(Double Sugar Phosphate): 32% P
+- TSP(Triple Sugar Phosphate): 48% P
+- ZnSO4: 22-35% Zinc
+
+### Contributors in Agriculture
+
+- Sociology: Auguste Comte
+- Statistics: R.A. Fisher
+- Economics: Adam Smith
+- Soil Science: V.V. Dokuchaev
+- Tillage: Jethro Tull
+- Green Revolution: Norman E Borlaug
+- Modern Agronomy: Peter De Crescent
+- Organic Farming: Rudolf Steiner
+- Dr. Norman E. Borlaug is the pioneer of Green Revolution and was awarded Nobel Peace Prize in 1970.
+
+### Common animal diseases
+
+- Bacterial diseases: Anthrax, Brucellosis (Bang's disease), Black Quarter(Black leg), Haemorrhagic Septicaemia, Mastitis
+- Fungal diseases: Aspergillosis, Candidiasis, Ringworm
+- Protozoal diseases: Coccidiosis, Babasiosis
+- Viral diseases: Foot and Mouth disease, Swine fever(hog cholera), New castle disease, Marek's
+
+### Common Poultry Diseases
+
+- New Castle Disease/Ranikhet
+- Mareck's Disease (MD)
+- Gumboro
+- Coccidiosis
+- Chronic Respiratory Disease (CRD)
+- Avian Influenza/Bird Flu- H5N1, H9N2
+
+### Agriculture and child labor
+
+According to the latest ILO estimates, at least 250 million children of between 5-14 years of age work in developing countries. Almost half of these children work on a full-time basis. The participation rates of children in economic activities in much higher in rural areas than in urban centres. Rural children, in particular girls, tend to start working at an early age. In Latin America and the Carribbean, out of 15 million children involved in the labor market, 56 percent work in agriculture sector from the age of 5 to 7 onwards. In some countries, children account for as much as 30 percent of the agricultural workforce. Most children work seven days a week and are paid less than the prevailing rates in their localities. They work long hours, and a very high proportion of these children are injured at work. Exposure to poor working conditions has serious repercussions on children's growth, development and health. The most common injuries include: cuts and wounds, eye infection, skin problems, fever, and headaches caused by excessive heat or by exposure to pesticides while working in agricultural fields.
+
+### Hazards in agriculture occupation
+
+Despite the fact that certain developing countries have reached higher levels of economic development, nutrition and health are still the problem areas. This situation provokes a vicious circle of low productivity, low wages, malnutrition, ill-health and low working capacity. The interaction between poor living and working conditions determines a distinctive morbidity-mortality pattern among agricultural workers, which is due to the combination of malnutrition, general and occupational diseases, and complications arising from undiagnosed or untreated diseases. Low working capacity is closely related to workers' malnutrition and poor health. 
+
+Agriculture related hazards mostly include:
+
+1. Machinery such as tractors, trucks and harvestors, and cutting and piercing tools;
+2. Hazardous chemicals: Pesticides, fertilizers, antibiotics and other veterinarian products;
+3. Toxic or allergenic agents: Plants, flowers, dusts, animal waste, gloves, chrome, oils;
+4. Carcinogenic substances or agents: Certain pesticides such as arsenicals and phenoxy-acetic herbicides, UV radiations, parasitic diseases such as bilharziasis and facioliasis;
+5. Transmissible animal diseases: brucellosis, bovine tuberculosis, hydatid disease, tularaemia, rabies;
+6. Other infectious and parasitic diseases: leishmaniasis, bilharziasis, facioliasis, malaria, tetanus, mycosis;
+7. Confined spaces such as silos, pits, cellars and tanks;
+8. Noise and vibration;
+9. Ergonomic hazards: use of inadequate equipment and tools, unnatural body position or prolonged static postures, carrying of heavy loads, repetitive work, excessive long hours;
+10. Extreme temperatures and adverse weather conditions;
+11. Contact with wild and poisonous animals: insect, spider, scorpion, snake and certain wild mammals.
+
+## Gender mainstreaming (Women in agriculture development)
+
+- In decisions regarding agriculture, contribution of,
+  - Women: 25%
+  - Men: 32%
+  - Both: 43%
+- In labor contribution to agricultural activities,
+  - Men: 5 hrs
+  - Women: 9 hrs
+- Proportion of women engaged in agriculture: 72.8%
+- Farm household labor accounts for 50-60% of total cost of production
+- Proportion of women engaged in livestock farming: 70%
+- Labor participation of female in agriculture: 48.9%
+- Proportion of female having ownership of land: 10.8%
+- Proportion of women participants in,
+  - Horticulture: 42.3%
+  - Agronomy: 50.6%
+  - Vegetable farming: 67%
+- Worldwide, female contribution of cereal production is more than 50%
+- 10th five year (2059/60 - 2063/64) plan oversaw participation of 40% female in agricultural programs
+- Major income generating activities of female include: Fresh vegetable production, goat farming, sericulture and apiary.
+- Females have largest labor contribution to silkworm rearing: 69%
+- Proportion of female engaged in,
+  - Goat farming: 55%
+  - Pig farming: 40%
+  - Poultry farming: 46%
+- Share of female in gross national income: 30%
+- Proportion of female among total population (census, 2068): 51.5%
+- The literacy rate was 54.3 % for men and 21.3 for women (NLSS, 1996) and 65.8 % and 35.4 %, respectively in 2000.
+
+**Gender mainstreaming**
+
+- 6th five year plan (2036-2042) laid emphasis to women participation
+- 7th five yera plan (2042/43 - 2046/47) had policy of equal participation of men and women in development programmes in order to improve their skills and increase productivity.
+- 7th five year plan allocated 10% quota for women trainings.
+- 8th five year plan (2049/50-53/54) declared policy for mainstreaming of women in development to empower socio-economically.
+  - 8th five year plan allocated 30% quota for women trainings.
+  - Women Farmer Development Division was established for the same purpose in 2049
+  - The division prepared strategy paper for women farmer development (1994-1999) and developed programs for engaging women farmers in cereal production, horticulture, poultry farming and rabbit farming.
+- Gender mainstreaming has been continued to be placed in agriculture and livestock development policy papers since 8th five year plan.
+- 9th five year plan had 3 major objectives -- empowerment, equality and mainstreaming.
+  - The plan envisaged participation of 33% female at minimum in every agricultural development activities.
+- 10th five year plan (2059/60 - 2063/64) envisaged involvement of women in the agricultural programmes at average of 40% while expecting more than 60% in programmes such as vegetable farming, horticulture and silk farming.
+- In 2061 BS, Gender equality and environment division was established.
+
+**National Agricultural Policy and Gender mainstreaming**
+
+- While conducting agriculture related programs, where possible in every activities, women participation will be increased to 50%.
+- In order to increase women farmer participation, revolving Women Farmer Training Program will be encouraged to ensure physical access to the training.
+- MoAD prepared Gender Mainstreaming Stragegy, 2064 with assistance of ADB. Strategy highlights of the include,
+  - Ensure opportunity for 33% women agriculture technicians for higher education and abroad visits.
+  - Maintain 50-50 participation of men-women in farmer visit and training.
+  - Ensure 33% women participation in trainings conducted for JT, JTA.
+  - Promote women's group and mixed gender group, while latter ensuring participation of 60% women.
+
+**Participation of women farmers in decision making**
+
+```{r women-farmer-participation}
+tribble(
+  ~"SN", ~"activity", ~"decision_making_role_percentage", 
+  1, "Crop selection", 60, 
+  2, "Seed selection", 52, 
+  3, "Organic manure type and amount", 96, 
+  4, "Chemical fertilizer type and amount", 29, 
+  5, "Irrigation (timeing and frequency)", 50, 
+  6, "Interculture operation timing", 62, 
+  7, "Crop harvest", 63, 
+  8, "Storage technique", 73, 
+  9, "Allocation for family consumption", 73, 
+  10, "Processing", 73, 
+  11, "Allocation for sales", 51, 
+  12, "Vegetable sales", 58
+) %>% 
+  rename_at(2:3, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Women farmer participation in decision making") %>% 
+  kableExtra::kable_styling(latex_options = c("hold_position", "striped"))
+```
+
+
+**Agriculture training types based on levels of delivery**
+
+```{r agriculture-training-types}
+tribble(
+  ~"sn", ~"level/strata", ~"period_days", ~"participants", 
+  1, "Service center level on-site training", "1", "20-25", 
+  2, "Revolving on-site farmer's training", "1-2", "15-25", 
+  3, "Farmers' group mobilization training", "1", "All members of a group", 
+  4, "District level farmer's training", "1-3", "20-25", 
+  5, "District level pesticide retail trader training", "3", "20-25 (25 max)", 
+  6, "Regional level farmer's training", "5-14 days", "10-20", 
+  7, "Central level farmer's training", NA, "10-20"
+) %>% 
+  rename_at(2:4, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = c("striped", "hold_position"))
+```
+
+
+- In a "Ghumti stalgat" training, 50% of the participants should be women.
+
+
+### Simple facts
+
+- "Agriculture" is derived from Latin.
+- "Agronomy" is derived from the Greek.
+- A maximum of 10 participants can parttake in a crop production competition.
+- There is a provision of 25% subsidy in production of foundation seed to the producer.
+- With the use of improved seed 15-25% grain in production can be achieved.
+- Small irrigation projects in Nepal are conducted by farmers' groups and farmers' cooperatives both.
+- A small irrigation project for Terai constitutes 200 hectares of land.
+- A small irrigation project in Hills constitutes 25 hectares of land.
+- Nepal ranks 18th position among rice cultivating nation in the world.
+- Father of Agronomy in Nepal: Netra Bahadur Basnyat
+- Golden rice is genetically modified rice with yellow colored seeds rich in vitamin A
+- Date palm is the oldest fruit.
+- Rye is known as grain of poverty.
+- DDT was the first discovered insecticide by Paul Muller.
+- Maximum amount of sugar in honey is 73%.
+- Mandarin is alled fancy fruits.
+- Cardamom production highest in Nepal in the world.
+- Dance of bee is called waggle dance.
+- Apple production is highest in China.
+- Orchidaceae is the largest family among flowering plants.
+- National Agriculture Policy in 2061 BS
+- Gaurab hybrid and Rampur hybrid are the only hybrid varieties in Nepal in maize.
+- Halo kranti started in 2006 BS from Duradanda, Lamung.
+- OVOP (One Village One Product) practice in Nepal base on PPP (Public Private Partnership) approach started from Japan.
+- One Village Two Product practice is prevailing in Bhutan.
+- Year of Family farming: 2014
+- Yellow color of Papaya is due to Cryptoxanthin.
+- Edible part of apple is enlarged thalamus and edible part of cabbage is bud while that of cauliflower is inflorescence.
+- Earthworm is farmer's friend.
+- 39.6% of area of Nepal's land is covered by forest.
+- Japan is Nepal's largest bilateral donor.
+- Lentil is a major pulse crop with efficient export.
+- Crop and livestock insurance started in Nepal in 2069 Magh 1
+- Triticale is artificial cereal crop.
+- China is the world's highest rice producer and Vietnam is the world's highest rice exporter.
+- Azolla is widely used bio - fertilizer in Rice Crop.
+- Amendment of acid soil is done by lime and of alkaline soil is done by CaSO4
+- Tomato is known as poor man's orange.
+- Air layering in litchi is to epicotyl grafting in Mango
+- Anadi, Jumli Marshi, Pokhreli Jetho Budo are indigenous variety of Rice in Nepal.
+- Readily available form of water to plants is capillary water.
+- Limiting amino acid in Cereals are Lysine and threonine whereas limiting amino acid in legumes are methionine and tryptophan.
+- Stubble is the portion of stem that is left on the field during harvest.
+- Leguminous crop is considered as biological plough.
+- First certified organic commodity exported from Nepal: Coffee
+- Genetic dwarfism can be overcome by the use of Gibberelic Acid.
+- Peripneustic type (having spiracles in a row on each side of the body) respiratory system is found in Lepidoptera larvae.
+- Gilson's glands is found in order Trichopter.
+- Growth curve of kiwi is Triple sigmoid type.
+- Which produces cocoon in silkworm ? Pupa
+- Chroma refers to: Relative purity of color
+- Pointed gourd is commonly propagated through stem cutting.
+- Allophane is an amorphous to poorly crystalline hydrous aluminium silicate clay mineraloid. It is common in vocanic soil and typically forms under mildly acidic to neutral pH (5–7). Its structure has been debated, but it is similar to clay minerals and is composed of curved alumina octahedral and silica tetrahedral layers.
+- Horizon of maximum accumulation of Iron (Fe) and Aluminium oxides is B-horizon.
+- Spinach can hybridize with Swiss chard and Garden beet.
+- Soil with highest CEC is Vermiculite.
+- Dioecious species: Spinach, pointed gourd and yam.
+- Mo is available at slightly basic pH.
+- GA is flowering hormone of longday and chilling requiring plants.
+- Swelling of Smectite is more because of Mg binding.
+- Chinese cabbage can hybridize with Turnip and Broad leaf mustard.
+- Paclobutrazole is also known as anti GA hormone.
+- Color of semi-aerated iron containing soil is Yellow.
+- Sodicity is measured by SAR and ESP.
+- Chayote amongst all vegetables has the highest productivity.
+- Salt resistant crops: Sugarbeet, cotton, sweet potato.
+- Rice, wheat and maize are cereal crops while buckwheat and amaranthus are pseudocereals.
+- Wheat and maize show hypogeal germination but soyabean and chickpea show epigeal germination.
+- Bitter taste of Bitter Gourd due to: Cucurbitacin/ Bitter Glucoside
+- Rice is semi - aquatic in nature.
+- Critical stage for irrigation in wheat is CRI
+- World's highest cereal production: Wheat
+- Nepal's highest cereal production: Rice
+- Male adult of horse is stallion and female adult of horse is mare.
+- Heifer is young female cattle.
+- Young male poultry is cockrel and young female poultry is pullet.
+- Black gold: Buffalo
+- Goat is called poor man's cow.
+- Yellow gold: colostrums milk
+- Freshly drawn milk has the PH value in range of 6.5-6.7
+- Evening milk is higher in fat than morning milk
+- Amount of milk left in udder after normal milking is called residual milk.
+- Water content of milk is 87-88%
+- Gizzard in poultry is used grinding of food whereas proventiculus in poultry is the true stomach.
+- Abomasum is true stomach in ruminants.
+- Omasum is absent in camel and rumen is water storing sac.
+- Sweetness in milk is due to Lactose.
+- Milk holiday is the day when the dairy does not buy milk from the farmers.
+- Milk storage is done at \SI{5}{\celsius}.
+- 1 lit of milk can be synthesized by 500 lit. of blood circulation in body.
+- Milk is complete nutrient. It lacks only Fe.
+- Meat of calf is also called veal.
+- Ear notching is the best identification method in pig.
+- Gall bladder is absent in horse.
+- Elephant has longest gestation period i.e. 18-23 months(624days)
+- Kavrepalanchowk is the highest milk producing district in Nepal.
+- Semen is stored in liquid Nitrogen in \SI{-196}{\celsius}; the process of storage is also known as Cryopreservation.
+- Poor man's food -- Bajra
+- King of coarse cereals -- Sorghum
+- Banana is the major cultivated crop after Wheat, rice and maize worldwide. India is the largest producer of Banana.
+- Potato variety cultivated in largest acerage in Nepal -- Cardinal
+- Nepal imported 40% of total consumed orange from India.
+- Districts famous for industrial crops cultivation:
+  - Cotton: Dang, Banke, Bardiya
+  - Jute: Jhapa, Morang, Sunsari, Saptari, Udayapur, Siraha
+  - Mustard: Sunsari, Dhanusha, Sarlahi, Chitwan, Dang, Banke, Bardiya
+- China first started the fish rearing.
+- Wheat is mostly stored in metal bins.
+- Training session for artificial insemination is conducted for 1 week.
+- Cowpea is considered vegetable meat.
+- It takes 45-60 days in tomato for flower to develop into a fully mature fruit.
+- In tomato, irrigation is most effective when done in 7-12 days interval. Best method of irrigation is the drip/trickle irrigation.
+- Three stages of growth -- seedling stage, flowering stage and fruit development stages in tomato are critical with respect to irrigation requirement.
+- Difference between late and early blight in potato:
+  - In early blight, older leaves first show the symptoms. The upper surface of the leaves show black spots and later on entire plant become chlorotic and senesce.
+  - In late blight, tips and margin of leaves show small brownish black spots, later on the spots expand, coalesce and spread into fruits and stem as well.
+- Pre-conditions for epidemiology of late blight:
+  - Relative humidity: 80% or higher
+  - Temperature: 10-15
+  
+- Suitable varieties of cauliflower for off-season cultivation:
+  - Snow crown
+  - Snow mystique
+  - Snow king,
+  - Snow dome,
+  - Silver cup
+  - White cloud
+- Nutrition composition of potato
+  - Carbohydrate: 20.6 %
+  - Protein: 2.1 %
+  - Fat: 0.3 %
+  - Fiber: 1.15 %
+
+**Rustic store**
+
+A temporary housing unit generally constructed in hilly regions, with elevation greater than 2000 masl, in order to store seed potato tuber inteded for use as propagule, with provision for control of light and that allowing for ample circulation of the air is called a rustic store. However, in regions facing northward with adequate circulation of the air, the rustic storehouse may be constructed at lower elevation within 1500 masl.
+
+In arid areas like those in Karnali, the store should be assisted with a canal well below the ground level with circulating water.
+
+A cement-concrete structure tends to raise the inside temperate beyond the desirable levels, therefore it is preferable that mud be used instead as a mortar for building the brick or stone structure. For provisioning of proper ventilation, bottom strata of the store adjoining to the floor should be built with 2-3 windows of 1 x 1 feet dimension. However, to check the entry of rodents and insects alike, a wire mesh should be mount on windows. Likewise, the upper region of the store should also house ventilating windows in a fashion similar to that used in the bottom.
+
+The store should have a greater length than the width. The walls of the store generally have racks mounted on either of their sides with a leeway in between to allow easy transact.
+
+Each stack in the store should be spaced 9-12 inches apart and each stack should only hold tuber potato 3-4 layers high. The desirable dimension of the stacks is:
+  - Width: 2 feet
+  - Depth: 6 inches
+  - Length: (as per requirement)
+  
+A stack of 6.5 feet length can bear 100 kgs of potato tuber.
+
+The store house should have a thatched roof. In case galvanized sheets are used as roofing material, it should, nevertheless, be covered with husks, dried straws or mulch alike.
+
+A rustic store generally has a storage capacity of 5-10 mt of seed tuber.
+
+- Under seed potato result demonstration program:
+  - Minimum required area for the demonstration plot: 540 msq (Approximately 1 ropani or 1.5 kattha) 
+  - Requirements for source material: Produced from the seed, foundation or improved class of propagule, local source seed
+  - The demonstration plot is partitioned into 3 sub-plots each of \SI{180}{\meter\squared} leaving an alley of 50 cm between the plots. Generally, a plot is of size 15 x 12 m.
+  - With standard spacing of 75 x 25 cm of the potato 23 rows each with 48 plants (total: 1104) may be accommodated in each plot.
+  - Amount of tuber in weight equivalents for a plot are:
+  \begin{itemize}
+  \item 30 g seed tuber: 35 kg
+  \item 15 g seed tuber: 18 kg
+  \item local seed tuber of 25 g: 30 kg
+  \end{itemize}
+  
+- For effective pollination in apple, each hectare of orchard should house 6-8 beehives. Better pollination is obtained in temperature conditions within \SIrange{21}{26}{\celsius}.
+- Desirable fruit:leaf ratio in apple is 1:20-40. 
+
+## Trade policy in Nepal
+
+(For extended discussion of the topic, refer to the Chapter on Trade, in Manual on Banking; The Chapter also includes brief introduction to NTIS, 2016 and Trade Policy, 2015)
+
+### Regional Trade agreements -- SAFTA and BIMSTEC
+
+Nepal has joined two regional agreements -South Asian Free Trade Area (SAFTA) and Bay of Bengal Initiative for Multi-Sectoral, Technical and Economic Cooperation (BIMSTEC). While SAFTA focuses on the South Asian region, BIMSTEC connects South Asia with South East Asia. The SAFTA Agreement, which succeeded South Asian Preferential Trade Agreement (SAPTA), was signed in 2004 and came into force from 2006. It aims to deepen trade and economic cooperation among member countries by promoting fair competition through removal of barriers to facilitate cross-border movements of goods. During the last review period, SAFTA members had gradually been reducing tariff to 0-5% on all tariff lines except the sensitive lists as per trade liberalization program of the Agreement. The sixth meeting of the SAFTA Council in 2012 took the initiative to reduce the number of products on the sensitive lists by 20%; Nepal has already achieved the relevant target by 2014. Similarly, during the 16th Summit in 2010, the SAARC Agreement on Trade in Services (SATIS) was signed which came into force with effect from 2012. SATIS recognises the regional growth potential of trade in services and is focused on expanding intra-regional investment and trade liberalization. BIMSTEC was founded in 1997 for accelerated growth through cooperation in various areas of shared interest. Nepal joined BIMSTEC in 2004, the year in which a framework agreement with provisions of liberalizing trade in goods and services and negotiating agreement related to cross-border investment facilitation was also signed. In 2016, BIMSTEC came up with the Outcome Document and 16-point Agenda of Action highlighting priority actions to be implemented. Recent meetings have seen members re-affirm their commitments to finalize agreements in various sectors. Energy co-operation has been a key feature of BIMSTEC agenda. The process of negotiations for reducing and eliminating tariff is underway. Nepal has been playing a significant role in giving momentum to BIMSTEC and is hosting BIMSTEC Summit, the highest policymaking body in BIMSTEC, in August 2018.
+
+### World Trade Organization
+
+- Headquarters: Geneva, Switzerland
+- Established: January, 1995
+- Created by Uruguay Round Table Negotiations (1986-1994)
+- Membership: 164 countries (As of October 2016)
+- Budget: 197.2 million Swiss francs (US \$ 220 million) (As of 2020)
+- Head (Director general): Ngozi Okonjo-Iweala (from 1 March 2021) (Previously assumed by Roberto Azevedo)
+
+**Functions**
+
+- Administering WTO trade agreements
+- Forum for trade negotiations
+- Handling trade disputes
+- Monitoring national trade policies
+- Technical assistance and training for developing countries
+- Cooperation with other international organizations
+
+- Latest member of WTO: Afganistan (July 29, 2016) as 164th country.
+
+### Agreements
+
+The WTO oversees about 60 different agreements which have the status of international legal texts. Member countries must sign and ratify all WTO agreements on accession. A discussion of some of the most important agreements follows.
+
+The Agreement on Agriculture came into effect with the establishment of the WTO at the beginning of 1995. The AoA has three central concepts, or "pillars": domestic support, market access and export subsidies.
+
+The General Agreement on Trade in Services was created to extend the multilateral trading system to service sector, in the same way as the General Agreement on Tariffs and Trade (GATT) provided such a system for merchandise trade. The agreement entered into force in January 1995.
+
+The Agreement on Trade-Related Aspects of Intellectual Property Rights sets down minimum standards for many forms of intellectual property (IP) regulation. It was negotiated at the end of the Uruguay Round of the General Agreement on Tariffs and Trade (GATT) in 1994.
+
+The Agreement on the Application of Sanitary and Phytosanitary Measures—also known as the SPS Agreement—was negotiated during the Uruguay Round of GATT, and entered into force with the establishment of the WTO at the beginning of 1995. Under the SPS agreement, the WTO sets constraints on members' policies relating to food safety (bacterial contaminants, pesticides, inspection, and labeling) as well as animal and plant health (imported pests and diseases).
+
+The Agreement on Technical Barriers to Trade is an international treaty of the World Trade Organization. It was negotiated during the Uruguay Round of the General Agreement on Tariffs and Trade and entered into force with the establishment of the WTO at the end of 1994. The object ensures that technical negotiations and standards, as well as testing and certification procedures, do not create unnecessary obstacles to trade".
+
+The Agreement on Customs Valuation, formally known as the Agreement on Implementation of Article VII of GATT, prescribes methods of customs valuation that Members are to follow. Chiefly, it adopts the "transaction value" approach.
+
+In December 2013, the biggest agreement within the WTO was signed and known as the Bali Package.
+
+## Industrial policy
+
+Continuing its efforts to make industrial policy relevant and supportive of industrial development, Nepal introduced Industrial Enterprises Act, 2016 to further simplify and clarify procedures for entry, operation and exit of industrial enterprises as well as introduce much-needed reforms. Nepal’s first industrial policy was released in 1957 and later updated and replaced in 1960, 1974, 1981, 1987, 1992 and 2010, respectively. Industrial Policy, 2010 guides Nepal’s overall policy related to the industrial sector. Its objectives are to enhance export of industrial goods, improve industrial sector’s contribution to the economy by using local resources, make industrial enterprises sustainable and dependable through application of innovative and environment-friendly technology, make Nepal an attractive destination in South Asia for investment, and protect intellectual property rights of industries. Industrial Policy, 2010 is supported by the Industrial Enterprises Act, 2016 which replaced Industrial Enterprises Act, 1992. Some salient features of the Act are: tax incentives, concession and benefits of VAT and custom duties, facilities to acquire land, provisions ensuring no nationalization of industries, and creation of a single window service for foreign investors. The Act has provided various fiscal incentives to industries, including, an effective tax rate of 16% for almost all manufacturing industries and 25% discount on export income from export of goods.
+
+## Agreement on Agriculture (AoA)
+
+Agreement on Agriculture includes 3 pillars:
+
+- Market access
+- Domestic support
+- Export competition
+
+1. Market access
+
+\begin{itemize}
+\item Deals with rules and commitments related to import of goods.
+\item Purpose is to expand trade by preventing non-tariff barriers and by binding and reducing tariffs
+\item Other trade policy instruments included in market access are: Tariff rate quotas (TRQs), and Special safeguards (SSG) as a trade remedy measure.
+\end{itemize}
+
+Following provisions are made under AoA for market access:
+
+\begin{enumerate}
+\item Prohibition of quantitative restrictions on imports -- only border instrument permitted is "ordinary" customs tariff which includes ad-valorem and special duties.
+\item Tariff binding and reduction
+\item Bound versus applied tariffs
+\item Tariff rate quota
+\item Special safeguard measures
+\end{enumerate}
+
+2. Domestic support
+
+- Focuses on limitting subsidies on those areas that distort trade as these concern trading partners.
+
+Following provisions are made under AoA for domestic support:
+
+\begin{itemize}
+\item Exempt measures:
+
+\begin{enumerate}
+\item Green box measures
+\item Article 6.2 development measures
+\item Blue box support
+\item \textit{De minis} level of support
+\end{enumerate}
+
+\item Non-exempt measures:
+\begin{enumerate}
+\item The outlays on these measures are expressed in terms of total aggregate measurement of support (Total AMS), with two components -- Product specific AMS and Non-product specific AMS.
+
+\end{enumerate}
+\end{itemize}
+
+3. Export subsidy/competition
+
+- Increases the share of the exporter in world markets, at the cost of those who doe not subsidize.
+- Depress world prices and transmit disincentives to farmers of 3rd world countries.
+- Makes world market price unstable. Thus it is most distorting of all three main policies covered by AoA.
+
+Following provisions are made under AoA on Export Subsidy:
+
+\begin{itemize}
+\item Focus on disciplining direct and indirect forms of export subsidies.
+\item 4 out of 5 AoA articles are on export competition (Article 8-12), and one on export restrictions.
+\item Two major forms of export subsidies -- Direct form and Indirect form
+\item Special and differential treatment of developing countries.
+\end{itemize}
+
+## Nepal Trade Promotion Board
+
+**Objective**
+
+To promote exports and export oriented industries through incentives and promotional measures.
+
+- Board is chaired by Secretary of Ministry of Industry and Commerce and Supplies (MoICS).
+- Programs are implemented by:
+  - Trade promotion center
+  - Federation of Nepalese Chamber of Cottage and Small Scale Industries (FNCCI)
+  - Agro-enterprise Centre of FNCCI
+- Subsidized products are: Fresh vegetables, fruits, vegetable seeds, oil products, floriculture, green tea and coffee, broom, bamboo products, pashmina shawls, ceramics and traditional garments.
+- Funds are used to stablize export of woolen carpets, readymade garments, leather goods, essential oils, Nepalese paper, niger seeds, spices, etc.
+
+## Top exports by Nepal
+
+(when ??)
+1. Man made staple fiber (11.9%) -- US \$ 87.9 million
+2. Textile floor covering (11.8%) -- US \$ 86 million
+3. Coffee, tea, spices (6.4%) -- US \$ 47.6 million
+
+Agriculture export
+
+1. Cardamom
+2. Fruit juice
+3. Black tea
+4. Forest and vegetable products
+5. Betal nuts
+6. Oilcakes and bran/feeds
+7. Noodles
+8. Medicinal plant
+9. Lentil
+10. Bovine meat (Buffalo)
+
+## Accredited food commodities and parameters of National Food and Feed Reference Laboratory, DFTQC, Nepal
+
+National Accreditation Board of Testing and Callibration Laboratories (NABL), India on ISO/IEC 17025:2017.
+
+```{r food-quality-reference-criteria}
+tribble(
+  ~"SN", ~"Testing group", ~"Commodity group", ~"Commodities", ~"Parameters", 
+  1, "Biological testing", "Food and agricultural products", "Fruits and vegetable products: Jam, juice, jelly, pickles and candies", "1. Total bacteria count, 2. Yeast and mould count, 3. Coliform count, 4. Escherichia coli, 5. Enterobacteriaceae",
+  2, "Biological testing", "Food and agricultural products", "Bakery and confectionary products (Pulses and cereal): Instant noodles, Biscuits and Infant foods", "1. Total bacteria count, 2. Yeast and mould count, 3. Coliform count, 4. Escherichia coli, 5. Enterobacteriaceae",
+  3, "Biological testing", "Food and agricultural products", "Milk and dairy products: Fluid milk, skimmed while milk powder, condensed milk, icecream, and yogurt sweets", "1. Total bacteria count, 2. Yeast and mould count, 3. Coliform count, 4. Escherichia coli, 5. Enterobacteriaceae",
+  4, "Biological testing", "Food and agricultural products", "Processed meat and meat products", "1. Total bacteria count, 2. Yeast and mould count, 3. Coliform count, 4. Escherichia coli, 5. Enterobacteriaceae",
+  5, "Biological testing", "Water", "Processed drinking water", "1. Total bacteria count, 2. Yeast and mould count, 3. Coliform count",
+  1, "Chemical testing", "Food and agricultural products", "Fats and oils", "1. Free fatty acid, 2. Refractive index, 3. Acid value, 4. Peroxide value", 
+  2, "Chemical testing", "Food and agricultural products", "Fruits and vegetables (processed products and sweets)", "1. Total soluble solids (TSS), 2. Acidity, 3. Sulphur dioxide (SO2), 4. Benzoic acid, 5. Tartazine, 6. Sunset yellow", 
+  3, "Chemical testing", "Food and agricultural products", "Spices and condiments: Ginger cardamom and turmeric", "1. Volatile oils, 2. Crude fiber, 3. Total ash", 
+  4, "Chemical testing", "Food and agricultural products", "Tea and coffee", "1. Total ash, 2. Water extract, 3. Crude fiber, 4. Lead, 5. Caffine", 
+  5, "Chemical testing", "Food and agricultural products", "Cereal and cereal products", "1. Moisture, 2. Protein", 
+  6, "Chemical testing", "Food and agricultural products", "Honey", "1. Moisture, 2. Acidity as formic acid, 3. Hydroxymethyl furfural (HMF)", 
+  7, "Chemical testing", "Food and agricultural products", "Milk and milk products: Processed milk, skimmed milk, whole milk powder, infant food, condensed milk", "1. Milk fat, 2. Moisture, 3. Protein, 4. Ash content, 5. Fat", 
+  8, "Chemical testing", "Food and agricultural products", "Meat products", "Sodium nitrite",
+  9, "Chemical testing", "Residues in food products", "Fruits and vegetables", "Organochlorine pesticides 1. Aldrin (SS), 2. Alpha-BHC (SS), 3. Alpha-Chlordane (SS), 4. Beta, BHC (SS), 5. Delta BHC (SS), 6. Dieldrin (SS), 7. Endosulfan I (Alpha), 8. Endosulphan II (Beta, SS), 9. Endosulfan sulphate (SS), 10. Endrin aldehyde (SS), 11. Endrin ketone (SS), 12. Endrin (SS), 13. Gamma-BHC (Lindane, SS), 14. Gamma chlordane (SS), 15. Heptachlor (99\\%, SS), 16. Heptachlor-epoxide, 17. Isomer (B, SS), 18. $4, 4^{\\prime}$-DDD (SS), 19. 4, $4^{\\prime}$-DDE (SS), 20. 4, $4^{\\prime}$-DDT, 21. Methoxychlor", 
+  10, "Chemical testing", "Residues in food products", "Fruits and vegetables", "Organophosphate pesticides 1. O, O, O-Trimethylphosphorothioate, 2. Thionazin, 3. Sulfotep, 4. Phorate, 5. Dimethoate, 6. Disulfoton, 7. Parathion, 8. Methyl parathion, 9. Famphur", 
+  11, "Chemical testing", "Residues in food products", "Cereals and cereal products: Instant noodles, biscuits, snacks", "Mycotoxins 1. Total aflatoxin, 2. Aflatoxin B1, 3. Aflatoxin G2; Trace elements 1. Zinc, 2. Calcium, 3. Magnesium, 4. Iron", 
+  12, "Chemical testing", "Water", "Processed dinking water", "1. pH, 2. Hardness, 3. Alkalinity, 4. Chloride content", 
+  13, "Chemical testing", "Residues in water", "Processed drinking water", "Trace metal elements 1. Lead, 2. Cadmium, 3. Arsenic, 4. Calcium, 5. Copper, 6. Iron, 7. Magnesium, 8. Zinc"
+) %>% 
+  knitr::kable(escape = FALSE, format = "latex", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = c("striped")) %>%
+  kableExtra::column_spec(column = 2:5, width = c("8em", "8em", "10em", "22em"))
+
+```
+
+## Assumption of positions of Chief and Chairperson of different Committees and Boards
+
+**Minister, Ministry of Agriculture Development**
+
+1. Agri-business Promotion Committee (provisioned by Agribusiness promotion policy, 2063)
+2. National Agriculture Development Committee (? provisioned by National Agricultural Policy, 2061)
+3. Council, NARC
+4. National Tea and Coffee Development Board
+5. National Dairy Development Board
+6. National Cooperative Development Board
+
+**Secretary, Ministry of Agriculture**
+
+1. National Seed Board
+2. National Biodiversity Coordination Committee (provisioned by National Biodiversity Strategy and Action Plan 2014-2020)
+3. Central Agriculture Development Committee (? verify name ?, ? provisioned by National Agricultural Policy, 2061 ?)
+4. Food Standard Fixation Committee (provisioned by Food Rules, 2027 (1970))^[http://www.lawcommission.gov.np/en/wp-content/uploads/2018/09/food-rules-2027-1970.pdf]
+4. Planning, implementation and monitoring sub committee 5. Cotton Development Committee
+
+
+**Director General, Department of Agriculture**
+
+1. Seed quality specification and management subcommittee
+
+**Executive Director, NARC**
+
+1. Executive Committee, NARC
+2. Variety approval, release and registration subcommittee
+
+## Impact on Agriculture due to COVID-19
+
+Nepal has also been witnessing various adverse impacts of COVID-19 in terms of human casualties and physical and mental health and on country's diverse farming systems and food security. As of 2nd November, 176,500 total cases of infection with 37,524 active cases and 984 total deaths were reported (Worldometer, 2020). Nepal imposed a lockdown to control the spread of the coronavirus since 24 March 2020 and partially opened since the first week of September 2020. The lockdown has affected the overall physical, mental, social and spiritual health of the people and posed unique challenges with vulnerable populations and limited resources to respond to the pandemic.
+
+There are around 3.7 million landholdings (family farms) in Nepal, 95% of which are owner-cultivated (FAO, 2013). Average size of a farm family is of only 0.6 ha. These smallholders produce a wide range of foods, using mainly family labour and consume a main part of the production in-house. They sell just 12% of their production in the market and generate just 5% of their total income due to low productivity, limited surplus to sell and lack of access to market and infrastructures like road and transportation networks (FAO, 2015). On the other hand, these smallholder farms were found to be somewhat resilient in the face of COVID-19 as they depended on local inputs - local indigenous seeds, compost, and family and community labour exchange and did not need market as the products were consumed at home or locally. These smallholder farms also had potential to initially absorb about half a million youths who returned to their villages from cities from Nepal or from India and other countries because of COVID-19 pandemic (UNDP, 2020).
+
+The strong community that is built around this type of farming is also useful in sharing the resources like seeds and labour. For example, community seed banks maintained by such communities played an important role in the pandemic as these ensured local seeds, conserved biodiversity, and contributed to a diversified food system. The resilience of such farms (measured by robustness and recovery of system productivity) was also observed during the Great Earthquake of 2015 when Nepal was hit by 7-richter scale earthquake causing over 9000 deaths and widespread damage of infrastructures (Epstein et al., 2017). Resilience can also play a major role in the survival and expansion of many agricultural systems and great empires and strengthen the resilience of nations against future pandemics and other shocks.
+
+Commercial or semi-commercial farms in Nepal, which are generally located near the urban centres especially in downstream Terai plains and produce mainly cash crops such as perishable fruits and vegetables, and eggs and milk, suffered greater during the pandemic as they were neither able to sell their farm products, nor able to purchase farm inputs (seeds, fertilizers, etc.) on-time due to lockdown and transport restrictions. Situation of Chitwan valley, a breadbasket for Nepal and a centre of commercial and modern farming, clearly illustrates the plight of market-driven farming in such pandemic when marketing practices are not made resilient. Although, eggs and chicken production of the district made the country more or less self-reliant in poultry production, daily production of 0.3 million litres of milk prior to COVID-19 declined drastically once restrictions were imposed mostly due to unavailability of feed (mostly imported from India) and lack of access to the market. Immediately after the COVID-19, farmers had to dump their milk, eggs and vegetables, as they did not have any plans for such immediate breakdown in market channel and to show wrath to Government for not helping in the marketing of the products. Banana did not sell and so were left rotten on the plants. Lack of on-farm processing and cold storage facilities aggravated these problems for the commercial farmers. Because of higher incomes, farmers even in high hill districts of Province 7 and Province 3 with accessibility to roads had slowly converted to commercial vegetable production prior to the pandemic. But these farms had to incur losses due to marketing problems triggered by COVID-19.
+
+### Rehabilitation of food systems
+
+In an effort to minimize stresses to agricultural markets, the The Ministry of Agriculture and Livestock Development of Nepal has established a digital market and declared a 25 per cent subsidy on the transport of agricultural products, considering the COVID 2019 crisis. Similarly, an initiative of the "agriculture ambulance" brought in by Province-5 of Nepal for transportation and marketing of agricultural products can prove to be a real life-saver in this pandemic situation. Furthermore, the Government of Nepal has envisioned the preparedness and response plans to COVID-19 for the Fiscal Year 2020/2021.
+
+A component of Resettlement Policy Framework (RPF) of the Nepal Rural Economic and Enterprise Development (REED) Project supports restoring and strengthening COVID-disrupted food supply chain and local economy. With the proposed budget of US \$ 22 million the project as part of COVID-19 response will support investments in restoring the regional food and inputs supply disrupted due to the limited movement, lockdown and the restriction of border trade and their long-term safe storage at municipal level to ensure food and inputs security. As the recovery actions, the project will support transfer of technologies and knowledge to farmers and agriculture related public and semi-public infrastructure and facilities. The project will also support to build public and semi-public agri-infrastructures and facilities by using labor-intensive Cash for Work (CfW) to create jobs in the rural area and contribute to enhancing rural income. The project will also support upgrading and building demand-driven market centers, value chain related infrastructures and semi-public infrastructures at local level, which could include regional market centers, collection centers, storage centers, cold-chain centers, packaging and processing centers, value addition facilities, among others. The value chain related infrastructures will be managed and operated by private sector/cooperatives to generate fees and businesses to ensure sustainability. 
+
+The project will support upgrading or building municipal agriculture centers to ensure safe storage at municipal level to ensure food and agriculture inputs security. These centers will also provide agriculture related training to returnee migrant workers to reengage them in agriculture sector on demand basis. This will also support post-COVID-19 rural economic recovery as restoring of supply and storage through municipal centers. All of the infrastructure and facilities will be constructed/upgraded by the project in the land owned either by the government or participating municipalities in COVID-19-compliant physical venues. The project will reinforce climate and environment considerations during the construction of the infrastructure in line with the ESMF to ensure that local knowledge and users' needs, and concerns are adequately addressed. In addition, the project will actively promote the use of renewable energy for the proposed infrastructures.
+
+## Land classification, landholding and tenurial system in Nepal
+
+According to the Land (Survey and Measurement) Act, 2019 (1963), land tenure in Nepal has been categorized as
+
+1. Private Land
+2. Government Land
+3. Public Land
+4. Community Land, and
+5. Guthi Land.
+
+Private lands represent about 28% of lands in Nepal. Nepal recognizes two private land tenure types: ownership and leasehold. Landowners have rights to exclusivity and use of their land and can freely transfer their land and pass the land by inheritance. The Land Reform Act 1964 as amended by the Land Ordinance Act (2005) imposes ceilings on land ownership, subject to various factors such as geo-ecological variations, soil types, average precipitation, other climatic conditions as well as land use types such as irrigated land, rain fed land, grazing land and average family size. These ceilings are currently at 3.75 hectares in the hills, 1.5 hectares in Kathmandu Valley and 7.43 hectares in Terai and Inner Terai.
+
+State lands include public land (defined to include wells, ponds, pathways, grazing land, cemeteries, market areas, etc.) and government land (defined to include roads, government offices, and land under government control, such as forests, lakes, rivers, canals, and barren land, etc.) It is estimated that about 72 percent of land in Nepal is state land. Guthi land is land held by religious bodies for religious or philanthropic purposes and is not subject to taxation. Guthiland includes temples, monasteries, schools, hospitals, and farmland managed by religious institutions and individuals. About 0.03 percent of land in Nepal falls into this category.
+
+Nepal has an estimated 2.7 million hectares of agricultural land or about 18.3%of the total land area,while about 44.7 percent land of Nepal is classified as forestland,and nationally protected areas make up 17.32 percent of the total land.
+
+### Land distribution
+
+There is a significant imbalance in land distribution in Nepal. The top 7\% of the of the households for example occupy 31\% of the agricultural land while the bottom 20\% own only about 3\%. About forty-six percent (45.7%) of agricultural households own between 0.5 and 3.0 ha of land and occupy 69.3\% of total cultivable land. 52.7% of those households own 0.5 ha or less and occupy 18.5 percent of cultivable area. The average size of agricultural landholding is 0.7 hectares in rural areas and 0.5\% in urban areas. It is estimated that about five percent households do not own any land but work other people's land on a contractual basis.
+
+84\% of farms in Nepal are owner operated. About 10 \% of land is held under some form of registered tenancy. However, the actual incidence of tenancy is probably higher due to the presence of informal unregistered tenants.
+
+It is estimated that 31\% of the farmers are tenants (i.e. leasing lands). Most tenants are not entirely landless but are just taking in additional land to till. The purely landless farmers are estimated to occupy only about 2\% of total farm holdings in the country. Sharecropping is the most common form of tenancy. The most common form of sharecropping arrangements is the short-term rental known as _adhiya_. Under _adhiya_, the tenant provides the labor and landowners supply some percentage of inputs. In principle, the tenant and landowner receive equal shares of the production, but the tenant rarely receives a half-share, either because he or she is in debt to the landowner or the landowner has supplied all the inputs. A second tenancy system, _thekka_, requires the tenant to pay a fixed share of production to the landowner. Highly exploitative systems that survived land reforms (such as those in which the tenant takes one-third or a one-tenth share and continuation of bonded labor, despite the law rendering them illegal) are still known to exist.
