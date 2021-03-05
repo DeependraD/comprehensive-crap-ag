@@ -242,6 +242,10 @@ Only the gap between the HDI and GDI can be accurately considered; the GDI on it
 
 - The GDI and HDI (women) of Nepal are, respectively, 0.925 and 0.552 as of 2017. This ranks Nepal in 115th position globally.
 
+## Medium Term Expenditure Framework (MTEF)
+
+Refer to the section by the same name in Comprehensive Guide: General Administration.
+
 ## Organic agriculture
 
 Organic Agriculture is a production system that sustains the health of soils, ecosystems, and people. It relies on ecological processes, biodiversity and cycles adapted to local conditions, rather than the use of inputs with adverse effects. Organic Agriculture combines tradition, innovation, and science to benefit the shared environment and promote fair relationships and good quality of life for all involved. -- IFOAM General Assembly, 2008
