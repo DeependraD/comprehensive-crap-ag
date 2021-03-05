@@ -796,14 +796,6 @@ The asparagus crop is either direct-seeded or one-year-old crowns are transplant
 
 Seedlings are raised from good-quality seeds and used for planting. Young plants seeded the previous year, called crowns, are removed in the spring before growth start and planted in the field within a few hours. Potassium and phosphorus are added to the soil before planting the crowns. Nitrogen is used for top-dressing. A fertilizer dose of 65-90 kg of N, 35 kg of P, and 35 kg of K per hectare has been recommended.
 
-### Ginger
-
-The crop performs well in warm and shaded place, with well drained soil and plenty of organic matter. Sandy loam soils are the soil types of choice. Heavy soils are not preferred because they may lead to prolonged water logged conditions during rain. The crop is nutrient exhaustive, so fertilizer enrichment of the soil during each crop cycle is essential.
-
-A gentle slope that allows for good drainage is preferred for the selection of site. The compost/FYM should be incorporated at the time of final land preparation, generally at the start of rainy season. In places where acceptable mositure prevails, crop can be successfully raised even during early summer (in mid-hills).
-
-Seed rhizomes of dimension 50-60 cm are planted 300 kg (for large seed rhizomes) - 200 kg (for small seed rhizomes) in a ropani of land. In fields where drainage is a problem, planting is carried out in raised beds (15 cm high) of 1-1.2 m width. A row to row distance of 30-40 cm and a between plant distance of 25-30 cm is mantained.
-
 ## Cultivation of cole crops
 
 Cultivated vegetable cole crops are:
@@ -951,6 +943,20 @@ cucurbits_cultivation %>%
 - Short day promotes female flower production
 - Grow on sandy to loamy soils
 - Optimum pH: 6-6.7
+
+**Varieties**
+
+- Pusa do-mausami, 
+- Kalyanpur barhamasey,
+- Coimbatore long,
+- Pusa vishesh,
+- Pusa hybrid-1
+
+Some of the Features of Pusa hybrid-1 are:
+
+1. Vines are medium in growth with broad leaves and dark in color
+2. Fruits are attractively green, medium-long and medium-thick (length: 13.5 cm, breadth: 5 cm, flesh thickness: 7.3 mm) with irregular smooth tubercles on the surface and on average weighs about 100 g.
+3. Average yield: \SI{21.8}{\tonne\per\hectare}
 
 **Propagation**
 
@@ -1410,7 +1416,7 @@ Advantages of nursery bed preparation over direct sowing are:
 - Width: 1 m, length: 3m (or as per requirement)
 - Drainage alley 30-40 cm wide between beds should be constructed.
 - After initial field plowing seed bed is given a fine tilth 1-2 times to render pulvarized soil. In the process, stubbles, large debris and soil moulds should be removed.
-- FYM is applied \SI{10}{\kilo\gram\per\meter\squared}
+- FYM is applied \SI{10}{\kilogram\per\meter\squared}
 - Urea: \SI{5}{\gram\per\meter\squared}, DAP: \SI{5}{\gram\per\meter\squared}, MoP: \SI{5}{\gram\per\meter\squared}
 - After mixing of fertilizer, preferably, cover the the soil with \SIrange{3}{4}{\centi\meter} layer of well rotten fine textured compost manure.
 
@@ -1481,7 +1487,7 @@ The advantage of the line sowing are as below:
 
 In hot weather condition, organic mulched shading nets are used to protect the nursery from the direct sunlight.
 
-```{r}
+```{r germination-days}
 tribble(
   ~"Vegetables", ~"Germination(days)",
   "Tomato", "5-7 ",	"Sovay cabbage", "4-5",
@@ -1556,7 +1562,9 @@ Following effect must be observed by the hardening
 
 Q. If a farmer from a river basin area (600 m) comes to you and request for summer season cucumber cultivation technology what would be your advice to him ?
 
-A. $\longrightarrow$ Riverbed farming can be used to increase household income and to improve the food security of landless and land-poor households in the Terai area of Nepal. It is estimated that about 8,000 hectares of riverbed land would be suitable for agricultural cultivation in the Kailali and Kanchanpur Districts in the Western Terai areas of Nepal. After the river water recedes in the post-monsoon season, vegetables are planted in ditches dug into the seasonal sand banks; the crops are harvested before the onset of the next monsoon. 
+A. $\longrightarrow$ Riverbed farming can be used to increase household income and to improve the food security of landless and land-poor households in the Terai area of Nepal. As of 2019, 60000 hectares of riverbed land all across the country is considered suitable for the farming. It is estimated that about 8,000 hectares of riverbed land would be suitable for agricultural cultivation in the Kailali and Kanchanpur Districts in the Western Terai areas of Nepal. However, only 6000 ha of such land is in use. GoN promote riverbed farming under supervision of National Center for Potato, Vegetable and Spice Crops development and to be implemented by Agriculture Knowledge Centre. 
+
+After the river water recedes in the post-monsoon season, vegetables are planted in ditches dug into the seasonal sand banks; the crops are harvested before the onset of the next monsoon. 
 
 General guidelines for performing riverbed farming:
 
@@ -1576,6 +1584,111 @@ General guidelines for performing riverbed farming:
   - Equipment: Sprayers, watering can, spades
   - Materials: Polythene bags, sheets, mulching materials
   - Agricultural seeds, chemical fertilizer, farmyard manure, compost, bio-pesticides, micronutrients.
+
+### Selection of crop in Riverbed farming
+
+Crops like bottlegourd, spongegourd, watermelon, muskmelon, cucumber and bitter gourds are best suited for riverbed farming. In addition, root and tuber crops including groundnut, colocassia and potato can be cultivated successfully in river-beds. Table \ref{tab:river-bed-varieties} lists some varieties of aforementioned crucifer and vine crops suitable for the farming.
+
+```{r river-bed-varieties}
+tribble(
+  ~"Crop", ~"Varieties",
+  "Watermelon", "Pusa shakti, Punjab sunhari, Hasmadhuh, Pusa madhuras, Arka rajhansh",
+  "Muskmelon", "Arka manik, Pusa bedana, Arka jyoti, Sugar baby",
+  "Bottle gourd", "Pusa summer prolific long, Pusa summer prolific round, Meghdut, Pusa naveen, Pant lauka hybrid-1, Kalyanpur long green",
+  "Cucumber", "Kalyanpur, Japanese long green, Priya",
+  "Pumpkin", "Arka chandan, CO-1, CO-2, Pusa bikash, Pusa bishwas",
+  "Sponge gourd", "Pusa chennai, Kalyanpur, Pant suraj hybrid-1",
+  "Bitter gourd", "Pusa do-mausami, Kalyanpur barhamasey, Coimbatore long, Pusa vishesh, Pusa hybrid-1"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crop varieties of crucifer crops suitable for river bed farming", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("5em", "20em"))
+```
+
+### Land preparation
+
+- Sandy soil have inherently low water retaining capacity. Therefore ample organic matter should be incorporated. Thus cultivation requires preparation of compost during Kartik-Mangsir months after recession of monsoon.
+- FYM: 9-10 quintal FYM/kattha
+- Chemical fertilizers recommendation:
+  - Watermelon, pumpkin, bottle gourd: 3.3:2:1.3 kg NPK
+  - Cucumber: 2:1.3:1.3 NPK
+- Half of the Nitrogen is top dressed spread across 15-20 days intervals.
+
+### Seed treatment and planting
+
+- Seek soaking for 18-24 hours improves sprouting.
+- Treatment with Bavistin, \SI{1.5}{\gram\per\kilogram} seed.
+- In order to hasten seed germination in winter months, seeds may be wrapped in castor leaves ( _Adir_) and buried in warm compost pits laid with and covered with straw; or alternatively, pits may be dug close by to the site where fire is lit to heat the surface. Seeds may be left for 5-10 days to promote early sprouting in the aforementioned condition.
+- Germination takes,
+  - Cucumber, watermelon, muskmelon and pumpkin: 4-5 days
+  - Bittergourd, bottlegourd and sponge gourd: 8-10 days
+  
+In the months of Mangsir-Poush, 5-6 sprouted seeds are sown in hills on a spot. Once seedlings are 2-4 leaved, best 3-4 are selected for growing while culling out the rest. To prevent chilling injury in winter and from scaring effects of wind carrying sand particles, the crop is housed with thatched roof constructed from vegetation. Likewise, to prevent injury associated with sand corrosion to crawling shoots as well as to the growing fruits of the vines and creepers, it is best to fence north-west facing side of the plot.
+
+### Irrigation
+
+When crop is still young, provision of water for irrigation may be made by excavating the banks of the river, the pits dug in such a way act as reservoir. Water may be carried to irrigate young growing seedlings. Later, once plants have developed sound root system, supplemental watering may not be necessary.
+
+### Mulching
+
+While shoots are extending on the ground, it is necessary to cover the surface with straw and grass residues in order to prevent sand injury and sun scortching to the developing parts.
+
+### Disease and pest management
+
+**Diseases**
+
+1. Powdery mildew ( _Erysiphe cichoracearum_)
+
+The white powdery spots of fungal growth appear on upper surface of the leaves, stem and succulent parts of the plant. Later these spots become powdery and enlarge into patches. Under severe infection, fruits may be covered with powdery mass. The fruit remain undersized and sometimes become deformed. The humid weather is favorable for the spread of this disease.
+
+Control
+1. Follow 2-3 years crop rotation
+2. Remove the infected leaves and destroy
+3. 2-3 sprays of Dinocarp (Karathene; \@ 0.1\%) 1 ml.
+
+2. Downy mildew ( _Pseudoperonospora cubensis_)
+3. Foot rot ( _Fusarium moniliforme_)
+
+**Insects**
+
+1. Red pumpkin beetle
+
+Both grub and adult attack the crop at seedling stage and make holes in the cotyledonary leaves. Besides feeding on leaves, stem and roots, this insect carry fungus, which causes _Fusarium_ wilt.
+
+Control
+
+1. Follow phytosanitary measures
+2. Spray the crop with garlic, ginger, or chilli extract \@ \SIrange{50}{100}{\milli\liter\per\liter} of water.
+3. Spray spinosad 45 SC (\SIrange{0.5}{0.7}{\milli\liter\per\liter} of water), dimethoate 30 EC (\SIrange{1.5}{2}{\milli\liter\per\liter} of water) or malathion 50 EC (\SIrange{1.5}{2}{\milli\liter\per\liter} of water).
+4. Apply Furadon 3G Granule 3-4 cm deep into the soil near base of germinated seedlings.
+
+2. Cucurbit fruit fly ( _Bacterocera cucurbitae_, _Dacus cucurbitae_)
+
+The maggot burrows into the fruits. As a result, the infested fruits start decaying and drop off from the plant. The flies mainly prefer tender fruits to lay eggs. The ovipositional punctures caused by adults also cause injury to the fruit, which results in distortion and malformation of fruit. The maggots feed on fruit pulp as well as on immature seeds and cause pre-mature dropping of fruit.
+
+Control
+
+1. Collect and destroy infested fruits on the plant.
+2. Grow a few lines of maize around the cucurbit field, as flies rest on such tall plants.
+3. Cover developing fruits with paper or polythene cover immediately after pollination.
+4. To prevent egg-laying, flytraps (pheromone traps) can be set up in the field with 1\% methyl eugenol or citronella oil.
+
+### Harvesting
+
+Pouch-Magh planted watermelon, cucumber, bottlegourd, muskmelon are generally ready for harvest in late falgun to chaitra. Generally following amounts of harvest may be obtained,
+
+```{r river-bed-harvest}
+tribble(
+  ~"Crop", ~"Yield (\\si{\tonne\\per\\hectare})",
+  "Bottle gourd", "28-30",
+  "Bitter gourd", "90-120",
+  "Sponge gourd", "24-27",
+  "Pumpkin", "30-33",
+  "Cucumber", "15-18"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Expected harvestable yield of cucurbitaceous fruits on river bed farming.")
+```
+
 
 ## Potato cultivation 
 

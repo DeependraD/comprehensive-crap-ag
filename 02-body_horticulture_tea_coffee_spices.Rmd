@@ -520,18 +520,24 @@ In a favorable year, disease damage is so devastating that only dead twig could 
 
 ## Cultivation of spices
 
-### Ginger (*Zingiber officinale*)
+### Ginger (*Zingiber officinale*) (Sanskrit: _Singabera_)
 
 - Nepal has adopted National trade integration strategy (NTIS, 2010). The strategy has prioritized export promotion of 7 crops, among which spices (Cardamom, ginger) form a major portion.
 - The aroma/flavor of zinger is due to volatile oils found in the rhizome.
 - Ginger cultivation has primarily been a small farmer's cash incentivized approach in Nepal. However, ours is the fourth largest producer country of Ginger ($6^{th}$ based on export).
 - The crop is traded as a fresh or dried product.
 
+Health benefits of ginger includes beneficial to patients of diabetes, indigestion, arthritis, high cholesterol, fractures and due to its anti-pyrretic and blood-thinning properties. In Nepal, 40\% is domestically consumed and 60\% is exported to neighboring countries, mostly India.
+
+The crop performs well in warm and shaded place, with well drained soil and plenty of organic matter. Sandy loam soils are the soil types of choice. Heavy soils are not preferred because they may lead to prolonged water logged conditions during rain. The crop is nutrient exhaustive, so fertilizer enrichment of the soil during each crop cycle is essential.
+
+A gentle slope that allows for good drainage is preferred for the selection of site. The compost/FYM should be incorporated at the time of final land preparation, generally at the start of rainy season. In places where acceptable moisture prevails, crop can be successfully raised even during early summer (in mid-hills).
+
 #### Morphology and Botany
 
 - Monocotyledonous
-- Although a perennial crop, the crop's development occurs intermittantly thoughout its life cycle (typical of herbaceous perennials). They survive the unfavorable season as dormant underground structures.
-- The pattern of aboveground vegetative growth makes it seem like a crop that has annual growth habit.
+- Although a perennial crop, the crop's development occurs intermittently throughout its life cycle (typical of herbaceous perennials). They survive the unfavorable season as dormant underground structures.
+- The pattern of above-ground vegetative growth makes it seem like a crop that has annual growth habit.
 - The crops' rhizome is the economic part.
 
 ```{r ginger-bot, out.width=c("78%", "20%"), fig.ncol = 2, fig.cap="Ginger crop and uses", fig.subcap=c("Rhizome", "Aromatic oil extract of ginger")}
@@ -540,6 +546,7 @@ In a favorable year, disease damage is so devastating that only dead twig could 
 knitr::include_graphics(c("./images/vegetables/Ginger_rhizome.jpg", 
                         "./images/vegetables/Ginger_perfumery.jpg"))
 ```
+
 
 #### Uses
 
@@ -579,18 +586,18 @@ knitr::include_graphics("./images/vegetables/Kapurkot-2_ginger.jpg")
 
 - Warm and humid climate with average temperature of \SIrange{25}{30}{\celsius} favors better growth.
 - Requires relatively less rainwater during germination, and a more frequent and intense one afterwards.
-- One month prior to harvest, moisture supply should be halted.
 - Grown successfully areas with elevation of 2000 masl where annual rainfall ranges 1500-2700 mm.
-- Requires relatively warmer temperature for intital vegetative growth.
-- Growth is checked at temperature below $15^oC$.
+- Requires relatively warmer temperature for initial vegetative growth.
+- Growth is checked at temperature below \SI{15}{\celsius}.
+- Loam, sandy loam with ample organic matter content is preferred.
+- Soil pH: 6-7
 
 #### Manuring and fertilization
 
-- Urea: 6 kg, DAP: 11 kg, MoP: 5 kg per ropani
-- FYM: 1500 kg per ropani
-- Soil pH: 6-7
-- Loam, sandy loam with ample organic matter content.
 - Nutrient exhaustive crop, so crop rotation should be followed.
+- NPK: 12:9:7 \si{\kilogram\per\ropani} (Blanket recommendation for Nepal: NPK 4:2.5:2.5 \si{\kilogram\per\ropani})
+- Mustard cake (if available): 100 \si{\kilogram\per\ropani}
+- FYM: 1500 kg (60 _Doka_)
 
 #### Propagation
 
@@ -610,56 +617,66 @@ knitr::include_graphics("./images/vegetables/Kapurkot-2_ginger.jpg")
 
 #### Land preparation and planting
 
-- Land preparation started with start of monsoon season.
+- Planted after the end of winter season or at spring (2nd week of Falgun to 2nd week of Jestha).
+- In lowlands/"besis", where soil moisture is not a problem, planting may be done on Falgun-Chitra.
 - Plouging 3-4 times.
 - FYM incorporated into the soil at the time of final ploughing.
-- In lowlands/"besis", where soil moisture is not a problem, planting may be done on Falgun-Chitra.
 - Rhizome yield is less if planting is delayed beyond Basisakh 15.
-- Although flowers, no fruit is formed.
-- Rate of seed rhizome(20-60 g, 5-7 cm length):
-- Large types: 300 kg per ropani
-- Small types: 200 kg per ropani
+- Although the crop flowers, no fruit is formed.
+- Rate of seed rhizome (20-60 g, 5-7 cm length):
+  - Large types: 300 kg per ropani
+  - Small types: 200 kg per ropani
+- In poorly drained areas, beds of 2 lines (20-25 cm height) are constructed. 100 hills may be accommodated in a ropani.
+- In well drained area with slope, beds of 4 line (3 x 1 x 0.15 m each of length breadth and height) are prepared.
+- Line-line distance: 30 cm
+- Plant-plant distance: 25 cm
+- Sowing depth: 3-4 inch
+- Drainage channels of width 40 cm between the beds is considered suitable.
 
 #### Planting and spacing
 
-- Two lines per ridge can be accomodated.
+- 50\% cost of production borne by planting material, although planted rhiome may be re-sold/used.
+- Rhizome size varies generally 20-60 g, 5-7 cm length and have at 2 nodes at the least.
+- Rhizome should be prepared by manually breaking with hands.
+- Required rate varies between \SIrange{120}{360}{\kilogram\per\ropani}
+- Seed rhizomes of dimension 50-60 cm are planted 300 kg (for large seed rhizomes), 200 kg (for small seed rhizomes) in a ropani of land.
+- Only one plantlet arise from one of the nodes however many nodes the rhizome may contain.
+- Practice of hot water dipping (\@ \SI{51}{\celsius} for 10 minutes) prior to planting enhances the germination.
+- Fungicide dipping or rhizome setts one day prior to planting in Dithane-M45 + Endofil-M45 \@ \SI{25}{\gram} + \SI{10}{\gram} in 10 ltr of water for 30 minutes and shade drying for a day increases chances of healthy crop establishment.
+- Use of _Trichoderma viridae_ or the effective micro-organism (EM) cultures have been found to be beneficial against broad range of fungal and bacterial pathogens.
 - R-R: 30 cm, P-P: 25 cm
 - Rhizome is placed 3-4 inches below the surface.
 - Drainage channels 10 cm deep and 40 cm wide are dug in between ridges.
 - However many nodes are present, only one will produce actively growing bud, when planted.
-
-#### Seed rhizome treatment
-
-- Dithane M-45 or Endofil M-45 \@25 g + Bavistin \@10 g + 10 ltr water solution used for dipping rhizomes for 30 minutes.
-- Rhizomes are shade dried and treated with Trichoderma viridae biofertilizer.
 
 #### Mulching
 
 - Soon after planting, field is mulched with 8-10 cm thick mulch.
 - Mulching is best done with sawdust. Other materials: dry leaves, rice hull, fresh leaves, grasses straw, etc.
 - Advantages of mulch: erosion control, protection against extremes of environmental factors, protection against pest and diseases.
+- Earthing up to support the growing crop after each Urea top dressing at 40-90 days of planting.
 
 #### Maturity and yield
 
 - Harvested when maximum price can be fetched for given stage of ginger in between 7-9 months.
 - For dried ginger production harvest can be delayed, but fibrousness increases as time passes. 
 - Harvesting delayed to even later for seed rhizome production.
+- One month prior to harvest, moisture supply should be halted.
 - Early stage fresh ginger: \SI{600}{\kilogram\per\ropani}
 - Dried ginger: \SI{1000}{\kilogram\per\ropani}
 
 #### Diseases
 
 - Upto 40\% yield loss is due to diseases.
-- Rhizome rot
-  - Is highly pervasive, can infect any stage. New emerging buds have water soaked spots, Yellowing starts from the base of pseudostem
-and goes along the both margins of leaves. In advanced stages, rhizome shows soft rot.
+- Rhizome rot is highly pervasive, can infect any stage. New emerging buds have water soaked spots, Yellowing starts from the base of pseudostem and goes along the both margins of leaves. In advanced stages, rhizome shows soft rot.
   - Is caused by *Pythium aphanidermatum*, *Pythium graminicolum* and other Pythium species.
-  - Control: Select rhizomes with signs of healthy pith, use of resistant cultivars: ZI-9721, Crop rotation, provision of good
-drainage, seed treatment, Spray of Bavistin + Redomil 0.2\% a.i (1:1) + Brassica oilseed cake at the rate of \SI{2}{\tonne\per\hectare}.
+  - Control: Select rhizomes with signs of healthy pith, use of resistant cultivars: ZI-9721, Crop rotation, provision of good drainage, seed treatment, Spray of Bavistin + Redomil 0.2\% a.i (1:1) + Brassica oilseed cake at the rate of \SI{2}{\tonne\per\hectare}.
 - Yellowing disease: *Fusarium oxysporium f.*sp. *zingiberi*
-- Leaf spot: *Phyllosticta zingiberi*
-- Wilt: *Ralstonia solanacearum*
+- Leaf spot: _Phyllosticta zingiberi_
+- Wilt: _Ralstonia solanacearum_
 - Storage diseases: *Alternaria*, *Aspergillus*, *Rhizoctonia*
+- _Pratylenchus coffeae_, _Meloidogyne spp._ -- Dry rot
+
 
 #### Insects
 
@@ -676,6 +693,13 @@ knitr::include_graphics("./images/vegetables/Borer_ginger.jpg")
 ```
 
 #### Storage
+
+- Crop is harvested on 5-9 months after planting
+- Care should be taken that rhizome is protected from cuts and bruises while harvesting.
+- Wilting of 75-100\% of the standing shoots indicates the maturity of rhizome.
+- For seed rhizome production, harvest is delayed. However, a too late a harvest causes increase in fibrousness.
+- Cold storage compartment is set at 90\% relative humidity and \SIrange{10}{12}{\celsius} temperature for better storage outcomes.
+- Cellar storage is an alternative when controlled condition facility is unavailable.
 
 ```{r ginger-store, out.width="48%", fig.ncol = 2, fig.cap="Traditional storage systems used in ginger storage", fig.subcap=c("Zero energy compartment", "Covering and entry proofing of the storage compartment")}
 knitr::include_graphics("./images/vegetables/Ginger_store_1.jpg")

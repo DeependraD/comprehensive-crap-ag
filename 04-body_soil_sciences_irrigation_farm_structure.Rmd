@@ -13,6 +13,38 @@
 
 ### Soil textural classes
 
+Few soils consist of mineral particles of single class. Usually soils are a mixture of sand, silt, and clay, whose relative proportions determine the soil's texture.
+
+A textural class is a defined range of particle size distributions with similar behavior and management needs. The USDA soil textural triangle was designed so that any combination of particle size could be included within a textural class (Figure \ref{fig:usda-soil-texture-triangle}). Each corner of the textural triangle represents 100 percent of a size fraction: sand, silt or clay. Within the triangle are areas that represent the allowable combinations of the three size separates -- sand, silt and clay -- for each textural class name. For example, a sandy loam (A) may have no more than 20 percent clay or 85 percent sand or 50 percent silt.
+
+Loam and clay each have a specific range of sand, silt, and clay, just as sandy loam does. A clay texture must have at least 40 \% clay and may have as much as 40 \%
+silt or 45 \% sand. A loam may have from 7-27\% clay, from 28-50\% silt, and 23-52\% sand.
+
+```{r size-fraction-soil-particles}
+tribble(
+  ~"Fraction group", ~"Fraction name", ~"Diameter (mm)",
+  "Sand", "very coarse", "2.00-1.00",
+  "Sand", "coarse", "1.00-0.50",
+  "Sand", "medium", "0.50-0.25",
+  "Sand", "fine", "0.25-0.10",
+  "Sand", "very fine", "0.10-0.05",
+  "Silt", "coarse", "0.05-0.02",
+  "Silt", "medium", "0.02-0.005",
+  "Silt", "fine", "0.005-0.002",
+  "Clay", "coarse", "0.002-0.0002",
+  "Clay", "fine", "<0.0002"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Size fractions of soil particles", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("5em", "6em", "8em"))
+```
+
+
+```{r usda-soil-texture-triangle, fig.cap="Three soil textures shown on standard USDA textural triangle; (A) Sandy loam, (B) Loam, (C) Clay. To determine the texture class, read in the direction of each tick mark until the lines intersect. Clay is read horizontally from left, silt diagonally from the right, and sand diagonally from the bottom of the triangle.", out.width="70%"}
+knitr::include_graphics("./images/usda_triangle.jpg")
+```
+
 
 ### Bulk density
 
@@ -84,6 +116,170 @@ tribble(~"Crop", ~"N-fixation (kg/ha)",
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(position = "center")
 ```
+
+## Soures of plant nutrition
+
+The different source of 16 essential nutrients and their forms in which they are absorbed from the soil by the plant is shown in \ref{tab:sources-forms-nutrients}.
+
+```{r sources-forms-nutrients}
+tribble(
+  
+  ~"Element", ~"Absorbable form", ~"Sources",
+  "1. Carbon, Hydrogen, Oxygen", "$CO_2$, $H_2 O$, $OH$, $O_2$", "Air, water organic compounds",
+  "2. Nitrogen", "Nitrite: $NO_2^{-}$, Nitrate: $NO_3^{-}$, $NH_4^{+}$", "Organic matter, fertilizer, manure, air",
+  "3. Phosphorus", "$H_2 PO_4^{2-}$, $HPO_4^{-}$", "Soil, OM, fertilizer, manure",
+  "4. Potassium", "$K^{+}$", "Soil, OM, fertilizer, manure",
+  "5. Calcium", "$Ca^{2+}$", "Weathering, liming, manure, fertilizer",
+  "6. Magnesium", "$Mg^{2+}$", "Weathering, soil correction (dolomite, gypsum)",
+  "7. Sulphur", "$SO_4^{2-}$, $SO_2$", "Weathering, sulphur fertilizer, ammonium sulphate, $SO_2$ may be obtained from air",
+  "8. Chlorine", "$Cl^{-}$", "Weathering",
+  "9. Iron", "$Fe^{2+}$, $Fe^{3+}$", "Weathering, crop residues",
+  "10. Manganese", "$Mn^{2+}$", "Weathering and as micro-nutrients",
+  "11. Zinc", "$Zn^{2+}$", "Weatering and micro-nutrients",
+  "12. Copper", "$Cu^{2+}$", "Weathering and micro-nutrients",
+  "13. Boron", "$H_3 BO_3$, $HBO_3^{-}$, $HBO_3^{2-}$", "Weathering and micro-nutrients",
+  "14. Molybdenum", "$MoO_4^{2+}$", "Weathering and micro-nutrients, manure"
+) %>% 
+  knitr::kable(booktabs = TRUE, escape = FALSE, caption = "Soil essential nutrients and their available forms", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:3, width = c("10em", "8em", "16em"))
+```
+
+
+## Saline soil/solonchhak soils/white alkali soils
+
+Soils containing soluble neutral salts of Ca, Mg, K and Na are termed as saline soils. Commonly, saline soils contain chlorides and sulphates of Ca and Mg salts and the exchange complex is dominated by Ca and Mg but not by Na (less than 15\% exchangeable Na). If a saline soil contains large amounts of calcium and Mg salts, the color of such soil become white due to encrustation of white Ca and Mg salts and called as white alkali soils or calcareous soils. Saline soil has pH less than 8.3. The exchangeable sodium percentage (ESP) and the sodium adsorption ratio (SAR) of saline soils are less than 15\% and less than 13 respectively. Because of higher amounts of soluble salt content, the electrical conductivity (EC) of saline soil is more than \SI{4}{\deci\siemens\per\meter}. Primarily, salinity is measured by EC and sodicity is measured by SAR and ESP. 
+
+### Effects of salinity to crop plants
+
+High levels of salt in soil solution adversely affect crop growth and development. Severity depends on climate, type of crop growth, salt composition and concentration.  However, in general:
+
+Higher salt concentration in soil solution lowers osmotic potential (increases osmotic pressure) that reduces entry of water to plant roots because water enters to plant roots if water potential of plant root cell is lower than soil solution. High accumulation of salt in plant system cause salt toxicity. Plant suffering from salt damage become dull, stunted and leaves of such plants become scrochy, yellow and there may be leaf senescence. Severity of leaf damage occurs mainly in low lying areas of fields in patches.
+
+- Salt tolerant plants (halophytes; e.g. Barley, beet and date palm) accumulate soluble salt in root cells to reduce internal osmotic potential and absorb water from high salt containing soil solution.
+- Non-halophytes accumulate organic solutes to increase internal salt concentration and exclude salt ions.
+
+### Saline-sodic (saline-alkali) soils
+
+Saline-sodic soil contain enough quantities of neutral soluble salts (chlorides and sulphates of Na, Ca and Mg) and soil pH ranges from 8.3 to 8.5. The ESP of saline sodic soil is more than 15\% and SAR is at least 13. The destruction of soil physical properties of saline sodic soils becomes intermediate to that of saline and sodic soils.
+
+Leaching of saline sodic soil by irrigation and drainage removes soluble salts from the solution and Na ions come to soil solution from exchange complex and pH rises remarkably. Frequent irrigation and drainage by neutral irrigation water and use of gypsum can improve soil pH.
+
+### Alkali (sodic) soils
+
+Non-saline sodic soil contain more than 15\% ESP, more than 13 SAR and no great amount of neutral soluble salt which results in pH higher than 8.5 Due to absence or presence of negligible amount of neutral soluble salts, such soils are sticky and plastic under wet condition and very hard under dry condition. Water does not percolate through them. Soluble salts are washed down by the limited rainfall and Ca and Mg ions present in clay micelle are replaced and gradually, clay micelle will be saturated by Na ions. Sodium ions react with carbonic acids forming sodium carbonate.
+
+$$\mathrm{Na^+ + H_2CO_3} \xrightleftharpoons{} \mathrm{H^+ + Na_2 CO_3}$$
+
+Sodim carbonate hydrolyze to form sodim hydroxide and carbonic acids. Sodium hydroxide is strong base and that helps to increase soil pH. Carbonic acid is weak acid and dissociates to $\mathrm{CO_2}$ and $\mathrm{H_2O}$.
+
+$$
+\mathrm{NA_2 CO_3 + 2HOH} \xrightleftharpoons{} \mathrm{NaOH + H_2 CO_3}
+$$
+Carbonic acid dissociates to $\mathrm{CO_2}$ and $\mathrm{H_2O}$.
+
+Sodium hydroxide hydrolysed to $\mathrm{Na^+}$ and $\mathrm{OH^-}$ increases soil pH. Thus sodium carbonate is responsible to raise soil pH to 9.0 or even to 10.
+
+Sodium is to crop especially if calcium concentration is low. Sodic soils also loose their structure if salt concentration is not maintained high. Maintaining high salt concentration is neither conducive to crop productivity nor possible when desired. Leaching of soluble salts from soil surface destructs soil structure make surface barrier to enter water through it. It reduces soil aeration resulting $\mathrm{O_2}$ deficiency and $\mathrm{CO_2}$ abundancy in the soil pores. The detrimental effects on plants caused by reduced water infiltration and aeration in sodic soils are rather serious than toxicity caused by $\mathrm{Na^+}$, $\mathrm{HCO_3^-}$ and $\mathrm{OH^-}$ ions present in soil solution.
+
+High sodium content in a soil disperses OM from soil-OM complex and surface encrustation of salts present in sodic soils become black. Such soils are termed as black-alkali soils. Sometimes, the black salt localize in small areas that is called slick spots.
+
+```{r alkaline-soils-characteristics}
+tribble(
+  ~"Soil type", ~"pH", ~"EC (\\si{\\deci\\siemens\\per\\meter})", ~"ESP (\\%)", ~"SAR",
+  "Saline", "<8.3", ">4", "<15", "<13",
+  "Saline-sodic", "8.3-8.5", ">4", ">15", ">13",
+  "Sodic", ">8.5", "<4", ">15", ">13",
+  "Normal", "Near about 7", "<4", "<15", "<13"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Important characteristics of alkaline soil", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("6em", "4em", "5em", "3em", "3em")) %>% 
+  kableExtra::add_footnote(label = "EC refers to the electrical conductivity of soil at \\SI{25}{\\celsius}.")
+```
+
+
+### Harmful effects of saline/sodic soils on plant growth
+
+1. Saline and saline-sodic soils contain excessive quantities of salts and increase osmotic pressure (reduce osmotic potential) of the soil solution. Low osmotic potential of the soil solution reduce water absorption by plant roots.
+2. The presence of excessive amounts of chlorides in the soil solution of saline and saline-sodic soils is harmful to the crop plants.
+3. Non-saline alkali soils are poor in soil physical conditions
+4. Poor soil physical condition of the soil results reduced soil aeration (low $\mathrm{O_2}$ and high $\mathrm{CO_2}$ content in soil air) which is adverse for crop growth and survival.
+5. Poor soil physical conditions adversely affects the soil infiltratino capacity of the surface soil.
+6. There will be presence of high concentration of borate, bicarbonate and sodium ions in soil solution. Even a small amount of borate is toxic to crop plants.
+7. Sodic soil contains excessive bicarbonates and sodium which is harmful to crop plants.
+8. The uptake of nutrients into root hairs is also interrupted due to antagonistic effects of Na-salt. A high $\mathrm{Na^+}$ concentration suppresses Zn, P, K, Fe and Mn availability to crops.
+9. Strongly alkaline soil solution is corrosive to crop roots and stems.
+
+### Management of saline and sodic soils
+
+Commonly, alkaline soils are managed by following methods,
+
+1. Eradication (by leaching of soluble salts with irrigation water)
+2. Conversion of salts to less harmful forms (by use of Gypsum and elemental sulfur)
+3. Control (by mulching and tillage operations)
+4. Use of resistant crops
+
+### Calculation of gypsum requirement to reclaim alkaline soils
+
+The amount of gypsum required to reclaim sodic soils is based on the exchangeable sodium percentage present in a given soil and its cation exchange capacity (CEC). If a soil has,
+
+- ESP: 25\%
+- CEC: \SI{18}{\centi\mole\per\kilo\gram}
+
+and desired reduction of ESP of upper 30 cm of that soil is to about 5\%. The gypsum requirement is calculated as,
+
+$$
+\begin{aligned}
+&\text{Amount of sodium ions required to be replaced} &= CEC \times ESP \text{ to be replaced} \\
+& &= 18 \mathrm{~cmol kg^{-1}} \times \frac{25-5}{100} \\
+& &= 18 \times 0.2 \\
+& &= 3.6 \mathrm{~cmol kg^{-1}}
+\end{aligned}
+$$
+$$\mathrm{2Na(Micelle) + CaSO_4.2H_2O} \rightarrow \mathrm{Ca^{2+}(Micelle) + Na_2SO_4 + 2H_2 O}$$
+
+By the reaction above, it is known that two ions of $\mathrm{Na^{+}}$ will be replaced by one $\mathrm{Ca^{++}}$ ion. Thus,
+
+Gypusm requirement = Amount of Na-ions to be replaced x molecular weight of $\mathrm{CaSO_4.2H_2O}$
+
+Molecular weight of $\mathrm{CaSO_4.2H_2O}$ is equal to 172. Na-ions to be replaced is in \si{\centi\mole\per\kilo\gram} soil.
+
+172 g of $\mathrm{CaSO_4.2H_2O}$ is present in 1 mole solution. As Ca-ions contain two charges, it can replace two Na-ions. Thus, $\mathrm{CaSO_4.2H_2O}$ required is half of its molecular weight (86 g).
+
+As sodium to be replaced is in centimole, $\mathrm{CaSO_4.2H_2O}$ expressed in mole has to be divided by 100 to know the $\mathrm{CaSO_4.2H_2O}$ present in cmol,
+
+Thus, to replace 1 centimole of Na-ion, 0.86 g of $\mathrm{CaSO_4.2H_2O}$ is required.
+
+To replace 3.6 cmol of Na ions, $3.6 \times 0.86$ (3.096) g of $\mathrm{CaSO_4.2H_2O}$ is required.
+
+One hectare furrow slice of 15 cm depth has $2 \times 10^6$ \si{\kilo\gram\per\hectare} soil. For 30 cm depth, amount of soil to be reclaimed = $2 \times 2 \times 10^6$ = $4 \times 10^6$ \si{\kilo\gram\per\hectare} soil.
+
+Thus, to reclaim $4 \times 10^6$ \si{\kilo\gram\per\hectare} soil, $\mathrm{CaSO_4.2H_2O}$ required 
+
+= $\mathrm{CaSO_4.2H_2O}$ required to reclaim per kg soil x total weight of soil to be reclaimed.
+
+= $3.096 \times 4 \times 10^6 \mathrm{CaSO_4.2H_2O}$
+
+= \SI{12.38}{\mega\gram} $\mathrm{CaSO_4.2H_2O}$ per hectare of 30 cm depth of the soil.
+
+## Characteristics of soil horizon
+
+```{r horizon-property}
+tribble(
+  ~"Master horizon symbols", ~"Horizon property or characteristic",
+  "O", "Layers domiated by organic material.",
+  "A", "Mineral horizons formed at the surface or below an O horizon and containing accumulated decomposed organic matter.",
+  "E", "Mineral horizon in which the main feature is the loss of silicate clay, Fe, or Al, leaving a concentration of resistant sand and silt particles.",
+  "B", "Horizons formed below an A, E or O horizon and dominated by the obliteration of the original rock structure and the accumulation of silicate clay, Fe, Al, humus, carbonate, gypsum or Si.",
+  "C", "Horizons excluding hard bedrock and litle affected by soil genesis.",
+  "R", "Hard bedrock like basalt, granite, or sandstone."
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Horizon property or characteristic; Source: USDA Soil Survey Manual, Chapter 4.", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("6em", "20em"))
+```
+
 
 ## Crop irrigation
 

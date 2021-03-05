@@ -717,13 +717,13 @@ Rights and the Functions of the municipal government on agriculture
   - National Seed Company Limited
 
 ```{r moad-bodies}
-readxl::read_xlsx("./data/doa_institution.xlsx", "division-section", skip = 1)
-readxl::read_xlsx("./data/doa_institution.xlsx", "directorate", skip = 1)
-readxl::read_xlsx("./data/doa_institution.xlsx", "section", skip = 1)
-readxl::read_xlsx("./data/doa_institution.xlsx", "commodity-development-programs", skip = 1)
-readxl::read_xlsx("./data/doa_institution.xlsx", "quarantine", skip = 1)
-readxl::read_xlsx("./data/doa_institution.xlsx", "laboratory")
-readxl::read_xlsx("./data/doa_institution.xlsx", "training-center", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "division-section", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "directorate", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "section", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "commodity-development-programs", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "quarantine", skip = 1)
+# readxl::read_xlsx("./data/doa_institution.xlsx", "laboratory")
+# readxl::read_xlsx("./data/doa_institution.xlsx", "training-center", skip = 1)
 ```
 
 

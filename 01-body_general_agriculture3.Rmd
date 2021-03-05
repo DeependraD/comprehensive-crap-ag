@@ -1,111 +1,495 @@
-## Miscellaneous
+## Mushroom cultivation
 
-### National Farmers Commission
+Mushrooms are fruiting bodies of various species of fungi, specially, gill fungi with or without stem and the term is used even more generally to describe both the fleshy fruiting bodies of ascomycotina and the woody or leathery fruiting bodies from basidiomycotina. Mushroom lies in developed class of Basidiomyceties. Many species are gathered from wild for consumption, but care must be taken as some are poisonous. Edible variants of the fungi are called mushroom and inedible are sometimes generically called toadstool.
 
-- Chariman: Chitra Bahadur Shrestha
-- Members: 7 total
-- 2073/10/06: National Farmers' Commission organization directives
-- Has central office in Hariharbhawan, Lalitpur
+The most common type of mushrooms is umbrella shaped with a pileus (cap) and a stipe (stem), that is, Lentinula edodes (Shiitake). Other species additionally have a volva (cup), that is, Volvariella volvacea, or an annulus (ring), that is, Agaricus campestris, or both, that is, Amanita muscaria.
 
-### Weekly radio and television broadcast on Agriculture Program
+In context of  Nepal,  the most commonly cultivated species is Agaricus bisporus and oyster mushrooms and other types of commercial importance include shiitake, straw mushrooms, and winter mushrooms.
 
-```{r weekly-radio-television-agriculture}
-dplyr::tribble(~"SN", ~"Day of week", ~"Radio Nepal (6:40 to 6:55)", ~"NTV (60:40 to 6:57)",
-               1, "Sunday", "Saptahik krishi gatibidhi", "Krishi sambad", 
-               2, "Monday", "Safalta ko katha", "Krishi sambad", 
-               3, "Tuesday", "Food and nutrition", "Samaya sandarva", 
-               4, "Wednesday", "Krishi sambad", "Ajako krishi", 
-               5, "Thursday", "Krishak ko sarokar", "Krishak ko sarokar", 
-               6, "Friday", "JTA ra budhi ama", "Saptahik krishi gatibidhi", 
-               7, "Saturday", "Radio patrika", "Krishi teleserial"
-               ) %>% 
-  knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"))
-```
+The vegetative part of the fungus, called the mycelium, comprises a system of branching threads and cordlike strands that branch out through soil, compost, wood log, or other lignocellulosic material on which the fungus may be growing. After a period of growth and under favorable conditions, the established (matured) mycelium could produce the fruit structure which we call the mushroom.
 
-### Kishan call center
+**Ecological classification of mushroom fungi**
 
-The public agricultural extension service is able to reach only so far to 15% of the total farm households. While the need for professionalizing agriculture sector and improving livelihood standards of farming community is imminent. The issue of food security, besides being a hot topic of discussion in national and international community, is closely associated with the citizen's rights. In this regard, it becomes all the more essential for traditional agricultural systems to be transformed to a information-technology based commercial system wherein farmers can connect with greater ease to subject specialists for consultation. For serving the purpose of addressing farmers' inquiries about crop and livestock, mainly concerning problems such as disease and pests, Kishan Call Center was established in 2072/73.
-
-**Objectives**
-
-- Addressing problems relating to crop, livestock and business enterprise faced by farmers and entrepreneurs through telephone contact with subject matter specialists.
-- Minimize the geophysical barriers in communication and information exchange so that service delivery could be streamlined.
-
-- Phone number: 16600195000
-- Subjects dealt in respective days and schedule:
-
-```{r kishan-call-center-schedule}
+```{r mushroom-fungi-classification}
 tribble(
-  ~"Day", ~"Subject", ~"Time of day", 
-  "Sunday", "Cereal crop, apiary, silkworm farming, mushroom cultivation, crop protection", "11 AM to 4 PM", 
-  "Tuesday", "Vegetable, fruits, soil and market", "11 AM to 4 PM", 
-  "Thursday", "Fisheries, livestock farming, poultry farming, production technology, fodder and forage management", "11 AM to 4 PM"
+  ~"Category", ~"Example",
+  "Saprophytes", "White button, Crimini, Shiitake, Oyster",
+  "Parasites", "Polypores/Bracket fungi or Shelf fungi",
+  "Mycorrhiza", "Black truffle (\\textit{Tuber melanosporum})",
+  "Mixed mode of nutrition", "\\textit{Ganoderma lucidum}, Matsutake mushroom (\\textit{Tricholoma matsutake})"
 ) %>% 
-  knitr::kable(booktabs = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
-  kableExtra::column_spec(column = 2, width = "16em")
+  knitr::kable(booktabs = TRUE, caption = "Ecological classification of some mushroom fungi", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(1:2, width = c("6em", "14em"))
 ```
 
-### NPK Content of fertilizer
+More than 1000 species has been reported to be consumed worldwide while fewer than 25 edible mushroom species are widely cultivated and accepted as a food of economic importance.
 
-- Urea: 46%  Nitrogen
-- DAP(Diammonium Phosphate): 18% N, 46% Phosphorus
-- MoP(Muriate of Potash): 60% potash
-- SSP(Single Superphosphate): 16% P
-- DSP(Double Sugar Phosphate): 32% P
-- TSP(Triple Sugar Phosphate): 48% P
-- ZnSO4: 22-35% Zinc
+Commonly cultivated species are: _Lentinula edodes_, _Pleurotus spp._, _Agaricus spp._, _Volvariella spp._, etc.
 
-### Contributors in Agriculture
+More than 10 new mushroom species, including _Agaricus blazei_, _Pleurotus eryngii_, and _Agrocybe aegerita_, have been cultivated in recent years on a small commercial scale, and the potential for expansion is great.
 
-- Sociology: Auguste Comte
-- Statistics: R.A. Fisher
-- Economics: Adam Smith
-- Soil Science: V.V. Dokuchaev
-- Tillage: Jethro Tull
-- Green Revolution: Norman E Borlaug
-- Modern Agronomy: Peter De Crescent
-- Organic Farming: Rudolf Steiner
-- Dr. Norman E. Borlaug is the pioneer of Green Revolution and was awarded Nobel Peace Prize in 1970.
+Protein content of edible mushroom is usually high, but varies and is affected by a variety of factors including species and stage of development.
 
-### Common animal diseases
+```{r mushroom-nutrition}
+tribble(
+  ~"Species", ~"Minerals", ~"Protein", ~"Fat", ~"Fiber",
+"\\textit{Agarius bisporus} (Gobre chhyau)", 1.25, 3.94, 0.19, 1.09,
+"\\textit{Pleurotus spp.} (Kannya chhyau)", 0.97, 2.78, 0.65, 1.08,
+"\\textit{Volvariella spp.} (Parale chhyau)", 1.64, 4.98, 0.74, 1.38
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Nutritional composition of some popular mushroom species", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(1:5, width = c("8em", rep("6em", 4)))
 
-- Bacterial diseases: Anthrax, Brucellosis (Bang's disease), Black Quarter(Black leg), Haemorrhagic Septicaemia, Mastitis
-- Fungal diseases: Aspergillosis, Candidiasis, Ringworm
-- Protozoal diseases: Coccidiosis, Babasiosis
-- Viral diseases: Foot and Mouth disease, Swine fever(hog cholera), New castle disease, Marek's
+```
 
-### Common Poultry Diseases
+The protein of edible mushrooms is comparatively rich in glutamic acid (12.6–24.0\%), aspartic acid (9.10–12.1\%), and arginine (3.70–13.9\%). In comparison with meat mushroom provide 10 times more protein. Digestibility of protein is 72-83\%.
 
-- New Castle Disease/Ranikhet
-- Mareck's Disease (MD)
-- Gumboro
-- Coccidiosis
-- Chronic Respiratory Disease (CRD)
-- Avian Influenza/Bird Flu- H5N1, H9N2
+Edible mushrooms generally have a low lipid level of less than 10% DW but nevertheless are a source of unsaturated fatty acids, and especially oleic and linoleic acids. In some species, the lipid content may be as low as 2.0%. The levels of polyunsaturated fatty acids in mushrooms are high, constituting more than 75% of the total fatty acids, of which palmitic (19.2%), oleic (8.3%), and linoleic (68.8–84.0%) acids are the most significant.
 
-### Agriculture and child labor
+Cultivated mushrooms are a good source of minerals, containing macro-elements such as calcium, magnesium, sodium, potassium, and phosphorus and trace elements such as copper, iron, manganese, and zinc. Some common cultivated edible mushrooms, including _P. ostreatus_, _L. edodes_, and _A. bisporus_, are rich in a variety of minerals with the content of range:
 
-According to the latest ILO estimates, at least 250 million children of between 5-14 years of age work in developing countries. Almost half of these children work on a full-time basis. The participation rates of children in economic activities in much higher in rural areas than in urban centres. Rural children, in particular girls, tend to start working at an early age. In Latin America and the Carribbean, out of 15 million children involved in the labor market, 56 percent work in agriculture sector from the age of 5 to 7 onwards. In some countries, children account for as much as 30 percent of the agricultural workforce. Most children work seven days a week and are paid less than the prevailing rates in their localities. They work long hours, and a very high proportion of these children are injured at work. Exposure to poor working conditions has serious repercussions on children's growth, development and health. The most common injuries include: cuts and wounds, eye infection, skin problems, fever, and headaches caused by excessive heat or by exposure to pesticides while working in agricultural fields.
+- Potassium (2670–4730 mg/100 g DW)
+- Phosphorus (493–1390 mg/100 g DW)
+- Magnesium (20–200 mg/100 g DW)
+- Zinc (4.70–9.20 mg/100 g DW)
+- Copper (0.52–3.50 mg/100 g DW)
 
-### Hazards in agriculture occupation
+Cultivated mushrooms are a good source of several vitamins. Depending on the species, following quantities of vitamins are observed:
 
-Despite the fact that certain developing countries have reached higher levels of economic development, nutrition and health are still the problem areas. This situation provokes a vicious circle of low productivity, low wages, malnutrition, ill-health and low working capacity. The interaction between poor living and working conditions determines a distinctive morbidity-mortality pattern among agricultural workers, which is due to the combination of malnutrition, general and occupational diseases, and complications arising from undiagnosed or untreated diseases. Low working capacity is closely related to workers' malnutrition and poor health. 
+- Riboflavin (vitamin B2) ranging from 1.8–5.1 mg/100 g DW, 
+- Niacin (vitamin B3), ranging from 31–65 mg/100 g DW,
+- Folates (vitamin B9), ranging from 0.30–0.64 mg/100 g DW 
 
-Agriculture related hazards mostly include:
+The vitamin B2 content in mushrooms is higher than that generally found in vegetables, and some varieties of _A. bisporus_ even have a level of vitamin B2 as high as that found in egg and cheese. The vitamin B2 content of other cultivated edible mushrooms is as follows:
 
-1. Machinery such as tractors, trucks and harvestors, and cutting and piercing tools;
-2. Hazardous chemicals: Pesticides, fertilizers, antibiotics and other veterinarian products;
-3. Toxic or allergenic agents: Plants, flowers, dusts, animal waste, gloves, chrome, oils;
-4. Carcinogenic substances or agents: Certain pesticides such as arsenicals and phenoxy-acetic herbicides, UV radiations, parasitic diseases such as bilharziasis and facioliasis;
-5. Transmissible animal diseases: brucellosis, bovine tuberculosis, hydatid disease, tularaemia, rabies;
-6. Other infectious and parasitic diseases: leishmaniasis, bilharziasis, facioliasis, malaria, tetanus, mycosis;
-7. Confined spaces such as silos, pits, cellars and tanks;
-8. Noise and vibration;
-9. Ergonomic hazards: use of inadequate equipment and tools, unnatural body position or prolonged static postures, carrying of heavy loads, repetitive work, excessive long hours;
-10. Extreme temperatures and adverse weather conditions;
-11. Contact with wild and poisonous animals: insect, spider, scorpion, snake and certain wild mammals.
+- _P. ostreatus_ (2.27–8.97 mg/100 g DW),
+- _A. bisporus_ (3.70–5.10 mg/100 g DW),
+- _L. edodes_ (0.90–1.80 mg/100 g DW)
+
+### Medicinal importance
+
+- Most mushroom possess antioxidant and hypocholesterolemic properties.
+- Morchella used against diarrohoea and fever.
+- _Pleurotus officinalis_ used for blood coagulation, used in chest pain, TB, high sweating, jaundice and internal parasites (antihelminthic).
+- _Fomes ignarius_ and _F. demontarius_ is used in blood coagulation.
+- _Claratia gigantia_ used as anesthetic agent.
+- _Amanita muscaria_ is very toxic but used in epilepsy, swollen glands and tumor diseases.
+- _Fistulina hepatica_, _Cariolus hirsutus_ are used in healing wounds.
+- _Claratia frondosa_ and _Cariolus versicolor_, _Ganoderma lucidum_ for treatment of swollen glands or tumor.
+- In England, people try to feed mushroom against cancer \@ 3 pound/week for 6 months and got significant result as cancer curing. Due to presence of retinin substance in mushroom it is believed to cure cancer.
+- Shiitake and _Pleurotus spp._ bear interferon substance and believe to cure Avian Influenza.
+- Also Lentinula sulphate (from Shiitake) acts against HIV AIDS.
+- _Agaricus campestris_ effective against _Salmonela typhi_, _E. coli_ and _Staphylococcus  aureus_.
+- _Lentinula edodes_ and _Ganoderma lucidum_ if taken regularly decreases cholesterol level from blood and also Philonin substances found in mushroom acts against influenza.
+
+**Poisonous versus non-poisonous mushroom**
+
+- Chemically, if mushroom contain more than 0.5\% alkaloids they are poisonous.
+- Silver spoons when touched with poisonous mushroom turn black but _Amanita phalloides_, although very toxic doesn't turn spoon color to black.
+- Poisonous mushroom when cooked with onion, generally turns the food black.
+- If we rupture the mushroom and rub to skin, skin turns black if the mushroom is poisonous. A. xanthoderma  when rubbed with skin it change into yellow or chocolate color but it is still very poisonous.
+- Edible mushrooms typically grow in lawns or open paddocks and not under shrubs or trees like the toadstool varieties. Amanitas, for example, start appearing in fall and summer, especially on the floor of woodlands.
+
+Generally, there are 3 highly poisonous/toxic genera:
+
+1. Lepiota
+2. Galerina
+3. Amanita
+
+**Suspicious physical manifestations of poisonous mushroom**
+
+1. Warts or scales on the cap
+2. Presence of bulbous cup or sac around base
+3. A white spore print
+4. Gills attached to the stalk and are white in color without transformation of color throughout their lifecycle.
+
+### Mushroom poisoning
+
+1. Mushrooms of the genera _Clitocybe_, _Russula_, _Boletus_, _Agaricus_ and _Lactarius_.
+
+They produces gastrointestinal poisoning. It is due to the action of certain fatty acids, such as agaric, lauric.
+- The symptoms appear from a quarter of an hour to four hours after having ingested. 
+- The main symptoms are vomiting, diarrhea, dizziness, or headache. 
+- The treatment involves the emptying of the stomach and the application of body fluids to avoid dehydration.
+
+2. Mushrooms of the genera _Conocybe_, _Psilocybe_, _Paneolus_, _Pluteus_, _Copelandiam_, _Stropharia_ or _Inocybe_.
+- They produce hallucinations.
+- They contain norbaeocystin, baeocystin, psilocin and psilocybin.
+- The symptoms appear 15 minutes after ingestion and before two hours.
+- The main symptoms are: nausea, vomiting, hypotension, headache, amnesia, and especially hallucinations, usually resolving spontaneously after 4 or 10 hours.
+
+3. Mushrooms such as _Amanita muscaria_ and _Amanita pantherina_
+
+- They produce nervous disorders
+- They mainly contain muscaridin and other principles such as neurin, choline, isomuscarine, ibotenic acid, pyroibotenic acid, muscimol or muscazone.
+- The main symptoms including diarrhea, vomiting and dryness of mouth take place half an hour and three hours after eating the mushrooms.
+- After the first described symptoms, hallucinations can take place, especially of a visual type. Mental confusion, convulsions, dilated pupils and coma can also appear. 
+- The treatment involves intestinal emptying, the use of sedatives and hydration of the body.
+
+4. Mushrooms of the genus Coprinus (C. atramentarius, C. africanus, C. insignis, C. erethisteus, C. micaceus 
+
+- They produce coprinic disorders, because they contain a principle similar to disulfiram that prevents the metabolism of acetaldehyde.
+- It is toxic only when combined with alcohol (if you drink alcohol 3 or 4 hours before taking the fungus or two or three days after having swallowed them). Symptoms occur a quarter of an hour or half an hour (15-30 min) after drinking alcohol.
+- The main symptoms are the following: nausea, vomiting, very strong hot feeling in the head and neck, arrhythmias, hypotension. 
+- The problem usually resolves spontaneously within three to six hours.
+- Treatment may involve the use of drugs to treat hypotension and arrhythmia.
+
+5. Mushrooms of the genus Amanita ( _A. phalloides_, _A.verna_, _A.porrinensis_ and some species of _Lepiota_ and _Galerina_)
+
+- The main components of this genus are amaninamide, amanine, alpha, beta and gamma amanitinaloidine, phalloidin, phalloin, phallisacin, phallacidin, phallacin, viroidine, etc.
+- Symptoms of poisoning occur after about 8 or 10 hours after ingestion but can also occur within 24 hours. 
+- They produce gastrointestinal symptoms (severe diarrhea, vomiting, excessive thirst, sweating, cramps, stomach pain, headache, dehydration, etc.)
+- Later, after an apparent recovery, a few days after having ingested them, a number of symptoms that indicate damage to the liver and kidney occur: lack of urination, jaundice, bleeding, pulmonary edema, hypoglycemia, etc.
+- It can cause problems of lack of awareness and behavioral disorders.
+- The final episode involves limb paralysis, convulsions, coma and death.
+
+6. Mushrooms of the genus Gyromitra (_G. esculenta_, _G. gigas_, _G. infula_) 
+- They contain some components called gyromitrins, which are very harmful to the liver and kidneys.
+- Symptoms usually appear after about 6 or 9 hours after ingestion but can occur after almost a whole day.
+- Among the main initial symptoms are the following: vomiting, diarrhea, arrhythmias and hypotension.
+- After one or two days of poisoning symptoms can appear more severe kidney or liver problem (enlarged liver, elevated transaminases, destruction of red blood cells, black urine , etc).
+
+### Pleurotus cultivation
+
+- This mushroom is soft and white when weather is hot and greyish in cold weather.
+- The stipe is usually very short and is of same color as the pileus.
+- On the underside of the pileus are the gills -- long, medium, short and very short alternatively running from the edge of pileus down the stipe.
+- Can be found in natural condition with wide range of climatic diversity expect extremities.
+- In Kathmandu it can be grown in all season except winter and in terai except summer.
+- Temperature requirement: \SIrange{26}{30}{\celsius}
+- In Nepal, 4 species have been identified -- _Pleurotus circinatus_, _P. nepalensis_, _P. ostreatus_, _P. sajor-caju_ (most commonly cultivated).
+
+The material used to grow real crop i.e mushroom is known as **spawn**. It is the mycelium (vegetative phase) from a selected mushroom grown on some convenient medium and it is the strain of the mushroom selected which decides the type of mushroom to be produced. It is similar to that of seeds or propagating material of other crops.
+
+**Types of spawn**
+
+1. Virgin spawn: Spores of mushroom fall on the substrate, during suitable environment they germinate and form a mat of mycellium which is dug out and used as spawn. This type of spawn is known as virgin spawn. It was first used in France and exported to other countries.
+
+2. Brick spawn: It is made by mixing composted horse and cow manure with loam soil (equal portion of each) along with water and tapped to a layer of 2 inch thick and cut into pieces when half dried. A hole is made in one edge and inoculated with old spawn/ mushroom mycellium. After this the spawn grow through the entire piece then the bricks are left to dry and sold as brick spawn.
+
+3. Flake spawn
+- The flake spawn, or "flakes," is commonly known as the French spawn, because it is extensively manufactured in France.
+- It is made by breaking down beds through which the mycelium has run, and before the crop of mushrooms appears. When the mycelium has thoroughly permeated the bed, it is taken down and broken into irregular pieces, six to eight inches in diameter.
+- The beds are made entirely of horse manure, with no admixture of soil, consist merely of the fermented and cured manure.
+- The bed is thoroughly dried before using it as spawn.
+
+4. Grain spawn
+
+- Grain spawn is sterilized grain that has been inoculated with spores or a culture of mycelium. Many types of grain may be used, including wheat, bajra, sorghum and rye. Larger grain carry greater reserve food material per grain for mushroom mycelium can withstand adverse condition such as poor composting etc.
+- Small grain provides more points of innoculum so the spawn prepared with small grain will cover the compost/substrate soon.
+- Grain spawn can be used to create sawdust spawn, more grain spawn, or inoculate all sorts of pasteurized substrates such as straw.
+- A advantage of using grain is that it's much more nutritious than sawdust, making it ideal to create more spawn or to inoculate indoor substrates.
+- A disadvantage is that it's not as good a choice for inoculating outdoor beds as grains are a catchy target for birds and rodents.
+
+5. Sawdust spawn
+
+- Sawdust Spawn is sterilized sawdust that has been inoculated with mycelium, often by grain spawn. The sawdust is usually made out of some type of hardwood with pieces neither too large nor too fine (a few mm in diameter).
+- One of the main advantages of mushroom spawn in the form of sawdust is the size of the particles. Because they are so small and numerous, there are many more inoculation points for the mycelium to grow into the substrate. This results in faster mycelium colonization with less time for contaminants to take hold.
+- A disadvantage of sawdust spawn is that, on its own, its not as nutritious for mushroom growing as one would like.
+
+Other types of mushroom spawn are Woodchip spawn, Straw spawn, Sawdust spawn plug and Liquid spawn.
+
+**Isolation and maintenance of pure culture**
+
+1. Spore culture technique
+
+a. Spore print method
+
+- In order to get a spore print or collection of spores, the cap from a healthy, disease free mushroom is removed, surface cleaned with a swab of cotton dipped in alcohol and placed on a clean sterilized white paper or on clean glass plate or on surface of the clean glass slides.
+- The surface nearby should be thoroughly sterilized.
+- To prevent air flow, place a glass jar or clean glass or cup over the cap surface.
+- Spores will fall on the white paper or slide surface within 24-48 hours exactly like radial symmetry of the gills.
+- The spore print on the paper can be preserved for a longer time by cutting and folding it into two halves.
+
+b. Spore transfer and germination method
+
+- In order to get a pure culture, the scalpel is sterilized by keeping it on a burning flame for 8-10 seconds till it becomes hot red,
+- Cool it by dipping in a sterilized medium,
+- Scrap some spores from the spore print taken on a paper or glass slide and transfer them by gently streaking on the agar medium aseptically.
+- Minimum, three agar dishes should be inoculated for each spore print and the culture developed after its incubation at appropriate temperature is known as multispore culture.
+
+2. Tissue culture technique
+
+- A small bit from the pileal region is cut with the help of a sterilized blade or scalpel,
+- Washed several times in sterilized distilled water,
+- Dried in a clean tissue paper before inoculating aseptically on a Petri plate or tube containing suitable culture medium.
+- The inoculated Petri plates are incubated at $25\pm1$ \si{\celsius} for 6-12 days and observed at different intervals for the mycelial growth.
+- All Petri plates/glass tubes showing contaminations should be discarded and only the ones with pure growth should be retained for further use.
+
+In each of the technique, if the amount of pure culture retained becomes insufficient, it may be sub-cultured by aseptically transferring a small piece of growing pure culture along with the culture medium on the test tube slants containing same or other suitable medium.
+
+#### Grain spwan preparation
+
+Grains (wheat, rye, millet, etc.) which are to be used for spawn production should be cleaned and sorted for broken and misshaped grains. The grains should not be very old, insecticide- or fungicide- treated or insect damaged. The grain is boiled with an equal volume of water till the water dries out.
+
+The grain should become soft but it should not get split or allow the starch to ooze out. If there is excess water, should be drained off. The grain should be spread on the plastic sheet and left for some time then mixed thoroughly with $\mathrm{CaCO_3}$ \@ 8% by the grain weight and Gypsum 2\% to prevent clumping.
+
+$\mathrm{CaCO_3}$ helps to maintain the pH of the spawn and also helps in absorbing excess moisture. The mixture is then filled in bottle or plastic bags, plugged tightly and sterilized for two consecutive days at 15 p.s.i for half an hour. After 2 days of sterilization the bottles are inoculated with the pure culture of mushroom and incubated at $25\pm1$ \si{\celsius} for 3 weeks. By this time, the grains become covered with white mycelium.
+
+_Pleurotus spp._ can be grown on paddy straw, wheat straw, banana leaves, etc.
+
+**Requirements for Pleurotus mushroom cultivation**
+
+- Substrate for cultivation: Corn cobs, paddy/wheat straw, sugarcane bagasse, etc.
+- Spawn
+- Pasteurization/sterilization unit
+- Polythene bags
+- Supplements (gram flour/saw dust etc.) (optional)
+- Cultivation room (with proper temperature, light, moisture)
+
+#### Sterilization
+
+- Before sterilization rice straw should be chopped to about 5 cm or smaller length.
+- The chopped straw should be soaked in water overnight. For the best result the straw should be immersed in boiling water drained off.
+- If wheat straw is used, it should be softened by composting for a week.
+- Sterilization can be done with the help of drum.
+- There should be 4''x 6'' water in the drum where three or four bricks should be kept upright position; perforated round plate of tin should be kept on bricks.
+- Then, the drum should be filled with moist straw.
+- It should be steamed for half an hour to kill all insects and wild fungus.
+- After steam sterilization it should be cooled either in drum itself or in big plastic bag.
+- In context of Nepal farmers are using this method for sterilization as they don't have any other well equipment for sterilization.
+- So complete sterilization can not be assured by this method.
+- Most of farmers in our country are not taking care during sterilization.
+- So, they have to face contamination problem.
+- For _Pleurotus_ cultivation straw should be well sterilized.
+
+#### Inoculation
+
+- Cultivation of _Pleurotus_ is usually carried out in transparent polythene bags. Plastic bag filling method is popular in Nepal.
+- Small bag is good for summer season and large size bag is good for winter season.
+- For inoculation of the spawn; it would be good to have bag size -- 14 inches x 22 inches (in summer) or 16 inches x 26 inches (in winter).
+- Spawn should be spread in every layer of straw of 6-8 cm height and pressed the straw slightly to make bag compact.
+- After filling the bag with spawn and straw, mouth of the bag should be tied with thread.
+- Small holes should be made for aeration.
+- Inoculation should be done with clean hand.
+- Ones should be careful during inoculation to minimize the possibility of contamination as far as possible.
+- It would be better to have a separate room for inoculation.
+
+#### Incubation
+
+- Mushroom mycelia are incubated for 17-23 days while covered with a plastic sheet.
+- It is the process of providing suitable environmental conditions to run mycelium well in substratum.
+- During incubation, light is not required, however, make sure the bags have plenty of fresh air.
+- The temperature should be maintained at \SIrange{20}{22}{\celsius} during the first stage, and then increased gradually up to \SI{25}{\celsius}. As the incubation progresses, the substrate emits heat by itself due to mycelial growth. Therefore, the temperature should be set at \SIrange{22}{23}{\celsius} though the optimal temperature for growing of the oyster mushroom mycelia is \SI{25}{\celsius}. The mycelia don't require much ventilation during vegetative growth, but it should be kept in mind that they do require sufficient oxygen during this stage.
+- In ares of Nepal where temperature regime is high during incubating period of mushroom, it is convenient for the chamber to be covered with wet jute sack to regulate temperature and provide ample humidity. Water may be sprinkled intermittently.
+- In Nepal, the most dangerous problem during incubation period is the Green Mold.
+
+#### Pinning and fruiting
+
+When the spawn has fully colonized the whole substrate, the environment in the growing room is adjusted and made appropriate for reproductive growth and fruiting. To convert to the reproductive growth stage, the factors such as adding light, performing a cold shock, maintaining a high relative humidity, and providing enough oxygen are implemented. Light levels are raised to 80-120 lux, sufficient for newspaper to be readable, for 3-4 days before the plastic sheet is removed for ventilation. The temperature of the growing room is lowered to \SIrange{15}{18}{\celsius}, but the optimal temperature for pinning varies from \SIrange{10}{24}{\celsius}, depending on species and strains. Growers should be aware of the characteristics of the species and strains they are growing. Relative humility inside the growing room should be kept as high as 85-95\% by watering once or twice a day. Pinheads should be observed within several days and grow to full size soon thereafter.
+
+#### Observation
+
+Mushroom, then should be observed thoroughly, following changes can be seen,
+- 3rd day: no changes may be seen except some dew collected at the top of bag.
+- 6th day: minute threads of mycelium spread around the spawned grain can be seen.
+- 10th day: White mycelial thread can cover larger area.
+- 15th day: mycelium may extent to larger areas but nearly same as in 10th day.
+- 25th day: now the fungus cover most of the part and at that day the plastic covered can be removed and placed in another room for further production.
+
+#### Harvesting
+
+- During reproductive phase ventilation should be provided so that fresh air can flow easily.
+- Temperature and humidity should be maintained.
+- Light water spray is necessary two times per day.
+- When temperature is low, fruiting body are ready to harvest at about 7-8 days but when temperature is high it may get ready within 3-4 days.
+- Harvesting is done when the cap has the diameter of 8-10 cm.
+- Picking is done by twisting gently so that it is pulled out without leaving any stalk and also the nearby fruiting bodies are not disturbed.
+- When the base of the stipe is deeply immersed within the straw, cutting the base of stipe with Sharpe knife can be done.
+
+### Agaricus cultivation
+
+- Agaricus is also called low temperature mushroom. Only in the 1970's it was shown that Agaricus could be profitably cultivated in sub-tropical regions under certain conditions.
+- Hilly area and Kathmandu valley is more preferred for its cultivation than terai, as it requires less temperature for growth compared to the _Pleurotus_ spp.
+- Mushroom can be grown on temperature range from \SIrange{10}{30}{\celsius}, however, for sporophore production \SIrange{16}{17}{\celsius} is suitable.
+- If temperature is either less than \SI{10}{\celsius} or more then \SI{30}{\celsius}, mycelial growth will stop. Requires 75\% RH, 0.1 to 0.15\% concentration of $\mathrm{CO_2}$; for this purpose supply of 4-6 hrs fresh air within 24 hrs is required but care should be taken to maintain RH. So fresh air provision should be done in morning hours.
+- Sun rays should not directly fall on mushroom bed. If there is rise in temperature, $CO2$ concentration will rise too.
+
+#### Housing
+
+- Houses may be constructed of inexpensive materials (bamboo for the framework, and roofing and siding of straw, banana leaves and plastic). However, it must be well ventilated and should not be damp (no excess moisture)
+- Temperature can be maintained by using air cooler.
+- Compost should be filled at appropriate time to avoid contamination.
+- Clean water should be available for use.
+- The room should be clean and free from microbes.
+
+#### Composting
+
+- The purpose of composting is to take organic substrates and, through the metabolic activities of many microorganisms, make the substrate preferentially suitable for the growth of a particular mushroom species.
+- The substrate materials for _Agaricus_ generally are wheat straw and horse manure. 
+- During composting, a changing microbial flora develops in the substrate which induces certain chemical and physical qualities.
+- The physical qualities in the compost must support aerobic conditions, hold waste materials without becoming waterlogged, have good drainage, and a proper pH. The substrate will contain millions of bacteria and fungi which initially absorb the limited amounts of soluble carbon and nitrogen materials that are present in the substrate. Then, they break down the straw, composed primarily of cellulose, hemicellulose, and lignin.
+- The compost is prepared by long method of composting (LMC), however, if pasteurization facility is available, then short method of composting (SMC) is applied.
+
+**Method of composting without use of pasteurization facility**
+
+1. Weighing the required amount of ingredients.
+2. Cut the straw into 5-10 cm length.
+3. Wet the straw in clean water for 24 hrs.
+4. Prepare a wooden frame of 10x5x5 ft 3 .
+5. Put the straw in the frame after draining excess water.
+6. Then press very firmly so that there will be anaerobic condition.
+7. In given frame total amount of straw that can be used is 500 Kg.
+8. Then cover with plastic.
+9. First turning is done after 5 days.
+10. During first turning care should be taken that top portion straw should replace the bottom straw.
+11. 2nd turning is done after 10 days of composting at this time spray and mix with agri-lime.
+12. 3rd turning is done after 13 days of composting. Add/apply irrigation if moisture is insufficient.
+13. 4th turning is done after 16 days of composting. During this process add superphosphate to the compost.
+14. Pressing is necessary in each and every turning.
+15. If decomposition is going on proper way then off smell of ammonia can be smelled.
+16. 5th turning is done after 19 days of composting.
+17. 6th turning after 22 days of composting. Spray fungicide Derosal \@ \SIrange{1}{2}{\gram\per\liter} of water + insecticide Nuvan \@ \SIrange{1}{2}{\milli\liter\per\liter} of water. Spray solution \@ \SI{20}{\liter} per 1000 kg of straw.
+18. 7th turning after 25th day of composting.
+19. 8th turning after 27th day of composting. The color of compose should appear light grey.
+20. Compost will be ready after 30 days. Good compost must have 70\% moisture, 7-7.2 pH and good smell.
+
+#### Bed preparation
+
+- Width of the bed should not be >3 ft. But length can be adjusted as per availability of room space.
+- As far as possible we can adopt tier system.
+- The distance between two bed should not be less then 6-8 inches.
+- Base material for bed should be bamboo or wooden log.
+- Sterilization of room by 2\% formalin solution for 24 hours.
+- Sterilization should be done before 2 days of actual bed preparation.
+- After treatment leave the room open for 24 hrs to escape formalin gas.
+- Before preparing the bed, hands and tools must be sterilized by sprite or alcohol.
+- Put total 6-8” thickness of compost and remove 1-2 inches compost and spray spawn uniformly.
+- Replace the thin layer of removed compost then spray spawn above the compost. (4 layer-8 inches) (3 layer-6 inches).
+- Cover with ordinary newspaper treated with Derosal and Nuvan and irrigate lightly for 2 weeks regularly in mist form by atomizer.
+- Do not irrigate heavily just wet the paper.
+- Congenial temperature is \SI{24}{\celsius}.
+
+#### Casting
+
+- After spawn run, the mycelium become ready to enter the reproductive phase to produce the fruiting bodies.
+- Casting is the practice of covering mycelial growth with soil. It is done to stop vegetative growth of mycelium and induce fruiting, Casing soil is believe to perform several subsidiary function such as:
+  1. Provides anchorage for the mushroom. Where casing is not done a few mushroom will appear on the surface and will fall over and dry.
+  2. Provides water to growing mushroom.
+  3. Prevents the evaporation of excessive moisture from the beds.
+- The mycelium will completely penetrate the compost and white patches which may coalesce and form uniform white color ring.
+- At this stage, bed must be covered with casing of soil or suitable substrate.
+- Casing will increase the growth of mushroom and make it easy for harvesting on leveled surface.
+- Casing also provides moisture for growth and development of fruiting bodies and maintain humidity and temperature in the growth chamber.
+- After completion of spawn run, the newspaper is removed and surface of compost is covered 3-4 cm thick casing material.
+- Pitmoss is also considered as casing material. When we use ground soil as casing material, remove 2 inches of ground soil and take soil from deeper part.
+- Make a heap of soil and remove stone and other undesirable materials, pulverize it properly.
+- Treat the heap of soil with Derosal and Nuvan.
+- Mix thoroughly and cover the heap by polythene for a day.
+- 2\% formalin can also be used if air tight condition can be maintained.
+- Thickness of casing is very critical. Deep casing and shallow casing both will adversely affect the mycelial growth.
+- Ideal thickness of casing is 2-3 inches.
+- Mycelium can grow \@ \SIrange{4}{8}{\milli\meter\per\day}.
+- Once the fruiting body will come out from the surface than room temperature should be reduced to \SIrange{15}{20}{\celsius},
+- High concentration of $\mathrm{CO_2}$ at the time of fruiting will adversely affect the production.
+
+An ideal casing material should posses;
+
+1. Good water holding capacity. Beds when watered casing should retain whole water i.e. sprinkled and prevent it from percolating to the compost beneath.
+ii. Should allow enough aeration and with o panning. If crust pan is formed on the surface it will deprive the growing spawn of oxygen and will prevent water reaching the depth of the casing.
+iii. Should be neutral or slightly alkaline.
+iv. No harmful moulds, insect and undecomposed vegetative materials.
+
+**Time of casing**
+
+- Traditionally, beds are cased when spawn have penetrated the compost bed efficiently.
+- Depending on the kind and quantity of the spawn used, the quality of compost and the prevailing atmosphere, casing normally is done after 14 days i.e. after 2 weeks.
+
+**Care after casing**
+
+After casing, favourable condition for mycelial growth is;
+
+i. Bed temperature: \SI{24}{\celsius}
+ii. RH: 100\%
+iii. $\mathrm{CO_2}$ acceptable and may be beneficial upto 1\%.
+
+These condition are to be maintained until the mycellium nearly reaches the surface of casing.
+
+The casing acts to some extent as a blanket retaining it and may results in the temperature raise in compost. So it is better to reduce temperature of compost by \SIrange{3}{6}{\celsius} before casing.
+
+#### Harvesting/picking
+
+Mushroom are picked or harvested just before the cap expands and gills are exposed.
+
+- At this stage the cap measures 2.5-8 cm across.
+- Closed mushrooms are always preferred. Opened mushrooms are inferior and have shorter shelf life.
+- The mushrooms are picked by holding the caps in the finger tips, slightly pressed against the soil and gently twisting and pulling simultaneously till they loosen from the soil and mycelial thread binding it to the soil are snapped.
+- The soil particles and mycelial thread clinging to the base of the stalk are chopped off. 
+- Another practice is to chopped off the stem as close to the soil surface as possible.
+- After the mushroom or clump of mushroom has been picked, the remaining fleshy tissue of the stalk should be carefully removed from the soil and these holes should be ploughed with fresh sterilized casing soil.
+- Large number of young buttons upto a cm in diameter die once the larger mushrooms are removed. Presumably harvesting of the fully grown mushrooms breaks many of the stipes connecting a developing young mushrooms with their supply of nutrients in the compost.
+- With a little experience, these dead mushrooms are easily distinguished from the healthy ones and are removed from the bed to prevent spread of decay.
+
+#### Grading
+
+For a sell as a fresh mushroom, they are generally graded at the accepted international standard;
+
+1. Buttons: Mushroom with membrane closed only just forming; stem length not to exceed 2 cm; cup measuring 3-6 cm across.
+2. Cups: Mushroom with membrane well developed or just opening with cap retaining a pronounced cup shape; stem length not to exceed 2.5-3 cm.
+3. Opens: Mushroom which have advanced beyond the cup stage, the cap forming a letter 'T' with the stalk; cap diameter 5-7 cm and stem length not to exceed 2.5-3 cm. These mushrooms are also called 'flats'.
+
+#### Processing
+
+Methods fro preservation of mushrooms:
+
+1. Drying
+2. Freezing (at \SI{-128}{\celsius} liquid Nitrogen)
+3. Dry freezing
+4. Steeping preservation (boiling in hot sodium chloride solution)
+5. Canning
+
+### Paddy straw ( _Volvariella_ spp.) cultivation
+
+#### Substrate
+
+- Paddy straw is the most common substrate.
+- Can also be grown in wheat, rice and maize and sorghum straw.
+- Lotus plant often dried, can also be used as substrate.
+- Paddy straw should be strong, tall, undisturbed for the production.
+- Can also be grown on water hyacinth (jalkumbhi), palm bunches, bagasse, banana leaf, saw dust and cotton waste.
+
+#### Bed methods of production
+
+- Firstly, hand-harvested, 3-4 feet long, well-dried and disease-free paddy straw are taken to prepare their bundles,
+- 35 bundles of paddy straw are required for one bed and each such bundle should be 1 to 1.5 kg in weight.
+- The bundles are soaked in water for 8-16 hours, are taken out of water, washed with fresh water and allowed to drain off excess water.
+- A bed is prepared by putting four layers of the paddy straw bundles one over the other; each layer contains 8 bundle.
+- The spawn is now sprinkled by hand all over on the margin of the bed about 10 cm away from the edge and continuing up to 23 cm inside. Thus the central portion has been left for spawning in 1st layer.
+- The sprinkled spawn is covered with a light dusting of
+chickpea flour.
+- The second, third and fourth layers are also prepared in the same way as in case of 1st but the difference in 4th layer is that the sprinkling of spawn is done on the entire surface instead of periphery.
+- The layer should also be dusted by the gram powder and must be covered with a thin layer of straw upto 8 cm thickness.
+- This is also done with the remaining three bundles of straw.
+- Water is sprayed 2-3 times in hot day and 1-2 times in rainy season. If necessary, 0.1\% Malathion and 0.2\% Dithane Z-78 is sprayed to overcome insects, pests and other diseases.
+
+#### Harvesting and marketing
+
+- Cropping starts 10-12 days after spawning and remains upto 15-20 days. Mushroom is harvested at button stage or just after rupturing of the cup, by twisting so that broken pieces are not left in the beds.
+- After harvesting the mushrooms should be used within 8 hours or kept in \SIrange{10}{15}{\celsius} for 24 hours otherwise these get spoiled. One may keep them for a week in refrigerator.
+- Fresh mushrooms are dried either in sun or at \SIrange{55}{60}{\celsius} for 8 hours. After drying they are packed and sealed. The packing, however, is preferred only in button state.
+- One can obtain 3-4 kg yield/bed of the Volvariella mushroom.
+
+### Shiitake cultivation
+
+- Select healthy trees with medium-thick bark. Oaks are best. The lighter hardwoods give faster results but don't last as long as the denser hardwoods like the oaks.
+- Do not use softwoods like fir, pine, or cedar because they contain fungicidal resins.
+- Alnus and Castanopsis are best suited in Nepal.
+- Harvest your trees and cut your logs in the Winter or Spring. For best mushroom yield, trees should be cut after the leaves turn brown, when the sap and sugar migrate down to the branches and trunk to act as antifreeze.
+- The ideal logs are 3 inches to 6 inches in diameter and cut 40 inches long. Avoid damaging the bark by rough handling.
+- Inoculate the logs within 3 weeks or less after cutting them to size.
+- Start about 2 inches from the end of the log, and drill the holes in a grid pattern, spaced about 6 inches apart along its length, and 2.5 inches around its perimeter.
+- Inoculate each log immediately after drilling the holes. 
+- If plug spawn is being used, tap a plug into each hole with a hammer until the plug is flush with the bottom of the bark. - Seal the holes corners with parafinn wax.
+- These inoculated logs are piled and sprinkled with water 2-3 times a week and stored for a month, after which the logs are turned upside down and stacked again.
+- The same process is repeated every month and the wood log stacking is done in the same way throughout the spawn run period. Some farmer pile the logs in a crib stack and water them every 4-5 days.
+- Eight month after inoculation, logs would be ready for fruiting. To check if the logs are ready for induction, growers split on to view the mycelial growth.
+- In September, when the average temperature is \SIrange{24}{26}{\celsius} and humidity 80-90\%, the logs are dipped in water in a small pond or a metallic container for a period of 24-48 hours for induction.
+- After dipping, the logs are arranged in a row on the bamboo stand at a distance of 4-6 cm. Watering is done every day so as to keep the logs moist.
+- A week after fruiting induction the young fruiting bodies start to appear on some logs. Shiitake can be harvested from October to December.
+- The production slows in January and starts to up again from February through May.
+- The production of shiitake usually stops in summer due to hot weather. Shiitake is harvested for three years in all the tree species.
 
 ## Gender mainstreaming (Women in agriculture development)
 
@@ -385,9 +769,9 @@ A rustic store generally has a storage capacity of 5-10 mt of seed tuber.
 
 ### Regional Trade agreements -- SAFTA and BIMSTEC
 
-Nepal has joined two regional agreements -South Asian Free Trade Area (SAFTA) and Bay of Bengal Initiative for Multi-Sectoral, Technical and Economic Cooperation (BIMSTEC). While SAFTA focuses on the South Asian region, BIMSTEC connects South Asia with South East Asia. The SAFTA Agreement, which succeeded South Asian Preferential Trade Agreement (SAPTA), was signed in 2004 and came into force from 2006. It aims to deepen trade and economic cooperation among member countries by promoting fair competition through removal of barriers to facilitate cross-border movements of goods. During the last review period, SAFTA members had gradually been reducing tariff to 0-5% on all tariff lines except the sensitive lists as per trade liberalization program of the Agreement. The sixth meeting of the SAFTA Council in 2012 took the initiative to reduce the number of products on the sensitive lists by 20%; Nepal has already achieved the relevant target by 2014. Similarly, during the 16th Summit in 2010, the SAARC Agreement on Trade in Services (SATIS) was signed which came into force with effect from 2012. SATIS recognises the regional growth potential of trade in services and is focused on expanding intra-regional investment and trade liberalization. BIMSTEC was founded in 1997 for accelerated growth through cooperation in various areas of shared interest. Nepal joined BIMSTEC in 2004, the year in which a framework agreement with provisions of liberalizing trade in goods and services and negotiating agreement related to cross-border investment facilitation was also signed. In 2016, BIMSTEC came up with the Outcome Document and 16-point Agenda of Action highlighting priority actions to be implemented. Recent meetings have seen members re-affirm their commitments to finalize agreements in various sectors. Energy co-operation has been a key feature of BIMSTEC agenda. The process of negotiations for reducing and eliminating tariff is underway. Nepal has been playing a significant role in giving momentum to BIMSTEC and is hosting BIMSTEC Summit, the highest policymaking body in BIMSTEC, in August 2018.
+Nepal has joined two regional agreements -South Asian Free Trade Area (SAFTA) and Bay of Bengal Initiative for Multi-Sectoral, Technical and Economic Cooperation (BIMSTEC). While SAFTA focuses on the South Asian region, BIMSTEC connects South Asia with South East Asia. The SAFTA Agreement, which succeeded South Asian Preferential Trade Agreement (SAPTA), was signed in 2004 and came into force from 2006. It aims to deepen trade and economic cooperation among member countries by promoting fair competition through removal of barriers to facilitate cross-border movements of goods. During the last review period, SAFTA members had gradually been reducing tariff to 0-5% on all tariff lines except the sensitive lists as per trade liberalization program of the Agreement. The sixth meeting of the SAFTA Council in 2012 took the initiative to reduce the number of products on the sensitive lists by 20%; Nepal has already achieved the relevant target by 2014. Similarly, during the 16th Summit in 2010, the SAARC Agreement on Trade in Services (SATIS) was signed which came into force with effect from 2012. SATIS recognizes the regional growth potential of trade in services and is focused on expanding intra-regional investment and trade liberalization. BIMSTEC was founded in 1997 for accelerated growth through cooperation in various areas of shared interest. Nepal joined BIMSTEC in 2004, the year in which a framework agreement with provisions of liberalizing trade in goods and services and negotiating agreement related to cross-border investment facilitation was also signed. In 2016, BIMSTEC came up with the Outcome Document and 16-point Agenda of Action highlighting priority actions to be implemented. Recent meetings have seen members re-affirm their commitments to finalize agreements in various sectors. Energy co-operation has been a key feature of BIMSTEC agenda. The process of negotiations for reducing and eliminating tariff is underway. Nepal has been playing a significant role in giving momentum to BIMSTEC and is hosting BIMSTEC Summit, the highest policy-making body in BIMSTEC, in August 2018.
 
-### World Trade Organization
+## World Trade Organization
 
 - Headquarters: Geneva, Switzerland
 - Established: January, 1995
@@ -407,35 +791,11 @@ Nepal has joined two regional agreements -South Asian Free Trade Area (SAFTA) an
 
 - Latest member of WTO: Afganistan (July 29, 2016) as 164th country.
 
-### Agreements
-
 The WTO oversees about 60 different agreements which have the status of international legal texts. Member countries must sign and ratify all WTO agreements on accession. A discussion of some of the most important agreements follows.
 
+### Agreement on Agriculture (AoA)
+
 The Agreement on Agriculture came into effect with the establishment of the WTO at the beginning of 1995. The AoA has three central concepts, or "pillars": domestic support, market access and export subsidies.
-
-The General Agreement on Trade in Services was created to extend the multilateral trading system to service sector, in the same way as the General Agreement on Tariffs and Trade (GATT) provided such a system for merchandise trade. The agreement entered into force in January 1995.
-
-The Agreement on Trade-Related Aspects of Intellectual Property Rights sets down minimum standards for many forms of intellectual property (IP) regulation. It was negotiated at the end of the Uruguay Round of the General Agreement on Tariffs and Trade (GATT) in 1994.
-
-The Agreement on the Application of Sanitary and Phytosanitary Measures—also known as the SPS Agreement—was negotiated during the Uruguay Round of GATT, and entered into force with the establishment of the WTO at the beginning of 1995. Under the SPS agreement, the WTO sets constraints on members' policies relating to food safety (bacterial contaminants, pesticides, inspection, and labeling) as well as animal and plant health (imported pests and diseases).
-
-The Agreement on Technical Barriers to Trade is an international treaty of the World Trade Organization. It was negotiated during the Uruguay Round of the General Agreement on Tariffs and Trade and entered into force with the establishment of the WTO at the end of 1994. The object ensures that technical negotiations and standards, as well as testing and certification procedures, do not create unnecessary obstacles to trade".
-
-The Agreement on Customs Valuation, formally known as the Agreement on Implementation of Article VII of GATT, prescribes methods of customs valuation that Members are to follow. Chiefly, it adopts the "transaction value" approach.
-
-In December 2013, the biggest agreement within the WTO was signed and known as the Bali Package.
-
-## Industrial policy
-
-Continuing its efforts to make industrial policy relevant and supportive of industrial development, Nepal introduced Industrial Enterprises Act, 2016 to further simplify and clarify procedures for entry, operation and exit of industrial enterprises as well as introduce much-needed reforms. Nepal’s first industrial policy was released in 1957 and later updated and replaced in 1960, 1974, 1981, 1987, 1992 and 2010, respectively. Industrial Policy, 2010 guides Nepal’s overall policy related to the industrial sector. Its objectives are to enhance export of industrial goods, improve industrial sector’s contribution to the economy by using local resources, make industrial enterprises sustainable and dependable through application of innovative and environment-friendly technology, make Nepal an attractive destination in South Asia for investment, and protect intellectual property rights of industries. Industrial Policy, 2010 is supported by the Industrial Enterprises Act, 2016 which replaced Industrial Enterprises Act, 1992. Some salient features of the Act are: tax incentives, concession and benefits of VAT and custom duties, facilities to acquire land, provisions ensuring no nationalization of industries, and creation of a single window service for foreign investors. The Act has provided various fiscal incentives to industries, including, an effective tax rate of 16% for almost all manufacturing industries and 25% discount on export income from export of goods.
-
-## Agreement on Agriculture (AoA)
-
-Agreement on Agriculture includes 3 pillars:
-
-- Market access
-- Domestic support
-- Export competition
 
 1. Market access
 
@@ -492,6 +852,32 @@ Following provisions are made under AoA on Export Subsidy:
 \item Two major forms of export subsidies -- Direct form and Indirect form
 \item Special and differential treatment of developing countries.
 \end{itemize}
+
+### The General Agreement on Trade in Services
+
+Created to extend the multilateral trading system to service sector, in the same way as the General Agreement on Tariffs and Trade (GATT) provided such a system for merchandise trade. The agreement entered into force in January 1995.
+
+### The Agreement on Trade-Related Aspects of Intellectual Property Rights
+
+It sets down minimum standards for many forms of intellectual property (IP) regulation. It was negotiated at the end of the Uruguay Round of the General Agreement on Tariffs and Trade (GATT) in 1994.
+
+### The Agreement on the Application of Sanitary and Phytosanitary Measures
+
+It is also known as the SPS Agreement—was negotiated during the Uruguay Round of GATT, and entered into force with the establishment of the WTO at the beginning of 1995. Under the SPS agreement, the WTO sets constraints on members' policies relating to food safety (bacterial contaminants, pesticides, inspection, and labeling) as well as animal and plant health (imported pests and diseases).
+
+### The Agreement on Technical Barriers to Trade
+
+It was negotiated during the Uruguay Round of the General Agreement on Tariffs and Trade and entered into force with the establishment of the WTO at the end of 1994. The object ensures that technical negotiations and standards, as well as testing and certification procedures, do not create unnecessary obstacles to trade".
+
+### The Agreement on Customs Valuation
+
+Formally known as the Agreement on Implementation of Article VII of GATT, it prescribes methods of customs valuation that Members are to follow. Chiefly, it adopts the "transaction value" approach.
+
+In December 2013, the biggest agreement within the WTO was signed and known as the Bali Package.
+
+## Industrial policy, 2010
+
+Continuing its efforts to make industrial policy relevant and supportive of industrial development, Nepal introduced Industrial Enterprises Act, 2016 to further simplify and clarify procedures for entry, operation and exit of industrial enterprises as well as introduce much-needed reforms. Nepal's first industrial policy was released in 1957 and later updated and replaced in 1960, 1974, 1981, 1987, 1992 and 2010, respectively. Industrial Policy, 2010 guides Nepal's overall policy related to the industrial sector. Its objectives are to enhance export of industrial goods, improve industrial sector's contribution to the economy by using local resources, make industrial enterprises sustainable and dependable through application of innovative and environment-friendly technology, make Nepal an attractive destination in South Asia for investment, and protect intellectual property rights of industries. Industrial Policy, 2010 is supported by the Industrial Enterprises Act, 2016 which replaced Industrial Enterprises Act, 1992. Some salient features of the Act are: tax incentives, concession and benefits of VAT and custom duties, facilities to acquire land, provisions ensuring no nationalization of industries, and creation of a single window service for foreign investors. The Act has provided various fiscal incentives to industries, including, an effective tax rate of 16% for almost all manufacturing industries and 25% discount on export income from export of goods.
 
 ## Nepal Trade Promotion Board
 
@@ -629,3 +1015,112 @@ There is a significant imbalance in land distribution in Nepal. The top 7\% of t
 84\% of farms in Nepal are owner operated. About 10 \% of land is held under some form of registered tenancy. However, the actual incidence of tenancy is probably higher due to the presence of informal unregistered tenants.
 
 It is estimated that 31\% of the farmers are tenants (i.e. leasing lands). Most tenants are not entirely landless but are just taking in additional land to till. The purely landless farmers are estimated to occupy only about 2\% of total farm holdings in the country. Sharecropping is the most common form of tenancy. The most common form of sharecropping arrangements is the short-term rental known as _adhiya_. Under _adhiya_, the tenant provides the labor and landowners supply some percentage of inputs. In principle, the tenant and landowner receive equal shares of the production, but the tenant rarely receives a half-share, either because he or she is in debt to the landowner or the landowner has supplied all the inputs. A second tenancy system, _thekka_, requires the tenant to pay a fixed share of production to the landowner. Highly exploitative systems that survived land reforms (such as those in which the tenant takes one-third or a one-tenth share and continuation of bonded labor, despite the law rendering them illegal) are still known to exist.
+
+## Miscellaneous
+
+### National Farmers Commission
+
+- Chariman: Chitra Bahadur Shrestha
+- Members: 7 total
+- 2073/10/06: National Farmers' Commission organization directives
+- Has central office in Hariharbhawan, Lalitpur
+
+### Weekly radio and television broadcast on Agriculture Program
+
+```{r weekly-radio-television-agriculture}
+dplyr::tribble(~"SN", ~"Day of week", ~"Radio Nepal (6:40 to 6:55)", ~"NTV (60:40 to 6:57)",
+               1, "Sunday", "Saptahik krishi gatibidhi", "Krishi sambad", 
+               2, "Monday", "Safalta ko katha", "Krishi sambad", 
+               3, "Tuesday", "Food and nutrition", "Samaya sandarva", 
+               4, "Wednesday", "Krishi sambad", "Ajako krishi", 
+               5, "Thursday", "Krishak ko sarokar", "Krishak ko sarokar", 
+               6, "Friday", "JTA ra budhi ama", "Saptahik krishi gatibidhi", 
+               7, "Saturday", "Radio patrika", "Krishi teleserial"
+               ) %>% 
+  knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"))
+```
+
+### Kishan call center
+
+The public agricultural extension service is able to reach only so far to 15% of the total farm households. While the need for professionalizing agriculture sector and improving livelihood standards of farming community is imminent. The issue of food security, besides being a hot topic of discussion in national and international community, is closely associated with the citizen's rights. In this regard, it becomes all the more essential for traditional agricultural systems to be transformed to a information-technology based commercial system wherein farmers can connect with greater ease to subject specialists for consultation. For serving the purpose of addressing farmers' inquiries about crop and livestock, mainly concerning problems such as disease and pests, Kishan Call Center was established in 2072/73.
+
+**Objectives**
+
+- Addressing problems relating to crop, livestock and business enterprise faced by farmers and entrepreneurs through telephone contact with subject matter specialists.
+- Minimize the geophysical barriers in communication and information exchange so that service delivery could be streamlined.
+
+- Phone number: 16600195000
+- Subjects dealt in respective days and schedule:
+
+```{r kishan-call-center-schedule}
+tribble(
+  ~"Day", ~"Subject", ~"Time of day", 
+  "Sunday", "Cereal crop, apiary, silkworm farming, mushroom cultivation, crop protection", "11 AM to 4 PM", 
+  "Tuesday", "Vegetable, fruits, soil and market", "11 AM to 4 PM", 
+  "Thursday", "Fisheries, livestock farming, poultry farming, production technology, fodder and forage management", "11 AM to 4 PM"
+) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::column_spec(column = 2, width = "16em")
+```
+
+### NPK Content of fertilizer
+
+- Urea: 46%  Nitrogen
+- DAP(Diammonium Phosphate): 18% N, 46% Phosphorus
+- MoP(Muriate of Potash): 60% potash
+- SSP(Single Superphosphate): 16% P
+- DSP(Double Sugar Phosphate): 32% P
+- TSP(Triple Sugar Phosphate): 48% P
+- ZnSO4: 22-35% Zinc
+
+### Contributors in Agriculture
+
+- Sociology: Auguste Comte
+- Statistics: R.A. Fisher
+- Economics: Adam Smith
+- Soil Science: V.V. Dokuchaev
+- Tillage: Jethro Tull
+- Green Revolution: Norman E Borlaug
+- Modern Agronomy: Peter De Crescent
+- Organic Farming: Rudolf Steiner
+- Dr. Norman E. Borlaug is the pioneer of Green Revolution and was awarded Nobel Peace Prize in 1970.
+
+### Common animal diseases
+
+- Bacterial diseases: Anthrax, Brucellosis (Bang's disease), Black Quarter(Black leg), Haemorrhagic Septicaemia, Mastitis
+- Fungal diseases: Aspergillosis, Candidiasis, Ringworm
+- Protozoal diseases: Coccidiosis, Babasiosis
+- Viral diseases: Foot and Mouth disease, Swine fever(hog cholera), New castle disease, Marek's
+
+### Common Poultry Diseases
+
+- New Castle Disease/Ranikhet
+- Mareck's Disease (MD)
+- Gumboro
+- Coccidiosis
+- Chronic Respiratory Disease (CRD)
+- Avian Influenza/Bird Flu- H5N1, H9N2
+
+### Agriculture and child labor
+
+According to the latest ILO estimates, at least 250 million children of between 5-14 years of age work in developing countries. Almost half of these children work on a full-time basis. The participation rates of children in economic activities in much higher in rural areas than in urban centres. Rural children, in particular girls, tend to start working at an early age. In Latin America and the Carribbean, out of 15 million children involved in the labor market, 56 percent work in agriculture sector from the age of 5 to 7 onwards. In some countries, children account for as much as 30 percent of the agricultural workforce. Most children work seven days a week and are paid less than the prevailing rates in their localities. They work long hours, and a very high proportion of these children are injured at work. Exposure to poor working conditions has serious repercussions on children's growth, development and health. The most common injuries include: cuts and wounds, eye infection, skin problems, fever, and headaches caused by excessive heat or by exposure to pesticides while working in agricultural fields.
+
+### Hazards in agriculture occupation
+
+Despite the fact that certain developing countries have reached higher levels of economic development, nutrition and health are still the problem areas. This situation provokes a vicious circle of low productivity, low wages, malnutrition, ill-health and low working capacity. The interaction between poor living and working conditions determines a distinctive morbidity-mortality pattern among agricultural workers, which is due to the combination of malnutrition, general and occupational diseases, and complications arising from undiagnosed or untreated diseases. Low working capacity is closely related to workers' malnutrition and poor health. 
+
+Agriculture related hazards mostly include:
+
+1. Machinery such as tractors, trucks and harvestors, and cutting and piercing tools;
+2. Hazardous chemicals: Pesticides, fertilizers, antibiotics and other veterinarian products;
+3. Toxic or allergenic agents: Plants, flowers, dusts, animal waste, gloves, chrome, oils;
+4. Carcinogenic substances or agents: Certain pesticides such as arsenicals and phenoxy-acetic herbicides, UV radiations, parasitic diseases such as bilharziasis and facioliasis;
+5. Transmissible animal diseases: brucellosis, bovine tuberculosis, hydatid disease, tularaemia, rabies;
+6. Other infectious and parasitic diseases: leishmaniasis, bilharziasis, facioliasis, malaria, tetanus, mycosis;
+7. Confined spaces such as silos, pits, cellars and tanks;
+8. Noise and vibration;
+9. Ergonomic hazards: use of inadequate equipment and tools, unnatural body position or prolonged static postures, carrying of heavy loads, repetitive work, excessive long hours;
+10. Extreme temperatures and adverse weather conditions;
+11. Contact with wild and poisonous animals: insect, spider, scorpion, snake and certain wild mammals.

@@ -1247,4 +1247,254 @@ tribble(
 
 **Allomones** are communication compounds that function in interspecific communication. They fall within the broad classes of chemical signals referred to as allelochemicals or allelomones. On contact with an individual of another species, an allomone evokes a behavioral and/or a physiological response in the receiver. Allomones are of benefit to the releaser, usually to the detriment of the receiver. Key among these are their roles as defensive secretions against predators or other natural enemies, such as the formic acid sprayed by formicine ants and the venom from many social wasps, social bees, and ants. Compounds including organic acids, alcohols, ketones, aldehydes, esters, hydrocarbons, phenolics, quinones, amines, alkaloids, sulfides, steriods, and proteins have all been identified as allomones in various social insects.
 
-**Kairomones** a chemical substance emitted by an organism and detected by another of a different species which gains advantage from this, e.g. a parasite seeking a host. This "eavesdropping" is often disadvantageous to the producer (though other benefits of producing the substance may outweigh this cost, hence its persistence over evolutionary time). The kairomone improves the fitness of the recipient. In the Ponderosa Pine tree (Pinus ponderosa), a terpene called myrcene is produced when it is damaged by the Western pine beetle. Instead of deterring the insect, it acts synergistically with aggregation pheromones which in turn act to lure more beetles to the tree.
+**Kairomones** a chemical substance emitted by an organism and detected by another of a different species which gains advantage from this, e.g. a parasite seeking a host. This "eavesdropping" is often disadvantageous to the producer (though other benefits of producing the substance may outweigh this cost, hence its persistence over evolutionary time). The kairomone improves the fitness of the recipient. In the Ponderosa Pine tree ( _Pinus ponderosa_), a terpene called myrcene is produced when it is damaged by the Western pine beetle. Instead of deterring the insect, it acts synergistically with aggregation pheromones which in turn act to lure more beetles to the tree.
+
+## Mulberry cultivation
+
+Silkworm feeds on mulberry ( _Morus spp_; Family: Moraceae) leaves. Rearing of silkworm involves cultivation of mulberry trees. Thus it is essential to cultivate mulberry while rearing silkworm.
+
+- The crop can be grown upto 800 masl.
+- For optimum growth and good sprouting, atmospheric temperature is preferable in the range of \SIrange{13}{37}{\celsius} (Ideal range: \SIrange{26}{27}{\celsius}).
+- Optimal relative humidity: 65-80\%
+- Sunshine: 5-12 hours/day
+- Annual rainfall of \SIrange{600}{2500}{\milli\meter} mm or an average of 50 mm once in 10 days is considered ideal for vegetative growth of Mulberry.
+
+### Land preparation and planting
+
+- Initially land is deep ploughed to a depth of 35-40 cm
+- In second tillage, soil is pulvarized.
+- Soil conditions of 6.2-6.8 pH is considered best.
+- Soil should be devoid of injurious salt and alkaline soil is not preferred either.
+
+### Varieties
+
+- Irrigated: Kanva-2, MR-2, S-30, S-36, S-54, V-1
+- Semi-irrigated: Kanva-2, MR-2
+- Rainfed: S13, S34, RFS-135, S-1635
+
+### Propagation
+
+- Mulberry is mostly propagated through cuttings.
+- Cuttings may be planted straight away in the main field or nursery.
+- Root saplings may be transplanted in the main field.
+
+### Selection of planting material
+
+- Generally, the mulberry plants are raised from semi-hard wood cutting
+- Cuttings are obtained from well established garden stocks of 8-12 months old. Only full grown trees having thick main stem, free from insects, diseases damage, and with diameter of 10-12 cm of the cutting branch are considered suitable for cutting.
+- Cutting should be 15-20 cm in length with 3-4 active buds and be given a slanting cut at the bottom end.
+- Care should be taken to make a sharp clean cut at the both end of cutting without splitting the bark.
+- Sapling is the rooted cutting of specific age 120-150 days upto 240 days. A sapling with well developed root system establishes well and grows vigorously.
+- While raising sapling nursery, bed should be pulverized well and well rotten FYM should be incorporated 20-25 days prior to planting.
+
+**Nursery establishment**
+
+- Generally, bed of size 240 cm x 120 cm is sufficient for 180 cuttings with 20 cm x 8 cm row-row to cutting-cutting spacing.
+- For 100 cuttings,
+  - Length: 240 cm
+  - Breadth: 120 cm
+  - Cutting-cutting distance: 10 cm
+  - Row-row distance: 30 cm
+- Bund size: 25-30m cm width and height
+- FYM/Compost/Vermicompost of quantities according to the constituent soil texture are applied, i.e. 4 kg per bed for black clay soil.
+- For protection against termites, drench the soil and nursery bed with \SI{15}{\milli\liter\per\liter} of water. Likewise, malathion dust is usually applied later on in case insect damage is seen.
+- VAM \@ \SI{100}{\gram\per\meter\squared} is desirable to promote healthy root growth.
+- Irrigation channels of 25-30 cm width, 15-20 cm depth should be constructed between the nursery beds.
+- Irrigation is given immediately after planting to prevent desiccation of sapling and subsequent are so scheduled to meet crop and soil specific requirements.
+- Before uprooting, transplanting and planting of saplings from the bed the bed is watered thoroughly.
+- Nursery bed is loosened with the help of hoe/ _khurpa_ to a depth of 30 cm and saplings are taken one by one without damaging roots.
+- 3-4 month old saplings are ready for transplanting; Good saplings attain a height of 90-120 cm in 3-4 months and 150 cm in 5-6 months.
+- Extended preservation of saplings should be avoided, and they must be dispatched to planting site on time. For long distance transport, saplings must be packed in bundles covering with gunny bags or with green leaves.
+
+**Pre-treatment of cuttings with Azospirillium**
+
+- Azospirillium induces early rooting in the cutting.
+- Mix 1 kg of Azospirillium culture in 40 ltr of water. Keep the bottom end of cuttings for 30 minutes in the mixture before planting.
+
+### Planting
+
+- Rainy season planting is preferable over winter and summer season.
+
+### Application of fertilizers and interculture
+
+- Fertilizer application depends upon soil type, water presence, variety of mulberry, weather etc.
+- NPK \@ 250:125:125 kg/year, 1st top dressing is done at 2 months after planting, 2nd on 4th month and the other doses split applied on each pruning.
+- Mulching is beneficial to enhance establishment by checking weed growth and nutrient leaching as well as by maintaining soil temperature. It is done usually with mulberry leaves, twigs and other materials like straw and dried leaves.
+
+### Major weed
+
+1. _Cyperus rotundus_ (Nutgrass)
+2. _Cynodon dactylon_ (Bermuda grass)
+3. _Abutilon indicum_ (Indian mallow)
+4. _Amaranthus viridis_ (Pig weed)
+
+### Pruning
+
+- It is done to ensure vigorous growth of plant and for production of good quality leaves.
+- Taken up when plants attain a height of about 2m in length.
+
+### Harvesting
+
+- Harvesting is mostly done with hand by plucking leaves and by cutting branches with sickles. It is preferable to harvest during morning hours.
+
+## Sericulture (Silkworm rearing)
+
+Sericulture or silk farming the process of rearing silkworm for the production of silk. Silk was first produced by China. It has became an important business as well as cottage industry based business in Brazil, China, France, Russia, India, Korea, etc.
+
+- China and India are two major producers with more than 60\% of world's annual silk production.
+- Silk is produced from the moth species i.e. _Bombyx mori_ (Family: Bombycidae), although the genera have several species.
+
+### Importance
+
+- Provides employment to and is source of income for middle as well as poor class families.
+- Used in making clothing fabrique, larger garments, mat and other its directly used by human.
+- Mulberry, which the worm is fed on is an useful fodder tree.
+- Mulberry cultivation and worm culture may both be integrated for rearing in marginal land while only employing least external inputs.
+
+### Silkworm types and life cycle
+
+There are 5 major types of silkworm of commercial importance, obtained from different species of silkworms which feeds on a number of plants except mulberry. Other varieties of silk are generally termed as non-mulberry silk, some common type of silkworm and their silks are:
+
+1. *Bombyx mori* (Silk type: Mulberry silk)
+
+Most of the commercial silk produced in the world comes from _Bombyx mori_ and the silk is known as mulberry silk. _Bombyx mori_ feeds on leaves of mulberry plant. These silkworm are completely domesticated and reared indoors. India produces 92 \% of total mulberry silk.
+2. *Antheraea mulitta* (Silk type: Tasar silk): This from of silk is copperish in color and coarse. It is used mainly for decoration of interiors of clothes.
+3. *Philosemia ricini* (Silk type: Eri silk)
+4. *Antheraea assamensis* (Silk type: Muga silk)
+5. *Antheraea proyeli* (Silk type: Temerate tasar silk)
+
+```{r bombyx-mori-larvae, fig.cap="Larvae of silkworm, \\textit{B. mori} at 4th day of fifth instar.", out.width="50%"}
+knitr::include_graphics("./images/b_mori_larvae.png")
+```
+
+```{r bombyx-mori-life-cycle, fig.cap="Life cycle of silkworm, \\textit{B. mori} reared at 23 to 25°C. [From Mori, T. (1970)", out.width="90%"}
+knitr::include_graphics("./images/b_mori_lifecycle.png")
+```
+
+Silkworm undergoes complete metamorphosis \ref{fig:bombyx-mori-life-cycle}. Larvae feed on the leaves of the mulberry (family Moraceae, genus _Morus_); They will consume other genera in this family, but growth rate is reduced. At \SIrange{23}{25}{\celsius} the five instars require 25 to 30 days to hatch. Toward the end of fifth instar, _B. mori_ spin a cocoon over a 3-day period and pupate within that cocoon; the pupal stage lasts for about 10 days. After molting to the adult has occurred inside the cocoon, the moth emerges. The moth softens the cocoon by orally excreting a special enzyme, cocoonase, and then emerges from the end of the cocoon. The female moth mates the same day as emergence and begins egg deposition. One generation of B. mori spans 40 to 45 days.
+
+Voltinism (i.e., the number of generations occurring in a single year) has a genetic basis, but it is also strongly affected by environmental factors. Some races are univoltine (only one generation a year); others are bivoltine (two generations a year) or polyvoltine (three or more generations a year, as seen in tropical silkworms that do not undergo diapause). Voltinism is closely tied to the geographic distribution of silkworms, which are divided into Japanese, Chinese, European, and tropical races. Typically, the silkworms distributed in the cold regions are univoltine, those distributed and adapted to warm regions are bivoltine, and those in tropical regions are polyvoltine.
+
+In silkworms, larval ecdysis is induced by a molting hormone secreted by the prothoracic gland, which is located inside the first thoracic spiracle. The role of the prothoracic gland in ecdysis was discovered in 1944, and the molting hormone, ecdysone, was structurally determined in 1954 in studies that used large amounts of silkworm pupae as material. Ecdysone was the first hormone to be isolated from an insect species.
+
+### Rearing considerations
+
+#### Hatching and brushing
+
+Silkworm eggs are of 2 types -- hibernating and non-hibernating. Further processing of the eggs depends upon whether they are of thediapausing or the non-diapausing type. Univoltine races lay only diapausingeggs. Multivoltine races lay only non-hibernating eggs while the behaviour of the eggs of the bivoltine is intermediate. Hibernating eggs require special treatment to make them hatch.
+
+These eggs are stored till the next season or awakened from diapause artificially. The eggs stored are taken out and subjected to incubation to achieve uniform hatching on a desired day. This can be achieved by exposing the eggs to certain range of environmental conditions. The incubation of eggs is one of the essential parameter in silkworm rearing.
+
+Silkworm rearing requires care and skill. Since various rearing operations are important which finally reflect on cocoon quality and quantity. The rearing room activity starts with brushing of newly hatched silkworms. Since silkworms are susceptible for any kind of diseases and cannot with-stand to any changes in the environmental conditions, the rearing room should be prepared in such a way not to hamper the growth of the worms. On the other hand mulberry garden should posses 5-6 leaves. It is better to tap the shoots 25-30 days prior to the date of brushing.
+
+The equipments such as foam rubber strips, chawk rearing trays,feather (white), paraffin paper, chopping board and knife, mats are kept ready for rearing.
+
+The desire race of silkworm DFLs (Diseased Free Layings) are pro-cured from grainage. The eggs are protected from ants, rats. They are incubated well and later kept in black box.
+
+Eggs after reaching blue egg stage are kept in black/box/paper/cloth and kept in dark. In this way early maturing embryos are prevented from hatching and late maturing embryos are given time to develop and catch up with the early maturing ones.
+
+The eggs hatch out in response to phototrophic stimulus. This method favors hatching more than 90 percent. If hatching is not uniform and only 50-60 percent of eggs hatch on the first day, brushing can be postponed to next day as well. If necessary hatched worms can be separated and kept in tissue paper and stored in fridge at 100C.When the second batch hatch our the refrigerated eggs are mixed and brushed together.Even blue egg stages can also be pre-served at 50C for 2-3 day.
+
+Silkworm eggs are available loosely and on egg cards. The newly developed larvae breaks out the egg shell and comes out, and is called hatching. The hatched larvae are collected and reared. The newly hatched larvae are black, hairy and look like small ants and are called "ants" or "kego". It is always better to brush the larvae in the morning. Generally, brushing should not be dealyed. If necessary, due to irregular hatching, only it should be postponed to next morning/cool hour of the next day. Freshly emerged larvae can also be preserved at \SIrange{7}{10}{\celsius} for one day.
+
+When the eggs hatch, the emerged larvae are to be collected for rearing. This process of separating kego/ants from egg shell is called "brushing". It means placing of mulberry leaves on a frame to attract the larvae so that they will be separated from their shells. The optimum time for brushing is around 10am when the humidity is 85-90% and temperature \SI{27}{\celsius}.
+
+Normally hatching starts at 5-6 am when the eggs are exposed to early sun rays. Uniform hatching can be expected by 7-8 am. After 2 hours the newly hatching worms develop appetite and begin to crawl. Thus the suitable time for brushing would be 10am but once again it depends upon the weather conditions.
+
+Before brushing, rearing facilities should be prepared according to the number of silkworms to be reared. Tender mulberry leaves should be chopped to 3-5 mm size. When the worms crawl over into the tray worm bodies should be disinfected for disease prevention by using a fine-mesh sieve to dust a fine powder of formalin (3%).
+
+It is of two types i.e. brushing of loose eggs and brushing from egg cards.
+
+### Garden management
+
+**Selection of leaves**: Leaves are selected from amongst the largest glossy leaves, 3rd or 4th from top. The leaf should be soft, pliable, green and palatable. Size of the chopped leaf is around 5-15 cm.
+
+**Leaf preservation**
+
+Silkworm grows best when fed with succulent leaves which are rich in nutrients and moisture. Leaves not properly stored dry and become unpalatable to the worm. For best outcomes, harvested leaves should be preserved in fresh condition in a wet gunny cloth. Gunny bags are advantageous in that they dissipate the moisture evenly when sprayed with water to maintain the freshness of the leaves.
+
+**Cleaning**
+
+- Cleaning is the process of removing silkworm excreta and left over leaves in the rearing bed. In the 1st stage of larvae (before worm moults), one cleaning is done per day.
+- In the 2nd stage, two cleanings are given, one after resuming feeding and 2nd right before second moult.
+- A net with mesh size of 0.5 x 0.5 cm is spread over the rearing bed and leaves are spread over the net. The worms crawl through the net and come to fresh leaves. The net along with the worms and leaves are transferred to another tray.
+- The left over leaves, excreta and litter are discarded.
+
+### Moulting and rearing
+
+- Moulting is the process of shedding or losing of old skin/feather and covering with new skin/feather.
+- At the time of moulting care should be taken not to disturb the worms.
+- Correct detection of moulting and feeding are important for uniform growth of silkworm. During moulting, rearing bed should be kept thin and dry by applying lime \@ \SIrange{30}{50}{\gram\per\meter\squared}. Also, there must be good areation.
+- Rearing of first three instars is called chawki rearing. These larvae are resistant to high temperature and humidity and grow well ensuring good cocoon crop.
+- The total weight of the worm is attained in chawki rearing.
+- Feed is given four times a day.
+- The molting time for 1st age is 20 hours. 2nd and 3rd age require a day.
+- The 4th and 5th instar larvae are considered as late stage of worm. They are reared in bamboo trays.
+- These worms require less humidity and preferable low temperature. This stage is the real feeding stage. The worms consume about 90\% to 95\% of the total feed.
+- Newspaper strips are spread over trays to absorb excess moisture in leaves and faecal pellets. The temperature and humidity requirement gradually comes down as the stages advance.
+- Leaves of medium maturity (6th leaf onwards) are fed to 3rd and 4th instars and coarse leaves are fed to 5th instars.
+- Newly moulted worms are dusted with ceresin lime prior to first feed to prevent muscardine.
+- There are three methods or rearing but in all methods importance is given to, the maintenance of leaf quality, humidity, temperature so as to ensure vigorous and healthy development. The rearing methods are -- Paraffin paper rearing, Box rearing and Co-operative rearing.
+- After attaining full growth in final instar, the worms cease to feed and start to spin. Such worms are slightly translucent and raise their heads up, to find place for spinning.
+- These worms have to be picked and transferred to a mountage for spinning cocoons.
+
+```{r stage-temperature-worm}
+tribble(
+  ~"instar", ~"optimum_temperature", ~"relative_humidity", ~"stage", ~"weight_increase",
+  "I", "\\SIrange{26}{28}{\\celsius}", 85, "Early", "10-15",
+  "II", "\\SIrange{26}{28}{\\celsius}", 85, "Early", "75-100",
+  "III", "\\SIrange{24}{26}{\\celsius}", 80, "Early", "350-500",
+  "IV", "\\SIrange{24}{25}{\\celsius}", 75, "Late", "1800-2200",
+  "V", "\\SIrange{23}{24}{\\celsius}", 70, "Late", "8000-10000"
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "The optimum temperature required for rearing silkworms of different early and late instars stages.", escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("3em", "5em", "5em", "4em", "5em")) %>% 
+  kableExtra::add_footnote(label = "The weight increase is relative to the weight of worm immediately after hatching. i.e. it refers to the values (10-15) for respective instar moults (2nd instar after first moult)")
+```
+
+(for various growth indicators of each stages of the worm as well as spacing, feeding and other requirements described in detail, refer to vocation guide on Silkworm Rearing Technology^[https://bie.tg.nic.in/Pdf/SilkwormRearingTechnology.pdf])
+
+### Spinning and cocoon formation
+
+- Moulting of worms should not be delayed as the ripened worms will waste silk.
+- About 500-900 worms per square are kept on a mountage.
+- Mountage should be kept under shade in well ventilated place.
+- Quality of silk depends upon the care taken at the time of spinning.
+- Mature worms are sensitive to temperature, humidity, light, etc. at the time of spinning.
+- Ripe worms require space equal in area to square of length of its body for spinning.
+- Proper spacing avoids wastage of silk and avoids double cocoons.
+- To prevent staining (discoloration) of cocoons, keep mountage in an inclined position so that urine may drop to the ground.
+- Remove dead worms and non-spinners on 2nd day of spinning.
+- To protect from ants, apply malathion \@ 5\% in the mountage area.
+
+**Maintenance of humidity**
+
+- Fluctuating of humidity causes abrupt thinning or thickening of silk filament.
+- Relative humidity of 70\% is considered ideal for spinning.
+- Provide proper ventilation and straw not below the mountage.
+- Provide even and moderate lighting. Improper lighting causes crowding of larvae to shaded area leading to double cocoons.
+
+### Harvesting of cocoons
+
+- Worms completes spinning in 2-3 days but the cocoons should not be harvested at this time because worms inside are still in pre-pupal stage.
+- Harvesting should be done on 5th day when pupae are fully formed and hard.
+- Do not harvest when pupae is in amber color.
+- Dead and diseased worms on the mountages should be removed before harvest.
+- Marketing should be done on 6th day.
+
+### Disease and pests of mulberry plants
+
+1. Leaf spot ( _Cercospora moricola_)
+2. Powdery mildew ( _Plyllactinia corylea_)
+3. Leaf rust ( _Cerotelium fici_)
+4. Root knot ( _Meloidogyne incognita_)
+5. Root rot ( _Macrophomina phaseolina_, _Rhizoctonia bataticola_)
+
+1. Bristle fly
+2. Pink mealy bug
+3. Thrips
+4. Papaya mealy bug ( _Paracoccus margimatus_)
+5. Leaf webber ( _Diaphania pulverulentalis_)
+6. Termite/white ant ( _Odontotermes obesus_)
