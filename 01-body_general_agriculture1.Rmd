@@ -337,8 +337,8 @@ read_csv("./data/road_expansion_by_federal_government_2020.csv", skip = 3) %>%
 read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2) %>% 
   knitr::kable(caption = "Educational achievements of recent years; Source: Economic Survey, 2019/20", longtable = TRUE, booktabs = TRUE, escape = FALSE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  # kableExtra::collapse_rows(columns = 1) %>%
-  kableExtra::column_spec(column = 1:8, width = c("10em", "8em", rep("4em", 6)))
+  kableExtra::column_spec(column = 1:8, width = c("6em", "8em", rep("4em", 6))) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack")
 ```
 
 ### Other meta information
@@ -408,12 +408,12 @@ tribble(
   4, "Contribution to GHG emission (2017)", "percent", 0.027,
   5, "GHG Emissions Growth (2020)", "percentage", 7.06
   ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Climate change scenario in Nepal and some indicators") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Climate change scenario in Nepal and some indicators", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(1:4, width = c("3em", "6em", "5em", "4em"))
+  kableExtra::column_spec(1:4, width = c("3em", "12em", "5em", "4em"))
 ```
 
-- For every 100 m rise in altitude, the mean annual temperature drop sby -\SI{0.5}{\celsius}.
+- For every 100 m rise in altitude, the mean annual temperature drop by -\SI{0.5}{\celsius}.
 - Latitude also affects the temperature; for every \SI{3}{\celsius} north, the mean temperature would fall by \SI{1}{\celsius}.
 
 - The lowest layer of atmosphere is the trophosphere which ranges from 8-18 kilometers from earth's surface (average 12 km). 75-80 \% of the atmospheric mass lies in this layer.
@@ -429,11 +429,12 @@ tribble(
   "Stratosphere", "12-50",
   "Trophosphere", "0-12 km"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Layers of atmosphere") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Layers of atmosphere", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(1:2, width = c("6em", "20em")) %>% 
   kableExtra::add_footnote("The trophosphere is wider at the equator (16km) while much shallow near the poles (8-10km)")
 ```
+
 
 - Generally, the atmosphere extends upto about 1600 km from the earth's surface.
 
@@ -448,7 +449,8 @@ tribble(
   "Residence and business concerns", 9.9,
   "Waste water disposal", 2.8
 ) %>% 
-  knitr::kable(caption = "Worldwide emmission estimates of different sectors of economy. Source: IPCC, 4th Assessment Report 2007")
+  knitr::kable(caption = "Worldwide emmission estimates of different sectors of economy. Source: IPCC, 4th Assessment Report 2007", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8)
 ```
 
 - Upto \SIrange{1}{3}{\celsius} temperature, cereal production in low latitude decrease and that in hilly areas increase.
@@ -481,16 +483,75 @@ tribble(
 readxl::read_xlsx("./data/agriculture_development_chronology.xlsx", skip = 1) %>% 
   select(-1) %>% 
   rename(`Year (BS)` = `Year_BS`) %>% 
-  knitr::kable(caption = "Chronology of Agriculture development in Nepal", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 10) %>% 
-  kableExtra::column_spec(column = 5, width = "16em")
+  relocate(Title, .before = 1) %>% 
+  arrange(Title, as.numeric(str_extract(`Year (BS)`, "\\d{4}"))) %>% 
+  kable(caption = "Chronology of Agriculture development in Nepal", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 8) %>% 
+kableExtra::column_spec(column = 1:5, width = c("2em", "3em", "2em", "2em", "22em")) %>%
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", custom_latex_hline = 1:2)
 ```
 
 ## Institutional development of public sector Agriculture
 
+### Agriculture sector in the past
+
+- Establishment of "Krishi Adda": 1978 BS (1921 AD)
+- Office of Agriculture established: 1982 BS (1925 AD)
+- Nepal became member of UNFAD: 2007 BS (1950 AD)
+- "Tribhuvan Gram Bikas" program implemented: 2008 BS (1951 AD)
+- Department of Agriculture established: 2008 BS (1951 AD)
+- 4-H club established: 2011 BS (1954 AD)
+- First cooperative initiative "Rapti Dun" established in Chitwan district: 2013 BS (1956 AD)
+- School of agriculture established: 2014 BS (1975 AD)
+- Broadcast of agriculture radio program for the first time: 2016 BS (1959 AD)
+- Cooperative act enforced: 2017 AD (1960 BS)
+- First national agriculture census conducted: 2018 BS (1961 AD)
+- Department of food established: 2018 BS (1961 AD)
+- Land improvement act endorsed: 2020 BS
+- District agriculture development offices (DADO) established in each of 75 districts: 2020 BS
+- Agriculture input supply corporation and food management corporation established: 2022 BS
+- Broadcast of agriculture program from radio nepal made regular: 2023 BS
+- Food act enforced: 2023 BS
+- Agriculture development bank (ADBL) established: 2024 BS
+- College of agriculture established: 2027 BS (1972 AD)
+- 4 regional agriculture directorates (RADs) established: 2027 BS
+- 6 commodity based national level program of NARC launched: 2027 BS
+- Plant quarantine program started and six check posts: 2027 BS
+- Collage of agriculture shifted to Rampur, Chitwan from Jagadamba bhawan, Pulchowk, Lalitpur: 2027 BS
+- Plant protection act endorsed: 2027 BS
+- Department of Irrigation merged with Ministry of Food and Agriculture: 2027 BS
+- Agriculture supply corporation (ASC) and Agriculture Input Supply (AIC) merged to AISC: 2031 BS
+- Training and visit system (T and V) of extension launched in Bara and Parsa district with assistance of World Bank: 2032 BS
+- Agriculture year celebrated: 2032 BS
+- Integrated hill development approach (IHDA) initiated in Rasuwa and Nuwakot with assistance of WB: 2033 BS
+- Commercial tea and coffee farming started: 2033 BS
+- Silkworm rearing started in Khopasi, Kavre: 2032/33 BS.
+- APP prepared and implemented: 2051 BS
+- Chandra Dangi Seed and Dairy Development Committee formed: 2051 BS
+- Chemical fertilizer control directives: 2055 BS (1998 AD)
+- Farmers' field school started: 2056 BS (1999 AD)
+- National Seed Policy endorsed: 2056 BS (1999 AD)
+- National Tea act enforced: 2057 BS (2000 AD)
+- Seed quality control center (SQCC) established: 2059 BS (2002 AD)
+- AICL, National seed company limited (NSCL) established: 2059 BS
+- Potato production by tissue culture intitated in Khumaltar, Lalitpur: 2041 BS
+- Kalimati fruit and vegetable wholesale market established: 2042 BS
+- Implementation of "SinKaLaMa" project with the financial aid of ADB: 2043 BS
+- Apiculture development related activity with ADB financing: 2044 BS
+- Establishment of NARSC: 2044 BS
+- Seed act endorsed: 2045 BS
+- 20 year vision of horticulture development: 2047 BS
+- NARC act, Cooperative act, Pesticide act, Irrigation act: 2048 BS (1991 AD)
+- National tea and coffee development board: 2049 BS
+- National cooperatives association established: 2050 BS
+- Pesticide regulations implemented: 2050 BS
+- Kalimati fruits and vegetable market development committee formed: 2051 BS (1994 AD)
+
+### Current form of agricultural governance
+
 Nepal's choice for federal system aims for drastic change in governance system. The government's local self-government Act (LSGA), 1999 tried to provide decentralization authority to local elected government and civil servants working under VDCs and municipalities were directed to function locally. Provisionally, three sectors agriculture extension, education and health were devolved with the objective of prioritizing local needs through local planning and budgeting. The government's inability to hold local election mainly due to maoist insurgency led to non-functioning of LSGA and thus local development officer appointed by MoFALD started acting as elected body, which practically violated the decentralization. The selected civil servants were responsible to central ministry and development offices including District Agriculture Development Office, District Livestock Development Offices, District Education Offices and District Health Offices practiced their development functions with central budget and central priorities. Following the endorsement of new constitution and election of three government, the existing set up will have to be changed completely.
 
-Although unitary system, the structure of agriculture sector was much decentralized. Ministry of Agricultural Development was divided into Ministry of Agricultural Development and Ministry of Livestock Development in later stages. Despite Ministry of Agriculture Land Management and Cooperative was formed by merging then Ministry of Agricultural Development, Ministry of Livestock Development, Ministry of Land Management and Ministry of Cooperative and Poverty alleviation; the temporary adjustments have been set up with three secretaries leading the sectors. Under the secretary for agriculture development, it hastwo departments namely Department of Agriculture (DoA) and Department of Food Technology and Quality Control (DFTQC); three other central offices namely Nepal Agriculture Research and Development Fund (NARDF), Agriculture Information and Communication Center (AICC) and Seed Quality Control Center (SQCC); Nepal Agriculture Research Council, one board, two companies and four committees. The department of agriculture has a deep rooted structure which includes 12 technical program directorates, 9 national programs, 5 regional directorates, 5 regional training centers, 1 agriculture development plan (JADP), 75 district agriculture development offices, 378 service centers, 15 regional laboratories, 40 farm centers and 15 quarantine offices. The farm centers comprise of vegetables, fruits, fisheries, sericulture, and honeybee development farms. Similarly, Department of Food Technology and Quality Control 11 regional laboratories and inspection offices, one central lab attached with department. The NARC has research stations throughout the country with national and regional research centers.
+Although unitary system, the structure of agriculture sector was much decentralized. Ministry of Agricultural Development was divided into Ministry of Agricultural Development and Ministry of Livestock Development in later stages. Despite Ministry of Agriculture Land Management and Cooperative was formed by merging then Ministry of Agricultural Development, Ministry of Livestock Development, Ministry of Land Management and Ministry of Cooperative and Poverty alleviation; the temporary adjustments have been set up with three secretaries leading the sectors. Under the secretary for agriculture development, it has two departments namely Department of Agriculture (DoA) and Department of Food Technology and Quality Control (DFTQC); three other central offices namely Nepal Agriculture Research and Development Fund (NARDF), Agriculture Information and Communication Center (AICC) and Seed Quality Control Center (SQCC); Nepal Agriculture Research Council, one board, two companies and four committees. The department of agriculture has a deep rooted structure which includes 12 technical program directorates, 9 national programs, 5 regional directorates, 5 regional training centers, 1 agriculture development plan (JADP), 75 district agriculture development offices, 378 service centers, 15 regional laboratories, 40 farm centers and 15 quarantine offices. The farm centers comprise of vegetables, fruits, fisheries, sericulture, and honeybee development farms. Similarly, Department of Food Technology and Quality Control 11 regional laboratories and inspection offices, one central lab attached with department. The NARC has research stations throughout the country with national and regional research centers.
 
 Now, in attempt to align these structures with the constitutional provision, several breaking changes have been made in the network based on the legislative power provided by Constitution of Nepal (2015). Now the government has 3 tiers, hence the constitution of Nepal has clearly demarcated roles and responsibilities of each government.
 
@@ -569,9 +630,9 @@ tribble(
   filter(!is.na(`Constitutional provision`)) %>% 
   knitr::kable(caption = "Constitutional provisions for agriculture sector", booktabs = TRUE, escape = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::collapse_rows(1) %>% 
-  kableExtra::add_footnote(label = "Source: \\url{http://www.doanepal.gov.np/downloadfile/Final%20Report%20Inter-Provincial%20Dependency%20on%20Agriculture%20-%20DVN%202018_1548834926.pdf}") %>% 
-  kableExtra::column_spec(column = 1:2, width = c("10em", "24em"))
+  kableExtra::column_spec(column = 1:2, width = c("3em", "24em")) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack") %>% 
+  kableExtra::add_footnote(label = "Source: \\url{http://www.doanepal.gov.np/downloadfile/Final%20Report%20Inter-Provincial%20Dependency%20on%20Agriculture%20-%20DVN%202018_1548834926.pdf}")
 ```
 
 The government expedited the restructuring process immediately after passing the constitution. Ministry of General Affairs accomplished the functional analysis of major 5 sectors with the UNDP supported PREPARE (Project to prepare public administration for state reform) project. The functional analysis was made on the basis of 5 principles; subsidiarity principle, economies of scale, social inclusion and national priority, equity and economic stability and unbundling for achieving clear assignment.
@@ -606,10 +667,10 @@ B. Federalism implementation and administration restructuring coordination commi
 C. Different clusters and their working areas
 
 1. Social cluster -- Education, Women children and social welfare, Health, Population and Environment, Forests and Soil Conservation, Peace and Reconstruction, Culture, Youth and Sports
-2.Economic cluster -- Finance, Commerce Supply and Industry, Agriculture and Livestock, Labor and Employment, National Planning Commission, Cooperative and Poverty Reduction, Tourism and civil aviation
-3.Infrastructure cluster -- Water resources, Physical Infrastructure and Transport, Urban Development, Drinking water and Sanitation, Information and Communication, Science and Technology
-4.Security and Governance Cluster -- Office of Prime ministers and council of ministers' related area, Home, Defence, Foreign Affairs, Public Administration, Local Development and Federal Affairs, Land Management
-5.Constitutional Agency, Parliament, Law and Others-Constitutional agencies, Parliament, Law and others.
+2. Economic cluster -- Finance, Commerce Supply and Industry, Agriculture and Livestock, Labor and Employment, National Planning Commission, Cooperative and Poverty Reduction, Tourism and civil aviation
+3. Infrastructure cluster -- Water resources, Physical Infrastructure and Transport, Urban Development, Drinking water and Sanitation, Information and Communication, Science and Technology
+4. Security and Governance Cluster -- Office of Prime ministers and council of ministers' related area, Home, Defence, Foreign Affairs, Public Administration, Local Development and Federal Affairs, Land Management
+5. Constitutional Agency, Parliament, Law and Others-Constitutional agencies, Parliament, Law and others.
 
 Each of the clusters was led by the Joint secretaries of the Office of the Prime minister and council of ministers and members were the other joint secretaries from relevant ministries and agencies. The cluster team prepared and finalized the unbundling of the functions provisioned by the constitution. The functions for agriculture sector are^[Source: Federalism Implementation and Administration Restructuring Coordination Committee, Report, OPMCM]:
 
@@ -1452,7 +1513,8 @@ readxl::read_xlsx("./data/ads_indicators_targets.xlsx") %>%
   select(-7, -8) %>% 
   knitr::kable(booktabs = TRUE, caption = "Preliminary indicators and targets for ADS vision (ADS final report, 2014)", longtable = TRUE, format = "latex") %>% 
   kableExtra::kable_styling(font_size = 6, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:6, width = c("6em", rep("12em", 5)))
+  kableExtra::column_spec(column = 1:6, width = c("3em", rep("12em", 5))) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", custom_latex_hline = 1)
 ```
 
 **Institutional arrangements for ADS**
@@ -1490,7 +1552,7 @@ knitr::include_graphics("./images/ads_committee.png")
 # read_csv("./data/npl_ovop_districts_and_commodities_old.csv")
 read_csv("./data/npl_ovop_districts_and_commodities_recent.csv") %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::kable_styling(latex_options = c("striped", "hold_position"), font_size = 8) %>% 
   kableExtra::column_spec(column = 2, width = "30em")
 ```
 
@@ -1560,7 +1622,7 @@ tribble(
   "One person nominated by GoN from amongst the persons involved in non-governmental organizations in the field of agricultural research", "Member", 1,
   "Executive director", "Member secretary", 1
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Membership constiution of NARC Council") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Membership constiution of NARC Council", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1, width = "18em")
 ```
@@ -1592,7 +1654,7 @@ tribble(
   "One person nominated by GoN from amongst the chiefs of regional level offices of the Council", "Member",
   "One person nominated by the executive director from amongst the program directors of the Council", "Member secretary"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Constitution of Executive Committee of NARC") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Constitution of Executive Committee of NARC", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1, width = "18em")
 ```
@@ -1694,6 +1756,65 @@ The Government of Nepal established the early form of this ministry, the Departm
 In 2018, under the second Oli cabinet, the portfolio of the ministry was enlarged and the portfolio of Land Management was added to the then Ministry of Agricultural Development and the portfolio of Cooperatives was returned to the ministry, while the Ministry of Land Reform and Management was discontinued.
 
 In August 2018, the ministry's portfolio was adjusted again, due to a cabinet expansion, the Ministry of Land Management, Cooperatives and Poverty Alleviation was reopened while the agriculture-related portfolio was changed to Ministry of Agriculture and Livestock Development.
+
+## Department of Agriculture
+
+Major objective
+
+- To ensure food security and contribute to poverty reduction through diversification and commercialization of agriculture.
+
+Specific objectives
+
+- To bring about increase in production and productivity of agricultural commodities in order to meet domestic as well as external demand.
+- To increase production and productivity of raw materials required by the industries based on agriculture.
+- To contribute to reduction of poverty by conducting production and employment oriented programs for small-scale, marginal and women farmers.
+- To implement sustainable agriculture development programs while maintaining balance between the agricultural development and environmental protection.
+
+<!-- Objective (Old)  -->
+
+<!-- - Raise agricultural production based on geographical features -->
+<!-- - To increase internal availability of food supply, contribute to working in production and productivity increment. -->
+<!-- - Expand agriculture based business and increase availability of required raw material through production and productivity increment. -->
+<!-- - Market management of agricultural products and competitive advantage based pricing mechanism. -->
+<!-- - Import substitution of agricultural goods and export promotion -->
+<!-- - Increase employment opportunities for marginalized, small and women farmers thus contributing to alleviation of poverty -->
+<!-- - Conduct adaptive research and technology verification -->
+<!-- - Maintain the balance between agricultural development and environmental protection -->
+
+- World food day (16th October 2018) was celebrated the 38th occasion in Nepal.
+- The theme for the celebration was 'Our Actions are Our Future'. The occasion happens to be the 7th anniversary of UN's Agriculture Organization's (FAO).
+
+### Scope of Department of Agriculture
+
+- Programs for production
+  - Crop development (Food, cash, seed crop technology)
+  - Horticulture development (Fruits, vegetables, spices, tea, coffee, potato)
+  - Fisheries development
+  - Commercial entomology development (including mushroom)
+- Service oriented programs
+  - Agriculture extension
+  - Crop protection
+  - Small irrigation projects
+  - Agricultural training
+  - Post harvest loss management
+  - Agricultural market development
+  - Seed supply and quality control
+  - Soil testing
+  - Agricultural engineering
+
+### Strategies
+
+- Implementation of extension programs through farmers' group approach
+- Identification of crop pockets and increase in production and productivity of potential crop based on potentials of certain areas.
+- Emphasis to be laid on potential crop pocket development and promotion of HVCs in irrigated areas, but with low cost technologies in hilly areas without access to irrigation.
+- Upliftment of backward farmers and women and prioritizing them while implementing agricultural programs.
+- Upbringing and expansion of source and supply centers through participatory interface between entrepreneurs, farmers and private sectors to stabilize supply and availability of agricultural commodities.
+- Collection and analysis of agricultural prices and market information and their publication as well as establishment of appropriate infrastructures for market management.
+- Lay emphasis on increasing food production for achieving food security.
+- Linking of production and agricultural industry in order to maintain a balance between them.
+- Through maximum utilization of geographical potential foster crop diversification, agricultural commercialization and agribusiness promotion.
+- Empasize on integrated pest management (IPM) approach to promote environmental welfare through optimal utilization of agricultural production inputs and natural resources.
+
 
 ## Department of Food Technology and Quality Control
 
@@ -1807,7 +1928,7 @@ tribble(
   10, "IMEI General Insurance Company Limited", "Dhanusha, Mahottari, Okhaldhunga, Solukhumbu", 20, "General Insurance Company Limited", "Rasuwa, Siraha, Parsa"
 ) %>% 
   knitr::kable(booktabs = TRUE, col.names = rep(c("SN", "Name of company", "Working area"), times = 2), longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = c(2,3,5,6), width = rep(c("10em", "8em"), times = 2))
 ```
 

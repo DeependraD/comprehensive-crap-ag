@@ -299,7 +299,7 @@ Mushroom, then should be observed thoroughly, following changes can be seen,
 - Picking is done by twisting gently so that it is pulled out without leaving any stalk and also the nearby fruiting bodies are not disturbed.
 - When the base of the stipe is deeply immersed within the straw, cutting the base of stipe with Sharpe knife can be done.
 
-### Agaricus cultivation
+### Agaricus (_Agaricus bisporus_) cultivation
 
 - Agaricus is also called low temperature mushroom. Only in the 1970's it was shown that Agaricus could be profitably cultivated in sub-tropical regions under certain conditions.
 - Hilly area and Kathmandu valley is more preferred for its cultivation than terai, as it requires less temperature for growth compared to the _Pleurotus_ spp.
@@ -326,14 +326,14 @@ Mushroom, then should be observed thoroughly, following changes can be seen,
 **Method of composting without use of pasteurization facility**
 
 1. Weighing the required amount of ingredients.
-2. Cut the straw into 5-10 cm length.
-3. Wet the straw in clean water for 24 hrs.
-4. Prepare a wooden frame of 10x5x5 ft 3 .
+2. Cut the straw into 5-10 cm (1 feet) length.
+3. Chopped straw is soaked in water for 8-10 hours.
+4. Prepare a wooden frame of 10x5x5 ft.
 5. Put the straw in the frame after draining excess water.
 6. Then press very firmly so that there will be anaerobic condition.
 7. In given frame total amount of straw that can be used is 500 Kg.
 8. Then cover with plastic.
-9. First turning is done after 5 days.
+9. 1st turning is done after 5 days.
 10. During first turning care should be taken that top portion straw should replace the bottom straw.
 11. 2nd turning is done after 10 days of composting at this time spray and mix with agri-lime.
 12. 3rd turning is done after 13 days of composting. Add/apply irrigation if moisture is insufficient.
@@ -343,7 +343,7 @@ Mushroom, then should be observed thoroughly, following changes can be seen,
 16. 5th turning is done after 19 days of composting.
 17. 6th turning after 22 days of composting. Spray fungicide Derosal \@ \SIrange{1}{2}{\gram\per\liter} of water + insecticide Nuvan \@ \SIrange{1}{2}{\milli\liter\per\liter} of water. Spray solution \@ \SI{20}{\liter} per 1000 kg of straw.
 18. 7th turning after 25th day of composting.
-19. 8th turning after 27th day of composting. The color of compose should appear light grey.
+19. 8th turning after 27th day of composting. The color of compose should appear light gray.
 20. Compost will be ready after 30 days. Good compost must have 70\% moisture, 7-7.2 pH and good smell.
 
 #### Bed preparation
@@ -356,13 +356,13 @@ Mushroom, then should be observed thoroughly, following changes can be seen,
 - Sterilization should be done before 2 days of actual bed preparation.
 - After treatment leave the room open for 24 hrs to escape formalin gas.
 - Before preparing the bed, hands and tools must be sterilized by sprite or alcohol.
-- Put total 6-8” thickness of compost and remove 1-2 inches compost and spray spawn uniformly.
+- Put total \SIrange{6}{8}{\inch} thickness of compost and remove 1-2 inches compost and spray spawn uniformly.
 - Replace the thin layer of removed compost then spray spawn above the compost. (4 layer-8 inches) (3 layer-6 inches).
 - Cover with ordinary newspaper treated with Derosal and Nuvan and irrigate lightly for 2 weeks regularly in mist form by atomizer.
 - Do not irrigate heavily just wet the paper.
 - Congenial temperature is \SI{24}{\celsius}.
 
-#### Casting
+#### Casing
 
 - After spawn run, the mycelium become ready to enter the reproductive phase to produce the fruiting bodies.
 - Casting is the practice of covering mycelial growth with soil. It is done to stop vegetative growth of mycelium and induce fruiting, Casing soil is believe to perform several subsidiary function such as:
@@ -439,6 +439,31 @@ Methods fro preservation of mushrooms:
 3. Dry freezing
 4. Steeping preservation (boiling in hot sodium chloride solution)
 5. Canning
+
+#### Disease and pest of button mushroom
+
+1. Brown plaster mould
+
+- Spreads from fungus into the composted straw and casing soil.
+- Symptom: Little white and brown powders seen in casing soil and seed bed.
+- Management: Sanitation, good ventillation, temperature and RH optimization. 2\% formalin or 1 gm Derosal or Bavistin is mixed in \SI{1}{\liter} of water and sprayed.
+
+2. Green mould
+
+- Symptom: At first white moulds hypae is seen which later turns green and spots are seen in compost bed or casing soil. These do not let mushroom grow.
+- Cause:
+  - If the compost does not decompose properly
+  - If the compost is not sterilized properly
+  - If the temperature and relative humidity is more than required
+- Management:
+  - Endophil M-45 \SI{2}{\gram\per\liter}
+  - Derosal \SI{1}{\gram\per\liter}
+  
+3. Fly or mite
+
+- Management: 0.1\% Nuvan (for mites) and 0.2\% for fly
+- Spray in the compost
+- The mushroom should not be harvested untill 4 days of spray.
 
 ### Paddy straw ( _Volvariella_ spp.) cultivation
 
@@ -565,203 +590,10 @@ tribble(
   12, "Vegetable sales", 58
 ) %>% 
   rename_at(2:3, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Women farmer participation in decision making") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Women farmer participation in decision making", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = c("hold_position", "striped"))
 ```
 
-
-**Agriculture training types based on levels of delivery**
-
-```{r agriculture-training-types}
-tribble(
-  ~"sn", ~"level/strata", ~"period_days", ~"participants", 
-  1, "Service center level on-site training", "1", "20-25", 
-  2, "Revolving on-site farmer's training", "1-2", "15-25", 
-  3, "Farmers' group mobilization training", "1", "All members of a group", 
-  4, "District level farmer's training", "1-3", "20-25", 
-  5, "District level pesticide retail trader training", "3", "20-25 (25 max)", 
-  6, "Regional level farmer's training", "5-14 days", "10-20", 
-  7, "Central level farmer's training", NA, "10-20"
-) %>% 
-  rename_at(2:4, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 8, latex_options = c("striped", "hold_position"))
-```
-
-
-- In a "Ghumti stalgat" training, 50% of the participants should be women.
-
-
-### Simple facts
-
-- "Agriculture" is derived from Latin.
-- "Agronomy" is derived from the Greek.
-- A maximum of 10 participants can parttake in a crop production competition.
-- There is a provision of 25% subsidy in production of foundation seed to the producer.
-- With the use of improved seed 15-25% grain in production can be achieved.
-- Small irrigation projects in Nepal are conducted by farmers' groups and farmers' cooperatives both.
-- A small irrigation project for Terai constitutes 200 hectares of land.
-- A small irrigation project in Hills constitutes 25 hectares of land.
-- Nepal ranks 18th position among rice cultivating nation in the world.
-- Father of Agronomy in Nepal: Netra Bahadur Basnyat
-- Golden rice is genetically modified rice with yellow colored seeds rich in vitamin A
-- Date palm is the oldest fruit.
-- Rye is known as grain of poverty.
-- DDT was the first discovered insecticide by Paul Muller.
-- Maximum amount of sugar in honey is 73%.
-- Mandarin is alled fancy fruits.
-- Cardamom production highest in Nepal in the world.
-- Dance of bee is called waggle dance.
-- Apple production is highest in China.
-- Orchidaceae is the largest family among flowering plants.
-- National Agriculture Policy in 2061 BS
-- Gaurab hybrid and Rampur hybrid are the only hybrid varieties in Nepal in maize.
-- Halo kranti started in 2006 BS from Duradanda, Lamung.
-- OVOP (One Village One Product) practice in Nepal base on PPP (Public Private Partnership) approach started from Japan.
-- One Village Two Product practice is prevailing in Bhutan.
-- Year of Family farming: 2014
-- Yellow color of Papaya is due to Cryptoxanthin.
-- Edible part of apple is enlarged thalamus and edible part of cabbage is bud while that of cauliflower is inflorescence.
-- Earthworm is farmer's friend.
-- 39.6% of area of Nepal's land is covered by forest.
-- Japan is Nepal's largest bilateral donor.
-- Lentil is a major pulse crop with efficient export.
-- Crop and livestock insurance started in Nepal in 2069 Magh 1
-- Triticale is artificial cereal crop.
-- China is the world's highest rice producer and Vietnam is the world's highest rice exporter.
-- Azolla is widely used bio - fertilizer in Rice Crop.
-- Amendment of acid soil is done by lime and of alkaline soil is done by CaSO4
-- Tomato is known as poor man's orange.
-- Air layering in litchi is to epicotyl grafting in Mango
-- Anadi, Jumli Marshi, Pokhreli Jetho Budo are indigenous variety of Rice in Nepal.
-- Readily available form of water to plants is capillary water.
-- Limiting amino acid in Cereals are Lysine and threonine whereas limiting amino acid in legumes are methionine and tryptophan.
-- Stubble is the portion of stem that is left on the field during harvest.
-- Leguminous crop is considered as biological plough.
-- First certified organic commodity exported from Nepal: Coffee
-- Genetic dwarfism can be overcome by the use of Gibberelic Acid.
-- Peripneustic type (having spiracles in a row on each side of the body) respiratory system is found in Lepidoptera larvae.
-- Gilson's glands is found in order Trichopter.
-- Growth curve of kiwi is Triple sigmoid type.
-- Which produces cocoon in silkworm ? Pupa
-- Chroma refers to: Relative purity of color
-- Pointed gourd is commonly propagated through stem cutting.
-- Allophane is an amorphous to poorly crystalline hydrous aluminium silicate clay mineraloid. It is common in vocanic soil and typically forms under mildly acidic to neutral pH (5–7). Its structure has been debated, but it is similar to clay minerals and is composed of curved alumina octahedral and silica tetrahedral layers.
-- Horizon of maximum accumulation of Iron (Fe) and Aluminium oxides is B-horizon.
-- Spinach can hybridize with Swiss chard and Garden beet.
-- Soil with highest CEC is Vermiculite.
-- Dioecious species: Spinach, pointed gourd and yam.
-- Mo is available at slightly basic pH.
-- GA is flowering hormone of longday and chilling requiring plants.
-- Swelling of Smectite is more because of Mg binding.
-- Chinese cabbage can hybridize with Turnip and Broad leaf mustard.
-- Paclobutrazole is also known as anti GA hormone.
-- Color of semi-aerated iron containing soil is Yellow.
-- Sodicity is measured by SAR and ESP.
-- Chayote amongst all vegetables has the highest productivity.
-- Salt resistant crops: Sugarbeet, cotton, sweet potato.
-- Rice, wheat and maize are cereal crops while buckwheat and amaranthus are pseudocereals.
-- Wheat and maize show hypogeal germination but soyabean and chickpea show epigeal germination.
-- Bitter taste of Bitter Gourd due to: Cucurbitacin/ Bitter Glucoside
-- Rice is semi - aquatic in nature.
-- Critical stage for irrigation in wheat is CRI
-- World's highest cereal production: Wheat
-- Nepal's highest cereal production: Rice
-- Male adult of horse is stallion and female adult of horse is mare.
-- Heifer is young female cattle.
-- Young male poultry is cockrel and young female poultry is pullet.
-- Black gold: Buffalo
-- Goat is called poor man's cow.
-- Yellow gold: colostrums milk
-- Freshly drawn milk has the PH value in range of 6.5-6.7
-- Evening milk is higher in fat than morning milk
-- Amount of milk left in udder after normal milking is called residual milk.
-- Water content of milk is 87-88%
-- Gizzard in poultry is used grinding of food whereas proventiculus in poultry is the true stomach.
-- Abomasum is true stomach in ruminants.
-- Omasum is absent in camel and rumen is water storing sac.
-- Sweetness in milk is due to Lactose.
-- Milk holiday is the day when the dairy does not buy milk from the farmers.
-- Milk storage is done at \SI{5}{\celsius}.
-- 1 lit of milk can be synthesized by 500 lit. of blood circulation in body.
-- Milk is complete nutrient. It lacks only Fe.
-- Meat of calf is also called veal.
-- Ear notching is the best identification method in pig.
-- Gall bladder is absent in horse.
-- Elephant has longest gestation period i.e. 18-23 months(624days)
-- Kavrepalanchowk is the highest milk producing district in Nepal.
-- Semen is stored in liquid Nitrogen in \SI{-196}{\celsius}; the process of storage is also known as Cryopreservation.
-- Poor man's food -- Bajra
-- King of coarse cereals -- Sorghum
-- Banana is the major cultivated crop after Wheat, rice and maize worldwide. India is the largest producer of Banana.
-- Potato variety cultivated in largest acerage in Nepal -- Cardinal
-- Nepal imported 40% of total consumed orange from India.
-- Districts famous for industrial crops cultivation:
-  - Cotton: Dang, Banke, Bardiya
-  - Jute: Jhapa, Morang, Sunsari, Saptari, Udayapur, Siraha
-  - Mustard: Sunsari, Dhanusha, Sarlahi, Chitwan, Dang, Banke, Bardiya
-- China first started the fish rearing.
-- Wheat is mostly stored in metal bins.
-- Training session for artificial insemination is conducted for 1 week.
-- Cowpea is considered vegetable meat.
-- It takes 45-60 days in tomato for flower to develop into a fully mature fruit.
-- In tomato, irrigation is most effective when done in 7-12 days interval. Best method of irrigation is the drip/trickle irrigation.
-- Three stages of growth -- seedling stage, flowering stage and fruit development stages in tomato are critical with respect to irrigation requirement.
-- Difference between late and early blight in potato:
-  - In early blight, older leaves first show the symptoms. The upper surface of the leaves show black spots and later on entire plant become chlorotic and senesce.
-  - In late blight, tips and margin of leaves show small brownish black spots, later on the spots expand, coalesce and spread into fruits and stem as well.
-- Pre-conditions for epidemiology of late blight:
-  - Relative humidity: 80% or higher
-  - Temperature: 10-15
-  
-- Suitable varieties of cauliflower for off-season cultivation:
-  - Snow crown
-  - Snow mystique
-  - Snow king,
-  - Snow dome,
-  - Silver cup
-  - White cloud
-- Nutrition composition of potato
-  - Carbohydrate: 20.6 %
-  - Protein: 2.1 %
-  - Fat: 0.3 %
-  - Fiber: 1.15 %
-
-**Rustic store**
-
-A temporary housing unit generally constructed in hilly regions, with elevation greater than 2000 masl, in order to store seed potato tuber inteded for use as propagule, with provision for control of light and that allowing for ample circulation of the air is called a rustic store. However, in regions facing northward with adequate circulation of the air, the rustic storehouse may be constructed at lower elevation within 1500 masl.
-
-In arid areas like those in Karnali, the store should be assisted with a canal well below the ground level with circulating water.
-
-A cement-concrete structure tends to raise the inside temperate beyond the desirable levels, therefore it is preferable that mud be used instead as a mortar for building the brick or stone structure. For provisioning of proper ventilation, bottom strata of the store adjoining to the floor should be built with 2-3 windows of 1 x 1 feet dimension. However, to check the entry of rodents and insects alike, a wire mesh should be mount on windows. Likewise, the upper region of the store should also house ventilating windows in a fashion similar to that used in the bottom.
-
-The store should have a greater length than the width. The walls of the store generally have racks mounted on either of their sides with a leeway in between to allow easy transact.
-
-Each stack in the store should be spaced 9-12 inches apart and each stack should only hold tuber potato 3-4 layers high. The desirable dimension of the stacks is:
-  - Width: 2 feet
-  - Depth: 6 inches
-  - Length: (as per requirement)
-  
-A stack of 6.5 feet length can bear 100 kgs of potato tuber.
-
-The store house should have a thatched roof. In case galvanized sheets are used as roofing material, it should, nevertheless, be covered with husks, dried straws or mulch alike.
-
-A rustic store generally has a storage capacity of 5-10 mt of seed tuber.
-
-- Under seed potato result demonstration program:
-  - Minimum required area for the demonstration plot: 540 msq (Approximately 1 ropani or 1.5 kattha) 
-  - Requirements for source material: Produced from the seed, foundation or improved class of propagule, local source seed
-  - The demonstration plot is partitioned into 3 sub-plots each of \SI{180}{\meter\squared} leaving an alley of 50 cm between the plots. Generally, a plot is of size 15 x 12 m.
-  - With standard spacing of 75 x 25 cm of the potato 23 rows each with 48 plants (total: 1104) may be accommodated in each plot.
-  - Amount of tuber in weight equivalents for a plot are:
-  \begin{itemize}
-  \item 30 g seed tuber: 35 kg
-  \item 15 g seed tuber: 18 kg
-  \item local seed tuber of 25 g: 30 kg
-  \end{itemize}
-  
-- For effective pollination in apple, each hectare of orchard should house 6-8 beehives. Better pollination is obtained in temperature conditions within \SIrange{21}{26}{\celsius}.
-- Desirable fruit:leaf ratio in apple is 1:20-40. 
 
 ## Trade policy in Nepal
 
@@ -1030,15 +862,16 @@ It is estimated that 31\% of the farmers are tenants (i.e. leasing lands). Most 
 ```{r weekly-radio-television-agriculture}
 dplyr::tribble(~"SN", ~"Day of week", ~"Radio Nepal (6:40 to 6:55)", ~"NTV (60:40 to 6:57)",
                1, "Sunday", "Saptahik krishi gatibidhi", "Krishi sambad", 
-               2, "Monday", "Safalta ko katha", "Krishi sambad", 
-               3, "Tuesday", "Food and nutrition", "Samaya sandarva", 
-               4, "Wednesday", "Krishi sambad", "Ajako krishi", 
-               5, "Thursday", "Krishak ko sarokar", "Krishak ko sarokar", 
-               6, "Friday", "JTA ra budhi ama", "Saptahik krishi gatibidhi", 
-               7, "Saturday", "Radio patrika", "Krishi teleserial"
+               2, "Monday", "Paurakhi krishak", "Naveen krishi prabidhi", 
+               3, "Tuesday", "Naveen krishi prabidhi", "Kishan prashna maanch", 
+               4, "Wednesday", "Krishi sambad", "Safal krishak", 
+               5, "Thursday", "Kishan prashna maanch", "Krishi ma mahila", 
+               6, "Friday", "JTA ra budhi ama", "Krishi gatibidhi", 
+               7, "Saturday", "Radio krishi natak ra patra-patrika ma krishi", "Krishi teleserial 'Bharosa'"
                ) %>% 
   knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"))
+  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:4, width = c("2em", "4em", "10em", "10em"))
 ```
 
 ### Kishan call center
@@ -1064,6 +897,42 @@ tribble(
   kableExtra::kable_styling(font_size = 10) %>% 
   kableExtra::column_spec(column = 2, width = "16em")
 ```
+
+### Rustic store
+
+A temporary housing unit generally constructed in hilly regions, with elevation greater than 2000 masl, in order to store seed potato tuber inteded for use as propagule, with provision for control of light and that allowing for ample circulation of the air is called a rustic store. However, in regions facing northward with adequate circulation of the air, the rustic storehouse may be constructed at lower elevation within 1500 masl.
+
+In arid areas like those in Karnali, the store should be assisted with a canal well below the ground level with circulating water.
+
+A cement-concrete structure tends to raise the inside temperate beyond the desirable levels, therefore it is preferable that mud be used instead as a mortar for building the brick or stone structure. For provisioning of proper ventilation, bottom strata of the store adjoining to the floor should be built with 2-3 windows of 1 x 1 feet dimension. However, to check the entry of rodents and insects alike, a wire mesh should be mount on windows. Likewise, the upper region of the store should also house ventilating windows in a fashion similar to that used in the bottom.
+
+The store should have a greater length than the width. The walls of the store generally have racks mounted on either of their sides with a leeway in between to allow easy transact.
+
+Each stack in the store should be spaced 9-12 inches apart and each stack should only hold tuber potato 3-4 layers high. The desirable dimension of the stacks is:
+  - Width: 2 feet
+  - Depth: 6 inches
+  - Length: (as per requirement)
+  
+A stack of 6.5 feet length can bear 100 kgs of potato tuber.
+
+The store house should have a thatched roof. In case galvanized sheets are used as roofing material, it should, nevertheless, be covered with husks, dried straws or mulch alike.
+
+A rustic store generally has a storage capacity of 5-10 mt of seed tuber.
+
+- Under seed potato result demonstration program:
+  - Minimum required area for the demonstration plot: 540 msq (Approximately 1 ropani or 1.5 kattha) 
+  - Requirements for source material: Produced from the seed, foundation or improved class of propagule, local source seed
+  - The demonstration plot is partitioned into 3 sub-plots each of \SI{180}{\meter\squared} leaving an alley of 50 cm between the plots. Generally, a plot is of size 15 x 12 m.
+  - With standard spacing of 75 x 25 cm of the potato 23 rows each with 48 plants (total: 1104) may be accommodated in each plot.
+  - Amount of tuber in weight equivalents for a plot are:
+  \begin{itemize}
+  \item 30 g seed tuber: 35 kg
+  \item 15 g seed tuber: 18 kg
+  \item local seed tuber of 25 g: 30 kg
+  \end{itemize}
+  
+- For effective pollination in apple, each hectare of orchard should house 6-8 beehives. Better pollination is obtained in temperature conditions within \SIrange{21}{26}{\celsius}.
+- Desirable fruit:leaf ratio in apple is 1:20-40. 
 
 ### NPK Content of fertilizer
 
@@ -1124,3 +993,158 @@ Agriculture related hazards mostly include:
 9. Ergonomic hazards: use of inadequate equipment and tools, unnatural body position or prolonged static postures, carrying of heavy loads, repetitive work, excessive long hours;
 10. Extreme temperatures and adverse weather conditions;
 11. Contact with wild and poisonous animals: insect, spider, scorpion, snake and certain wild mammals.
+
+### Agriculture training types based on levels of delivery
+
+```{r agriculture-training-types}
+tribble(
+  ~"sn", ~"level/strata", ~"period_days", ~"participants", 
+  1, "Service center level on-site training", "1", "20-25", 
+  2, "Revolving on-site farmer's training", "1-2", "15-25", 
+  3, "Farmers' group mobilization training", "1", "All members of a group", 
+  4, "District level farmer's training", "1-3", "20-25", 
+  5, "District level pesticide retail trader training", "3", "20-25 (25 max)", 
+  6, "Regional level farmer's training", "5-14 days", "10-20", 
+  7, "Central level farmer's training", NA, "10-20"
+) %>% 
+  rename_at(2:4, function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
+  knitr::kable(booktabs = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = c("striped", "hold_position"))
+```
+
+- In a "Ghumti stalgat" training, 50% of the participants should be women.
+
+### Simple facts
+
+- "Agriculture" is derived from Latin.
+- "Agronomy" is derived from the Greek.
+- A maximum of 10 participants can parttake in a crop production competition.
+- There is a provision of 25% subsidy in production of foundation seed to the producer.
+- With the use of improved seed 15-25% grain in production can be achieved.
+- Small irrigation projects in Nepal are conducted by farmers' groups and farmers' cooperatives both.
+- A small irrigation project for Terai constitutes 200 hectares of land.
+- A small irrigation project in Hills constitutes 25 hectares of land.
+- Nepal ranks 18th position among rice cultivating nation in the world.
+- Father of Agronomy in Nepal: Netra Bahadur Basnyat
+- Golden rice is genetically modified rice with yellow colored seeds rich in vitamin A
+- Date palm is the oldest fruit.
+- Rye is known as grain of poverty.
+- DDT was the first discovered insecticide by Paul Muller.
+- Maximum amount of sugar in honey is 73%.
+- Mandarin is alled fancy fruits.
+- Cardamom production highest in Nepal in the world.
+- Dance of bee is called waggle dance.
+- Apple production is highest in China.
+- Orchidaceae is the largest family among flowering plants.
+- National Agriculture Policy in 2061 BS
+- Gaurab hybrid and Rampur hybrid are the only hybrid varieties in Nepal in maize.
+- Halo kranti started in 2006 BS from Duradanda, Lamung.
+- OVOP (One Village One Product) practice in Nepal base on PPP (Public Private Partnership) approach started from Japan.
+- One Village Two Product practice is prevailing in Bhutan.
+- Year of Family farming: 2014
+- Yellow color of Papaya is due to Cryptoxanthin.
+- Edible part of apple is enlarged thalamus and edible part of cabbage is bud while that of cauliflower is inflorescence.
+- Earthworm is farmer's friend.
+- 39.6% of area of Nepal's land is covered by forest.
+- Japan is Nepal's largest bilateral donor.
+- Lentil is a major pulse crop with efficient export.
+- Crop and livestock insurance started in Nepal in 2069 Magh 1
+- Triticale is artificial cereal crop.
+- China is the world's highest rice producer and Vietnam is the world's highest rice exporter.
+- Azolla is widely used bio - fertilizer in Rice Crop.
+- Amendment of acid soil is done by lime and of alkaline soil is done by CaSO4
+- Tomato is known as poor man's orange.
+- Air layering in litchi is to epicotyl grafting in Mango
+- Anadi, Jumli Marshi, Pokhreli Jetho Budo are indigenous variety of Rice in Nepal.
+- Readily available form of water to plants is capillary water.
+- Limiting amino acid in Cereals are Lysine and threonine whereas limiting amino acid in legumes are methionine and tryptophan.
+- Stubble is the portion of stem that is left on the field during harvest.
+- Leguminous crop is considered as biological plough.
+- First certified organic commodity exported from Nepal: Coffee
+- Genetic dwarfism can be overcome by the use of Gibberelic Acid.
+- Peripneustic type (having spiracles in a row on each side of the body) respiratory system is found in Lepidoptera larvae.
+- Gilson's glands is found in order Trichopter.
+- Growth curve of kiwi is Triple sigmoid type.
+- Which produces cocoon in silkworm ? Pupa
+- Chroma refers to: Relative purity of color
+- Pointed gourd is commonly propagated through stem cutting.
+- Allophane is an amorphous to poorly crystalline hydrous aluminium silicate clay mineraloid. It is common in vocanic soil and typically forms under mildly acidic to neutral pH (5–7). Its structure has been debated, but it is similar to clay minerals and is composed of curved alumina octahedral and silica tetrahedral layers.
+- Horizon of maximum accumulation of Iron (Fe) and Aluminium oxides is B-horizon.
+- Spinach can hybridize with Swiss chard and Garden beet.
+- Soil with highest CEC is Vermiculite.
+- Dioecious species: Spinach, pointed gourd and yam.
+- Mo is available at slightly basic pH.
+- GA is flowering hormone of longday and chilling requiring plants.
+- Swelling of Smectite is more because of Mg binding.
+- Chinese cabbage can hybridize with Turnip and Broad leaf mustard.
+- Paclobutrazole is also known as anti GA hormone.
+- Color of semi-aerated iron containing soil is Yellow.
+- Sodicity is measured by SAR and ESP.
+- Chayote amongst all vegetables has the highest productivity.
+- Salt resistant crops: Sugarbeet, cotton, sweet potato.
+- Rice, wheat and maize are cereal crops while buckwheat and amaranthus are pseudocereals.
+- Wheat and maize show hypogeal germination but soyabean and chickpea show epigeal germination.
+- Bitter taste of Bitter Gourd due to: Cucurbitacin/ Bitter Glucoside
+- Rice is semi - aquatic in nature.
+- Critical stage for irrigation in wheat is CRI
+- World's highest cereal production: Wheat
+- Nepal's highest cereal production: Rice
+- Male adult of horse is stallion and female adult of horse is mare.
+- Heifer is young female cattle.
+- Young male poultry is cockrel and young female poultry is pullet.
+- Black gold: Buffalo
+- Goat is called poor man's cow.
+- Yellow gold: colostrums milk
+- Freshly drawn milk has the PH value in range of 6.5-6.7
+- Evening milk is higher in fat than morning milk
+- Amount of milk left in udder after normal milking is called residual milk.
+- Water content of milk is 87-88%
+- Gizzard in poultry is used grinding of food whereas proventiculus in poultry is the true stomach.
+- Abomasum is true stomach in ruminants.
+- Omasum is absent in camel and rumen is water storing sac.
+- Sweetness in milk is due to Lactose.
+- Milk holiday is the day when the dairy does not buy milk from the farmers.
+- Milk storage is done at \SI{5}{\celsius}.
+- 1 lit of milk can be synthesized by 500 lit. of blood circulation in body.
+- Milk is complete nutrient. It lacks only Fe.
+- Meat of calf is also called veal.
+- Ear notching is the best identification method in pig.
+- Gall bladder is absent in horse.
+- Elephant has longest gestation period i.e. 18-23 months(624days)
+- Kavrepalanchowk is the highest milk producing district in Nepal.
+- Semen is stored in liquid Nitrogen in \SI{-196}{\celsius}; the process of storage is also known as Cryopreservation.
+- Poor man's food -- Bajra
+- King of coarse cereals -- Sorghum
+- Banana is the major cultivated crop after Wheat, rice and maize worldwide. India is the largest producer of Banana.
+- Potato variety cultivated in largest acerage in Nepal -- Cardinal
+- Nepal imported 40% of total consumed orange from India.
+- Districts famous for industrial crops cultivation:
+  - Cotton: Dang, Banke, Bardiya
+  - Jute: Jhapa, Morang, Sunsari, Saptari, Udayapur, Siraha
+  - Mustard: Sunsari, Dhanusha, Sarlahi, Chitwan, Dang, Banke, Bardiya
+- China first started the fish rearing.
+- Wheat is mostly stored in metal bins.
+- Training session for artificial insemination is conducted for 1 week.
+- Cowpea is considered vegetable meat.
+- It takes 45-60 days in tomato for flower to develop into a fully mature fruit.
+- In tomato, irrigation is most effective when done in 7-12 days interval. Best method of irrigation is the drip/trickle irrigation.
+- Three stages of growth -- seedling stage, flowering stage and fruit development stages in tomato are critical with respect to irrigation requirement.
+- Difference between late and early blight in potato:
+  - In early blight, older leaves first show the symptoms. The upper surface of the leaves show black spots and later on entire plant become chlorotic and senesce.
+  - In late blight, tips and margin of leaves show small brownish black spots, later on the spots expand, coalesce and spread into fruits and stem as well.
+- Pre-conditions for epidemiology of late blight:
+  - Relative humidity: 80% or higher
+  - Temperature: 10-15
+  
+- Suitable varieties of cauliflower for off-season cultivation:
+  - Snow crown
+  - Snow mystique
+  - Snow king,
+  - Snow dome,
+  - Silver cup
+  - White cloud
+- Nutrition composition of potato
+  - Carbohydrate: 20.6 %
+  - Protein: 2.1 %
+  - Fat: 0.3 %
+  - Fiber: 1.15 %

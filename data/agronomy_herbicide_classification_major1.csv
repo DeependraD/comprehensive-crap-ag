@@ -1,0 +1,28 @@
+,Crop,Herbicide,Dose (kg a.i./ha),Trade name and formulation,Time of application
+1,Rice,Butachlor,1.25,Machete 50% EC,Pre-emergence
+,,,,Delchlor 50% EC,
+,,Thiobencarb,1.25,Thunder 50% EC,Pre-emergence
+,,,,Saturn 50% EC,
+,,Anilophos,0.4,Arozin 30% EC,Pre-emergence
+,,,,Aniloguard 30% EC,
+,,Fluchloralin,0.9,Basalin 45% EC,Pre-emergence
+,,Pendimethalin,0.9,Stomp 30% EC,Pre-emergence
+,,"2,4-D Na salt",1,Fernoxone 80% SS,Post-emergence
+2,Rice (Upland direct sown),Thiobencarb,1.25,Saturn 50% EC,Pre-emergence (8 DAS)
+,,Pretilachlor,0.45,Refit 50% EC,Pre-emergence
+3,Sorghum,Atrazine,0.25,Atrataf 50% WDP,Pre-emergence
+4,Ragi (Transplanted),Butachlor,1.25,Machete 50% EC,Pre-emergence
+,,Pendimethalin,0.75,Stomp 30% EC,Pre-emergence
+5,Maize,Atrazine,0.25,Atrataf 50% WDP,Pre-emergence
+6,Cumbu,Atrazine,0.25,Atrataf 50% WDP,Pre-emergence
+7,Cotton,Metolachlor,1,Dual 50% EC,Pre-emergence
+,,Fluchloralin,1,Basalin 45% EC,Pre-emergence
+,,Pendimethalin,1,Stomp 30% EC,Pre-emergence
+,,Diuron,0.4,Karmex 50% WP,Pre-emergence
+8,Groundnut,Metolachlor,1,Dual 50% EC,Pre-emergence
+,,Fluchloralin,0.9,Basalin 45% EC,Pre-emergence
+9,Sunflower,Fluchloralin,0.9,Basalin 45% EC,Pre-emergence
+,,Pendimethalin,0.9,Stomp 30% EC,Pre-emergence
+10,Vegetables,Fluchloralin,1,Basalin 45% EC,Pre-emergence
+,,Pendimethalin,1,Stomp 30% EC,Pre-emergence
+11,Sugarcane,Atrazine,1,Atrataf 50% WDP,Pre-emergence

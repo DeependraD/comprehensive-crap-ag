@@ -313,7 +313,7 @@ Annotations used in describing formulations:
 
 ### Waiting periods of some pesticides
 
-```{r}
+```{r pesticide-waiting-period}
 tribble(~"sn", ~"waiting_period (days)", ~"group", ~"common_name", 
         1, "1", "Bactericide", "Streptomycin sulphate + Tetracycline hydrochloride", 
         2, "3", "Botanical", "Azadirachtin, Metarhizium anisopliae, Pseudomonas flurescens", 
@@ -342,6 +342,16 @@ tribble(~"sn", ~"waiting_period (days)", ~"group", ~"common_name",
   kableExtra::column_spec(column = 1:4, c("4em", "6em", "6em", "20em"))
 ```
 
+### On environmental perspective, pesticides are of following types, based on bio-degradation
+
+1. Environmentally degradable/non-persistent:
+  - Dimethoate (Nuger, Roger, Dimet)
+  - Dichlorovos (Dum, Vapon)
+  - Fenitrothion (Folithion)
+  - Malathion
+2. Environmentally non-degradable/persistent:
+  - PoPs: Aldrin, chlordane, DDT, Dialdrin, Eldrin, Heptachlor, Mirex, Toxaphene, HCB, PCB, Dioxyn, Furan, etc.
+  - These pesticides require special treatment facility for disposal.
 
 ## Pathogenic Nematodes
 
@@ -535,7 +545,98 @@ Importance:
 
 1. Pink disease ( _Botryobasidium salmonicolor_)
 
+## Detection, isolation and media preparation for pathogen diagnosis and study
+
+In many cases the pathogen cannot be identified directly by visual observation because it is mixed with one or more contaminants, for these the isolation of the pathogen (whether bacterial or fungal) is necessary.
+
+If the identity of the pathogen is suspected or determined and a specific nutrient medium that allows only the growth of that pathogen is available, then the isolation of the particular pathogen is achieved by growing a small section of infected tissue on such medium.
+
+Preparation for isolation
+
+1. Sterilization of plastic items or glasswares, such as petri dish, test tubes, pipettes, by dry heat (\SIrange{150}{160}{\celsius} for an hour), or autoclaving, or by dipping for one minute or more in 70-80\% ethyl alcohol.
+2. Preparation of solution for surface treatment (with 0.5\% sodium hypochlorite) of the infected tissue sample to reduce surface contaminations.
+3. Preparation of culture media on which the isolated fungal or bacterial pathogen will grow.
+
+Most media contain an extract of a natural source of carbohydrates and other nutrients, such as potato, corn meal, lima bean, or malt extract, to which variable amounts of agar are added to solidify the medium and form a gel on or in which the pathogen can grow and be observed. The most commonly used media are potato dextrose agar (PDA), which is good for most, but not all fungi; water agar or glucose agar (1–3\% glucose in water agar) for separating some oomycetes (Pythium) and fungi (Fusarium) from bacteria; V-8 and other less rich media, which encourage fungal sporulation; and nutrient agar, which contains beef extract and peptone and is good for isolating bacterial plant pathogens. Fungi can also be separated in culture from bacteria by adding 1 or 2 drops of a 25% solution of lactic acid, which inhibits the growth of bacteria, to 10 milliliters of the medium before pouring it in the plate. Solutions of culture media are prepared in flasks, which are plugged and placed in an autoclave at \SI{120}{\celsius} and 15 pounds (6.8 kg) pressure for 20 minutes \ref{fig:culture-preparation}. Sterilized media are then allowed to cool somewhat and are subsequently poured from the flask into sterilized petri dishes, test tubes, or other appropriate containers.
+
+```{r culture-preparation, out.width="60%", fig.cap="Preparation of solid nutrient media"}
+knitr::include_graphics("./images/pathogen-media-preparation.png")
+```
+
+
+4. Sterilization of working table (with 10\% Clorox solution) and tools such as scalpels, forceps and needles.
+
+It should be noted that some groups of fungi, namely Erysiphales, causes of the powdery mildew diseases, and the oomycetes Peronosporaceae, causing downy mildews, are considered strictly obligate parasites and cannot be grown on culture media but can be grown on leaf-containing dishes. Fastidious phloem- and xylem-limited bacteria also either are impossible to grow in culture so far or must be grown on special complex nutrient media.
+
+Isolation may be done either from leaves, from stem, fruits, seeds, and other ariel plant parts or from roots, tubers, fleshy roots, and vegetable fruits in contact with soil.
+
+If the infection of the leaf is still in progress in the form of a fungal leaf spot or blight and if there are spores present on the surface, a few spores may be shaken loose over a petri plate containing culture medium or picked up at the point of a sterile needle or scalpel and placed on the surface of the culture medium. Also, infected tissues may be placed in a moist chamber to allow the pathogen to grow out on the tissue and then pick off spores and fruiting bodies and plate them out. If the fungus does grow in culture, isolated colonies of mycelium will appear in a few days as a result of germination of the added spores.
+
+The most common method, however, for isolating pathogens from infected leaves, as well as other plant parts, involves cutting several small sections 5 to 10 millimeters square from the margin of the infected lesion so that they contain both diseased and healthy-looking tissue. These are placed in one of the surface sterilant solutions, making sure that the surfaces get wet. After about 15 to 30 seconds, the sections are taken out aseptically one by one and at regular intervals (e.g., every 10–15 seconds) so that each of them has been surface sterilized for different times. The sections are then blotted dry on clean sterile paper towels or are washed in three changes of sterile water and are finally placed on the nutrient medium, usually three to five per dish. Those sections surface sterilized the shortest time usually contain contaminants along with the pathogen, whereas those surface sterilized the longest produce no growth at all because all organisms have been killed by the surface sterilant. Some of the sections left in the surface sterilant for intermediate periods of time, however, will allow only the pathogen to grow in culture in pure colonies. These colonies of the pathogen are then subcultured asceptically for further study.
+
+```{r pathogen-isolation, out.width="80%", fig.cap="Isolation of fungal pathogens from infected plant sample"}
+knitr::include_graphics("./images/pathogen-isolation.png")
+```
+
+## International Plant Protection Convention (IPCC)
+
+The International Plant Protection Convention (IPPC) is an international plant health agreement that aims to protect cultivated and wild plants by preventing the introduction and spread of pests. International travel and trade are greater than ever before. As people and commodities move around the world, organisms that present risks to plants travel with them.
+
+### Organization
+
+- There are over 180 contracting parties to the IPPC.
+- Each contracting party has a national plant protection organization (NPPO) and an Official IPPC contact point.
+- Nine regional plant protection organizations (RPPOs) work to facilitate the implementation of the IPPC in countries.
+- IPPC liaises with relevant international organizations to help build regional and national capacities.
+- The Secretariat is provided by the Food and Agriculture Organization of the United Nations (FAO).
+
 # Entomology
+
+Definition of pest encompasses anything that,
+
+- Competes with humnas, domestic animals, or desirable plants for food or water,
+- Injures humans, animals, desirable plants, structures, or possessions,
+- Spreads disease to human, domestic animals, wildlife, or desirable plants,
+- Annoys human or domestic animals.
+
+Types of pests include:
+
+- insects, such as roaches, termites, mosquitoes, aphids, beetles, fleas, and caterpillars.
+- insect-like organisms, such as mites, ticks, and spiders,
+- microbial organisms, such as bacteria, fungi, nematodes, viruses, and mycoplasmas,
+- weeds, which are any plants growing where they arc not wanted,
+- mollusks, such as snails, slugs, and shipworms, and
+- vertebrates, such as rats, mice, other rodents, birds, fish, and snakes.
+
+Categories of pests include:
+
+- continuous pests that arc nearly always present and require regular control.
+- sporadic. migratory, or cyclical pests that require control occasionally or intermittently.
+- potential pests that do not require control under normal conditions. but may require control in certain circumstances.
+
+Pest control goals can be one of the following:
+
+- prevention -- keeping a pest from becoming a problem.
+- suppression -- reducing pest numbers or damage to an acceptable level, and
+- eradication -- destroying an entire pest population.
+
+## Principles
+
+1. Most organisms are not pests. A species may be a pest in some situations and not in others.
+2. Accurate identification is the first step in an effective pest management program. Correct identification and understanding of a pest (life cycle, factors that influence it's development and spread), enable making efforts to minimize damage when it is most likely to harm and to identify best measures to that effect.
+3. Determination of pest control goal. Intervention is only appropriate when when the pest is causing or is expected to cause more harm than is reasonable to accept. In such circumstances, control strategy should be aimed to reduce the pest numbers to an acceptable level.
+4. Determination of threshold levels
+5. Continuous pest monitoring
+6. Use appropriate management strategies based on the goal which includes one or more of the following approaches,
+  - Natural control (Natural enemy, Geographical barriers, Food and water supply, Climate, Shelter)
+  - Applied control (Physical control, Mechanical control, Host resistance, Biological control, Cultural control, Chemical control)
+
+**Threshold Levels**
+
+Thresholds are the levels of pest populations at which you should take pest control action if you want to prevent the pests in an area from causing unacceptable injury or harm. Thresholds may be based on esthetic, health, or economic considerations. These levels, which are known as "action thresholds," have been determined for many pests.
+
+A threshold often is set at the level where the economic losses caused by pest damage, if the pest population continued to grow, would be greater than the cost of controlling the pests. These types of action thresholds sometimes are called "economic thresholds."
+
 
 ## Pesticide toxicity
 
@@ -599,26 +700,55 @@ tribble(~"Toxicity class", ~"Toxicity label", ~"Oral LD50 (mg/kg)", ~"Dermal LD5
   kableExtra::column_spec(1:5, width = c("6em", "6em", "8em", "8em", "8em", "8em"))
 ```
 
-Status of pesticide use in Nepal
+**WHO classification of pesticide by hazard (2009)**
 
-- Initially, DDT was imported in 1952 AD for control of Maleria.
-- For the same purpose, DDT was reimported in 1955 AD
+```{r pesticide-hazard-category-recent}
+tribble(~"Toxicity class", ~"Oral LD50 (mg/kg)", ~"Dermal LD50 (mg/kg)", 
+        "IA -- Extremely hazardous", "<5", "<50",
+        "IB -- Highly hazardous", "5-50", "50-200",
+        "II -- Moderately hazardous", "50-2000", "200-2000",
+        "III -- Slightly hazardous", ">2000", ">2000",
+        "IV -- Unlikely to present acute hazard", ">= 5000", ">=5000"
+        ) %>% 
+  kable(booktabs = TRUE, caption = "Categories of pesticide toxicity (WHO, 2009)") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(1:5, width = c("10em", "8em", "8em"))
+```
+
+### Status of pesticide use in Nepal
+
+- Initially, DDT was imported in 1952 AD for control of Malaria.
+- For the same purpose, DDT was reimported in 1955 AD.
 - For use in crops, DDT was imported in 1956 AD.
-- According to Thapa, 2003, average pesticide use in Nepal is 142 gm/ha.
+- Organochlorides were introduced in 1950s, organophosphates in 1960s, carbamates in 1970s and synthetic pyrethroids in 1980s, respectively.
+- Aggregate consumption of pesticides in Nepal is 396 g a.i. per hectare in 2014 AD which is increasing in recent years.
+- 90\% of the pesticides imported in Nepal is for vegetable which is 1400 gm ai per hectare.
+- There are 132 types of pesticides registered for use in Nepal. Nepal banned 24 pesticides till 2020.
+- The pesticide consumption is increasing by about 10-20\% per year, with more intensive use recorded in terai region, in districts such as Chitwan and Kathmandu, where there is greater commercial orientation.
 - In general, cropwise analysis of pesticide use signals alarming levels of residues, hence their current state of use being haphazard.
+- Thapa, 2003 ascribes following quantities of pesticide use in respective commodities:
   - Tea: 2100 gm/ha
   - Cotton: 2560 gm/ha
   - Vegetables: 1400 gm/ha
-  
-- On environmental perspective, pesticides are of following types, based on bio-degradation:
-  1. Environmentally degradable/non-persistent:
-    - Dimethoate (Nuger, Roger, Dimet)
-    - Dichlorovos (Dum, Vapon)
-    - Fenitrothion (Folithion)
-    - Malathion
-  2. Environmentally non-degradable/persistent:
-    - PoPs: Aldrin, chlordane, DDT, Dialdrin, Eldrin, Heptachlor, Mirex, Toxaphene, HCB, PCB, Dioxyn, Furan, etc.
-    - These pesticides require special treatment facility for disposal.
+
+Government of Nepal has currently enforced the Pesticide Management act, 2076 and regulations. The legal document prescribes framework for registration of pesticide, license for sales, distribution, storage, commercial use and spray as well as use and management of pesticides by different structure of government.
+
+The task of control, regulation, registration and management of the pesticides are assigned to two government bodies;
+
+1. Pesticides management committee (Chairmanship of secretary MoALD)
+2. Registration and management center (Plant Quarantine and Pesticide Management Committee)
+
+## Pesticide residue assessment
+
+### Rapid bioassay of pesticide residues (RBPR)
+
+This is a technique recently being used in Nepal in Kalimati Fruits and Vegetable Market to test the pesticide residue present in fruits and vegetables. ...
+
+
+
+## Pesticide poisoning
+
+
 
 ## Farmers' field school (FFS)
 
@@ -635,6 +765,97 @@ Integrated pest management (IPM) is the careful consideration of all available p
 
 These principles describe the main actions of IPM implementation through FFS. Specific processes that take into consideration the variation of each field and farm family backup each principle, so that management can be done on a field-by-field, season-by-season basis. IPM is not a "packaged technology", but also a decision-making process that is adopted by farmers and farming community it is gradually improved with greater ecological knowledge and observation skills.
 
+## Pest survey and surveillance
+
+### Survey
+
+An official procedure conducted over a defined period of time in a given area to determine if pest are present or not, and if present also the kind and characteristics of the prevalent pest is called survey.
+
+- Survey are phased, i.e. done only once to determine certain characteristic of a pest. for e.g., risk factors for a crop due to given pest at a certain point of time.
+- Surveys can also be classified as being either pest survey, commodity or host survey and targeted or random survey.
+
+### Surveillance
+
+Surveillance is the monitoring of the behavior or activities or other changing information. It refers to continuous observation of a place in order to gather information.
+
+There are 2 types of surveillance:
+
+1. General surveillance
+
+Useful means for National Plant Protection Organizations to gather pest information beyond specific surveys. It can be delivered in following ways:
+
+- undertake desktop reviews of scientific journals, publications and databases
+- deliver outreach and awareness campaigns to inform the audience about the target pests and ways in which they can assist
+- ensure mandatory reporting for agencies and institutions involved in scientific research and publication -- in some cases this may involve legislative obligations or cooperative agreements to report.
+
+General surveillance systems must comply with International Standards for Phytosanitary Measures (ISPM-8) (Determination of pest status in an area) validation process, and so require adequate screening, validation, data management and analysis to manage data before they are included in information management systems.
+
+2. Specific surveillance
+  - Detection survey: "Survey conducted in an area to determine if pests are present". Detection surveys are appropriate if a pest’s presence in an area is not known.
+  - Delimiting survey: "Survey conducted to establish the boundaries of an area considered to be infested by or free from a pest". Delimiting surveys are usually used to define the boundaries of spread for a new, invasive pest. A delimiting survey often precedes the implementation of an eradication programme. Delimiting surveys may also be useful for shipping commodities outside of the pest range for a pest of limited distribution.
+  - Monitoring survey: "Ongoing survey to verify the characteristics of a pest population". Monitoring surveys are appropriate to document changes in prevalence of a particular pest population over time and to assist with pest management.
+
+### Importance of pest surveillance
+
+- Detect and monitor pest threats in order to prevent their introduction and to manage them if they become present in the country -- this can be achieved by using:
+  - pest alerts
+  - unofficial and official information regarding the occurrence or changing status of a pest for which a pathway has been identified
+  - reports in the press
+  - scientific but unofficial reports
+  - published data
+- Maintain and enhance market access and international trade by collecting and providing current surveillance data on the status of pests associated with commodities that are being or will be traded
+- Gain the confidence of trading partners by ensuring the availability of current and reliable data on pest status in the country
+- Support the preparation and updating of regulated pest lists and technically justifiable import requirements
+- Put in place phytosanitary improvement measures in the context of national programmes, including those that relate to the establishment and maintenance of PFAs, pest free places of production (PFPPs), pest free production sites (PFPSs) and ALPPs where specific conditions must be met in order to support exports
+- Enhance food security and protect the environment through effective monitoring of threats to national plant resources.
+
+### Example survey design for target pest Pink Bollworm
+
+The pink bollworm moth, _Pectinophora gossypiella_ (Saunders) (Lepidoptera: Gelechiidae), is a globally important pest of cotton. Prevention, management and yield loss associated with pink bollworm costs cotton producers in the United States of America an estimated US$32million annually. Pink bollworm is capable of long-range migration and so cotton producing regions are at constant risk of infestation and reinfestation. Effective long-term surveillance is necessary to detect incursions and reduce the risk of establishment.
+
+#### Sampling and collection methods for adults
+
+- At planting, hang delta traps containing rubber septa impregnated with 4mg of gossyp-lure pheromone attractant around the perimeter of cotton fields at a rate of one trap per 4ha.
+- Inspect delta traps weekly for adult pink bollworm moths, until harvest or killing freeze. Record presence (and quantity) or absence
+
+#### Sampling for larvae
+
+- Select ten non-Bt cotton fields per 4856–6070ha at random and visually inspect the blooms for signs of pink bollworm larvae. If larvae are detected, collect specimens and preserve in 70percent ethanol to send out for expert identification.
+- Start at the bloom stage and continue weekly inspection through cut-out. Record presence (and quantity) or absence.
+
+#### Information mangement
+
+- Sampling data may be recorded on paper or by electronic means in the field, but should be permanently stored in a secure electronic database. The NPPO should establish procedures for generating reports from field survey data and disseminating reports to relevant parties.
+
+#### Occupational safety
+
+Field survey workers will need the following to safely perform their survey activities.
+- Basic first aid items, such as antiseptic wash, sterile bandages, pain reliever tablets and antihistamines.
+- A field communications plan to keep workers connected to base operations. This may include mobile telephones or radio communications.
+- Safe transportation to and from field sites.
+
+#### Stakeholder engagement
+
+Pink bollworm survey plans are best enacted with the cooperation of producer communities and government regulatory entities. Develop survey plans with cotton growers and create stakeholder buy-in through effective communication with the target audience.
+
+### Outline of methodologies for conducting survey/surveillance
+
+1. Standard operating procedures
+2. Sampling
+3. Trapping
+4. Sample screening
+5. Data collection and reporting
+6. Quality assurance
+
+### Use of specific surveys for different pest situation
+
+```{r specific-surveys-pest-situation, fig.cap="Use of specific surveys for different pest situations", out.width="80%"}
+knitr::include_graphics("./images/pest-specific-survey-situation.png")
+```
+
+(for a survey design (sample) of the pest Asian citrus psyllid and the corresponding disease Huanglongbing, as well as for potato cyst nematode, refer to Plant Pest Surveillance^[http://www.fao.org/3/ca3764en/CA3764EN.pdf]. 
+
+In addition, the guide contains protocols for pest sampling (with advantages /disadvantages and its methods), sample collection and sample submission (including sample preparation guideline for variants of pests and preservation medium).)
 
 ## Crop insects
 
@@ -668,50 +889,6 @@ These principles describe the main actions of IPM implementation through FFS. Sp
 
 ### Major insects of leguminous crops
 
-#### Soybean hairy caterpillar (Spilosoma obliqua)
-
-- Larvae is hairy with black and red hair (3-9 weeks)
-- Feeds gregariously in foliage upto 3rd instar and feeds whole foliage part of plant after 4th instar.
-- Adults have light yellow wings, larger spot in hind wings and small black spot in fore wings. They bear red abdomen.
-
-(...Continue from note copy)
-
-### Major insects of tomato
-
-#### Leaf miner of tomato ( _Tuta absoluta_)
-
-The tomato leafminer (aka. Tomato pinworm and South American tomato moth) is a species of moth in family Gelechiidae. _T. absoluta_ was originally described in 1917 by Meyrick as _Phthorimaea absoluta_. The pest was finally described under the genus Tuta as _T. absoluta_ by Povolny in 1994. In India, Maharashtra state tomato cultivation were affected in Nov 2016.
-
-Its life-cycle comprises four development stages: egg, larva, pupa and adult. Adults usually lay eggs on the underside of leaves or stems, and to a lesser extent on fruits. Adult female live 10-15 days and male live 6-7 days. 
-
-After hatching, young larvae penetrate leaves, aerial fruits (like tomato) or stems, on which they feed and develop. Larvae drop to the ground in a silken thread and pupate in soil. Pupae (length: 5–6 mm) are cylindrical in shape and greenish when just formed becoming darker in colour as they are near adult emergence. Adults are 6–7 mm in length and present filiform antennae and silver to grey scales. Black spots are present on anterior wings, and the females are wider and more voluminous than the males. The adult moth has a wingspan around 1 cm. In favorable weather conditions eight to ten generations can occur in a single year. 
-
-```{r tuta-larvae, out.width="60%"}
-knitr::include_graphics("./images/tuta_absoluta.jpeg")
-```
-
-
-The pest mainly presents nocturnal habits, and adults usually remain hidden during the day, showing greater morning-crepuscular activity with adults dispersing among crops by flying. Among a range of species within the Solanaceae, tomatoes ( _Lycopersicon esculentum_ Miller) appear to be the primary host of _T. absoluta_. 
-
-**Management**
-
-- Removing and destruction of infested plant parts. Tomato is the main host of the plant, but _T. absoluta_ also attacks other plants of the nightshade family -- Potato, eggplant, pepino, pepper and tobaccoo, including solanaceous weeds like _Datura stramonium_ and _S. nigrum_.
-- Deep ploughing in spring season followed by solarization of field.
-- Continuous irrigation and inundating of field can help prevent pupation.
-- Crop rotation
-- Use of exclusion net (especially in nursery condition); Mesh size of less than 1.6 mm is recommended.
-- Use of sticky trap and light traps and yellow delta trap are useful in monitoring of _T. absoluta_ populations.
-- Para-pheromone TLM lure in Wota-T traps. The para-pheromone traps are used to monitor the adult moths. 5 Wota-T traps/ropani or 1 light trap/ropani.
-- Quarantine measures
-- Neem based pesticides (Neem raj), Jholmol botanicals
-- Imidacloprid, Emamectin benzoate (KINGSTAR, EMAR), Chlorantaniliprole (ALLCORA and CORAGEN) 18.5% EC 1 ml per 3 ltr of water sprayed every 10-15 days, Spinosad (TRACER) 45% SC 1 ml per 3 ltr water sprayed every 10-15 days, Chlorpyriphos and Cypermethrin.
-- Chlorantaniliprole, Spinosad and Flubendiamide (ryanoid class) all have waiting period of 7 days, while Emamectin benzoate, ranked as Moderately hazardous has waiting period of 10 days.
-- _Bacillus thuringiensis kurstaki_ (1% WP 2 g per 1 ltr water sprayed every 7 days) have shown some efficiacy in controlling outbreaks of this moth. Similarly, _Metarrhizium anisopliae_ ($1 \times 10^8$ CFU per gram ) 200-250 gm per ropani can be used for soil treatment.
-
-**Monitoring of pest**
-
-Crop damage should be monitored every two weeks. If noted abnormal minining in the leaf, with signs of mesophyll tissues being eaten and transparent veins exposed, suspect for presence of larvae of the pest. Tips of plant should show black massess, an indication of insect excreta. Fruits may show irregular strips of white coloration initially. In severe infestation, whole plant may appear as wilted. The larvae of Tuta will not enter diapause unless food is scarce. It is identifiable with characteristic pink colored body of 0.9 cm having half crescent rings like appearance in head.
-
 ### Major insects of guava
 
 - Fruit fly ( _Dacus dorsalis_)
@@ -728,9 +905,251 @@ Crop damage should be monitored every two weeks. If noted abnormal minining in t
 1. Fruit borer ( _Cryptophlebia illepida_, _Rapala varuna_, _Deudorix epijarbas_, _Deudorix isocrates_)
 2. Fruit fly ( _Bactrocera dorsalis_)
 
+## Major insects of vegetables and fruits
+
+```{r major-insects-fruits-vegetables}
+tribble(
+  ~"crop_meta", ~"crop_group", ~"common_name", ~"scientific_name", ~"family", ~"control", ~"remark",
+  "Vegetable", "Cruciferous vegetables", "Cabbage butterfly", "Pieris brassicae", "Lepidoptera", "Dichlorovos 76 EC, Nuvan 1 ml, Malation 50\\% EC 2ml", NA,
+  "Vegetable", NA, "Diamond-back moth", "Plutella xylostella", "Lepidoptera", "DBM lure, Azadirachtin 0.003\\% EC, Beauveria bassiana, Emamectin benzoate, Cypermethrin 10\\% EC 2ml", NA,
+  "Vegetable", NA, "Tobaccoo caterpillar", "Spodoptera litura", "Lepidoptera", "Spodo-lure", NA,
+  "Vegetable", NA, "Mustard aphid", "Lipaphis erysimi", "Homoptera", "Augmentation of natural predators Lady bird beetle (Coccinella septumpunctata) and Syrphid fly; Malathion 50 EC 1.5-2 ml per liter of water", NA,
+  "Vegetable", NA, "Mustard sawfly", "Athalia lugens", "Hymenoptera", "Summer ploughing", NA,
+  "Vegetable", NA, "Cutworm", "Agrotis ipsilon, A. segetum", "Lepidoptera", NA, NA,
+  "Vegetable", NA, "Flea beetle", "Phyllotreta cruciferae", "Coleoptera", NA, NA,
+  "Vegetable", NA, "Semi looper", "Thysanoplusia orichalcea", "Lepidoptera", NA, NA,
+  "Vegetable", "Cucurbit crops", "Re pumpkin beetle", "Aulacophora foevicolis", "Coleoptera", NA, NA,
+  "Vegetable", NA, "Cucurbit stink bug", "Cordius janus", "Hemiptera", NA, NA,
+  "Vegetable", NA, "Pumpkin fruit fly", "Bactrocera cucurbitae", "Diptera", NA, NA,
+  "Vegetable", NA, "Spotted beetle", "Epilachna vigintioctopunctata", "Coleoptera", NA, NA,
+  "Vegetable", NA, "Cutworm, Semi-looper, Flea beetle, Aphid, White fly, Stem boring beetle, Banded blister beetle", "Mylabris orientalis", NA, NA, "Minior insects",
+  "Vegetable", "Tomato", "Tomato fruit borer", "Helicoverpa armigera", "Lepidoptera", NA, NA,
+  "Vegetable", "Potato", "Potato tuber moth", "Phthorimaea operculella", "Lepidoptera", NA, NA,
+  "Vegetable", "Potato", "Red ant", "Dorylus orientalis", "Hymenoptera", NA, NA,
+  "Vegetable", "Potato", "Silver white fly", "Bemisia tabaci", "Homoptera", NA, "Variants of white flies of economic importance are: Aleurocanthus woglumi (citrus blackfly), which, in spite of its color, is a whitefly that attacks citrus. Aleyrodes proletella (cabbage whitefly), is a pest of various Brassica crops. Trialeurodes vaporariorum (greenhouse whitefly), a major pest of greenhouse fruit, vegetables, and ornamentals.",
+  "Vegetable", "Tomato", "Jassid", "Amarasca biguttula", "Hemiptera", NA, NA,
+  "Vegetable", "Solanaceous crops", "Aphid", "Aphis gossypii, Myzus persicae", "Hemiptera", NA, NA,
+  "Vegetable", "Solanaceous crops", "Pea leaf miner", "Liriomyza huidobrensis", "Agromyzidae", NA, NA,
+  "Vegetable", "Tomato", "Tomato leaf miner", "Tuta absoluta", "Lepidoptera", NA, NA,
+  "Vegetable", "Solanaceous crops", "Cutworm, Spotted beetle, White grub, Wireworm, Tobaccoo caterpillar, Flea beetle, Soybean, Hairy caterpillar", NA, NA, NA, "Minor insects",
+  "Vegetable", "Brinjal", "Shoot and fruit borer", "Leucinodes orbonalis", "Lepidoptera", NA, NA,
+  "Vegetable", NA, "Leaf folder", "Eublemma olivacea", "Lepidoptera", NA, NA,
+  "Vegetable", NA, "Leaf webber", "Herpetogramma bipuncatalis", "Lepidoptera", NA, NA,
+  "Vegetable", NA, "Spotted beetle", "Epilachna vigintioctopunctata", "Coleoptera", NA, NA,
+  "Vegetable", NA, "Aphid, Cotton jassid, Tobaccoo caterpillar, Soybean hairy caterpillar, White fly, Green semilooper, Grasshopper, Red ant, White grub", NA, NA, NA, "Minor insects",
+  "Vegetable", "Cotton", "American bollworm/Fruit borer", "Helicoverpa armigera", "Noctuidae", NA, "Bolls how regular, circular bore holes; A single larvae can damage 30-40 bolls; Inundative release of egg parasitoid, Trichogramma spp., at 6.25 cc/ha at 15 days interval, 3 times from 45 DAS; Releasing of predator Chrysoperla carnea 100000/ha at 6th, 13th and 14th week after sowing; During bolling and maturation apply one of the following (1000 liter per hectare spray): Quinalphos 25EC 2.0 liter per hectare, Carbaryl 50 WP 2.5 kg per hectare, Cypermethrin 10 EC 600-800 ml per hectare.",
+  "Vegetable", "Cotton", "Pink bollworm", "Pectinophora gossypiella", "Lepidoptera (Gelechiidae)", NA, NA,
+  "Vegetable", "Cotton", "Spotted bollworm", "Earias vittella", "Lepidoptera (Noctuidae)", NA, NA,
+  "Vegetable", "Cotton", "Tobaccoo cutworm", "Spodoptera litura", "Lepidoptera (Noctuidae)", NA, NA,
+  "Vegetable", "Cotton", "Cotton aphid", "Aphis gossypii", "Hemiptera (Aphididae)", NA, NA,
+  "Vegetable", "Cotton", "Thrips", "Thrips tabaci", "Thysanoptera", NA, NA,
+  "Vegetable", "Cotton", "White fly", "Bemisia tabaci", "Hemiptera (Aleyrodidae)", NA, NA,
+  "Vegetable", "Cotton", "Red cotton bug", "Dysdercus cingulatus", "Hemiptera (Pyrrhocoridae)", NA, NA,
+  "Fruit", "Citrus", "Citrus psylla", "Diaphorina citri", "Hemiptera", NA, NA,
+  "Fruit", "Citrus", "Oriental fruit fly", "Bactocera dorsalis", "Diptera (Tephritidae)", NA, NA,
+  "Fruit", "Citrus", "Stink bug", "Rhynchocoris poseidon", "Hemiptera", NA, NA,
+  "Fruit", "Citrus", "Red scale", "Aonideiella aurantii", "Hemiptera", NA, NA,
+  "Fruit", "Citrus", "Citrus aphid", "Toxoptera citricidus", "Hemiptera", NA, NA,
+  "Fruit", "Citrus", "Orange stem borer", "Stomatimum barbatum", "Coleoptera", NA, NA,
+  "Fruit", "Citrus", "Citrus mealy bug", "Planococcus citri", "Hemiptera", NA, NA,
+  "Fruit", "Banana", "Rhizome weevil", "Cosmopolites sordidus", "Coleoptera", NA, NA,
+  "Fruit", "Banana", "Pseudostem weevil", "Odoiporus longicollis", "Coleoptera", NA, NA,
+  "Fruit", "Banana", "Skipper", "Erionata thrax thrax", "Lepidoptera", NA, NA,
+  "Fruit", "Banana", "Leaf and fruit scarring beetle", "Nodostoma viridipennis", "Coleoptera", NA, NA,
+  "Fruit", "Banana", "Aphid", "Pentalonia nigronervosa", "Hemiptera", NA, NA,
+  "Fruit", "Banana", "Lace-wing bug", "Stephanitis typica", "Hemiptera", NA, NA,
+  "Fruit", "Banana", "Fruit fly", "Bactrocera musae", "Hemiptera (Tephritidae)", NA, NA,
+  "Fruit", "Mango", "Hopper", "Idioscopus nitidulus", "Hemiptera (Cicadellidae)", NA, NA,
+  "Fruit", "Mango", "Fruit fly", "Bactrocera dorsalis", "Hemiptera (Tephritidae)", NA, NA,
+  "Fruit", "Mango", "Mealy bug", "Drosicha mangiferae", "Hemiptera", NA, NA,
+  "Fruit", "Mango", "Stem borer", "Bactrocera rufomaculata", "Coleoptera", NA, NA,
+  "Fruit", "Mango", "Leaf webber", "Orthaga spp.", "Lepidoptera", NA, NA,
+  "Fruit", "Mango", "Stone weevil", "Sternochetus mangiferae", "Coleoptera", NA, NA,
+  "Fruit", "Mango", "Gall psyllid", "Apsylla cistella", "Hemiptera", NA, NA,
+  "Fruit", "Mango", "Slug caterpillar, Mango leaf cutting weevil", NA, NA, NA, NA,
+  "Fruit", "Peach", "Tent caterpillar", "Malacosoma indicum", "Lepidoptera", NA, "Also affects apricot and walnut",
+  "Fruit", "Apple", "Wolly aphid", "Eriosoma langierum", "Hemiptera", NA, NA,
+  "Fruit", "Apple", "San jose scale", "Quadraspidiotus perniciosus", "Hemiptera", NA, NA,
+  "Fruit", "Apple", "Stem borer", "Apriona cinera", "Coleoptera", NA, NA,
+  "Fruit", "Apple", "Root borer", "Dorysthenes hugeli", "Coleoptera", NA, NA,
+  "Fruit", "Apple", "Codling moth", "Cydia pomonella", "Lepidoptera", NA, NA,
+  "Fruit", "Peach", "Leaf curl aphid", "Brachycaudia helichrysi", "Hemiptera", NA, NA,
+  NA, "Coffee", "White stem borer", "Xylotrechus quadripes", "Coleoptera", NA, NA,
+  NA, "Coffee", "Berry borer", "Hypothenemus hampei", "Coleoptera", NA, NA,
+  NA, "Coffee", "Shoot-hole borer", "Xylosandrus compactus", "Coleoptera", NA, NA,
+  NA, "Coffee", "Stripped mealy bug", "Ferrisia virgata", "Hemiptera", NA, NA,
+  NA, "Coffee", "Helmet scale", "Saissetia coffeae", "Hemiptera", NA, NA,
+  NA, "Coffee", "Gren bug", "Coccus viridis", "Hemiptera", NA, NA,
+  NA, "Tea", "Mosquito/Plant bug", "Belopeltis theivora", "Hemiptera", NA, NA,
+  NA, "Tea", "Red spider mite", "Oligonychus coffeae", "Acarina", NA, NA,
+  NA, "Tea", "Scarlet mite", "Brevipalpus phoenicis", "Acarina", NA, NA,
+  NA, "Tea", "Purple mite", "Calacarus carinatus", "Acarina", NA, NA,
+  "Storage", "Storage pests", "Rice weevil", "Sitophus oryzae", "Coleoptera (Curculionidae)", NA, NA,
+  "Storage", NA, "Maize weevil", "Sitophus zeamais", "Coleoptera (Curculionidae)", NA, NA,
+  "Storage", NA, "Angoumois grain moth", "Sitotroga cerealella", "Lepidoptera (Gelechiidae)", NA, NA,
+  "Storage", NA, "Lesser grain borer", "Rhizopertha dominica", "Coleoptera (Bostrichidae)", NA, NA,
+  "Storage", NA, "Rice moth", "Corcyra cephalonica", "Lepidoptera (Pyralidae)", NA, NA,
+  "Storage", NA, "Khapra beetle", "Trogoderma granarium", "Coleoptera (Dermastidae)", NA, NA,
+  "Storage", NA, "Pulse beetle", "Callosobruchus chinensis", "Coleoptera (Bruchidae)", NA, NA,
+  "Storage", NA, "Cowpea beetle", "Callosobruchus maculates", "Coleoptera (Bruchidae)", NA, NA,
+  "Storage", NA, "Rust red flour beetle", "Tribolium castaneum", "Coleoptera (Tenebrionidae)", NA, NA,
+  "Storage", NA, "Confused flour beetle", "Tribolium confusum", "Coleoptera (Tenebrionidae)", NA, NA,
+  "Storage", NA, "Warehouse moth", "Ephestia cautella", "Lepidoptera (Pyralidae)", NA, NA,
+  "Storage", NA, "Indian meal moth", "Plodia interpunctella", "Lepidoptera (Phycitidae)", NA, NA,
+  "Storage", NA, "Bean weevil", "Acanthoscelides obtectus", "Coleoptera (Bruchidae)", NA, NA,
+  "Storage", NA, "Granary weevil", "Sitophilus granaries", "Coleoptera (Curculionidae)", NA, NA
+) %>% 
+  tidyr::fill(crop_group, .direction = "down") %>% 
+  arrange(crop_meta, crop_group) %>%
+  select(-1) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Insect pests of fruits and vegetables", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped") %>% # do not set font here because it is already set above
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:6, width = paste0(c(5, 6, 12, 6, 12, 14), "em")) %>% 
+  kableExtra::landscape(margin = "1.25cm")
+```
+
+For major insects of cereal, legume and commercial crops, refer to earlier section.
+
+**Nature of their damage**
+
+```{r insects-damage}
+tribble(
+  ~"Damaged part", ~"Insect", ~"Scientific name",
+  "Leaf", "Rice ear cutting caterpillar", "Mythimna seperata",
+  "Leaf", "Rice swarming caterpillar", "Spodoptera mauritia",
+  "Leaf", "Rice leaf folder", "Cnaphalocrosis medinalis",
+  "Leaf", "Rice caseworm", "Nymphyla dpunctalis",
+  "Leaf", "Rice grasshopper", "Hyeroglyphus banian",
+  "Leaf", "Rice hispa", "Dickladispa armigera",
+  "Leaf", "Field cricket", "Gryllus bimaculatus",
+  "Stem", "Yellow stem borer", "Scripophaga incertulus",
+  "Stem", "Rice pink borer", "Sesamia inferens",
+  "Stem", "Gall midge", "Orselolia oryzae",
+  "Stem", "Striped stem borer", "Chilo partellus",
+  "Tender shoots", "Brown plant hopper", "Nilaparvata lugens",
+  "Tender shoots", "Rice thrips", "Stenochaetothrips biformis",
+  "Tender shoots", "Green leaf hopper", "Nephotettix virisens",
+  "Root", "Mole cricket", "Gryllotalpa africana",
+  "Grain, flower", "Rice earhead bug", "Leptocorisa oratorious",
+  "Grain, flower", "Flower/pollen beetle", "Chiloloba acuta"
+) %>% 
+  mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major insects of rice and nature of their damange", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "10em"))
+```
+
+
+## Description of major insects
+
+### Pink bollworm ( _Pectinophora gossypiella_)
+
+- Notorious chewing type insect of cotton in all cotton growing areas.
+
+**Symptoms of damage**
+
+- Rosetted flowers
+- The holes of entry plugged by excreta of larvae which are feeding inside the seed kernels. Larvae cut window holes (interlocular burrowing) in the two adjoining seeds thereby forming 'double seeds'.
+- The attacked buds and immature bolls drop off.
+- Discolored lint and burrowed seeds.
+
+**Identification**
+
+Larvae
+
+- Shows color variation, however, young larvae are white and late instar are mostly black, brown, green to pale or pink.
+- Several dark and light alternating bands running the entire length
+
+Adult
+
+- Forewings are brown or dull yellow olive grey with dark spots.
+- Hindwing margins are deeply fringed.
+
+**Management**
+
+- Clean cultivation and destruction of crop residues (fallen leaves, twigs, ets. before the onset of season)
+- Plough deeply to expose the hibernating larvae/pupae.
+- Avoid late sowing of the crop. Early sowing helps in early maturity, facilitating escape.
+- Witholding irrigation water to avoid prolonged late boll production/formation to reduce the build up of over-wintering population.
+- Acid delinting of cotton seeds.
+- Release of egg parasitoids, _Trichogramma chilonis_ or _E. Johnstoni_.
+- Spray Triazophos 40 EC 2.5 liter per hectare and Quinalphos 20\% AF in alternation even after 100 DAS.
+
+### Cotton Jassid/Leafhopper ( _Amrasca biguttula biguttula_; Family: Cicadellidae)
+
+- It is a major insect of Cotton, Okra and Sunflower.
+- The adult cotton jassid is about 2.6 mm (0.1 in) in length, yellowish-green, with a conspicuous black spot on either side of the head and another near the tip of the fore wing. The head is pale green and the membranous wings transparent and iridescent. On leaf surfaces, the insect tends to move about diagonally, and when disturbed it immediately jumps and flies away.
+
+**Symptoms of damage**
+
+- Tender leaves become yellow, curl-up and fall off.
+- The insects also secrete honeydew, and sooty mould often grows on this, restricting the amount of light reaching the plant's photosynthetic surfaces and reducing the yield.
+- In severe infestation, leaves get a bronze or brick red color which is typical "hopper burn" symptom.
+- The margin of the leaves get broken and crumble into pieces when crushed.
+
+**Management**
+
+- Seed treatment with Imidacloprid 70 WS at \SI{7}{\gram\per\kilo\gram} to protect upto 8 weeks (for cotton).
+- Early sowing and closer spacing of cotton reduces pest infestation.
+- Neem oil formulation \@ 0.5\% thrice at fortnightly intervals.
+- Spray any one of the following insecticides (500 liter per hectare spray):
+  - Imidacloprid 200 SL at 100 ml/ha
+  - Methyl demeton 25 EC 500 ml/ha
+  - Dimethoate 30 EC 500 ml/ha
+  - Phosphamidon 40 SL 600 ml/ha
+
+### Whitefly ( _Bemisia tabaci_; Family: Aleyrodidae)]
+
+- Also referred to as sweet potato whitefly, it is found world-wide -- tropics, subtropics and less predominantly in temperate habitats.
+
+**Life cycle**
+
+Female _B. tabaci_ will lay 50-400 eggs ranging from 0.10 mm - 0.25 mm on the under part of leaves. Female whiteflies are diploid and emerge from fertilized eggs whereas male whiteflies are haploid and emerge from unfertilized eggs. Eggs are laid in groups, being small in size with dimensions of 0.2 mm wide and 0.1 mm in height. Eggs are initially whitish in color and change to a brown color near hatching, within 5 to 7 days. After hatching, the whitefly nymph develops through four instar stages.
+
+The first instar, commonly called a crawler, is the only mobile nymphal stage. The first instar nymph can grow to about 0.3 mm and is greenish in color and flat in body structure. The next three instars remain in place for 40–50 days, until molting into an adult. Silver exuvia, or shed skins are left on the leaves. The immobile instars appear opaquely white. Nymphs feed by stabbing into the plant with their mouth-parts and sucking up plant juices. Adult whiteflies are approximately four times the size of the egg, with light yellow bodies and white wings, which is attributed by the secretion of wax across its wings and body. Adult silverleaf whiteflies can reach up to 0.9 mm in length. 
+
+**Symptoms of damage**
+
+- Causes damage to plants through feeding and transmitting plant diseases.
+- Feeds on its host plants by piercing the phloem or lower leaf surfaces with its mouth and removing nutrients. Affected areas of the plant may develop chlorotic spots, whither, or drop leaves. 
+- Whiteflies also produce a sticky substance called honeydew, which can induce the growth of sooty molds, which can then reduce the plants ability to absorb light. This results in slower growth, lower yield, and poor quality plants. It also requires that crops be thoroughly washed after harvesting.
+- It transmits gemniviruses including,
+  - _lettuce infectious yellows virus_
+  - _tomato yellow leaf curl virus_
+  - _African cassava mosaic virus_
+  - _Cassava brown streak virus_
+- It has been known to cause silverleaf on squash, irregular ripening of tomatoes, whitestalk in broccoli and cauliflower, white stem in poinsettia, and light root in carrots.
+
+**Management**
+
+- Growing cotton only once a year either in winter or summer season.
+- Adopting crop rotation with non-preferred host such as sorghum, ragi, and maize.
+- Removal and destruction of alternate weed hosts like _Abutilon indicum_, _Chrozophore rottlari_ and _Solanum nigrum_
+- Timely sowing with recommended spacing, preferably with wider spacing.
+- Field sanitation and proper monitoring of pest activites.
+- Cultivation of preferred alternate hosts like brinjal, okra and sunflower should be avoided.
+- Yellow pan traps and sticky traps \@ 12 per hectare.
+- Collection and destruction of whitefly infested leaves from the plants.
+- Spray any one of the following plant products alone or in combination with the recommended dose of insecticide (\@ 2 ml per liter of water),
+  - Neem seed kernal extract 5\% (50 kg), Neem oil \@ 5 ml per liter of water
+  - Fish oil rosin soap \@ 25 mg per liter
+  - Catharanthus rosea extract 5\%
+- In early stages, spray one of the following (\@ 500 liter per hectare of spray),
+  - Methyl demeton 25 EC 500 ml
+  - Phosphamidon 40SL 600 ml per hectare
+- Spray any one of the following in mid and late stages (1000 liter per hectare of spray),
+  - Phosalone 35 EC at 2.5 liter per hectare
+  - Quinalphos 25 EC at 2.0 liter per hectare
+  - Triazophos 40 EC 2.0 liter per hectare
+  - Acephate 75 SP 1.3 kg per hectare
+- Predators, parasitoids, and pathogens specific to whiteflies can keep populations under control. Predator families include Phytoseiidae, Coccinellidae, Syrphidae, Anthocoridae, Nabidae, and Miridae, Chrysopidae and Coniopterygidae.
+
 ### Fall armyworm (FAW)
 
-The FAW life cycle is completed in 28-48 days depending on temperature and food availability but in laboratory conditions it has been observed to complete in 27-32 days at average daily temperature of $27^\circ$ C. Heavy rainfalls are reported to break the life cycle of FAW. The insect is not reported to have the ability to diapause.
+The FAW life cycle is completed in 28-48 days depending on temperature and food availability but in laboratory conditions it has been observed to complete in 27-32 days at average daily temperature of \SI{27}{\celsius}. Heavy rainfalls are reported to break the life cycle of FAW. The insect is not reported to have the ability to diapause.
 
 In Nepal, considering the low winter temperatures, migratory FAW are supposed to arrive if allowed by conducive environmental conditions.
 
@@ -816,12 +1235,75 @@ _Ladder pattern_
 2. Parasitoids (*Telenomus remus*, *Chelonus insularis*, *Cotesia marginiventris*, *Trichogramma* spp., Fly parasitoids: *Archytas*, *Winthemia*, *Lespesia*)
 3. Parasites and microbial pathogens (NPV, MNPV, BT, *Nomuraea rileyi*, Entomopathogenic nematodes (*Heterorhabditis, Steinernema*))
 
+
+
 **Botanicals and indigenous management options**
 
 - Use of local botanicals (neem, hot pepper, titepati, timur and other plant extracts) act as antifeedant and repellant against FAW.
 - Sugary sprays, oil, "fish soup" or other materials can also be used to attract ants and wasps to the maize plants.
 
 **Use of chemical pesticides**
+
+### Soybean hairy caterpillar ( _Spilosoma obliqua_)
+
+- Eggs are laid in cluster on the under side of leaves.
+- Larvae is hairy with black and red hair (3-9 weeks).
+- Feeds gregariously in foliage upto 3rd instar and feeds whole foliage part of plant after 4th instar.
+- Adults have light yellow wings, larger spot in hind wings and small black spot in fore wings. They bear red abdomen.
+
+**Symptoms of damage**
+
+- Young larvae feed gregariously on chlorophyll mostly on the under surface of the leaves, due to which the leaves look like brownish-yellow in colour.
+- In later stages the larvae eat the leaves from the margin.
+- The leaves of the plant give an appearance of net or web
+
+**Management**
+
+- Deep summer ploughing.
+- Avoid pre monsoon sowing.
+- Use optimum seed rate.
+- Adequate plant spacing should be provided
+- Intercrop soybean either with (early maturing) pigeon pea variety or maize or sorghum in the sequence of 4:2 should be practiced.
+- Collect & destroy infested plant parts, egg masses and young larvae.
+- Field Sanitation: Remove the infested plant parts at least once in 10 days and bury them in compost pit to monitor and reduce the population.
+- Light Trap: Install one light trap (200W mercury vapour lamp) per hectare to catch the adults of some nocturnal pests such as hairy caterpillar (positively phototropic).
+- Apply Chlorpyriphos 20 EC \@ 1.5 lit/ha or trizophos 40 EC \@ 0.8 Lit/ha or quinalphos 25 EC \@ 1.5 lit/ha.
+- Dust Chlorpyriphos 1.5% DP quinalphos 1.5% \@ 25kg/ha when the population is likely to reach 10/m row length (ETL). Repeat it as needed.
+
+### Leaf miner of tomato ( _Tuta absoluta_)
+
+The tomato leafminer (aka. Tomato pinworm and South American tomato moth) is a species of moth in family Gelechiidae. _T. absoluta_ was originally described in 1917 by Meyrick as _Phthorimaea absoluta_. The pest was finally described under the genus Tuta as _T. absoluta_ by Povolny in 1994. In India, Maharashtra state tomato cultivation were affected in Nov 2016.
+
+Its life-cycle comprises four development stages: egg, larva, pupa and adult. Adults usually lay eggs on the underside of leaves or stems, and to a lesser extent on fruits. Adult female live 10-15 days and male live 6-7 days. 
+
+After hatching, young larvae penetrate leaves, aerial fruits (like tomato) or stems, on which they feed and develop. Larvae drop to the ground in a silken thread and pupate in soil. Pupae (length: 5–6 mm) are cylindrical in shape and greenish when just formed becoming darker in colour as they are near adult emergence. Adults are 6–7 mm in length and present filiform antennae and silver to grey scales. Black spots are present on anterior wings, and the females are wider and more voluminous than the males. The adult moth has a wingspan around 1 cm. In favorable weather conditions eight to ten generations can occur in a single year. 
+
+```{r tuta-larvae, out.width="60%"}
+knitr::include_graphics("./images/tuta_absoluta.jpeg")
+```
+
+
+The pest mainly presents nocturnal habits, and adults usually remain hidden during the day, showing greater morning-crepuscular activity with adults dispersing among crops by flying. Among a range of species within the Solanaceae, tomatoes ( _Lycopersicon esculentum_ Miller) appear to be the primary host of _T. absoluta_. 
+
+**Management**
+
+- Removing and destruction of infested plant parts. Tomato is the main host of the plant, but _T. absoluta_ also attacks other plants of the nightshade family -- Potato, eggplant, pepino, pepper and tobaccoo, including solanaceous weeds like _Datura stramonium_ and _S. nigrum_.
+- Deep ploughing in spring season followed by solarization of field.
+- Continuous irrigation and inundating of field can help prevent pupation.
+- Crop rotation
+- Use of exclusion net (especially in nursery condition); Mesh size of less than 1.6 mm is recommended.
+- Use of sticky trap and light traps and yellow delta trap are useful in monitoring of _T. absoluta_ populations.
+- Para-pheromone TLM lure in Wota-T traps. The para-pheromone traps are used to monitor the adult moths. 5 Wota-T traps/ropani or 1 light trap/ropani.
+- Quarantine measures
+- Neem based pesticides (Neem raj), Jholmol botanicals
+- Imidacloprid, Emamectin benzoate (KINGSTAR, EMAR), Chlorantaniliprole (ALLCORA and CORAGEN) 18.5% EC 1 ml per 3 ltr of water sprayed every 10-15 days, Spinosad (TRACER) 45% SC 1 ml per 3 ltr water sprayed every 10-15 days, Chlorpyriphos and Cypermethrin.
+- Chlorantaniliprole, Spinosad and Flubendiamide (ryanoid class) all have waiting period of 7 days, while Emamectin benzoate, ranked as Moderately hazardous has waiting period of 10 days.
+- _Bacillus thuringiensis kurstaki_ (1% WP 2 g per 1 ltr water sprayed every 7 days) have shown some efficiacy in controlling outbreaks of this moth. Similarly, _Metarrhizium anisopliae_ ($1 \times 10^8$ CFU per gram ) 200-250 gm per ropani can be used for soil treatment.
+
+**Monitoring of pest**
+
+Crop damage should be monitored every two weeks. If noted abnormal minining in the leaf, with signs of mesophyll tissues being eaten and transparent veins exposed, suspect for presence of larvae of the pest. Tips of plant should show black massess, an indication of insect excreta. Fruits may show irregular strips of white coloration initially. In severe infestation, whole plant may appear as wilted. The larvae of Tuta will not enter diapause unless food is scarce. It is identifiable with characteristic pink colored body of 0.9 cm having half crescent rings like appearance in head.
+
 
 ## Pesticide and use registration in Nepal
 
@@ -1035,12 +1517,57 @@ Pyrethroid, endosulfan, organophosphate and carbamate insecticides created a res
 - National Agriculture Extension Strategy (2006) of Department of Agriculture (DOA) has also given priority to IPM-FFS model. 
 - Support to National IPM-FFS program (SNIPM) Phase-II (2008-2012)
 
-### IPM techniques in pest control
+## IPM techniques in pest control
 
-1. Cropping system change
-2. Mechanical control
+1. Cultural method
 
-#### Some traps used in pest monitoring and control
+- Sanitation and good husbandry
+- Tillage
+- Crop rotation
+- Use of manure and fertilizer
+- Proper timing of sowing and harvesting
+  - Yellow stem borer and mustard aphid damage increase if harvest is delayed
+- Procuring pest free seeds
+- Use of resistant varieties; 
+
+```{r resistant-varieties}
+tribble(
+  ~"Crop", ~"Variety", ~"Tolerance against",
+  "Okra", "Pusa sawani", "Shoot and fruit borer",
+  "Rice", "IR-8, IR-20", "Plant hopper, stem borer",
+  "Apple", "Winter majestin", "Wooly aphid",
+  "Grape", "American varieties", "Phylloxera spp.",
+  "Wheat", "Pawnce, Ponea, Ottawa", "Hessian fly"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Some varieties and cultivar of crops noted for tolerate to insect damage", longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(1:3, width = c("4em", "10em", "12em"))
+```
+
+- Non-preference, antibiosis, tolerance
+- Plant-spacing
+- Crop location
+
+### Physical control
+
+- Manipulation of temperature: High temperature, burning, low temperature
+- Manipulation of moisture: Draining of moisture, grain drying
+- Manipulation of light
+  - Insects are attracted to the light of wavelength \SI{3650}{\angstrom},
+  - Ultraviolet lamps may be used,
+  - Yellow or red unattractive lamps may be used
+- Use of radiant energy: Cobalt-60 sourced gamma radiation may be used to sterilize pupae of screw-worm fly
+- Use of sound wave
+
+### Mechanical control
+
+Broadly, mechanical method of control includes following measures:
+
+*Destruction*: Handpicking, shaking, beating, sieving and winnowing.
+
+*Exclusion*: Banding, wrapping of fruits, wire gauge screening, trench digging, covering materials, pest smashing/collecting devices, use of water barrier, trapping.
+
+**Some traps used in pest monitoring and control**
 
 ```{r pest-traps}
 tribble(
@@ -1063,7 +1590,7 @@ tribble(
 knitr::include_graphics("./images/pheromone_traps.png")
 ```
 
-#### Some pheromone based traps and lures
+**Some pheromone based traps and lures**
 
 ```{r pheromone-lures}
 tribble(
@@ -1082,17 +1609,208 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Some commonly used phenomone traps and lures for respective crops", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:4, width = c("5em", "6em", "8em", "8em"))
+  kableExtra::column_spec(column = 1:4, width = c("3em", "8em", "10em", "12em"))
 ```
 
-3. Biological control
 
-- Tabulate ... botanicals (Azadirachtin, Bt, Pseudomonas ...)
+### Biological control
+
+#### Insect predators
+
+- Insects of the family Coccinellidae feed on Aphids, scale insects and mealy bugs
+  - 2 spotted lady-beetle: _Adalla bipunctata_
+  - 7 spotted lady-beetle: _Coccinella septumpunctata_
+  - 9 spotted lady-beetle: _Coccinella novenpunctata_
+  - Vadalia beetle: _Rodolia cardinalis_
+
+- Mantids prey on smaller insects
+- Syrphid fly predate on maggots and aphids
+- Cicindellidae (Cicindella sexgutata) predate on rice earhead bug
+- Lebellulidae: Naids feed on mosquito larvae
+- Insects of family Chrysopidae feed on Aphids, scales, mealybugs and mites
+- Crabidae
+- Lampyridae
+- Reduvidae
+- _Xanthopimpla predator_ (Ichuenumonidae) predate on pupae of _Chilo partellus_
+
+**Insect parasites**
+
+- _Trichogramma minutum_ (Trichogrammatidae) and _Apantales flavipes_ (Braconidae) lay eggs on larvae of _Chilo partellus_
+- _Tricholyga sorbillans_, _T. bomycis_ (Tachinidae)
+
+**Nematode**: _Neoaplectema carpocarpsae_ parasite of codling moth
+
+**Protozoa**: _Nosema bombycis_, _Farinocystis tribolii_
+
+**Fungi**
+
+- Aspergillus
+- Beauveria
+- Metarhizium anisopliae
+- Spicaria
+- Entomophthora lecanii
+- Entomophthora sphaerosperma
+- Coccus viridis
+
+**Bacterial**
+
+- Bacillus thuringiensis is effective against, _Heliocoverpa armigera_, _Pieries brassicae_, _Hellula undalis_, _Plodia interpunctella_ and _Tribolium confusum_
+
+**Virus**
+
+- NPV (Borrelina virus) is effective against Alfalfa caterpilla, Cabbage loper ( _Trichoplusia ni_), Tobaccoo caterpillar/Beet armyworm ( _Spodoptera litura_, _Spodoptera exigua_), _Heliothis zea_, Diamond back moth ( _Plutella xylostella_).
+- Granulosis virus (Bergoldia virus) is effective against Potato tuber moth ( _Gnoremoschema opercullela_), Codling moth
+
+- _Rhizoctonia solanii_ and _Didymella exitalis_ putrates kills hyphal cells of Ophiobolus graminis (Fungal pathogen of wheat)
 
 4. Legal method
 5. Use of botanicals
 6. Chemical method
 
+## Methods of fertilizer application
+
+The choice of method and time of fertilizer application depends on the form and amount of fertilizer, convenience of the farmer, the efficiency and safety of fertilizer application.
+
+### Solid form
+
+1. Broadcasting: Fertilizers and manures are scattered uniformly over the field before planting the crop and are incorporated by tilling or cultivating.
+2. Drilling and placement
+  - Plough sole placement (applied or dropped in the plough sole, which will be covered by the plough during the opening of adjacent furrow)
+  - Deep placement (applied at a depth of 10-12 cm, especially in the puddle rice soil)
+  - Sub-soil application (applied in the subsoil especially for tree crop and orchard crops at depth above 15 cm)
+3. Location or spot application: Fertilizers are placed in the root zone or the spot near the roots from which roots can absorb easily.
+  - Contact of drill placement: Fertilizers or manures are placed at the time of drilling for placing the seeds. They will have good contact with the seeds or seedlings.
+  - Band placement: Placement of manures or fertilizers or both in bands on the side or both sides of the row at about 5 cm away from seed or plant in any direction. They are of 3 types;
+    i. Hill placement: In widely spaced crops, like cotton, castor, cucurbits fertilizers or manures are applied on both sides of plants only but not continuously along the row.
+    ii. Row placement: In widely spaced crops between rows (Example–Sugarcane, maize, tobacco, potato) manures or fertilizers are placed on one or both sides of the row in continuous bands.
+    iii. Circular placement
+  - Pocket placement: Application of fertilizers deep in soil to increase its efficiency, especially for the sugarcane. Fertilizers are put in 2 to 3 pockets opened around every hill by means of a sharp stick.
+  - Side dressing: It refers to hill and ring placement of manures or fertilizers. It consists of spreading the fertilizer between the rows or around the plants.
+  - Pellet application: Nitrogen fertilizers are pelleted like mud ball or urea super granules (USG) and placed deep (10 cm) into the saturated soils (reduced zone) of wet land rice to avoid nitrogen loss from applied fertilizers.
+
+### Liquid form
+
+1. Foliar application
+2. Fertigation
+3. Starter solution: Solutions of fertilizers prepared in low concentrations which are used for soaking seeds, dipping roots, spraying on seedlings etc., nutrient deficient areas for early establishment and growth
+4. Direct application to the soil: Liquid fertilizers like anhydrous ammonia are applied directly to the soil with special injecting equipments. Liquid manures such as urine, sewage water and cattle shed washing are directly let into the field.
+
+## Pesticide formulation
+
+Pesticides in their natural state may be solid, liquid, volatile, non-volatile, soluble or insoluble. Hence, these have to be made in forms suitable and safe for their field use. A pesticide formulation is prepared by the manufacturer by blending the active ingredient with substances like solvents, diluents, inert carriers, surfactants, stickers, stabilizers etc.
+
+### Solid formulations
+
+Dustable powder: Dust particle of size between \SIrange{1}{4}{\micro\meter} are usually suitable for dusting. It is done in early morning when there is no wind and foliage is wet with dew. Dust formulations generally contain 0.1-25\% toxicant.
+
+Granules (G): The inert material (carrier) is given a granular shape and the herbicide (active ingredient) is mixed with sand, clay, vermiculite, finely ground plant parts (ground corn cobs) as carrier material. Toxicants of particle size of 0.25-2.4 mm are appropriate for use as granules. e.g., Alachlor granules.
+
+### Liquid formulations
+
+Emulsifiable concentrate (EC): An emulsion is a two phase dispersion involving water and imiscible solvent. A concentrated herbicide formulation containing organic solvent and adjuvants to facilitate emulsification with water. Presence of oil in the emulsion makes it more toxic and leaves a more resistant deposit than that of suspension. e.g., Butachlor.
+
+Wettable powders (WP): Insecticides or herbicide insoluble in water are mixed with carriers that are capable of making a fine suspension in water. Contains 25-50\% toxicants and rest is wetting or dispersing agent. The material is finely ground so that it may form a suspension when agitated with a required volume of water e.g., Atrazine.
+
+Aerosol: Insecticide mixture contained in a volatile solvent which is expelled through a fine orifice as gas under pressure to produce a fine spray of minute (\SIrange{0.1}{50}{\micro\meter}) particles. It is mostly effective against flying insects.
+
+Water soluble concentrates (WSC): e.g., paraquat.
+
+### Gaseous formulations
+
+1. Dry fumigants
+2. Liquid fumigants
+
+## Pest risk analysis
+
+The PRA process is a technical tool used for identifying appropriate phytosanitary measures. It evaluates scientific evidence to determine whether an organism is a pest. If so, the analysis evaluates the probability of introduction and spread of the pest and the magnitude of potential economic consequences in a defined area, using biological or other scientific and economic evidence. If the risk is deemed unacceptable, the analysis may continue by suggesting management options that can reduce the risk to an acceptable level. 
+
+The PRA process may be used for organisms not previously recognized as pests (such as plants, biological control agents or other beneficial organisms, living modified organisms), recognized pests, pathways and review of phytosanitary policy. The process consists of three stages:
+
+1. Initiation;
+2. Pest risk assessment; and
+3. Pest risk management.
+
+The PRA process is initiated in Stage 1 with the identification of an organism or pathway that may be considered for pest risk assessment, or as part of the review of existing phytosanitary measures, in relation to a defined PRA area. The first step is to determine or confirm whether or not the organism considered is a pest. If no pests are identified, the analysis need not continue. The analysis of pests identified in Stage 1 continues to Stages 2 and 3 using guidance provided in other standards. Information gathering, documentation and risk communication, as well as uncertainty and consistency, are issues common to all PRA stages.
+
+The pest risks posed by the introduction of organisms associated with a particular pathway, such as a commodity, should also be considered in a PRA. The commodity itself may not pose a pest risk but may harbour organisms that are pests. Lists of such organisms are compiled during the initiation stage. Specific organisms may then be analysed individually, or in groups where individual species share common biological characteristics.
+
+The PRA process is applied to pests of cultivated plants and wild flora, in accordance with the scope of the IPPC. It does not cover the analysis of risks beyond the scope of the IPPC. Provisions of other international agreements may address risk assessment (e.g. the Convention on Biological Diversity and the Cartagena Protocol on Biosafety to that convention).
+
+Provisions of the IPPC regarding pest risk analysis
+
+The International Plant Protection Convention (IPPC, Article VII.2(a)) requires that: "Contracting parties shall not ... take any of the measures specified in paragraph 1 of this Article [i.e. phytosanitary measures] unless such measures are made necessary by phytosanitary considerations and are technically justified."
+
+Article VI.1(b)requires that phytosanitary measures are: "limited to what is necessary to protect plant health and/or safeguard the intended use and can be technically justified by the contracting party concerned."
+
+"Technically justified" is defined in Article II.1 as: "justified on the basis of conclusions reached by using an appropriate pest risk analysis or, where applicable, another comparable examination and evaluation of available scientific information."
+
+Article IV.2(f) states that the responsibilities of the national plant protection organization (NPPO) include "the conduct of pest risk analyses". The issuing of regulations is a responsibility of the contracting party to the IPPC (Article IV.3(c)), although contracting parties may delegate this responsibility to the NPPO.
+
+In conducting a PRA, the obligations established in the IPPC should be taken into account. Those of particular relevance to the PRA process include: 
+
+- cooperation in the provision of information
+- minimal impact
+- non-discrimination
+- harmonization
+- transparency
+- avoidance of undue delay.
+
+PRA Stage 1: Initiation
+
+Initiation is the identification of organisms and pathways that may be considered for pest risk assessment in relation to the identified PRA area.
+
+A PRA process may be triggered in the following situations (initiation points):
+
+- a request is made to consider a pathway that may require phytosanitary measures
+- a pest is identified that may justify phytosanitary measures
+- a decision is made to review or revise phytosanitary measures or policies
+- a request is made to determine whether an organism is a pest
+
+The initiation stage involves four steps:
+
+- determination whether an organism is a pest
+- defining the PRA area
+- evaluating any previous PRA
+- conclusion
+
+When the PRA process has been triggered by a request to consider a pathway, the above steps are preceded by assembling a list of organisms of possible regulatory concern because they are likely to be associated with a pathway.
+
+PRA Stage 2: Pest risk assessment
+
+Stage 2 involvesseveral steps:
+
+- pest categorization: the determination of whether the pest has the characteristics of a quarantine pest or RNQP, respectively
+- assessment of introduction and spread:
+ - candidates for quarantine pests: the identification of the endangered areaand assessment of the probability of introduction and spread
+ - candidates for RNQPs: assessment of whether the plants for planting are or will be the main source of pest infestation, in comparison to other sources of infestation of the area
+ 
+- assessment of economic impacts:
+ - candidates for quarantine pests: assessment of economic impacts, including environmental impacts
+ - candidates for RNQPs: assessment of potential economic impacts associated with the intended use of plants for planting in the PRA area (including analysis of infestation threshold and tolerance level)
+- conclusion, summarizing the overall pest risk on the basis of assessment results regarding introduction, spread and potential economic impacts for quarantine pests, or economically unacceptable impacts for regulated non-quarantine pests.
+
+The outputs from pest risk assessment are used to decide if the pest risk management stage (Stage 3) is required.
+
+PRA Stage 3: Pest risk management
+
+Stage 3 involves the identification of phytosanitary measures that (alone or in combination) reduce the risk to an acceptable level.
+
+Phytosanitary measures are not justified if the pest risk is considered acceptable or if they are not feasible (e.g. as may be the case with natural spread). However, even in such cases contracting parties may decide to maintain a low level of monitoring or audit regarding the pest risk to ensure that future changes in that risk are identified.
+
+The conclusion of the pest risk management stage will be whether or not appropriate phytosanitary measures adequate to reduce the pest risk to an acceptable level are available, cost-effective and feasible.
+
+Aspects common to all PRA stages
+
+- Uncertainty
+- Information gathering
+- Documentation
+- Risk communication
+- Consistency in PRA
+- Avoidance of undue delay
+
+```{r pra-flow-chart, out.width="60%", fig.cap="Flow-chart of pest risk analysis"}
+knitr::include_graphics("./images/pra-flow-chart.png")
+```
 
 ## Estimated crop loss owing to different causes
 
@@ -1194,7 +1912,7 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Difference between Absconding and Swarming behavior of bee", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
+  kableExtra::column_spec(column = 1:2, width = c("22em", "22em"))
 ```
 
 ### Nepalese standard of honey

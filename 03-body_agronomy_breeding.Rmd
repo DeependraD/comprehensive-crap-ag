@@ -1,6 +1,200 @@
 
 # Agronomy
 
+## Farming system
+
+Farm is a piece of land with specific boundaries, where (...283 pp)
+
+## Effects of climatic factors on crops
+
+Weather refers to the state of atmosphere at any give time denoting the short-term variations of atmosphere in terms of temperature, pressure, wind, moisture cloudiness, precipitation and visibility. It is highly variable, constantly changing, sometimes from hour to hour and at other times from day to day. The afore-mentioned properties of the atmosphere are subject to constant change and their state at any time determines the state of the weather. However, weather elements are not separate rather they are closely related with each other.
+
+Climate on the other hand, is the sum or total of the variety of weather conditions of place or an area. It may be defined as the sum of all statistical weather information of a particular area during a specified interval of time, usually several decades. The WMO has suggested standard period of 31 years for calculating the climatic averages of different weather elements.
+
+The Earth has three spheres viz., 
+
+1. Hydrosphere -- the water portion,
+2. Lithosphere -- the solid portion, and 
+3. Atmosphere -- the gaseous portion.
+
+The principal gases comprising dry air in the lower atmosphere is given in Table \ref{tab:gases-atmosphere}.
+
+```{r gases-atmosphere}
+tribble(
+  ~"Constituents", ~"\\% by volume",
+  "Nitrogen", 78.08,
+  "Oxygen", 20.94,
+  "Argon", 0.93, 
+  "Carbon dioxide", 0.03,
+  "Neon", 0.0018,
+  "Helium", 0.0005,
+  "Ozone", 0.00006,
+  "Hydrogen", 0.00005
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Composition of gases in lower atmosphere by volume", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(1:2, width = c("5em", "4em")) %>% 
+  kableExtra::footnote(general = "Besides mentioned, Krypton, Xenon and Methane gas are found in trace amounts in the atmosphere.", threeparttable = TRUE)
+```
+
+
+### Solar radiation
+
+The radiant energy that comes from the sun to earth surface is called solar radiation.
+
+#### Photosynthetic effect
+
+- Solar radiation of wavelength \SIrange{400}{700}{\nano\meter} are most efficiently used in photosynthesis. Also called photosynthetically active radiation (PAR).
+
+- Photosynthesis increases with increasing light intensity upto light saturation point.
+
+- Light compensation point (LCP): The quantity of light where net photosynthesis is zero is called light compensation point.
+- Light saturation point (LSP): The quantity of light where photosynthesis is maximum is called light saturation point.
+
+- LSP > \SI{1500}{\micro\mole\per\meter\squared\per\second} PPFD $\longrightarrow$ $\mathrm{C_4}$ plants can utilize.
+- LSP == \SIrange{1000}{1500}{\micro\mole\per\meter\squared\per\second} PPFD $\longrightarrow$ $\mathrm{C_3}$ plants can utilize.
+- LSP == \SIrange{100}{200}{\micro\mole\per\meter\squared\per\second} PPFD $\longrightarrow$ shade-loving plants can utilize.
+
+The enzymes responsible for photosynthesis are rubisco and PEP-carboxylase. Higher light intensity increases activity and amount of these enzymes. The infrastructure of photosynthesis like Chlorophyll, leaf area and their exposure are governed by light intensity.
+
+- Light of wavelengths <250 and >750 are not useful to plants.
+
+#### Photoperiodic effect
+
+The time period during which any plants are exposed to sunlight is known as photoperiod. The response of plant to photoperiod is known as photoperiodism. Plants flower in response to photoperiod.
+
+- Long day plants: Require longer days, > 12 hours photoperiod for flowering. e.g., Wheat, oat, barley.
+- Short day plants: Require short day length < 12 hours photoperiod for flowering. e.g., Rice, maize, soybean.
+- Day neutral plants: Plants that have no effect of photoperiod on flowering are day neutral plants. e.g. Sunflower, cotton, buckwheat.
+
+#### Thermal effect
+
+- \>75\% of solar radiation incident on plants is converted to heat.
+- This heat is utilized for transpiration and for convective heat exchange with surrounding.
+- These exchanges determines the temperature of leaves and other plant parts.
+
+#### Assimilation of nutrients, dormancy and germination
+
+- Utilization of $\mathrm{N_2}$ is higher in light than in dark.
+- Uptake of potassium (K) is higher in Barley under high light intensity.
+- Accumulation of Phosphorus is higher in Maize in light than in dark.
+- Seed dormancy and germination: Lettuce and tobaccoo seeds (photoblastic plants) germinate in presence of light.
+- Seeds of onion and amaranthus (non-photoblastic) will remain dormant when exposed to light.
+
+**Other**
+
+- In normal plants, stomata opens under normal light condition, but in CAM plants, stomata opens only at night.
+- Plants growing in low light intensity or in dark or in dense spacing are taller and weak. Shading increases auxin (IAA) synthesis and as a result, shaded plants have excessive stem elongation which are prone to lodging.
+- Plants grown under low light intensity have more barren spikelets because of reduced grain filling (photosynthesis).
+
+### Temperature
+
+Both the longer wavelengths of earthward solar radiation and long-wave terrestrial radiation, i.e. reflected radiation from the ground, are insufficiently energetic to drive pigment systems such as photosynthesis.
+
+For germination to occur, seeds must be viable, non-dormant and adequately supplied with water and oxygen. For most of the major crop plants so far examined, the initiation of germination in each species requires a minimum base temperature ($\mathrm{T_b}$). Thereafter, germination rate increases linearly with temperature to an optimum value ($\mathrm{T_o}$), above which the rate declines linearly to a maximum temperature ($\mathrm{T_m}$). In some species, this optimum temperature may cover a range of several degrees rather than a single temperature. When the temperature, T, is above $\mathrm{T_b}$ and below $\mathrm{T_o}$ the relation between T and 1/t is given by,
+
+$$
+\frac{1}{t} = \frac{T-T_b}{\theta_1}
+$$
+and when T is above $\mathrm{T_o}$ and below $\mathrm{T_m}$ the relation is given by,
+
+$$
+\frac{1}{t} = \frac{(T_m-T)}{\theta_2}
+$$
+The constants $\theta_1$ and $\theta_2$ represent the thermal duration for the developmental process of germination to occur.
+
+#### Thermal time
+
+Because the quantity $\theta$ is the product of temperature and time it is measured in degree days (\si{\celsius} days) and is called thermal time. In practice, the value of $\mathrm{T_b}$ is usually similar for different developmental processes within a species and thus the thermal time for any process can be defined as,
+
+$$
+\theta = \sum^{i = n}_{i = 1}{T-T_b}
+$$
+where n is the number of days experienced by a plant at a mean daily temperature, T, above $T_b$. Thus, on a day when the temperature remains below $T_o$, the thermal time accumulated by a crop is simply the difference between the mean daily temperature and the value of $\mathrm{T_b}$.
+
+```{r cardinal-temperature-major-crops}
+read_csv("./data/weather/agronomy_cardinal_temperature_major_crops.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Cardinal temperature of major agronomical crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:4, width = rep("5em", 4))
+```
+
+```{r rice-temperature-growth-stages}
+read_csv("./data/weather/agronomy_optimum_temperature_requirements_rice_stages.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Optimum temperature requirements for rice", longtable = TRUE, 
+               col.names = c("Growth stages", "", "Temperature in \\si{\\celsius}", ""), escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:4, width = rep("5em", 4))
+```
+
+**Effect of temperature on biochemical reaction**
+
+From $\mathrm{T_{min}}$ to $\mathrm{T_{opt}}$ rate of process increases with temperature but after increase from $\mathrm{T_{opt}}$, it decreases rapidly. It is because increase in temperature increases the velocity of enzymes from $\mathrm{T_{min}}$ to $\mathrm{T_{opt}}$. As temperature further increases, the enzyme structure is damaged and rate of reaction is reduced.
+
+$$
+\mathrm{Q_{10}} = \frac{\textrm{Rate of reaction at T + 10 \si{\celsius}}}{\textrm{Rate of reaction at T \si{\celsius}}}
+$$
+
+**Effect on photosynthesis and respiration**
+
+- Photosynthesis and rate of respiration increase with temperature.
+- Above optimum temperature photosynthesis declines but respiration continues to increase.
+- Temperature has considerable influence on chlorophyll synthesis and leaf area development.
+- Temperature enhances the production of chloroplasts.
+- At lower temperature, leaf becomes chlorotic due to degradation of chlorophyll.
+
+### Rainfall
+
+```{r precipitation-classification}
+read_csv("./data/weather/agronomy_rainfall_classification.csv") %>% 
+  knitr::kable(caption = "Rainfall classification rainfall pattern", escape = FALSE, longtable = TRUE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("6em", "6em")) %>% 
+  kableExtra::footnote(general = "The mentioned classification is true for Southern India; For Nepal, rainfall values are 250 mm less for each climatic region.", threeparttable = TRUE)
+  
+```
+
+## Weather normals for agricultural crops
+
+```{r weather-normals-food-cash}
+read_csv("./data/weather/agronomy_crop_weather_normals.csv") %>% 
+  knitr::kable(caption = "Weather normals for agronomic crops", escape = FALSE, longtable = TRUE, booktabs = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:7, width = c("2em", "8em", "6em", "8em", "6em", "5em", "6em"))
+```
+
+(for a brief discussion on Weather Forecasting, including its types, refer to "A textbook of Agronomy")
+
+## Clouds
+
+Clouds have been defined as a visible aggregation of minute water droplets and/or ice particles in the air, usually above the general ground level.
+
+### Classification of clouds (WMO classification, 1957)
+
+Clouds are usually classified according to their height and appearance into 10 categories. From the height, clouds are groped into 4 categories ( _viz_. family A, B, C and D), and there are sub categories in each of these main categories.
+
+**Family A**: High clouds (mean heights 5-13 km) (Mean lower level 2000 ft.)
+
+**Cirrus (Ci)** -- In these clouds, ice crystals are present. It looks like wispy and feathery, and it is delicate, desist, white fibrous, and silky appearance. Sunrays pass through these clouds and sunshine without shadow. It does not produce precipitation.
+
+**Cirrocumulus (Cc)** -- Like cirrus clouds, ice crystals are present in these clouds also. It looks like rippled sand or waves of the seashore. It contains white globular masses and transparent with no shading effect. The sky is mackerel sky.
+
+**Cirrostratus (Cs)** -- Like the above two clouds, ice crystals are present in these clouds also. It looks like whitish veil and covers the entire sky with milky white appearance. It produces "Halo".
+
+**Family B**: Middle clouds (Mean heights 2–7 km) (6500–20000 ft.)
+- Altostratus (As)
+- Altocumulus (Ac)
+
+**Family C**: Low (clouds mean heights 0–2 km) (Close to earth’s surface–6500 ft.)
+- Nimbostratus (Ns)
+- Stratocumulus (Sc)
+- Stratus (St)
+
+**Family D**: These clouds form due to vertical development i.e. convection. The mean low level is 0.5 km and mean upper level goes upto 16 km. In this families, there are 2 sub-categories;
+
+- Cumulus (Cu): These clouds are composed of water with white majestic appearance with flat base. Irregular dome shaped and looks like cauliflower with wool pack and dark appearance below due to shadow. These clouds usually develop into cumulo-nimbus clouds with flat base.
+- Cumulonimbus(Cn): The upper levels of these clouds possess ice and water is present at lower levels. These clouds have thunderhead with towering anvil top and develop vertically. These clouds produce violent winds, thunderstorm, hails and lightening, during summer.
+
 ## Released, registered and denotified varieties overview
 
 ```{r overview-seeds}
@@ -39,6 +233,91 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
 ```
 
 <!-- \end{minipage}} -->
+
+## Challenges and opportunities of enhancing rice production in Nepal
+
+Rice supplies about 40% of the total calorie intake for people. In Nepal, approximately 70% of agricultural holdings were planted with paddy. Fertilizer was used by 20% of the holdings. Chemical fertilizer was used in 41% of the total area under rice (CBS, 2013).
+
+- Fully or partially irrigated rice ecosystem: 63.6%
+- Rainfed rice ecosystem: 36.4%
+- Production distribution for different agroecologies, in general is:
+  - Terai: 75%
+  - Hills: 23%
+  - Mountain: 2%
+
+### Constraints and challenges
+
+1. Biotic and abiotic stress
+- Abiotic: Drought, submergence, heat and flooding in terai region
+- Biotic: Bacterial leaf blight, Blast, Brown plant hopper, Stem borer
+- These factors account for about 25% of the yield reduction
+- Nepal had drought problem in years: 1964, 1967, 1973, 1974, 1977, 1979, 1980, 1992, 1994, 2001, 2002, 2005, 2006 and 2009 (MoPE, 2002 and MoHA, 2009)
+- Dry spells occured during: 2000, 2002, 2004, 2005, 2006, 2009, 2010, 2011, 2013
+
+2. Rainfed farming
+- Planting and production dependent upon timing and intensity of monsoon rainfall (during mid June untill mid September)
+- To produce 1 kg of rice, 2500 ltr of water needs to be supplied over the growing period.
+- Depleting ground water level in terai region
+
+3. Low level of productivity
+- In past 30 years, rice area and yield increased annually by only 0.35 and 1.65% respectively (only 83% from yield increase, and 17% from area increase)
+- Area growth has been highest in hills during 1984-2013 while yield growth has been the lowest in the same region.
+- Although the area covered by modern varieties is over 90%, growth in yield has been very slow and marginal.
+
+4. Soil degradation and soil nutrient management
+- Nutrient imbalance, multi-nutrient deficiency, water logging, Zinc and Iron toxicity, soil salinity and alkalinity and development of hard pans at shallow depths
+- Low nitrogen use efficiency (70% is lost and only 30% of the applied nitrogen is available)
+- Prospects for use of organic matter, biological nitrogen fixation and Integrated Plant Nutrient Management System (IPNMS) seem advantageous.
+- Chemical fertilizer associated environmental damage due to inadequacy or due to oversaturation.
+- Zinc deficiency in lowland rice fields with soil of neutral to alkaline pH levels.
+
+5. Climate change
+- Frequent drought, flooding and erratic rainfall
+- Increase in temperature above current mean temperature for condition cetaris paribus are expected to reduce yields by 7% for every \SI{1}{\celsius} increase in temperature
+- However, increasing concentration of $CO_2$ is expected to increase yield and water productivity (number of panicles and grain filling percentage)
+- Rice field has higher $\mathrm{CH_4}$ emission and low $\mathrm{N_2O}$ emission.
+
+6. Declining production resources
+
+- As a consequence of economic growth, rice cultivation areas are expected to be lost to urban expansion, land conversion to other purposes and diversification into other agricultural products.
+- Rice area declined from 1,544,604 ha in 2001 to 1,456,000 ha in 2001 (6% decline).
+- This adds urgency for the need to improve productivity.
+
+7. Investment in research
+- Historically, research has received low priority
+- Research institutions for rice research have very limited resource and insufficient technical capacity to conduct and coordinate research activities.
+- Overall research cost has declined for Rice, wheat and maize in real terms over the past 10 years.
+
+8. Infrastructures and service delivery
+
+- Total number of farming household is 3.8 million
+- Ratio of JT/JTA to farm household: 1:2300
+- Deputation of specialized technicians to field level is not in practice.
+- Agronomist or general agriculturist takes care of extension related to rice production and post-harvest related matters.
+- Market centers developed in different parts of country are mostly used for perishables (vegetables, fruits and milk)
+- Facilities of private owners are operated in their own convenience, and do not provide safeguard against post-harvest losses.
+- Major constraint is on linking rice produce from farmers' field in rural areas to markets and to home.
+- Nepal's road density is the lowest in South asian region (Only 0.6 km of road per 1000 people, compared to 6.5 km in Bhutan, 4.7 km in Srilanka andd 3.0 km in India) (ADB, 2009)
+
+9. Fragmentation of land holding and poor mechanization
+- Total land holding in Nepal has increased from 1654,000 ha in 1971 to 2522,000 ha in 2011.
+- Average size of holding decreased from 1.13 ha in 1981 to 0.68 ha in 2011.
+- Land availability is becoming limited due to competition for industrilization, urbanization and expansion of residential areas to production field.
+
+10. Markets and prices
+- Lack of marketing infrastructures, non-provision of minimum support price (MSP), Lack of storage facilities, price fluctuation due to open border, etc.
+
+11. Variety release and adoption
+- Share of specified new improved varieties (released after 1990) in total area is only around 35%. (CBD, 2015)
+
+12. Profitability of rice production
+- Gross margin varies with price per unit of input and per unit of output. There has been sharp increase in the wage rate and price of inputs compared to increase in yield and farm gate price.
+- During last 13 years,
+  - Wage rate has increased 339%
+  - Price of seed has increased 345%
+  - Price of fertilizer increased between 53%-140%
+  - Yield increased 46% 
+  - Farm gate price increased 126%
 
 ## Oilseed crops production
 
@@ -304,7 +583,7 @@ knitr::kable(groundnut, align = "c",
 - Rainfed: \SIrange{1.5}{2.0}{\tonne\per\hectare}
 - Shelling percentage: 70-75\%
 
-### Cereal and commercial crops
+## Cereal and commercial crops production
 
 ```{r crop-cultivation-cereal-commercial-remarks}
 read_csv("./data/crop_production_technology_cereal_commercial.csv") %>% 
@@ -314,7 +593,7 @@ read_csv("./data/crop_production_technology_cereal_commercial.csv") %>%
   kableExtra::landscape(margin = "1cm")
 ```
 
-### Oilseed and legume crops
+## Oilseed and legume crops production
 
 ```{r crop-cultivation-legume-oilseed-remarks}
 oil_joined <- tibble(`Production remark` = c("Time of sowing", "Seed rate (kg/ha)", 
@@ -362,7 +641,7 @@ read_csv("./data/crop_production_technology_legume2.csv") %>%
   kableExtra::landscape(margin = "1cm")
 ```
 
-### Optimum pH range for some crops
+## Optimum pH range for some crops
 
 ```{r crop-cultivation-ph}
 readr::read_csv("./data/crop_production_ph_optimum.csv") %>% 
@@ -379,7 +658,9 @@ readr::read_csv("./data/crop_production_ph_optimum.csv") %>%
 ```
 
 
-### Notable varieties of some crops
+## Crop varieties remarks
+
+### Crop varieties with special characteristics
 
 ```{r crop-notable-varieties}
 readr::read_csv("./data/crop_notable_varieties.csv") %>% 
@@ -391,84 +672,7 @@ readr::read_csv("./data/crop_notable_varieties.csv") %>%
   kableExtra::column_spec(column = 1:3, width = c("8em", "10em", "24em"))
 ```
 
-
-### Potential crop varieties for import substitution and export promotion (Seed vision, 2013-25)
-
-```{r}
-tribble(~"Crop", ~"Varieties", ~"Trade potential", 
-        "Rice", "Khumal-4, Shambha mahasuri sub-1, Jethobudho, Sunaulosugandha", "Import substitution", 
-        "Lentil", "Shishir, simrik", "Export promotion", 
-        "Tomatoes", "Srijana hybrid, Lapsigede", "Import substitution", 
-        "Radishes", "Minnow early, 40 days, Tokineshe, Pyuthane, Rocky-45 (Bangladeshi)", "Import substitution and export promotion", 
-        "Broccoli", "Green sprouting and calabrese", "Import substitution", 
-        "Peas", "Arkel, Sikkim, Azad", "Import substitution and export promotion", 
-        "Cowpea", "Prakash, akash, khumal tane, some selected lines of Chinese origin", "Import substitution", 
-        "Onion", "Red creole, Agrifound dark red", "Import substiution and export promotion", 
-        "Garlic", "Chinese and local", "Import substitution", 
-        "Carrot", "Nantes and newkuroda", "Import substitution and export promotion", 
-        "Egg plant", "Nurki, Sarlahi green, Pokhara lurke", "Import substitution", 
-        "Cucumber", "Bhaktapur local and kushle", "Import substitution and export promotion", 
-        "Squash", "Gray zuchhini", "Import substitution", 
-        "Bean", "Trishuli, four season, contender, some lines of Chinese origin", "Export promotion", 
-        "Mung bean", "Pusabaisakhi, Kalyan, Pratiksha", "Import substitution", 
-        "Pigeon pea", "Bageshwori and Rampur arhar-1", "Import substitution", 
-        "Potato", "Khumal laxmi, Kufri jyoti, Khumal rato", "Import substitution"
-        ) %>% 
-  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(position = "center") %>% 
-  kableExtra::column_spec(column = 1:3, c("6em", "18em", "12em"))
-
-```
-
-
-## Seed technology
-
-1. Breeder seed
-  - Genetic purity of the variety: 99.9%
-  - Golden yellow tag (as of new seed certification guidelines, it is ?brown) with breeder's signature.
-2. Foundation seed
-  - Not available for sales/purchase at farmer's level
-  - SQCC or specialized organization having granted permit from the SQCC performs the field inspection and certification
-  - White colored tag with black letters
-2. Certified seed
-  - In self pollinated crops two generations may be grown, however only one generation is allowed in cross pollinated species
-  - CS-I and CS-II (Blue letters in white tag and blue border, and green letters in white tag with green borders, respectively)
-3. Improved seed
-  - In cross pollinated and highly CP species, direct production of improved seed from foundation seed is also practiced (Maize, vegetable, pigeonpea).
-  - Production takes place in farmer's field or by seed producing organizations.
-  - Yellow colored tag
-
-- Normally, genetic purity of FS is 99.5 and that of CS is 99%.
-- For longer storage in cereals, vegetables, legumes and oilseeds, and orthodox seeds, optimum moisture content: 12% or less.
-- In recalcitrant seeds, moisture content is best kept close to 20%.
-- In the moisture regime between 5-14%, for every drop in 1% storage life of the seed is doubled (Jems F Herington)
-- Forbidden diseases of crops:
-  - Cauliflower: Black rot, Alternaria leaf spot
-
-```{r number-of-seed-per-ten-g}
-tibble::tribble(~"Crop", ~"Number of seeds", 
-        "Carrot", 8280, 
-        "Chinese cabbage", 6480,
-        "Turnip", 5400, 
-        "Tomato", 4140,
-        "Onion", 3420, 
-        "Pea", 3263,
-        "Cabbage, cauliflower", 3240,
-        "Brinjal", 2340,
-        "Capsicum", 1620,
-        "Radish", 1440,
-        "Chukandar", 576,
-        "Muskmelon", 470,
-        "Cucumber", 400,
-        "Okra", 180,
-        "Watermelon", 75,
-        "Luffa gourd", 40
-        ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Number of seeds per 10 gram of vegetable crops", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
-```
-
-### Seed certification system
+## Seed certification system
 
 - Seed act was first enacted in 2045 BS. Since then it's first amendment came into being in 2064.
 - Organized seed production program intitiated in Nepal in 1973 (Wheat)
@@ -530,7 +734,7 @@ Following activities are carried out in various stages of a crop are crucial for
   - Seed is sampled and taken to lab
   - Lab should return results within 30 days of receiving a sample.
   - If suspected, sample may be subjected to grow out test by the tester.
-  - If farmer isn't convinced of the results of the seed testing, s/he may file for recertification.
+  - If farmer isn't convinced of the results of the seed testing, s/he may file for re-certification.
 
 - Tagging storage container with certification tag, with signature of certifying inspector.
 - If the seed is to be stored for more than 1 season, the storage sample must be re-certified for quality standards.
@@ -547,6 +751,53 @@ Following activities are carried out in various stages of a crop are crucial for
   2. Location and locality of specification
   3. Source of seed verification
   4. Timing of inspector assignment
+
+### Seed classes
+
+1. Breeder seed
+  - Genetic purity of the variety: 99.9%
+  - Golden yellow tag (as of new seed certification guidelines, it is ?brown) with breeder's signature.
+2. Foundation seed
+  - Not available for sales/purchase at farmer's level
+  - SQCC or specialized organization having granted permit from the SQCC performs the field inspection and certification
+  - White colored tag with black letters
+2. Certified seed
+  - In self pollinated crops two generations may be grown, however only one generation is allowed in cross pollinated species
+  - CS-I and CS-II (Blue letters in white tag and blue border, and green letters in white tag with green borders, respectively)
+3. Improved seed
+  - In cross pollinated and highly CP species, direct production of improved seed from foundation seed is also practiced (Maize, vegetable, pigeonpea).
+  - Production takes place in farmer's field or by seed producing organizations.
+  - Yellow colored tag
+
+- Normally, genetic purity of FS is 99.5 and that of CS is 99%.
+- For longer storage in cereals, vegetables, legumes and oilseeds, and orthodox seeds, optimum moisture content: 12% or less.
+- In recalcitrant seeds, moisture content is best kept close to 20%.
+- In the moisture regime between 5-14%, for every drop in 1% storage life of the seed is doubled (Jems F Herington)
+- Forbidden diseases of crops:
+  - Cauliflower: Black rot, Alternaria leaf spot
+
+```{r number-of-seed-per-ten-g}
+tibble::tribble(~"Crop", ~"Number of seeds", 
+        "Carrot", 8280, 
+        "Chinese cabbage", 6480,
+        "Turnip", 5400, 
+        "Tomato", 4140,
+        "Onion", 3420, 
+        "Pea", 3263,
+        "Cabbage, cauliflower", 3240,
+        "Brinjal", 2340,
+        "Capsicum", 1620,
+        "Radish", 1440,
+        "Chukandar", 576,
+        "Muskmelon", 470,
+        "Cucumber", 400,
+        "Okra", 180,
+        "Watermelon", 75,
+        "Luffa gourd", 40
+        ) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Number of seeds per 10 gram of vegetable crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
+```
 
 \blandscape
 
@@ -580,7 +831,7 @@ readxl::read_xlsx("./data/seed_certification_requirements.xlsx", sheet = "seed_s
 
 \elandscape
 
-### Seed production: Constraints
+## Constraints in Seed Production
 
 1. Climatic and edhapic factors:
 - Subtropical type climate range ($26^\circ 22'' - 30^\circ 27''$ N).
@@ -640,7 +891,38 @@ tibble::tribble(
 - Seed exporting opportunities
 - Increaseing productivity of cereal and legume crops
 
-### Expect results of Seed vision 2013-25
+## Seed vision 2013-25
+
+### Crop varieties with potential for import substitution and export promotion (Seed vision, 2013-25)
+
+```{r seed-vision-varieties-import-substitution-prospects}
+tribble(~"Crop", ~"Varieties", ~"Trade potential", 
+        "Rice", "Khumal-4, Shambha mahasuri sub-1, Jethobudho, Sunaulosugandha", "Import substitution", 
+        "Lentil", "Shishir, simrik", "Export promotion", 
+        "Tomatoes", "Srijana hybrid, Lapsigede", "Import substitution", 
+        "Radishes", "Minnow early, 40 days, Tokineshe, Pyuthane, Rocky-45 (Bangladeshi)", "Import substitution and export promotion", 
+        "Broccoli", "Green sprouting and calabrese", "Import substitution", 
+        "Peas", "Arkel, Sikkim, Azad", "Import substitution and export promotion", 
+        "Cowpea", "Prakash, akash, khumal tane, some selected lines of Chinese origin", "Import substitution", 
+        "Onion", "Red creole, Agrifound dark red", "Import substiution and export promotion", 
+        "Garlic", "Chinese and local", "Import substitution", 
+        "Carrot", "Nantes and newkuroda", "Import substitution and export promotion", 
+        "Egg plant", "Nurki, Sarlahi green, Pokhara lurke", "Import substitution", 
+        "Cucumber", "Bhaktapur local and kushle", "Import substitution and export promotion", 
+        "Squash", "Gray zuchhini", "Import substitution", 
+        "Bean", "Trishuli, four season, contender, some lines of Chinese origin", "Export promotion", 
+        "Mung bean", "Pusabaisakhi, Kalyan, Pratiksha", "Import substitution", 
+        "Pigeon pea", "Bageshwori and Rampur arhar-1", "Import substitution", 
+        "Potato", "Khumal laxmi, Kufri jyoti, Khumal rato", "Import substitution"
+        ) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(3) %>% 
+  kableExtra::column_spec(column = 1:3, c("6em", "18em", "12em"))
+
+```
+
+### Expected outcomes
 
 1. 10 lakh farm families will have access to quality seeds upon demand prior to planting season. The country will be self-sufficient in food crop seeds.
 2. 88 mt breeder, 2,978mt foundation and 92,527 mt improved seeds will be produced through formal system by 2025. 
@@ -761,7 +1043,31 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 - Seed production of quantity 200-600 kg/ha could be realized in this way.
 
 
-## Grain legumes
+## Information contained in truthful label tag
+
+1. Year of production
+2. Date of testing
+3. Crop name
+4. Crop variety
+5. Minimum germination percentage
+6. Minimum purity percentage
+7. Weight
+8. Logo
+9. Recommended domain
+
+## Seed quality attributes
+
+1. Physical purity
+2. Genetic purity
+3. Germination percentage
+4. Moisture
+5. 1000 kernal weight
+6. Vigor
+7. Seed health
+8. Viability
+9. Uniformity and lusture
+
+## Grain legume production
 
 - "Legume" comes from "legere" meaning "to gather".
 - Soybean cultivation recorded in China 3000 to 2000 BC
@@ -805,10 +1111,10 @@ tribble(
   13, "CoJ-88", "mid to late", 12.92,
   14, "BO-147", "mid to late", 10.61
 ) %>% 
-  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Cultivars of popular sugarcane cultivars in Nepal; Source: National Sugarcane Research Program, Jitpur, Bara (2075/76)") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:4, width = c("4em", "6em", "8em", "6em")) %>% 
+  kableExtra::column_spec(column = 1:4, width = c("3em", "6em", "8em", "6em")) %>% 
   kableExtra::add_footnote(label = "Early type cultivars mature within 10-12 months and late to medium type cultivars mature in 12-14 months of planting.")
 ```
 
@@ -822,10 +1128,10 @@ tribble(
   "Mahottari", 7642, 392493, 51.36,
   "Sunsari", 4812, 283282, 58.87
 ) %>% 
-  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Area production and productivity of top sugarcane producing districts of Nepal; Source: MoALD, 2020 (2075/76)") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:4, width = c("8em", "6em", "8em", "6em"))
+  kableExtra::column_spec(column = 1:4, width = c("6em", "6em", "8em", "6em"))
 ```
 
 - Processing of 100 kg of raw sugarcane results in:
@@ -878,8 +1184,6 @@ tribble(~"crop", ~"nitrogen_kg_ha",
   kableExtra::kable_styling(latex_options = "striped")
 ```
 
-## Major weeds and their management
-
 Globally, weeds cause upto 40% reduction in yields of all major cultivated crops. Even crop plants can be serious weeds in other crops, e.g. volunteer potatoes or weed beet.
 
 There have been numerous definitions of weeds. Older ones include: 
@@ -892,7 +1196,7 @@ and
 
 However, most modern definitions convey an opinion that these are the plants which are considered undesirable in some way^[for illustrated review of major weeds, refer to review note on Identification and Characterization of Major Weeds of Selected Field Crops].
 
-### Characteristics of weed
+## Characteristics of weed
 
 ```{r weedification}
 readxl::read_xlsx("./data/weeds.xlsx", sheet = "reasons", skip = 1) %>% 
@@ -905,7 +1209,7 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "reasons", skip = 1) %>%
   kableExtra::column_spec(1:3, width = c("8em", "14em", "14em"))
 ```
 
-### Chemical control of weeds
+## Chemical control of weeds
 
 **Common weed control chemicals and their description**
 
@@ -932,10 +1236,30 @@ readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicide_class_applie
 ```{r chemical-broad-spectrum-herbicides}
 readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicide_broad_spec") %>% 
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
-  knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Selectivity, use and remarks on chemical herbicides") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:4, width = c("5em", "10em", "12em", "10em"))
 ```
+
+```{r herbicide-crop-dose-application}
+bind_rows(
+  read_csv("./data/agronomy_herbicide_classification_major1.csv") %>% 
+    rename(SN = X1), 
+  read_csv("./data/agronomy_herbicide_classification_major2.csv") %>% 
+    rename(SN = X1)
+) %>% 
+  # mutate(SN = row_number())
+  tidyr::fill(Crop, .direction = "down") %>% 
+  select(-1) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Herbicides useful in weed management of major crops and application information") %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("4em", "8em", "8em", "8em", "8em"))
+
+```
+
+
+## Major weeds and their management
 
 ### Major weeeds of wheat
 
@@ -963,7 +1287,7 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_maize", skip = 1, col_name
 4. _Vicia sativa_ ( _Kutilkosa_)
 5. _Lathyrus aphaca_ ( _Bankhesari_)
 
-**Chemical control of weeds of wheat**
+#### Chemical control of weeds of wheat
 
 1. 2, 4- Dichlorophenoxyacetic acid
 
@@ -1042,10 +1366,8 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_rice", skip = 1, col_names
 ```{r rice-chemical-herbicides}
 readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_rice", skip = 1, col_names = TRUE) %>% 
   knitr::kable(caption = "Herbicidal control of rice weeds", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(position = "center", latex_options = c("HOLD_position"), font_size = 8) %>% 
+  kableExtra::kable_styling(latex_options = c("striped"), font_size = 8) %>% 
   kableExtra::row_spec(0, bold = TRUE) %>% 
-  kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
-  kableExtra::column_spec(2, color = "white", background = "#67161d") %>% 
   kableExtra::column_spec(column = 1:2, width = c("14em", "14em"))
 ```
 
@@ -1074,7 +1396,7 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_millet", skip = 1, col_nam
                col.names = c("Scientific name", "Local name"), 
                format = "latex", booktabs = TRUE, escape = FALSE) %>%
   kableExtra::row_spec(0, bold = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE)
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "striped"), full_width = FALSE)
 ```
 
 ### Major weeds of Pigeonpea
@@ -1087,18 +1409,16 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_pigeonpea",
                format = "latex", 
                booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
   kableExtra::row_spec(0, bold = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("HOLD_position"))
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "striped"))
 ```
 
 #### Chemical control of weeds of Pigeonpea
 
 ```{r pigeonpea-chemical-herbicides}
 readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_pigeonpea", skip = 1, col_names = TRUE) %>% 
-  knitr::kable(caption = "Herbicidal control of Pigeonpea weeds", format = "latex", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(position = "center", full_width = FALSE, latex_options = c("HOLD_position")) %>% 
-  kableExtra::row_spec(0, bold = TRUE) %>% 
-  kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
-  kableExtra::column_spec(2, color = "white", background = "#67161d")
+  knitr::kable(caption = "Herbicidal control of Pigeonpea weeds", booktabs = TRUE) %>% 
+  kableExtra::kable_styling(position = "center", latex_options = c("striped"), font_size = 8) %>% 
+  kableExtra::row_spec(0, bold = TRUE)
 ```
 
 
@@ -1124,7 +1444,7 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_soybean",
   knitr::kable(caption = "Major weeds of Soybean crop", 
                format = "latex", 
                booktabs = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position", "striped"), full_width = FALSE) %>% 
   kableExtra::row_spec(0, bold = TRUE)
 ```
 
@@ -1133,7 +1453,8 @@ readxl::read_xlsx("./data/weeds.xlsx", sheet = "weeds_soybean",
 ```{r soybean-chemical-herbicides}
 readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_soybean", skip = 1, col_names = TRUE) %>% 
   knitr::kable(caption = "Herbicidal control of soybean weeds", format = "latex", booktabs = TRUE) %>% 
-  kableExtra::kable_styling(position = "center", full_width = FALSE, latex_options = c("HOLD_position")) %>% 
+  kableExtra::kable_styling(position = "center", full_width = FALSE, 
+                            latex_options = c("HOLD_position", "striped")) %>% 
   kableExtra::row_spec(0, bold = TRUE) %>% 
   kableExtra::column_spec(1, color = "white", background = "#97767d") %>% 
   kableExtra::column_spec(2, color = "white", background = "#67161d")
@@ -1155,6 +1476,55 @@ readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicides_soybean", s
 3. SALT-3 (20\% Cereal crops + 20\% Cash crops + 60\% Wood and timber)
 4. SALT-4 (40\% Cereal crops + 60\% Fruit and cash crops)
 
+## Safe use of pesticides
+
+Pesticides are toxic to both pests, animals and human. However, they need not be hazardous to human and non-target animal species if suitable precautions are taken.
+
+Most pesticides causes adverse effects if intentionally or accidentally ingested or if they are in contact with skin for a long time. Pesticide particles may be inhaled with air while they are being sprayed. So special precautions should be taken during transport, storage and handling. Spray equipment should be regularly cleaned and maintained to prevent leaks.
+
+### Precutions
+
+1. Pesticides should be packed and labeled according to WHO specifications. Labels should indicate the contents, safety instructions (warning) and possible measures in the event of swallowing or contamination.
+2. Pesticides should be stored in a place that can be locked and is not accessible to unauthorized people or children, they should never be kept in a place where they might be mistaken for food or drink.
+3. Left-over insecticide suspension can be disposed off safely by pouring it into specially dug hole in the ground or a pit latrine.
+4. The reuse of pesticide containers is risky and not recommended.
+5. Do not eat, drink or smoke while using insecticides.
+6. Spray workers should wear overalls or shirts with long sleeves and trousers. Paper mask or surgical mask and hand globes should be worm while spraying.
+
+## Sprayer, duster and seed treatment equipments
+
+### Sprayer
+
+1. Air compression knapsack sprayer
+2. Hydraulic knapsack sprayer
+3. Foot sprayer
+4. Pneumatic hand sprayer
+5. Rocking sprayer
+6. Stirrup pump
+7. Bucket pump
+8. Atomizer
+9. Mistblower
+
+### Parts of sprayer
+
+1. Tank
+2. Pump barrel
+3. Pressure chamber
+4. Valve
+5. Pressure gauge
+6. Delivery tube/pipe
+7. Trigger cut-off cork
+8. Nozzle
+  - Disc
+  - Whirl plate
+  - Whirl chamber
+9. Packing turbine
+
+### Duster
+
+1. Hand pump duster
+2. Plunger duster
+3. Hand rotary duster
 
 # Breeding
 
@@ -1194,10 +1564,50 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(position = "center", latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:3, width = c("10em", "12em", "12em"))
+  kableExtra::column_spec(column = 1:3, width = c("14em", "12em", "12em"))
 
 ```
 
+
+### Crops of indian origin
+
+```{r indian-main-center-origin}
+indian_origin_crop <- bind_rows(
+    read_csv("./data/agronomy_crops_origin_indian_main_center1.csv", col_names = c("Group", "Crops")) %>% 
+      tidyr::fill(Group, .direction = "down"),
+    read_csv("./data/agronomy_crops_origin_indian_main_center2.csv", col_names = c("Group", "Crops")) %>% 
+      tidyr::fill(Group, .direction = "down"))
+
+indian_origin_crop %>% 
+  separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
+  mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indian Main center", escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "8em"))
+```
+
+```{r indian-indo-malayan-origin}
+read_csv("./data/agronomy_crops_origin_indo_malayan_center.csv", col_names = c("Group", "Crops")) %>% 
+  tidyr::fill(Group, .direction = "down") %>% 
+  separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
+  mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indo-Malyan center", escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "8em"))
+```
+
+```{r indian-central-asiatic-origin}
+read_csv("./data/agronomy_crops_origin_central_asiatic_center.csv", col_names = c("Group", "Crops")) %>% 
+  tidyr::fill(Group, .direction = "down") %>% 
+  separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
+  mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Central Asiatic center", escape = FALSE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(1) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "8em"))
+```
 
 ## Modes of reproduction
 
@@ -1298,3 +1708,26 @@ Factors that affect cross and self pollination are:
 - Self pollinated species: When additive gene action predominates in a self-pollinated species, breeders should consider using selection methods such as pure line selection, mass selection, progeny selection and hybridization. However, when non-additive gene action predominates, effective methods of breeding are the exploitation of heterosis in breeding hybrid cultivars.
 
 - Cross pollinated species: When additive gene action predominates in a cross-pollinated species, recurrent selection may be used to achieve general combining ability (GCA). Specific breeding products to pursue include synthetic varieties and composites. In the case of non-additive gene action, heterosis breeding just like in self pollinated species is recommended for breeding hybrid cultivars. Alternatively, breeders may consider recurrent selection for specific combining ability (SCA) for poulation improvement. Where both additive and non-additive gene action occur together, reciprocal recurrent selection may be used for population improvement.
+
+### Synthetic cultivar and its development
+
+A synthetic cultivar is a result of open pollinated population improvement, although a synthetic cultivar cannot be propagated without changing the genetic make-up of the population.
+
+A synthetic cultivar must be reconstructed from its parental lines or clones. In case of maize, synthetic cultivars are developed using inbred lines as a three-stage process;
+1. Develop a number of inbred lines
+2. Progeny test the inbred lines for GCA
+3. Identify the 'best' parent and intercross these to produce the synthetic cultivar
+
+The process is almost identical to procedure for developing hybrid cultivars, and only differs in the last stage where many more parents will be included in a synthetic population development than in development of hybrid.
+
+In developing synthetics from clonal selections, following procedure is followed;
+1. Establishment of clonal nursery
+2. Selection of phenotypically best clones
+3. Randomized mating trial
+4. Evaluation of progeny to determine genotypically best clones
+5. Select parents in synthetic.
+
+In the 4th stage, a test cross or polycross technique will be used to genetically test the best clones identified from colonal screen. The aim of this genetic test is to determine the general combining ability of each clonal line in cross-combinations with other genotypes in the selected group of clones.
+
+If a test cross (often called a 'top cross') is used, all the selected clones are hybridized to one (or more test parent). The test parent will have been chosen because it is a desirable cultivar or it may be chosen because of past experience of the individual breeder. The test parent is a heterozygous clone that produces gametes of diverse genotypes. This diversity of gametes produced from the tester will help an assessment of the average ability of each clone to produce superior progeny when combined with alleles from many different individuals.
+

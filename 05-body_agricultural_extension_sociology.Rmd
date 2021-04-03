@@ -36,6 +36,37 @@ Agriculture as a science has to be linked to the practice of delivery of new inn
 
 (Source: \url{https://thehimalayantimes.com/opinion/agricultural-extension-keeping-up-with-the-times/})
 
+```{r chronology-history-ag-extension}
+tribble(
+  ~"Year", ~"Activity",
+  "2008", "Agriculture extension service delivered under Point Four program",
+  "2009", "'Tribhuwan Gram Vikas' department established",
+  "2010", "Agricultural extension activities started being conducted institutionally through Tribhuwan Gram",
+  "2010", "Char-patey club established",
+  "2016", "Agriculture extension section was established under Department of Agriculture",
+  "2021", "District agriculture development offices established",
+  "2022", "Agriculture information section established",
+  "2032", "T and V system of extension first initiated in Bara, Parsa and 23 other districts",
+  "2032", "Integrated Hilly Area Development Project started",
+  "2033", "Integrated Rural Development Project started in Rasuwa and Nuwakot districts",
+  "2034", "Tuki system of extension launched in Dolakha and Sindhupalchowk districts",
+  "2038", "Block production system of extension first implemented in Chiwan and Parsa",
+  "2043/44", "Women unit was established under Ministry of Agriculture and Women Agriculture Extension Program was inititated",
+  "2045", "Crop production technology approach of extension was practiced in Morang, Chitwan and Tanahun",
+  "2034", "Farming System Research and Extension approach first implemented",
+  "2048", "Sagarmatha agriculture development project initiated",
+  "2049", "Women farmer development directorate established under Ministry of Agriculture",
+  "2054", "Pocket package program approved and implementation began from 2058",
+  "2056", "Farmer-farmer extension approach and Famers' field school approach intitiated"
+) %>% 
+  arrange(as.numeric(str_extract(Year, "\\d{4}"))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "History of agriculture extension in Nepal", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(columns = 1) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("3em", "20em"))
+```
+
+
 ### Objectives of extension
 
 - Uplifting the livelihood of rural community
@@ -319,6 +350,36 @@ tribble(
 - In a method demonstration, appropriate size of farmers' group is 20.
 - For result demonstration, participation of 20-25 farmers is regarded appropriate.
 - Farmers' field school was started in 1989 from Indonesia and in Nepal, FFS started in 2056 BS.
+
+## Public, private, NGOs, CBOs, agricultural cooperatives and farmer groups involved in research and extension education.
+
+### Pluralism approach of agricultural extension
+
+The modality of using more than one organization, whether public or non-public for delivering extension services to farming communities, called "Pluralistic extension system" is gaining popularity. The rationale is the pooling of available resources to reduce unhealthy competition, avoid redundancy of services and compensate for low government budgets in agriculture. The main challenge in installing a proper pluralistic agricultural extension mechanism would be the effective coordination among various agencies. The government should take the responsibility for coordination, technical supervision and support, and quality control.
+
+Nepal has pluralistic extension services. In addition to public sector organizations, many NGOs and CBOs offer education and training to farmers. Private sector engagement in extension is limited but growing. Agrovets and farm consultants are engaged in the supply of hybrid seed, seedlings, saplings, baby chicks, fingerlings, animal feed, pesticides, and veterinary services, including AI for cattle and buffalo. Private sector firms such as Agrovets and dairy cooperatives tend to offer quality and timely services to the farmers. Hence, solid rationale is found for extending services such as distribution of selected inputs (fertilizer and improved seed) through private and commercialized service providers, albeit under close monitoring and supervision from DoA and DLS offices.
+
+### Actors in the pluralistic agricultural extension system
+
+1. Public research-cum-extension organizations
+2. Donor-supported rural development programs
+3. International and private research centers
+4. Farmers' association
+
+Farmers' unions and associations emerge as actors not only because they represent their members on the economic and political fronts, but also because they are active in policy advocacy, capacity building programs and the dissemination of production and marketing information.
+
+5. NGOs and bilateral donors
+
+NGOs represent some of the more pronounced actors in all rural development contents. NGOs are known for being relatively well-endowed with financial resources for their programs, their great mobility and their drive for bottom-up approaches. In some sectors, NGOs are associated with great strides in rural development. On the other hand, they have also been accused of promoting donor-dependency, and their rural development programs have been criticized for lack of sustainability.
+
+6. Private agrochemical and input suppliers
+
+For virtually all of the private companies that supply agro-chemical inputs, direct or indirect involvement in agricultural extension is part of a marketing strategy to increase farmers' awareness of products, achieve a competitive edge and increase market share. Subcategories of these actors include seed warehouses, fertilizer manufacturers, pesticide and herbicide companies, and credit institutions.
+
+7. Commodity processors and exporters
+8. Bat actors
+
+Bat actors are intermediaries between agricultural extension service providers (interventionists) and the farmers who are the target groups or the intended beneficiaries of interventionist programs (local actors). Bat actors are normally used as vehicle in interventionist programs that involve agricultural extension, rural reforestation and natural resource conservation.
 
 ## Government organizations in agriculture
 

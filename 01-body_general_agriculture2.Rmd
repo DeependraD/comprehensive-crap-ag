@@ -32,7 +32,7 @@ tribble(
   "Zone", "Zone implementation coordination committee", 9, 3, 2, 
   "Superzone", "Superzone implementation coordination committee", 9, 3, 2
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "PMAMP program implementation committees membership norms") %>% 
+  knitr::kable(booktabs = TRUE, caption = "PMAMP program implementation committees membership norms", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 2, width = "12em")
 ```
@@ -112,8 +112,14 @@ There will be 10,000 pockets in total all over the country. The existing number 
 
 pmamp_2075_zone_superzone <- readxl::read_xlsx("./data/npl_pmamp_superzone_zone_block_pockets.xlsx", sheet = "zone_superzone", skip = 1)
 
-knitr::kable(pmamp_2075_zone_superzone,
-             booktabs = TRUE,
+pmamp_2075_zone_superzone %>% 
+  select(-SN) %>% 
+  relocate(`Zone/Superzone`, .before = 1) %>% 
+  arrange(`Zone/Superzone`) %>% 
+  group_by(`Zone/Superzone`) %>% 
+  mutate(SN = row_number()) %>% 
+  relocate(SN, .after = `Zone/Superzone`) %>% 
+  knitr::kable(booktabs = TRUE,
              caption = "Zone and superzones programs under PMAMP (2075)", 
              digits = 3, linesep = '',
              align = paste0(rep("l", times = ncol(pmamp_2075_zone_superzone))),
@@ -122,7 +128,9 @@ knitr::kable(pmamp_2075_zone_superzone,
   kableExtra::kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
                             full_width = FALSE, font_size = 8, 
                             # row_label_position = "c", # centering row label breaks "column_spec" and everything 
-                            position = "center")
+                            position = "center") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("3em", "2em", "5em", "10em", "8em")) %>% 
+  kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "stack")
 ```
 
 \scalebox{0.8}{\begin{minipage}{1.0\textwidth}
@@ -192,7 +200,7 @@ tribble(
   "Swine", "Number of improved breed of animal", 1000, NA
   ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Minimum area/number of units required for a Block program", longtable = TRUE, col.names = str_to_sentence(colnames(.))) %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 4, width = "8em")
 
 tribble(
@@ -201,7 +209,7 @@ tribble(
   "Fishery", "Ha of pond/reservoir", 500
   ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Minimum area/number of units required for a Superzone program", longtable = TRUE, col.names = str_to_sentence(colnames(.))) %>% 
-  kableExtra::kable_styling(font_size = 10)
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped")
 ```
 
 \end{minipage}}
@@ -400,7 +408,7 @@ In accordance with discussions in the United Nations Human Rights Council, there
 
 ```{r king-queen-title}
 tribble(
-  ~"crop", ~"title",
+  ~"Crop", ~"Title",
   "Wheat", "King of cereals", 
   "Chickpea", "King of pulses", 
   "Mango", "King of fruits; Bathroom fruit", 
@@ -434,7 +442,7 @@ tribble(
   "Leucerne", "Queen of fodder"
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "King, queen and title of crops", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped")
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8)
 ```
 
 
@@ -492,3 +500,167 @@ Lack of certification of Nepalese agricultural products has been causing post-ha
 Currently, interested individuals, farmer groups, cooperatives or companies can certify their produce. GAP certification is performed by Department of Food Technology and Quality Control. All standards of GAP (so far 211) are categorized into following classes: Critical (18), Major (141), Supporting (52).
 
 For those individuals and organizations intending to obtain certificate they should meet 100 percent of the criteria under critical standards, 90% of those under the major standards and 50% of those falling under the supporting criteria. Once the producer/farmer applies for the certificate, the Department assigns an auditor to inspect whether or not or to what extent are the standards met. Based on the report submitted the certification committee decides on whether to grant the certificate or not. Once the certificate is issued the producer can use GAP logo. The certification is valid for 3 years, however, inspections and revisiting of the production technology shall be done at least three times by the certifier.
+
+## Major organizations working in agriculture sector
+
+### Consultative Group for International Agricultural Research (CGIAR)
+
+It is a global partnership that unites international organizations engaged in research on food security. CGIAR research aims to reduce rural poverty, increase food security, improve human health and nutrition, and sustainable management of natural resources. It is carried out at 15 centers (CGIAR consortium of international agricultural research centers) that collaborate with partners from national and regional research institutes, civil society organizations, academia, development organizations and the private sector. These research centers are around the globe, with most in the Global south and Vavilov centers of agricultural crop genetic diversity.
+
+CGIAR is an ad-hoc organization funded by its members. Members include the USA, Canada, the UK, Germany, Switzerland, and Japan, the Ford foundation, the Food and Agriculture Organization of the UN (FAO), the International Fund for Agricultural Development (IFAD), the United Nations Development Programme (UNDP), the World Bank, the European Commission, the Asian Development Bank, the African Development Bank, and the Fund of the Organization of the Petroleum Exporting Countries (OPEC Fund).
+
+```{r agricultural-research-organizations}
+
+tribble(
+  ~"CGIAR center", ~"Headquarters location",
+  "Africa Rice Center (West Africa Rice Development Association; WARDA)", "Contonou, Benin",
+  "Biodiversity International (International Plant Genetic Resources Institute; IPGRI)", "Maccares, Rome, Italy",
+  "Center for International Forestry Research (CIFOR)", "Bogor, Indonesia",
+  "International Center for Tropical Agriculture (CIAT)", "Cali, Columbia",
+  "International Center for Agricultural Research in the Dry Areas (ICARDA)", "Beruit, Lebanon",
+  "International Crops Research Institute for the Semi-Arid Tropics (ICRISAT)", "Hyderabad (Patancheru), India",
+  "International Food Policy Research Institute (IFPRI)", "Washington DC, USA",
+  "International Institute of Tropical Agriculture (IITA)", "Ibadan, Nigeria",
+  "International Livestock Research Institute (ILRI)", "Nairobi, Kenya",
+  "International Maize and Wheat Improvement Center (CIMMYT)", "Texcoco, Mexico state, Mexico",
+  "International Potato Center (CIP)", "Lima, Peru",
+  "International Rice Research Institute", "Los Bafios, Laguna, Philippines", 
+  "International Water Management Institute", "Battaramulla, Sri Lanka",
+  "Word Agroforestry Center (International Centre for Research in Agroforestry; ICRAF)", "Nairobi, Kenya",
+  "World Fish Center (International Center for Living Aquatic Resources Management; ICLARM)", "Penang, Malaysia"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Active CGIAR center and their headquarters", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("20em", "6em"))
+```
+
+### Non-Governmental Organizations
+
+**1. Local Initiatives for Biodiversity Research and Development (LIBIRD)**
+
+- It is a non-profit making, non-governmental organization established in 1995, registered at the District Administration Office, Kaski.
+- LI-BIRD is a pioneer organization in developing and strengthening participatory research methodologies in agro-biodiversity and natural resource management, playing instrumental role in institutionalizing these approaches in the national systems.
+
+**2. FORWARD Nepal**
+
+- FORWARD Nepal is a non-profit, service-oriented, non-governmental organization established in 1997 for helping disadvantaged groups and the rural poor. Activities include policy research on integrated and sustainable development issues and their interventions.
+
+**3. The Center for Environmental and Agricultural Policy Research, Extension and Development (CEAPRED)**
+
+- The center for environmental and agricultural policy research, extension and development in a non-profit, non-political, and non-governmental organizations established in April 23, 1991. Areas of work covered by CEAPRED are as diverse as:
+  - Poverty reduction and livelihood enhancement
+  - Sustainable ecosystem and environmental management
+  - Action/policy research
+  
+**4. Rural Reconstruction Nepal (RRN)**
+
+- Initially set up as a small organization in 1989 by a group of graduates of the Institute of Agriculture and Animal Science (IAAS) with its preceding name as "Grassroots Institute for Training and Services-Nepal" (GRITS-Nepal). The organization works mainly for socio-economic empowerment of target community.
+
+5. CARE Nepal
+6. Multi-dimensional Action for Development-Nepal (MADE-Nepal)
+7. Helvetas Nepal
+8. ICIMOD
+
+## Participatory technology development, participatory planning, monitoring, evaluation and feedback
+
+The PTD is an approach to development that emerged during the 1980s and 90s, involving collaboration between experts and citizens of less-developed countries to analyze problems and find solutions that are appropriate for specific rural communities. PTD was created in response to low rates of adoption of new agricultural technologies in developing countries. Although the approach has been applied most often to agricultural development, it has also been applied to other issues including natural resource management.
+
+Participatory technology development (PTD) has been advocated as a way of increasing the likelihood that technologies developed will be suitable for resource-poor households (RPHs). However, PTD is a resource intensive approach, and it has also been argued that it is an expensive one, because of high degree of heterogeneity among RPHs and their farming systems means that the number of them adopting any particular technology will be small.
+
+During the 1970s and 80s, the growing recognition that agricultural research primarily benefited resource-rich farmers and that resource-poor farmers (RPFs) were slow or unable to adopt recommendations contributed to the emergence of the farming systems research (FSR) movement in the 1970s. This was soon followed, and to some extent paralleled, by the growth of farmer participatory research (FPR) and participatory technology development during 1980s and 1990s.
+
+### Evolution of participatory approaches in agricultural research
+
+```{r participatory-agricultural-activities}
+tribble(
+  ~"Abbreviation", ~"Activity", ~"Period",
+  "FSR", "Farming system research", "1966-1974",
+  "ITK", "Indigenous technical knowledge", "1979-1980",
+  "OFT", "On farm trial", "1982",
+  "FBTF", "Farmer back to farmer", "1982",
+  "FFL", "Farmer first and last", "1985",
+  "FPR", "Farmers PTD", "1988",
+  "OFCOR", "On-farm client-oriented research", "1990",
+  "IBA", "Interactive bottom-up approach", "1990",
+  "RRA", "Rapid rural appraisal", "1991",
+  "PRA", "Participatory rural appraisal", "1991",
+  "PTD", "Participatory technology development", "1992"
+) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Participatory research activities and the periods of respective technology generation") %>%
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("5em", "14em", "8em"))
+```
+
+### Key features of PTD
+
+- Client based; The knowledge, needs, criteria, and preferences of farmers are given importance in decision regarding research agenda, prioritization of problems for research, choice of methodologies, and verification, validation, dissemination and adoption of research results.
+- Decentralized research/technology development
+- Devolution of more responsibility to farmers for adaptive testing
+- Accountability sharing
+- Focuses on farmer-led experimentation
+- Tests the relevance of farmers' problem-solving measures
+- Takes into account the local resources
+- Based on indigenous technical knowledge and native
+- Relies on wisdom of farmers
+- Emphasizes the use of low cost and locally available resources
+
+### Steps in PTD
+
+```{r ptd-steps}
+tribble(
+  ~"Steps", ~"Activity",
+  "1. Getting started in the field", "Building relationship/rapport, preliminary situation analysis, awareness mobilization",
+  "2. Understanding problems and potentials", "Analyzing driving/restraining forces, Identifying scientific and local knowledge of farmers",
+  "3. Looking for thinking to try", "Identifying priorities, Screening options, choosing selection criteria, developing agreed on research agenda",
+  "4. Designing experiments", "Review existing practice, planning and designing experiments, designing evaluation protocols",
+  "5. Trying out", "Implementation of farmer experiments, measurement/observation of research, developing the structure of dissemination of experiences",
+  "6. Evaluation of experiments", "Analyzing the results"
+) %>% 
+  knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Steps in Participatory Technology Development") %>%
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("10em", "20em"))
+```
+
+## Participatory Planning, Monitoring and Evaluation
+
+### Participatory planning
+
+Participatory planning is part of the decentralization process and it aims to identify the critical problems and solve these problems by different methods. Since citizens are in the neighborhood every day, they can provide observations and knowledge that are different from experts, thereby enriching the analysis. By integrating citizens' observations, concerns and aspirations from the start, and throughout the project, participatory planning promotes open dialogue and interaction between users, experts and decision-makers all participants to find innovative solutions collectively that meet the community's true needs.
+
+While most of the citizen participation programs and projects of the government of Nepal have been implemented at the local level, a significant amount of participatory processes can be seen also at the national level. Participatory processes at the local level have been expanded to several policy areas, most notably in the field of community forestry, environment management, agriculture, irrigation, public health and education.
+
+In the early 1950-60, the low level of literacy remained a major hurdle to fully utilize citizen engagement in governance. Later on (1960-90), the tension and conflicts between the king and the political parties hindered the democratic development of the country which, in turn, neglected the notion of citizen participation in governance.
+
+The modern form of participatory planning is one of the instances of participatory institutions that was envisioned by the Local Self Governance Act, 1999. This has been also reflected in the Local Government Operation Act, 2017. However, until 2016, the legislative provision of participatory planning was disturbed. As a result, the central government continuously prepared plans and policies. Several international financial institutions including the UN were also actively working with the government for strengthening the planning process. The Local Governance act envisioned that the planning process would be a regular process, that it would start every year in November, and end in around three months' time frame. All the local bodies were supposed to organize the process at the same time, with notably similar guiding principles. There was a kind of monitoring mechanism (temporal) at the central government level to check if local bodies were formulating their annual local public policies and budgets. Another mechanism to see if local bodies were organizing participatory planning to formulate local public policies and budgets was relatively routine by the Local Bodies' Fiscal Commission (LBFC), a central government authority to recommend the government about the central grant to be allocated to local bodies.
+
+Following the 2017 local elections, the view of local governance has been significantly changed, and that local bodies are changed to local governments. These newly created local governments have been unprecedentedly empowered to exercise executive, judiciary and legislative powers at the local level. Planning and budgeting are going to to be major strategy in the new local government environment, however, there are uncertainties as to how ordinary citizens are going to be incorporated in planning and budgeting.
+
+**Steps of participatory planning**
+
+1. Conduct village level workshop to identify the needs of the people
+2. Assessment of the local resources and problems and accordingly
+3. Formulate development reports
+4. Preparation of project proposals through specific task forces
+5. Formulation of local plans by elected bodies
+
+### Participatory monitoring and evaluation
+
+**Monitoring** is a continuous process of collecting and analyzing information to compare how well a project, program, or policy is being implemented against expected results. Monitoring aims at providing managers and major stakeholders with regular feedback and early indications of progress or lack thereof in the achievement of intended results. It generally involves collecting and analyzing data on implementation processes, strategies and results, and recommending corrective measures.
+
+**Evaluation** is the systematic and objective assessment of an ongoing or completed project, program, or policy, its design, implementation and results. Evaluation determines the relevance and fulfillment of objectives, efficiency, effectiveness, impact and sustainability. An evaluation should provide information that is credible and useful, enabling the incorporation of lessons learned into the decision-making process of both recipients and donors.
+
+**Participatory monitoring and evaluation** is a process through which stakeholders at various levels engage in monitoring or evaluating a particular project, program, or policy, share control over the content, the process and the results of the monitoring and evaluation activity and engage in taking or identifying corrective actions. Participatory monitoring and evaluation focuses on the active engagement of primary stakeholders.
+
+**Features of participatory monitoring and evaluation**
+
+- Local people are active participants -- not just sources of information
+- Stakeholders evaluate, outsiders facilitate
+- Focus on building stakeholder capacity for analysis and problem-solving
+- The process builds commitment to implementing any recommended corrective actions.
+
+**Steps of participatory monitoring and evaluation**
+
+1. Planning the participatory monitoring and evaluation process and determining objective and indicators
+2. Gathering data
+3. Analyzing data
+4. Sharing the information and defining actions to be taken

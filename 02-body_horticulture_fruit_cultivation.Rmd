@@ -89,7 +89,7 @@ tribble(
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Acid group of citrus fruits", escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 2:3, width = c("6em", "16em"))
+  kableExtra::column_spec(column = 2:3, width = c("8em", "18em"))
 ```
 
 #### Citrus hybrids
@@ -111,7 +111,7 @@ tribble(
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Citrus hybrids and their parentage", escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 2, width = "10em")
+  kableExtra::column_spec(column = 2, width = "16em")
 ```
 
 
@@ -369,6 +369,23 @@ Botany: Long lived, medium to large, brached, round topped, evergreen tree reach
 Climate: The litchi is adapted to the warm sub-tropic, cool, dry, frost free winter, and long, hot summer with high rainfall and high humidity. The litchi usually likes low elevation but can be grown upto 800 masl. The optimum temperature requirement for flowering is 16-20 degree C. High temperatures, more than 30 degree C and low relative humidity (less than 60%) during fruit development stage cause the fruit cracking in litchi. The hot winds in summer cause fruit cracking and subsequently damage the pulp (aril). Sometimes it limits the expansion of litchi cultivation. Wet spring, dry summer and light winter are desirable conditions for fruiting in litchi.
 
 The litchi can grow under wide variety of soild including alluvial soil, loams, and heavy clays with rich source of organic matter. Litchi can withstand water for a considerable period, provided the water does not stagnate, but will die after prolonged immersion. It is suggested that new plant should be grown in soil taken from the vicinity of old trees to introduce the mycorrhiza. The optimum pH range is 5.5-6.5
+
+## Kiwi cultivation (_Actinidia_ spp.)
+
+- Spreading type shrub of family Actinidiaceae.
+- There are two major kinds of Kiwi species found in Nepal: _Actinidia strigosa_ and _A. callosa_.
+- In Nepal, Kiwi fruit was first planted in 2040 in Charikot, Dolakha.
+- According to 2071/72 statistics, a total of 52 hectares of Nepal are planted kiwi with current production of 368 tons.
+- Native to china but popularly cultivated in New-zealand since 1910. Hayward Wright first developed the kiwi cultivar called Haywayd in 1924.
+- Districts considered suitable for kiwi farming are Illam, Panchthar, Dhankuta, Kavre, Dolakha, Sindhuli, Nuwakot, Lamjung, Kaski, Parbat, Baglung, Myagdi and Salyan.
+- Cultivated in mountain region below the line of apple farming, in elevation 1200-2400 masl.
+- Flowering: March-April
+- Harvesting: November-December
+- Popular propagation technique: Splice and bench grafting
+- NPK: 170:56:100 per year per hectare.
+- Spacing: 6 m x 6 m
+- Varieties: Soyou, Bruno (Quicker maturing, high yielding and better storability than Hayward), Hayward (Required 600-800 hours of chilling period), Abbot, Allison
+- Diseases: Root rot ( _Phytophthora_ spp.), Botrytis fruit rot ( _Botrytis_ spp.), Twig blight ( _Sclerotina_, spp.), Leaf spot ( _Alternaria_ spp., _Phomopsis_ spp., _Glomerella_ spp.)
 
 
 ## National fruit development directorate (Institutional development of fruits)

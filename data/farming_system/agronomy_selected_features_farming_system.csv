@@ -1,0 +1,9 @@
+SN,Features,Wetlands,Irrigated land,Dry land,Rainfed
+1,Farming practices (duration),9-12 moths,9-12 months,<6 months,6-8 months
+2,Source of water,"river, lake, pond/tank",wells,rainfall (800 mm/year),rainfall (800 mm/year)
+3,Climate,arid to humid,arid to humid,arid to semi-arid,sub humid to humid
+4,Irrigation,natural flow,lift irrigation,no irrigation,
+5,Water management,management of excess water,economical water use,water conservation,
+6,Fertilizer management,liberal use,liberal use,limited use,
+7,Objective,maximizing the yield,yield maximization,to get sustainable yield,
+8,Constraints,"soil health, salt affected soils, drainage",salt affected soils,wind and water erosion,

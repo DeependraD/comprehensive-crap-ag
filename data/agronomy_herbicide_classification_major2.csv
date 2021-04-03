@@ -1,0 +1,8 @@
+,Crop,Herbicide,Dose (kg a.i./ha),Trade name and formulation,Time of application
+12,Pulses,Fluchloralin,0.7,Basalin 45% EC,Pre-emergence
+,,Pendimethalin,0.6,Stomp 30% EC,Pre-emergence
+13,Wheat,Isoproturon,0.6,Arelon 75% WP,Pre-emergence
+1,Sorghum + Cowpea,Pendimethalin,0.9,Stomp 30% EC,Pre-emergence
+2,Sugarcane + Pulses,Thiobencarb,1.25,Saturn 50% EC,Pre-emergence
+3,Maize + Soybean,Pendimethalin,1,Stomp 30% EC,Pre-emergence
+,,Alachlor,2,Lasso 50% EC,Pre-emergence

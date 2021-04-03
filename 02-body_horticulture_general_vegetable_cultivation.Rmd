@@ -1,6 +1,154 @@
 
 # Horticulture
 
+## Classification
+
+Classification mkes it easy to understand the nature, growth habit, morphology, culture and use of respective crops. Horticultural crops are classified on several basis, some of which are described below.
+
+### Based on climage
+
+1. Temperate: All the temperate fruit are deciduous and require a period of cold (chilling temperature). e.g. Grape, pear, plum, apricot, walnut, almond, peach, cherry, etc.
+
+- Small fruits -- Raspberry, strawberry, grapes, mulberry
+- Tree fruits -- Oak, apple, pear, quince
+- Drupe or stone -- Peach, plum, apricot, mango, coconut, almond, jamun, cherry and plum
+- Nut -- Walnut, chestnut
+- Pome -- Apple, pear, quince
+
+2. Tropical and sub-tropical: These fruits are deciduous or evergreen, usually able to withstand light and frost. e.g. Mango, litchi, papaya, pineapple, avocado, coconut, jackfruit, cashewnut, mangosteen, sapota, etc.
+
+- Herbaceous -- Pineapple, banana, papaya
+- Tree fruit -- Citrus, sweet orange, mandarin, lime, lemon, pummelo
+- Nut -- Cashewnut, litchi, macademica nut
+- Miscellaneous -- Fig, mango, paapya, avocado
+
+### Based on uses
+
+1. Vegetable
+
+i. Ariel portion -- The edible portion is the ariel portion in these group of vegetables. e.g. cole crops, cauliflower, cabbage, chinese cabbage, broccoli, legumes, solanaceous fruits, cucurbits, salad crops, etc.
+
+ii. Underground portion
+
+- Root crops -- Radish, carrot, turnip
+- Tuber crops -- Potato, sweet potato
+- Bulb -- Onion, garlic
+- Corm -- Colocassia
+
+2. Fruits
+
+- Temperate or deciduous
+- Tropical and sub-tropical
+
+### Based on lifespan
+
+1. Annual: Mature seeds during same season in which the seedlings are started of the same year. e.g. Bean, watermelon, petunia, zinnia, coleus, etc.
+2. Biannual: Plant that develops only vegetative phase in one season or year nand produces seed in the second year and remain dormant in winter. e.g. mustard, cabbage, onion, hollyhock, sweet william, etc.
+3. Perennial: These plants live more than 2 years without producing seeds and even do not die immediately after producing seeds. e.g., fruit trees, asparagus, artichoke, dahlia, chrysanthemum, rose, begonia, etc.
+
+### Based on method of culture
+
+1. Lawn or turf grass: They are perennial and are used for turfing purpose. e.g. Bermuda grass, blue grass, etc.
+2. Ground cover: They are either the herbaceous or woody plants used to cover the ground for landscaping purpose. e.g. Sedum, periwinkle, etc.
+3. Vines and lianas: They are perennials. e.g. Grapes, rangoon creeper, pelican flower, etc.
+4. Shrubs and trees: These shrubs and trees are grown for landscaping. e.g. Shrubs, poinsettia, myrtle and hibiscus, etc.
+5. Trees: Rhodendron, gulmohar, pagoda tree, bottlebrush, etc.
+
+### Based on use or purpose
+
+1. Herbs, spices, condiments and drugs
+
+These plants provide special flavors, scents and color to the food and also include the crops with curative, laxative and pesticide properties. e.g. vanilla, dill, nutmeg, quinine, spearmint and black pepper.
+
+2. Beverage crop
+
+These crops are used for brewing drinks and are non-alcoholic. e.g. coffee, tea, cocoa, etc.
+
+3. Oil yielding crops
+
+These crops are grown for their oil content. e.g. sunflower, castor, etc.
+
+4. Plants yielding rubber, latex and gums
+
+The product of the sap of these plants are obtained by tapping from the bark. e.g. rubber, sweet gum, papaya.
+
+## Climatic factors affecting horticultural crop production
+
+Climate is the average condition of weather of an area, comprised of attributes such as temperature, light, rain, humidity, hailstone and wind. It largely determines which plants can be grown in a region and where and when they should be planted. Hence the knowledge of climatology is essential for a person working with horticultural crops.
+
+Climatic factors affecting horticultural crops are light, temperature, rainfall and humidity.
+
+### Light
+
+Light is electromagnetic radiation which is also a from of kinetic energy. Plants respond to a broader light wavelength 300-800 nm. Light particles are called photons are quanta. Light influences several aspects of plant development and physiology, most notably the photosynthesis. The photosynthesis increases with light intensity upto a certain limit provided other conditions are favorable.
+
+- Ultraviolet wavelength of light (\SIrange{100}{400}{\nano\meter}) tends the plants to be dwarf.
+- Based on duration of light response, the plants are classified as:
+  - Long day plants: Requiring 8-10 hours of dark period. e.g. Bean, cowpea, radish, spinach, lettuce.
+  - Short day plants: Requiring long night length (10-14 hours). e.g. Onion, sweet potato
+  - Day neutral plants: Photoinsensitive plants. e.g. most perennial fruit trees.
+
+- Besides growth, light also affects the quality of developing fruit and its attributes post-harvest.
+- Although, beyond the control of the grower, it may be manipulated to some extent by altering the planting season or by cropping inside a green house facility; the latter can control intensity, quantity and the duration of light.
+
+### Temperature and heat budget
+
+Temperature affects important physiological functions like respiration, photosynthesis, transpiration, etc. The activity of enzymes is doubled with every \SI{10}{\celsius} rise in temperature upto \SIrange{20}{30}{\celsius}.
+
+The maximum and minimum temperature to support crop growth lies between \SIrange{5}{36}{\celsius}. Temperature affects seed germination, flowering, pollination, fruit set, quality of production, seed production, seed dormancy, and disease and pest occurrence.
+
+Some horticultural crops such as temperate fruit require chilling hours (250-1500) at temperature below \SI{7}{\celsius} for breaking bud dormancy and to promote flowering. So the fruits like apple, peach, pear, strawberry, apricot, etc cannot be grown in tropics. Vegetables, especially biennial crops like onion, carrot and cabbage require chilling temperatures (\SIrange{0}{7}{\celsius}) to produce flower and to produce seeds (vernalization). On the other hand, tropical fruits like mango, banana, jackfruit and pineapple require a long growing season and high temperature without any frost and snow.
+
+Head budget (heat unit) is the total hours of temperature that is required for that maturity of a particular crop. Head budget is very much useful for the detection of right time for harvesting.
+
+### Rain
+
+Majority of living cell is made of water (60-95\%). Terrestrial animals contain 60-90\% water by weight of their body and aquatic organisms may contain upto 95\% water by weight. Blood plasma, a fluid system of living organisms, is composed 95\% of the water. Water has essential role to play in photosynthesis, in the step of photolysis. It serves as a solvent system of a cell and provided medium of transfer within the plant.
+
+The amount of rainfall an area receives determines the kind of crops that could be grown with success. If rainfall is distributed evenly throughout the year, most fruit need not be irrigated, otherwise special arrangements should be made to prevent dessication as well as to promote growth. While also regulating atmospheric conditions such as humidity and temperature, the soil moisture conditioned by rain affects several physiological processes of a crop, including the plant-pest interactions.
+
+### Humidity and moisture
+
+The influence of humidity depends upon the type of the plants as well as on the availability of soil moisture. Xerophytic plants tolerate reduced soil moisture and relative humidity, whereas plants of tropical origin like banana, mango and jackfruit require high humidity. The primary effect of humidity is on the transpiration rate. Increased transpiration and too low relative humidity causes wilting and desiccation in plants. Water loss can be minimized by maintaining high relative humidity, around the nursery to establish the newly propagated plants. Dry weather and low humidity are suitable for seed maturity and harvestign in most of the crops. Most of the seeds store well under low humidity.
+
+### Hailstone
+
+When the air containing high humidity reaches the low temperature in the high atmospheric region, the water vapor turns into small, solid ball shaped pallets and falls to the earth as hail. It causes severe damage to crops, breaking branches of trees, killing small and tender crops and fruit saplings. Hail is dangerous especially to fruit crops, particularly if it occurs after the flowering.
+
+### Wind
+
+Wind helps in pollination and dispersal of seeds. Too high and too low velocity is harmful for fruit set. High winds can interfere with pollination and may cause premature dropping of flowers and fruits. High wind velocity enhances soil erosion. Severe winds are harmful at the time of flowering and fruit set. Planting one or more rows of wind breaks at right angle to the prevailing winds may reduce the wind velocity. Trees used for windbreaks are eucalyptus, sisoo, mulberry, gulmohar, etc. The effectiveness of windbreaks trees depend upon weight and thickness of trees.
+
+## Important niche of different horticultural crops
+
+```{r niche-crops}
+tribble(
+  ~"Crop", ~"District",
+  "Citrus", "Dhankuta, sindhuli, ramechhap, dhading, okhaldhunga, gorkha (manakamana), lamjung (dhimire, chiti, syaut), tanahun, syangja, kaski, gulmi, dailekh",
+  "Apple", "Solukhumbu, jumla, humla, rasuwa, dolpa, mugu, manang, mustang",
+  "Mango", "Bara, parsa, sarlahi, mahottari, dhanusa, sunsari, bardia, kailali, saptari, chitwan, nawalparasi",
+  "Pineapple", "Dhading, nuwakot, chitwan, jhapa, morang, udaypur",
+  "Banana", "Kavre, dhanusha, chitwan, parsa, rautahat, jhapa, tanahun, gorkha, surkhet, dang",
+  "Walnut", "Jumla, kalikot, mustang, manang, doti, humla, mugu, dolpa, rukkum, achham, bajura",
+  "Pear", "Taplejung, panchthar, bhaktapur, lalitpur, kathmandu (pharping), makawanpur, nuwakot, rasuwa, tanahun",
+  "Papaya", "Chitwan, bara, nawalparasi, dang, banke, bardia, kailali",
+  "Grape", "Manang, mustang, kathmandu, lalitpur, bhaktpur",
+  "Arecanut", "Jhapa, sunsari, morang",
+  "Coconut", "Jhapa, sunsari, morang",
+  "Radish", "Myagdi (Todke), pyuthan, rukkum",
+  "Chilli/carrot", "Bhaktapur, lalitpur",
+  "Ginger", "Salyan (malneta), gulmi, nawalparasi, syangja",
+  "Coffee", "Gulmi, lamjung, arghakhanchi, tanahun, gorkha, palpa",
+  "Brinjal, tomato, cauliflower, onion", "Sarlahi (lalbandi), dhanusha, dhanding, kavre",
+  "Pointed gourd", "Sunsari, morang",
+  "Yam", "Dhanusha"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Important niches of different horticultural crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("8em", "20em"))
+```
+
+
 ## Plant growth hormones
 
 Plant growth regulators (PGRs) are organic substances other than nutrients, which in minute quantity can modify (enhance or inhibit) physiological processes in plants.
@@ -88,9 +236,9 @@ read_csv("./data/physiological_disorders.csv", skip = 1) %>%
 
 ```{r physiological-disorders-calcium}
 read_csv("./data/calcium_related_disorders_fruit_vegetables.csv", col_names = FALSE) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Physiological disorders related to calcium in fruit and vegetable crops", col.names = NULL, longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Physiological disorders related to calcium in fruit and vegetable crops", col.names = c("Crop", "disorder"), longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
-  kableExtra::column_spec(column = 2, width = "18em")
+  kableExtra::column_spec(column = 2, width = "22em")
 ```
 
 
@@ -238,9 +386,9 @@ Although, It is difficult to suggest exact spacing for fruit trees which will su
 
 ```{r tree-spacing}
 knitr::kable(readxl::read_xlsx("./data/fruit_cultivation.xlsx", sheet = "orchard_spacing", skip = 1),
-             format = "latex", escape = FALSE,
-             booktabs = TRUE, caption = "General spacing of fruit trees in layout of orchard") %>%
-  kableExtra::kable_styling(latex_options = c("HOLD_position"), full_width = FALSE) %>%
+             escape = FALSE, booktabs = TRUE, longtable = TRUE,
+             caption = "General spacing of fruit trees in layout of orchard") %>%
+  kableExtra::kable_styling(latex_options = c("striped")) %>%
   kableExtra::column_spec(1:3, width = "4cm") %>%
   kableExtra::add_indent(c(4,5,6,15,16))
 ```
@@ -324,6 +472,23 @@ Provide adequate protection against vagaries of summer and winter season.
 ### Hedges/Windbreaks for protection {-}
 
 A good windbreak should be provided on the windward side of orchard well before the orchard is established. Eucalyptus, Jamun, Seedling mango, Mulberry etc. and good windbreak plants. In the spaces between windbreah trees: a hedge may also be planted. _Inga dulcis_ (Jungli julebi), _Lawsonia alba_ (Mehndi), Bouganvillea, Jatti khatti, galgal, karonda, etc. are a few good hedges. Never plant a hedge of citrus species around the citrus orchard.
+
+## Crop propagation
+
+```{r difference-stem-cutting}
+tribble(
+  ~"Feature", ~"Hardwood cutting", ~"Semi-hardwood cutting", ~"Softwood cutting", ~"Herbaceous cutting",
+  "Nature of wood", "One year old and mature shoot must have passed one growing season", "4-9 montsh old (partially matured semi-hard shoot) is selected", "Shoot of 2-3 month age, very tender", "They are non-woody and are 1-2 months old",
+  "Stage of cutting", "Dormant (winter) season", "Summer season i.e. beyond dormancy", "Summer, as sprouting occurs", "Summer, spring or anytime of the year", 
+  "Shoot or stem part", "Healthy and possess at least 2-3 buds or is 10-45 cm long", "Generally terminal branch, vigorously growing under full sunlight 7-20 cm long", "Always terminal shoot, vigorously growing under full sunlight", "Terminal position of stem cutting should be prepared just before they are prepared in rooting media.",
+  "Leaf", "Leafless", "Leaf from basal position is removed", "Shoot with intact leaves", "Leaf from basal position is removed",
+  "Example", "Grape, fig, apple, mulberry, plum, roses, peach, pear, pomegranate, poinsettia", "Camelia, lemon, roses, poinsettia, croton, bougainvillea", "Guava, marigold, peach, ornamental trees, poinsettia", "Chrysanthemum, dahlia, geranium, sweet potato, carnation"
+) %>%
+  knitr::kable(booktabs = TRUE, caption = "Difference between different types of stem cutting", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("5em", rep("8em", 4)))
+```
+
 
 ## Training and pruning
 
@@ -452,6 +617,21 @@ prun_object %>%
 ```
 
 
+### Difference between training and pruning
+
+```{r training-pruning}
+tribble(
+  ~"Training", ~"Pruning",
+  "It is done in the initial stage of growth of plant", "Pruning is done in the later stage i.e. at bearing stage",
+  "It is done to develop a strong framework or shape or size", "Pruning is done to improve the function of a plant",
+  "Training is more art to get a fine and strong shape; it requires more practice for perfection", "Pruning is more science because here we should know the physiology of plant"
+) %>% 
+  knitr::kable(caption = "Difference between training and pruning", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
+```
+
+
 ### General guidelines for training and pruning {-}
 
 1. Evaluate the whole plant
@@ -494,6 +674,18 @@ Ladders are for extending the reach of an operator during pruning. They should b
 
 1. Orchard ladder 
 2. Extension ladder
+
+## Fruit crop planting method
+
+1. First prepare a standard size pit of dimension \SI{3}{\feet} x \SI{3}{\feet} x \SI{3}{\feet}.
+2. Fill it with soil and FYM at 2:1 or 1:1 ratio.
+3. Irrigate it so that it replaces air, soil particles cohese each other, and the resulting depression after irrigation should be refilled.
+4. While planting saplings on the pit, use planting board (2.5 m long) to locate the pit centre and plant them at the centre.
+5. While planting saplings, keep graft union above the soil surface.
+6. Irrigate immediately after planting in order to,
+  - Replace air otherwise roots may dry
+  - For better contact of roots with soil particles
+7. Staking is required for the saplings which are very young and tender, or if the graft union is not yet stout.
 
 ## Characteristics and identification of vegetable crops
 
@@ -1244,7 +1436,7 @@ In the plains, eggplant can be grown almost throughout the year. The first crop 
 
 ```{r maturity-indicator}
 read_csv("./data/crop_vegetable_fruits_maturity_indicators.csv", skip = 1) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Maturity indicators of some of the fruits and vegetables popular in Nepal") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Maturity indicators of some of the fruits and vegetables popular in Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "16em")
   
@@ -1258,7 +1450,12 @@ read_csv("./data/crop_vegetable_fruits_spacing.csv") %>%
          `P-P` = ifelse(!is.na(`P-P_upper`), paste0(`P-P_lower`, "-", `P-P_upper`), `P-P_lower`)) %>% 
   select(`Crop`, `R-R`, `P-P`) %>% 
   knitr::kable(booktabs = TRUE, caption = "Spacing (R-R x P-P) for vegetable and fruit crops", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8)
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::footnote(
+    number = c(
+    "Grapes: Head -- 2.0 x 1.3 (3300 plants per hectare), Kniffin system -- 3.0 x 3.0 (100 plants per hectare), Bower system -- 3.0 x 6.0 (550 plants per hectare)",
+    "Banana: Tall variety -- 2.7 x 3.0 (1210 plants per hectare), Dwarf variety: 1.8 x 1.8 (3052 plants per hectare)"), 
+    number_title = "Different spacing and plant population under various training system", escape = FALSE, threeparttable = TRUE)
 ```
 
 ## Optimum temperature and elevation for fruit and vegetable crops
@@ -1464,7 +1661,8 @@ tribble(
   "Kohlrabi", "700-750", "100-150",
   "Onion", "8000-10000", "500"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Seed and area requirement for nursery bed establishment of common vegetables", escape = FALSE)
+  knitr::kable(booktabs = TRUE, caption = "Seed and area requirement for nursery bed establishment of common vegetables", escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped")
 ```
 
 **Sowing of seeds in the nursery**
@@ -1679,14 +1877,14 @@ Pouch-Magh planted watermelon, cucumber, bottlegourd, muskmelon are generally re
 
 ```{r river-bed-harvest}
 tribble(
-  ~"Crop", ~"Yield (\\si{\tonne\\per\\hectare})",
+  ~"Crop", ~"Yield (\\si{\\tonne\\per\\hectare})",
   "Bottle gourd", "28-30",
   "Bitter gourd", "90-120",
   "Sponge gourd", "24-27",
   "Pumpkin", "30-33",
   "Cucumber", "15-18"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Expected harvestable yield of cucurbitaceous fruits on river bed farming.")
+  knitr::kable(booktabs = TRUE, caption = "Expected harvestable yield of cucurbitaceous fruits on river bed farming.", escape = FALSE)
 ```
 
 
@@ -1716,9 +1914,9 @@ Indian varieties: Kufri lamlima, Kufri chandramukhi, Local red round, Magnum bon
 
 **Climate**
 
-- Cool season, crop is moderately tolerant to frost. Germination occurs at $8^\circ C$ ideally.
-- Day temperature of $30-35^\circ C$ and night temperature of $20-25^\circ C$ is ideal for growth.
-- Tuber formation occurs at $18-20^\circ C$, ideally.
+- Cool season, crop is moderately tolerant to frost. Germination occurs at \SI{8}{\celsius} ideally.
+- Day temperature of \SIrange{30}{35}{\celsius} and night temperature of \SIrange{20}{25}{\celsius} is ideal for growth.
+- Tuber formation occurs at \SIrange{18}{20}{\celsius}$, ideally.
 - If temperature is >29 at night, no tuber formation occurs.
 
 **Soil and fertilizer**
@@ -1752,7 +1950,7 @@ dplyr::tribble(~"Planting season", ~"Harvesting month",
 1. Flat bed planting
 
 - Use of light sandy soil
-- Tubers are planted in very shallow furrow. This method requres two earthing up
+- Tubers are planted in very shallow furrow. This method requires two earthing up
 
 2. Furrow planting
 
@@ -1789,11 +1987,103 @@ dplyr::tribble(~"Planting season", ~"Harvesting month",
 **Disorder**
 
 - Greening: Sunlight exposure causes production of Solanine. Proper earthing up operation maintains tubers are not exposed to sunlight.
-- Black or hollow heart: When stored at high temperature ($35-40^\circ C$) the inner tissue breaks down and becomes dark grey or black which is due to lack of O2, accumulation of CO2 and high temperature. Control: Close spacing, removal of foliage and avoidance of overfertilization; Proper ventillation in storage and transport; Store tubers in cold storage at $2.2-3.3^\circ C$
+- Black or hollow heart: When stored at high temperature (\SIrange{35}{40}{\celsius}) the inner tissue breaks down and becomes dark grey or black which is due to lack of O2, accumulation of CO2 and high temperature. Control: Close spacing, removal of foliage and avoidance of over fertilization; Proper ventilation in storage and transport; Store tubers in cold storage at \SIrange{2.2}{3.3}{\celsius}.
 
-Q. Describe various types of storage systems used in Nepal to store potato tubers.
+\bquestions
 
-A. $\longrightarrow$ By Samita!
+\question Describe various types of storage systems used in Nepal to store potato tubers.
+
+\bsolution
+$\longrightarrow$ Potato is one of the important food crops and a major source of income for smallholder farmers of high mountain regions of Nepal. Potato is cultivated in all regions of Nepal, although the timing of planting and management system differ.
+
+Of its fresh weight, approximately 80\% of the content is water. With such a high moisture content in the tuber, it requires elaborate techniques and specific precautions for its preservation, unlike rice, wheat or millet. 
+
+Potato is stored for both food and seed purpose. While storing, care should be taken to protect against insect, pest and disease. While seed potato should be specially taken care of, to maintain germination capacity, food potato storage should maintain taste and flavor of the tubers for use by consumers. Following factors affect storability and storage quality of the potato post-harvest;
+
+1. Temperature
+
+```{r potato-temperature-storage}
+tribble(
+  ~"Purpose", ~"Temperature (\\si{\\celsius})",
+  "Seed potato", "2-4",
+  "Food potato", "4-5",
+  "Chips potato", "7-10",
+  "French fries potato", "5-8"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Temperature suitable for various end use of potato", longtable = TRUE, escape = FALSE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("8em", "8em"))
+```
+
+Cold storage units are constructed in Terai in order to stave off high temperature stress during summer. In himalayan region, rustic store utilizing natural cold air circulation is constructed.
+
+Following temperature profile indicator of various physiological conditions should serve as reference in maintaining quality of harvest potato:
+
+- Potato starch turns sweet: \SIrange{7}{8}{\celsius}
+- No sweetness in potato: \SIrange{17}{18}{\celsius}
+- Freezing of potato and decay: \SI{2}{\celsius} or below.
+
+2. Ventillation
+
+Needed in both rustic storage (provision of inlet and outlet) as well as in automated cold storage facility.
+
+3. Relative humidity
+
+It is best maintained at 92-95\%. Too less RH causes shrinkage of tubers and too high RH increases change of disease development.
+
+4. Diffused light
+
+Seed potato is transferred to store in light one month before sowing.
+
+5. Potatoes should be cured, graded and packaged during storage.
+
+Seed is the is the main cost of the potato cultivation, accouting for almost 50\% of the total cost. The potato seed is one of the major sources of potato disease as well. Unavailability of good quality potato seed at the right time is another problem of potato cultivation. Therefore, is a potato grower is able to store his own potato seed in a well conditioned manner for the season following, several problems may be averted as well as reducing the cost of cultivation.
+
+Best method of storing seed in the hills of Nepal should not require farmers to change their traditional practices. Diffused light storage (DLS) meets the critera for storing seed potato in the hills and it can be adapted to any existing on-farm storage.
+
+**Principle of Diffused Light storage (DLS)**
+
+It is based on the use of natural indirect sunlight and good ventilation or air flow instead of low temperature, to control excessive sprout growth and associated storage loss. Two basic element of DLS principles are:
+- Light (diffused), so that spout are short, colored and stout than white
+- Ventilation, provides tuber the Oxygen as they respire while also reducing temperature of the storage, otherwise tubers may shrink and become physiologically old.
+
+\textbf{Storage methods}
+
+The storage system of potato adopted differ in different parts of Nepal from hills to terai. Mostly, traditional system of storage are in use. In the terai, potato can be stored for 3 montsh in open field conditions, although they may be stored 4-5 months while kept spread open in floor. The potato is stored traditionally in Bhakari, Doko, Basket, pit or open field. Rustic storage and cold storage are popular amongst the methods in hills and terai regions, respectively.
+
+1. \textit{Bhakari}
+
+Potato can be stored in \textit{Bhakari} in places above 2400 masl in high hills of Nepal. The sprouting problem does not occur in cold places at such altitude. Potatoes can be stored for 5-6 month in \textit{Bhakari} in fresh and non-sprouted condition.
+
+2. Pit storage
+
+It is also popular method among the farmers of high hills, residing above 2400 masl where rainfall is minimal. In districts like manang, mustang, jumla, humla, farmers store potato harvested in Shrawan-Bhadra in pits near house before snowfall in Falgun-Chaitra melts. The pits are dug before temperature rises and care is taken that moisture does not enter into the pit during storage.
+
+3. Open field storage
+
+In high hills, some farmer do not harvest potato in Shrawan-Bhadra and leave them in open field. They harvest potato only from Kartik-Poush according to their nee. If farmers have no storage facility or lack recruits for labor, this is the preferred alternative. Losses of upto 25\% may be expected if the crop is left in field.
+
+4. \textit{Perungo} (Bamboo basket)
+
+This basket, locally called \textit{perungo} is traditionally used to store seed potatoes in th hills. The perungo can be installed at diffused light systems (DLS) making layers inside. They may be staked safely at any place hanging to prevent from light or rain.
+
+5. Wooden tray
+
+Wooden tray may vary in size according to need of farmers. The tray is another technique to store seed potatoes under diffused light system. Trays can be placed where there is diffused light or air flow.
+
+6. Rack or shelves inside or outside the house
+
+They may be placed at the site of convenience with arrangements for nets and wires to exclude rats and rodents.
+
+7. Rustic storage
+
+8. Cold storage
+
+(refer to the section on Rustic storage)
+
+\esolution
+
+\equestions
 
 Q. Define True Potato Seed (TPS). Do you see its scope in supplementing the requirement of potato seeds in Nepal ? Is so, how can it be improved ?
 
@@ -1801,7 +2091,7 @@ A. $\longrightarrow$ Potatoes are most often propagated from vegetative tissues,
 
 A single plant may produce 50-100 berries and single berry contains about 150-200 seeds. TPS is mainly used to develop new potato cultivars and now gaining popularity to raise the commercial crops. About 100-150 g of seed is required to raise the crop in 1 hectare of land. 
 
-_Scope_: 
+**Scope**
 
 - Non-availability of good quality seed tuber, 
 - High seed cost, 
@@ -1813,7 +2103,15 @@ All these constraints have led to the development of TPS technology of crop prod
 - Unlike seed tuber, stocking density of TPS seed much more, hence from the same parcel of land, more of TPS can be recovered than seed tuber.
 - An additional benefit with the use of TPS is process to obtaining application ready seed is substantially shortened as several post-harvest processess such as curing and tuber treatment can be avoided.
 
-```{r}
+**Guidelines regarding cultivation of potato for TPS in Nepal**
+
+- Seed tuber requirement: 25-30 kilogram per ropani
+- Planting time:
+  - High hills: Falgun-Chaitra
+  - Mid hills: Poush-Magh
+  - Terai, inner terai and low-lying basins: Ashoj-Mangsir
+
+```{r potato-seed-production}
 readr::read_csv("./data/potato_seed_crop_production_specification.csv", skip = 1) %>% 
   pivot_longer(cols = starts_with(c("Recommended")), 
                names_to = "Region", 
@@ -1923,50 +2221,372 @@ Off season onion farming could be done in regions ranging from terai to mid-hill
 
 Vegetative onion can be obtained directly from seedling cultivation, which is generally established in bulk in nursery bed and disseminated among growers. For simplicity, here is discussed the method of fresh leaf onion and bulb onion production:
 
-  1. Selection of land: Onions will grow satisfactorily on soils with a pH of 6.0-6.8. The ratio of N:P:K applied during seedbed preparation is 1:2:2, although some bulb producers increase the nitrogen ratio according to the soil status. Work by Ahmed (1982) showed that N, P and K applications equivalent to 150 kg/ha produced the largest bulbs and highest total bulb yield at the end of the first year, and that supplementary nitrogen application not exceeding 100 kg/ha in the second year applied during anthesis enhanced seed quality. The higher potassium levels during bulb production were carried over to the second year and also enhanced seed quality.
-  Additionally, the land should not permit water stagnation and should drain as early as possible to avoid fungal diseases.
-  2. Selection of off season cultivar: The best cultivar for raising crop directly from seed is the Agrifound Dark Red. But Nasik-53 is favored when sets are to be raised to obtain bulbs.
-  3. Seedling raising: Seedling is ready for transplanting within 30-40 day of sowing.
+1. Selection of land: Onions will grow satisfactorily on soils with a pH of 6.0-6.8. The ratio of N:P:K applied during seedbed preparation is 1:2:2, although some bulb producers increase the nitrogen ratio according to the soil status. Work by Ahmed (1982) showed that N, P and K applications equivalent to 150 kg/ha produced the largest bulbs and highest total bulb yield at the end of the first year, and that supplementary nitrogen application not exceeding 100 kg/ha in the second year applied during anthesis enhanced seed quality. The higher potassium levels during bulb production were carried over to the second year and also enhanced seed quality.
+
+Additionally, the land should not permit water stagnation and should drain as early as possible to avoid fungal diseases.
+
+2. Selection of off season cultivar: The best cultivar for raising crop directly from seed is the Agrifound Dark Red. But Nasik-53 is favored when sets are to be raised to obtain bulbs.
+
+3. Seedling raising: Seedling is ready for transplanting within 30-40 day of sowing.
   
 ```{r offseason-onion-seed-bed}
 tribble(~"Region", ~"Seedling raising time", ~"Transplanting time", 
         "Lower hills", "Early Ashar", "Early Shrawan", 
         "Mid hills", "Jestha", "Ashar") %>% 
   knitr::kable(booktabs = TRUE, caption = "Timing of seed seed preparation and seedling transplanting for offseason onion production.") %>% 
-  kableExtra::kable_styling(font_size = 10)
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped")
 ```
   
-  4. Seed requirement: 500 g per ropani
-  5. Raising of seedling bed:
-    - 10 msq of seed bed is enough to raise seedlings for 1 ropani of land. Each meter square of bed optimally receives 50 g.
-    - For healthy seedling raising, bed should be 1 m wide and be raised 30 cm above the ground.
-    - Application of 5 kg: 10 g: 10 g: 10 g FYM:Urea:DAP:MoP per 1 msq seed bed.
-    - If the seed bed is moisture deficit, irrigate it 2-3 days prior to seed placement.
-    - Seed placement in rows of 8-10 cm apart in the bed.
-    - Seed should be thoroughly covered with FYM or fine soil after sowing. Bed should be mulched and be moistened to avoid dessication of seeds underneath.
-    - Healthy seedlings can be obtained if they are primed in sugar+jathropa solution (5:5 g in 20 ml water) and dried.
-    - To prevent seed borned diseases, like seedling rot, spray solution of 2.5 g Dithane-M45, 1 g Bavistin and 1 g Nuvan in 1 ltr water after 1-2 days in seed bed.
-    - Seed bed should always be kept moist.
-    - Apply Micronutrients for healthy and vigorous seedlings.
-    - Seed bed shoudld have provision of drainage to let excess of water.
-    - If early bed is to be constructed in rainy season, bed should be protected from spattering rain by sheltering with polythene.
+4. Seed requirement: 500 g per ropani
+5. Raising of seedling bed:
+  - 10 msq of seed bed is enough to raise seedlings for 1 ropani of land. Each meter square of bed optimally receives 50 g.
+  - For healthy seedling raising, bed should be 1 m wide and be raised 30 cm above the ground.
+  - Application of 5 kg: 10 g: 10 g: 10 g FYM:Urea:DAP:MoP per 1 msq seed bed.
+  - If the seed bed is moisture deficit, irrigate it 2-3 days prior to seed placement.
+  - Seed placement in rows of 8-10 cm apart in the bed.
+  - Seed should be thoroughly covered with FYM or fine soil after sowing. Bed should be mulched and be moistened to avoid dessication of seeds underneath.
+  - Healthy seedlings can be obtained if they are primed in sugar+jathropa solution (5:5 g in 20 ml water) and dried.
+  - To prevent seed borned diseases, like seedling rot, spray solution of 2.5 g Dithane-M45, 1 g Bavistin and 1 g Nuvan in 1 ltr water after 1-2 days in seed bed.
+  - Seed bed should always be kept moist.
+  - Apply Micronutrients for healthy and vigorous seedlings.
+  - Seed bed shoudld have provision of drainage to let excess of water.
+  - If early bed is to be constructed in rainy season, bed should be protected from spattering rain by sheltering with polythene.
   6. Seedling transplanting
-    - Seedlings become ready for transplantation 30-40 DAS. Only healthy seedlings should be selected for planting. This is fulfiled by roguing out unhealthy ones.
-    - Prior to seedling uprooting, bed should be softened with water.
-    - Based on moisture reign of the land where seedling will be futher grown, provision of irrigation or drainage should be made. Land should be parcelized (into beds) in order to ease operation.
-    - R-R: 20 cm x P-P: 10-15 cm
+  - Seedlings become ready for transplantation 30-40 DAS. Only healthy seedlings should be selected for planting. This is fulfiled by roguing out unhealthy ones.
+  - Prior to seedling uprooting, bed should be softened with water.
+  - Based on moisture reign of the land where seedling will be further grown, provision of irrigation or drainage should be made. Land should be parcelized (into beds) in order to ease operation.
+  - R-R: 20 cm x P-P: 10-15 cm
 
 ## Offseason tomato production
 
 ## Offseason cucumber production
 
-## Offseason production of other vegetable crops
+## Offseason production of vegetable crops
+
+Vegetable production after or before their normal season is called off-season vegetable production.
+
+### Advantages
+
+- Farmers can learn specific techniques on vegetable production
+- Growers can get higher returns for unit quantity of their produce from off-season sales.
+- Consumers can get fresh vegetables during lean season.
+- It may be possible to export the produce and earn foreign currency.
+- Farmers can develop confidence and through commercial scale cropping improve their earning and livelihoods.
+- It creates employment for farm labor.
+
+### Disadvantages
+
+- It requires highly specific techniques to produce vegetables in off-season.
+- The production is often risky due to possibility of incidence of disease and pests.
+- It is only possible to perform farming on commercial scale in areas where marketing is not a problem.
+- Due to farmers' tendency to use increased amounts of chemical pesticides in order to avert pest problem, off-season farms are generally source of pollutants.
+- Mainly inert role of government for market establishment and development.
+
+### Approaches of off-season vegetable production
+
+1. **Adjustment of planting time**
+
+- With the adjustment of planting time, the vegetables can grow in off-season.
+- Example: summer vegetables are sown about 2 months earlier than normal season for early crop.
+
+```{r planting-season}
+tribble(
+  ~"season", ~"sowing_time", ~"harvesting",
+  "Normal season", "March-May", "June-August",
+  "Off-season", "January-February", "April-June"
+) %>% 
+  rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Planting date adjustment for respective seasonal crops under off-season cultivation", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped")
+```
+
+- Generally, the cururbits are forced in late winter at seedling stage and transplanted in open field for early crop.
+- Similarly, tomato, brinjal, sweet potato, cucumber and squash are also forced at young stage during late winter in mid hills and high hills.
+- 40 days variety radish can be sown one month earlier than other varieties.
+
+2. **Use of improved varieties**
+
+Use of improved varieties which can avoid or tolerate limiting factors can prolong the production and supply.
+
+_Example in cauliflower_
+
+- An early variety cultivar: Pusa Deepali becomes ready to harvest in September when planted early
+- Mid season variety Kathmandu local is ready for harvest in November-December.
+- Late variety: Snowball-16 becomes ready for harvesting in January-February.
+
+_Example in radish_
+
+- Early variety: 40 days
+- Mid-season variety: Minnow early, white neck
+- Late season variety: Pyuthane red and Tokinase
+
+_Example in cabbage_
+
+- Early variety: Pride of india, Golden acre
+- Mid season: Copenhagen market
+- Late season: Pusa drum head, Danish ball head
+
+- In tomato, Srijana hybrid is known to be cultivable all around the year.
+
+3. **Use of different agro-ecological climatic conditions**
+
+Generally, vegetables are grown during normal season in one climatic region and marketed as off-season in another climatic region.
+
+**Example**
+
+- In high altitudes of Tistung, Plaung and Daman, farmers can produce cabbage, leafy vegetable and peas during summer and rainy seasons and supply to the markets of KTM valley, pokhara and terai regions.
+- Farmers of low hills and terai region can produce tomato, brinjal, sweet pepper and cucumber during spring season and winter season and can suppply to the market of mid-hills nad high-hills.
+
+4. **Creation of controlled environment**
+
+By creating controlled environment, vegetable crops can be grown during off-season and the produce can be supplied at premium price at nearby markets. In absence of well-equipped green house facilities, plastic house and plastic tunnel cultivation are popular among Nepalese farmers for manipulating, to some extent, the growing environment. Plastic of following types are mostly used:
+
+- Super thin films: The thickness of plastic is less than 10 microns. Such plastics are used to minimize the plastic pollution.
+- Yellow/brown plastic: The upper yellow sides attract insect/pests and lower brown prevents light penetration and inhibits weed growth.
+- Silver/brown plastic: The silver sides repel the insects/pests by reflecting the light and brown sides prevent light penetration and inhibit weed growth.
+- Brown plastics: The brown plastics prevent light penetration and inhibit weed growth.
+- Black plastics: This plastic helps to maintain low soil temperature and checks weed growth.
+
+### Construction of plastic house
+
+A plastic house of any size can be constructed by using polythene sheets, bamboo stakes or galvanized iron pipes. The tall growing plants like tomato and cucumber are suited to grow in plastic house.
+
+**Dimension of plastic house**
+
+- Length: 20 m
+- Breadth: 5 m
+- Plastic length: 21 m
+- Plastic breadth: 5.6 m
+- Plastic gaze: 300-400 m
+- Length of the middle horizontal stick (Balo): 21 m
+- Length of side pole/stick: 5.6
+- Height of middle pole ( _dhuri khambo_): 2.5 m
+- Interval of middle stick: 3 m
+- Height of side stick: 2 m
+- Parallel cross stick: 0.5 m
+- Gap between one to another plastic house: 1 m
+
+### Constuction of plastic tunnel
+
+Making use of polythene sheets is the easiest and cheapest method of controlling environment. About 1 m wide raised beds are prepared and bamboo stakes are bent over it to make semi-circular shape and polythene sheet put over it. It is generally practiced for raising seedlings for summer crops during the winter season -- a technique called forcing.
+
+
+5. **Agronomic practices and their modification**
+
+- Hardening of seedling
+- Mulch, cover crops, shelter belts
+- Smoking techniques
+- Use of suitable irrigation practice
+- Application of organic matter
+- Netting (for shade and hailstorm protection)
+- Mist cultivation
+- Training and pruning
+- Staking
+
+6. **Plant growth regulators**
+
+## Nutrient mangement in fruits and vegetable crops
+
+### Classification of nutrients
+
+- Out of 60 identified nutrients in plant tissue analysis, only 16 are knonw to be essential.
+
+**Essential nutrients**
+
+1. Macro nutrients
+
+  - Structural nutrients: C, H, O
+  - Primary elements: N, P, K
+  - Secondary elements: Ca, Mg, S
+  
+2. Micronutrients: Mn, Zn, Mo, Cl, Fe, Cu, B(, Ni)
+
+### Classification of vegetable based on lime requirement
+
+- May or may not require lime: Potato, radish, tomato, turnip
+- Require lime: Carrot, cucumber, knol-khol, pea, pumpkin
+- Requires high concentration of lime: Brinjal, cabbage, cauliflower, celery, chillies, letce, onion, spinach, turnip.
+
+### Classification of vegetable crops based on nutrient requirement
+
+- Heavy feeders (require high does of basal fertilizer application as well as frequent side dressing) -- Celery, melons, tomato, corn, pepper, cucumber, pumpkins, eggplant, squash, bitter gourd, sponge gourd, bottle gourd, etc.
+- Medium feeders (require intial good start but may not need side dressing) -- Broccoli, cabbage, spinach, brussels sprout, kale, swiss-chard, lettuce, cauliflower, braod leaf mustart.
+- Light feeders -- Beet, onion, carrot, radish, leek, turnip.
+
+### Nitrogen
+
+Nitrogen is present in structure of protein and amino acids. It is found in purines, pyrimidines, and co-enzymes. It is also essential in RNA and DNA. The porphyrin structure is found in chlorophyll and the cytochrome enzymes, which are essential for photosynthesis and respiration. Other compounds such as vitamins also contain nitrogen. 
+
+When nitrogen is deficient in young plants, plants show stunted growth with yellowish green leaves. Older leaves become light green followed by yellowing, drying or shriveling. Shoots become short, thin an spindly upright in growth.
+
+#### Deficiency symptoms of Nitrogen
+
+- Apple and peach: Fruits are highly colored and are small when mature
+- Sweet pepper and turnip: Yellowing of leaves
+- Tomato:
+  - Retarded vegetative growth
+  - Yellowing of flower bud and falling off
+  - Comparatively smaller fruits are set
+  - Tomato seedlings have small upper leaves and plants appear triangular in shape
+  - Does not grow well after transplanting, and shows lowered production
+- Spinach: Yellowing of leaves becomes prominent in lower leaves than in upper.
+- Radish:
+  - Poor plant growth and development
+  - Lower leaves start yellowing, leaves become small, narrow and thin
+  - Root size is smaller and underdeveloped
+- Brinjal:
+  - Poor plant growth, light coloration of leaf and lower leaves start yellowing
+  - Middle portion of the vein of the lower leaves seem yellowing 
+- Cole crops:
+  - Older leaves change to orange red to purple color
+  - Leaves fall off
+  - Young leaves change into pale green color
+  
+#### Toxicity symptoms of Nitrogen
+
+- Leaves turn into dark green color and vegetative growth rate is high
+- Abnormal growth or high rate of photosynthesis and vegetative growth affects floral bud formation and differentiation. Shape of tomato plants become irregular and holes are observable on the stem of tomato.
+
+### Phosphorus
+
+It is constituent of nucleic acid, phospholipids, sugar-phosphates and co-enzymes (NAD and NADP). Phosphorus is the most important constituent of the ATP, which is involved in many metabolic reactions as energy transfer molecule. It is essential mostly in the growing meristematic regions where the element is involved in the synthesis of nucleoproteins. It also activates the aminoacids for protein synthesis. In young plants, its deficiency causes stunted growth, leaves become dark blue or purple in color. The stem becomes slender and leaves and veins contain more anthocyanins. Meristematic growth ceases in potato and fruit ripen slowly.
+
+Maximum availability of phosphorus is in the form $\mathrm{H_2 PO_4}$ and genrally occurs in a pH range of 6-7. This pH range favors the presence of $\mathrm{H_2 PO_4^-}$ ions which are readily absorbed by plants than $\mathrm{HPO_4^-}$. The latter occurs at pH value above 7. In order to uptake P by plants, energy is expended. In case of low temperature and low root activity active absorption is retarded. Plant root growth also helps in utlization of P present in the soil. So, young plants cannot utilize P properly.
+
+#### Deficiency symptoms of Phosphorus
+
+- P deficiency symptoms always appear in older leaves. According to need of the plant, P moves from older leaves to new leaves.
+- Yellowing (sometimes whitening) of lower leaves.
+- In strawberry, brinjal and capsicum, leaves turn into dull pale green color.
+- In tomato and cabbage, leaves turn into red violet color.
+- Delay in fruit ripening in several fruits.
+
+#### Toxicity symptoms of Phosphorus
+
+- Soft and smooth onion bulbs, basal root development is excessive.
+- Yellowing of lower and older leaves with excess accumulation of P.
+
+### Potassium
+
+- K enhances the synthesis and translocation of Carbohydrates (CHO) thereby increasing the thickness and stalk strength.
+- It increases the starch storage in crops.
+- It provides more osmotic pull and that draw water from the roots. So, the plants can withstand water stress in K availability.
+- It helps in closing and opening of stomata through regulation of guard cells.
+- Catalytic role by activating a number of enzymes and co-enzymes by incorporation of amino-acids in protein synthesis.
+- More than 80\% amino acids require K for their activation.
+- It encourages the root growth, winter hardiness and disease resistance.
+- It improves the quality of fruits and seeds by enhancing the flavor and color.
+
+Clay soil with organic matter and in the pH range of 6-7 are considered best to ensure adequate availability of the soil potassium.
+
+### Deficiency symptoms of potassium
+
+- K is a higly mobile element in the plants system.
+- Deficiency occurs first at lower leaves then moves towards younger parts.
+- Mottling, spotting, streaking or coring of the leaves starting from the lower leaves.
+- Scratched margin of the pea, grain and grasses.
+- Appearance of burning on the edges of the tip of the older leaf.
+- In general, leaves show following symptom:
+  - Yellowing of leaves starting from the margin, covering the whole leaves and eventually dying
+  - Irregular spots in the leaves
+  - Abnormal spots on the vein of the leaves
+- In fruits, metabolic imbalance occur due to disrupted photosynthetic processes. Taste and flavor of the fruits like tomato and strawberry are affected due to lower production of sugar, amino acids, organic acids and vitamin C.
+- In tomato:
+  - Yellowing of leaf margin and tip of lower leaves
+  - Inner portion of fruits appear white and outer skin shows browning
+- In cucumber:
+  - Yellowing starts from leaf but vein remain initially green.
+  - In severe condition, irrregular white spots and net like structure appear on leaf.
+- In brinjal, irregular white spots (blotch) appear on the leaf.
+- In onion:
+  - Large leaf spots appear on the older leaf from middle to tip portion
+  - Sunken spots and downly mildew appear on leaves.
+- In spinach, white spots appear in leaves
+- In cabbage, lower leaf become yellow at the time of head formation
+- In pepper, lower leaf appear rough and abscise readily
+- In soybean, yellowing occurs in between portion of veins
+- In watermelon, initially leaves roll inwards and later black spots appear in the tip.
+
+#### Toxicity of potassium
+
+- Rolling of leaf margins and uneven surface developed
+- Lack of green pigments in between vein of leaf. This is due to definency of Magnesium and excess of Potassium.
+
+### Calcium
+
+- This element is consituent of middle lamella of plant cell walls; it is present in the form of calcium pectate that cements the cell wall.
+- It is also important for formation of cell membranes and lipid structures.
+- Small amount of Ca is required for normal mitosis as it has role in stabilizing chromatin fibers.
+- It is essential for amylase, a starch-digesting enzyme and is an activator of the phospholipase in cabbage leaves.
+- It acts as an antidote against toxicity of sodium, potassium and magnesium.
+- It neutralizes organic acids in cell vacuoules and maintains differential permeability of cell membranes.
+- Calcium is also essential for the growth of apical meristems and roots.
+- The deficiency symptoms of calcium are chlorotic, rolled, and curled leaves. The meristematic tissues in stems and roots break down resulting into death of plants in acute cases. Roots are poorly developed and lack fiber. Symptoms appear near the growing points. Fruiting may not occur at all.
+
+### Magnesium
+
+- Important in photosynthesis and carbohydrate metabolism as it is a constituent of the chlorophyll molecule.
+- It is activator of enzymes involved in the synthesis of RNA and DNA from nucleotide phosphates. Magnesium is also present in anthocyanin pigment and protein molecule.
+- May have role in protein synthesis or as an important binding agent in microsomal particles, where protein synthesis takes place.
+- Mottled chlorosis with green veins and yellow or white leaf web tissues appear first on old leaves of magnesium-deficient plants. Severely affected leaves may wilt and shed. Brittleness of leaves is common and necrosis usually occurs.
+
+### Sulfur
+
+- This element is a constituent of sulfur-bearing aminoacids such as cystine, cysteine and methionine.
+- It is also a component of sulfur bearing vitamins (Biotin and Thiamin) and co-enzyme. Sulfhydryl groups, present in many enzymes, are necessary for enzyme activity.
+- It helps in stabilizing protein structure by sulfur cross-links.
+- The volatile compounds that give characteristic odor in mustard and onions have sulfur.
+- Sulfur is rarely deficint in plants, because this element is applied in the form of fungicide lime-sulfur and also is applied to soils in the form of other fertilizers containing sulfur.
+
+### Iron
+
+- In chlorophyll synthesis, iron is essential element.
+- It is a component of various flavoproteins that are active in biological oxidation.
+- The element is also found in cytochromes, peroxidases, catalases, ferrodoxin.
+- Upon deficiency of this mineral, the interveinal white chlorosis appears first on young leaves. They may often become necrotic. In some cases, tips and margins are scorched.
+
+### Manganese
+
+- It acts as an enzyme activator in respiration and nitrogen metabolism.
+- Manganese is essential for chlorophyll synthesis.
+- In sugar metabolism, this element activates many enzymes such as malic dehydrogenase, oxalosuccinic decarboxylase.
+- Manganese is involved in the destruction or oxidation of indole-3-acetic acid.
+- Fatty acid synthesis and RNA and DNA synthesis need managanese.
+- Involved in electron transport and in hydrolysis of water in photophosphorylation.
+- Manganese deficincy causes mottled chlorosis with veins green and leaf web tissues yellow or white. Symptoms appear first on young leaves and may spread to old leaves. Stem is often hard and woody. Carotene content is reduced.
+
+### Zinc
+
+- Involved in the biosynthesis of indole-3-acetic acid through involvement in the synthesis of tryptophan, a precursor of auxin.
+- Zinc is activator of several enzymes, most of which play a role in synthesis of amino-acids and proteins.
+- Necessary for chlorophyll synthesis.
+- Zinc deficient leaves are chlorotic and necrotic. Young growth is first affected. Rosetting of leaves and twigs and premature shedding of leaves occur. Whitish chlorotic streaks between veins in older leaves appear. Leaves become thick and undersized margins of mature leaf curl upward or downward. In citrus, fruit size is reduced and multiple seed formation occurs.
+
+### Boron
+
+- Involved in carbohydrate transport within plant. Borate ion may be associated with the cell membrane where it complexes with the sugar molecule.
+- Boron helps calcium movement in plants.
+- It is necessary for cell division and cell enlargement of root tips in _Faba_ bean.
+- Boron is associated with flavonoid synthesis in leaves of the oil palm.
+- Deficiency symptoms are necrotic terminal leaves, shed prematurely. Internodes become short. Plants become dwarf, stunted and rosetted. Apical meristem are blackened and die. Roots are short and stubby. Flower and fruit development are impaired. In citrus, juice content is low with low sugar. Seed fail to develop or poorly develop with black dots. Internal browning of cauliflower and blossom blast of pear occurs.
+
+### Copper
+
+- Component of phenolases, lactase, and ascorbic acid oxidase.
+- Chloroplast contains copper, which may function in photosynthesis, specifically forming the plastocyanin compound which is essential for the electron transport system.
+- Also a part of polyphenol oxidase and nitrate reductase.
+- Deficiency symptoms include wilting of terminal shoots, frequently followed by death of the plant. Leaf color is often faded. Carotene and other pigments are reduced. Tip necrosis and bark discoloration are often evident. Twisted leaves as well as die-backs have also been reported.
+
+### Molybedenum
+
+- Plays a role in nitrogen metabolism of nitrogen fixing bacteria.
+- Molybdenum has some role in concentration of ascorbic acid.
 
 ## Tissue culture
 
-## Significance in Nepal
+### Significance in Nepal
 
-Q. What do you understand by tissue culture? Describe it's role in fulfiling the need of seed requirement to Nepalese farmers.
+Q. What do you understand by tissue culture? Describe it's role in fulfilling the need of seed requirement to Nepalese farmers.
 
 A. $\longrightarrow$ The branch of biology in which tissues or cells of higher animals and plants are grown artificially in a controlled environment.
 
@@ -1993,7 +2613,7 @@ In several asexually reproducing crops, maintenance of their quality and adequat
 
 ### Causes of post-harvest deterioration of fruits and vegetables and remedies
 
-Every year horticultural crops suffer significant lossess attributed to storage, warehouse, processing unit, transporation and other post-harvest operations mainly due to insect-pest damage or mechanical injury. An estimate of average post harvest lossess in some of the commonly marketed crops (including cereal crops) is provided in Table \ref{tab:post-harvest-loss-table}.
+Every year horticultural crops suffer significant losses attributed to storage, warehouse, processing unit, transportation and other post-harvest operations mainly due to insect-pest damage or mechanical injury. An estimate of average post harvest losses in some of the commonly marketed crops (including cereal crops) is provided in Table \ref{tab:post-harvest-loss-table}.
 
 ```{r post-harvest-loss-table}
 tribble(
@@ -2009,3 +2629,188 @@ tribble(
   knitr::kable(booktabs = TRUE, format = "latex", caption = "Post harvest loss (estimates) in common crops")
 ```
 
+## Developmental and research programs in vegetable production
+
+1. Vegetable Development Directorate (VDD), Khumaltar
+
+Vegetable Development Directorate is one of the twelve technical directorates of Department of Agriculture mandated for vegetable sub-sector. It was established in 2057. This directorate is supported by 2 national level technical wings namely, National Potato Development Program and National Spice Crops Development Program. Under this directorate there are 9 farms/center at different agro-ecological zones. The directorate serves as a vegetable sub-sector focal point for national and international level insitutes of related fields. It helps Department of Agriculture and associated Ministry in formulating national policy, strategy, periodic plan and annual program. It also prepares guidelines for the implementation of program. It supervises and monitors the district level vegetable program and gives technical backstops to the district and resource centers in solving their problems especially in technical aspects. It also maintains necessary information required for vegetable sub-sector and also maintains national level database of the vegetable sub-sector.
+
+The programs under VDD are:
+
+1. Mission onion
+2. Offseason vegetable production pocket program
+3. Vegetable seed production program
+4. Buffer seed management
+5. Agro-biodiversity protection and promotion program
+
+2. National Potato Crop Development Program, Khumaltar
+
+It includes different programs, the major of which are:
+
+1. Ware potato, Seed potato and TPS production program
+2. Seed potato self sufficient program
+3. Potato program in Karnali area and high hills area
+4. Seed potato certification
+
+3. National Spice Crop Development Programme, Khumaltar
+
+The programs under this program are:
+
+1. Commercial spice crop production program
+2. Spice crops seed production program
+3. Export promotion program
+4. Black pepper promotion program
+5. Survey on spice crops
+
+4. Nepal Agriculture Research Council
+
+Following research centers and stations dealing with vegetable crops have been established under NARC:
+
+- Directorate of crops and horticulture
+  - Horticulture research program
+- Agriculture research stations
+  - Agriculture research station (Horticulture, Dailekh)
+  - Agriculture research station (Horticulture, Malepatan, Pokhara)
+- Commodity research program
+  - National grain legumes research program
+  - National ginger research program
+  - Hill crops research program
+  - National potato research program
+
+## Constraints and problems of vegetable production in Nepal
+
+1. Poor people
+
+- Financial status of Nepalese farmer is poor as compared to developed countries.
+- Small farmers cannot afford installation cost of technology intensive infrastructure and managerial resources.
+
+2. Small land holding and acerage
+
+- Fragmented and scattered land
+- Average land size per household is 0.789 ha (old), with following holding size for each of the regions:
+  - Terai: 0.944 ha
+  - Mid-hills: 0.655 ha
+  - High-hills: 0.633 ha
+- Small size of land holding limits commercialization of vegetable cultivation
+
+3. Geophysical situation
+
+- Nepal with distinct geophysical and topographical features presents problems with transportation.
+
+4. Climate situation
+
+- Proper climatic condition is required for proper growth and development
+- Often frost, freeze, hailstone, speedy winds, thunderstorm occur in various parts of the country and cause serious losses in vegetable production.
+
+5. Biological phenomena
+
+- Self-incompatibility, heterostyly, dichogamy, male steriliy, etc are the biological mechanisms that enforce lesser seed set and hence the vegetable production.
+
+6. Plant protection measures
+
+- All vegetables are affected with insects, pests and diseases at different growth stages.
+- There are several such problems which are reduce yield severely, if not completely, for example late blight of potato, blight of tomato and mustard aphid.
+
+7. Lack of extension support staff
+
+- Trained persons on programs, policies and activities of vegetable crop extension are lacking to disseminate the knowledge that helps expand cultivation of vegetable crops in Nepal.
+
+8. Varietal improvement
+
+- Varietal improvement programs in Nepal have not yet taken off for vegetables.
+- Some of the newly released varieties are not well adapted to local conditions of farmers' field, mainly because they have been imported from the foreign and been notified without much testing and validation rigor.
+
+9. Social constraints
+
+- Vegetables are not commonly sold commodity in rural areas.
+- Some tribes deliberately avoid some vegetables due to their cultural steadfastness. i.e. garlic and onion by Brahmin. This belief had hindered development of commercial vegetable production of such crop in hills, where Brahmin populace dominate, for a long time.
+
+10. Seasonal price fluctuation
+
+- The extent of seasonality in individual vegetable price varies greatly. for example, cauliflower and cabbage prices reduce 4-5 times in main season as compared to off-season.
+- The average seasonality in the price of all vegetables as a group is about 200\% which is much higher than any other category of crops.
+
+11. Labor intensive business
+
+- Labor inputs to vegetable cultivation are higher than to that for cereal cultivation, mainly because of the higher labor requirement at the time of harvesting.
+- Major segment of active workforce of Nepal have sought foreign as target of full time employment resulting in labor shortage in peak period of vegetable farming.
+
+12. Urban migration of agricultural labor force
+
+- Agriculture has not been perceived as prestigious work, instead as menial job.
+- Major trend in rural areas has been the migration of youth leaving their villages for the labor work to urban areas. This has created a shortage of labor, while also increased dependency on senior citizen, women and children as labor providers to farming activities, including vegetable.
+
+13. Marketing constraints
+
+- No special vehicle are used to transport vegetables.
+- Infrastructures like integrated market centers, wholesale markets, collection centers, and warehouses and processing centers are lacking.
+- Lack of marketing information system to inform farmers about the prevailing price at different market for various commodities.
+- Linkage and coordination among farmers, transporters, middlemen, wholesaler and retailers is not formally recognized and regulated.
+
+14. Lack of credit
+
+- Studies show that only 24\% of the farm families have access to credit facitlities from financial insitutions. The rest have to resort to non-formal sector for assistance.
+- Among those who borrow from institutional sources, large farmers have disproportionately better access to credit than small and marginal farmers.
+
+15. Poor irrigation facilities
+
+- Most irrigation networks developed so far rely on greater river flow in summer and monsoon, while in the winter sources of water supply are limited.
+
+16. Shortage of good quality seed
+
+- Climatically adapted and disease free seeds and seedlings are not readily available.
+- Annual requirement of vegetable seed is estimated to be 500 tonnes but as of current, the supply owing to domestic seed production is only 200 tonnes. Rest of the demand for seed is met either through informal sources with untrustworthy seed supply or by self maintained seeds of deteriorated genetic quality.
+
+17. Support for the cold storage industry
+18. Trade restriction and elaborate provision at customs
+19. Pesticide regulations
+20. Lack of input (fertilizer and service) support system
+21. Inadequate production planning
+22. Adverse impacts due to climate change
+
+## Vegetable seed production
+
+Vegetable seeds have been identified as high value commodity; low volume product that if effectively implemented can be used to address issues of both food security and self sufficiency, as well economic development of rural areas. It has both the comparative and competitive advantage for the local markets as well as exports to nearby Indian markets and Bangladesh (AEC, July 2003 and AEC, 2004).
+
+The demand for improved seeds is increasing every year due to increase in the area under fresh vegetables both for main season and off-season. The agro-climatic diversity of Nepal (ranging from tropical low lands in the south to high mountains in the north, to Himalayan elevation) has an advantage of producing different kinds of vegetable seeds.
+
+Commercial production of vegetable seed started formally only in FY 1974/75 in Bhaktapur with radish seed, and since then has progressed with support of various governmental and non-governmental organizations in Nepal. Although, it is disheartening to acknowledge that momentum has declined in export oriented production of vegetable seeds. One of the major set-backs being that vegetable seed production are more labour intensive and technical activity with a longer payback time period, compared to the fresh vegetable farming.
+
+Seed production of traditional vegetables like broad leaf mustard, local beans, pumpkin, etc. have been practiced by farmers since time immemorial. It got a formal structure when government horticulture farms were established in early sixties.
+
+A Swiss-funded project with FAO technical assistance, named "Fresh Vegetable and Vegetables Seed Production Project" was launched in 1981 in association with the then Vegetable Development Division of the DoA, which started focused intervention into vegetable seed sector. The project lasted till 1996, and provided inputs on introduction, improvement, recommendation and release of commercial varieties of vegetable seeds. Other projects also followed suit and are credited to have made important contributions in developing physical infrastructures and human resources for the vegetable seeds sector. Some of the terminated projects such as KOSEVEG an ODA/ UK funded project), VFC Rapti, MARD (an USAID funded project); and some of the recent projects such as Li-Bird, CBED/ CECI, CEAPRED/ DANIDA,CEAPRED/ SDC and SSSP - a DFID funded seed sector project active during early 1990s to early 2000s have worked towards commercialization of vegetable seed sector.
+
+The varied micro-climatic zone across the country due to altitude variation right from the sub-tropical to temperate growing conditions, isolated valleys and cost of the labour are considered the governing factors that makes promotion of vegetable seed production in Nepal, feasible. Vegetable seed production has been traditionally considered to be concentrated in across different areas with the following 4 special production areas:
+
+1. Thak Khola, Marpha in the Western Development Region - cabbage, carrot, cress, peas, turnip, broad leaf mustard; 
+2. Rukum in the Mid-Western Development Region - onion, radish, cauliflower, peas, turnip, spinach, capsicum; 
+3. Kathmandu Valley and surrounding districts in the Central Development Region - cauliflower, cress, spinach, turnip, radish, broad leaf mustard; 
+4. Sarlahi and surrounding districts in the Central Development Region - tomato, egg plant, cucurbits, capsicum, spinach, peas and okra. 
+
+The major vegetable seeds produced in Nepal include radish, onion, mustard, cauliflower, cabbage, carrot, cress, beans, squash and Swiss chards. Table \ref{tab:vegetable-production-areas} provides a picture of major varieties of vegetable seeds and productions areas. Among these areas, Rapti Area (Rukum, Salyan, Rolpa and Pyuthan) in Mid Western Region is the highest contributor of vegetable seed production in the country. Rukum district is considered to the highest contributor among the districts. 
+
+```{r vegetable-seed-production-areas}
+read_csv("./data/vegetable-seed-production-areas.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Vegetable seed production areas of Nepal", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("4em", "24em", "14em"))
+```
+
+### Vegetable Seed Production and Current Situation in Nepal
+
+- Over the last decade (1990-2000), around 50% of the domestic demand for the vegetable seeds was met by the domestic formal (government and private seed companies) sector.
+- The gap in demand of vegetable seeds is mostly met by imports and to some extent domestic informal sector (farmer to farmer exchange, saved seeds, cross border informal seed supply).
+- Of the 2,000+ MT of vegetable seeds demand, around 3/4th of the total domestic demand in volume term is accounted by peas, (French) bean, onion, radish, cow pea and okra.
+- Cauliflower, cabbage, onion, radish and tomato are the top five vegetables in terms of area under cultivation, account for around 50% of the total area cultivated for vegetables in Nepal. 
+- Radish and onion are important (in terms of vegetable seeds); in terms of cultivated area for vegetables and potential volume demand of commercial seed.
+- The current production of vegetable seeds (formal sector) would be less than half of the mentioned figure of around 950 mt (in 2008/9), i.e., around 400-450 mt. A trade survey in 2008/9, carried out by CEAPRED indicates that Kathmandu–based seed businesses bought not more than 340 mt of domestically produced vegetable seeds.
+- If five crops namely radish, broadleaf mustard, cress, peas and bean are excluded then it is estimated that over 80% of the domestic demand for seeds is met through imports. 
+- Informal sources could account for anywhere from 30%-45% of the total vegetable seed consumed in Nepal, depending upon situation and circumstances
+- Most of these are introduced varieties of vegetables (cabbage, carrots, coriander, onion, spinach, tomato and zucchini) depend highly on imports. Indigenous varieties such as peas, cowpeas, radish, cucurbit crops, beans and rayo are lesser dependent on imports for seeds supply. 
+
+Taking an example of 2008/09:
+
+- Total estimated demand was 1,932 mt (VDD/ DoA), 
+- Private / government sector supply was 957.3 mt (49.5%) (VDD/ DoA), 
+- Formal imports: 407.8 mt (21.1%) (TEPC), 
+- Data Gap comes to  566.9 mt (29.3%), which is met by informal channels and cross-border imports.
