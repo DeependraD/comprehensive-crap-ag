@@ -2607,6 +2607,23 @@ In several asexually reproducing crops, maintenance of their quality and adequat
 
 ## Breeder seed production of Onion
 
+## Sex expression in cucurbits
+
+Most of Cucurbits are monoecious in nature and bears male and female flowers separately on the same plant. Similarly andromonoecious sex form is also common in Cucurbits where male and hermaphrodite flowers are borne separately in same plant. Monecious Cucurbits include cucmber, watermelon, longmelon, pumpkin, bottle gourd, snake gourd, chayote, etc. Similarly, andromonoecious sex form is common in bottle gourd, sponge gourd, snake gourd, muskmelon, etc.
+
+Fruit set and yield of the crop depends upon the number of female flowers. Generally, male flowers open first and their number is comparatively larger than that of female flowers. High temperature, longer day light, high nitrogen fertilization, etc. are the major factors inducing maleness in Cucurbits. Although sex expression and sex ratio are varietal characteristics, they can be modified by providing suitable environment. Both plant growth regulators and nutrients at proper cencentration modify sex. Usually, 2-4 true leaf stage is the critical stage for suppression or promotion of either sex. There are several growth regulators available for sex modification and are broadly classified into two groups, viz.,
+
+1. For promotion of staminate (male) flowers
+
+- A single application of AgNO3 (600 mg/litre of water) before opening of flower.
+- Application of high concentration of GA3 (1000 ppm),  first at 2 leaf stage and then after 10-15 days interval.
+
+2. For promotion of pistillate (female) flowers
+
+- Application of Ethrel (200-250 ppm) at 2nd and 4th true leaf stage.
+- Spray of Maleic Hydrazide (50-100 ppm) at 2nd and 4th true leaf stage.
+- Spray of 100 ppm of 2-Naphthalenic acetic acid (NAA), 2 ppm boron, 50 ppm 2,3,5-tri-iodobenzoic acid (TIBA).
+
 ## Seed formation
 
 ## Post-harvest horticulture

@@ -234,6 +234,20 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
 
 <!-- \end{minipage}} -->
 
+## Crop production status and ranking
+
+```{r crop-production-status}
+read_csv("./data/crop_production_rankings.csv", skip = 1) %>% 
+  arrange(Region, Crop) %>% 
+  select(-SN) %>% 
+  relocate(Region, .before = 1) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Production status rankings of major crops", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "identity") %>% 
+  kableExtra::column_spec(column = 1:4, width = c("3em", "4em", "10em", "12em"))
+```
+
+
 ## Challenges and opportunities of enhancing rice production in Nepal
 
 Rice supplies about 40% of the total calorie intake for people. In Nepal, approximately 70% of agricultural holdings were planted with paddy. Fertilizer was used by 20% of the holdings. Chemical fertilizer was used in 41% of the total area under rice (CBS, 2013).
@@ -1002,15 +1016,22 @@ For seed and crop production practice of oilseed crops, refer to Table \ref{tab:
 
 1. Seed to seed method
 
-- This method is also called in-site seed production technique because seed is produced in crop production plot itself. Although good production can be obtained from this method, high quality seed cannot be ensured. This method allows for quick harvest in expense of purity of the seed produced.
+- This method is also called in-situ seed production technique because seed is produced in crop production plot itself. Although good production can be obtained from this method, high quality seed cannot be ensured. This method allows for quick harvest in expense of purity of the seed produced.
+- 600-800 kg of seed may be produced per hectare.
 
 2. Root to seed method
 
-- Well developed, uniform tap root are harvested and transferred to seed production plots.
+- This method is employed to produce quality seeds.
+- Fully mature radish roots are harvested during mid November to mid December.
+- Well developed, uniform, true to the type (based on root color, shape and size) tap root are harvested and transferred to seed production plots.
 - A small portion of above ground part and some of the below ground portion is trimmed off while maintaining only 8 cm long root stubs.
 - The stubs are then strored for 8-10 days in a cold storage facility maintaining $0^\circ$ C and 90-95% relative humidity.
 - The root stubs are called stalks and the process of preparing those is called stalking.
 - Stalks are planted in seed production plots at a spacing of 15 x 15 cm R-R x P-P distance.
+- Irrigation is provided immediately after transplanting and subsequently provided at 7-10 days intervals, till pods are well formed.
+- Spraying of GA3 at 100 ppm after transplanting increases percentage of flowering in Pusa Himali, Japanese White etc.
+- Since there is no natural dehiscence, the pods are allowed to mature and ripe fully in the field before they are harvested, generally in April.
+
 
 ### Onion
 

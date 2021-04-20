@@ -129,6 +129,55 @@ Troyer citrange and Carrizo citrange: these reasonably vigorous rootstocks are r
 
 Cleopatra mandarin: it is tolerant of salinity and soil alkalinity and also suitable for shallow soils. It is used primarily in Spain, Australia, and Florida. Dade County, for example, has 85% calcareous soil, a typical trait of land that has been under water.[4] The Cleopatra mandarin, originated in India and introduced into Florida from Jamaica in the mid-nineteenth century, has been distributed and tested as a rootstock throughout the world. Nowadays, however, it is considered an inferior rootstock because it is sensitive to many diseases, grows slowly, and is difficult to propagate.
 
+## Grape cultivation
+
+### History, uses and production
+
+- Cultivated all over the world, viticulture is a major horticultural industry with most grapes grown for cultivation of wine.
+- Today fruit is used as fresh fruit, preserved fruit, wine and raisins.
+- The vine grows vigorously; in some places, it is considered invasive weed.
+- It is non-climacteric fruit that grows on perennial and deciduous woody vines.
+- Fruit grow in cluster of 6-300, can be crimson, black, dark blue, yellow green and pink.
+- Most cultivars of grape are generated from variants of _Vitis vinifera_.
+- Wild form of the crop and germplasm resource may arise from _V. labrusca_, _V. riparia_, _V. rotundifolia_ and _V. amurensis_.
+
+### Botany and morphology
+
+- Flowers and fruit clusters are borne only on new shoots arising from dormant buds. These buds are formed in the axil of leaves the previous season and are called compound buds. These contain a group of three separate buds.
+- When growth starts in the spring, the primary or central bud breaks dormancy and produces the fruiting shoot. On young vines, this shoot may remain entirely vegetative and produce no fruits. Grape shoots do not form terminal buds, and the tip typically dies back in the winter to the lignified or ripened portion of the cane.
+- Flowering or bloom occurs after the shoot reach 18-24 inches or about 4 weeks after bud break.
+- Number of flower clusters that may develop from a single dormant bud is determined to a great extent by vine vigor and especially by exposure to sunlight during the previous season.
+- Grapes flower later than most tree fruit and are mostly pollinated by wind. Fruit set is influenced by the weather.
+- Frequently, during the growing season, a short, weak shoot is produced in the axil of the leaf adjacent to the bud and is known as a summer lateral. These can form new leaves, but often don't mature well enough to survive the winter and are usually removed in dormant pruning.
+- After the leaves drop in fall, the term cane is used to refer to the mature, dormant shoot. It is from these canes that next year's fruiting wood is selected at pruning time and from which propagation wood is taken.
+- The root system is concentrated in the well-aerated upper 18-24 inches of soil but can penetrate deep into the soil if not impeded by a hard pan or high water table.
+- Grapevine require some kind of structural support for commercial and home production. The trellis or arbor provides support so the vine can be managed efficiently.
+- Vines must be pruned annually to maintain productivity and fruit quality.
+
+### Climate
+
+- Require frost free period of 150-180 days. Impacts fruit quality (lowered sugar content) if growing season is short.
+- Vineyard diseases may be related to climate, especially humidity and temperature.
+- Cold hardiness develops midway through the winter.
+- Once growth starts in spring and the buds have extended to approximately 2 inches in length, they are susceptible to damage from temperature below $28^\circ F$.
+- South and east facing slopes are desired, very low lying areas should be avoided.
+
+### Soil and water
+
+- Highest growth in soils with good internal drainage but can be grown on a variety of soil types.
+- Prior to vineyard establishment, selection of site with drainage considerations is important.
+- After selection, soil fertility maintenance is generally more economical.
+
+### Cultivar selection
+
+- Vine hardiness, fruit characteristics, season of ripening, tolerance to disease and insects, vine characteristics.
+- American type (slip-skinned): Concord, Natawba and Norton
+- Table type:
+  - Seeded: Buffalo, Alden, Steuben, Seneca, Golden muscat
+  - Seedless: Marquis, Jupiter, Thompson seedless
+
+(...continue)
+
 ## Pineapple cultivation
 
 The pineapple ( _Annanas commosos_) is perennial monocarpic herb (i.e. each stem flowers only once and dies after fruiting), xerophytic plant with thick, long sessile and spine leaves. Multiple fruits called synocarp is a parthenocarpic type.
@@ -266,10 +315,74 @@ Well managed crop at high density planting normally yields \SIrange{40}{50}{\ton
 
 1. Mealy bug wilt (Transmitted by mealy bug)
 
+## Strawberry cultivation
+
+- Cultivation as well as production of one of the most popular dessert crop -- Strawberry ( _Fragaria ananassa_) has increased in recent years. Most production occurs in the northern hemisphere.
+- Two types are commonly grown: Day neutral and short-day types
+
+### cultivation systems
+
+1. Matted rows
+
+- Employs runner as primary yield component
+- Both mother and daughter plants are allowed to runner freely, with periodic training into narrow hills.
+
+2. Hill/plasticulture system
+- Relies on crown as primary yield component, any runners that form are removed.
+
+The former system is used to grow short day cultivars in climates with short summers and cold winters (continental europe and North america). The latter system is used primarily in areas having warm winters and hot or moderate summers such as California, Italy and Spain.
+
+- Strawberry is non-climacteric fruit
+- Most widly planted cultivar in the world is "Camarosa"
+- Other species are _F. chiloensis_ and _F. moschata_.
+
+Stolons: These are the stem that grows horizontally above ground and occur in plants such as strawberry and bermudagrass. Roots may arise at the nodes of the stem as it creeps on the surface. When stolons have long internodes that originate at the base of the crown of the plant (in strawberry), the stolon is called a runner.
+
+### Climate
+
+- Flowering habit of strawberry is directly related to temperature and strongly interacts with photoperiod.
+- Cool temperature at summer (\SI{17}{\celsius}) allows flowering induction to occur even under long photoperiod, even in short day varieties.
+- Chilling requires at \SIrange{0}{7}{\celsius} for reproductive development (for breaking bud dormancy with vernalization).
+
+### Soil
+
+- Sensitive to salinity and water stress. Soil of pH range 5.5-6.5 is preferred.
+- Sub-surface irrigation to root zone is suitable to check fungal growth.
+
+### Varieties
+
+Nyaho, Uno
+
+### Spacing and time of planting
+
+- Spacing: \SI{90}{\centi\meter} x \SIrange{30}{45}{\centi\meter}
+- Timing of planting: Late summer or spring
+- Plant density: 1500 plants per ropani
+
+### Manuring and fertilization
+
+- FYM: \SI{2.25}{\tonne\per\hectare}
+- Urea: \SI{97.83}{\gram\per\hectare\per\year} per plant
+- MoP: \SI{140}{\gram\per\hectare\per\year} per plant
+
+### Harvest
+
+- Crop matures usually within the months of Kartik-Chaitra but harvest is signalled when 3/4th of fruit turns red in color.
+- Fruits are harvested every other day to make sure berries are not over-ripe.
+- Yield: \SIrange{12}{15}{\tonne\per\hectare}
+
+### Insect-pest management
+
+- Around 200 species of pests are known, most damaging of which include slugs, moths, fruitflies, strawberry root weevils, thrips, sap beetles, crown moth, mites, aphids, and mainly lepidopteran caterpillars.
+- Diseases:
+  - Powdery mildew, leaf spot ( _Sphaerella fragariae_), leaf blight ( _Phomopsis spp._)
+  - Verticillium wilt, black rot
+  - Gray mould, rhizopus rot
+  - Nematodes
 
 ## Macadamia nut cultivation
 
-Macadamia is an evergreen genus that grows 2-12 m (7-40 ft) tall. The leaves are arranged in whorls of three to six, lanceolate to obovate or elliptic in shape, 6-30 cm (2-10 in) long and 3-13 cm (1-5 in) broad, with an entire or spiny-serrated margin. The flowers are produced in a long, slender, simple raceme 5-30 cm (2-10 in) long, the individual flowers 10-15 mm (0.4-0.6 in) long, white to pink or purple, with four tepals. The fruit is a hard, woody, globose follicle with a pointed apex, containing one or two seeds.
+Macadamia is an evergreen genus (family: Proteaceae) that grows 2-12 m (7-40 ft) tall. The leaves are arranged in whorls of three to six, lanceolate to obovate or elliptic in shape, 6-30 cm (2-10 in) long and 3-13 cm (1-5 in) broad, with an entire or spiny-serrated margin. The flowers are produced in a long, slender, simple raceme 5-30 cm (2-10 in) long, the individual flowers 10-15 mm (0.4-0.6 in) long, white to pink or purple, with four tepals. The fruit is a hard, woody, globose follicle with a pointed apex, containing one or two seeds.
 
 - _Macadamia integrifolia_ Maiden & Betche
 - _Macadamia jansenii_ C.L.Gross & P.H.Weston
@@ -287,6 +400,16 @@ Three of the four species -- _Macadamia integrifolia_, _Macadamia ternifolia_, a
 The macadamia tree is usually propagated by grafting, and does not begin to produce commercial quantities of seeds until it is 7-10 years old, but once established, may continue bearing for over 100 years. Macadamias prefer fertile, well-drained soils, a rainfall of 1,000-2,000 mm (40-80 in), and temperatures not falling below $10^\circ C$ ($50^\circ F$) (although once established, they can withstand light frosts), with an optimum temperature of $25^\circ C$ ($80^\circ F$). The roots are shallow and trees can be blown down in storms; they are also susceptible to Phytophthora root disease.
 
 Cultivars: Beaumont, Maroochy, Nelmac II, Renown
+
+- South africa is the leading producer of the Nut.
+- Normal yield: \SIrange{18}{20}{\kilo\gram} per tree (8-10 years old)
+- Globally 160,000 tons of the nut was produced in 2015.
+- The crop is indigenous to Australia
+- The nut is considered toxic to dogs.
+- Cultivation started in Nepal during 1964 from Trishuli Horticulture Farm, Nuwakot.
+- Crop is currently grown in Kaski and Syangja
+- In Nepal crop is grown in elevation range of 300 - 1500 masl (optimum: 900-1400 m)
+- A sapling of the plant costs Rs 75-150 each.
 
 ### Food and nutrition^[https://en.wikipedia.org/wiki/Macadamia]
 
@@ -372,21 +495,58 @@ The litchi can grow under wide variety of soild including alluvial soil, loams, 
 
 ## Kiwi cultivation (_Actinidia_ spp.)
 
-- Spreading type shrub of family Actinidiaceae.
+- Spreading type shrub of family Actinidiaceae. It is a cross pollinated crop.
 - There are two major kinds of Kiwi species found in Nepal: _Actinidia strigosa_ and _A. callosa_.
-- In Nepal, Kiwi fruit was first planted in 2040 in Charikot, Dolakha.
+- In Nepal, Kiwi fruit was first planted in 2040 in Charikot, Dolakha. Cultivated mostly in cropping regions of fingermillet and maize and in mountain regions below the line of apple farming, in elevation 1200-2400 masl.
+- The crop is not suited to areas with temperature greater than \SI{35}{\celsius}. It tolerates temperature of \SI{10}{\celsius} and that below \SI{5}{\celsius} causes stem and bark of branches to crack and dry.
 - According to 2071/72 statistics, a total of 52 hectares of Nepal are planted kiwi with current production of 368 tons.
 - Native to china but popularly cultivated in New-zealand since 1910. Hayward Wright first developed the kiwi cultivar called Haywayd in 1924.
 - Districts considered suitable for kiwi farming are Illam, Panchthar, Dhankuta, Kavre, Dolakha, Sindhuli, Nuwakot, Lamjung, Kaski, Parbat, Baglung, Myagdi and Salyan.
-- Cultivated in mountain region below the line of apple farming, in elevation 1200-2400 masl.
+- South facing slopes with assured irrigation are the most desirable, although, areas with rainfall reaching \SI{1500}{\milli\meter\per\year} are suitable too.
 - Flowering: March-April
 - Harvesting: November-December
-- Popular propagation technique: Splice and bench grafting
+- Popular propagation technique: Splice grafting and bench grafting mostly and less commonly budding and cutting.
 - NPK: 170:56:100 per year per hectare.
 - Spacing: 6 m x 6 m
-- Varieties: Soyou, Bruno (Quicker maturing, high yielding and better storability than Hayward), Hayward (Required 600-800 hours of chilling period), Abbot, Allison
+- - Four varieties are selected for commercial evaluation in Nepal. Important varieties are:
+  - Soyou ( _A. chinensis_): Red fleshed early variety (Bhadra), require less chilling hours and doesn't have hair on fruit skin. Fruits are small in size ($39.3 \pm 9.6 g$). They can be stored in room temperature for about a month.
+  - Bruno ( _A. deliciosa_): Green fleshed, quicker maturing, high yielding cultivar with oblong shaped and medium size fruits ($63.9 \pm 12.4 g$). It has better storability than Hayward (can be stored upto 3 months in room temperature). The fruits mature in second week of Kartik (earliest among green fleshed cultivars). The fruit has brown hairs on skin.
+  - Hayward round ( _A. spp._): Require 600-800 hours of chilling period. Fruits are larger in size ($81.4 \pm 22.1 g$) and nearly round in shape. It matures from fourth week of kartik and the harvest may be stored for about 3 months.
+  - Allison: Grown in altitude of range \SIrange{1200}{2400}{\meter} above sea level. Fruits are brown and hairy, green fleshed, long and have good storability.
+  - Abbot
+- Golden and red kiwi are expensive and less productive than the rest.
+- In temperatures \SIrange{0}{3}{\celsius} and 80\% RH, kiwi can be stored for upto 3 months.
+
+### Planting method and timing
+
+- As a deciduous crop, planting is done in Poush-Magh.
+- The crop is dioecious, so nursery should possess both male and female plants in proportion of 1:5 - 1:8.
+- Some varieties may exhibit self incompatibility, so planting of a combination of varieties may be beneficial.
+- Male plants should be arranged in center to facilitate pollination.
+- While planting in pits, which is done best during evenings, planting boards should be used.
+- In grafted seedlings, graft association should be established above the ground.
+- Irrigation is provided in 3 days interval.
+- After planting, bamboo stakes are used to support the plants.
+- Mulching prior to irrigation increase efficiency of water use.
+- Rootstock varieties: Bruno, Monty, Allison, Ebert.
+- Seed matures at Mangsir and this month is suited for seed collection.
+- Seed separation: At 12% TSS, fruit pulp is extracted and mixed with sand to facilitate mashing and separation. Thus obtained seed is sun dried.
+- Seed is sown after 1-2 months of storage, Germination increases when cold temperature treatment (\SI{5}{\celsius} for 2-3 weeks) is given.
+- Seed bed nursery is established at the end of falgun. Seeds are sown at 15 x 5 cm spacing (R-R x S-S) and covered with 1 cm layer of soil.
+- Ready for planting seedlings are 4-5 leaved (1-1.5 months). Generally, seedlings are suitable for grafting 10-12 months after sowing.
+
+### Training
+
+- Since the crop grows as a vine, support system is essential for good crop management. It does not produce tendrils but the stem roll over the supporting medium.
+- Tip notching/removal of vine should be first done at 7-8 months of planting (\@ 6 feet height).
+- Two main systems of training are T-wire method and pergola method.
+- Flushes arise from one year old branches in the month of Poush-Magh (Apply 10\% bordeaux paste in the cut surface).
+
+### Disease and insects
+
 - Diseases: Root rot ( _Phytophthora_ spp.), Botrytis fruit rot ( _Botrytis_ spp.), Twig blight ( _Sclerotina_, spp.), Leaf spot ( _Alternaria_ spp., _Phomopsis_ spp., _Glomerella_ spp.)
 
+- Hopper, stem borer and leaf eating caterpillar
 
 ## National fruit development directorate (Institutional development of fruits)
 

@@ -255,6 +255,46 @@ Annotations used in describing formulations:
 - DP: Dusting powder
 - WP: Wettable powder
 
+### Chemical insecticides
+
+```{r insecticides}
+
+pest_management <- read_csv("./data/pest_management_pesticide.csv", skip = 1)
+
+pest_management <- pest_management %>% 
+  # separate_rows(`Effective against`, sep = "(?<!\\()\\,(?![\\w\\s]*[\\)])") %>% 
+  # separate_rows(`Effective against`, sep = "(?<!\\()\\,(?![\\w\\s|\\w\\.\\s]*[\\)])") %>% 
+  separate_rows(`Effective against`, sep = ",(?![^(]*\\))") %>%
+  mutate(`Effective against` = str_trim(`Effective against`)) %>% 
+  mutate(scientific_name = str_extract_all(`Effective against`, "(?<=\\().*(?=\\))", simplify = TRUE)) %>% 
+  mutate(common_name = str_extract(`Effective against`, "[\\w|\\.|\\s\\-\\/]*(?=\\()")) %>% 
+  mutate(scientific_name = na_if(scientific_name, "")) %>% 
+  # pull(scientific_name)
+  mutate(common_name = if_else(is.na(scientific_name), `Effective against`, common_name)) %>% 
+  mutate(crop_name = str_extract(common_name, "[\\w|\\/]*(?=\\s)")) # first space
+  # mutate(crop_name = str_extract(common_name, "(?<=\\b[A-Z]\\b)[A-Z]$")) # second upper case match (does't work)
+
+pest_management %>% 
+  select(-`Effective against`, -crop_name) %>% 
+  relocate(scientific_name, .after = `Mode of action`) %>% 
+  relocate(common_name, .before = scientific_name) %>% 
+  rename("Effective against" = `common_name`, 
+         "Pest" = `scientific_name`) %>%
+  mutate_at(c("Group","Generic name", "Trade name"), factor) %>% 
+  mutate(`Generic name` = paste0(`Generic name`, " (", `Trade name`, ")")) %>% 
+  select(-`Trade name`) %>% 
+  knitr::kable(booktabs = TRUE, format = "latex", caption = "Commonly used insecticides and their descriptions including crops and insect pests effective against.", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", headers_to_remove = 1) %>% 
+  # kableExtra::collapse_rows(2:3, row_group_label_position = "stack", headers_to_remove = 2) %>% 
+  kableExtra::column_spec(column = 1:11, width = c("3em", "8em", "4em", "6em",
+                                                   "8em", "2em", "3em", "3em", "3em",
+                                                   "10em", "12em")) %>% 
+  kableExtra::landscape(margin = "1.2cm")
+
+```
+
+
 ### Chemical fungicides
 
 - A popular fungicide, generally used for seed treatment, called Carbendazim is available in commercial formualtion as KI-BESTIN (Carbendazim 50% WP).
@@ -1915,14 +1955,30 @@ tribble(
   kableExtra::column_spec(column = 1:2, width = c("22em", "22em"))
 ```
 
-### Nepalese standard of honey
+### Nepalese and international standard of honey
 
-- Fructose/glucose: > 1\%
-- Sucrose: < 6\%
-- Sugar: > 65\%
-- Moisture: 20\%
-- Free acid: < 0.2\%
-- European Union banned the import of Nepalese honey in 2002 AD.
+```{r honey-standards-nepal-codex}
+tribble(
+  ~"Quality parameters", ~"Pure nectar honey", ~"Other honey", ~"General", ~"Other",
+  "Specific gravity \\@ \\SI{27}{\\celsius}", NA, NA, NA, NA,
+  "Moisture content", "Max 23%", "Max 23%", "Max 20%", "Max 23% (heather honey)",
+  "Sucrose content (g/100g)", "Max 5", "Max 10", "Max 5", "Max 10 (honeydew, blends of honeydew and blossom, Robinia, citrus, alfalfa, red gum, sweet clover, leatherwood); Max 15 (Lavendula and borage)",
+  "Reducing sugars (g/100g)", "Min 65", "Min 60", NA, NA,
+  "Fructose:glucose ratio", "Min 0.95", "Min 0.95", NA, NA,
+  "Sum of fructose and glucose (g/100g)", NA, NA, "Min 60", "Min 45 (honeydew, blends of honeydew and blossom)",
+  "Ash or mineral content (g/100g)", "Max 0.5", "Max 0.5", "Max 0.6", "Max 1 (honeydew or blends of honeydew and blossom)", 
+  "Acidity as formic acid", "Max 0.2%", "Max 0.2%", NA, NA,
+  "Water insoluble content (g/100g)", "Max 0.5", "Max 0.5", "Max 0.1", "Max 0.5 (pressed honey)",
+  "HMF content (mg/kg)", "Max 40", "Max 40", "Max 40", "Max 80 (honey of declared origin from countries or regions with tropical ambient temperature)"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Honey quality standards of Nepal and the Codex Alimentarius Commission", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::add_header_above(c(" " = 1 , "Nepal" = 2, "Codex Alimentarius" = 2)) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("10em", "6em", "6em", "6em", "10em"))
+```
+
+
+- European Union banned the import of Nepalese honey in 2002 AD, while recognizing honey produced only by the European honeybee ( _Apis mellifera_).
 
 ### Diseases of honeybee
 

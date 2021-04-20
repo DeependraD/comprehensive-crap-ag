@@ -516,6 +516,36 @@ chickpea flour.
 - The production slows in January and starts to up again from February through May.
 - The production of shiitake usually stops in summer due to hot weather. Shiitake is harvested for three years in all the tree species.
 
+### Ganoderma
+
+- Also called Reishi (Japanese term), _Ganoderma lucidum_ is a medicinal purpose mushroom.
+
+**Taxonomy**
+
+- _G. lucidum_ grows on oaks and related hardwoods but _G. tsugae_ and _G. orgonense_ grow on conifers.
+- Variety of stem (stipule) form in response to growing conditions.
+- Conk-like or kidney-like in shape, woody textured.
+- 5-20 cm in diameter, the cap can be dull red to reddish brown and sometimes nearly black.
+- Cap has pores on its underside, which turn from whitish to brown when touched.
+- Stem white to yellow, eventually darkening to brown or black, eccentrically or laterally attached to the cap, usually sinuous and upto 10 cm in length x 0.5-5 cm thickness.
+
+**Distribution**
+
+Widely distributed throughout the world, from amazon through the southern regions of North America and across much of the asia. This mushroom is less frequently found in temperate than in sub-tropical regions.
+
+- Annual mushroom growing on a wide variety of woods, typically dead or dying trees (primarily deciduous) -- Oak, maple, elm, willow, plum, etc.
+- Occur from May to November, more common in warm temperate region.
+- Long stalked mushrooms arise when $CO_2$ levels are high and light intensity is low.
+
+- Spores are reddish brown, ellipsoid with blunted end, roughened as in warty, 9-12 x 5.5-8 \si{\nano\meter} and two walled.
+- Color variying strains are available for culture.
+
+**Spawn preparation**
+
+Rye grain, wheat grain, and other cereal grains may be used as first generation spawning media. Fruit bodies do not form on most grains except milo (sorghum). If mature grain spwan is not used directly after colonization, over-incubation causes difficulty in dispensing grain kernels upon shaking. A transfer tool such as sharp kinfe/blade is needed in such case.
+
+(...continue)
+
 ## Gender mainstreaming (Women in agriculture development)
 
 - In decisions regarding agriculture, contribution of,
@@ -595,24 +625,51 @@ tribble(
 ```
 
 
-## Trade policy in Nepal
+## Trade policy and trade agreements in Nepal
 
 (For extended discussion of the topic, refer to the Chapter on Trade, in Manual on Banking; The Chapter also includes brief introduction to NTIS, 2016 and Trade Policy, 2015)
 
-### Regional Trade agreements -- SAFTA and BIMSTEC
+### South Asian Free Trade Area (SAFTA)
 
-Nepal has joined two regional agreements -South Asian Free Trade Area (SAFTA) and Bay of Bengal Initiative for Multi-Sectoral, Technical and Economic Cooperation (BIMSTEC). While SAFTA focuses on the South Asian region, BIMSTEC connects South Asia with South East Asia. The SAFTA Agreement, which succeeded South Asian Preferential Trade Agreement (SAPTA), was signed in 2004 and came into force from 2006. It aims to deepen trade and economic cooperation among member countries by promoting fair competition through removal of barriers to facilitate cross-border movements of goods. During the last review period, SAFTA members had gradually been reducing tariff to 0-5% on all tariff lines except the sensitive lists as per trade liberalization program of the Agreement. The sixth meeting of the SAFTA Council in 2012 took the initiative to reduce the number of products on the sensitive lists by 20%; Nepal has already achieved the relevant target by 2014. Similarly, during the 16th Summit in 2010, the SAARC Agreement on Trade in Services (SATIS) was signed which came into force with effect from 2012. SATIS recognizes the regional growth potential of trade in services and is focused on expanding intra-regional investment and trade liberalization. BIMSTEC was founded in 1997 for accelerated growth through cooperation in various areas of shared interest. Nepal joined BIMSTEC in 2004, the year in which a framework agreement with provisions of liberalizing trade in goods and services and negotiating agreement related to cross-border investment facilitation was also signed. In 2016, BIMSTEC came up with the Outcome Document and 16-point Agenda of Action highlighting priority actions to be implemented. Recent meetings have seen members re-affirm their commitments to finalize agreements in various sectors. Energy co-operation has been a key feature of BIMSTEC agenda. The process of negotiations for reducing and eliminating tariff is underway. Nepal has been playing a significant role in giving momentum to BIMSTEC and is hosting BIMSTEC Summit, the highest policy-making body in BIMSTEC, in August 2018.
+The SAFTA Agreement of the SAARC, which succeeded South Asian Preferential Trade Agreement (SAPTA), was signed in 2004 and came into force from 2006. It aims to deepen trade and economic cooperation among member countries by promoting fair competition through removal of barriers to facilitate cross-border movements of goods.
+
+#### Goals of SAFTA
+
+- The ultimate aim of SAFTA is to put in place a full-fledged South Asia Economic Union on the lines of the EU. It aims to reduce the tariffs for intra-regional trade among SAARC countries.
+- As the SAFTA agreement provisions zero tariffs on goods exported from underdeveloped countries like Nepal, Nepali traders have been importing crude palm oil from other countries paying minimum tariffs and then exporting the finished product to India with zero tariffs.
+
+During the last review period, SAFTA members had gradually been reducing tariff to 0-5% on all tariff lines except the sensitive lists as per trade liberalization program of the Agreement. The sixth meeting of the SAFTA Council in 2012 took the initiative to reduce the number of products on the sensitive lists by 20%; Nepal has already achieved the relevant target by 2014.
+
+During the 16th Summit in 2010, the SAARC Agreement on Trade in Services (SATIS) was signed which came into force with effect from 2012. SATIS recognizes the regional growth potential of trade in services and is focused on expanding intra-regional investment and trade liberalization.
+
+### Bay of Bengal Initiatives for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC)
+
+BIMSTEC, which connects South Asia with South East Asia, was founded in 1997 for accelerated growth through cooperation in various areas of shared interest. Nepal joined BIMSTEC in 2004, the year in which a framework agreement with provisions of liberalizing trade in goods and services and negotiating agreement related to cross-border investment facilitation was also signed. In 2016, BIMSTEC came up with the Outcome Document and 16-point Agenda of Action highlighting priority actions to be implemented. Recent meetings have seen members re-affirm their commitments to finalize agreements in various sectors. Energy co-operation has been a key feature of BIMSTEC agenda. The process of negotiations for reducing and eliminating tariff is underway. Nepal has been playing a significant role in giving momentum to BIMSTEC and is hosting BIMSTEC Summit, the highest policy-making body in BIMSTEC, in August 2018.
 
 ## World Trade Organization
 
+### History
+
+#### Bretton Woods Conference and GATT
+
+- After WWII, three organizations were formed; International Trade Organization was one of them.
+- General Agreement on Tariffs and Trade (GATT) was established in 1947. GATT was based on following principles:
+  - Rules-based trading system
+  - Reciprocity of cencessions (mainly tariff reductions)
+  - Non-discrimination
+- Important achievements of the GATT are:
+  - Reduction of tariffs
+  - Incorporation of "development dimension" in the system
+  - Launching of comprehensive negotiations (Uruguay Round) in 1986.
+  
+As a result of the conclusion of the Uruguay Round Negotiations (1986-1994), WTO came into being on January 1, 1995.
+
 - Headquarters: Geneva, Switzerland
-- Established: January, 1995
-- Created by Uruguay Round Table Negotiations (1986-1994)
 - Membership: 164 countries (As of October 2016)
 - Budget: 197.2 million Swiss francs (US \$ 220 million) (As of 2020)
 - Head (Director general): Ngozi Okonjo-Iweala (from 1 March 2021) (Previously assumed by Roberto Azevedo)
 
-**Functions**
+### Functions of WTO
 
 - Administering WTO trade agreements
 - Forum for trade negotiations
@@ -725,25 +782,166 @@ To promote exports and export oriented industries through incentives and promoti
 - Subsidized products are: Fresh vegetables, fruits, vegetable seeds, oil products, floriculture, green tea and coffee, broom, bamboo products, pashmina shawls, ceramics and traditional garments.
 - Funds are used to stablize export of woolen carpets, readymade garments, leather goods, essential oils, Nepalese paper, niger seeds, spices, etc.
 
-## Top exports by Nepal
+## Nepal Trade Integration Strategy (NTIS), 2016
 
-(when ??)
-1. Man made staple fiber (11.9%) -- US \$ 87.9 million
-2. Textile floor covering (11.8%) -- US \$ 86 million
-3. Coffee, tea, spices (6.4%) -- US \$ 47.6 million
+- Trade has been well recognized globally as an important driver of economic growth and inclusive development. Over the years, Nepal has taken a series of initiatives to promote exports to achieve sustainable and inclusive economic growth, poverty reduction, and improvement in living standard of the Nepalese people.
+- Nepal Trade Integration Strategy, 2010 focused on the development of 12 goods and 7 services areas.
+- The persistent deficit in trade in goods and deteriorating terms of trade have posed challenges in achieving inclusive and sustainable economic growth. Therefore, Nepal Trade Integration Strategy (NTIS), 2016 is Nepal's third-generation trade integration strategy. NTIS, 2016 seeks to address the outstanding trade and competitiveness challenges confronted by the country's export sector.
+- NTIS, 2016 has identified priority export potential goods and services based on two broad criteria -- i. export performance and ii. inclusive and sustainable development.
+- Within export performance following aspects are taken into consideration (although, with different weightage totaling to 80):
+  - Export size (15%)
+  - Export growth (20%)
+  - Export potential index (20%)
+  - Potential value addition (15%)
+  - Potential destinations diversification (10%)
+- Within inclusive and sustainable development following aspects are taken into consideration, with equal weight for each one (totaling to 20):
+  - Geographical regions (4)
+  - Environmental impact (4)
+  - Gender impact (4)
+  - Skills intensity and income generation (4)
 
-Agriculture export
+Based on these criteria, 12 sectors (9 good and 3 services) with highest scores were selected as priority export potential sectors.
 
-1. Cardamom
-2. Fruit juice
-3. Black tea
-4. Forest and vegetable products
-5. Betal nuts
-6. Oilcakes and bran/feeds
-7. Noodles
-8. Medicinal plant
-9. Lentil
-10. Bovine meat (Buffalo)
+```{r priority-export-sector}
+
+tribble(
+  ~"Category", ~"Sector",
+  "Agro-based", "Large cardamom",
+  "Agro-based", "Ginger",
+  "Agro-based", "Tea",
+  "Agro-based", "Medicinal and aromatic plants",
+  "Craft and manufacturing based", "All fabrics, textile, yarn and rope",
+  "Craft and manufacturing based", "Leather",
+  "Craft and manufacturing based", "Footwear",
+  "Craft and manufacturing based", "Chyangra pashmina",
+  "Craft and manufacturing based", "Knotted carpets",
+  "Service", "Skilled and semi skilled professionals at various categories (Remittance generating services)",
+  "Service", "IT services and Business Process Outsourcing",
+  "Service", "Tourism (including leisure, business, education and medical)"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "List of priority sector of good and services of export potential outlined by NTIS, 2016", longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::collapse_rows(1:2) %>% 
+  kableExtra::column_spec(1:2, width = c("10em", "14em")) %>% 
+  kableExtra::footnote(general = "Director of Vegetable Development Directorate, DoA, in coordination with Programme Director, National Spices Crops Development Programme will act as focal point for cardamom. The Ministry of Commerce will coordinate and monitor the entire implementation of the NTIS, 2016.", threeparttable = TRUE, general_title = "Note")
+
+```
+
+
+Other potential sectors identified by NITS are fruits and vegetable juices, all fabricated steel and metals, lentils, silver jewelry, instant noodles, paper products, wool products, honey, readymade garments, coffee, semi-precious stones and hydro-electricity.
+
+### Objectives of NTIS
+
+1. Strengthen trade and export enabling environment;
+2. Focus on product development and strengthen the supply capacity of priority products;
+3. Strengthen institutional capacity, trade negotiation and inter-agency coordination; and
+4. Build and enhance trade-related infrastructure.
+
+### Strategic outcomes of NTIS, 2016
+
+NTIS, 2016 identifies actions organized under 19 strategic outcomes (including 12 among the potential export sector enlisted in Table \ref{tab:priority-export-sector} and 7 cross-cutting issues),
+
+**Cross-cutting issues**
+
+1. Trade capacity, including trade negotiation
+2. Trade and investment
+3. Trade and transport facilitation
+4. Standards and technical regulations
+5. Sanitary and phyto-sanitary standards
+6. Intellectual property rights
+7. Trade in services
+
+## Import-export status of Nepal
+
+```{r import-export-balance-sheet}
+read_csv("./data/draft/trade_balance_2075-76.csv") %>% 
+  knitr::kable(booktabs = TRUE, caption = "Yearwise trade balance of Nepal by export and imports for recent years.", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = rep("6em", 5)) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+```
+
+```{r import-export-partner}
+trading_partner_export <- read_csv("./data/draft/major_trading_partners_export_2075-76.csv", skip = 1) %>% 
+  mutate(trade = "export") %>% 
+  select(-`S.N`)
+trading_partner_import <- read_csv("./data/draft/major_trading_partners_import_2075-76.csv", skip = 1) %>% 
+  mutate(trade = "import") %>% 
+  select(-`S.N`)
+
+# bind_rows(trading_partner_import, trading_partner_export) %>% 
+#   filter(!str_detect(`Countries/Region`, "Total")) %>% 
+#   select(`Countries/Region`, `F.Y. 2018/19 (2075/76)`, `trade`) %>% 
+#   pivot_wider(names_from = trade, values_from = `F.Y. 2018/19 (2075/76)`)
+
+trading_partner_export %>% 
+  filter(!str_detect(`Countries/Region`, "Total")) %>%
+  select(`Countries/Region`, `Trade volume (FY 2018/19; 2075/76)` = `F.Y. 2018/19 (2075/76)`) %>%
+  top_n(n = 10, wt = `Trade volume (FY 2018/19; 2075/76)`) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major trading partners (export) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("8em", "8em")) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+
+trading_partner_import %>% 
+  filter(!str_detect(`Countries/Region`, "Total")) %>%
+  select(`Countries/Region`, `Trade volume (FY 2018/19; 2075/76)` = `F.Y. 2018/19 (2075/76)`) %>%
+  top_n(n = 10, wt = `Trade volume (FY 2018/19; 2075/76)`) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major trading partners (import) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("8em", "8em")) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+
+```
+
+```{r import-export-commoditywise-sheet}
+export_commodities <- read_csv("./data/draft/total_export_components_2075-76.csv", skip = 1, na = "-")
+import_commodities <- read_csv("./data/draft/total_import_components_2075-76.csv", skip = 1, na = "-")
+
+export_commodities %>%
+  select(c("SN", "Commodities", "Unit", "Quantity_2018/19(2075/76)", "Value_2018/19(2075/76)")) %>%
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (export) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = c("2em", "12em", "3em", "7em", "7em")) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+
+import_commodities %>%
+  select(c("SN", "Commodities", `Value_2018/19(2075/76)`)) %>%
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (import) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:3, width = c("3em", "14em", "8em")) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+```
+
+### Province-wise trade export-import status
+
+```{r province-import-export}
+province_export <- read_csv("./data/draft/province_export_2075-76.csv", skip = 1) %>% 
+  mutate(trade = "province export") %>% 
+  filter(!str_detect(Province, "Total"))
+
+province_import <- read_csv("./data/draft/province_import_2075-76.csv", skip = 1, col_types = cols(`F.Y 2018/19` = col_number()), na = "-") %>% 
+  mutate(trade = "province import") %>% 
+  filter(!str_detect(Province, "Total"))
+
+bind_rows(province_export, province_import) %>% 
+  pivot_wider(names_from = trade, values_from = c(`F.Y 2017/18`, `F.Y 2018/19`)) %>% 
+  rename_all(function(x)str_replace_all(x, "_", " ")) %>%
+  janitor::adorn_totals(na.rm = TRUE) %>%
+  knitr::kable(booktabs = TRUE, caption = "Provincewise trade balance for export and imports for recent years.", longtable = TRUE, format.args = list(big.mark = ",", 
+  scientific = FALSE)) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:5, width = rep("7em", 5)) %>% 
+  kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
+```
+
 
 ## Accredited food commodities and parameters of National Food and Feed Reference Laboratory, DFTQC, Nepal
 
@@ -1148,3 +1346,115 @@ tribble(
   - Protein: 2.1 %
   - Fat: 0.3 %
   - Fiber: 1.15 %
+- Of they dry fruit, major part of which is contained in the pericarp of tomato, 50% is sugar.
+- Acid contained in the cauliflower is nicotinic acid.
+- In tomato,
+  - Favorable temperature for cultivation: \SIrange{15}{25}{\celsius}
+  - Death of plants: < \SI{5}{\celsius}
+  - No fruit formation: < \SI{17}{\celsius} and > \SI{35}{\celsius}
+  - Loss of lycopene: > \SI{40}{\celsius}
+  - Varieties of which fruits are directed towards sky: Suryamukhi and Yatsuphusa
+  - Varieties of which fruits are oriented downwards: Kathmandu local
+- French bean variety also known as "Trishuli Ghyu simi": Kentucky wonder
+- Mission onion program was initiated in the year: 2066/67
+- Number of seedlings required for planting one hectare of Onion: 60000-70000
+- Above \SI{20}{\celsius} temperature, color of carrot becomes green.
+- Flowering,
+  - Pointed gourd: Morning
+  - Smooth gourd: Early morning
+  - Ridge gourd: Evening (4:30 - 6 PM)
+  - Sweet potato: Flowers early in the morning before dawn and falls off before mid-day
+  - Watermelon: Early morning (6 AM) and pollination should complete within 8 hours for pollen to remain viable.
+- Fruits produced in the vines of yam are called Mirek.
+- Sarlahi red cultivar of yam is also called "Hattisundhey".
+- Bitterness in cucumber is due to dryness and increased temperature above \SI{35}{\celsius}. Also, injuries to root of cucumber increases cucurbitacin content and causes bitterness in the portion of the fruit attached to the plant.
+- Minimimum temperature required for germination of cucumber: \SI{12}{\celsius}.
+- Optimum temperature for cucumber cultivation in plastic house: < \SI{30}{\celsius} and > \SI{25}{\celsius}
+- Long day in cucumber promotes male flower formation while short day promote formation of female flowers.
+- "Green bitter gourd" cultivar of bitter gourd was released upon renaming of the original "Pusa do mausami" cultivar.
+- In watermelon, vine pruning should retain only 4 vines after the plant has grown 1-2 feet to obtain better fruiting.
+- Asparagus has fibrous root system.
+- Male asparagus plant are more productive, with higher longevity and bear large sprouts.
+- Highest production of cardamom in the world: Nepal
+- Cardamom crop alone contributes 70% of the district's agricultural profit in Taplejung.
+- Illam, Panchthar, Terhathum and Taplejung were announced as Cardamom development region in 2039 BS.
+- For quality ginger production, minimum duration of the crop should be 245-260 days.
+- \SI{1}{\cubic\meter} deep trench can store upto 350 kilogram of ginger.
+- Largest Timur ( _Zanthoxylum armatum_; Sinchuwan pepper) producing district of Nepal is Salyan.
+- Honeybees forage for flower every day for 12-13 hours.
+- Once 5-10% of flowers bloom, the beehives are transferred into the flowering orchard.
+- Honey is best stored at temperature below \SI{10}{\celsius} and RH 20%.
+- Out of 12 essential amino acids, 9 are found in mushroom.
+- Shitake mushroom is called "Mirgey chayau" in Nepal.
+- Fibroin and sericin proteins secreted by silkworm during its 5th larval stage precipitate upon contact with air to give rise to silk.
+- Silkworm produces Tylic acid from its head region which helps degenerate the silk to let it out of the coccon.
+- For better growth, legume require more phosphorus and molybdenum while potato and sugarcane require more potassium.
+- At low temperature, uptake of Zinc is low by plants.
+- Improper drainage causes availability of Molybdenum to increase.
+- Copper deficiency causes gum pockets in different parts of fruits.
+- Due to biuret (derivative of urea) toxicity, young parts of plants may show signs of blight when urea is applied inconsiderately.
+- Rhizobium also provide IAA and Giberellin to the plant it is associated with.
+- Dhaincha should be incorporated in soil after 40-60 days of sowing.
+- Minimum temperature required for composting in pit: \SIrange{35}{45}{\celsius}, although with microbial degradation, maximum temperature may reach upto \SIrange{60}{80}{\celsius}.
+- Moisture of compost pit:
+  - Initial period: 60-70%
+  - Final stage: 30-40%
+  - Average content: 40-60%
+- While making use of earthworm in composting, worms only utilize 5-10 % of the nutrients while casting the excess into the soil.
+- An adult earthworm consumes 1-7 g of biodegradable substance.
+- White grub has its eggs laid 10 cm deep in the soil.
+- Black scurf and wilting of potato can be controlled by _Trichoderma viridae_. It is also used for control of blast, seedling rot and root rot.
+- _Verticillium spp._ is useful against aphid, white fly, locusts, hoppers and crickets.
+- _Metarhizium spp._ is effective against white grub larvae and larvae of other insects.
+- Bacteria have rapid growth in basic soil while fungi grow well in acidic soil.
+- Mustard sawfly larvae detect plants having snigrin.
+- Cu-lure attracts fruit flies of vine from 100 foot, while methyl eugenol attracts those from 750 foot distance.
+- Monitoring of Mediterranean fruit fly is done using McPhail trap (makes use of protein bait).
+- Bordo mixture -- CuSO4: CaO: H2O -- should be applied within 20 hours.
+- Bordo paste -- CuSO4:CaO: Linseed oil (heated)
+- Chabatia paste -- Copper carbonate: Sindur (red lead): Linseed oil
+- Plant clinic started in USA from 2002 AD.
+- Nepal became signatory country of International Plant Protection Convention on 8th May, 2006.
+- EIA was first practiced in Nepal in 1970 AD. It's concept was brought forward in the course of safely destructing pesticides that had expired in the premises of Cotton Development Committe in Dhadhawar, Bardiya.
+- Sanguinarine (alkaloid) contained in _Argemone mexicana_ causes Dropsy disease.
+- Small farmer irrigation program implementation directives was drafted in 2061 BS.
+- National Plant Protection Organization (NPPO) established: Chaitra 3, 2061 BS
+- Testing of rustic storage of potato program was initiated on 2034 BS.
+- Mango requires water table depth of < 180 cm for good growth.
+- Nutrient deficiency manifestation:
+  - Older leaves: Calcium, iron (interveinal chlorosis), manganes, copper, sulphur and zinc
+  - Deficiency symptoms of magnesium are alike Calcium but older leaves are affected first.
+- In pomegranate
+  - Stigma is receptive to pollen starting 1 day prior to anthesis and lasts for 2-3 days post-anthesis.
+  - Plants contain male, female and hermaphrodite flower and both self and cross pollination occur naturally.
+  - Pollen contained in hermaphrodite flower are more viable compared to that contained in male flower.
+  - In evergreen cultivars, fruiting starts in 1 year old branches while in deciduous cultivars, newly arising branches bear flowers (flush).
+- Delaying of maturity of mango fruit is caused by deficiency of phosphorus.
+- Male flowers of _Phyllanthus emblica_ (Amala) open during 6-7 pm at evening, they are yellow in pigmentation and arranged towards the base of pedicel. Female flower of the plant are green and are located towards the apex of the pedicel.
+- Grape is harvested during the morning as dew evaporate untill 11 AM.
+- By pruning off the bracts of the banana once all fruitlets appear, weight of the bunch could be increased 2-5%.
+- Deficiency in banana:
+  - Phosphorus: Rosetting
+  - Cupper: Drooping of leaves
+  - Magnesium: Pink disease
+- Optimum temperature for growth and development of banana: \SIrange{15}{39}{\celsius}.
+- Optimum time of the year for plantation of banana: Poush-Magh
+- For quality production of banana fruit each standing plant of the banna should posses 10 leaves.
+- In coconut male flower is borne at the tip of a branch while female flowers are born at the bases of branch.
+- Protandy is common in coconut.
+- Pineapple continues to perform photosynthesis during night period.
+- For pineapple to flower, there should be 40 leaves on a plant.
+- While high yields could be obtained in heavy (clayey) soil, cultivation in light soil renders fruit more tasteful.
+- Papaya flowers blossom during 8-11 AM.
+- Age of fruits for papain production: 90-100 days.
+- Cultivar of papaya having long and slender fruit shape: Coorg Honey Dew.
+- Flower drop is problematic in papaya when the temperature increases above \SI{32}{\celsius}.
+- Litchi cracking occurs at temperature above \SI{38}{\celsius} and at relative humidity less than 60%.
+- Litchi seeds loose their germination capacity within 4-5 days after extraction from fruit.
+- In apple, 20-24 leaves for every fruit produced is considered desirable.
+- In Nepal, apple accounts for 36% of the total production of winter fruits.
+- Foot rot in apple is more pronounced in older trees beyond 15 years.
+- National tea day started being observed in Nepal since 2054 BS, every 15th of Baisakh
+- National coffee day started being observed in Nepal since 2062 BS.
+- Country producing largest volume of organic coffee: Mexico.
+- Largest coffee producer country: Brazil
