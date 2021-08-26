@@ -226,7 +226,8 @@ Physiological effects of ABA
 ## Physiological disorders
 
 ```{r physiological-disorders}
-read_csv("./data/physiological_disorders.csv", skip = 1) %>% 
+read_csv("./data/physiological_disorders.csv", skip = 1,
+         show_col_types = FALSE) %>% 
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE, escape = FALSE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
@@ -235,7 +236,8 @@ read_csv("./data/physiological_disorders.csv", skip = 1) %>%
 
 
 ```{r physiological-disorders-calcium}
-read_csv("./data/calcium_related_disorders_fruit_vegetables.csv", col_names = FALSE) %>% 
+read_csv("./data/calcium_related_disorders_fruit_vegetables.csv", col_names = FALSE,
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Physiological disorders related to calcium in fruit and vegetable crops", col.names = c("Crop", "disorder"), longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::column_spec(column = 2, width = "22em")
@@ -722,18 +724,17 @@ veg_mod <- readxl::read_xlsx("./data/field_preparation.xlsx", sheet = "modificat
   mutate_at(vars(starts_with("modifi")), as_factor)
 
 veg_mod %>% 
-  mutate_at(.vars = vars(contains("modif")), 
-            function(x) kableExtra::cell_spec(x, "latex", color = "white", align = "c", angle = 15,
-                                  background = factor(x, levels = levels(x), 
-                                                      RColorBrewer::brewer.pal(n = length(levels(x)), 
-                                                                               name = "Paired")))) %>%
+  # mutate_at(.vars = vars(contains("modif")), 
+  #           function(x) kableExtra::cell_spec(x, "latex", color = "white", align = "c", angle = 15,
+  #                                 background = factor(x, levels = levels(x), 
+  #                                                     RColorBrewer::brewer.pal(n = length(levels(x)), 
+  #                                                                              name = "Paired")))) %>%
   knitr::kable(caption = "Modification of plant parts used as vegetables", 
                format = "latex", booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = c("striped", "repeat_header"), full_width = FALSE, 
                             position = "center", font_size = 10) %>% 
   kableExtra::row_spec(row = 0, italic = TRUE, bold = TRUE, hline_after = TRUE) %>% 
-  kableExtra::column_spec(1, "5cm") %>% 
-  kableExtra::column_spec(2:3, c("8em", "8em"))
+  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "8em"))
 ```
 
 ### Asparagus (_Asparagus officinalis_ L.){-}
@@ -1460,7 +1461,8 @@ In the plains, eggplant can be grown almost throughout the year. The first crop 
 ## Maturity indicators of some vegetable and fruits
 
 ```{r maturity-indicator}
-read_csv("./data/crop_vegetable_fruits_maturity_indicators.csv", skip = 1) %>% 
+read_csv("./data/crop_vegetable_fruits_maturity_indicators.csv", skip = 1,
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Maturity indicators of some of the fruits and vegetables popular in Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "16em")
@@ -1470,7 +1472,7 @@ read_csv("./data/crop_vegetable_fruits_maturity_indicators.csv", skip = 1) %>%
 ## Spacing requirement of vegetable and fruit crops
 
 ```{r spacing-vegetable-fruit}
-read_csv("./data/crop_vegetable_fruits_spacing.csv") %>% 
+read_csv("./data/crop_vegetable_fruits_spacing.csv",  show_col_types = FALSE) %>% 
   mutate(`R-R` = ifelse(!is.na(`R-R_upper`), paste0(`R-R_lower`, "-", `R-R_upper`), `R-R_lower`), 
          `P-P` = ifelse(!is.na(`P-P_upper`), paste0(`P-P_lower`, "-", `P-P_upper`), `P-P_lower`)) %>% 
   select(`Crop`, `R-R`, `P-P`) %>% 
@@ -1486,14 +1488,16 @@ read_csv("./data/crop_vegetable_fruits_spacing.csv") %>%
 ## Optimum temperature and elevation for fruit and vegetable crops
 
 ```{r optimum-temperature}
-read_csv("./data/crop_vegetable_fruits_temperature.csv", skip = 1) %>% 
+read_csv("./data/crop_vegetable_fruits_temperature.csv", skip = 1,
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
   kableExtra::column_spec(column = 2, width = "16em")
 ```
 
 ```{r optimum-elevation}
-read_csv("./data/crop_vegetable_fruits_elevation.csv") %>% 
+read_csv("./data/crop_vegetable_fruits_elevation.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped")
 ```
@@ -2137,7 +2141,8 @@ All these constraints have led to the development of TPS technology of crop prod
   - Terai, inner terai and low-lying basins: Ashoj-Mangsir
 
 ```{r potato-seed-production}
-readr::read_csv("./data/potato_seed_crop_production_specification.csv", skip = 1) %>% 
+readr::read_csv("./data/potato_seed_crop_production_specification.csv", skip = 1, 
+                show_col_types = FALSE) %>% 
   pivot_longer(cols = starts_with(c("Recommended")), 
                names_to = "Region", 
                values_to = "Time of year") %>% 
@@ -2832,7 +2837,8 @@ The varied micro-climatic zone across the country due to altitude variation righ
 The major vegetable seeds produced in Nepal include radish, onion, mustard, cauliflower, cabbage, carrot, cress, beans, squash and Swiss chards. Table \ref{tab:vegetable-production-areas} provides a picture of major varieties of vegetable seeds and productions areas. Among these areas, Rapti Area (Rukum, Salyan, Rolpa and Pyuthan) in Mid Western Region is the highest contributor of vegetable seed production in the country. Rukum district is considered to the highest contributor among the districts. 
 
 ```{r vegetable-seed-production-areas}
-read_csv("./data/vegetable-seed-production-areas.csv") %>% 
+read_csv("./data/vegetable-seed-production-areas.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Vegetable seed production areas of Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:3, width = c("4em", "24em", "14em"))

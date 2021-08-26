@@ -155,7 +155,7 @@ The Ministry of Local Development (MLD) was the central coordinating agency and 
 Grass roots level extension infrastructures like ASC buildings, market yards, trails, rural roads and small irrigation schemes proved to be of worth and some of them are still useful today. Research-extension linkage worked through strengthening existing agricultural farms within the project area while others relied heavily on the available technology and was promoted through the DADOs. At later stages, it was realized that technology was not available for all categories of farmers (e.g. irrigated/non-irrigated conditions) to adopt based on the assumption of green revolution technology applicable to all environments.
 
 ```{r extension-methods}
-read_csv("./data/extension_methods.csv", skip = 2) %>% 
+read_csv("./data/extension_methods.csv", skip = 2, show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Comparison of different extension methods", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 2:8, width = c("8em", rep("6em", times = 6)))

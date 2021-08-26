@@ -259,7 +259,7 @@ Annotations used in describing formulations:
 
 ```{r insecticides}
 
-pest_management <- read_csv("./data/pest_management_pesticide.csv", skip = 1)
+pest_management <- read_csv("./data/pest_management_pesticide.csv", skip = 1, show_col_types = FALSE)
 
 pest_management <- pest_management %>% 
   # separate_rows(`Effective against`, sep = "(?<!\\()\\,(?![\\w\\s]*[\\)])") %>% 
@@ -1472,7 +1472,7 @@ Chapter 7 and 8 contain sections on offence, punishment and compensation, and mi
 \scalebox{0.6}{\begin{minipage}{1.0\textwidth}
 
 ```{r chemical-control-insects}
-read_csv("./data/chemical_control_insects.csv", skip = 1) %>% 
+read_csv("./data/chemical_control_insects.csv", skip = 1, show_col_types = FALSE) %>% 
   rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
   knitr::kable(booktabs = TRUE, caption = "List of chemical compounds used for pest control", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 

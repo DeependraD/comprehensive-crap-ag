@@ -177,7 +177,7 @@ Minimum area required for pockets and blocks denominations are differently indic
 \scalebox{0.6}{\begin{minipage}{1.0\textwidth}
 
 ```{r pockets-blocks-requirement}
-read_csv("./data/pmamp_production.csv", skip = 1) %>% 
+read_csv("./data/pmamp_production.csv", skip = 1, show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
   kableExtra::column_spec(column = c(1:2,4,8), width = c("12em", "10em", "8em", "10em"))
@@ -506,7 +506,7 @@ For those individuals and organizations intending to obtain certificate they sho
 (For a more detailed listing of international observances, refer to Objective guide by the key "International Year")
 
 ```{r events-membership-observances}
-events_membership_observances <- read_csv("./data/events_membership_observances.csv", skip = 1) %>% 
+events_membership_observances <- read_csv("./data/events_membership_observances.csv", skip = 1, show_col_types = FALSE) %>% 
   arrange(as.numeric(str_extract(`Date (AD)`, "^\\d{4}")))
 
 events_membership_observances %>% 
@@ -583,7 +583,7 @@ tribble(
 ## Major international and national projects in agriculture
 
 ```{r national-international-projects}
-read_csv("./data/agriculture_project.csv") %>% 
+read_csv("./data/agriculture_project.csv", show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Major national and international projects working for agriculture development in Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:6, width = c("2em", "8em", "6em", "5em", "5em", "14em"))
@@ -596,7 +596,7 @@ read_csv("./data/agriculture_project.csv") %>%
 - Establishes observation nurseries through International Network for Genetic Evaluation of Rice (INGER).
 - Nurseries include
   - Abiotic Stress (Cold tolerant and ecosystem wise nurseries)
-  - Biotic stree (Disease and insect)
+  - Biotic stress (Disease and insect)
 - Activities:
   - Training to researchers and extension workers -- publication, webcontent.
   - Exposure visit for policy makers
@@ -605,18 +605,18 @@ read_csv("./data/agriculture_project.csv") %>%
 - Under research and development of rice,
   - Hybrid rice development
   - Improvement of rice genetics
-  - Disease mangement (biotic stress tolerance)
+  - Disease management (biotic stress tolerance)
   - Abiotic stress management
   - Testing ecosystem based rice lines
   - Fine and aromatic rice varieties development
 
 - If rice 78 rice varieties released so far, 30 are IRRI bred varieties. In 2016/17, 8 drought and 2 submergence tolerant rice varieties have been released.
 - Nearly 2800 Nepalese rice landraces are preserved in rice genebank.
-- Nepal has been member in steering committe of many consortiums,
+- Nepal has been member in steering committee of many consortium,
   - Consortium of Unfavorable Rice Environment (CURE)
   - Consortium of cold tolerance rice research and development
   - Consortium of hybrid rice research and development
-  - Consortium of rice research in asia
+  - Consortium of rice research in Asia
 - Hybrid rice research initiative in Nepal began in 2002 with testing of international hybrid rice observation nursery through INGER.
 - Ongoing collaborative projects are:
   - Stress tolerant rice for Africa and South Asia (STRASA)

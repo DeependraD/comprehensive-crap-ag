@@ -854,7 +854,7 @@ NTIS, 2016 identifies actions organized under 19 strategic outcomes (including 1
 ## Import-export status of Nepal
 
 ```{r import-export-balance-sheet}
-read_csv("./data/draft/trade_balance_2075-76.csv") %>% 
+read_csv("./data/draft/trade_balance_2075-76.csv", show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Yearwise trade balance of Nepal by export and imports for recent years.", longtable = TRUE, format.args = list(big.mark = ",", 
   scientific = FALSE)) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
@@ -863,10 +863,12 @@ read_csv("./data/draft/trade_balance_2075-76.csv") %>%
 ```
 
 ```{r import-export-partner}
-trading_partner_export <- read_csv("./data/draft/major_trading_partners_export_2075-76.csv", skip = 1) %>% 
+trading_partner_export <- read_csv("./data/draft/major_trading_partners_export_2075-76.csv", skip = 1,
+                                   show_col_types = FALSE) %>% 
   mutate(trade = "export") %>% 
   select(-`S.N`)
-trading_partner_import <- read_csv("./data/draft/major_trading_partners_import_2075-76.csv", skip = 1) %>% 
+trading_partner_import <- read_csv("./data/draft/major_trading_partners_import_2075-76.csv", skip = 1,
+                                   show_col_types = FALSE) %>% 
   mutate(trade = "import") %>% 
   select(-`S.N`)
 
@@ -898,8 +900,10 @@ trading_partner_import %>%
 ```
 
 ```{r import-export-commoditywise-sheet}
-export_commodities <- read_csv("./data/draft/total_export_components_2075-76.csv", skip = 1, na = "-")
-import_commodities <- read_csv("./data/draft/total_import_components_2075-76.csv", skip = 1, na = "-")
+export_commodities <- read_csv("./data/draft/total_export_components_2075-76.csv", skip = 1, na = "-",
+                               show_col_types = FALSE)
+import_commodities <- read_csv("./data/draft/total_import_components_2075-76.csv", skip = 1, na = "-",
+                               show_col_types = FALSE)
 
 export_commodities %>%
   select(c("SN", "Commodities", "Unit", "Quantity_2018/19(2075/76)", "Value_2018/19(2075/76)")) %>%
@@ -923,11 +927,12 @@ import_commodities %>%
 ### Province-wise trade export-import status
 
 ```{r province-import-export}
-province_export <- read_csv("./data/draft/province_export_2075-76.csv", skip = 1) %>% 
+province_export <- read_csv("./data/draft/province_export_2075-76.csv", skip = 1,
+                            show_col_types = FALSE) %>% 
   mutate(trade = "province export") %>% 
   filter(!str_detect(Province, "Total"))
 
-province_import <- read_csv("./data/draft/province_import_2075-76.csv", skip = 1, col_types = cols(`F.Y 2018/19` = col_number()), na = "-") %>% 
+province_import <- read_csv("./data/draft/province_import_2075-76.csv", skip = 1, col_types = cols(`F.Y 2018/19` = col_number()), na = "-", show_col_types = FALSE) %>% 
   mutate(trade = "province import") %>% 
   filter(!str_detect(Province, "Total"))
 
@@ -1503,7 +1508,7 @@ tribble(
 - National potato development program: 2029 BS (1974 AD)
 - Potato research and development program started: 1991 AD
 - International potato year: 2008 AD
-- Minimum soil temperature for potato germination: \SI{8}{\celcius}
+- Minimum soil temperature for potato germination: \SI{8}{\celsius}
 - Weight of potato tuber appropriate for germination: 20-40 gram
 - TPS production started in Nepal: 1986 AD
 - Earthing up of potato: 20-25 days after planting

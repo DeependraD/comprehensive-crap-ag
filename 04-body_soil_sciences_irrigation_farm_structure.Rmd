@@ -122,8 +122,8 @@ tribble(~"Crop", ~"N-fixation (kg/ha)",
 ## Crop nutrients, roles, deficiency, excess and control
 
 ```{r crop-nutrients-role-deficiency-excess}
-read_csv("./data/soil/nutrient_role_deficiency_control.csv") %>% 
-  rename("SN" = "X1") %>% 
+read_csv("./data/soil/nutrient_role_deficiency_control.csv", show_col_types = FALSE) %>% 
+  rename("SN" = 1) %>% 
   knitr::kable(booktabs = TRUE, caption = "Role of crop nutrients, deficiency, control of deficiency and toxicity", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:6, width = c("2em", "4em", "10em", "8em", "7em", "7em"))
@@ -312,7 +312,8 @@ tribble(
 ### Salts containing micronutrients
 
 ```{r salts-micronutrition}
-read_csv("./data/soil/salts_containing_micronutrients.csv") %>% 
+read_csv("./data/soil/salts_containing_micronutrients.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, escape = FALSE, caption = "Micronutrient content in respective mineral salt", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:4, width = c("3em", "8em", "8em", "6em"))
@@ -456,7 +457,8 @@ tribble(
 ## Effective root zone depth
 
 ```{r effective-root-zone-depth}
-read_csv("./data/effective_root_zone_depth_crops.csv") %>% 
+read_csv("./data/effective_root_zone_depth_crops.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Horizon property or characteristic; Source: USDA Soil Survey Manual, Chapter 4.", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:4, width = rep("8em", 4))
@@ -556,7 +558,8 @@ The design that is widely used in vegetable production is the thin-walled (calle
 ### Crop water requirement
 
 ```{r crop-water-requirement}
-read_csv("./data/crop_water_requirements.csv", skip = 2) %>% 
+read_csv("./data/crop_water_requirements.csv", skip = 2,
+         show_col_types = FALSE) %>% 
   dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Crop water requirement and growth duration of major crops of Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
@@ -589,7 +592,8 @@ Water stress is the most ubiquitous stress factor, often denoted as $K_w$. Stres
 Below are given estimates of the crop coefficient for multiple crops commonly cultivated in Nepal
 
 ```{r crop-coefficient}
-read_csv("./data/crop_coefficient.csv", skip = 2) %>%
+read_csv("./data/crop_coefficient.csv", skip = 2,
+         show_col_types = FALSE) %>%
   tidyr::pivot_longer(cols = `Jan_first half`:`December_second half`, 
                       names_to = c("Month", "Month half"), 
                       names_pattern = "(.*)_(.*)", 
@@ -649,7 +653,8 @@ Process depends upon size, and shape of detached materials and velocity of the t
 ## Irrigation development in Nepal
 
 ```{r irrigation-development-nepal}
-read_csv("./data/irrigation_development.csv", skip = 2) %>% 
+read_csv("./data/irrigation_development.csv", skip = 2,
+         show_col_types = FALSE) %>% 
   dplyr::rename_all(list(~str_replace_all(., "_", " "))) %>% 
   dplyr::mutate(`Plan period` = str_replace_all(`Plan period`, "_", " ")) %>% 
   knitr::kable(caption = "Irrigation development in Nepal during different period plans", 

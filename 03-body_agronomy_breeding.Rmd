@@ -113,14 +113,16 @@ $$
 where n is the number of days experienced by a plant at a mean daily temperature, T, above $T_b$. Thus, on a day when the temperature remains below $T_o$, the thermal time accumulated by a crop is simply the difference between the mean daily temperature and the value of $\mathrm{T_b}$.
 
 ```{r cardinal-temperature-major-crops}
-read_csv("./data/weather/agronomy_cardinal_temperature_major_crops.csv") %>% 
+read_csv("./data/weather/agronomy_cardinal_temperature_major_crops.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Cardinal temperature of major agronomical crops", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:4, width = rep("5em", 4))
 ```
 
 ```{r rice-temperature-growth-stages}
-read_csv("./data/weather/agronomy_optimum_temperature_requirements_rice_stages.csv") %>% 
+read_csv("./data/weather/agronomy_optimum_temperature_requirements_rice_stages.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Optimum temperature requirements for rice", longtable = TRUE, 
                col.names = c("Growth stages", "", "Temperature in \\si{\\celsius}", ""), escape = FALSE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
@@ -146,7 +148,7 @@ $$
 ### Rainfall
 
 ```{r precipitation-classification}
-read_csv("./data/weather/agronomy_rainfall_classification.csv") %>% 
+read_csv("./data/weather/agronomy_rainfall_classification.csv", show_col_types = FALSE) %>% 
   knitr::kable(caption = "Rainfall classification rainfall pattern", escape = FALSE, longtable = TRUE, booktabs = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:2, width = c("6em", "6em")) %>% 
@@ -157,7 +159,7 @@ read_csv("./data/weather/agronomy_rainfall_classification.csv") %>%
 ## Weather normals for agricultural crops
 
 ```{r weather-normals-food-cash}
-read_csv("./data/weather/agronomy_crop_weather_normals.csv") %>% 
+read_csv("./data/weather/agronomy_crop_weather_normals.csv", show_col_types = FALSE) %>% 
   knitr::kable(caption = "Weather normals for agronomic crops", escape = FALSE, longtable = TRUE, booktabs = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:7, width = c("2em", "8em", "6em", "8em", "6em", "5em", "6em"))
@@ -215,7 +217,8 @@ readxl::read_xlsx("./data/varietal_notification_status.xlsx") %>%
 ## Varietal description of some common rice and maize varieties
 
 ```{r rice-varieties}
-read_csv("./data/rice_variety_description.csv", skip = 2) %>% 
+read_csv("./data/rice_variety_description.csv", skip = 2,
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Varietal description of recently released rice varieties", escape = FALSE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 3:11, c(rep("5em", times = 7), "8em", "12em")) %>% 
@@ -225,7 +228,8 @@ read_csv("./data/rice_variety_description.csv", skip = 2) %>%
 <!-- \scalebox{0.7}{\begin{minipage}{1.0\textwidth} -->
 
 ```{r maize-varieties}
-read_csv("./data/maize_variety_description.csv", skip = 2) %>% 
+read_csv("./data/maize_variety_description.csv", skip = 2,
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Varietal description of recently released maize varieties", escape = FALSE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 3:12, rep("5em", times = 10)) %>% 
@@ -237,7 +241,8 @@ read_csv("./data/maize_variety_description.csv", skip = 2) %>%
 ## Crop production status and ranking
 
 ```{r crop-production-status}
-read_csv("./data/crop_production_rankings.csv", skip = 1) %>% 
+read_csv("./data/crop_production_rankings.csv", skip = 1,
+         show_col_types = FALSE) %>% 
   arrange(Region, Crop) %>% 
   select(-SN) %>% 
   relocate(Region, .before = 1) %>% 
@@ -600,7 +605,8 @@ knitr::kable(groundnut, align = "c",
 ## Cereal and commercial crops production
 
 ```{r crop-cultivation-cereal-commercial-remarks}
-read_csv("./data/crop_production_technology_cereal_commercial.csv") %>% 
+read_csv("./data/crop_production_technology_cereal_commercial.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Summary of production remarks on cultivated crops (Cereal and commercial)", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 5, position = "center", latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:12, width = c("12em", "12em", rep("10em", 10))) %>% 
@@ -626,7 +632,8 @@ oil_joined <- tibble(`Production remark` = c("Time of sowing", "Seed rate (kg/ha
                      Linseed = c("First week of October - Mid November", 
                                  "30-35", "22-30 x 5-6", "50:40:30", "1.0-1.9"))
 
-leg_oilseed <- read_csv("./data/crop_production_technology_legume_oilseed_other.csv")
+leg_oilseed <- read_csv("./data/crop_production_technology_legume_oilseed_other.csv",
+                        show_col_types = FALSE)
 
 leg_oilseed %>%
   left_join(oil_joined) %>%
@@ -648,7 +655,8 @@ leg_oilseed %>%
   kableExtra::column_spec(column = 1:8, width = c("14em", rep("12em", 7))) %>% 
   kableExtra::landscape(margin = "1cm")
   
-read_csv("./data/crop_production_technology_legume2.csv") %>% 
+read_csv("./data/crop_production_technology_legume2.csv",
+         show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 6, latex_options = "striped", position = "center") %>% 
   kableExtra::column_spec(column = 1:9, width = c("10em", rep("12em", 8))) %>% 
@@ -658,7 +666,8 @@ read_csv("./data/crop_production_technology_legume2.csv") %>%
 ## Optimum pH range for some crops
 
 ```{r crop-cultivation-ph}
-readr::read_csv("./data/crop_production_ph_optimum.csv") %>% 
+readr::read_csv("./data/crop_production_ph_optimum.csv",
+                show_col_types = FALSE) %>% 
   mutate(half_sep = ifelse(row_number() < ceiling(nrow(.)/2), 1, 2)) %>% 
   group_by(half_sep) %>% 
   mutate(row_id = 1:n()) %>% 
@@ -677,7 +686,8 @@ readr::read_csv("./data/crop_production_ph_optimum.csv") %>%
 ### Crop varieties with special characteristics
 
 ```{r crop-notable-varieties}
-readr::read_csv("./data/crop_notable_varieties.csv") %>% 
+readr::read_csv("./data/crop_notable_varieties.csv",
+                show_col_types = FALSE) %>% 
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   select(-1) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
@@ -1264,10 +1274,12 @@ readxl::read_xlsx("./data/weed_management.xlsx", sheet = "herbicide_broad_spec")
 
 ```{r herbicide-crop-dose-application}
 bind_rows(
-  read_csv("./data/agronomy_herbicide_classification_major1.csv") %>% 
-    rename(SN = X1), 
-  read_csv("./data/agronomy_herbicide_classification_major2.csv") %>% 
-    rename(SN = X1)
+  read_csv("./data/agronomy_herbicide_classification_major1.csv",
+           show_col_types = FALSE) %>% 
+    rename(SN = 1), 
+  read_csv("./data/agronomy_herbicide_classification_major2.csv",
+           show_col_types = FALSE) %>% 
+    rename(SN = 1)
 ) %>% 
   # mutate(SN = row_number())
   tidyr::fill(Crop, .direction = "down") %>% 
@@ -1594,9 +1606,9 @@ tribble(
 
 ```{r indian-main-center-origin}
 indian_origin_crop <- bind_rows(
-    read_csv("./data/agronomy_crops_origin_indian_main_center1.csv", col_names = c("Group", "Crops")) %>% 
+    read_csv("./data/agronomy_crops_origin_indian_main_center1.csv", col_names = c("Group", "Crops"), show_col_types = FALSE) %>% 
       tidyr::fill(Group, .direction = "down"),
-    read_csv("./data/agronomy_crops_origin_indian_main_center2.csv", col_names = c("Group", "Crops")) %>% 
+    read_csv("./data/agronomy_crops_origin_indian_main_center2.csv", col_names = c("Group", "Crops"), show_col_types = FALSE) %>% 
       tidyr::fill(Group, .direction = "down"))
 
 indian_origin_crop %>% 
@@ -1609,7 +1621,7 @@ indian_origin_crop %>%
 ```
 
 ```{r indian-indo-malayan-origin}
-read_csv("./data/agronomy_crops_origin_indo_malayan_center.csv", col_names = c("Group", "Crops")) %>% 
+read_csv("./data/agronomy_crops_origin_indo_malayan_center.csv", col_names = c("Group", "Crops"), show_col_types = FALSE) %>% 
   tidyr::fill(Group, .direction = "down") %>% 
   separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
   mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
@@ -1620,7 +1632,7 @@ read_csv("./data/agronomy_crops_origin_indo_malayan_center.csv", col_names = c("
 ```
 
 ```{r indian-central-asiatic-origin}
-read_csv("./data/agronomy_crops_origin_central_asiatic_center.csv", col_names = c("Group", "Crops")) %>% 
+read_csv("./data/agronomy_crops_origin_central_asiatic_center.csv", col_names = c("Group", "Crops"), show_col_types = FALSE) %>% 
   tidyr::fill(Group, .direction = "down") %>% 
   separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
   mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
