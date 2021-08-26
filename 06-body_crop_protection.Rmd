@@ -1854,6 +1854,7 @@ knitr::include_graphics("./images/pra-flow-chart.png")
 
 ## Estimated crop loss owing to different causes
 
+- From harvesting to consumption, loss of food crops amounts: 15-20%
 - Post-harvest loss: 10-12\%
 - Loss during storage: 7-10\%
 - Post-harvest loss in vegetables: 25\%
@@ -1861,7 +1862,7 @@ knitr::include_graphics("./images/pra-flow-chart.png")
 - Post harvest loss in cereal grains: 10-30\%
 - Post harvest loss in potato: 32\%
 - Post harvest loss in fruits: 20\%
-- Post harvest loss in cruciferous vegetables: 12-15\%
+- Post harvest loss in cruciferous vegetables: 12-15\% (Cabbage: 15.8, Cauliflower: 12.2)
 - Crop loss due to rodents: 7-10\%
 - Crop loss during harvesting/cutting: 2-7\%
 - Loss during seed storage: 4-5\%

@@ -1212,6 +1212,47 @@ tribble(
 
 - In a "Ghumti stalgat" training, 50% of the participants should be women.
 
+### First released variety
+
+- Rice (Spring): CH_45 (2023 BS)
+- Rice (Main season): Taichung-176 (2024 BS)
+- Maize: Khumal pahelo (2022 BS) 
+- Wheat: Lerma-52 (2017 BS)
+- Millet: Okhle
+- Barley: Bonus
+- Soybean: Hardee
+- Lentil: Sindur
+- Chickpea: Dhanush
+- Cowpea: Aakash
+- Moong: Pusa baisakhi
+- Groundnut: B-4
+- Tori: Bikash
+- Rayo: Pusa bold
+- Potato: Kufri Jyoti
+- Cauliflower: Kathmandu local
+- Radish: Minnow early
+- Broad leaf mustard: Khumal chaudapat
+- Onion: Red creole
+- Tomato: Pusa ruby
+- Cabbage: Copenhegan market
+- Chilli: Jwala
+- Sweet pepper: California
+- Brinjal: Nurki
+- Sponge gourd: Kantipur
+- Cucumber: Kusle
+
+### Variety with highest productivity
+
+- Rice: Manjushree-2 (10.08 t/ha)
+- Wheat: Pasang lhamu (6.7 t/ha)
+- Maize: Dikeshi-9081 (10-12 t/ha)
+- Potato: Janakdev (39.4 t/ha)
+- Sugarcane: Jeetpur-2 (92 t/ha)
+- Cowpea: Double harvest (16-18 t/ha)
+- Lentil: Simal (4.1 t/ha)
+- Soybean: Cobb (2.5 t/ha)
+- Chickpea: Dhanush (1.8 t/ha)
+
 ### Simple facts
 
 - "Agriculture" is derived from Latin.
@@ -1458,3 +1499,13 @@ tribble(
 - National coffee day started being observed in Nepal since 2062 BS.
 - Country producing largest volume of organic coffee: Mexico.
 - Largest coffee producer country: Brazil
+- "Halo kranti" was initiated in Shrawan 11, 2006
+- National potato development program: 2029 BS (1974 AD)
+- Potato research and development program started: 1991 AD
+- International potato year: 2008 AD
+- Minimum soil temperature for potato germination: \SI{8}{\celcius}
+- Weight of potato tuber appropriate for germination: 20-40 gram
+- TPS production started in Nepal: 1986 AD
+- Earthing up of potato: 20-25 days after planting
+- Tissue culture lab for potato propagation first established in Khumaltar: 2046/47
+- Number of nodes (eyes) in a mature potato tuber: 12

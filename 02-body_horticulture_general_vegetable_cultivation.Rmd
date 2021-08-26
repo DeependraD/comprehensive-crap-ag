@@ -473,7 +473,7 @@ Provide adequate protection against vagaries of summer and winter season.
 
 A good windbreak should be provided on the windward side of orchard well before the orchard is established. Eucalyptus, Jamun, Seedling mango, Mulberry etc. and good windbreak plants. In the spaces between windbreah trees: a hedge may also be planted. _Inga dulcis_ (Jungli julebi), _Lawsonia alba_ (Mehndi), Bouganvillea, Jatti khatti, galgal, karonda, etc. are a few good hedges. Never plant a hedge of citrus species around the citrus orchard.
 
-## Crop propagation
+## Propagation by cutting: Hardwood, semi-hardwood, softwood and herbaceous
 
 ```{r difference-stem-cutting}
 tribble(
@@ -686,6 +686,31 @@ Ladders are for extending the reach of an operator during pruning. They should b
   - Replace air otherwise roots may dry
   - For better contact of roots with soil particles
 7. Staking is required for the saplings which are very young and tender, or if the graft union is not yet stout.
+
+## High density plantation
+
+With ever increasing demand in fruit due to increasing domestic population, increased tourist inflow and nutrition awareness, there is a thrust towards increasing land productivity. Only alternative to increase production in given parcel of land is to intensify cropping, besides increasing productivity of crop itself.
+
+The concept of High Density Planting (HDP) arose out of similar needs of intensifying land use in fruit industry. It is an applied as well as successful orcharding practice in fruits like pear, apple, banana, pineapple, papaya, etc. HDP in mango was initiated at IARI and GB Pantanagar in 1974 and 1975, respectively.
+
+HDP means more number of fruit trees than optimum through the manipulation of tree size and planting distance per unit area. Hence the broad obectives of implementing a HDP layout are:
+
+- To make the best use of vertical and horizontal space per unit time.
+- To harness maximum possible returns per unit of inputs.
+
+An ideal planting distance is determined by complex integration of factors viz. cultivar, soil fertility, management intervention and economic consideration. Depending upon the number of plants per unit area, HDP can be categorized as:
+
+- Medium HDP
+- Optimum HDP
+- Ultra HDP
+
+## Multistoried cropping
+
+Multistoried cropping is a resource conserving farming technique. In this cropping system, many tiers of crops are grown in a given piece of land while laying emphasis on utilization of vertical spaces rather than horizontal space. In a limited space, a number of crops could be grown at a time efficiently and economically. Although the original idea traces back to agro-forestry system, horticultural crops may be produced successfully under multistoried system of cultivation.
+
+Multistoried cropping has certain specific requirements. Initially, plant species should be selected on the basis of their requirement for light, water and nutrient. Different species of crops are attuned to varying levels of light intensity. Secondly, the growth habit of the selected crop should be such that it disturbs the nearby crop the least in terms of utilization of the space.
+
+An efficient example of multistory cropping in Nepal can be seen in eastern terai. Three crops, viz. arecanut (tall and small canopy), black pepper (climbing habit and takes support of trunk of arecanut) and turmeric or ginger (partial shade loving plant) is grown simultaneously in the same field. Here, all the available horizontal strata are fully utilized without any adverse effect on the productivity of individual crops. Similarly, banana and pineapple can be introduced into coconut orchard. Coconuts are initially space planted, while banana and pineapple are later planted forming the middle and innermost layers, respectively.
 
 ## Characteristics and identification of vegetable crops
 
@@ -2347,7 +2372,7 @@ By creating controlled environment, vegetable crops can be grown during off-seas
 - Brown plastics: The brown plastics prevent light penetration and inhibit weed growth.
 - Black plastics: This plastic helps to maintain low soil temperature and checks weed growth.
 
-### Construction of plastic house
+#### Construction of plastic house
 
 A plastic house of any size can be constructed by using polythene sheets, bamboo stakes or galvanized iron pipes. The tall growing plants like tomato and cucumber are suited to grow in plastic house.
 
@@ -2366,7 +2391,7 @@ A plastic house of any size can be constructed by using polythene sheets, bamboo
 - Parallel cross stick: 0.5 m
 - Gap between one to another plastic house: 1 m
 
-### Constuction of plastic tunnel
+#### Constuction of plastic tunnel
 
 Making use of polythene sheets is the easiest and cheapest method of controlling environment. About 1 m wide raised beds are prepared and bamboo stakes are bent over it to make semi-circular shape and polythene sheet put over it. It is generally practiced for raising seedlings for summer crops during the winter season -- a technique called forcing.
 
@@ -2383,7 +2408,7 @@ Making use of polythene sheets is the easiest and cheapest method of controlling
 - Training and pruning
 - Staking
 
-6. **Plant growth regulators**
+6. **Use of plant growth regulators**
 
 ## Nutrient mangement in fruits and vegetable crops
 
