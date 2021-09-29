@@ -351,14 +351,19 @@ read_csv("./data/road_expansion_by_federal_government_2020.csv", skip = 3,
 
 ### Indicators of educational achievements
 
-<!-- ```{r educational-achievement} -->
-<!-- read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2, -->
-<!--          show_col_types = FALSE) %>%  -->
-<!--   knitr::kable(caption = "Educational achievements of recent years; Source: Economic Survey, 2019/20", longtable = TRUE, booktabs = TRUE, escape = FALSE) %>%  -->
-<!--   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>%  -->
-<!--   kableExtra::column_spec(column = 1:8, width = c("6em", "8em", rep("4em", 6))) %>%  -->
-<!--   kableExtra::collapse_rows(1:2, row_group_label_position = "stack") -->
-<!-- ``` -->
+```{r educational-achievement}
+read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2,
+         show_col_types = FALSE) %>%
+  mutate_at(c("Heading", "Indicators"), function(x)str_replace_all(x, "\\(|\\)", ",")) %>%
+  mutate_at(c("Heading", "Indicators"), function(x)str_replace_all(x, "\\s,", ",")) %>% 
+  mutate_at(c("Heading", "Indicators"), function(x)str_replace_all(x, ",$", "")) %>% 
+  mutate_at(c("Heading", "Indicators"), function(x)str_squish(x)) %>% 
+  kableExtra::kbl(caption = "Educational achievements of recent years; Source: Economic Survey, 2019/20", format = "latex", longtable = TRUE, booktabs = TRUE, escape = FALSE) %>%
+  kableExtra::kable_styling(font_size = 8) %>%
+  kableExtra::column_spec(column = 1:8, width = c("5em", "8em", rep("5em", 6))) %>%
+  kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "stack",
+                            headers_to_remove = 1, valign = "middle")
+```
 
 ### Other meta information
 

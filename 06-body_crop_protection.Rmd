@@ -1962,17 +1962,17 @@ tribble(
 tribble(
   ~"Quality parameters", ~"Pure nectar honey", ~"Other honey", ~"General", ~"Other",
   "Specific gravity \\@ \\SI{27}{\\celsius}", NA, NA, NA, NA,
-  "Moisture content", "Max 23%", "Max 23%", "Max 20%", "Max 23% (heather honey)",
+  "Moisture content", "Max 23\\%", "Max 23\\%", "Max 20\\%", "Max 23\\% (heather honey)",
   "Sucrose content (g/100g)", "Max 5", "Max 10", "Max 5", "Max 10 (honeydew, blends of honeydew and blossom, Robinia, citrus, alfalfa, red gum, sweet clover, leatherwood); Max 15 (Lavendula and borage)",
   "Reducing sugars (g/100g)", "Min 65", "Min 60", NA, NA,
   "Fructose:glucose ratio", "Min 0.95", "Min 0.95", NA, NA,
   "Sum of fructose and glucose (g/100g)", NA, NA, "Min 60", "Min 45 (honeydew, blends of honeydew and blossom)",
   "Ash or mineral content (g/100g)", "Max 0.5", "Max 0.5", "Max 0.6", "Max 1 (honeydew or blends of honeydew and blossom)", 
-  "Acidity as formic acid", "Max 0.2%", "Max 0.2%", NA, NA,
+  "Acidity as formic acid", "Max 0.2\\%", "Max 0.2\\%", NA, NA,
   "Water insoluble content (g/100g)", "Max 0.5", "Max 0.5", "Max 0.1", "Max 0.5 (pressed honey)",
   "HMF content (mg/kg)", "Max 40", "Max 40", "Max 40", "Max 80 (honey of declared origin from countries or regions with tropical ambient temperature)"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Honey quality standards of Nepal and the Codex Alimentarius Commission", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Honey quality standards of Nepal and the Codex Alimentarius Commission", longtable = TRUE, escape = FALSE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::add_header_above(c(" " = 1 , "Nepal" = 2, "Codex Alimentarius" = 2)) %>% 
   kableExtra::column_spec(column = 1:5, width = c("10em", "6em", "6em", "6em", "10em"))
