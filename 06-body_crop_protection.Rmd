@@ -284,12 +284,13 @@ pest_management %>%
   mutate(`Generic name` = paste0(`Generic name`, " (", `Trade name`, ")")) %>% 
   select(-`Trade name`) %>% 
   knitr::kable(booktabs = TRUE, format = "latex", caption = "Commonly used insecticides and their descriptions including crops and insect pests effective against.", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", headers_to_remove = 1) %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
   # kableExtra::collapse_rows(2:3, row_group_label_position = "stack", headers_to_remove = 2) %>% 
-  kableExtra::column_spec(column = 1:11, width = c("3em", "8em", "4em", "6em",
+  kableExtra::column_spec(column = 2:11, width = c("8em", "4em", "6em",
                                                    "8em", "2em", "3em", "3em", "3em",
                                                    "10em", "12em")) %>% 
+  kableExtra::column_spec(column = 1, width = "4em") %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", headers_to_remove = 1) %>% 
   kableExtra::landscape(margin = "1.2cm")
 
 ```
@@ -376,10 +377,11 @@ tribble(~"sn", ~"waiting_period (days)", ~"group", ~"common_name",
         19, "15", "Insecticide", "Acephate, Acetamiprid, Dimethoate", 
         20, "15", "Weedicide", "Oxyfluorfen"
         ) %>% 
+  select(-1) %>% 
   rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Waiting period of some commonly used pesticides", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Waiting period of some commonly used pesticides", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:4, c("4em", "6em", "6em", "20em"))
+  kableExtra::column_spec(column = 1:3, c("6em", "6em", "20em"))
 ```
 
 ### On environmental perspective, pesticides are of following types, based on bio-degradation
@@ -1044,9 +1046,10 @@ tribble(
   select(-1) %>% 
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, caption = "Insect pests of fruits and vegetables", longtable = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(latex_options = "striped") %>% # do not set font here because it is already set above
+  kableExtra::kable_styling() %>% # do not set font here because it is already set above
+  kableExtra::column_spec(column = 2:6, width = paste0(c(6, 12, 6, 12, 14), "em")) %>% 
+  kableExtra::column_spec(column = 1, width = "5em") %>% 
   kableExtra::collapse_rows(1) %>% 
-  kableExtra::column_spec(column = 1:6, width = paste0(c(5, 6, 12, 6, 12, 14), "em")) %>% 
   kableExtra::landscape(margin = "1.25cm")
 ```
 
@@ -1077,9 +1080,10 @@ tribble(
 ) %>% 
   mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
   knitr::kable(booktabs = TRUE, caption = "Major insects of rice and nature of their damange", longtable = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::collapse_rows(1) %>% 
-  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "10em"))
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("8em", "10em")) %>% 
+  kableExtra::column_spec(column = 1, width = "6em") %>% 
+  kableExtra::collapse_rows(1)
 ```
 
 

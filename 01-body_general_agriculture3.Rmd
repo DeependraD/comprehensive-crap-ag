@@ -820,9 +820,10 @@ tribble(
   "Service", "Tourism (including leisure, business, education and medical)"
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "List of priority sector of good and services of export potential outlined by NTIS, 2016", longtable = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
-  kableExtra::collapse_rows(1:2) %>% 
-  kableExtra::column_spec(1:2, width = c("10em", "14em")) %>% 
+  # kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "identity") %>% 
+  kableExtra::column_spec(1:2, width = c("10em", "18em")) %>% 
   kableExtra::footnote(general = "Director of Vegetable Development Directorate, DoA, in coordination with Programme Director, National Spices Crops Development Programme will act as focal point for cardamom. The Ministry of Commerce will coordinate and monitor the entire implementation of the NTIS, 2016.", threeparttable = TRUE, general_title = "Note")
 
 ```
@@ -908,8 +909,9 @@ import_commodities <- read_csv("./data/draft/total_import_components_2075-76.csv
 export_commodities %>%
   select(c("SN", "Commodities", "Unit", "Quantity_2018/19(2075/76)", "Value_2018/19(2075/76)")) %>%
   rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (export) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
-  scientific = FALSE)) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (export) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE,
+               format.args = list(big.mark = ",", scientific = FALSE),
+               align = "l") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:5, width = c("2em", "12em", "3em", "7em", "7em")) %>% 
   kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
@@ -917,8 +919,10 @@ export_commodities %>%
 import_commodities %>%
   select(c("SN", "Commodities", `Value_2018/19(2075/76)`)) %>%
   rename_all(function(x)str_replace_all(x, "_", " ")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (import) of Nepal during fiscal year 2018/19 (2075/76)", longtable = TRUE, format.args = list(big.mark = ",", 
-  scientific = FALSE)) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major traded commodities (import) of Nepal during fiscal year 2018/19 (2075/76)",
+               longtable = TRUE,
+               format.args = list(big.mark = ",", scientific = FALSE),
+               align = "l") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:3, width = c("3em", "14em", "8em")) %>% 
   kableExtra::footnote(general = "Figures in table are expressed in '1000", threeparttable = TRUE, general_title = "Note:")
@@ -971,12 +975,14 @@ tribble(
   9, "Chemical testing", "Residues in food products", "Fruits and vegetables", "Organochlorine pesticides 1. Aldrin (SS), 2. Alpha-BHC (SS), 3. Alpha-Chlordane (SS), 4. Beta, BHC (SS), 5. Delta BHC (SS), 6. Dieldrin (SS), 7. Endosulfan I (Alpha), 8. Endosulphan II (Beta, SS), 9. Endosulfan sulphate (SS), 10. Endrin aldehyde (SS), 11. Endrin ketone (SS), 12. Endrin (SS), 13. Gamma-BHC (Lindane, SS), 14. Gamma chlordane (SS), 15. Heptachlor (99\\%, SS), 16. Heptachlor-epoxide, 17. Isomer (B, SS), 18. $4, 4^{\\prime}$-DDD (SS), 19. 4, $4^{\\prime}$-DDE (SS), 20. 4, $4^{\\prime}$-DDT, 21. Methoxychlor", 
   10, "Chemical testing", "Residues in food products", "Fruits and vegetables", "Organophosphate pesticides 1. O, O, O-Trimethylphosphorothioate, 2. Thionazin, 3. Sulfotep, 4. Phorate, 5. Dimethoate, 6. Disulfoton, 7. Parathion, 8. Methyl parathion, 9. Famphur", 
   11, "Chemical testing", "Residues in food products", "Cereals and cereal products: Instant noodles, biscuits, snacks", "Mycotoxins 1. Total aflatoxin, 2. Aflatoxin B1, 3. Aflatoxin G2; Trace elements 1. Zinc, 2. Calcium, 3. Magnesium, 4. Iron", 
-  12, "Chemical testing", "Water", "Processed dinking water", "1. pH, 2. Hardness, 3. Alkalinity, 4. Chloride content", 
+  12, "Chemical testing", "Water", "Processed drinking water", "1. pH, 2. Hardness, 3. Alkalinity, 4. Chloride content", 
   13, "Chemical testing", "Residues in water", "Processed drinking water", "Trace metal elements 1. Lead, 2. Cadmium, 3. Arsenic, 4. Calcium, 5. Copper, 6. Iron, 7. Magnesium, 8. Zinc"
 ) %>% 
   knitr::kable(escape = FALSE, format = "latex", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 8, latex_options = c("striped")) %>%
-  kableExtra::column_spec(column = 2:5, width = c("8em", "8em", "10em", "22em"))
+  # kableExtra::kable_styling(font_size = 8, latex_options = c("striped")) %>%
+  kableExtra::kable_styling(font_size = 8) %>%
+  kableExtra::column_spec(column = 1:5, width = c("6em", "8em", "8em", "10em", "22em")) %>% 
+  kableExtra::collapse_rows(columns = 1, row_group_label_position = "identity", valign = "middle")
 
 ```
 
@@ -1072,7 +1078,7 @@ dplyr::tribble(~"SN", ~"Day of week", ~"Radio Nepal (6:40 to 6:55)", ~"NTV (60:4
                6, "Friday", "JTA ra budhi ama", "Krishi gatibidhi", 
                7, "Saturday", "Radio krishi natak ra patra-patrika ma krishi", "Krishi teleserial 'Bharosa'"
                ) %>% 
-  knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE) %>% 
+  knitr::kable(caption = "Schedule of weekly telecasts of Agriculture programs in Radio and Television", booktabs = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 8) %>% 
   kableExtra::column_spec(column = 1:4, width = c("2em", "4em", "10em", "10em"))
 ```
@@ -1097,7 +1103,7 @@ tribble(
   "Thursday", "Fisheries, livestock farming, poultry farming, production technology, fodder and forage management", "11 AM to 4 PM"
 ) %>% 
   knitr::kable(booktabs = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 10) %>% 
+  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "16em")
 ```
 
@@ -1219,7 +1225,7 @@ tribble(
 
 ### First released variety
 
-- Rice (Spring): CH_45 (2023 BS)
+- Rice (Spring): CH-45 (2023 BS)
 - Rice (Main season): Taichung-176 (2024 BS)
 - Maize: Khumal pahelo (2022 BS) 
 - Wheat: Lerma-52 (2017 BS)

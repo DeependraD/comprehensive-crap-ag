@@ -125,12 +125,12 @@ pmamp_2075_zone_superzone %>%
              align = paste0(rep("l", times = ncol(pmamp_2075_zone_superzone))),
              longtable = TRUE,
              escape = FALSE) %>% 
-  kableExtra::kable_styling(latex_options = c("striped", "hold_position", "repeat_header"), 
+  kableExtra::kable_styling(latex_options = c("hold_position", "repeat_header"), 
                             full_width = FALSE, font_size = 8, 
                             # row_label_position = "c", # centering row label breaks "column_spec" and everything 
                             position = "center") %>% 
   kableExtra::column_spec(column = 1:5, width = c("3em", "2em", "5em", "10em", "8em")) %>% 
-  kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "stack")
+  kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "stack", headers_to_remove = 1)
 ```
 
 \scalebox{0.8}{\begin{minipage}{1.0\textwidth}
@@ -179,7 +179,7 @@ Minimum area required for pockets and blocks denominations are differently indic
 ```{r pockets-blocks-requirement}
 read_csv("./data/pmamp_production.csv", skip = 1, show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 10, position = "center") %>% 
   kableExtra::column_spec(column = c(1:2,4,8), width = c("12em", "10em", "8em", "10em"))
 ```
 
@@ -550,7 +550,7 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Active CGIAR center and their headquarters", longtable = TRUE) %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("20em", "6em"))
+  kableExtra::column_spec(column = 1:2, width = c("24em", "10em"))
 ```
 
 ### Non-Governmental Organizations
@@ -584,7 +584,7 @@ tribble(
 
 ```{r national-international-projects}
 read_csv("./data/agriculture_project.csv", show_col_types = FALSE) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Major national and international projects working for agriculture development in Nepal", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Major national and international projects working for agriculture development in Nepal", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:6, width = c("2em", "8em", "6em", "5em", "5em", "14em"))
 ```

@@ -61,7 +61,7 @@ tribble(
 ) %>% 
   arrange(as.numeric(str_extract(Year, "\\d{4}"))) %>% 
   knitr::kable(booktabs = TRUE, caption = "History of agriculture extension in Nepal", longtable = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::collapse_rows(columns = 1) %>% 
   kableExtra::column_spec(column = 1:2, width = c("3em", "20em"))
 ```

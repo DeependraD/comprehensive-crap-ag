@@ -35,9 +35,10 @@ tribble(
   "Clay", "fine", "<0.0002"
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Size fractions of soil particles", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::collapse_rows(1) %>% 
-  kableExtra::column_spec(column = 1:3, width = c("5em", "6em", "8em"))
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:3, width = c("6em", "8em")) %>% 
+  kableExtra::column_spec(column = 1, width = "5em") %>% 
+  kableExtra::collapse_rows(1, row_group_label_position = "identity")
 ```
 
 
@@ -124,7 +125,7 @@ tribble(~"Crop", ~"N-fixation (kg/ha)",
 ```{r crop-nutrients-role-deficiency-excess}
 read_csv("./data/soil/nutrient_role_deficiency_control.csv", show_col_types = FALSE) %>% 
   rename("SN" = 1) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Role of crop nutrients, deficiency, control of deficiency and toxicity", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Role of crop nutrients, deficiency, control of deficiency and toxicity", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:6, width = c("2em", "4em", "10em", "8em", "7em", "7em"))
 ```
@@ -173,7 +174,7 @@ tribble(
   "Ca", 622, "Orange",
   "Li", 670, "Red"
 ) %>% 
-  knitr::kable(caption = "Flame colors produced by different elements in flame photometer") %>% 
+  knitr::kable(caption = "Flame colors produced by different elements in flame photometer", booktabs = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:3, width = c("4em", "4em", "5em"))
 ```

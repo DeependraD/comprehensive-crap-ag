@@ -66,7 +66,7 @@ tribble(~"region", ~"elevation", ~"climatic_zone", ~"average_annual_precipitatio
         "Siwalik", "\\SIrange{500}{1000}{\\metre}", "Sub-tropical", "\\SIrange{1100}{3000}{\\milli\\metre}", "\\SIrange{20}{25}{\\celsius}", 
         "Terai (low-laying plains)", "Below 500 m", "Tropical", "\\SIrange{1100}{3000}{\\milli\\metre}", "\\SIrange{20}{25}{\\celsius}") %>% 
   rename_all(function(x)str_replace_all(x, "_", " ") %>% str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE, escape = FALSE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, escape = FALSE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:5, width = c("7em", "7em", "8em", "10em", "8em"))
 ```
@@ -82,7 +82,7 @@ tribble(~"SN", ~"Agro-climate", ~"Elevation",
         4, "Warm temperate monsoon", "1200-2100",
         5, "Hot monsoon or subtropical", "<1200 masl",
         ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:3, width = c("2em", "14em", "8em"))
 ```
@@ -93,9 +93,15 @@ tribble(~"SN", ~"Agro-climate", ~"Elevation",
 ```{r macroeconomic-indicators}
 read_csv("./data/macro-economic_indicators.csv",
          skip = 2, show_col_types = FALSE) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Macroeconomic indicators of Nepal in recent years", longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:9, width = c("8em", "8em", rep("4em", 7)))
+  mutate(`Meta-indicator` = str_replace_all(`Meta-indicator`, " \\(", ", ")) %>% 
+  mutate(`Meta-indicator` = str_remove_all(`Meta-indicator`, "\\)")) %>% # latex multicolumn acts batshit when using parenthesis in the cell
+  kableExtra::kbl(booktabs = TRUE, caption = "Macroeconomic indicators of Nepal in recent years", longtable = TRUE, escape = FALSE, format = "latex") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% # do not use latex_options = "striped"
+  kableExtra::column_spec(column = 1:9, width = c("2em", "8em", rep("4em", 7))) %>%
+  kableExtra::collapse_rows(columns = 1:2,
+                            row_group_label_position = "stack",
+                            headers_to_remove = 1,
+                            valign = "middle")
 
 # ## for recent data, refer to economic survey of the current year
 # https://mof.gov.np/uploads/document/file/Economic%20Survey%202019_20201125024153.pdf
@@ -280,7 +286,7 @@ read_csv("./data/province-wise_distribution_of_forest_sector_2020.csv", skip = 2
          show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE, caption = "Provincewise status of forest area") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:5, width = c("12em", rep("6em", 4)))
+  kableExtra::column_spec(column = 1:5, width = c("16em", rep("8em", 4)))
   
 ```
 
@@ -360,7 +366,7 @@ read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2,
   mutate_at(c("Heading", "Indicators"), function(x)str_squish(x)) %>% 
   kableExtra::kbl(caption = "Educational achievements of recent years; Source: Economic Survey, 2019/20", format = "latex", longtable = TRUE, booktabs = TRUE, escape = FALSE) %>%
   kableExtra::kable_styling(font_size = 8) %>%
-  kableExtra::column_spec(column = 1:8, width = c("5em", "8em", rep("5em", 6))) %>%
+  kableExtra::column_spec(column = 1:8, width = c("3em", "8em", rep("5em", 6))) %>%
   kableExtra::collapse_rows(columns = 1:2, row_group_label_position = "stack",
                             headers_to_remove = 1, valign = "middle")
 ```
@@ -374,7 +380,7 @@ read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2,
 
 ```{r cumulative-seasonal-rainfall}
 tribble(
-  ~"season", ~"duration", ~"rainfall", ~"alternative_name", 
+  ~"Season", ~"Duration", ~"Rainfall", ~"Alternative name", 
   "Monsoon", "June-September", 79.84, "Summer", 
   "Post-monsoon", "October-November", 4.2, "Autumn", 
   "Winter", "December-February", 3.5, "Winter", 
@@ -425,14 +431,14 @@ tribble(
 
 ```{r nepal-climate-scenario}
 tribble(
-  ~"sn", ~"indicator", ~"value_type", ~"value",
+  ~"SN", ~"Indicator", ~"Value type", ~"Value",
   1, "Vulnerability to climate change (2017)", "rank", 4,
   2, "Vulnerability to earthquake (2017)", "rank", 11,
   3, "Vulnerability to flood (2017)", "rank", 13,
   4, "Contribution to GHG emission (2017)", "percent", 0.027,
   5, "GHG Emissions Growth (2020)", "percentage", 7.06
   ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Climate change scenario in Nepal and some indicators", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Climate change scenario in Nepal and some indicators", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(1:4, width = c("3em", "12em", "5em", "4em"))
 ```
@@ -510,7 +516,7 @@ readxl::read_xlsx("./data/agriculture_development_chronology.xlsx", skip = 1) %>
   relocate(Title, .before = 1) %>% 
   arrange(Title, as.numeric(str_extract(`Year (BS)`, "\\d{4}"))) %>% 
   kable(caption = "Chronology of Agriculture development in Nepal", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = c("striped", "HOLD_position"), font_size = 8) %>% 
+  kableExtra::kable_styling(latex_options = c("HOLD_position"), font_size = 8) %>% 
 kableExtra::column_spec(column = 1:5, width = c("2em", "3em", "2em", "2em", "22em")) %>%
   kableExtra::collapse_rows(1:2, row_group_label_position = "stack", custom_latex_hline = 1:2)
 ```
@@ -653,9 +659,9 @@ tribble(
   mutate(`Constitutional provision` = na_if(`Constitutional provision`, "")) %>% 
   filter(!is.na(`Constitutional provision`)) %>% 
   knitr::kable(caption = "Constitutional provisions for agriculture sector", booktabs = TRUE, escape = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("3em", "24em")) %>% 
-  kableExtra::collapse_rows(1:2, row_group_label_position = "stack") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("3em", "30em")) %>% 
+  kableExtra::collapse_rows(1:2, row_group_label_position = "stack", headers_to_remove = 1) %>% 
   kableExtra::add_footnote(label = "Source: \\url{http://www.doanepal.gov.np/downloadfile/Final%20Report%20Inter-Provincial%20Dependency%20on%20Agriculture%20-%20DVN%202018_1548834926.pdf}")
 ```
 
@@ -669,7 +675,7 @@ A. High level federalism implementation and state restructuring steering committ
 
 ```{r hl-federalism-implementation}
 tribble(
-  ~"sn", ~"Individual", ~"Position",
+  ~"SN", ~"Individual", ~"Position",
   1, "Rt. Honorable Prime-minister", "Chairperson",
   2, "Honorable Deputy Prime-ministers", "Member",
   3, "Honorable Minister, MoFALD", "Member",
@@ -681,9 +687,9 @@ tribble(
   9, "Honorable VC, NPC", "Member",
   10, "Chief Secretary, GoN", "Member-secretary"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "High level federalism implementation and state restructuring steering committee", longtable = TRUE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "High level federalism implementation and state restructuring steering committee", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:3, width = c("3em", "14em", "6em"))
+  kableExtra::column_spec(column = 1:3, width = c("3em", "16em", "6em"))
 ```
 
 B. Federalism implementation and administration restructuring coordination committee
@@ -1200,7 +1206,8 @@ The national cereal balance witnessed surplus of about 886,000 tons (equivalent 
 
 ### The Right to Food and Food Soverignty Act, 2075 (2018)
 
-"Food soverignty" means the following rights which are used or exercised by the farmers in the food production and distribution system:
+"Food sovereignty" means the following rights which are used or exercised by the farmers in the food production and distribution system:
+
 1. To participate in the process of formulation of policy relating to food
 2. To make choice of any occupation relating to food production or distribution system
 3. To make choice of agricultural land, labor, seeds, technology, tools,
@@ -1482,16 +1489,16 @@ The agricultural sector in Nepal has made progress in several indicators of well
 ```{r app-performance-indicators}
 options(scipen = 20)
 readxl::read_xlsx("./data/app_targets_performance_indicators.xlsx", sheet = "app_base_2010") %>% 
-  knitr::kable(booktabs = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1, width = "12em")
+  knitr::kable(booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = "14em")
 
 readxl::read_xlsx("./data/app_targets_performance_indicators.xlsx", sheet = "app_base_2014") %>% 
   rename_all(function(x)str_replace_all(x, "_", " ") %>% 
                str_to_sentence()) %>% 
-  knitr::kable(booktabs = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(font_size = 10, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1, width = "12em")
+  knitr::kable(booktabs = TRUE, escape = FALSE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1, width = "14em")
 ```
 
 
@@ -1564,7 +1571,7 @@ Broadly, the explanation of the slow progress is based on eight sets of interrel
 readxl::read_xlsx("./data/ads_indicators_targets.xlsx") %>% 
   select(-7, -8) %>% 
   knitr::kable(booktabs = TRUE, caption = "Preliminary indicators and targets for ADS vision (ADS final report, 2014)", longtable = TRUE, format = "latex") %>% 
-  kableExtra::kable_styling(font_size = 6, latex_options = "striped") %>% 
+  kableExtra::kable_styling(font_size = 6) %>% 
   kableExtra::column_spec(column = 1:6, width = c("3em", rep("12em", 5))) %>% 
   kableExtra::collapse_rows(1:2, row_group_label_position = "stack", custom_latex_hline = 1)
 ```
@@ -1679,7 +1686,7 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Membership constiution of NARC Council", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1, width = "18em")
+  kableExtra::column_spec(column = 1, width = "22em")
 ```
 
 - The term of office of the members of the council is 2 years and they may be re-nominated.
@@ -1722,27 +1729,32 @@ tribble(
 - Director, Crop and horticulture research
 - Director, Livestock and fisheries research
 - Director, Employee administration
-- Director, Economic adminsistration
+- Director, Economic administration
 - Head, Planning commission
 - Communication, publication and inventory commission
 - Socio-economic and agricultural research policy commission
 - External research directorate
 - Agriculture environment directorate
   
-**Programs under Agronomic and horticultural crop research programs**
+**Commodity research programs and centers**
 
-- Rice crop research program, Baniniya, Dhanusha
-- Maize research program, Rampur, Chitwan
-- Wheat crop research program, Bhairahawa, Rupandehi
-- Legume crop research program, Nepalgunj
-- Oil crop research program, Nawalpur, Sarlahi
-- Hilly crop research program, Kavre, Dolakha
-- Sugarcane research program, Jitpur, Bara
-- Potato research program, Khumaltar
-- Ginger research program, Salyan
-- Orange variety research program, Dhankuta
-- Jute crop research program, Itahari, Sunsari
-- National commercial agriculture research program, Pakhribas, Dhankuta
+- National Rice Research Program; Hardinath, Dhanusa
+- National Wheat Research Program; Bhairahawa, Rupandehi
+- National Maize Research Program; Rampur, Chitwan
+- National Grain Legume Research Program; Khajura,Banke (recently transferred from Rampur, Chitwan)
+- National Potato Research Program; Khumaltar, Lalitpur
+- National Swine and Avian Research Program; Khumaltar, Lalitpur
+- National Sheep and Goat Research Program; Jumla
+- National Oil Seeds Research Program; Nawalpur, Sarlahi
+- National Sugarcane Research Program; Jitpur, Bara
+- National Citrus Research Program; Paripatle, Dhankuta
+- National Jute Research Program; Itahari, Sunsari
+- National Ginger Research Program; Kapurkot, Salyan
+- Hill Crop Research Program; Kavre, Dolakha
+- National Bovine Research Program; Khumaltar, Lalitpur
+- National Tobacco Research Program; Belachapi, Janakpur
+- Apple Processing Centre; Jumla
+- Cotton Research Centre; Khajura, Banke
 
 - Divisions situated in Khumaltar
   - Crop science division
@@ -1781,26 +1793,6 @@ tribble(
 4. Regional agriculture research centre, Tarahara
   - Pakhribas, Dhankuta
   - Tarahara $\rightarrow$ Aquaculture
-
-### National Commodity Research Programs under NARC and their locations
-
-- National Rice Research Program; Hardinath, Dhanusa
-- National Wheat Research Program; Bhairahawa, Rupandehi
-- National Maize Research Program; Rampur, Chitwan
-- National Grain Legume Research Program; Khajura,Banke (recently transferred from Rampur, Chitwan)
-- National Potato Research Program; Khumaltar, Lalitpur
-- National Swine and Avian Research Program; Khumaltar, Lalitpur
-- National Sheep and Goat Research Program; Jumla
-- National Oil Seeds Research Program; Nawalpur, Sarlahi
-- National Sugarcane Research Program; Jitpur, Bara
-- National Citrus Research Program; Paripatle, Dhankuta
-- National Jute Research Program; Itahari, Sunsari
-- National Ginger Research Program; Kapurkot, Salyan
-- Hill Crop Research Program; Kavre, Dolakha
-- National Bovine Research Program; Khumaltar, Lalitpur
-- National Tobacco Research Program; Belachapi, Janakpur
-- Apple Processing Centre; Jumla
-- Cotton Research Centre; Khajura, Banke
 
 ## Ministry of Agriculture
 

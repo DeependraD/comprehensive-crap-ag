@@ -228,10 +228,14 @@ Physiological effects of ABA
 ```{r physiological-disorders}
 read_csv("./data/physiological_disorders.csv", skip = 1,
          show_col_types = FALSE) %>% 
+  select(-1) %>% 
+  arrange(Crop) %>% 
   rename_all(function(x)str_to_sentence(str_replace_all(x, "_", " "))) %>% 
   knitr::kable(booktabs = TRUE, longtable = TRUE, escape = FALSE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 3:5, width = c("6em", "12em", "12em"))
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 2:5, width = c("10em", "6em", "12em", "8em")) %>% 
+  kableExtra::collapse_rows(columns = 1, row_group_label_position = "identity") %>% 
+  kableExtra::column_spec(column = 1, width = "5em")
 ```
 
 
@@ -239,7 +243,7 @@ read_csv("./data/physiological_disorders.csv", skip = 1,
 read_csv("./data/calcium_related_disorders_fruit_vegetables.csv", col_names = FALSE,
          show_col_types = FALSE) %>% 
   knitr::kable(booktabs = TRUE, caption = "Physiological disorders related to calcium in fruit and vegetable crops", col.names = c("Crop", "disorder"), longtable = TRUE) %>% 
-  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
   kableExtra::column_spec(column = 2, width = "22em")
 ```
 
@@ -262,7 +266,7 @@ Special vegetative parts
 
 - Bulbs: Onion, garlic
 
-```{r onion-bulb, fig.cap="Onion and sections of its bulb", out.width="60%"}
+```{r onion-bulb, fig.cap="Onion and sections of its bulb", out.width="80%"}
 knitr::include_graphics("./images/vegetables/Onion_bulb.jpg")
 ```
 
@@ -734,7 +738,7 @@ veg_mod %>%
   kableExtra::kable_styling(latex_options = c("striped", "repeat_header"), full_width = FALSE, 
                             position = "center", font_size = 10) %>% 
   kableExtra::row_spec(row = 0, italic = TRUE, bold = TRUE, hline_after = TRUE) %>% 
-  kableExtra::column_spec(column = 1:3, width = c("6em", "8em", "8em"))
+  kableExtra::column_spec(column = 1:3, width = c("6em", "14em", "8em"))
 ```
 
 ### Asparagus (_Asparagus officinalis_ L.){-}
@@ -1258,10 +1262,10 @@ Some of the Features of Pusa hybrid-1 are:
 
 #### Climate
 
-- Optimum temperature: $20^\circ C$ for night and $30^\circ C$ for day
-- Red and yellow pigments develop at $10-25^\circ C$
-- It has been reported that lycopene formation is favoured at temperatures ranging from $16-21^\circ C$ and unfavoured at temperature values above $30^\circ C$
-- Lycopene is destroyed above $40^\circ C$.
+- Optimum temperature: \SI{20}{\celsius} for night and \SI{30}{\celsius} for day
+- Red and yellow pigments develop at \SIrange{10}{25}{\celsius}
+- It has been reported that lycopene formation is favoured at temperatures ranging from \SIrange{16}{21}{\celsius} and unfavoured at temperature values above \SI{30}{\celsius}
+- Lycopene is destroyed above \SI{40}{\celsius}.
 
 #### Soil
 
@@ -1287,24 +1291,13 @@ Some of the Features of Pusa hybrid-1 are:
 - National Seed Vision, 2013-25^[http://extwprlegs1.fao.org/docs/pdf/nep147056.pdf] enlists NCL, Lapsigede, Monprecos, and Pusarubi varieties for variety maintenance and seed production pocket/zone specification. Midhills, inner terai and terai regions are mentioned.
 - Hybrid variety of tomato (Srijana) was registered in 2010.
 - Pusa Ruby
-  - Indeterminate type (IARI)
+  - Indeterminate type, OP
+  - Developed by IARI
   - Early maturing (60 DAT)
   - Released: 2046 BS
-- Pusa Early Dwarf
-  - Determinate
-  - Early maturing
-  - Terai and mid-hills
-- Coimbatore-1
-  - Tamil Nadu Agricultural University
-  - Determinate type
-- Mangala
-  - F1 hybrid determinate type
-  - For hills
-- Best of all
-  - Indeterminate
-  - IARI
 - Roma
-  - IARI, determinate type
+  - Determinate type, OP
+  - Developed by IARI
   - Early (Midhills and terai)
   - Suitable for processing
   - Released: 2051
@@ -1314,32 +1307,40 @@ Some of the Features of Pusa hybrid-1 are:
   - Tolerant to late blight disease
   - Mid and high hills
   - Released: 2051
-
 - NCL-1 (CL-1131)
-  - OP
+  - Indeterminate type, OP
   - Head and wilt resistant
   - Released: 2051 BS
-  - Indeterminate type
 - Srijana
   - National hybrid
   - Maturity: 70-80 DAT
   - Bacterial wilt resistant
   - Released: 2066 BS
-- Swaraksha
-  - Hybrid
-  - Registered: 2066 BS
-
-- NS-2535
-  - Hybrid
-  - Released: 2066 BS
-  - Production: 140-150 mt/ha
-- Dalila
-  - Hybrid
-  - Terai, mid hills and high hills
-  - Released: 2067 BS
-- Others: Haryana Selection 102 (OP), Ceres, NS-53, Ahmita, Nova, Xiw, Sens, NS-515, VLHH3, Spectra, Gaurav-555, Marina, Astra-717, Savera, Eureka, NS-719
-- Varieties registered in 2067 BS: Madhuri, Makis, Jamuna, Opel
-- OPVs: Roma (Determinate), Pusa Ruby (Indeterminate), Monprecos (Indeterminate), NCL-1
+- Varieties (all are hybrids) released (as enlisted in Krishi Diary, 2078) other than above listed:
+  - Gaurab-555
+  - Amita
+  - NS-815
+  - Swaraksha
+  - NS-2535
+  - NS-719
+  - NS-53
+  - Sense
+  - Ceres
+  - Spectra
+  - Astra-717
+  - Nova
+  - Marina
+  - VL-443
+  - Makkis
+  - Dalila
+  - T-30
+  - Surya-111
+  - Amruta
+  - Minto
+  - Abhilash
+  - Aviral
+  - Red cover
+  - Red glory
 
 #### Time of planting
 

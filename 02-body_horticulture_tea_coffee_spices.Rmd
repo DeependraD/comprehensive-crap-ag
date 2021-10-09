@@ -669,7 +669,7 @@ knitr::include_graphics("./images/vegetables/Kapurkot-2_ginger.jpg")
 
 - Upto 40\% yield loss is due to diseases.
 - Rhizome rot is highly pervasive, can infect any stage. New emerging buds have water soaked spots, Yellowing starts from the base of pseudostem and goes along the both margins of leaves. In advanced stages, rhizome shows soft rot.
-  - Is caused by *Pythium aphanidermatum*, *Pythium graminicolum* and other Pythium species.
+  - Caused by *Pythium aphanidermatum*, *Pythium graminicolum* and other Pythium species.
   - Control: Select rhizomes with signs of healthy pith, use of resistant cultivars: ZI-9721, Crop rotation, provision of good drainage, seed treatment, Spray of Bavistin + Redomil 0.2\% a.i (1:1) + Brassica oilseed cake at the rate of \SI{2}{\tonne\per\hectare}.
 - Yellowing disease: *Fusarium oxysporium f.*sp. *zingiberi*
 - Leaf spot: _Phyllosticta zingiberi_
