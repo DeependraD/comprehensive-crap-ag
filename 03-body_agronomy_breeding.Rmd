@@ -1076,8 +1076,7 @@ For seed and crop production practice of oilseed crops, refer to Table \ref{tab:
 Central part of the curd is cut and removed giving it a both 3-4 cm deep and wide cut -- a practice called scooping. Scooping helps in the earlier emergence of the flower stalk. On 5-7 days of scooping the curds are transferred to seed production plot and planted at a spacing of 15-20 x 15-20 cm.
 - Seed production of quantity 200-600 kg/ha could be realized in this way.
 
-
-## Information contained in truthful label tag
+### Information contained in truthful label tag
 
 1. Year of production
 2. Date of testing
@@ -1089,7 +1088,7 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 8. Logo
 9. Recommended domain
 
-## Seed quality attributes
+### Seed quality attributes
 
 1. Physical purity
 2. Genetic purity
@@ -1100,6 +1099,29 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 7. Seed health
 8. Viability
 9. Uniformity and lusture
+
+### Scope of seed production in Nepal
+
+1. Climate variability
+2. Greater demand and lesser supply of seed and seed materials
+3. Development of road and infrastructures
+4. Irrigation startups and construction
+5. Development of seed enterprises
+6. Employment opportunity
+7. Seed exporting opportunity
+8. Increasing productivity of any crop to have higher gains
+
+### Causes of deterioration of variety
+
+- Developmental variation
+- Mechanical admixture
+- Mutation
+- Natural crossings
+- Minor genetic variation
+- Selective influence of disease
+- Premature release of variety
+- Interspecific hybridization
+
 
 ## Grain legume production
 
@@ -1617,7 +1639,7 @@ indian_origin_crop <- bind_rows(
 indian_origin_crop %>% 
   separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
   mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indian Main center", escape = FALSE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indian Main center", escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::column_spec(column = 2:3, width = c("8em", "8em")) %>% 
   kableExtra::column_spec(column = 1, width = "8em") %>% 
@@ -1629,7 +1651,7 @@ read_csv("./data/agronomy_crops_origin_indo_malayan_center.csv", col_names = c("
   tidyr::fill(Group, .direction = "down") %>% 
   separate(col = "Crops", sep = ", ", into = c("Common name", "Scientific name")) %>% 
   mutate(`Scientific name` = paste0("\\textit{", `Scientific name`, "}")) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indo-Malyan center", escape = FALSE) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Crops with their origin in Indo-Malyan center", escape = FALSE, longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::column_spec(column = 2:3, width = c("6em", "8em", "8em")) %>% 
   kableExtra::collapse_rows(1)
@@ -1648,6 +1670,18 @@ read_csv("./data/agronomy_crops_origin_central_asiatic_center.csv", col_names = 
 ```
 
 ## Modes of reproduction
+
+```{r}
+# # inflorescence types
+# pdftools::pdf_convert("/home/deependra/ddhakal/000readables/general/2011_Introductory Plant Biology_12th Edition.pdf",
+#                       format = 'png', filenames = "inflorescence_types.png", pages = 148, dpi = 200)
+
+# # life cycle of flowering plants
+# pdftools::pdf_convert("/home/deependra/ddhakal/000readables/general/2011_Introductory Plant Biology_12th Edition.pdf",
+#                       format = 'png', filenames = c("life_cycle_left.png", "life_cycle_right.png"),
+#                       pages = c(455, 456), dpi = 200)
+
+```
 
 ### Gametophyte
 
@@ -1673,6 +1707,88 @@ read_csv("./data/agronomy_crops_origin_central_asiatic_center.csv", col_names = 
 - Bat pollination/chiropterophily: Adansonia
 
 **Endosperm development**
+
+- Endosperm is well developed in Maize, tobaccoo, coconut, lettuce, and grasses
+- In grasses, generally, endosperm cell wall does not form
+- Nucellus is the primary source of food in sugarbeet, spinach and other crops of Chenopodiaceae and Amaranthaceae family. The remaining nucellus is called perisperm, at the time of seed maturity.
+- Exalbuminous non-endospermic (lacking or possessing minimal endosperm or perisperm): Fabaceae, cucurbitaceae, asteraceae, orchidaceae.
+- Types of endosperm development:
+  - Nuclelar endosperm
+  - Cellular endosperm
+  - Helobial endosperm
+- Laws of embryogeny (Soueges and Johansen)
+  1. Law of parsimony
+  2. Law of origin
+  3. Law of numbers
+  4. Law of destination
+  
+### Factors affecting seed development
+
+1. Mineral nutrition
+
+- Pea and other large seeded legumes grown in Manganese (Mn)- deficient soils produce seeds with brown, necrotic areas on the inside surface of cotyledons, called marsh syndrome.
+- Peanut plants grown in Calcium deficit soils produce seeds that exhibit hypocotyl necrosis when germination and seedling emergence initiates.
+- Nitrogen application to crops during seed filling results in seeds with low germination when crops are harvested late.
+
+2. Soil moisture and rainfall
+
+- In abundant rainfall condition, and in under-irrigated condition, protein content of the seed is low, but P, K and Ca contents are high.
+
+3. Temperature
+
+- In rapeseed and soybean, high temperature during maturation increases oil quality and content; converse is true in flax and sunflower as they perform well at temperature conditions of \SIrange{13}{18}{\celsius}.
+- High night temperature increases size of aleurone and bran layers, causes enhanced seed development.
+- High temperature is beneficial to reducing per-harvest sprouting.
+- In tomato, although a tropical crop, fruit set is poor when night temperature is high. (optimum temperature: \SIrange{15}{18}{\celsius}).
+
+4. Light
+
+- Legumes are photoperiod sensitive with respect to flowering (no flowering occurs during long light hours -- short day requiring). e.g., beans (soybean, winged beans), cowpea, tropical leafy vegetables like amaranthus.
+- Temperate vegetables flower under long day conditions and tropical vegetables flower under short day conditions only.
+- Photoperiod affects bulbing and seed production in bulb crops like onion.
+  - Low temperature (< \SIrange{13}{26}{\celsius}) + short day $\longrightarrow$ induce/favors vegetative growth.
+  - High temperature (> \SIrange{16}{25}{\celsius}) + long day $\longrightarrow$ induce/favors bulbing
+  - Bolting takes place rapidly when bulb gets to \SIrange{10}{12}{\celsius} and naturally occuring condition in Poush (in terai).
+- High light intensity enhances hardseededness in legumes.
+
+5. Wind
+
+- Affects mostly pollination and transpiration.
+
+### Asexual reproduction
+
+A. Vegetative
+
+a. Underground stem: Tuber, bulb, rhizome, corm.
+b. Sub aerial stems: Runner, stolon, sucker, e.g. mint, date palm, etc.
+c. Bulbils: Modified flower, e.g. garlic.
+d. Artificial vegetative propagation using plant parts
+
+B. Apomixis (Facultative/obligate; Recurrent/non-recurrent)
+
+1. Adventitious embryony: From nucellus, integument, chalaza. e.g. Mango, citrus, orchid, etc.
+2. Gametophytic apomixis: From egg cell or other cells of embryo sac
+  a. Apospory (meiosis avoided)
+  b. Diplospory (unreduced megaspore due to resititution following meiosis)
+    - Parthenogenetic embryo development
+      - Gonial parthenogenesis: from egg cell
+      - Somatic parthenogenesis
+    - Pseudogamy (pollination occurs but fertilization does not)
+      - Gonial pseudogamy
+      - Somatic pseudogamy
+
+## Seed dormancy
+
+- All seeds do not germinate, even when optimal conditions are provided. A physiological or structural adaptive mechanism called dormancy imposes restrictions on the requirements for germination.
+- Dormancy is desired in the wild, where plants depend entirely on nature for survival. It prevents germination in the face of adverse weather, which will kill the vulnerable seedlings after emergence.
+- Structural dormancy is imposed via the seed coat (seed coat dormancy) (e.g., Camellia and redbud). Hard seed coats are impermeable to the much needed moisture that is critical for germination. The seed coat may be softened before planting by one of several methods, such as scarification, a method of mechanically scratching the seed coat (by, for example, tumbling seeds in a drum containing coarse material). Seeds may also be scarified by soaking them in concentrated sulfuric acid or household bleach for a period.
+  - Water impermeability: Leguminosae, malvaceae, chenopodiaceae and solanaceae
+  - Gas impermeability: Xanthium and compositae family
+  - Mechanical resistance: Amaranthus and capsella
+- Physiological dormancy (embryo dormancy) occurs when the embryo requires a special treatment to induce it to start active growth. A cold temperature application (called stratification) of about \SIrange{1}{7}{\celsius} is commonly required to break the dormancy. Woody species like holly ( _Ilex_ spp.) and magnolia ( _Magnolia grandiflora_) require this treatment. Seed to be stratified is soaked in water for about twelve to twenty-four hours prior to placement in a sterile medium container such as a polyethylene bag to hold in moisture. The medium should permit good aeration to occur. Effective media include coarse vermiculite, sphagnum moss, coarse sand, or a mixture of equal volumes of peat and perlite.
+- A number of chemicals in plants inhibit germination of seeds while they are still embedded in the pulp of the fruit (e.g., in tomato and strawberry). In some species, such as Pinus and Ranunculus, the fruits are shed before the embryo fully matures. Such physiologically immature seeds must undergo certain enzymatic and biochemical changes to attain maturity. These changes are collectively called after ripening.
+- Seeds of ancient origins have been reported to germinate after the hard seed coat was weakened. The sacred lotus (Nelumbo nucifera) is reported to have germinated after 2,000 years, and the arctic lupine (Lupinus articus) germinated in forty-eight hours after being dormant for 10,000 years.
+- Light is required by many weed species and some small seeds such as lettuce ( _Lactuca sativa_) before germination can occur. Soil tillage exposes buried seeds to light. Small seeds should be sown in loose soil and to a shallow depth to expose them to light. The light requirement to stimulate germination must be of a certain quality (wavelength). Exposure of lettuce to red light (about 660 nanometers) induces germination, but far red light (730 nanometers) inhibits it. It was discovered that if seed received red light after exposure to far red light, germination occurred. In fact, germination occurred as long as the last treatment before sowing was red light.
 
 ## Miscellaneous
 
