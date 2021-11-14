@@ -12,8 +12,6 @@ biblio-style: apalike
 link-citations: yes
 # github-repo: deependrad/comprehensive_crap_guide
 description: "This is a guide book for agriculture"
-header-includes: 
-  - \usepackage{fancyhdr}
 ---
 
 ```{r setup, include=FALSE, message=FALSE}
