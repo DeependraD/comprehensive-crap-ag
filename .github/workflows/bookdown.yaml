@@ -37,9 +37,6 @@ jobs:
 
       - name: Build site
         run: Rscript -e 'rmarkdown::render_site(output_format = "bookdown::pdf_book", encoding = "UTF-8")'
-
-      - name: Build site
-        run: Rscript -e 'rmarkdown::render_site(output_format = "bookdown::pdf_book", encoding = "UTF-8")'
       - name: Upload pdf build as artifact
         uses: actions/upload-artifact@v2
         with:
