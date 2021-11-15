@@ -10,7 +10,7 @@ classoption: openany # this will force for 2 side layout of book to open chapter
 bibliography: [bibliography/vegetable.bib, bibliography/bib.bib]
 biblio-style: apalike
 link-citations: yes
-# github-repo: deependrad/comprehensive_crap_guide
+# github-repo: deependrad/comprehensive-crap-ag
 description: "This is a guide book for agriculture"
 ---
 
@@ -28,13 +28,6 @@ options(kableExtra.latex.load_packages = FALSE)
 require(kableExtra)
 require(tidyverse)
 ggplot2::theme_set(theme_bw())
-```
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown', "dplyr", "purrr"
-), './bibliography/bib.bib')
 ```
 
 <!-- # Introduction -->

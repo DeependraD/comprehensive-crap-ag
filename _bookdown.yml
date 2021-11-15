@@ -1,4 +1,4 @@
-book_filename: comprehensive_crap_ag
+book_filename: comprehensive-crap-ag
 delete_merged_file: true
 language:
   ui:
@@ -7,17 +7,19 @@ language:
 rmd_files:
   html: []
   latex: ["index.Rmd",
-  "01-body_general_agriculture1.Rmd",
-  "01-body_general_agriculture2.Rmd",
-  "01-body_general_agriculture3.Rmd",
-  "02-body_horticulture_general_vegetable_cultivation.Rmd",
-  "02-body_horticulture_fruit_cultivation.Rmd",
-  "02-body_horticulture_tea_coffee_spices.Rmd",
-  "03-body_agronomy_breeding.Rmd",
-  "04-body_soil_sciences_irrigation_farm_structure.Rmd",
-  "05-body_agricultural_extension_sociology.Rmd",
-  "06-body_crop_protection.Rmd",
-  "07-body_biochemistry_biotechnology.Rmd",
-  "23-body_plans_policies_strategies_ag.Rmd",
-  "34-body_general_knowledge_objective_include.Rmd"]
+  "01-body-general-agriculture1.Rmd",
+  "01-body-general-agriculture2.Rmd",
+  "01-body-general-agriculture3.Rmd",
+  "02-body-horticulture-general-vegetable-cultivation.Rmd",
+  "02-body-horticulture-fruit-cultivation.Rmd",
+  "02-body-horticulture-tea-coffee-spices.Rmd",
+  "03-body-agronomy-breeding.Rmd",
+  "04-body-soil-sciences-irrigation-farm-structure.Rmd",
+  "05-body-agricultural-extension-sociology.Rmd",
+  "06-body-crop-protection.Rmd",
+  "07-body-biochemistry-biotechnology.Rmd",
+  "23-body-plans-policies-strategies-ag.Rmd",
+  "34-body-general-knowledge-objective-include.Rmd",
+  "49-closing-bibliography.Rmd"
+  ]
   epub: []
