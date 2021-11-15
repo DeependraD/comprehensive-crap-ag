@@ -978,10 +978,10 @@ tribble(
   12, "Chemical testing", "Water", "Processed drinking water", "1. pH, 2. Hardness, 3. Alkalinity, 4. Chloride content", 
   13, "Chemical testing", "Residues in water", "Processed drinking water", "Trace metal elements 1. Lead, 2. Cadmium, 3. Arsenic, 4. Calcium, 5. Copper, 6. Iron, 7. Magnesium, 8. Zinc"
 ) %>% 
-  knitr::kable(escape = FALSE, format = "latex", booktabs = TRUE, longtable = TRUE) %>% 
+  knitr::kable(escape = FALSE, format = "latex", booktabs = TRUE, longtable = TRUE, align = "l") %>% 
   # kableExtra::kable_styling(font_size = 8, latex_options = c("striped")) %>%
   kableExtra::kable_styling(font_size = 8) %>%
-  kableExtra::column_spec(column = 1:5, width = c("6em", "8em", "8em", "10em", "22em")) %>% 
+  kableExtra::column_spec(column = 1:5, width = c("3em", "8em", "12em", "10em", "22em")) %>% 
   kableExtra::collapse_rows(columns = 1, row_group_label_position = "identity", valign = "middle")
 
 ```
@@ -991,7 +991,7 @@ tribble(
 **Minister, Ministry of Agriculture Development**
 
 1. Agri-business Promotion Committee (provisioned by Agribusiness promotion policy, 2063)
-2. National Agriculture Development Committee (? provisioned by National Agricultural Policy, 2061)
+2. National Agriculture Development Committee (provisioned by National Agricultural Policy, 2061)
 3. Council, NARC
 4. National Tea and Coffee Development Board
 5. National Dairy Development Board
@@ -1001,7 +1001,7 @@ tribble(
 
 1. National Seed Board
 2. National Biodiversity Coordination Committee (provisioned by National Biodiversity Strategy and Action Plan 2014-2020)
-3. Central Agriculture Development Committee (? verify name ?, ? provisioned by National Agricultural Policy, 2061 ?)
+3. Central Agriculture Development Committee (provisioned by National Agricultural Policy, 2061)
 4. Food Standard Fixation Committee (provisioned by Food Rules, 2027 (1970))^[http://www.lawcommission.gov.np/en/wp-content/uploads/2018/09/food-rules-2027-1970.pdf]
 4. Planning, implementation and monitoring sub committee 5. Cotton Development Committee
 
