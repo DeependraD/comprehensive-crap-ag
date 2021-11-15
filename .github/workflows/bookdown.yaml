@@ -41,9 +41,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: pdf build
-          path: |
-            _book/ # or path/to/artifact
-            comprehensive-crap-ag.Rmd
+          path: _book/ # or path/to/artifact
 
       # - name: Upload pdf build to release
       #   uses: svenstaro/upload-release-action@v2
