@@ -70,7 +70,7 @@ tribble(
   "It investigates the social, cultural, political and religious problems of rural society", "It also studies these problems with reference to their impact on extension work in village"
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Difference between rural sociology and extension") %>% 
-  kableExtra::kable_styling(options = "striped", font_size = 8) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
   kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
 ```
 
