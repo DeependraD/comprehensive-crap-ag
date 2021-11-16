@@ -54,9 +54,9 @@ tribble(
   "Emphasizes on the individual", "Empahsizes on cooperation",
   "Individual and familiy as unit for decision making for change", "Community and joint approach to decision making for change by groups and group representatives"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Difference between extension education and community development") %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("12em", "12em"))
+  knitr::kable(booktabs = TRUE, caption = "Difference between extension education and community development", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
 ```
 
 ```{r difference-rural-sociology-extension-ed}
@@ -69,9 +69,9 @@ tribble(
   "It studies social situation and assemble facts of rural society", "It makes use of such social data as a basis for building of extension programs for rural areas",
   "It investigates the social, cultural, political and religious problems of rural society", "It also studies these problems with reference to their impact on extension work in village"
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Difference between rural sociology and extension") %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
+  knitr::kable(booktabs = TRUE, caption = "Difference between rural sociology and extension", longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 10) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
 ```
 
 
@@ -403,7 +403,8 @@ Step 12. Continually analyze data by verifying responses, deepening understandin
 
 A case study is an in-depth analysis of a particular case -- a program, a group of participants, a single individual, or a specific site or location. Case studies can be explanatory, descriptive or exploratory. An explanatory case study can measure causal relationships; a descriptive case study can be used to describe the context in which a program takes place and the program itself, and an exploratory case study can help identify performance measures or post hypothesis for further evaluation. Case studies rely on multiple sources of information and methods to provide as complete a picture as possible of the particular case.
 
-**Advantages of a case study:**
+**Advantages of a case study**
+
 - It is good for addressing how and why questions.
 - It is gives concreteness to problems and solutions.
 - It is can be used to study evolutionary or decision-making processes.
@@ -414,14 +415,15 @@ A case study is an in-depth analysis of a particular case -- a program, a group 
 - It is draws out underlying assumptions and general knowledge.
 - It is can be used as a supplement to other methods.
 
-**Disadvantages of a case study:**
+**Disadvantages of a case study**
+
 - It is time consuming and requires a large amount of data.
 - It is may not be generalizable to a larger population
 - It is may provide data on only one or two aspects of a problem.
 - It is requires good observational, recording and reporting skills.
 - Information may be subjective because of investigator bias.
 
-Steps to planning and conducting a Case Study
+**Steps to planning and conducting a Case Study**
 
 - Step 1. Review what is expected from the case study.
 - Step 2. Define preliminary questions and hypotheses. Hypotheses suggest relationships between variables: e.g., Farmers participate in a program because they derive some benefit from participation.
@@ -469,7 +471,7 @@ tribble(
 ) %>% 
   knitr::kable(booktabs = TRUE, caption = "Difference between primary and secondary group", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("6em", "20em"))
+  kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
 ```
 
 - Formal and non-formal groups
