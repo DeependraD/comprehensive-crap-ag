@@ -548,7 +548,7 @@ However, the initial investment is high for this system. Furthermore, it is pron
 
 In sprinkler and drip irrigation, a pump may be required for appropriate pressure to move water through pipes. Surface systems depend on the slope of the land to move water. Initial land preparation includes leveling of the land (in flood irrigation) or digging of ditches (in furrow irrigation). These methods are not suitable for sandy soils or soils that have a high infiltration rate, especially if water is to be moved over long distances. Flood irrigation is commonly used in fruit orchards. Furrow irrigation is a version of flood irrigation in which the surface flow is limited to channels between ridges. Vegetables may be irrigated in this way (Figure \ref{fig:surface-irrigation}).
 
-```{r surface-irrigation, out.width="50%", fig.cap="Surface irrigation system", fig.pos = "!H", out.extra = ""}
+```{r surface-irrigation, out.width="50%", fig.cap="Surface irrigation system", fig.pos ="H", out.extra =""}
 knitr::include_graphics("./images/irrigation/Surface_irrigation.jpg")
 ```
 
