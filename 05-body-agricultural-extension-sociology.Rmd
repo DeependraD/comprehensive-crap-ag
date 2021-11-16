@@ -13,8 +13,81 @@ It is a two way bridge carrying information from research work to the rural peop
 
 Agriculture Extension Section was established in the Department of Agriculture (DoA) in August 1959 (2016 BS) together with the shift of responsibility of extension service form Tribhuvan Village Development Program (TVDP) to the DoA. The Department of Agricultural Extension was then established in 1967 (2023 BS).
 
+- Father of university extension: James Stewart
+- Father of extension work: Dr. Seaman A. Knapp
 - The present agricultural extension approach adopted by the government of Nepal is: **Farmers Group Approach**.
 - Agriculture Extension Strategy, 2006 has approved pluralistic approach in agriculture extension.
+
+### Philosophy of extension
+
+- Teaching people what they want, thus the way to satisfy their wants
+- System where people are motivated through a proper approach to help themselves by applying science in their daily lives in farming, home-making and community living
+- Education for all village people
+- Helping people to help themselves
+- Teaching through, "Learning by doing and seeding is believing"
+- A two way channel
+- The living relationship between village workers and village people
+- Development of individuals in their day to day living
+- A continuous education process in which both learner and teacher contribute and receive education at levels
+- A type of adult education enterprise with emphasis on technological changes
+- Extension education is an independent discipline because,
+  i. It has systematic body of knowledge (Philosophies, principles, contents and methods)
+  ii. It has grown as academic discipline
+  iii. Several research and ideas based on those are generated in extension education
+  iv. It has practical utility
+- Types of education, in general:
+  1. Formal: Chronologically graded, structured. Leads to degrees and diplomas.
+  2. Informal: Life long process, positive/negative education. Derived from exposure to environment.
+  3. Non-formal: Teaching outside of formal system for a group of people with particular interest and needs. May be structured.
+- Phases of extension education:
+  - Analysis of situation/problem
+  - Objectives and proposed solution
+  - Plan of work
+  - Evaluation
+  - Reconsideration
+
+```{r difference-extension-ed-community-dev}
+tribble(
+  ~"Extension education", ~"Community development",
+  "Extension education is a means", "Community development is an end/objective",
+  "It is an activating force", "It is the output",
+  "Emphasizes on the individual", "Empahsizes on cooperation",
+  "Individual and familiy as unit for decision making for change", "Community and joint approach to decision making for change by groups and group representatives"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Difference between extension education and community development") %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("12em", "12em"))
+```
+
+```{r difference-rural-sociology-extension-ed}
+tribble(
+  ~"Rural sociology", ~"Extension",
+  "Scientific study of 'the laws of the structure and development of rural society'", "Informal education for the rural people with a view to develop rural society on desirable lines",
+  "It studies the attituds and behavior of rural people", "It seeks to modify or change, for better, the attitude and behavior people",
+  "Studies needs and interest of rural people", "Helps rural folks to discover their needs and problems and seek educational programs based on those needs",
+  "It analyzes rural social relationship of organization and leadership in rural areas, the social process like cooperation, association, competition, etc. among village people", "It fosters and utilizes village organizations, social processes and leadership to achieve development objective",
+  "It studies social situation and assemble facts of rural society", "It makes use of such social data as a basis for building of extension programs for rural areas",
+  "It investigates the social, cultural, political and religious problems of rural society", "It also studies these problems with reference to their impact on extension work in village"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Difference between rural sociology and extension") %>% 
+  kableExtra::kable_styling(options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("16em", "16em"))
+```
+
+
+### Scope of agricultural extension
+
+Kelsey and Hearne described the area of agricultural extension work.
+
+1. Increasing efficiency in agricultural production
+2. Increasing efficiency in marketing, distribution and utilization
+3. Increasing efficiency in conservation, development and use of natural resources
+4. Proper management on the farm and in the home
+5. Better family living
+6. Youth development
+7. Leadership development
+8. Community development
+9. Improving public affairs for all round development
 
 ### Brief history of extension in Nepal
 
@@ -63,7 +136,7 @@ tribble(
   knitr::kable(booktabs = TRUE, caption = "History of agriculture extension in Nepal", longtable = TRUE) %>% 
   kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::collapse_rows(columns = 1) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("3em", "20em"))
+  kableExtra::column_spec(column = 1:2, width = c("3em", "30em"))
 ```
 
 
@@ -75,7 +148,7 @@ tribble(
 - Protecting culture and tradition
 - Guiding changes in knowledge and skills of individuals
 
-### Characteristics
+### Characteristics of agricultural extension
 
 - Informal
 - Continuous and non-institutional
@@ -142,13 +215,26 @@ tribble(
 - Trialability
 - Observability
 
-## Extension program planning, implementation and evaluation
+## Extension program planning, implementation, monitoring and evaluation
+
+- Program: Derived from latin word "pro" and "graphein". "Pro" means before and "graphien" means to write. Thus a program is a prospectus, list of events, a plan of procedures, etc.
+- Planning: Derived from the latin word "planta" meaning sole of the foot.
+- Project: Outline of procedures and refers only to some phase of extension work.
 
 ### Program planning
 
+- The process by which people, usually by means of a committee(s), extension workers and other resource persons determine a program.
+- Answers the questions of six W's -- What, Why, How, When, Where and Whom.
 - Not only covers identification and resolution of problems but also setting priority based objectives and mobilization of resources and tools to successfully achieve the objectives.
-- Also includes periodic evaluation nad monitoring to assess program outcome and its improvement.
+- Also includes periodic evaluation and monitoring to assess program outcome and its improvement.
 - Shows appropriate direction for program implementation
+
+**Steps in program planning**
+
+1. Collect facts
+2. Analyze situation
+3. Identify needs and problems
+4. Decide on objectives
 
 ### Program implementation
 
@@ -159,29 +245,209 @@ tribble(
 - Set working plan and implement
 - Evaluate the program
 
+### Program monitoring
+
+- Continuous watching of the activities of a program with the intent to make operational decisions and corrective recourse, if necessary.
+- When to do monitoring ?
+  - Just after launching the program
+  - In regular intervals or without regularly intervals
+  - During the program running period
+- Indicators for monitoring of, for example, T and V agricultural extension program
+  - Number of contract farmers reached by the extension workers
+  - Number of visits made by extension workers, and so on.
+  
 ### Program evaluation
 
-Evaluation: A continual and systematic process of assessing the value or potential value of extension program to guide decision-making for the program's future.
+- It means to appraise, to estimate, to measure, to judge and to determine value or worth of something (both tangible and intangible).
+- Evaluation is a continuous and systematic process of assessing the value or potential value of extension program to guide decision-making for the program's future.
+- When to do an evaluation(types) ?
+  1. Formative evaluation: Conducted before and during implementation; provides early feedback
+  2. Summative evaluation: Conducted after the completion of program to assess the accomplishments and whether intended objectives are or are not achieved.
+  3. On-going evaluation: Action oriented analysis of project effects and impacts.
+  4. Ex-post evaluation: Review the experience and impact of a project as a basis of future policy formation and project design.
 
 **Ten step evaluation scheme**
 
-Step 1. Identify and describe the proposed or existing program
-Step 2. Identify the phase the program is in and the type of evaluation study needed
-Step 3. Assess the feasibility of implementing an evaluation
-Step 4. Identify and consult key stakeholders
-Step 5. Identify approaches to data collection
-Step 6. Select data collection techniques
-Step 7. Identify population and select sample
-Step 8. Collect, analyze and interpret data
-Step 9. Communicate findings
-Step 10. Apply and use findings
+- Step 1. Identify and describe the proposed or existing program
+- Step 2. Identify the phase the program is in and the type of evaluation study needed
+- Step 3. Assess the feasibility of implementing an evaluation
+- Step 4. Identify and consult key stakeholders
+- Step 5. Identify approaches to data collection
+- Step 6. Select data collection techniques
+- Step 7. Identify population and select sample
+- Step 8. Collect, analyze and interpret data
+- Step 9. Communicate findings
+- Step 10. Apply and use findings
 
 - CIPP approach to program evaluation
   - Context evaluation
   - Input evaluation
   - Progress evaluation
   - Product evaluation
-  
+- Other models of evaluation
+  - Controlled field experimental model; Useful for evaluation of innovation
+  - Goal free evaluation model
+  - Adversary model
+  - Transactional evaluation; Involves not only protagonists and designers but also representative sample of people likely to be affected adversely by the consequences of change.
+
+## Tools in extension program planning and evaluation
+
+### Focus group^[\url{https://europa.eu/capacity4dev/file/29797/download?token=_JiLSvii}]
+
+Focus group is a small group, typically 8 to 12 people who are relatively homogeneous, which is selected to discuss a specific topic in a non-threatening atmosphere. The focus group is moderated and recorded by a skilled interviewer.
+
+- A focus group measures community needs and issues; citizens' attitudes, perceptions and opinions on specific topics; and impacts of a particular program on individuals and communities
+- Advantages of a focus group:
+  - easy to setup.
+  - fast and relatively inexpensive.
+  - can reduce the distance between project personnel and intended beneficiaries.
+  - stimulates dialogue.
+  - can generate ideas for evaluation questions to be included in other survey methods.
+- Disadvantages of a focus group
+  - easily misused
+  - requires special moderator skills
+  - data interpretation is tedious
+  - avoiding bias can be difficult
+  - capturing major issues that emerge can be difficult
+  - results may not be generalizable to the target population
+
+**Steps to focus group interview**
+
+1. Consider your purpose for conducting a focus group interview. Identify the users of the information generated by the focus group. Develop a tentative plan including time required and resources needed.
+2. Identify the questions to be asked in the interview. Establish the context for each question. Arrange the questions in a logical sequence.
+3. Arrange a meeting place that is neutral and non-threatening, convenient and easy to find. Select means to record discussion. (tape recorder, note taker, etc.)
+4. Identify and contact potential participants by sending a personalized invitation. Explain the purpose of the meeting to them and how their participation will contribute. Reconfirm their availability to participate.
+5. Identify a trained moderator and an assistant to conduct the focus group interview. The moderator creates a warm and friendly atmosphere, directs and keeps the flow of the conversation flowing and takes notes.
+6. Arrange for a meeting room. Check the seating and table arrangements.
+7. Conduct focus group interview. The moderator explains the purpose, ensures anonymity of respondents, take-records meeting.
+8. Immediately following the interview the moderator and assistant discuss the experience and their perceptions. They review the tape together before the next focus group is conducted.
+9. Analyze results of taped discussion and summarize what is said. Interpret meaning, make recommendation, summarize interview.
+10. Prepare a short report and share findings with stakeholders.
+
+### PRA and RRA
+
+- Rapid Rural Appraisal (RRA) can be described as "a semi-structured activity carried out in the field by a multidisciplinary team and designed to acquire quickly new information on, and new hypotheses about, rural life"
+- An RRA study aims at generating information on rural life and conditions that is relevant, timely, accurate and usable in a cost-effective way.
+- Participatory Rural Appraisal (PRA) is a methodology for interacting with villagers or a community, understanding them and learning from them. It involves a process of communicating with them using a set of menu of methods that seek community participation.
+- Besides enabling outsiders to obtain information about the communities, PRA is intended to enable the community members to conduct and share their own investigations and analysis.
+- The role of the outsider is that of a catalyst, a facilitator of processes within a community which is prepared to alter their situation.
+
+```{r rra-pra-difference}
+tribble(
+  ~"RRA", ~"PRA",
+  "Responding to needs of development workers and agencies", "Responding to needs of communities and target groups",
+  "More emphasis on efficient use of time and achiement of objectives", "More emphasis on flexibility to adapt to time frame of community",
+  "Communication and learning tools used to help outsiders analyse conditions and understand local people", "Communication and learning tools used to help local people analyze their own conditions and communicate with outsiders",
+  "Focus on RRA decided by outsiders", "Focus on PRA decided by communities",
+  "End product mainly used by development agencies and outsiders", "End product mainly used by community", 
+  "Enables development agencies and institutions to be more participatory", "Enables (empowers) communities to make demands on development agencies and institutions", 
+  "Can be used purely for research purposes without necessarily linking to subsequent action or intervention", "Closely linked to action or intervention and requiring immediate availability of support for decisions and conclusions reached by communities as a result of the PRA"
+) %>% 
+  knitr::kable(booktabs = TRUE, caption = "Difference between RRA and PRA") %>% 
+  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
+  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
+```
+
+**Advantages of RRA**
+
+- Low-cost
+- Requies little time
+- Encourages local participation
+- Decreases outsider bias
+- Encourage participation of frequently overlooked groups
+- Offers flexibility in method selection.
+
+**Disadvantages**
+
+- Seasonal bias
+- Accesibility bias
+- Elite bias
+- Hypothesis confirming -- selective attentiveness
+- Concreteness bias -- confusing specificity with generality
+- Consistency bias -- premature formation of coherence in data
+- May not be generalizable
+
+**RRA methods**
+
+- Existing information
+- Individual interviews
+  - Key informants
+  - Oral histories
+- Group interviews
+  - Focus groups
+- Visualization techqniues
+  - Acitivity mapping
+  - Time series maps (e.g., crop calendar)
+  - Resource mapping
+  - Social organizational mapping
+- Ranking games
+  - Wealth ranking
+  - Preference ranking
+- Matrices
+
+**Steps to RRA**
+
+Step 1. Identify goals of RRA and questions to ask.
+Step 2. Identify resources available for RRA - time, skills, staff, clientele, formal organizations, informal groups, firms, transportation, telephone/mail, media.
+Step 3. Review existing documentation.
+Step 4. Identify data needs, type of analysis needed.
+Step 5. Identify possible sources of information.
+Step 6. Identify, adapt and/or create data collection methods.
+Step 7. Field test methods.Step 8.Adjust questions, sources of information and approaches.
+Step 9. Plan when and where you'll visit.
+Step 10. Begin data collection while remaining flexible to the situation. Adapt methods and adjust questions and activities as warranted.
+Step 11. Record data as collected in a systematic fashion.
+Step 12. Continually analyze data by verifying responses, deepening understanding, and making distinctions and connections between responses
+
+### Case study
+
+A case study is an in-depth analysis of a particular case -- a program, a group of participants, a single individual, or a specific site or location. Case studies can be explanatory, descriptive or exploratory. An explanatory case study can measure causal relationships; a descriptive case study can be used to describe the context in which a program takes place and the program itself, and an exploratory case study can help identify performance measures or post hypothesis for further evaluation. Case studies rely on multiple sources of information and methods to provide as complete a picture as possible of the particular case.
+
+**Advantages of a case study:**
+- It is good for addressing how and why questions.
+- It is gives concreteness to problems and solutions.
+- It is can be used to study evolutionary or decision-making processes.
+- It is provides in-depth information on a single setting, group or organization.
+- It is can be tailored to specific situations.
+- It is can provide background information as a guide for further study.
+- It is contributes insight into relationships and personal feelings.
+- It is draws out underlying assumptions and general knowledge.
+- It is can be used as a supplement to other methods.
+
+**Disadvantages of a case study:**
+- It is time consuming and requires a large amount of data.
+- It is may not be generalizable to a larger population
+- It is may provide data on only one or two aspects of a problem.
+- It is requires good observational, recording and reporting skills.
+- Information may be subjective because of investigator bias.
+
+Steps to planning and conducting a Case Study
+
+- Step 1. Review what is expected from the case study.
+- Step 2. Define preliminary questions and hypotheses. Hypotheses suggest relationships between variables: e.g., Farmers participate in a program because they derive some benefit from participation.
+- Step 3. Identify and define the boundaries of the case.
+- Step 4. Assess the ability of the evaluator to carry out a case study: the ability to ask questions, to assimilate large amounts of new information without bias, adaptability and flexibility.
+- Step 5. Anticipate key problems, events, attributes and persons that may be encountered.
+- Step 6. Form initial plan, including role of on-site observer.
+- Step 7. Arrange for access and negotiate plan of action.
+- Step 8. Discuss arrangements for maintaining confidentiality.
+- Step 9. Make preliminary observations of activities.
+- Step 10. Identify informants and sources of information.
+- Step 11. Develop record keeping system, files, tapes develop; coding system; arrange for protected storage of data.
+- Step 12. Rework priorities based on emerging attributes, problems, events, audiences, etc.
+- Step 13. Reconsider issues or other theoretical basis to guide data collection.
+- Step 14. Make observations, interview, gather logs, use surveys, etc.
+- Step 15. Select vignettes, special testimonies, illustrations.
+- Step 16. Classify raw data; begin interpretation of data.
+- Step 17. Redefine issues and case boundaries, renegotiate arrangements with hosts, if needed.
+- Step 18. Gather additional data, using triangulation to validate key observations, review raw data for various possible interpretations.
+- Step 19. Search for patterns in data.
+- Step 20. Seek linkages between program arrangements, activities and outcomes.
+- Step 21. Draw tentative conclusions, organize according to issues, and organize final report.
+- Step 22. Review data, gather new data -- deliberately seek disconfirming evidence.
+- Step 23. Describe setting within which case study took place.
+- Step 24. Draft report and reproduce material for audience. Consider the report as if it were a story; Look for the ways the story is incomplete and fill  in missing information.
+
 ## Group, structure and group-orientated approaches
 
 - At least 2 people comprise a group
@@ -263,7 +529,24 @@ tribble(
 - Improved utilization of external resources
 - Physical distance/proximity
 
+## Leadership
 
+It is the personal quality of individual to direct the activities of followers towards the attainment of goal. A local leader is a person from the community selected to guide, teach and advice the local people.
+
+### Types of leader
+
+1. Traditional leader
+2. Political leader
+3. Autocratic/authoritarian leader
+4. Democratic leader
+5. _Laissez-faire_ leader
+6. Institutional leader
+7. Bureaucratic leader
+8. Diplomatic leader
+9. Situational leader
+10. Action leader
+11. Professional leader
+12. Lay leader
 
 ## Agricultural extension approaches
 
@@ -279,7 +562,7 @@ This approach was implemented with assistance of World Bank in twenty-three dist
 
 It has its roots from the concept of Green Revolution technology development in that production and productivity can be increased when complete packages of production practices are integrated and concentrateed in a particular commodity in contiguous agricultural area called the 'block'. In 1982, the approach was tested in the two Terai districts of Chitwan and Parsa under a USAID supported Integrated Cereals Project (ICP). Later it was expanded to the entire Terai and to some hill districts with government funding. Originally, the block consisted of 1000 hectares of contiguous plots but was later changed to 100 hectares sub-blocks when the pre-requisites were not available for larger 'blocks'. In the hill regions, the sub-blocks were often of 20 hectares per block. The success of BPP rests on the integrated use of seeds, fertilizer, irrigation and management practices. These inputs were to impact on raising productivity through large scale demonstration effect to the farmers, and to support self-reliance in the food security needs of the country.
 
-Agronomists (not the regular extension workers) from research were deputed to the blocks supported by JTs/JTAs, thus there was a higher ratio of extension workers to farmers compared to normal extension support found elsewhere, which, although positive, proved to be unsustainable for large scale replication throughout the country and was thus finally discontinued. Originally, the 1 000 ha blocks was to be supervised by one agronomist, 2 JTs and 10 agriculture assistants but this was later relaxed in line with manpower availability. The BPPs covered 1 10 000 ha consisting of about 78,000 farm households in 28 districts.
+Agronomists (not the regular extension workers) from research were deputed to the blocks supported by JTs/JTAs, thus there was a higher ratio of extension workers to farmers compared to normal extension support found elsewhere, which, although positive, proved to be unsustainable for large scale replication throughout the country and was thus finally discontinued. Originally, the 1 000 ha blocks was to be supervised by one agronomist, 2 JTs and 10 agriculture assistants but this was later relaxed in line with manpower availability. The BPPs covered 110,000 ha consisting of about 78,000 farm households in 28 districts.
 
 Problems associated with the Block Production Program:
 
@@ -342,7 +625,6 @@ Group method of extension was initiated from 2044/45 BS from Chitwan. Group Form
 ### Farmers field school approach
 
 Farmers field school was started in Nepal from 2056 BS. A farmer's field school is a time bound activity (generally one agricultural production cycle or a year), involving a group (commonly 20-30) of farmers. FFS usually runs its course with intensive field visits, involving self-exploratory methodology of teaching-learning with practical problems of certain crop or animal. It is facilitated by extension staff -- increasingly -- by farmer facilitators (FFs). 
-
 The FFS approach is an innovative, participatory and interactive learning approach that emphasizes problem solving and discovery based learning. FFS aims to build farmers' capacity to analyze their production system, identify problems, test possible solutions, and eventually encourage the particpants to adopt the practices most suitable for their farming systems. This approach is becoming popular because of its democratic and participatory process.
 
 The FFS emphasizes group observation, discussion, analysis, presentation, and collective decision making and actions. The basic component of FFS is setting up of a Participatory Comparative Experiment (PCE), commonly referred to as Participatory Technology Development (PTD), whereby the farmers put the FFS concept into practice. A PCE can be developed using either subjects of agriculture, livestock, forestry, agroforestry, livelihood and other.
@@ -372,7 +654,7 @@ _Notes_
 
 #### Stages of FFS program
 
-1. Planning/primary stage
+**1. Planning/primary stage**
 
 - Identification of location
 - Selection of location
@@ -383,7 +665,7 @@ _Notes_
 - Presenting plan for conducting field school
 - Pre-test to understand status of participants before field school
 
-2. Implementation stage
+**2. Implementation stage**
 
 - Trialing/observation study
 - Agro-ecology analysis
@@ -392,7 +674,7 @@ _Notes_
 - Post-test
 - Farmer's day
 
-3. After schooling stage
+**3. After schooling stage**
 
 - Weekly field based problem identification and solution discussion
 - Through season-long monitoring, farmers should be able to identify and analyse crop specific problems.
@@ -444,62 +726,6 @@ tribble(
   kableExtra::kable_styling(font_size = 8) %>% 
   kableExtra::column_spec(column = 1:3, width = c("2em", "4em", "22em"))
 ```
-
-## Tools in program evaluation
-
-**Focus group** (https://europa.eu/capacity4dev/file/29797/download?token=_JiLSvii)
-
-focus groupis a small group, typically 8 to12 people who are relatively homogeneous, which is selected to discuss a specific topic in a non-threatening atmosphere. The focus group is moderated and recorded by a skilled interviewer.  A focus group measures community needs and issues; citizens’ attitudes, perceptions and opinions on specific topics; and impacts of a particular program on individuals and communities.Advantages of a focus group:•It is easy to setup.•It is fast and relatively inexpensive.•It is can reduce the distance between project personnel and intended beneficiaries.•It stimulates dialogue.•It can generate ideas for evaluation questions to be included in other survey methods.Disadvantages of a focus group
-
-Steps to focus group interview
-
-Beginning focus group discussion
-
-**RRA**
-
-**Semi structured interviews**
-
-**Cost benefit analysis**
-
-*Continue from note copy on*
-
-- Rural sociology
-- Phases of extension education
-- Difference between extension and community development
-- Leadership
-- Social mobilization
-- and more...
-
-## Miscellaneous
-
-- Coverage of agriculture extension in Nepal: 20%
-- JT/JTA to farmer family ratio: 1:1333
-- In group approach extension program, 60% of budget for agriculture development in district are allocated for pocket areas and remaining 40% for other general program.
-- Agriculture extension program was initiated with the inception of Tribhuvan Graham Bikash from 2010 BS.
-- 4H club was initiated in Nepal: 2011 BS (1953/54).
-- Minikit (Adaptive) is group contact type communication. It is organized by commodity research program in collaboration with DADO and the farmers in farmers' condition. It is used to test the performance of new practices (varieties) that is found to be promising on a research station.
-- For minikit, cereals need 100-125 msq while vegetables require 25-50 msq area.
-- For result demonstration, 0.05 ha (1 ropani) is required in hills and 2 kattha in Terai.
-- Most effective teaching method in extension -- result demonstration.
-- 4 stages of group formation in extension:
-  - Forming
-  - Storming
-  - Norming
-  - Performing
-
-- Principles to run a meeting are:
-  1. Agenda
-  2. Discussion
-  3. Decision
-  4. Minuting
-
-- Characteristics of a group are:
-  1. Plurality
-  2. Physical togetherness
-  3. Common goal
-
-- 10% of the population will be taken for sampling survey in extension.
-- 4-H club started in USA in 1914.
 
 ## Communication
 
@@ -580,42 +806,135 @@ i. Pre-determined (planning by top level or by the government)
 ii. Joint-determined (planning with consultation of the people of grass root level)
 iii. Self-determined (planning by the leaders forming committee without involvement of grass root people and governmental officials)
 
-### PRA and RRA
+## Rural sociology
 
-- Rapid Rural Appraisal (RRA) can be described as "a semi-structured activity carried out in the field by a multidisciplinary team and designed to acquire quickly new information on, and new hypotheses about, rural life"
-- An RRA study aims at generating information on rural life and conditions that is relevant, timely, accurate and usable in a cost-effective way.
-- Participatory Rural Appraisal (PRA) is a methodology for interacting with villagers or a community, understanding them and learning from them. It involves a process of communicating with them using a set of menu of methods that seek community participation.
-- Besides enabling outsiders to obtain information about the communities, PRA is intended to enable the community members to conduct and share their own investigations and analysis.
-- The role of the outsider is that of a catalyst, a facilitator of processes within a community which is prepared to alter their situation.
+- The term "sociology" was coined by Auguste Comte in 1839.
+- Derived from the latin word, "Societus" meaning the society and the greek word "logos" meaning study.
+- Definition
+  - Sociology is the science of society or of social phenomenon (LE Warst).
+  - Sociology it the science which attempts the interpretive understanding or social action (Max Weber).
+  - Sociology is about social relationship, the network of relationship we call society (Maciver and Page).
+  - Sociology in its broadest sense may be said to be the study of interactions arising from the association of living beings (Gillin and Gillin).
+  - Sociology is the study of human interactions and inter-relation, their conditions and consequences (M. Ginsberg).
 
-```{r rra-pra-difference}
+### Nature of sociology
+
+- Science versus not science
+
+#### Not a science
+
+1. Lack experimentation
+- Sport has remarked "If you cannot experiment, if you cannot measure, if you cannot establish broad unifying hypothesis and if you cannot be confident in your social engineering, you cannot be said to be engaged in science."
+2. Lack of objectivity
+3. Lack of activity
+
+#### Is a science
+
+1. Though sociology cannot experiment with men directly in a laboratory, its social behavior is amenable to scientific investigation as any other natural phenomenon.
+2. Two other basic methods of scientific investigation -- Observation and comparison -- are already available to the sociologist and these can be used all the time.
+3. All the physical science so not employ laboratory experimentation. For eg., astronomy cannot experiment with materials.
+4. Sociology does frame laws and attempts to predict.
+
+### Scope of sociology
+
+There are 2 school of thoughts regarding the scope of sociology.
+
+1. Specialistic or formalistic school
+
+- Proponents of this theory are, George Simmel, Smalls, Max Weber, Von Weise.
+- Critisism of formalistic school
+  - It has narrowed the scope of sociology
+  - The conception of pure sociology is impractical
+  - Sociology alone does not study social relationships
+
+2. Synthetic school
+
+- Proponets: Durkheim, Ginsberg, Sorokin
+
+- In a conference on sociology, Alex Inkeles postulated following scopes of sociology,
+  1. Social analysis
+  2. Primary concepts of social life
+  3. Basic social institutions
+  4. Social processes
+
+### Rural sociology
+
+- Lowry Nelson -- The subject matter of rural sociology is the description and analysis of progress of various kind as they exist in rural environment.
+- Bertrand -- Rural sociology is the study of human relationship in rural environment.
+- In 1908, the president of America at that time formed a rural life commission under the presidency of Dean Baily, this report has been tauted the Manifesto of Rural Sociology.
+
+**Scope**
+
+1. Rural social structure
+2. Rural social organization
+3. Rural social institutions
+4. Rural political institutions
+5. Rural social problems
+6. Rural social processes
+7. Rural population
+8. Rural social change
+9. Rural reconstruction
+10. Rural communication
+
+**Nature**
+
+In general, every scientific process involves,
+
+- Selection of problems
+- Decision of objective
+- Formulation of hypothesis
+- Determination of scope of study
+- Selection of study tools
+- Observation
+- Classification of data
+- Generalization
+
+```{r science-vs-not-science-rural-sociology}
 tribble(
-  ~"RRA", ~"PRA",
-  "Responding to needs of development workers and agencies", "Responding to needs of communities and target groups",
-  "More emphasis on efficient use of time and achiement of objectives", "More emphasis on flexibility to adapt to time frame of community",
-  "Communication and learning tools used to help outsiders analyse conditions and understand local people", "Communication and learning tools used to help local people analyze their own conditions and communicate with outsiders",
-  "Focus on RRA decided by outsiders", "Focus on PRA decided by communities",
-  "End product mainly used by development agencies and outsiders", "End product mainly used by community", 
-  "Enables development agencies and institutions to be more participatory", "Enables (empowers) communities to make demands on development agencies and institutions", 
-  "Can be used purely for research purposes without necessarily linking to subsequent action or intervention", "Closely linked to action or intervention and requiring immediate availability of support for decisions and conclusions reached by communities as a result of the PRA"
+  ~"Is science", ~"Is not science",
+  "Use of scientific method", "Lack of impartiality",
+  "Factual", "Lack of laboratory exercise",
+  "Search of cause and reasons", "Lack of measurement unit",
+  "Universal rule", "Unable to make predictions",
+  "Predictability", NA
 ) %>% 
-  knitr::kable(booktabs = TRUE, caption = "Difference between RRA and PRA") %>% 
-  kableExtra::kable_styling(font_size = 8, latex_options = "striped") %>% 
-  kableExtra::column_spec(column = 1:2, width = c("18em", "18em"))
+  knitr::kable(booktabs = TRUE, caption = "Assertions on rural sociology discipline as a science versus non-science subject") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("12em", "12em"))
 ```
 
-- The first Nepal Young Farmers Conference was held in June 2016.
-- Kishan Call Center was started in Feb 26, 2016.
-- Poster size commonly used in extension program is 1.5 x 2 square feet and can be seen from 25-30 feet away.
-- Organization of farmer's day requires participation of 10-12 farmers.
-- In a farmer's visit, 30-40 farmers are engaged.
-- A group discussion is most appropriate when held between 20-25 people.
-- A leader farmer training is conducted for 5 days.
-- In a method demonstration, appropriate size of farmers' group is 20.
-- For result demonstration, participation of 20-25 farmers is regarded appropriate.
-- Farmers' field school was started in 1989 from Indonesia and in Nepal, FFS started in 2056 BS.
+### Common terminologies used in Sociology literature
 
-## Public, private, NGOs, CBOs, agricultural cooperatives and farmer groups involved in research and extension education.
+1. Culture: Is an accumulated store of symbols/ideas and material products associated with a social system whether it is an entire society or a family.
+2. Custom: Is a regular patterned way of appearing or behaving that is considered as characteristic of life in a social system.
+3. Norms: A cultural rule that associates people's behavior or appearance with reward or punishment.
+4. Institution: An abstration referring to the aspects of a culture which satisfy some fundamental function of a society.
+5. Household: Individuals who share a common kitchen or the same cooking pot and live under the same roof.
+6. Family: Small group consisting of father and mother with or without children. The types of family are
+  - Authority based: Patriarchial, matriarchial, equalitarian, matricentric
+  - Descent based: Patrilineal, matrilineal, bilateral
+  - Residence based: Patrilocal, matrilocal, bilocal, neolocal, avunculocal
+  - Internal organization based: Nuclear, extended
+  
+### Basic social processes
+
+1. Cooperation: Working together toward a common objective or goal
+2. Competition: A form of social interaction in which two or more individuals or groups oppose each other to achieve a goal which only one can attain.
+3. Conflict: The struggle in which competing groups, in order to reach a goal, try to eliminate an opponent.
+4. Accommodation: A process of developing temporary working agreement between conflicting individuals or groups. Forms of accommodation are:
+  - Compromise
+  - Conversion
+  - Arbitration
+  - Assimilation
+  - Amalgamation
+  - Acculturation
+  - Integration
+  - Consensus
+  - Tolerance
+  - Truce
+  - Displacement
+  
+## Partnership and pluralistic approach to agricultural extension
 
 **Public-private partnership approach**
 
@@ -634,7 +953,7 @@ Nepal has pluralistic extension services. In addition to public sector organizat
 
 ### Actors in the pluralistic agricultural extension system
 
-1. Public research-cum-extension organizations
+1. Public research-cum-extension organizations (Agricultural organizations of government, refer to Section \ref{government-organizations-in-agriculture})
 2. Donor-supported rural development programs
 3. International and private research centers
 4. Farmers' association
@@ -654,30 +973,89 @@ For virtually all of the private companies that supply agro-chemical inputs, dir
 
 Bat actors are intermediaries between agricultural extension service providers (interventionists) and the farmers who are the target groups or the intended beneficiaries of interventionist programs (local actors). Bat actors are normally used as vehicle in interventionist programs that involve agricultural extension, rural reforestation and natural resource conservation.
 
-## Government organizations in agriculture
+## Social mobilization and community development
 
-- Department of Agriculture is headed by the Director General (DG). There are 3 deputy DGs (DDGs).
-  - DDG, Planning and Human Resource
-  - DDG, Monitoring, Evaluation and Management
-  - DDG, Technology Transfer and Coordination
-- Under DoA there are:
-  - Program directorates: 12
-  - National programs: 5
-  - Regional directorates of Agriculture: 5
-  - Regional agriculture training center: 5
-  - Regional seed laboratory: 5
-  - Regional soil testing laboratory: 5
-  - Soil testing laboratory: 1
-  - Regional crop protection laboratory: 5
-  - Horticulture center: 12
-  - Vegetable development farm/center: 9
-  - Fishery development and training center: 11
-  - Central fisher laboratory: 1
-  - Regional plant quarantine office: 5
-  - District agriculture development office: 75
-  - Agriculture service center: 378
+Social mobilization refers to the organizing of people living in the same community with a specific purpose which is pre-determined.
 
-## Agricultural credit
+In Nepal, history of community development based on social mobilization can be divided into 4 stages:
+
+- Period before 1955
+- Period between 1955-74
+- Period between 1975-93
+- Social mobilization post 1993
+
+**Development**
+
+- In a layman perspective, development means being financially well-off.
+- Economists define development as the sustained increase in per capita income commonly known as GNP.
+- Sociologists define development as the transformation of socio-cultural structure.
+- Another sociological definition relates to acculaturation, by which less developed society adopts the characteristics of another developed one without replacing the old but with some changes in the old culture.
+- Equity, freedom and participation are the important criteria used by many people in measuring development. Development should meet following criterias:
+  - Need oriented
+  - Ecologically sound
+  - Endogenous
+  - Self-reliant
+  - Based on structural transformation
+
+Sustainable development: Goodland and Ledoc, 1987 defined sustainable development as a pattern of social and structural economic transformation which optimizes the economic and societal benefit available in present without jeopardizing the likely potential for similar benefits in the future.
+
+Sustainable human development: Vylder, 1996 defined sustainable human development as the development that not only generates economic growth but also distributes its benefits equitably; that regenerates the environment rather than destroying it; that empowers people rather than marginalizing them. It gives priority to the poor, enlarging their choices and opportunities and provides for their participation in decisions affecting them. It is development that is pro-poor, pro-nature, pro-world and pro-children.
+
+(for overview of development programs (both, exclusively under Agriculture Extension and as institutional development of agriculture), refer to Table \ref{tab:chronology-history-ag-extension}, Section \ref{chronology-of-agriculture-development-in-nepal} and Section \ref{agriculture-sector-in-the-past}).
+
+**Decentralization**
+
+Decentralization efforts started in 1960 has gone through many changes, of which, Local Self Governance Act, 1999 is the major improvement. The LSGA, 1999 made provisions of reservation of 1 seat for women in District Development Council and 20% women representation in local bodies at Ward level.
+
+**Modernization**
+
+Daniel Lerner, 1968 defined modernization as the "process of social change from a 'pre-modern' or traditional to modern society of a country". It includes internal factors of a country while assuming that with assistance, "traditional" economies can be brought to development to the same manner more developed countries have been. 
+
+## Miscellaneous
+
+### Bullet points
+
+- Coverage of agriculture extension in Nepal: 20%
+- JT/JTA to farmer family ratio: 1:1333
+- In group approach extension program, 60% of budget for agriculture development in district are allocated for pocket areas and remaining 40% for other general program.
+- Agriculture extension program was initiated with the inception of Tribhuvan Graham Bikash from 2010 BS.
+- 4H club was initiated in Nepal: 2011 BS (1953/54).
+- Minikit (Adaptive) is group contact type communication. It is organized by commodity research program in collaboration with DADO and the farmers in farmers' condition. It is used to test the performance of new practices (varieties) that is found to be promising on a research station.
+- For minikit, cereals need 100-125 msq while vegetables require 25-50 msq area.
+- For result demonstration, 0.05 ha (1 ropani) is required in hills and 2 kattha in Terai.
+- Most effective teaching method in extension -- result demonstration.
+- 4 stages of group formation in extension:
+  - Forming
+  - Storming
+  - Norming
+  - Performing
+
+- Principles to run a meeting are:
+  1. Agenda
+  2. Discussion
+  3. Decision
+  4. Minuting
+
+- Characteristics of a group are:
+  1. Plurality
+  2. Physical togetherness
+  3. Common goal
+
+- 10% of the population will be taken for sampling survey in extension.
+- 4-H club started in USA in 1914.
+- The first Nepal Young Farmers Conference was held in June 2016.
+- Kishan Call Center was started in Feb 26, 2016.
+- Poster size commonly used in extension program is 1.5 x 2 square feet and can be seen from 25-30 feet away.
+- Organization of farmer's day requires participation of 10-12 farmers.
+- Farmer's day is conducted only for a single day.
+- In a farmer's visit, 30-40 farmers are engaged.
+- A group discussion is most appropriate when held between 20-25 people (There is mention of 10-12 persons in BKB's Nepali Book).
+- A leader farmer training is conducted for 5 days.
+- In a method demonstration, appropriate size of farmers' group is 20.
+- For result demonstration, participation of 20-25 farmers is regarded appropriate.
+- Farmers' field school was started in 1989 from Indonesia and in Nepal, FFS started in 2056 BS.
+
+### Agricultural credit
 
 In general, there is no easy access to agricultural credit in Nepal. The existing Agricultural Development Bank, Nepal (ADB/N) has been restructured as a limited company to perform on a commercial footing and there is not designated lending agency for agriculture now. No particular amount of agricultural credit is earmarked as against in the past when ADB/N performed the function for the institutional loan for agriculture with resources support from the government. In the absence of this, targeted programs to reach specified vulnerable and disadvantaged group of peoples has been difficult. Interest rates for agriculture purposes with ADBL range from 10-12 percent (?) and rural areas are devoid of formal sources of credit as it is difficult to find branches operating in the vicinity of farmers. The branch offices in rural areas were recalled during the decade-long arm conflict by the Maoists and have not been reinstated since.
 
@@ -685,7 +1063,7 @@ To fill the credit gap, farmers raise their own groups welfare funds and mobiliz
 
 Microfinance institutions operate at both retail and wholesale levels but the coverage in rural areas is limited. The rest of the credit needs is met from informal sources on varying interest rates which often happen to be exorbitantly high.
 
-## Agricultural marketing
+### Agricultural marketing
 
 There is inherent inefficiency in the performance of the agriculture produce marketing in Nepal as wholesalers and middlemen significantly influence prices of agricultural products. There should be a level playing field for all stakeholders to participate in the market to promote competition in efficient marketing. The contribution of the cooperatives in marketing is very low as marketing cooperatives are few in number. The GON has assisted construction of collection centers, market centers and other market infrastructures in partnership with the producer groups, other stakeholders and the local government. Livestock and fisheries products markets are very few, follow the traditional unhygienic practices and the regulation of these markets has been challenging.
 

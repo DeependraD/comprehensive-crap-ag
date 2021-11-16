@@ -1057,6 +1057,29 @@ There is a significant imbalance in land distribution in Nepal. The top 7\% of t
 
 It is estimated that 31\% of the farmers are tenants (i.e. leasing lands). Most tenants are not entirely landless but are just taking in additional land to till. The purely landless farmers are estimated to occupy only about 2\% of total farm holdings in the country. Sharecropping is the most common form of tenancy. The most common form of sharecropping arrangements is the short-term rental known as _adhiya_. Under _adhiya_, the tenant provides the labor and landowners supply some percentage of inputs. In principle, the tenant and landowner receive equal shares of the production, but the tenant rarely receives a half-share, either because he or she is in debt to the landowner or the landowner has supplied all the inputs. A second tenancy system, _thekka_, requires the tenant to pay a fixed share of production to the landowner. Highly exploitative systems that survived land reforms (such as those in which the tenant takes one-third or a one-tenth share and continuation of bonded labor, despite the law rendering them illegal) are still known to exist.
 
+## Government organizations in agriculture
+
+- Department of Agriculture is headed by the Director General (DG). There are 3 deputy DGs (DDGs).
+  - DDG, Planning and Human Resource
+  - DDG, Monitoring, Evaluation and Management
+  - DDG, Technology Transfer and Coordination
+- Under DoA there are:
+  - Program directorates: 12
+  - National programs: 5
+  - Regional directorates of Agriculture: 5
+  - Regional agriculture training center: 5
+  - Regional seed laboratory: 5
+  - Regional soil testing laboratory: 5
+  - Soil testing laboratory: 1
+  - Regional crop protection laboratory: 5
+  - Horticulture center: 12
+  - Vegetable development farm/center: 9
+  - Fishery development and training center: 11
+  - Central fisher laboratory: 1
+  - Regional plant quarantine office: 5
+  - District agriculture development office: 75
+  - Agriculture service center: 378
+
 ## Miscellaneous
 
 ### National Farmers Commission
