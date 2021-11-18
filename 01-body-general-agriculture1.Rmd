@@ -3,11 +3,19 @@
 
 ## Nepal agriculture and geography
 
-**Ecological regions**
+### Proportion of total land area and arable land by agro-ecological zones
 
-- Himalayan region: 35%
-- Hilly region: 41.67%
-- Terai region: 23.11%
+```{r land-and-arable-agro-ecological-zones}
+tribble(
+  ~"Agro-ecological zone", ~"Fraction of total land area (percent)", ~"Arable land (percent)",
+  "Terai", 35, 55,
+  "Hills", 41.67, 37.5,
+  "Mountains", 23.11, 7.5
+) %>% 
+  knitr::kable(caption = "Arable land of different agro-ecological zones of Nepal", booktabs = TRUE, longtable = TRUE) %>% 
+  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:2, width = c("8em", "8em"))
+```
 
 ### Land use distribution by use category
 
@@ -27,6 +35,9 @@ tribble(
   kableExtra::column_spec(column = 1:3, width = c("8em", "6em", "6em"))
 ```
 
+### Agro-climatic and physiographic zones of Nepal
+
+Nepal's geography makes the country's climate particularly complex. Because of the extreme variations in elevation within short distances, Nepal's climate varies significantly across the country, ranging from alpine and arctic in the north to tropical in the south. The country experiences tropical, meso-thermal, micro-thermal, taiga and tundra types of climate (MoFSC, 2014). As illustrated in Table \ref{tab:climate-nepal}, the temperature and precipitation vary strongly with altitude. 
 
 ```{r cultivable-land-climaticzones}
 tribble(
@@ -42,21 +53,6 @@ tribble(
   kableExtra::column_spec(column = 1:3, width = c("8em", "6em", "6em"))
 ```
 
-```{r cultivable-land-agro-ecological-zones}
-tribble(
-  ~"Agro-ecological zone", ~"Arable land (percent)",
-  "Terai", 55,
-  "Hills", 37.5,
-  "Mountains", 7.5
-) %>% 
-  knitr::kable(caption = "Arable land of different agro-ecological zones of Nepal", booktabs = TRUE, longtable = TRUE) %>% 
-  kableExtra::kable_styling(latex_options = "striped", font_size = 8) %>% 
-  kableExtra::column_spec(column = 1:2, width = c("8em", "8em"))
-```
-
-### Agro-climatic and physiographic zones of Nepal
-
-Nepal's geography makes the country's climate particularly complex. Because of the extreme variations in elevation within short distances, Nepal's climate varies significantly across the country, ranging from alpine and arctic in the north to tropical in the south. The country experiences tropical, meso-thermal, micro-thermal, taiga and tundra types of climate (MoFSC, 2014). As illustrated in Table \ref{tab:climate-nepal}, the temperature and precipitation vary strongly with altitude. 
 
 ```{r geographical-region-nepal}
 tribble(~"region", ~"elevation", ~"climatic_zone", ~"average_annual_precipitation", ~"average_annual_temperature", 
@@ -85,34 +81,6 @@ tribble(~"SN", ~"Agro-climate", ~"Elevation",
   knitr::kable(booktabs = TRUE, caption = "Nepal\'s climatic zones (Adapted from MoE, 2010 and MoSTE, 2014)", longtable = TRUE, align = "l") %>% 
   kableExtra::kable_styling(latex_options = "striped") %>% 
   kableExtra::column_spec(column = 1:3, width = c("2em", "14em", "8em"))
-```
-
-
-### Macroeconomic indicators
-
-```{r macroeconomic-indicators}
-read_csv("./data/macro-economic_indicators.csv",
-         skip = 2, show_col_types = FALSE) %>% 
-  mutate(`Meta-indicator` = str_replace_all(`Meta-indicator`, " \\(", ", ")) %>% 
-  mutate(`Meta-indicator` = str_remove_all(`Meta-indicator`, "\\)")) %>% # latex multicolumn acts batshit when using parenthesis in the cell
-  kableExtra::kbl(booktabs = TRUE, caption = "Macroeconomic indicators of Nepal in recent years", longtable = TRUE, escape = FALSE, format = "latex") %>% 
-  kableExtra::kable_styling(font_size = 8) %>% # do not use latex_options = "striped"
-  kableExtra::column_spec(column = 1:9, width = c("2em", "8em", rep("4em", 7))) %>%
-  kableExtra::collapse_rows(columns = 1:2,
-                            row_group_label_position = "stack",
-                            headers_to_remove = 1,
-                            valign = "middle")
-
-# ## for recent data, refer to economic survey of the current year
-# https://mof.gov.np/uploads/document/file/Economic%20Survey%202019_20201125024153.pdf
-# https://www.mof.gov.np/uploads/document/file/compiled%20economic%20Survey%20english%207-25_20191111101758.pdf
-
-# ## for the year 2012 - 2017
-# https://moics.gov.np/uploads/shares/policy/Trade%20Policy%20Review%202018-Nepal.pdf
-# 
-# ## for 2019/2020
-# https://www.nrb.org.np/contents/uploads/2020/08/Current-Macroeconomic-and-Financial-Situation.-English.-Based-on-Annual-data-of-2019.20-1.pdf
-
 ```
 
 
@@ -183,6 +151,35 @@ read_csv("./data/area_production_productivity/vegetable_fruits_production_area_n
 ```
 
 \elandscape
+
+## Macroeconomic and sectoral indicators
+
+### Macroeconomic indicators -- sectoral contribution in value and its growth rate
+
+```{r macroeconomic-indicators}
+read_csv("./data/macro-economic_indicators.csv",
+         skip = 2, show_col_types = FALSE) %>% 
+  mutate(`Meta-indicator` = str_replace_all(`Meta-indicator`, " \\(", ", ")) %>% 
+  mutate(`Meta-indicator` = str_remove_all(`Meta-indicator`, "\\)")) %>% # latex multicolumn acts batshit when using parenthesis in the cell
+  kableExtra::kbl(booktabs = TRUE, caption = "Macroeconomic indicators of Nepal in recent years", longtable = TRUE, escape = FALSE, format = "latex") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% # do not use latex_options = "striped"
+  kableExtra::column_spec(column = 1:9, width = c("2em", "8em", rep("4em", 7))) %>%
+  kableExtra::collapse_rows(columns = 1:2,
+                            row_group_label_position = "stack",
+                            headers_to_remove = 1,
+                            valign = "middle")
+
+# ## for recent data, refer to economic survey of the current year
+# https://mof.gov.np/uploads/document/file/Economic%20Survey%202019_20201125024153.pdf
+# https://www.mof.gov.np/uploads/document/file/compiled%20economic%20Survey%20english%207-25_20191111101758.pdf
+
+# ## for the year 2012 - 2017
+# https://moics.gov.np/uploads/shares/policy/Trade%20Policy%20Review%202018-Nepal.pdf
+# 
+# ## for 2019/2020
+# https://www.nrb.org.np/contents/uploads/2020/08/Current-Macroeconomic-and-Financial-Situation.-English.-Based-on-Annual-data-of-2019.20-1.pdf
+
+```
 
 ### Classification of districts (LSGA, 2074)
 
@@ -375,6 +372,33 @@ read_csv("./data/indicators_of_educational_achievements_2020.csv", skip = 2,
 
 - Nepal's first comprehensive poverty assessment was published in 1991 and was based on the Multi-Purpose Household Budget Survey conducted in 1984/85 (2041 BS).
 - Nepal Living Standard Surveys (NLSS) was first conducted in 1995/96.
+
+## Planning periods of Nepal
+
+```{r periodic-plans-timeline}
+tribble(
+  ~"Plan", ~"Starting year in AD(BS)", ~"Final year in AD(BS)",
+  "1st Five year plan", "1956/57 (2013/14)", "1960/61 (2017/18)",
+  "2nd Three year plan", "1962/63 (2019/20)", "1964/65 (2021/22)",
+  "3rd Five year plan", "1965/66 (2022/23)", "1969/70 (2026/27)",
+  "4th Five year plan", "1970/71 (2027/28)", "1974/75 (2031/32)",
+  "5th Five year plan", "1975/76 (2032/33)", "1979/80 (2036/37)",
+  "6th Five year plan", "1980/81 (2037/38)", "1984/85 (2041/42)",
+  "7th Five year plan", "1985/86 (2042/43)", "1989/90 (2046/47)",
+  "8th Five year plan", "1992/93 (2049/50)", "1996/97 (2053/54)",
+  "9th Five year plan", "1997/98 (2054/55)", "2001/02 (2058/59)",
+  "10th Five year plan", "2002/03 (2059/60)", "2006/07 (2063/64)",
+  "11th Three year plan", "2007/08 (2064/65)", "2009/10 (2066/67)",
+  "12th Three year plan", "2010/11 (2067/68)", "2012/13 (2069/70)",
+  "13th Three year plan", "2013/14 (2070/71)", "2015/16 (2072/73)",
+  "14th Three year plan", "2016/17 (2073/74)", "2018/19 (2075/76)",
+  "15th Five year plan", "2019/20 (2076/77)", "2023/24 (2080/81)"
+  ) %>% 
+  knitr::kable(booktabs = TRUE, caption = "A timeline histroy of periodic plans launched in Nepal.") %>% 
+  kableExtra::kable_styling(font_size = 8) %>% 
+  kableExtra::column_spec(column = 1:3, width = c("10em", "10em", "10em"))
+```
+
 
 ## Season and climate
 
