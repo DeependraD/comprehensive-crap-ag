@@ -19,7 +19,6 @@ rmd_files:
   "06-body-crop-protection.Rmd",
   "07-body-biochemistry-biotechnology.Rmd",
   "23-body-plans-policies-strategies-ag.Rmd",
-  "34-body-general-knowledge-objective-include.Rmd",
-  "49-closing-bibliography.Rmd"
+  "34-body-general-knowledge-objective-include.Rmd"
   ]
   epub: []

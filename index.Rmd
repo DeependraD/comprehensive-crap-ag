@@ -33,3 +33,10 @@ ggplot2::theme_set(theme_bw())
 <!-- # Introduction -->
 
 <!-- This is a reference manual for self purpose only. -->
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', "dplyr", "purrr"
+), './bibliography/bib.bib')
+```

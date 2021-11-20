@@ -1,5 +1,5 @@
 
-# Agronomy
+# Agronomy and plant breeding
 
 ## Farming system
 
@@ -1122,6 +1122,18 @@ Central part of the curd is cut and removed giving it a both 3-4 cm deep and wid
 - Premature release of variety
 - Interspecific hybridization
 
+## Seed dormancy
+
+- All seeds do not germinate, even when optimal conditions are provided. A physiological or structural adaptive mechanism called dormancy imposes restrictions on the requirements for germination.
+- Dormancy is desired in the wild, where plants depend entirely on nature for survival. It prevents germination in the face of adverse weather, which will kill the vulnerable seedlings after emergence.
+- Structural dormancy is imposed via the seed coat (seed coat dormancy) (e.g., Camellia and redbud). Hard seed coats are impermeable to the much needed moisture that is critical for germination. The seed coat may be softened before planting by one of several methods, such as scarification, a method of mechanically scratching the seed coat (by, for example, tumbling seeds in a drum containing coarse material). Seeds may also be scarified by soaking them in concentrated sulfuric acid or household bleach for a period.
+  - Water impermeability: Leguminosae, malvaceae, chenopodiaceae and solanaceae
+  - Gas impermeability: Xanthium and compositae family
+  - Mechanical resistance: Amaranthus and capsella
+- Physiological dormancy (embryo dormancy) occurs when the embryo requires a special treatment to induce it to start active growth. A cold temperature application (called stratification) of about \SIrange{1}{7}{\celsius} is commonly required to break the dormancy. Woody species like holly ( _Ilex_ spp.) and magnolia ( _Magnolia grandiflora_) require this treatment. Seed to be stratified is soaked in water for about twelve to twenty-four hours prior to placement in a sterile medium container such as a polyethylene bag to hold in moisture. The medium should permit good aeration to occur. Effective media include coarse vermiculite, sphagnum moss, coarse sand, or a mixture of equal volumes of peat and perlite.
+- A number of chemicals in plants inhibit germination of seeds while they are still embedded in the pulp of the fruit (e.g., in tomato and strawberry). In some species, such as Pinus and Ranunculus, the fruits are shed before the embryo fully matures. Such physiologically immature seeds must undergo certain enzymatic and biochemical changes to attain maturity. These changes are collectively called after ripening.
+- Seeds of ancient origins have been reported to germinate after the hard seed coat was weakened. The sacred lotus (Nelumbo nucifera) is reported to have germinated after 2,000 years, and the arctic lupine (Lupinus articus) germinated in forty-eight hours after being dormant for 10,000 years.
+- Light is required by many weed species and some small seeds such as lettuce ( _Lactuca sativa_) before germination can occur. Soil tillage exposes buried seeds to light. Small seeds should be sown in loose soil and to a shallow depth to expose them to light. The light requirement to stimulate germination must be of a certain quality (wavelength). Exposure of lettuce to red light (about 660 nanometers) induces germination, but far red light (730 nanometers) inhibits it. It was discovered that if seed received red light after exposure to far red light, germination occurred. In fact, germination occurred as long as the last treatment before sowing was red light.
 
 ## Grain legume production
 
@@ -1584,8 +1596,6 @@ Most pesticides causes adverse effects if intentionally or accidentally ingested
 2. Plunger duster
 3. Hand rotary duster
 
-# Breeding
-
 ## Center of origin and estimated time of cultivation
 
 ```{r center-of-origin-cultivation}
@@ -1777,51 +1787,7 @@ B. Apomixis (Facultative/obligate; Recurrent/non-recurrent)
       - Gonial pseudogamy
       - Somatic pseudogamy
 
-## Seed dormancy
-
-- All seeds do not germinate, even when optimal conditions are provided. A physiological or structural adaptive mechanism called dormancy imposes restrictions on the requirements for germination.
-- Dormancy is desired in the wild, where plants depend entirely on nature for survival. It prevents germination in the face of adverse weather, which will kill the vulnerable seedlings after emergence.
-- Structural dormancy is imposed via the seed coat (seed coat dormancy) (e.g., Camellia and redbud). Hard seed coats are impermeable to the much needed moisture that is critical for germination. The seed coat may be softened before planting by one of several methods, such as scarification, a method of mechanically scratching the seed coat (by, for example, tumbling seeds in a drum containing coarse material). Seeds may also be scarified by soaking them in concentrated sulfuric acid or household bleach for a period.
-  - Water impermeability: Leguminosae, malvaceae, chenopodiaceae and solanaceae
-  - Gas impermeability: Xanthium and compositae family
-  - Mechanical resistance: Amaranthus and capsella
-- Physiological dormancy (embryo dormancy) occurs when the embryo requires a special treatment to induce it to start active growth. A cold temperature application (called stratification) of about \SIrange{1}{7}{\celsius} is commonly required to break the dormancy. Woody species like holly ( _Ilex_ spp.) and magnolia ( _Magnolia grandiflora_) require this treatment. Seed to be stratified is soaked in water for about twelve to twenty-four hours prior to placement in a sterile medium container such as a polyethylene bag to hold in moisture. The medium should permit good aeration to occur. Effective media include coarse vermiculite, sphagnum moss, coarse sand, or a mixture of equal volumes of peat and perlite.
-- A number of chemicals in plants inhibit germination of seeds while they are still embedded in the pulp of the fruit (e.g., in tomato and strawberry). In some species, such as Pinus and Ranunculus, the fruits are shed before the embryo fully matures. Such physiologically immature seeds must undergo certain enzymatic and biochemical changes to attain maturity. These changes are collectively called after ripening.
-- Seeds of ancient origins have been reported to germinate after the hard seed coat was weakened. The sacred lotus (Nelumbo nucifera) is reported to have germinated after 2,000 years, and the arctic lupine (Lupinus articus) germinated in forty-eight hours after being dormant for 10,000 years.
-- Light is required by many weed species and some small seeds such as lettuce ( _Lactuca sativa_) before germination can occur. Soil tillage exposes buried seeds to light. Small seeds should be sown in loose soil and to a shallow depth to expose them to light. The light requirement to stimulate germination must be of a certain quality (wavelength). Exposure of lettuce to red light (about 660 nanometers) induces germination, but far red light (730 nanometers) inhibits it. It was discovered that if seed received red light after exposure to far red light, germination occurred. In fact, germination occurred as long as the last treatment before sowing was red light.
-
-## Genetic variability in plant breeding
-
-Q. Why and how can a plant breeder increase genetic variability in crop plants ? Explain.
-
-$\longrightarrow$ Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
-
-As genetic variation is heritable and results in permanent change in phenotype (trait) of organism, it is the variability of interest of breeder, since breeder can predictably control it through selection. Moreover, genetic variation is detectable at molecular as well as gross morphological level but the variation due to environment cannot be. It is also possible for the source of variation to be channeled through carefully designed mating system.
-
-Primarily there are 3 types of sources of genetic variability:
-  1. Gene recombination
-  2. Modification of chromosome number
-  3. Mutation
-  
-Plant breeder can increase genetic variability by use of following tools:
-
-1. Hybridization: Crossing un-identical plants to transfer genes or achieve recombination (creating non-parental type through physical exchange of chromosomal segments). In hybridization, effects of segregation and indepenent assortment in crosses between individual heterozygous for given number of gene pairs is evident. If we take 2 alleles for any 'n' of genes, following indicators of variation can be deduced:
-
-  - Different number of gametes produced by $F_1$ heterozygotes: $2^n$
-  - Number of combinations of $F_1 \times F_1$ gametes (perfect population size): $4^n$
-  - Different kinds of genotypes in $F_2$ = $3^n$
-  - Different kinds of $F_2$ genetypes that are homozygous: $2^n$
-  - Different kinds of $F_2$ genotypes that are heterozyous: $3^n-2^n$
-  - Different types of phenotypes in $F_2$ (complete dominance): $2^n$
-  
-
-2. Wide crossing: Crossing of distantly related individuals for desirable gene introgression. Generally wild relatives of native agricultural crops contain such genes for biotic and abiotic stress tolerance. For example in tomato breeding, program resistance to Oidium neolycopersici (powdery mildew of tomato) monogenic resistance was found in _S peruvianum_ accession, _S habrochaites_ accession and polygenic resistance in _S neorikii_ accessions.
-
-Both of these breeding methods depend upon the number of allele variants per loci. In a gene system involving two alleles, 3 genetic variants (genotypes) are possible, while for a triallelic system 6 individuals may arise from hybridization.
-
-3. Polyploidization: It is accomplished through chromosome doubling, which can occur naturally (through modification of chromosome number as a result of hybridization or abnormalities in nuclear division process) or can be induced using spindle disrupter Colchicine. 
-
-4. Mutagenesis: Also known as ultimate source of biological variation, mutation may arise spontaneously in nature of as a result of errors in cellular process such as DNA replication (or duplication) and by chromosomal abberations (deletion, duplication, inversion and translocation). Mutations may too be induced artificially by using mutagenic agents: irradiation and chemicals. Commonly occuring mutations are those for dwarfing and nutritional quality. However, most mutations being deleterious in nature are selected against. Although, recessive mutations may remain hidden until much later, when they are expressed in homozygous combination.
+### Factors affecting pollination behavoior
 
 Q. What are the different factors that affect the amount of natural crossing or selfing ? Explain about the mechanisms that enforce self and cross pollination in field crops.
 
@@ -1856,32 +1822,34 @@ Factors that affect cross and self pollination are:
   - Light: It induces pollen inviable.
 2. Flower appearance: Shape of petal, color radiance, size of flower, olfactory cues, chemical signaling, etc.
 
+## Genetic variability in plant breeding
 
-## Gene action and methods of breeding
+Q. Why and how can a plant breeder increase genetic variability in crop plants ? Explain.
 
-- Self pollinated species: When additive gene action predominates in a self-pollinated species, breeders should consider using selection methods such as pure line selection, mass selection, progeny selection and hybridization. However, when non-additive gene action predominates, effective methods of breeding are the exploitation of heterosis in breeding hybrid cultivars.
+$\longrightarrow$ Breeding objectives are realized by combining the favorable genes of different sources (parents). That is, one cannot breed, for example, disease resistance if the gene conferring resistance of disease of interest does not occur in the base population.
 
-- Cross pollinated species: When additive gene action predominates in a cross-pollinated species, recurrent selection may be used to achieve general combining ability (GCA). Specific breeding products to pursue include synthetic varieties and composites. In the case of non-additive gene action, heterosis breeding just like in self pollinated species is recommended for breeding hybrid cultivars. Alternatively, breeders may consider recurrent selection for specific combining ability (SCA) for poulation improvement. Where both additive and non-additive gene action occur together, reciprocal recurrent selection may be used for population improvement.
+As genetic variation is heritable and results in permanent change in phenotype (trait) of organism, it is the variability of interest of breeder, since breeder can predictably control it through selection. Moreover, genetic variation is detectable at molecular as well as gross morphological level but the variation due to environment cannot be. It is also possible for the source of variation to be channeled through carefully designed mating system.
 
-### Synthetic cultivar and its development
+Primarily there are 3 types of sources of genetic variability:
+  1. Gene recombination
+  2. Modification of chromosome number
+  3. Mutation
+  
+Plant breeder can increase genetic variability by use of following tools:
 
-A synthetic cultivar is a result of open pollinated population improvement, although a synthetic cultivar cannot be propagated without changing the genetic make-up of the population.
+1. Hybridization: Crossing un-identical plants to transfer genes or achieve recombination (creating non-parental type through physical exchange of chromosomal segments). In hybridization, effects of segregation and indepenent assortment in crosses between individual heterozygous for given number of gene pairs is evident. If we take 2 alleles for any 'n' of genes, following indicators of variation can be deduced:
 
-A synthetic cultivar must be reconstructed from its parental lines or clones. In case of maize, synthetic cultivars are developed using inbred lines as a three-stage process;
-1. Develop a number of inbred lines
-2. Progeny test the inbred lines for GCA
-3. Identify the 'best' parent and intercross these to produce the synthetic cultivar
+  - Different number of gametes produced by $F_1$ heterozygotes: $2^n$
+  - Number of combinations of $F_1 \times F_1$ gametes (perfect population size): $4^n$
+  - Different kinds of genotypes in $F_2$ = $3^n$
+  - Different kinds of $F_2$ genetypes that are homozygous: $2^n$
+  - Different kinds of $F_2$ genotypes that are heterozyous: $3^n-2^n$
+  - Different types of phenotypes in $F_2$ (complete dominance): $2^n$
+  
+2. Wide crossing: Crossing of distantly related individuals for desirable gene introgression. Generally wild relatives of native agricultural crops contain such genes for biotic and abiotic stress tolerance. For example in tomato breeding, program resistance to Oidium neolycopersici (powdery mildew of tomato) monogenic resistance was found in _S peruvianum_ accession, _S habrochaites_ accession and polygenic resistance in _S neorikii_ accessions.
 
-The process is almost identical to procedure for developing hybrid cultivars, and only differs in the last stage where many more parents will be included in a synthetic population development than in development of hybrid.
+Both of these breeding methods depend upon the number of allele variants per loci. In a gene system involving two alleles, 3 genetic variants (genotypes) are possible, while for a triallelic system 6 individuals may arise from hybridization.
 
-In developing synthetics from clonal selections, following procedure is followed;
-1. Establishment of clonal nursery
-2. Selection of phenotypically best clones
-3. Randomized mating trial
-4. Evaluation of progeny to determine genotypically best clones
-5. Select parents in synthetic.
+3. Polyploidization: It is accomplished through chromosome doubling, which can occur naturally (through modification of chromosome number as a result of hybridization or abnormalities in nuclear division process) or can be induced using spindle disrupter Colchicine. 
 
-In the 4th stage, a test cross or polycross technique will be used to genetically test the best clones identified from colonal screen. The aim of this genetic test is to determine the general combining ability of each clonal line in cross-combinations with other genotypes in the selected group of clones.
-
-If a test cross (often called a 'top cross') is used, all the selected clones are hybridized to one (or more test parent). The test parent will have been chosen because it is a desirable cultivar or it may be chosen because of past experience of the individual breeder. The test parent is a heterozygous clone that produces gametes of diverse genotypes. This diversity of gametes produced from the tester will help an assessment of the average ability of each clone to produce superior progeny when combined with alleles from many different individuals.
-
+4. Mutagenesis: Also known as ultimate source of biological variation, mutation may arise spontaneously in nature of as a result of errors in cellular process such as DNA replication (or duplication) and by chromosomal abberations (deletion, duplication, inversion and translocation). Mutations may too be induced artificially by using mutagenic agents: irradiation and chemicals. Commonly occuring mutations are those for dwarfing and nutritional quality. However, most mutations being deleterious in nature are selected against. Although, recessive mutations may remain hidden until much later, when they are expressed in homozygous combination.
